@@ -1,0 +1,2025 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CIE AS Physics 9702 - Syllabus (Topics 1-11)</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+.watermark {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 2000;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: #efe9e1;
+  color: #5b534c;
+  line-height: 1.6;
+  padding: 24px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.header {
+  text-align: center;
+  margin-bottom: 32px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e2d9cc;
+}
+.header h1 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #4a433c;
+  margin-bottom: 6px;
+}
+.header p {
+  color: #a89e90;
+  font-size: 13px;
+}
+.topic-card {
+  background: #fbf8f4;
+  border-radius: 14px;
+  margin-bottom: 14px;
+  box-shadow: 0 1px 3px rgba(91,83,76,0.08);
+  overflow: hidden;
+  border: 1px solid #e6ded2;
+}
+.topic-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 20px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.15s;
+}
+.topic-header:hover {
+  background: #f4efe7;
+}
+.topic-num {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 800;
+  color: white;
+  flex-shrink: 0;
+}
+.topic-info { flex: 1; }
+.topic-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #4a433c;
+}
+.topic-count {
+  font-size: 12px;
+  color: #a89e90;
+  margin-top: 2px;
+}
+.topic-count .q-count {
+  color: #7c8fa0;
+  font-weight: 700;
+}
+.chevron {
+  font-size: 13px;
+  color: #b5aa9b;
+  transition: transform 0.2s;
+}
+.topic-card.expanded .chevron {
+  transform: rotate(180deg);
+}
+.sub-list {
+  display: none;
+  padding: 0 20px 16px 20px;
+}
+.topic-card.expanded .sub-list {
+  display: block;
+}
+.sub-card {
+  background: #f4efe7;
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 10px;
+  border-left: 3px solid #d6cbba;
+}
+.sub-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.sub-code {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+.sub-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6b6154;
+}
+.subsub-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.subsub-item {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 12px;
+  background: #fbf8f4;
+  border-radius: 8px;
+  border: 1px solid #e6ded2;
+}
+.subsub-item.clickable {
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+.subsub-item.clickable:hover {
+  border-color: #b9c8d1;
+  background: #f4efe7;
+}
+.subsub-item-hot {
+  background: #f6efe1;
+  border-color: #d9bd8c;
+}
+.subsub-item-hot.clickable:hover {
+  border-color: #c39a5f;
+  background: #f1e6d0;
+}
+.subsub-item-superhot {
+  background: #f3e6e0;
+  border: 1.5px solid #c0846b;
+  box-shadow: 0 0 0 3px #ecd7cd;
+}
+.subsub-item-superhot .subsub-desc {
+  font-weight: 700;
+  color: #8a5442;
+}
+.subsub-item-superhot.clickable:hover {
+  border-color: #a8624c;
+  background: #eeddd3;
+}
+.subsub-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.subsub-code {
+  font-size: 11px;
+  font-weight: 700;
+  color: #a89e90;
+  background: #f0eae1;
+  padding: 2px 6px;
+  border-radius: 4px;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+.subsub-desc {
+  font-size: 13px;
+  color: #6b6154;
+  line-height: 1.5;
+  flex: 1;
+}
+.subsub-badge {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 9px;
+  border-radius: 20px;
+  background: #e6ded2;
+  color: #a89e90;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+.subsub-badge.active {
+  background: #8497a8;
+  color: white;
+}
+.subsub-badge-hot {
+  background: #c39a5f !important;
+  color: white;
+}
+.subsub-badge-superhot {
+  background: #a8624c !important;
+  color: white;
+  box-shadow: 0 0 0 2px #e3c3b8;
+}
+.question-panel {
+  display: none;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px dashed #e2d9cc;
+}
+.question-panel.open {
+  display: flex;
+}
+.q-card {
+  background: #f7f3ec;
+  border-radius: 10px;
+  padding: 14px;
+  border: 1px solid #e6ded2;
+}
+.q-meta {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+.q-tag {
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 6px;
+  font-weight: 700;
+}
+.q-tag.paper { background: #dde6ea; color: #5c7a8a; }
+.q-tag.qnum { background: #dfe6d3; color: #63764c; }
+.q-tag.multi { background: #f0e4c4; color: #93743f; }
+.q-card-multi {
+  border: 1.5px solid #c9a24a;
+  box-shadow: 0 0 0 3px #f0e4c4;
+}
+.q-paper-full {
+  font-size: 12px;
+  color: #a89e90;
+  margin-bottom: 10px;
+}
+.answer-row {
+  margin-bottom: 10px;
+}
+.answer-btn {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: 1px solid #b9c8d1;
+  background: #eef3f6;
+  color: #5c7a8a;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.answer-btn:hover {
+  background: #dde6ea;
+  border-color: #8497a8;
+}
+.answer-reveal {
+  display: none;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  font-size: 13px;
+  color: #5c7a8a;
+}
+.answer-reveal.shown {
+  display: flex;
+}
+.answer-reveal .answer-letter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #7c8fa0;
+  color: white;
+  font-weight: 800;
+  font-size: 13px;
+}
+.answer-reveal .answer-na {
+  color: #a89e90;
+  font-style: italic;
+}
+.q-related {
+  font-size: 11px;
+  color: #a89e90;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.q-related-tag {
+  font-size: 11px;
+  font-weight: 700;
+  color: #7c5f80;
+  background: #e9e0eb;
+  padding: 2px 7px;
+  border-radius: 4px;
+}
+.q-pager {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding-bottom: 4px;
+  margin-bottom: 4px;
+  border-bottom: 1px dashed #e2d9cc;
+}
+.q-pager-btn {
+  width: 26px;
+  height: 26px;
+  border-radius: 8px;
+  border: 1px solid #e6ded2;
+  background: #fbf8f4;
+  color: #8497a8;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.15s, border-color 0.15s;
+}
+.q-pager-btn:hover:not(:disabled) {
+  background: #e7edf0;
+  border-color: #b9c8d1;
+}
+.q-pager-btn:disabled {
+  color: #d3cabc;
+  cursor: not-allowed;
+}
+.q-pager-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+}
+.q-pager-tab {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 10px;
+  border: 1px solid #e6ded2;
+  background: #fbf8f4;
+  color: #a89e90;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.3;
+  position: relative;
+}
+.q-pager-tab-multi::after {
+  content: '';
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #c9a24a;
+  border: 1.5px solid #fbf8f4;
+}
+.q-pager-tab-q {
+  font-size: 11px;
+  font-weight: 700;
+}
+.q-pager-tab-season {
+  font-size: 9px;
+  font-weight: 600;
+  opacity: 0.75;
+}
+.q-pager-tab:hover {
+  border-color: #b9c8d1;
+  color: #55697b;
+}
+.q-pager-tab.active {
+  background: #8497a8;
+  border-color: #8497a8;
+  color: white;
+}
+.pdf-container {
+  background: #fbf8f4;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #e6ded2;
+  overflow: hidden;
+}
+.pdf-container embed {
+  width: 100%;
+  height: 460px;
+  border-radius: 6px;
+  border: none;
+}
+.pdf-fallback {
+  padding: 30px;
+  color: #a89e90;
+  font-size: 13px;
+}
+.pdf-fallback a { color: #8497a8; text-decoration: none; font-weight: 600; }
+.footer {
+  text-align: center;
+  margin-top: 32px;
+  padding: 16px;
+  color: #a89e90;
+  font-size: 12px;
+  border-top: 1px solid #e2d9cc;
+}
+.t1 .topic-num { background: #8fa3ad; } .t1 .sub-card { border-left-color: #b7c6cc; } .t1 .sub-code { color: #5c7a8a; background: #e2eaed; }
+.t2 .topic-num { background: #93a382; } .t2 .sub-card { border-left-color: #bdc9ac; } .t2 .sub-code { color: #63764c; background: #e2e8d8; }
+.t3 .topic-num { background: #c2a878; } .t3 .sub-card { border-left-color: #dcc9a3; } .t3 .sub-code { color: #93743f; background: #f0e4cc; }
+.t4 .topic-num { background: #c08974; } .t4 .sub-card { border-left-color: #ddb4a1; } .t4 .sub-code { color: #935f49; background: #f0ddd3; }
+.t5 .topic-num { background: #ba8c95; } .t5 .sub-card { border-left-color: #ddb7bd; } .t5 .sub-code { color: #8c5c66; background: #efdde0; }
+.t6 .topic-num { background: #9891ab; } .t6 .sub-card { border-left-color: #c1bcd0; } .t6 .sub-code { color: #675f80; background: #e5e1ec; }
+.t7 .topic-num { background: #7fa39a; } .t7 .sub-card { border-left-color: #b1cac2; } .t7 .sub-code { color: #517167; background: #dce9e4; }
+.t8 .topic-num { background: #a084a0; } .t8 .sub-card { border-left-color: #c9b0c8; } .t8 .sub-code { color: #715170; background: #ebdcea; }
+.t9 .topic-num { background: #c39468; } .t9 .sub-card { border-left-color: #ddbc95; } .t9 .sub-code { color: #93693c; background: #f0e1cc; }
+.t10 .topic-num { background: #a3a578; } .t10 .sub-card { border-left-color: #c6c8a2; } .t10 .sub-code { color: #75773f; background: #eaebd5; }
+.t11 .topic-num { background: #8497a8; } .t11 .sub-card { border-left-color: #b6c2cc; } .t11 .sub-code { color: #55697b; background: #e0e6ea; }.paper-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+.paper-tab {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 10px;
+  border: 1px solid #e6ded2;
+  background: #fbf8f4;
+  color: #a89e90;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.paper-tab:hover {
+  border-color: #b9c8d1;
+}
+.paper-tab.active {
+  background: #7c8fa0;
+  border-color: #7c8fa0;
+  color: white;
+}
+.paper-panel {
+  display: none;
+}
+.paper-panel.active {
+  display: block;
+}
+.coming-soon {
+  text-align: center;
+  padding: 60px 20px;
+  color: #a89e90;
+  font-size: 14px;
+  background: #fbf8f4;
+  border-radius: 14px;
+  border: 1px solid #e6ded2;
+}
+</style>
+<base target="_blank">
+<base target="_blank">
+</head>
+<body>
+
+<svg class="watermark" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="wm-pattern" width="260" height="160" patternUnits="userSpaceOnUse" patternTransform="rotate(-28)">
+      <text x="0" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#5b534c" fill-opacity="0.07">xuanni test aug.</text>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#wm-pattern)"></rect>
+</svg>
+
+<div class="header">
+  <h1>CIE AS Physics 9702 Paper2025</h1>
+  <p>Xuanni</p>
+</div>
+
+<div class="paper-tabs">
+  <button type="button" class="paper-tab active" data-paper="1">Paper 1</button>
+  <button type="button" class="paper-tab" data-paper="2">Paper 2</button>
+</div>
+
+<div id="paper1-panel" class="paper-panel active">
+  <div id="syllabus"></div>
+</div>
+<div id="paper2-panel" class="paper-panel">
+  <div class="coming-soon">Paper 2 content coming soon.</div>
+</div>
+
+<div class="footer">Based on Cambridge International AS &amp; A Level Physics (9702) Syllabus</div>
+
+<script>
+document.querySelectorAll('.paper-tab').forEach(function(tab) {
+  tab.addEventListener('click', function() {
+    document.querySelectorAll('.paper-tab').forEach(function(t) { t.classList.remove('active'); });
+    document.querySelectorAll('.paper-panel').forEach(function(p) { p.classList.remove('active'); });
+    tab.classList.add('active');
+    document.getElementById('paper' + tab.dataset.paper + '-panel').classList.add('active');
+  });
+});
+</script>
+
+<script>
+// ---- Question index: key is the learning-objective code (e.g. 1.3.2), value is the list of past-paper questions for it ----
+const answerKey = {
+  '9702/12/F/M/25': { 'Q1': 'D', 'Q2': 'D', 'Q3': 'C', 'Q4': 'A', 'Q5': 'A', 'Q6': 'C', 'Q7': 'B', 'Q8': 'B', 'Q9': 'A', 'Q10': 'A', 'Q11': 'C', 'Q12': 'D', 'Q13': 'D', 'Q14': 'A', 'Q15': 'B', 'Q16': 'A', 'Q17': 'B', 'Q18': 'A', 'Q19': 'D', 'Q20': 'D', 'Q21': 'B', 'Q22': 'A', 'Q23': 'D', 'Q24': 'C', 'Q25': 'B', 'Q26': 'A', 'Q27': 'C', 'Q28': 'C', 'Q29': 'C', 'Q30': 'D', 'Q31': 'C', 'Q32': 'A', 'Q33': 'C', 'Q34': 'B', 'Q35': 'C', 'Q36': 'B', 'Q37': 'B', 'Q38': 'B', 'Q39': 'D', 'Q40': 'D' },
+  '9702/11/M/J/25': { 'Q1': 'C', 'Q2': 'D', 'Q3': 'B', 'Q4': 'B', 'Q5': 'D', 'Q6': 'D', 'Q7': 'C', 'Q8': 'A', 'Q9': 'B', 'Q10': 'C', 'Q11': 'C', 'Q12': 'D', 'Q13': 'B', 'Q14': 'A', 'Q15': 'B', 'Q16': 'C', 'Q17': 'D', 'Q18': 'A', 'Q19': 'A', 'Q20': 'B', 'Q21': 'D', 'Q22': 'C', 'Q23': 'D', 'Q24': 'C', 'Q25': 'C', 'Q26': 'A', 'Q27': 'C', 'Q28': 'B', 'Q29': 'B', 'Q30': 'D', 'Q31': 'A', 'Q32': 'C', 'Q33': 'D', 'Q34': 'D', 'Q35': 'A', 'Q36': 'B', 'Q37': 'C', 'Q38': 'D', 'Q39': 'C', 'Q40': 'B' },
+  '9702/12/M/J/25': { 'Q1': 'D', 'Q2': 'D', 'Q3': 'B', 'Q4': 'C', 'Q5': 'A', 'Q6': 'C', 'Q7': 'A', 'Q8': 'B', 'Q9': 'B', 'Q10': 'C', 'Q11': 'B', 'Q12': 'D', 'Q13': 'C', 'Q14': 'D', 'Q15': 'A', 'Q16': 'A', 'Q17': 'B', 'Q18': 'C', 'Q19': 'B', 'Q20': 'C', 'Q21': 'A', 'Q22': 'B', 'Q23': 'D', 'Q24': 'C', 'Q25': 'B', 'Q26': 'D', 'Q27': 'B', 'Q28': 'D', 'Q29': 'C', 'Q30': 'D', 'Q31': 'C', 'Q32': 'A', 'Q33': 'D', 'Q34': 'C', 'Q35': 'D', 'Q36': 'D', 'Q37': 'A', 'Q38': 'B', 'Q39': 'A', 'Q40': 'B' },
+  '9702/13/M/J/25': { 'Q1': 'A', 'Q2': 'C', 'Q3': 'C', 'Q4': 'B', 'Q5': 'B', 'Q6': 'A', 'Q7': 'A', 'Q8': 'B', 'Q9': 'B', 'Q10': 'B', 'Q11': 'C', 'Q12': 'D', 'Q13': 'D', 'Q14': 'C', 'Q15': 'D', 'Q16': 'B', 'Q17': 'B', 'Q18': 'D', 'Q19': 'C', 'Q20': 'D', 'Q21': 'D', 'Q22': 'A', 'Q23': 'D', 'Q24': 'D', 'Q25': 'C', 'Q26': 'B', 'Q27': 'C', 'Q28': 'B', 'Q29': 'A', 'Q30': 'D', 'Q31': 'A', 'Q32': 'C', 'Q33': 'C', 'Q34': 'D', 'Q35': 'C', 'Q36': 'C', 'Q37': 'A', 'Q38': 'D', 'Q39': 'A', 'Q40': 'A' },
+  '9702/14/M/J/25': { 'Q1': 'B', 'Q2': 'D', 'Q3': 'A', 'Q4': 'C', 'Q5': 'D', 'Q6': 'C', 'Q7': 'A', 'Q8': 'B', 'Q9': 'C', 'Q10': 'B', 'Q11': 'D', 'Q12': 'D', 'Q13': 'A', 'Q14': 'C', 'Q15': 'B', 'Q16': 'C', 'Q17': 'B', 'Q18': 'D', 'Q19': 'C', 'Q20': 'B', 'Q21': 'A', 'Q22': 'D', 'Q23': 'D', 'Q24': 'A', 'Q25': 'A', 'Q26': 'A', 'Q27': 'B', 'Q28': 'B', 'Q29': 'D', 'Q30': 'B', 'Q31': 'A', 'Q32': 'C', 'Q33': 'A', 'Q34': 'A', 'Q35': 'B', 'Q36': 'B', 'Q37': 'B', 'Q38': 'D', 'Q39': 'C', 'Q40': 'D' },
+  '9702/11/O/N/25': { 'Q1': 'D', 'Q2': 'D', 'Q3': 'B', 'Q4': 'C', 'Q5': 'D', 'Q6': 'D', 'Q7': 'B', 'Q8': 'C', 'Q9': 'C', 'Q10': 'D', 'Q11': 'A', 'Q12': 'A', 'Q13': 'B', 'Q14': 'C', 'Q15': 'C', 'Q16': 'B', 'Q17': 'B', 'Q18': 'C', 'Q19': 'A', 'Q20': 'A', 'Q21': 'D', 'Q22': 'B', 'Q23': 'C', 'Q24': 'A', 'Q25': 'B', 'Q26': 'B', 'Q27': 'D', 'Q28': 'C', 'Q29': 'D', 'Q30': 'A', 'Q31': 'D', 'Q32': 'C', 'Q33': 'A', 'Q34': 'A', 'Q35': 'D', 'Q36': 'D', 'Q37': 'C', 'Q38': 'A', 'Q39': 'A', 'Q40': 'B' },
+  '9702/12/O/N/25': { 'Q1': 'B', 'Q2': 'D', 'Q3': 'C', 'Q4': 'C', 'Q5': 'B', 'Q6': 'B', 'Q7': 'A', 'Q8': 'C', 'Q9': 'D', 'Q10': 'B', 'Q11': 'A', 'Q12': 'D', 'Q13': 'A', 'Q14': 'C', 'Q15': 'C', 'Q16': 'A', 'Q17': 'C', 'Q18': 'A', 'Q19': 'B', 'Q20': 'B', 'Q21': 'A', 'Q22': 'A', 'Q23': 'C', 'Q24': 'D', 'Q25': 'B', 'Q26': 'D', 'Q27': 'C', 'Q28': 'D', 'Q29': 'A', 'Q30': 'C', 'Q31': 'C', 'Q32': 'D', 'Q33': 'B', 'Q34': 'D', 'Q35': 'B', 'Q36': 'D', 'Q37': 'A', 'Q38': 'C', 'Q39': 'D', 'Q40': 'A' },
+  '9702/13/O/N/25': { 'Q1': 'D', 'Q2': 'D', 'Q3': 'B', 'Q4': 'C', 'Q5': 'D', 'Q6': 'D', 'Q7': 'B', 'Q8': 'C', 'Q9': 'C', 'Q10': 'D', 'Q11': 'A', 'Q12': 'A', 'Q13': 'B', 'Q14': 'C', 'Q15': 'C', 'Q16': 'B', 'Q17': 'B', 'Q18': 'C', 'Q19': 'A', 'Q20': 'A', 'Q21': 'D', 'Q22': 'B', 'Q23': 'C', 'Q24': 'A', 'Q25': 'B', 'Q26': 'B', 'Q27': 'D', 'Q28': 'C', 'Q29': 'D', 'Q30': 'A', 'Q31': 'D', 'Q32': 'C', 'Q33': 'A', 'Q34': 'A', 'Q35': 'D', 'Q36': 'D', 'Q37': 'C', 'Q38': 'A', 'Q39': 'A', 'Q40': 'B' },
+  '9702/14/O/N/25': { 'Q1': 'C', 'Q2': 'B', 'Q3': 'B', 'Q4': 'C', 'Q5': 'A', 'Q6': 'B', 'Q7': 'D', 'Q8': 'C', 'Q9': 'A', 'Q10': 'D', 'Q11': 'B', 'Q12': 'C', 'Q13': 'D', 'Q14': 'C', 'Q15': 'C', 'Q16': 'A', 'Q17': 'B', 'Q18': 'C', 'Q19': 'B', 'Q20': 'D', 'Q21': 'B', 'Q22': 'A', 'Q23': 'C', 'Q24': 'D', 'Q25': 'A', 'Q26': 'B', 'Q27': 'C', 'Q28': 'C', 'Q29': 'C', 'Q30': 'B', 'Q31': 'B', 'Q32': 'A', 'Q33': 'A', 'Q34': 'D', 'Q35': 'D', 'Q36': 'C', 'Q37': 'A', 'Q38': 'D', 'Q39': 'A', 'Q40': 'D' },
+};
+
+function getAnswer(paper, qnum) {
+  var m = answerKey[paper];
+  return m ? (m[qnum] || null) : null;
+}
+
+const questionData = {
+  '1.1.1': [
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q1', pdf: '9702_s25_qp_12_Q1_Physical quantities and units_1.1.1.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q1', pdf: '9702_w25_qp_14_Q1_Physical_quantities_and_units_1.1.1.pdf' }
+  ],
+  '1.1.2': [
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q2', pdf: '9702_s25_qp_13_Q2_Physical quantities and units_1.1.2.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q1', pdf: '9702_s25_qp_14_Q1_Physical quantities and units_1.1.2.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q1', pdf: '9702_w25_qp_12_Q1_Physical_quantities_and_units_1.1.2.pdf' }
+  ],
+  '1.2.2': [
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q4', pdf: '9702_s25_qp_13_Q4_Physical quantities and units_1.2.2.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q2', pdf: '9702_s25_qp_14_Q2_Physical quantities and units_1.2.2.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q3', pdf: '9702_w25_qp_12_Q3_Physical_quantities_and_units_1.2.2.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q3', pdf: '9702_w25_qp_13_Q3_Physical_quantities_and_units_1.2.2.pdf' }
+  ],
+  '1.2.3': [
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q4', pdf: '9702_s25_qp_12_Q4_Physical quantities and units_1.2.3.pdf' }
+  ],
+  '1.2.4': [
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q2', pdf: '9702_s25_qp_12_Q2_Physical quantities and units_1.2.4.pdf' }
+  ],
+  '1.3.1': [
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q2', pdf: '9702_m25_qp_12_Q2_Physical quantities and units_1.3.1.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q3', pdf: '9702_s25_qp_13_Q3_Physical quantities and units_1.3.1.pdf' }
+  ],
+  '1.3.2': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q2', pdf: '9702_s25_qp_11_Q2_Physical quantities and units_1.3.2.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q2', pdf: '9702_w25_qp_12_Q2_Physical_quantities_and_units_1.3.2.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q2', pdf: '9702_w25_qp_14_Q2_Physical_quantities_and_units_1.3.2.pdf' }
+  ],
+  '1.3.3': [
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q12', pdf: '9702_m25_qp_12_Q12_Physical quantities and units_1.3.3.pdf' },
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q3', pdf: '9702_s25_qp_11_Q3_Physical quantities and units_1.3.3.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q3', pdf: '9702_s25_qp_12_Q3_Physical quantities and units_1.3.3.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q3', pdf: '9702_s25_qp_14_Q3_Physical quantities and units_1.3.3.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q4', pdf: '9702_w25_qp_12_Q4_Physical_quantities_and_units_1.3.3.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q2', pdf: '9702_w25_qp_13_Q2_Physical_quantities_and_units_1.3.3.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q3', pdf: '9702_w25_qp_14_Q3_Physical_quantities_and_units_1.3.3.pdf' }
+  ],
+  '1.4.1': [
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q1', pdf: '9702_m25_qp_12_Q1_Physical quantities and units_1.4.1.pdf' },
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q1', pdf: '9702_s25_qp_11_Q1_Physical quantities and units_1.4.1.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q1', pdf: '9702_s25_qp_13_Q1_Physical quantities and units_1.4.1.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q1', pdf: '9702_w25_qp_13_Q1_Physical_quantities_and_units_1.4.1.pdf' }
+  ],
+  '1.4.2': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q4', pdf: '9702_s25_qp_11_Q4_Physical quantities and units_1.4.2.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q4', pdf: '9702_w25_qp_13_Q4_Physical_quantities_and_units_1.4.2.pdf' }
+  ],
+  '2.1.1': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q6', pdf: '9702_s25_qp_11_Q6_Kinematics_2.1.1.pdf' }
+  ],
+  '2.1.2': [
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q5', pdf: '9702_s25_qp_14_Q5_Kinematics_2.1.2.pdf' }
+  ],
+  '2.1.3': [
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q7', pdf: '9702_w25_qp_12_Q7_Kinematics_2.1.3.pdf' },
+  ],
+  '2.1.5': [
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q6', pdf: '9702_w25_qp_13_Q6_Kinematics_2.1.3_2.1.5.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q7', pdf: '9702_w25_qp_14_Q7_Kinematics_2.1.5.pdf' }
+  ],
+  '2.1.6': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q7', pdf: '9702_s25_qp_11_Q7_Kinematics_2.1.6.pdf' }
+  ],
+  '2.1.7': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q5', pdf: '9702_s25_qp_11_Q5_Kinematics_2.1.7.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q4', pdf: '9702_m25_qp_12_Q4_Kinematics_2.1.7.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q5', pdf: '9702_s25_qp_12_Q5_Kinematics_2.1.7.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q6', pdf: '9702_s25_qp_12_Q6_Kinematics_2.1.7.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q7', pdf: '9702_s25_qp_12_Q7_Kinematics_2.1.7.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q5', pdf: '9702_w25_qp_12_Q5_Kinematics_2.1.7.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q6', pdf: '9702_w25_qp_12_Q6_Kinematics_2.1.7.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q6', pdf: '9702_s25_qp_13_Q6_Kinematics_2.1.7.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q5', pdf: '9702_w25_qp_13_Q5_Kinematics_2.1.7.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q6', pdf: '9702_s25_qp_14_Q6_Kinematics_2.1.7.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q5', pdf: '9702_w25_qp_14_Q5_Kinematics_2.1.7.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q6', pdf: '9702_w25_qp_14_Q6_Kinematics_2.1.7.pdf' }
+  ],
+  '2.1.9': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q8', pdf: '9702_s25_qp_11_Q8_Kinematics_2.1.9.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q5', pdf: '9702_m25_qp_12_Q5_Kinematics_2.1.9.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q8', pdf: '9702_s25_qp_12_Q8_Kinematics_2.1.9.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q7', pdf: '9702_s25_qp_13_Q7_Kinematics_2.1.9.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q7', pdf: '9702_w25_qp_13_Q7_Kinematics_2.1.9.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q4', pdf: '9702_w25_qp_14_Q4_Kinematics_2.1.9.pdf' }
+  ],
+  '3.1.1': [
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q8', pdf: '9702_w25_qp_12_Q8_Dynamics_3.1.1_3.1.6.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q8', pdf: '9702_w25_qp_14_Q8_Dynamics_3.1.1_3.1.6.pdf' }
+  ],
+  '3.1.2': [
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q12', pdf: '9702_w25_qp_13_Q12_Dynamics_3.1.2_3.1.5_3.1.6.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q7', pdf: '9702_s25_qp_14_Q7_Dynamics_3.1.2_3.1.3_3.1.4.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q3', pdf: '9702_m25_qp_12_Q3_Dynamics_3.1.2.pdf' }
+  ],
+  '3.1.3': [
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q11', pdf: '9702_w25_qp_13_Q11_Dynamics_3.1.3_3.1.4.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q10', pdf: '9702_w25_qp_12_Q10_Dynamics_3.1.3_3.3.2_3.3.4.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q7', pdf: '9702_s25_qp_14_Q7_Dynamics_3.1.2_3.1.3_3.1.4.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q10', pdf: '9702_w25_qp_14_Q10_Dynamics_3.1.3_3.3.2_3.3.4.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q7', pdf: '9702_m25_qp_12_Q7_Dynamics_3.3.2_3.1.3.pdf' }
+  ],
+  '3.1.4': [
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q11', pdf: '9702_w25_qp_13_Q11_Dynamics_3.1.3_3.1.4.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q7', pdf: '9702_s25_qp_14_Q7_Dynamics_3.1.2_3.1.3_3.1.4.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q9', pdf: '9702_s25_qp_12_Q9_Dynamics_3.1.4_3.1.5.pdf' },
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q11', pdf: '9702_s25_qp_11_Q11_Dynamics_3.1.4.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q11', pdf: '9702_w25_qp_14_Q11_Dynamics_3.1.4_3.1.5_3.3.2_3.3.3.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q9', pdf: '9702_s25_qp_13_Q9_Dynamics_3.1.4.pdf' }
+  ],
+  '3.1.5': [
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q8', pdf: '9702_w25_qp_13_Q8_Dynamics_3.1.5_3.2.2_3.2.3.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q12', pdf: '9702_w25_qp_13_Q12_Dynamics_3.1.2_3.1.5_3.1.6.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q11', pdf: '9702_s25_qp_12_Q11_Dynamics_3.1.5.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q9', pdf: '9702_s25_qp_12_Q9_Dynamics_3.1.4_3.1.5.pdf' },
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q10', pdf: '9702_s25_qp_11_Q10_Dynamics_3.1.5.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q11', pdf: '9702_w25_qp_14_Q11_Dynamics_3.1.4_3.1.5_3.3.2_3.3.3.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q10', pdf: '9702_s25_qp_13_Q10_Dynamics_3.1.5.pdf' }
+  ],
+  '3.1.6': [
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q12', pdf: '9702_w25_qp_13_Q12_Dynamics_3.1.2_3.1.5_3.1.6.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q8', pdf: '9702_w25_qp_12_Q8_Dynamics_3.1.1_3.1.6.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q8', pdf: '9702_w25_qp_14_Q8_Dynamics_3.1.1_3.1.6.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q9', pdf: '9702_w25_qp_14_Q9_Dynamics_3.1.6_3.2.1_3.2.2_3.2.3.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q8', pdf: '9702_m25_qp_12_Q8_Dynamics_3.1.6.pdf' }
+  ],
+  '3.2.1': [
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q11', pdf: '9702_w25_qp_12_Q11_Dynamics_3.2.1_3.2.2_3.2.3.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q8', pdf: '9702_s25_qp_14_Q8_Dynamics_3.2.1_3.2.2_3.2.3.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q9', pdf: '9702_w25_qp_14_Q9_Dynamics_3.1.6_3.2.1_3.2.2_3.2.3.pdf' }
+  ],
+  '3.2.2': [
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q8', pdf: '9702_w25_qp_13_Q8_Dynamics_3.1.5_3.2.2_3.2.3.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q11', pdf: '9702_w25_qp_12_Q11_Dynamics_3.2.1_3.2.2_3.2.3.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q8', pdf: '9702_s25_qp_14_Q8_Dynamics_3.2.1_3.2.2_3.2.3.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q9', pdf: '9702_w25_qp_14_Q9_Dynamics_3.1.6_3.2.1_3.2.2_3.2.3.pdf' }
+  ],
+  '3.2.3': [
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q8', pdf: '9702_w25_qp_13_Q8_Dynamics_3.1.5_3.2.2_3.2.3.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q11', pdf: '9702_w25_qp_12_Q11_Dynamics_3.2.1_3.2.2_3.2.3.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q8', pdf: '9702_s25_qp_14_Q8_Dynamics_3.2.1_3.2.2_3.2.3.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q9', pdf: '9702_w25_qp_14_Q9_Dynamics_3.1.6_3.2.1_3.2.2_3.2.3.pdf' }
+  ],
+  '3.3.1': [
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q9', pdf: '9702_w25_qp_13_Q9_Dynamics_3.3.1.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q9', pdf: '9702_w25_qp_12_Q9_Dynamics_3.3.1.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q13', pdf: '9702_s25_qp_12_Q13_Dynamics_3.3.1_3.3.2_3.3.4.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q10', pdf: '9702_s25_qp_12_Q10_Dynamics_3.3.1_3.3.3_3.3.4.pdf' },
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q9', pdf: '9702_s25_qp_11_Q9_Dynamics_3.3.1_3.3.3.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q6', pdf: '9702_m25_qp_12_Q6_Dynamics_3.3.1.pdf' }
+  ],
+  '3.3.2': [
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q10', pdf: '9702_w25_qp_13_Q10_Dynamics_3.3.2_3.3.3.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q10', pdf: '9702_w25_qp_12_Q10_Dynamics_3.1.3_3.3.2_3.3.4.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q12', pdf: '9702_w25_qp_12_Q12_Dynamics_3.3.2_3.3.3.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q9', pdf: '9702_s25_qp_14_Q9_Dynamics_3.3.2_3.3.3.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q13', pdf: '9702_s25_qp_12_Q13_Dynamics_3.3.1_3.3.2_3.3.4.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q12', pdf: '9702_s25_qp_12_Q12_Dynamics_3.3.2.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q11', pdf: '9702_w25_qp_14_Q11_Dynamics_3.1.4_3.1.5_3.3.2_3.3.3.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q10', pdf: '9702_w25_qp_14_Q10_Dynamics_3.1.3_3.3.2_3.3.4.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q11', pdf: '9702_s25_qp_13_Q11_Dynamics_3.3.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q7', pdf: '9702_m25_qp_12_Q7_Dynamics_3.3.2_3.1.3.pdf' }
+  ],
+  '3.3.3': [
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q10', pdf: '9702_w25_qp_13_Q10_Dynamics_3.3.2_3.3.3.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q12', pdf: '9702_w25_qp_12_Q12_Dynamics_3.3.2_3.3.3.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q9', pdf: '9702_s25_qp_14_Q9_Dynamics_3.3.2_3.3.3.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q10', pdf: '9702_s25_qp_12_Q10_Dynamics_3.3.1_3.3.3_3.3.4.pdf' },
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q9', pdf: '9702_s25_qp_11_Q9_Dynamics_3.3.1_3.3.3.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q11', pdf: '9702_w25_qp_14_Q11_Dynamics_3.1.4_3.1.5_3.3.2_3.3.3.pdf' }
+  ],
+  '3.3.4': [
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q10', pdf: '9702_w25_qp_12_Q10_Dynamics_3.1.3_3.3.2_3.3.4.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q13', pdf: '9702_s25_qp_12_Q13_Dynamics_3.3.1_3.3.2_3.3.4.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q10', pdf: '9702_s25_qp_12_Q10_Dynamics_3.3.1_3.3.3_3.3.4.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q10', pdf: '9702_w25_qp_14_Q10_Dynamics_3.1.3_3.3.2_3.3.4.pdf' }
+  ],
+  '4.1.1': [
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q15', pdf: '9702_s25_qp_12_Q15_Forces, density and pressure_4.1.1_4.1.2.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q12', pdf: '9702_s25_qp_13_Q12_Forces, density and pressure_4.1.1_4.1.2_4.2.1_4.2.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q9', pdf: '9702_m25_qp_12_Q9_Forces, density and pressure_4.1.1_4.1.2_4.2.1_4.2.2.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q14', pdf: '9702_w25_qp_12_Q14_Forces__density_and_pressure_4.1.1_4.1.2_4.2.1_4.2.2.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q13', pdf: '9702_w25_qp_13_Q13_Forces__density_and_pressure_4.1.1_4.1.2_4.2.1_4.2.2.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q15', pdf: '9702_w25_qp_14_Q15_Forces__density_and_pressure_4.1.1_4.1.2_4.2.1_4.2.2.pdf' }
+  ],
+  '4.1.2': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q15', pdf: '9702_s25_qp_11_Q15_Forces, density and pressure_4.1.2_4.2.1.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q15', pdf: '9702_s25_qp_12_Q15_Forces, density and pressure_4.1.1_4.1.2.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q12', pdf: '9702_s25_qp_13_Q12_Forces, density and pressure_4.1.1_4.1.2_4.2.1_4.2.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q11', pdf: '9702_m25_qp_12_Q11_Forces, density and pressure_4.1.2_4.2.1_4.2.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q13', pdf: '9702_m25_qp_12_Q13_Forces, density and pressure_4.1.2_4.2.1_4.2.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q9', pdf: '9702_m25_qp_12_Q9_Forces, density and pressure_4.1.1_4.1.2_4.2.1_4.2.2.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q14', pdf: '9702_w25_qp_12_Q14_Forces__density_and_pressure_4.1.1_4.1.2_4.2.1_4.2.2.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q13', pdf: '9702_w25_qp_13_Q13_Forces__density_and_pressure_4.1.1_4.1.2_4.2.1_4.2.2.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q15', pdf: '9702_w25_qp_14_Q15_Forces__density_and_pressure_4.1.1_4.1.2_4.2.1_4.2.2.pdf' }
+  ],
+  '4.1.3': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q13', pdf: '9702_s25_qp_11_Q13_Forces, density and pressure_4.1.3.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q10', pdf: '9702_s25_qp_14_Q10_Forces, density and pressure_4.1.3.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q13', pdf: '9702_w25_qp_12_Q13_Forces__density_and_pressure_4.1.3.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q14', pdf: '9702_w25_qp_13_Q14_Forces__density_and_pressure_4.1.3_4.1.4.pdf' }
+  ],
+  '4.1.4': [
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q17', pdf: '9702_s25_qp_12_Q17_Forces, density and pressure_4.1.4.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q14', pdf: '9702_w25_qp_13_Q14_Forces__density_and_pressure_4.1.3_4.1.4.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q14', pdf: '9702_w25_qp_14_Q14_Forces__density_and_pressure_4.1.4.pdf' }
+  ],
+  '4.2.1': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q15', pdf: '9702_s25_qp_11_Q15_Forces, density and pressure_4.1.2_4.2.1.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q12', pdf: '9702_s25_qp_13_Q12_Forces, density and pressure_4.1.1_4.1.2_4.2.1_4.2.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q11', pdf: '9702_m25_qp_12_Q11_Forces, density and pressure_4.1.2_4.2.1_4.2.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q13', pdf: '9702_m25_qp_12_Q13_Forces, density and pressure_4.1.2_4.2.1_4.2.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q9', pdf: '9702_m25_qp_12_Q9_Forces, density and pressure_4.1.1_4.1.2_4.2.1_4.2.2.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q14', pdf: '9702_w25_qp_12_Q14_Forces__density_and_pressure_4.1.1_4.1.2_4.2.1_4.2.2.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q13', pdf: '9702_w25_qp_13_Q13_Forces__density_and_pressure_4.1.1_4.1.2_4.2.1_4.2.2.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q13', pdf: '9702_w25_qp_14_Q13_Forces__density_and_pressure_4.2.1_4.2.2_4.2.3.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q15', pdf: '9702_w25_qp_14_Q15_Forces__density_and_pressure_4.1.1_4.1.2_4.2.1_4.2.2.pdf' }
+  ],
+  '4.2.2': [
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q14', pdf: '9702_s25_qp_12_Q14_Forces, density and pressure_4.2.2_4.3.4_4.3.5.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q12', pdf: '9702_s25_qp_13_Q12_Forces, density and pressure_4.1.1_4.1.2_4.2.1_4.2.2.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q14', pdf: '9702_s25_qp_13_Q14_Forces, density and pressure_4.2.2_4.2.3.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q8', pdf: '9702_s25_qp_13_Q8_Forces, density and pressure_4.2.2_4.3.1_4.3.5.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q13', pdf: '9702_s25_qp_14_Q13_Forces, density and pressure_4.2.2_4.3.4_4.3.5.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q4', pdf: '9702_s25_qp_14_Q4_Forces, density and pressure_4.2.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q11', pdf: '9702_m25_qp_12_Q11_Forces, density and pressure_4.1.2_4.2.1_4.2.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q13', pdf: '9702_m25_qp_12_Q13_Forces, density and pressure_4.1.2_4.2.1_4.2.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q9', pdf: '9702_m25_qp_12_Q9_Forces, density and pressure_4.1.1_4.1.2_4.2.1_4.2.2.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q14', pdf: '9702_w25_qp_12_Q14_Forces__density_and_pressure_4.1.1_4.1.2_4.2.1_4.2.2.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q13', pdf: '9702_w25_qp_13_Q13_Forces__density_and_pressure_4.1.1_4.1.2_4.2.1_4.2.2.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q13', pdf: '9702_w25_qp_14_Q13_Forces__density_and_pressure_4.2.1_4.2.2_4.2.3.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q15', pdf: '9702_w25_qp_14_Q15_Forces__density_and_pressure_4.1.1_4.1.2_4.2.1_4.2.2.pdf' }
+  ],
+  '4.2.3': [
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q14', pdf: '9702_s25_qp_13_Q14_Forces, density and pressure_4.2.2_4.2.3.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q11', pdf: '9702_s25_qp_14_Q11_Forces, density and pressure_4.2.3.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q13', pdf: '9702_w25_qp_14_Q13_Forces__density_and_pressure_4.2.1_4.2.2_4.2.3.pdf' }
+  ],
+  '4.3.1': [
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q13', pdf: '9702_s25_qp_13_Q13_Forces, density and pressure_4.3.1.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q8', pdf: '9702_s25_qp_13_Q8_Forces, density and pressure_4.2.2_4.3.1_4.3.5.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q12', pdf: '9702_s25_qp_14_Q12_Forces, density and pressure_4.3.1_4.3.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q10', pdf: '9702_m25_qp_12_Q10_Forces, density and pressure_4.3.1_4.3.5.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q15', pdf: '9702_w25_qp_12_Q15_Forces__density_and_pressure_4.3.1.pdf' }
+  ],
+  '4.3.2': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q16', pdf: '9702_s25_qp_11_Q16_Forces, density and pressure_4.3.2_4.3.3.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q16', pdf: '9702_s25_qp_12_Q16_Forces, density and pressure_4.3.2_4.3.3_4.3.4.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q15', pdf: '9702_s25_qp_13_Q15_Forces, density and pressure_4.3.2_4.3.3.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q12', pdf: '9702_s25_qp_14_Q12_Forces, density and pressure_4.3.1_4.3.2.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q15', pdf: '9702_w25_qp_13_Q15_Forces__density_and_pressure_4.3.2.pdf' }
+  ],
+  '4.3.3': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q14', pdf: '9702_s25_qp_11_Q14_Forces, density and pressure_4.3.3_4.3.5.pdf' },
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q16', pdf: '9702_s25_qp_11_Q16_Forces, density and pressure_4.3.2_4.3.3.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q16', pdf: '9702_s25_qp_12_Q16_Forces, density and pressure_4.3.2_4.3.3_4.3.4.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q15', pdf: '9702_s25_qp_13_Q15_Forces, density and pressure_4.3.2_4.3.3.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q12', pdf: '9702_w25_qp_14_Q12_Forces__density_and_pressure_4.3.3.pdf' }
+  ],
+  '4.3.4': [
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q14', pdf: '9702_s25_qp_12_Q14_Forces, density and pressure_4.2.2_4.3.4_4.3.5.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q16', pdf: '9702_s25_qp_12_Q16_Forces, density and pressure_4.3.2_4.3.3_4.3.4.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q13', pdf: '9702_s25_qp_14_Q13_Forces, density and pressure_4.2.2_4.3.4_4.3.5.pdf' }
+  ],
+  '4.3.5': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q14', pdf: '9702_s25_qp_11_Q14_Forces, density and pressure_4.3.3_4.3.5.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q14', pdf: '9702_s25_qp_12_Q14_Forces, density and pressure_4.2.2_4.3.4_4.3.5.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q8', pdf: '9702_s25_qp_13_Q8_Forces, density and pressure_4.2.2_4.3.1_4.3.5.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q13', pdf: '9702_s25_qp_14_Q13_Forces, density and pressure_4.2.2_4.3.4_4.3.5.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q10', pdf: '9702_m25_qp_12_Q10_Forces, density and pressure_4.3.1_4.3.5.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q16', pdf: '9702_w25_qp_12_Q16_Forces__density_and_pressure_4.3.5.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q16', pdf: '9702_w25_qp_13_Q16_Forces__density_and_pressure_4.3.5.pdf' }
+  ],
+    '5.1.1': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q18', pdf: '9702_s25_qp_11_Q18_Work, energy and power_5.1.1.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q19', pdf: '9702_s25_qp_12_Q19_Work, energy and power_5.1.1_5.1.2_5.2.1.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q14', pdf: '9702_s25_qp_14_Q14_Work, energy and power_5.1.1.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q16', pdf: '9702_s25_qp_14_Q16_Work, energy and power_5.1.1_5.1.5_5.1.6_5.2.1_5.2.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q16', pdf: '9702_m25_qp_12_Q16_Work, energy and power_5.1.1.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q19', pdf: '9702_w25_qp_12_Q19_Work__energy_and_power_5.1.1_5.1.2_5.2.1.pdf' }
+  ],
+  '5.1.2': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q20', pdf: '9702_s25_qp_11_Q20_Work, energy and power_5.1.2.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q18', pdf: '9702_s25_qp_12_Q18_Work, energy and power_5.1.2_5.2.2.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q19', pdf: '9702_s25_qp_12_Q19_Work, energy and power_5.1.1_5.1.2_5.2.1.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q18', pdf: '9702_s25_qp_13_Q18_Work, energy and power_5.1.2_5.2.1_5.2.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q15', pdf: '9702_m25_qp_12_Q15_Work, energy and power_5.1.2_5.2.1_5.2.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q18', pdf: '9702_m25_qp_12_Q18_Work, energy and power_5.1.2_5.2.2.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q19', pdf: '9702_w25_qp_12_Q19_Work__energy_and_power_5.1.1_5.1.2_5.2.1.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q18', pdf: '9702_w25_qp_13_Q18_Work__energy_and_power_5.1.2.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q17', pdf: '9702_w25_qp_14_Q17_Work__energy_and_power_5.1.2_5.2.1_5.2.2.pdf' }
+  ],
+  '5.1.3': [
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q20', pdf: '9702_s25_qp_12_Q20_Work, energy and power_5.1.3.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q17', pdf: '9702_s25_qp_13_Q17_Work, energy and power_5.1.3_5.1.4.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q18', pdf: '9702_w25_qp_14_Q18_Work__energy_and_power_5.1.3.pdf' }
+  ],
+  '5.1.4': [
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q17', pdf: '9702_s25_qp_13_Q17_Work, energy and power_5.1.3_5.1.4.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q17', pdf: '9702_m25_qp_12_Q17_Work, energy and power_5.1.4_5.1.5_5.2.1.pdf' }
+  ],
+  '5.1.5': [
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q16', pdf: '9702_s25_qp_14_Q16_Work, energy and power_5.1.1_5.1.5_5.1.6_5.2.1_5.2.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q17', pdf: '9702_m25_qp_12_Q17_Work, energy and power_5.1.4_5.1.5_5.2.1.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q20', pdf: '9702_w25_qp_12_Q20_Work__energy_and_power_5.1.5_5.1.7_5.2.1.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q16', pdf: '9702_w25_qp_14_Q16_Work__energy_and_power_5.1.5_5.2.1.pdf' }
+  ],
+  '5.1.6': [
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q15', pdf: '9702_s25_qp_14_Q15_Work, energy and power_5.1.6_5.2.1.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q16', pdf: '9702_s25_qp_14_Q16_Work, energy and power_5.1.1_5.1.5_5.1.6_5.2.1_5.2.2.pdf' }
+  ],
+  '5.1.7': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q12', pdf: '9702_s25_qp_11_Q12_Work, energy and power_5.1.7_5.2.1.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q14', pdf: '9702_m25_qp_12_Q14_Work, energy and power_5.1.7.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q20', pdf: '9702_w25_qp_12_Q20_Work__energy_and_power_5.1.5_5.1.7_5.2.1.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q19', pdf: '9702_w25_qp_13_Q19_Work__energy_and_power_5.1.7.pdf' }
+  ],
+  '5.2.1': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q12', pdf: '9702_s25_qp_11_Q12_Work, energy and power_5.1.7_5.2.1.pdf' },
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q17', pdf: '9702_s25_qp_11_Q17_Work, energy and power_5.2.1.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q19', pdf: '9702_s25_qp_12_Q19_Work, energy and power_5.1.1_5.1.2_5.2.1.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q16', pdf: '9702_s25_qp_13_Q16_Work, energy and power_5.2.1.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q18', pdf: '9702_s25_qp_13_Q18_Work, energy and power_5.1.2_5.2.1_5.2.2.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q15', pdf: '9702_s25_qp_14_Q15_Work, energy and power_5.1.6_5.2.1.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q16', pdf: '9702_s25_qp_14_Q16_Work, energy and power_5.1.1_5.1.5_5.1.6_5.2.1_5.2.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q15', pdf: '9702_m25_qp_12_Q15_Work, energy and power_5.1.2_5.2.1_5.2.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q17', pdf: '9702_m25_qp_12_Q17_Work, energy and power_5.1.4_5.1.5_5.2.1.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q18', pdf: '9702_w25_qp_12_Q18_Work__energy_and_power_5.2.1.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q19', pdf: '9702_w25_qp_12_Q19_Work__energy_and_power_5.1.1_5.1.2_5.2.1.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q20', pdf: '9702_w25_qp_12_Q20_Work__energy_and_power_5.1.5_5.1.7_5.2.1.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q17', pdf: '9702_w25_qp_13_Q17_Work__energy_and_power_5.2.1.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q16', pdf: '9702_w25_qp_14_Q16_Work__energy_and_power_5.1.5_5.2.1.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q17', pdf: '9702_w25_qp_14_Q17_Work__energy_and_power_5.1.2_5.2.1_5.2.2.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q19', pdf: '9702_w25_qp_14_Q19_Work__energy_and_power_5.2.1.pdf' }
+  ],
+  '5.2.2': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q19', pdf: '9702_s25_qp_11_Q19_Work, energy and power_5.2.2.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q18', pdf: '9702_s25_qp_12_Q18_Work, energy and power_5.1.2_5.2.2.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q18', pdf: '9702_s25_qp_13_Q18_Work, energy and power_5.1.2_5.2.1_5.2.2.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q19', pdf: '9702_s25_qp_13_Q19_Work, energy and power_5.2.2.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q16', pdf: '9702_s25_qp_14_Q16_Work, energy and power_5.1.1_5.1.5_5.1.6_5.2.1_5.2.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q15', pdf: '9702_m25_qp_12_Q15_Work, energy and power_5.1.2_5.2.1_5.2.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q18', pdf: '9702_m25_qp_12_Q18_Work, energy and power_5.1.2_5.2.2.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q17', pdf: '9702_w25_qp_12_Q17_Work__energy_and_power_5.2.2.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q17', pdf: '9702_w25_qp_14_Q17_Work__energy_and_power_5.1.2_5.2.1_5.2.2.pdf' }
+  ],
+    '6.1.2': [
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q23', pdf: '9702_s25_qp_13_Q23_Deformation of solids_6.1.2_6.1.5.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q21', pdf: '9702_w25_qp_12_Q21_Deformation_of_solids_6.1.2.pdf' }
+  ],
+  '6.1.3': [
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q21', pdf: '9702_m25_qp_12_Q21_Deformation of solids_6.1.3_6.1.4_6.2.3_6.2.4.pdf' }
+  ],
+  '6.1.4': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q21', pdf: '9702_s25_qp_11_Q21_Deformation of solids_6.1.4.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q22', pdf: '9702_s25_qp_12_Q22_Deformation of solids_6.1.4_6.2.3_6.2.4.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q21', pdf: '9702_m25_qp_12_Q21_Deformation of solids_6.1.3_6.1.4_6.2.3_6.2.4.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q20', pdf: '9702_w25_qp_13_Q20_Deformation_of_solids_6.1.4_6.2.3_6.2.4.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q22', pdf: '9702_w25_qp_14_Q22_Deformation_of_solids_6.1.4.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q23', pdf: '9702_w25_qp_14_Q23_Deformation_of_solids_6.1.4.pdf' }
+  ],
+  '6.1.5': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q23', pdf: '9702_s25_qp_11_Q23_Deformation of solids_6.1.5.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q21', pdf: '9702_s25_qp_12_Q21_Deformation of solids_6.1.5.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q20', pdf: '9702_s25_qp_13_Q20_Deformation of solids_6.1.5.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q22', pdf: '9702_s25_qp_13_Q22_Deformation of solids_6.1.5.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q23', pdf: '9702_s25_qp_13_Q23_Deformation of solids_6.1.2_6.1.5.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q17', pdf: '9702_s25_qp_14_Q17_Deformation of solids_6.1.5.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q20', pdf: '9702_m25_qp_12_Q20_Deformation of solids_6.1.5.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q22', pdf: '9702_w25_qp_12_Q22_Deformation_of_solids_6.1.5.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q21', pdf: '9702_w25_qp_13_Q21_Deformation_of_solids_6.1.5.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q22', pdf: '9702_w25_qp_13_Q22_Deformation_of_solids_6.1.5.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q20', pdf: '9702_w25_qp_14_Q20_Deformation_of_solids_6.1.5.pdf' }
+  ],
+  '6.2.1': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q22', pdf: '9702_s25_qp_11_Q22_Deformation of solids_6.2.1_6.2.2.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q23', pdf: '9702_s25_qp_12_Q23_Deformation of solids_6.2.1.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q19', pdf: '9702_m25_qp_12_Q19_Deformation of solids_6.2.1.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q23', pdf: '9702_w25_qp_13_Q23_Deformation_of_solids_6.2.1.pdf' }
+  ],
+  '6.2.2': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q22', pdf: '9702_s25_qp_11_Q22_Deformation of solids_6.2.1_6.2.2.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q21', pdf: '9702_s25_qp_13_Q21_Deformation of solids_6.2.2.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q21', pdf: '9702_w25_qp_14_Q21_Deformation_of_solids_6.2.2.pdf' }
+  ],
+  '6.2.3': [
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q22', pdf: '9702_s25_qp_12_Q22_Deformation of solids_6.1.4_6.2.3_6.2.4.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q18', pdf: '9702_s25_qp_14_Q18_Deformation of solids_6.2.3_6.2.4.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q21', pdf: '9702_m25_qp_12_Q21_Deformation of solids_6.1.3_6.1.4_6.2.3_6.2.4.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q23', pdf: '9702_w25_qp_12_Q23_Deformation_of_solids_6.2.3_6.2.4.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q20', pdf: '9702_w25_qp_13_Q20_Deformation_of_solids_6.1.4_6.2.3_6.2.4.pdf' }
+  ],
+  '6.2.4': [
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q22', pdf: '9702_s25_qp_12_Q22_Deformation of solids_6.1.4_6.2.3_6.2.4.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q18', pdf: '9702_s25_qp_14_Q18_Deformation of solids_6.2.3_6.2.4.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q21', pdf: '9702_m25_qp_12_Q21_Deformation of solids_6.1.3_6.1.4_6.2.3_6.2.4.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q23', pdf: '9702_w25_qp_12_Q23_Deformation_of_solids_6.2.3_6.2.4.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q20', pdf: '9702_w25_qp_13_Q20_Deformation_of_solids_6.1.4_6.2.3_6.2.4.pdf' }
+  ],
+    '7.1.2': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q26', pdf: '9702_s25_qp_11_Q26_Waves_7.1.2.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q24', pdf: '9702_s25_qp_12_Q24_Waves_7.1.2_7.1.4.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q24', pdf: '9702_s25_qp_13_Q24_Waves_7.1.2_7.2.2.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q26', pdf: '9702_s25_qp_13_Q26_Waves_7.1.3_7.1.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q25', pdf: '9702_m25_qp_12_Q25_Waves_7.1.2_7.1.4.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q25', pdf: '9702_w25_qp_12_Q25_Waves_7.1.2.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q26', pdf: '9702_w25_qp_12_Q26_Waves_7.1.6_7.1.2.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q24', pdf: '9702_w25_qp_14_Q24_Waves_7.1.2_7.2.2.pdf' }
+  ],
+  '7.1.3': [
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q26', pdf: '9702_s25_qp_13_Q26_Waves_7.1.3_7.1.2.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q20', pdf: '9702_s25_qp_14_Q20_Waves_7.1.3.pdf' }
+  ],
+  '7.1.4': [
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q24', pdf: '9702_s25_qp_12_Q24_Waves_7.1.2_7.1.4.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q25', pdf: '9702_m25_qp_12_Q25_Waves_7.1.2_7.1.4.pdf' }
+  ],
+  '7.1.6': [
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q26', pdf: '9702_w25_qp_12_Q26_Waves_7.1.6_7.1.2.pdf' }
+  ],
+  '7.2.1': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q25', pdf: '9702_s25_qp_11_Q25_Waves_7.2.1_7.2.2.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q28', pdf: '9702_s25_qp_12_Q28_Waves_7.2.1_7.5.1.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q21', pdf: '9702_s25_qp_14_Q21_Waves_7.2.2_7.2.1.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q24', pdf: '9702_w25_qp_12_Q24_Waves_7.2.1.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q24', pdf: '9702_w25_qp_13_Q24_Waves_7.2.1_7.5.1.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q26', pdf: '9702_w25_qp_14_Q26_Waves_7.2.1.pdf' }
+  ],
+  '7.2.2': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q25', pdf: '9702_s25_qp_11_Q25_Waves_7.2.1_7.2.2.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q25', pdf: '9702_s25_qp_12_Q25_Waves_7.2.2.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q24', pdf: '9702_s25_qp_13_Q24_Waves_7.1.2_7.2.2.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q21', pdf: '9702_s25_qp_14_Q21_Waves_7.2.2_7.2.1.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q25', pdf: '9702_w25_qp_13_Q25_Waves_7.2.2.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q24', pdf: '9702_w25_qp_14_Q24_Waves_7.1.2_7.2.2.pdf' }
+  ],
+  '7.3.1': [
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q24', pdf: '9702_m25_qp_12_Q24_Waves_7.3.1_7.3.2.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q27', pdf: '9702_w25_qp_14_Q27_waves_7.3.1_7.3.2.pdf' }
+  ],
+  '7.3.2': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q24', pdf: '9702_s25_qp_11_Q24_Waves_7.3.2.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q26', pdf: '9702_s25_qp_12_Q26_Waves_7.3.2.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q22', pdf: '9702_s25_qp_14_Q22_Waves_7.3.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q24', pdf: '9702_m25_qp_12_Q24_Waves_7.3.1_7.3.2.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q27', pdf: '9702_w25_qp_12_Q27_Waves_7.3.2.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q27', pdf: '9702_w25_qp_13_Q27_Waves_7.3.2.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q27', pdf: '9702_w25_qp_14_Q27_Waves_7.3.2.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q27', pdf: '9702_w25_qp_14_Q27_waves_7.3.1_7.3.2.pdf' }
+  ],
+  '7.4.1': [
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q23', pdf: '9702_s25_qp_14_Q23_Waves_7.4.1.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q22', pdf: '9702_m25_qp_12_Q22_Waves_7.4.1.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q25', pdf: '9702_w25_qp_14_Q25_Waves_7.4.1_7.4.3.pdf' }
+  ],
+  '7.4.2': [
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q27', pdf: '9702_s25_qp_13_Q27_Waves_7.4.2_7.4.3.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q23', pdf: '9702_m25_qp_12_Q23_Waves_7.4.2.pdf' }
+  ],
+  '7.4.3': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q27', pdf: '9702_s25_qp_11_Q27_Waves_7.4.3.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q27', pdf: '9702_s25_qp_13_Q27_Waves_7.4.2_7.4.3.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q25', pdf: '9702_w25_qp_14_Q25_Waves_7.4.1_7.4.3.pdf' }
+  ],
+  '7.5.1': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q28', pdf: '9702_s25_qp_11_Q28_Waves_7.5.1.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q28', pdf: '9702_s25_qp_12_Q28_Waves_7.2.1_7.5.1.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q25', pdf: '9702_s25_qp_13_Q25_Waves_7.5.1.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q24', pdf: '9702_w25_qp_13_Q24_Waves_7.2.1_7.5.1.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q28', pdf: '9702_w25_qp_14_Q28_waves_7.5.1.pdf' }
+  ],
+  '7.5.2': [
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q27', pdf: '9702_s25_qp_12_Q27_Waves_7.5.2.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q24', pdf: '9702_s25_qp_14_Q24_Waves_7.5.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q26', pdf: '9702_m25_qp_12_Q26_Waves_7.5.2.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q26', pdf: '9702_w25_qp_13_Q26_Waves_7.5.2.pdf' }
+  ],
+    '8.1.1': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q29', pdf: '9702_s25_qp_11_Q29_Superposition_8.1.1_8.1.3.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q30', pdf: '9702_s25_qp_12_Q30_Superposition_8.1.1_8.1.3.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q29', pdf: '9702_s25_qp_13_Q29_Superposition_8.1.1.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q19', pdf: '9702_s25_qp_14_Q19_Superposition_8.1.1_8.1.3_8.3.1.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q30', pdf: '9702_w25_qp_12_Q30_Superposition_8.1.1_8.1.3.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q31', pdf: '9702_w25_qp_12_Q31_Superposition_8.1.1_8.3.1_8.3.2.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q29', pdf: '9702_w25_qp_13_Q29_Superposition_8.1.1_8.1.2_8.1.3.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q29', pdf: '9702_w25_qp_14_Q29_Superposition_8.1.1_8.1.2_8.1.3.pdf' }
+  ],
+  '8.1.2': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q31', pdf: '9702_s25_qp_11_Q31_Superposition_8.1.2_8.1.4.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q25', pdf: '9702_s25_qp_14_Q25_Superposition_8.1.2_8.1.4.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q29', pdf: '9702_w25_qp_13_Q29_Superposition_8.1.1_8.1.2_8.1.3.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q29', pdf: '9702_w25_qp_14_Q29_Superposition_8.1.1_8.1.2_8.1.3.pdf' }
+  ],
+  '8.1.3': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q29', pdf: '9702_s25_qp_11_Q29_Superposition_8.1.1_8.1.3.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q30', pdf: '9702_s25_qp_12_Q30_Superposition_8.1.1_8.1.3.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q19', pdf: '9702_s25_qp_14_Q19_Superposition_8.1.1_8.1.3_8.3.1.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q30', pdf: '9702_w25_qp_12_Q30_Superposition_8.1.1_8.1.3.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q29', pdf: '9702_w25_qp_13_Q29_Superposition_8.1.1_8.1.2_8.1.3.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q29', pdf: '9702_w25_qp_14_Q29_Superposition_8.1.1_8.1.2_8.1.3.pdf' }
+  ],
+  '8.1.4': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q31', pdf: '9702_s25_qp_11_Q31_Superposition_8.1.2_8.1.4.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q25', pdf: '9702_s25_qp_14_Q25_Superposition_8.1.2_8.1.4.pdf' }
+  ],
+  '8.2.1': [
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q26', pdf: '9702_s25_qp_14_Q26_Superposition_8.2.1_8.2.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q28', pdf: '9702_m25_qp_12_Q28_Superposition_8.2.1_8.2.2.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q28', pdf: '9702_w25_qp_12_Q28_Superposition_8.2.1_8.2.2.pdf' }
+  ],
+  '8.2.2': [
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q30', pdf: '9702_s25_qp_13_Q30_Superposition_8.2.2.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q26', pdf: '9702_s25_qp_14_Q26_Superposition_8.2.1_8.2.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q28', pdf: '9702_m25_qp_12_Q28_Superposition_8.2.1_8.2.2.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q28', pdf: '9702_w25_qp_12_Q28_Superposition_8.2.1_8.2.2.pdf' }
+  ],
+  '8.3.1': [
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q19', pdf: '9702_s25_qp_14_Q19_Superposition_8.1.1_8.1.3_8.3.1.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q27', pdf: '9702_m25_qp_12_Q27_Superposition_8.3.1_8.3.3.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q31', pdf: '9702_w25_qp_12_Q31_Superposition_8.1.1_8.3.1_8.3.2.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q31', pdf: '9702_w25_qp_14_Q31_Superposition_8.3.1_8.3.3.pdf' }
+  ],
+  '8.3.2': [
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q28', pdf: '9702_s25_qp_13_Q28_Superposition_8.3.2_8.3.3.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q31', pdf: '9702_w25_qp_12_Q31_Superposition_8.1.1_8.3.1_8.3.2.pdf' }
+  ],
+  '8.3.3': [
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q28', pdf: '9702_s25_qp_13_Q28_Superposition_8.3.2_8.3.3.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q27', pdf: '9702_m25_qp_12_Q27_Superposition_8.3.1_8.3.3.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q31', pdf: '9702_w25_qp_14_Q31_Superposition_8.3.1_8.3.3.pdf' }
+  ],
+  '8.3.4': [
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q31', pdf: '9702_s25_qp_12_Q31_Superposition_8.3.4.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q31', pdf: '9702_s25_qp_13_Q31_Superposition_8.3.4.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q27', pdf: '9702_s25_qp_14_Q27_Superposition_8.3.4.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q28', pdf: '9702_w25_qp_13_Q28_Superposition_8.3.4.pdf' }
+  ],
+  '8.4.1': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q30', pdf: '9702_s25_qp_11_Q30_Superposition_8.4.1.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q29', pdf: '9702_s25_qp_12_Q29_Superposition_8.4.1_8.4.2.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q28', pdf: '9702_s25_qp_14_Q28_Superposition_8.4.1.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q29', pdf: '9702_m25_qp_12_Q29_Superposition_8.4.1.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q29', pdf: '9702_w25_qp_12_Q29_Superposition_8.4.1_8.4.2.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q30', pdf: '9702_w25_qp_13_Q30_Superposition_8.4.1.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q30', pdf: '9702_w25_qp_14_Q30_Superposition_8.4.1.pdf' }
+  ],
+  '8.4.2': [
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q29', pdf: '9702_s25_qp_12_Q29_Superposition_8.4.1_8.4.2.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q29', pdf: '9702_w25_qp_12_Q29_Superposition_8.4.1_8.4.2.pdf' }
+  ],
+    '9.1.1': [
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q30', pdf: '9702_m25_qp_12_Q30_Electricity_9.1.1_9.1.4.pdf' }
+  ],
+  '9.1.2': [
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q33', pdf: '9702_s25_qp_13_Q33_Electricity_9.1.2.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q32', pdf: '9702_w25_qp_13_Q32_Electricity_9.1.2.pdf' }
+  ],
+  '9.1.3': [
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q34', pdf: '9702_s25_qp_12_Q34_Electricity_9.1.3_9.3.2.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q29', pdf: '9702_s25_qp_14_Q29_Electricity_9.1.3_9.3.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q33', pdf: '9702_m25_qp_12_Q33_Electricity_9.1.3_9.3.2.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q35', pdf: '9702_w25_qp_14_Q35_Electricity_9.1.3.pdf' }
+  ],
+  '9.1.4': [
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q32', pdf: '9702_s25_qp_13_Q32_Electricity_9.1.4.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q30', pdf: '9702_m25_qp_12_Q30_Electricity_9.1.1_9.1.4.pdf' }
+  ],
+  '9.2.1': [
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q34', pdf: '9702_w25_qp_12_Q34_Electricity_9.2.1_9.2.2.pdf' }
+  ],
+  '9.2.2': [
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q34', pdf: '9702_w25_qp_12_Q34_Electricity_9.2.1_9.2.2.pdf' }
+  ],
+  '9.2.3': [
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q32', pdf: '9702_s25_qp_14_Q32_Electricity_9.2.3.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q32', pdf: '9702_m25_qp_12_Q32_Electricity_9.2.3_9.3.8.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q32', pdf: '9702_w25_qp_12_Q32_Electricity_9.2.3.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q31', pdf: '9702_w25_qp_13_Q31_Electricity_9.2.3.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q34', pdf: '9702_w25_qp_14_Q34_Electricity_9.2.3_9.3.6.pdf' }
+  ],
+  '9.3.1': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q32', pdf: '9702_s25_qp_11_Q32_Electricity_9.3.1_9.3.2.pdf' }
+  ],
+  '9.3.2': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q32', pdf: '9702_s25_qp_11_Q32_Electricity_9.3.1_9.3.2.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q32', pdf: '9702_s25_qp_12_Q32_Electricity_9.3.2_9.3.6.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q34', pdf: '9702_s25_qp_12_Q34_Electricity_9.1.3_9.3.2.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q34', pdf: '9702_s25_qp_13_Q34_Electricity_9.3.2_9.3.6.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q29', pdf: '9702_s25_qp_14_Q29_Electricity_9.1.3_9.3.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q33', pdf: '9702_m25_qp_12_Q33_Electricity_9.1.3_9.3.2.pdf' }
+  ],
+  '9.3.3': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q33', pdf: '9702_s25_qp_11_Q33_Electricity_9.3.3.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q33', pdf: '9702_s25_qp_12_Q33_Electricity_9.3.3_9.3.5.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q33', pdf: '9702_w25_qp_13_Q33_Electricity_9.3.3.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q32', pdf: '9702_w25_qp_14_Q32_Electricity_9.3.3_9.3.4.pdf' }
+  ],
+  '9.3.4': [
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q30', pdf: '9702_s25_qp_14_Q30_Electricity_9.3.4_9.3.7_9.3.8.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q32', pdf: '9702_w25_qp_14_Q32_Electricity_9.3.3_9.3.4.pdf' }
+  ],
+  '9.3.5': [
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q33', pdf: '9702_s25_qp_12_Q33_Electricity_9.3.3_9.3.5.pdf' }
+  ],
+  '9.3.6': [
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q32', pdf: '9702_s25_qp_12_Q32_Electricity_9.3.2_9.3.6.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q34', pdf: '9702_s25_qp_13_Q34_Electricity_9.3.2_9.3.6.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q31', pdf: '9702_s25_qp_14_Q31_Electricity_9.3.6.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q31', pdf: '9702_m25_qp_12_Q31_Electricity_9.3.6.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q33', pdf: '9702_w25_qp_12_Q33_Electricity_9.3.6.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q34', pdf: '9702_w25_qp_14_Q34_Electricity_9.2.3_9.3.6.pdf' }
+  ],
+  '9.3.7': [
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q30', pdf: '9702_s25_qp_14_Q30_Electricity_9.3.4_9.3.7_9.3.8.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q33', pdf: '9702_w25_qp_14_Q33_Electricity_9.3.7.pdf' }
+  ],
+  '9.3.8': [
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q30', pdf: '9702_s25_qp_14_Q30_Electricity_9.3.4_9.3.7_9.3.8.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q32', pdf: '9702_m25_qp_12_Q32_Electricity_9.2.3_9.3.8.pdf' }
+  ],
+    '10.1.1': [
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q34', pdf: '9702_m25_qp_12_Q34_D.C circuits_10.1.1.pdf' }
+  ],
+  '10.1.2': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q34', pdf: '9702_s25_qp_11_Q34_D.C. circuits_10.1.2_10.2.3_10.2.4_10.2.5.pdf' },
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q35', pdf: '9702_s25_qp_11_Q35_D.C. circuits_10.1.2_10.1.3_10.2.5_10.3.1_10.3.4.pdf' },
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q37', pdf: '9702_s25_qp_11_Q37_D.C. circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.5.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q35', pdf: '9702_s25_qp_12_Q35_D.C. circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.5.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q36', pdf: '9702_s25_qp_12_Q36_D.C. circuits_10.1.2_10.2.5.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q35', pdf: '9702_s25_qp_13_Q35_D.C. circuits_10.1.2_10.1.3_10.2.3_10.2.4_10.2.5_10.3.1.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q36', pdf: '9702_s25_qp_13_Q36_D.C. circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.5.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q37', pdf: '9702_s25_qp_13_Q37_D.C. circuits_10.1.2_10.1.3_10.2.3_10.2.5.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q33', pdf: '9702_s25_qp_14_Q33_D.C. circuits_10.1.2_10.1.3_10.1.5_10.2.4_10.2.5.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q35', pdf: '9702_s25_qp_14_Q35_D.C. circuits_10.1.2_10.1.3_10.2.3_10.2.4_10.2.5.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q36', pdf: '9702_s25_qp_14_Q36_D.C. circuits_10.1.2_10.1.3_10.1.4_10.3.2_10.3.3.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q35', pdf: '9702_m25_qp_12_Q35_D.C. circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.1_10.2.5.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q36', pdf: '9702_m25_qp_12_Q36_D.C. circuits_10.1.2_10.1.3_10.1.4_10.1.5.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q35', pdf: '9702_w25_qp_12_Q35_D_C__circuits_10.1.2_10.1.3_10.3.1_10.3.4.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q36', pdf: '9702_w25_qp_12_Q36_D_C__circuits_10.1.2_10.1.3_10.3.2_10.3.3.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q34', pdf: '9702_w25_qp_13_Q34_D_C__circuits_10.1.2_10.1.3_10.2.3_10.2.5.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q35', pdf: '9702_w25_qp_13_Q35_D_C__circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.4_10.2.5.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q36', pdf: '9702_w25_qp_13_Q36_D_C__circuits_10.1.2_10.2.4.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q37', pdf: '9702_w25_qp_13_Q37_D_C__circuits_10.1.2_10.2.1_10.2.5.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q36', pdf: '9702_w25_qp_14_Q36_D_C__circuits_10.1.2_10.1.3_10.2.3_10.2.4_10.2.5.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q37', pdf: '9702_w25_qp_14_Q37_D_C__circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.4_10.2.5.pdf' }
+  ],
+  '10.1.3': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q35', pdf: '9702_s25_qp_11_Q35_D.C. circuits_10.1.2_10.1.3_10.2.5_10.3.1_10.3.4.pdf' },
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q37', pdf: '9702_s25_qp_11_Q37_D.C. circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.5.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q35', pdf: '9702_s25_qp_12_Q35_D.C. circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.5.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q35', pdf: '9702_s25_qp_13_Q35_D.C. circuits_10.1.2_10.1.3_10.2.3_10.2.4_10.2.5_10.3.1.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q36', pdf: '9702_s25_qp_13_Q36_D.C. circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.5.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q37', pdf: '9702_s25_qp_13_Q37_D.C. circuits_10.1.2_10.1.3_10.2.3_10.2.5.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q33', pdf: '9702_s25_qp_14_Q33_D.C. circuits_10.1.2_10.1.3_10.1.5_10.2.4_10.2.5.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q35', pdf: '9702_s25_qp_14_Q35_D.C. circuits_10.1.2_10.1.3_10.2.3_10.2.4_10.2.5.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q36', pdf: '9702_s25_qp_14_Q36_D.C. circuits_10.1.2_10.1.3_10.1.4_10.3.2_10.3.3.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q35', pdf: '9702_m25_qp_12_Q35_D.C. circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.1_10.2.5.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q36', pdf: '9702_m25_qp_12_Q36_D.C. circuits_10.1.2_10.1.3_10.1.4_10.1.5.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q35', pdf: '9702_w25_qp_12_Q35_D_C__circuits_10.1.2_10.1.3_10.3.1_10.3.4.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q36', pdf: '9702_w25_qp_12_Q36_D_C__circuits_10.1.2_10.1.3_10.3.2_10.3.3.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q34', pdf: '9702_w25_qp_13_Q34_D_C__circuits_10.1.2_10.1.3_10.2.3_10.2.5.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q35', pdf: '9702_w25_qp_13_Q35_D_C__circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.4_10.2.5.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q35', pdf: '9702_w25_qp_14_Q35_D_C__circuits_10.1.3.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q36', pdf: '9702_w25_qp_14_Q36_D_C__circuits_10.1.2_10.1.3_10.2.3_10.2.4_10.2.5.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q37', pdf: '9702_w25_qp_14_Q37_D_C__circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.4_10.2.5.pdf' }
+  ],
+  '10.1.4': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q37', pdf: '9702_s25_qp_11_Q37_D.C. circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.5.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q35', pdf: '9702_s25_qp_12_Q35_D.C. circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.5.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q36', pdf: '9702_s25_qp_13_Q36_D.C. circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.5.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q36', pdf: '9702_s25_qp_14_Q36_D.C. circuits_10.1.2_10.1.3_10.1.4_10.3.2_10.3.3.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q35', pdf: '9702_m25_qp_12_Q35_D.C. circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.1_10.2.5.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q36', pdf: '9702_m25_qp_12_Q36_D.C. circuits_10.1.2_10.1.3_10.1.4_10.1.5.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q35', pdf: '9702_w25_qp_13_Q35_D_C__circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.4_10.2.5.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q37', pdf: '9702_w25_qp_14_Q37_D_C__circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.4_10.2.5.pdf' }
+  ],
+  '10.1.5': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q37', pdf: '9702_s25_qp_11_Q37_D.C. circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.5.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q35', pdf: '9702_s25_qp_12_Q35_D.C. circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.5.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q36', pdf: '9702_s25_qp_13_Q36_D.C. circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.5.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q33', pdf: '9702_s25_qp_14_Q33_D.C. circuits_10.1.2_10.1.3_10.1.5_10.2.4_10.2.5.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q35', pdf: '9702_m25_qp_12_Q35_D.C. circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.1_10.2.5.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q36', pdf: '9702_m25_qp_12_Q36_D.C. circuits_10.1.2_10.1.3_10.1.4_10.1.5.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q35', pdf: '9702_w25_qp_13_Q35_D_C__circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.4_10.2.5.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q37', pdf: '9702_w25_qp_14_Q37_D_C__circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.4_10.2.5.pdf' }
+  ],
+  '10.2.1': [
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q37', pdf: '9702_s25_qp_12_Q37_D.C. circuits_10.2.1_10.2.2.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q34', pdf: '9702_s25_qp_14_Q34_D.C. circuits_10.2.1_10.2.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q35', pdf: '9702_m25_qp_12_Q35_D.C. circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.1_10.2.5.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q37', pdf: '9702_w25_qp_12_Q37_D_C__circuits_10.2.1_10.2.2.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q37', pdf: '9702_w25_qp_13_Q37_D_C__circuits_10.1.2_10.2.1_10.2.5.pdf' }
+  ],
+  '10.2.2': [
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q37', pdf: '9702_s25_qp_12_Q37_D.C. circuits_10.2.1_10.2.2.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q34', pdf: '9702_s25_qp_14_Q34_D.C. circuits_10.2.1_10.2.2.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q37', pdf: '9702_w25_qp_12_Q37_D_C__circuits_10.2.1_10.2.2.pdf' }
+  ],
+  '10.2.3': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q34', pdf: '9702_s25_qp_11_Q34_D.C. circuits_10.1.2_10.2.3_10.2.4_10.2.5.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q35', pdf: '9702_s25_qp_13_Q35_D.C. circuits_10.1.2_10.1.3_10.2.3_10.2.4_10.2.5_10.3.1.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q37', pdf: '9702_s25_qp_13_Q37_D.C. circuits_10.1.2_10.1.3_10.2.3_10.2.5.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q35', pdf: '9702_s25_qp_14_Q35_D.C. circuits_10.1.2_10.1.3_10.2.3_10.2.4_10.2.5.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q34', pdf: '9702_w25_qp_13_Q34_D_C__circuits_10.1.2_10.1.3_10.2.3_10.2.5.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q36', pdf: '9702_w25_qp_14_Q36_D_C__circuits_10.1.2_10.1.3_10.2.3_10.2.4_10.2.5.pdf' }
+  ],
+  '10.2.4': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q34', pdf: '9702_s25_qp_11_Q34_D.C. circuits_10.1.2_10.2.3_10.2.4_10.2.5.pdf' },
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q36', pdf: '9702_s25_qp_11_Q36_D.C. circuits_10.2.4.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q35', pdf: '9702_s25_qp_13_Q35_D.C. circuits_10.1.2_10.1.3_10.2.3_10.2.4_10.2.5_10.3.1.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q33', pdf: '9702_s25_qp_14_Q33_D.C. circuits_10.1.2_10.1.3_10.1.5_10.2.4_10.2.5.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q35', pdf: '9702_s25_qp_14_Q35_D.C. circuits_10.1.2_10.1.3_10.2.3_10.2.4_10.2.5.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q35', pdf: '9702_w25_qp_13_Q35_D_C__circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.4_10.2.5.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q36', pdf: '9702_w25_qp_13_Q36_D_C__circuits_10.1.2_10.2.4.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q36', pdf: '9702_w25_qp_14_Q36_D_C__circuits_10.1.2_10.1.3_10.2.3_10.2.4_10.2.5.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q37', pdf: '9702_w25_qp_14_Q37_D_C__circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.4_10.2.5.pdf' }
+  ],
+  '10.2.5': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q34', pdf: '9702_s25_qp_11_Q34_D.C. circuits_10.1.2_10.2.3_10.2.4_10.2.5.pdf' },
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q35', pdf: '9702_s25_qp_11_Q35_D.C. circuits_10.1.2_10.1.3_10.2.5_10.3.1_10.3.4.pdf' },
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q37', pdf: '9702_s25_qp_11_Q37_D.C. circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.5.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q35', pdf: '9702_s25_qp_12_Q35_D.C. circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.5.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q36', pdf: '9702_s25_qp_12_Q36_D.C. circuits_10.1.2_10.2.5.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q35', pdf: '9702_s25_qp_13_Q35_D.C. circuits_10.1.2_10.1.3_10.2.3_10.2.4_10.2.5_10.3.1.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q36', pdf: '9702_s25_qp_13_Q36_D.C. circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.5.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q37', pdf: '9702_s25_qp_13_Q37_D.C. circuits_10.1.2_10.1.3_10.2.3_10.2.5.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q33', pdf: '9702_s25_qp_14_Q33_D.C. circuits_10.1.2_10.1.3_10.1.5_10.2.4_10.2.5.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q35', pdf: '9702_s25_qp_14_Q35_D.C. circuits_10.1.2_10.1.3_10.2.3_10.2.4_10.2.5.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q35', pdf: '9702_m25_qp_12_Q35_D.C. circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.1_10.2.5.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q34', pdf: '9702_w25_qp_13_Q34_D_C__circuits_10.1.2_10.1.3_10.2.3_10.2.5.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q35', pdf: '9702_w25_qp_13_Q35_D_C__circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.4_10.2.5.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q37', pdf: '9702_w25_qp_13_Q37_D_C__circuits_10.1.2_10.2.1_10.2.5.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q36', pdf: '9702_w25_qp_14_Q36_D_C__circuits_10.1.2_10.1.3_10.2.3_10.2.4_10.2.5.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q37', pdf: '9702_w25_qp_14_Q37_D_C__circuits_10.1.2_10.1.3_10.1.4_10.1.5_10.2.4_10.2.5.pdf' }
+  ],
+  '10.3.1': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q35', pdf: '9702_s25_qp_11_Q35_D.C. circuits_10.1.2_10.1.3_10.2.5_10.3.1_10.3.4.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q35', pdf: '9702_s25_qp_13_Q35_D.C. circuits_10.1.2_10.1.3_10.2.3_10.2.4_10.2.5_10.3.1.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q35', pdf: '9702_w25_qp_12_Q35_D_C__circuits_10.1.2_10.1.3_10.3.1_10.3.4.pdf' }
+  ],
+  '10.3.2': [
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q36', pdf: '9702_s25_qp_14_Q36_D.C. circuits_10.1.2_10.1.3_10.1.4_10.3.2_10.3.3.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q36', pdf: '9702_w25_qp_12_Q36_D_C__circuits_10.1.2_10.1.3_10.3.2_10.3.3.pdf' }
+  ],
+  '10.3.3': [
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q36', pdf: '9702_s25_qp_14_Q36_D.C. circuits_10.1.2_10.1.3_10.1.4_10.3.2_10.3.3.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q36', pdf: '9702_w25_qp_12_Q36_D_C__circuits_10.1.2_10.1.3_10.3.2_10.3.3.pdf' }
+  ],
+  '10.3.4': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q35', pdf: '9702_s25_qp_11_Q35_D.C. circuits_10.1.2_10.1.3_10.2.5_10.3.1_10.3.4.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q35', pdf: '9702_w25_qp_12_Q35_D_C__circuits_10.1.2_10.1.3_10.3.1_10.3.4.pdf' }
+  ],
+    '11.1.2': [
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q37', pdf: '9702_s25_qp_14_Q37_Particle physics_11.1.2_11.1.3_11.1.5.pdf' },
+    { paper: '9702/11/O/N/25', paper_full: 'November 2025 · Paper 11', qnum: 'Q39', pdf: '9702_w25_qp_11_Q39_Particle__physics_11.1.2_11.1.3_11.1.5.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q39', pdf: '9702_w25_qp_13_Q39_Particle__physics_11.1.2_11.1.3_11.1.5.pdf' }
+  ],
+  '11.1.3': [
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q37', pdf: '9702_s25_qp_14_Q37_Particle physics_11.1.2_11.1.3_11.1.5.pdf' },
+    { paper: '9702/11/O/N/25', paper_full: 'November 2025 · Paper 11', qnum: 'Q39', pdf: '9702_w25_qp_11_Q39_Particle__physics_11.1.2_11.1.3_11.1.5.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q39', pdf: '9702_w25_qp_13_Q39_Particle__physics_11.1.2_11.1.3_11.1.5.pdf' }
+  ],
+  '11.1.4': [
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q38', pdf: '9702_s25_qp_12_Q38_Particle physics_11.1.4.pdf' }
+  ],
+  '11.1.5': [
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q37', pdf: '9702_s25_qp_14_Q37_Particle physics_11.1.2_11.1.3_11.1.5.pdf' },
+    { paper: '9702/11/O/N/25', paper_full: 'November 2025 · Paper 11', qnum: 'Q38', pdf: '9702_w25_qp_11_Q38_Particle__physics_11.1.11_11.1.5_11.1.6.pdf' },
+    { paper: '9702/11/O/N/25', paper_full: 'November 2025 · Paper 11', qnum: 'Q39', pdf: '9702_w25_qp_11_Q39_Particle__physics_11.1.2_11.1.3_11.1.5.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q40', pdf: '9702_w25_qp_12_Q40_Particle__physics_11.1.11_11.1.5_11.1.6.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q38', pdf: '9702_w25_qp_13_Q38_Particle__physics_11.1.11_11.1.5_11.1.6.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q39', pdf: '9702_w25_qp_13_Q39_Particle__physics_11.1.2_11.1.3_11.1.5.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q39', pdf: '9702_w25_qp_14_Q39_Particle__physics_11.1.11_11.1.5_11.1.6.pdf' }
+  ],
+  '11.1.6': [
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q40', pdf: '9702_s25_qp_13_Q40_Particle physics_11.1.11_11.1.6.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q38', pdf: '9702_s25_qp_14_Q38_Particle physics_11.1.11_11.1.6.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q38', pdf: '9702_m25_qp_12_Q38_Particle physics_11.1.6.pdf' },
+    { paper: '9702/11/O/N/25', paper_full: 'November 2025 · Paper 11', qnum: 'Q38', pdf: '9702_w25_qp_11_Q38_Particle__physics_11.1.11_11.1.5_11.1.6.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q40', pdf: '9702_w25_qp_12_Q40_Particle__physics_11.1.11_11.1.5_11.1.6.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q38', pdf: '9702_w25_qp_13_Q38_Particle__physics_11.1.11_11.1.5_11.1.6.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q39', pdf: '9702_w25_qp_14_Q39_Particle__physics_11.1.11_11.1.5_11.1.6.pdf' }
+  ],
+  '11.1.7': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q39', pdf: '9702_s25_qp_11_Q39_Particle physics_11.1.10_11.1.7.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q38', pdf: '9702_s25_qp_13_Q38_Particle physics_11.1.9_11.1.7.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q39', pdf: '9702_w25_qp_12_Q39_Particle__physics_11.1.9_11.1.7_11.1.11.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q38', pdf: '9702_w25_qp_14_Q38_Particle__physics_11.1.9_11.1.7_11.1.11.pdf' }
+  ],
+  '11.1.8': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q38', pdf: '9702_s25_qp_11_Q38_Particle physics_11.2.1_11.2.4_11.2.6_11.1.8.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q39', pdf: '9702_s25_qp_14_Q39_Particle physics_11.2.6_11.1.8.pdf' },
+    { paper: '9702/11/O/N/25', paper_full: 'November 2025 · Paper 11', qnum: 'Q40', pdf: '9702_w25_qp_11_Q40_Particle__physics_11.2.6_11.1.8.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q40', pdf: '9702_w25_qp_13_Q40_Particle__physics_11.2.6_11.1.8.pdf' }
+  ],
+  '11.1.9': [
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q38', pdf: '9702_s25_qp_13_Q38_Particle physics_11.1.9_11.1.7.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q39', pdf: '9702_w25_qp_12_Q39_Particle__physics_11.1.9_11.1.7_11.1.11.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q38', pdf: '9702_w25_qp_14_Q38_Particle__physics_11.1.9_11.1.7_11.1.11.pdf' }
+  ],
+  '11.1.10': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q39', pdf: '9702_s25_qp_11_Q39_Particle physics_11.1.10_11.1.7.pdf' }
+  ],
+  '11.1.11': [
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q40', pdf: '9702_s25_qp_12_Q40_Particle physics_11.2.5_11.2.3_11.1.11.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q40', pdf: '9702_s25_qp_13_Q40_Particle physics_11.1.11_11.1.6.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q38', pdf: '9702_s25_qp_14_Q38_Particle physics_11.1.11_11.1.6.pdf' },
+    { paper: '9702/11/O/N/25', paper_full: 'November 2025 · Paper 11', qnum: 'Q38', pdf: '9702_w25_qp_11_Q38_Particle__physics_11.1.11_11.1.5_11.1.6.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q39', pdf: '9702_w25_qp_12_Q39_Particle__physics_11.1.9_11.1.7_11.1.11.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q40', pdf: '9702_w25_qp_12_Q40_Particle__physics_11.1.11_11.1.5_11.1.6.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q38', pdf: '9702_w25_qp_13_Q38_Particle__physics_11.1.11_11.1.5_11.1.6.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q38', pdf: '9702_w25_qp_14_Q38_Particle__physics_11.1.9_11.1.7_11.1.11.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q39', pdf: '9702_w25_qp_14_Q39_Particle__physics_11.1.11_11.1.5_11.1.6.pdf' }
+  ],
+  '11.2.1': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q38', pdf: '9702_s25_qp_11_Q38_Particle physics_11.2.1_11.2.4_11.2.6_11.1.8.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q40', pdf: '9702_s25_qp_14_Q40_Particle physics_11.2.1.pdf' }
+  ],
+  '11.2.2': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q40', pdf: '9702_s25_qp_11_Q40_Particle physics_11.2.4_11.2.2.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q39', pdf: '9702_s25_qp_13_Q39_Particle physics_11.2.2.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q40', pdf: '9702_m25_qp_12_Q40_Particle physics_11.2.2.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q38', pdf: '9702_w25_qp_12_Q38_Particle__physics_11.2.5_11.2.2.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q40', pdf: '9702_w25_qp_14_Q40_Particle__physics_11.2.4_11.2.2.pdf' }
+  ],
+  '11.2.3': [
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q40', pdf: '9702_s25_qp_12_Q40_Particle physics_11.2.5_11.2.3_11.1.11.pdf' }
+  ],
+  '11.2.4': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q38', pdf: '9702_s25_qp_11_Q38_Particle physics_11.2.1_11.2.4_11.2.6_11.1.8.pdf' },
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q40', pdf: '9702_s25_qp_11_Q40_Particle physics_11.2.4_11.2.2.pdf' },
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q39', pdf: '9702_s25_qp_12_Q39_Particle physics_11.2.4.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q37', pdf: '9702_m25_qp_12_Q37_Particle physics_11.2.4.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q40', pdf: '9702_w25_qp_14_Q40_Particle__physics_11.2.4_11.2.2.pdf' }
+  ],
+  '11.2.5': [
+    { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q40', pdf: '9702_s25_qp_12_Q40_Particle physics_11.2.5_11.2.3_11.1.11.pdf' },
+    { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q39', pdf: '9702_m25_qp_12_Q39_Particle physics_11.2.5.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q38', pdf: '9702_w25_qp_12_Q38_Particle__physics_11.2.5_11.2.2.pdf' }
+  ],
+  '11.2.6': [
+    { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q38', pdf: '9702_s25_qp_11_Q38_Particle physics_11.2.1_11.2.4_11.2.6_11.1.8.pdf' },
+    { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q39', pdf: '9702_s25_qp_14_Q39_Particle physics_11.2.6_11.1.8.pdf' },
+    { paper: '9702/11/O/N/25', paper_full: 'November 2025 · Paper 11', qnum: 'Q40', pdf: '9702_w25_qp_11_Q40_Particle__physics_11.2.6_11.1.8.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q40', pdf: '9702_w25_qp_13_Q40_Particle__physics_11.2.6_11.1.8.pdf' }
+  ],
+};
+
+const syllabus = [
+  {
+    "topic": "1",
+    "title": "PHYSICAL QUANTITIES AND UNITS",
+    "subs": [
+      {
+        "code": "1.1",
+        "title": "Physical quantities",
+        "subsubs": [
+          { "code": "1.1.1", "desc": "Understand that all physical quantities consist of a numerical magnitude and a unit" },
+          { "code": "1.1.2", "desc": "Make reasonable estimates of physical quantities included within the syllabus" }
+        ]
+      },
+      {
+        "code": "1.2",
+        "title": "SI units",
+        "subsubs": [
+          { "code": "1.2.1", "desc": "Recall SI base quantities and their units: mass (kg), length (m), time (s), current (A), temperature (K)" },
+          { "code": "1.2.2", "desc": "Express derived units as products or quotients of SI base units" },
+          { "code": "1.2.3", "desc": "Use SI base units to check the homogeneity of physical equations" },
+          { "code": "1.2.4", "desc": "Recall and use prefixes: pico (p), nano (n), micro (μ), milli (m), centi (c), deci (d), kilo (k), mega (M), giga (G), tera (T)" }
+        ]
+      },
+      {
+        "code": "1.3",
+        "title": "Errors and uncertainties",
+        "subsubs": [
+          { "code": "1.3.1", "desc": "Understand and explain systematic errors (including zero errors) and random errors" },
+          { "code": "1.3.2", "desc": "Understand the distinction between precision and accuracy" },
+          { "code": "1.3.3", "desc": "Assess uncertainty in a derived quantity by simple addition of absolute or percentage uncertainties" }
+        ]
+      },
+      {
+        "code": "1.4",
+        "title": "Scalars and vectors",
+        "subsubs": [
+          { "code": "1.4.1", "desc": "Understand the difference between scalar and vector quantities" },
+          { "code": "1.4.2", "desc": "Add and subtract coplanar vectors" },
+          { "code": "1.4.3", "desc": "Represent a vector as two perpendicular components" }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "2",
+    "title": "KINEMATICS",
+    "subs": [
+      {
+        "code": "2.1",
+        "title": "Equations of motion",
+        "subsubs": [
+          { "code": "2.1.1", "desc": "Define and use distance, displacement, speed, velocity and acceleration" },
+          { "code": "2.1.2", "desc": "Use graphical methods to represent distance, displacement, speed, velocity and acceleration" },
+          { "code": "2.1.3", "desc": "Determine displacement from the area under a velocity-time graph" },
+          { "code": "2.1.4", "desc": "Determine velocity using the gradient of a displacement-time graph" },
+          { "code": "2.1.5", "desc": "Determine acceleration using the gradient of a velocity-time graph" },
+          { "code": "2.1.6", "desc": "Derive equations for uniformly accelerated motion in a straight line" },
+          { "code": "2.1.7", "desc": "Solve problems using equations of uniformly accelerated motion, including free fall without air resistance" },
+          { "code": "2.1.8", "desc": "Describe an experiment to determine the acceleration of free fall using a falling object" },
+          { "code": "2.1.9", "desc": "Describe and explain motion due to uniform velocity in one direction and uniform acceleration in a perpendicular direction" }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "3",
+    "title": "DYNAMICS",
+    "subs": [
+      {
+        "code": "3.1",
+        "title": "Momentum and Newton's laws of motion",
+        "subsubs": [
+          { "code": "3.1.1", "desc": "Understand that mass is the property of an object that resists change in motion" },
+          { "code": "3.1.2", "desc": "Recall F = ma and solve problems using it" },
+          { "code": "3.1.3", "desc": "Define and use linear momentum as the product of mass and velocity" },
+          { "code": "3.1.4", "desc": "Define and use force as rate of change of momentum" },
+          { "code": "3.1.5", "desc": "State and apply each of Newton's laws of motion" },
+          { "code": "3.1.6", "desc": "Describe and use weight as the effect of a gravitational field on a mass (W = mg)" }
+        ]
+      },
+      {
+        "code": "3.2",
+        "title": "Non-uniform motion",
+        "subsubs": [
+          { "code": "3.2.1", "desc": "Show qualitative understanding of frictional forces and viscous/drag forces including air resistance" },
+          { "code": "3.2.2", "desc": "Describe and explain qualitatively the motion of objects in a uniform gravitational field with air resistance" },
+          { "code": "3.2.3", "desc": "Understand that objects moving against a resistive force may reach terminal velocity" }
+        ]
+      },
+      {
+        "code": "3.3",
+        "title": "Linear momentum and its conservation",
+        "subsubs": [
+          { "code": "3.3.1", "desc": "State the principle of conservation of momentum" },
+          { "code": "3.3.2", "desc": "Apply conservation of momentum to simple problems, including elastic and inelastic interactions in one and two dimensions" },
+          { "code": "3.3.3", "desc": "Recall that for an elastic collision, total kinetic energy is conserved and relative speed of approach equals relative speed of separation" },
+          { "code": "3.3.4", "desc": "Understand that while momentum is always conserved, some kinetic energy may change" }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "4",
+    "title": "FORCES, DENSITY AND PRESSURE",
+    "subs": [
+      {
+        "code": "4.1",
+        "title": "Turning effects of forces",
+        "subsubs": [
+          { "code": "4.1.1", "desc": "Understand that weight may be taken as acting at the centre of gravity" },
+          { "code": "4.1.2", "desc": "Define and apply the moment of a force" },
+          { "code": "4.1.3", "desc": "Understand that a couple is a pair of forces that acts to produce rotation only" },
+          { "code": "4.1.4", "desc": "Define and apply the torque of a couple" }
+        ]
+      },
+      {
+        "code": "4.2",
+        "title": "Equilibrium of forces",
+        "subsubs": [
+          { "code": "4.2.1", "desc": "State and apply the principle of moments" },
+          { "code": "4.2.2", "desc": "Understand that when there is no resultant force and no resultant torque, a system is in equilibrium" },
+          { "code": "4.2.3", "desc": "Use a vector triangle to represent coplanar forces in equilibrium" }
+        ]
+      },
+      {
+        "code": "4.3",
+        "title": "Density and pressure",
+        "subsubs": [
+          { "code": "4.3.1", "desc": "Define and use density" },
+          { "code": "4.3.2", "desc": "Define and use pressure" },
+          { "code": "4.3.3", "desc": "Derive and use the equation for hydrostatic pressure: Δp = ρgΔh" },
+          { "code": "4.3.4", "desc": "Understand that upthrust is due to a difference in hydrostatic pressure" },
+          { "code": "4.3.5", "desc": "Calculate upthrust using Archimedes' principle: F = ρgV" }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "5",
+    "title": "WORK, ENERGY AND POWER",
+    "subs": [
+      {
+        "code": "5.1",
+        "title": "Energy conservation",
+        "subsubs": [
+          { "code": "5.1.1", "desc": "Understand work done = force × displacement in the direction of the force" },
+          { "code": "5.1.2", "desc": "Recall and apply the principle of conservation of energy" },
+          { "code": "5.1.3", "desc": "Recall that efficiency = useful energy output / total energy input" },
+          { "code": "5.1.4", "desc": "Use the concept of efficiency to solve problems" },
+          { "code": "5.1.5", "desc": "Define power as work done per unit time" },
+          { "code": "5.1.6", "desc": "Solve problems using P = W/t" },
+          { "code": "5.1.7", "desc": "Derive P = Fv and use it to solve problems" }
+        ]
+      },
+      {
+        "code": "5.2",
+        "title": "Gravitational potential energy and kinetic energy",
+        "subsubs": [
+          { "code": "5.2.1", "desc": "Derive and use ΔEp = mgΔh for gravitational potential energy changes" },
+          { "code": "5.2.2", "desc": "Derive and use Ek = ½mv² for kinetic energy" }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "6",
+    "title": "DEFORMATION OF SOLIDS",
+    "subs": [
+      {
+        "code": "6.1",
+        "title": "Stress and strain",
+        "subsubs": [
+          { "code": "6.1.1", "desc": "Understand that deformation is caused by tensile or compressive forces (one dimension only)" },
+          { "code": "6.1.2", "desc": "Understand and use load, extension, compression and limit of proportionality" },
+          { "code": "6.1.3", "desc": "Recall and use Hooke's law" },
+          { "code": "6.1.4", "desc": "Recall and use k = F/x for spring constant" },
+          { "code": "6.1.5", "desc": "Define and use stress, strain and the Young modulus" },
+          { "code": "6.1.6", "desc": "Describe an experiment to determine the Young modulus of a metal wire" }
+        ]
+      },
+      {
+        "code": "6.2",
+        "title": "Elastic and plastic behaviour",
+        "subsubs": [
+          { "code": "6.2.1", "desc": "Understand elastic deformation, plastic deformation and elastic limit" },
+          { "code": "6.2.2", "desc": "Understand that the area under the force-extension graph represents work done" },
+          { "code": "6.2.3", "desc": "Determine elastic potential energy from the area under the force-extension graph" },
+          { "code": "6.2.4", "desc": "Recall and use Ep = ½Fx = ½kx² (within limit of proportionality)" }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "7",
+    "title": "WAVES",
+    "subs": [
+      {
+        "code": "7.1",
+        "title": "Progressive waves",
+        "subsubs": [
+          { "code": "7.1.1", "desc": "Describe wave motion as illustrated by vibration in ropes, springs and ripple tanks" },
+          { "code": "7.1.2", "desc": "Understand and use displacement, amplitude, phase difference, period, frequency, wavelength and speed" },
+          { "code": "7.1.3", "desc": "Understand the use of time-base and y-gain of a CRO to determine frequency and amplitude" },
+          { "code": "7.1.4", "desc": "Derive and use the wave equation v = fλ" },
+          { "code": "7.1.5", "desc": "Understand that energy is transferred by a progressive wave" },
+          { "code": "7.1.6", "desc": "Recall and use intensity = power/area and intensity ∝ (amplitude)²" }
+        ]
+      },
+      {
+        "code": "7.2",
+        "title": "Transverse and longitudinal waves",
+        "subsubs": [
+          { "code": "7.2.1", "desc": "Compare transverse and longitudinal waves" },
+          { "code": "7.2.2", "desc": "Analyse and interpret graphical representations of transverse and longitudinal waves" }
+        ]
+      },
+      {
+        "code": "7.3",
+        "title": "Doppler effect for sound waves",
+        "subsubs": [
+          { "code": "7.3.1", "desc": "Understand observed frequency differs from source frequency when source moves relative to stationary observer" },
+          { "code": "7.3.2", "desc": "Use f₀ = fₛV/(V ± Vₛ) for observed frequency" }
+        ]
+      },
+      {
+        "code": "7.4",
+        "title": "Electromagnetic spectrum",
+        "subsubs": [
+          { "code": "7.4.1", "desc": "State that all EM waves are transverse and travel at speed c in free space" },
+          { "code": "7.4.2", "desc": "Recall approximate wavelength ranges from radio waves to γ-rays" },
+          { "code": "7.4.3", "desc": "Recall visible light range: 400-700 nm" }
+        ]
+      },
+      {
+        "code": "7.5",
+        "title": "Polarisation",
+        "subsubs": [
+          { "code": "7.5.1", "desc": "Understand polarisation is a phenomenon associated with transverse waves" },
+          { "code": "7.5.2", "desc": "Recall and use Malus's law: I = I₀cos²θ" }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "8",
+    "title": "SUPERPOSITION",
+    "subs": [
+      {
+        "code": "8.1",
+        "title": "Stationary waves",
+        "subsubs": [
+          { "code": "8.1.1", "desc": "Explain and use the principle of superposition" },
+          { "code": "8.1.2", "desc": "Show understanding of experiments demonstrating stationary waves using microwaves, stretched strings and air columns" },
+          { "code": "8.1.3", "desc": "Explain formation of stationary waves graphically; identify nodes and antinodes" },
+          { "code": "8.1.4", "desc": "Understand how wavelength may be determined from positions of nodes or antinodes" }
+        ]
+      },
+      {
+        "code": "8.2",
+        "title": "Diffraction",
+        "subsubs": [
+          { "code": "8.2.1", "desc": "Explain the meaning of diffraction" },
+          { "code": "8.2.2", "desc": "Show understanding of experiments demonstrating diffraction, including effect of gap width relative to wavelength" }
+        ]
+      },
+      {
+        "code": "8.3",
+        "title": "Interference",
+        "subsubs": [
+          { "code": "8.3.1", "desc": "Understand interference and coherence" },
+          { "code": "8.3.2", "desc": "Show understanding of two-source interference experiments using water waves, sound, light and microwaves" },
+          { "code": "8.3.3", "desc": "Understand conditions required for two-source interference fringes to be observed" },
+          { "code": "8.3.4", "desc": "Recall and use λ = ax/D for double-slit interference" }
+        ]
+      },
+      {
+        "code": "8.4",
+        "title": "The diffraction grating",
+        "subsubs": [
+          { "code": "8.4.1", "desc": "Recall and use d sin θ = nλ" },
+          { "code": "8.4.2", "desc": "Describe use of a diffraction grating to determine wavelength of light" }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "9",
+    "title": "ELECTRICITY",
+    "subs": [
+      {
+        "code": "9.1",
+        "title": "Electric current",
+        "subsubs": [
+          { "code": "9.1.1", "desc": "Understand electric current as a flow of charge carriers" },
+          { "code": "9.1.2", "desc": "Understand that charge on charge carriers is quantised" },
+          { "code": "9.1.3", "desc": "Recall and use Q = It" },
+          { "code": "9.1.4", "desc": "Use I = Anvq for a current-carrying conductor" }
+        ]
+      },
+      {
+        "code": "9.2",
+        "title": "Potential difference and power",
+        "subsubs": [
+          { "code": "9.2.1", "desc": "Define potential difference as energy transferred per unit charge" },
+          { "code": "9.2.2", "desc": "Recall and use V = W/Q" },
+          { "code": "9.2.3", "desc": "Recall and use P = VI, P = I²R and P = V²/R" }
+        ]
+      },
+      {
+        "code": "9.3",
+        "title": "Resistance and resistivity",
+        "subsubs": [
+          { "code": "9.3.1", "desc": "Define resistance" },
+          { "code": "9.3.2", "desc": "Recall and use V = IR" },
+          { "code": "9.3.3", "desc": "Sketch I-V characteristics of metallic conductor, semiconductor diode and filament lamp" },
+          { "code": "9.3.4", "desc": "Explain that resistance of a filament lamp increases with current due to temperature increase" },
+          { "code": "9.3.5", "desc": "State Ohm's law" },
+          { "code": "9.3.6", "desc": "Recall and use R = ρL/A" },
+          { "code": "9.3.7", "desc": "Understand LDR resistance decreases as light intensity increases" },
+          { "code": "9.3.8", "desc": "Understand thermistor resistance decreases as temperature increases (negative temperature coefficient)" }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "10",
+    "title": "D.C. CIRCUITS",
+    "subs": [
+      {
+        "code": "10.1",
+        "title": "Practical circuits",
+        "subsubs": [
+          { "code": "10.1.1", "desc": "Recall and use circuit symbols from the syllabus" },
+          { "code": "10.1.2", "desc": "Draw and interpret circuit diagrams" },
+          { "code": "10.1.3", "desc": "Define e.m.f. as energy transferred per unit charge in driving charge around a complete circuit" },
+          { "code": "10.1.4", "desc": "Distinguish between e.m.f. and p.d. in terms of energy considerations" },
+          { "code": "10.1.5", "desc": "Understand effects of internal resistance on terminal potential difference" }
+        ]
+      },
+      {
+        "code": "10.2",
+        "title": "Kirchhoff's laws",
+        "subsubs": [
+          { "code": "10.2.1", "desc": "Recall Kirchhoff's first law (conservation of charge)" },
+          { "code": "10.2.2", "desc": "Recall Kirchhoff's second law (conservation of energy)" },
+          { "code": "10.2.3", "desc": "Derive and use formula for combined resistance of resistors in series" },
+          { "code": "10.2.4", "desc": "Derive and use formula for combined resistance of resistors in parallel" },
+          { "code": "10.2.5", "desc": "Use Kirchhoff's laws to solve simple circuit problems" }
+        ]
+      },
+      {
+        "code": "10.3",
+        "title": "Potential dividers",
+        "subsubs": [
+          { "code": "10.3.1", "desc": "Understand the principle of a potential divider circuit" },
+          { "code": "10.3.2", "desc": "Recall and use the potentiometer as a means of comparing potential differences" },
+          { "code": "10.3.3", "desc": "Understand the use of a galvanometer in null methods" },
+          { "code": "10.3.4", "desc": "Explain use of thermistors and LDRs in potential dividers" }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "11",
+    "title": "PARTICLE PHYSICS",
+    "subs": [
+      {
+        "code": "11.1",
+        "title": "Atoms, nuclei and radiation",
+        "subsubs": [
+          { "code": "11.1.1", "desc": "Infer from α-particle scattering experiment the existence and small size of the nucleus" },
+          { "code": "11.1.2", "desc": "Describe a simple model for the nuclear atom (protons, neutrons, orbital electrons)" },
+          { "code": "11.1.3", "desc": "Distinguish between nucleon number and proton number" },
+          { "code": "11.1.4", "desc": "Understand isotopes as forms of the same element with different numbers of neutrons" },
+          { "code": "11.1.5", "desc": "Understand and use notation ᴬZX for nuclides" },
+          { "code": "11.1.6", "desc": "Understand that nucleon number and charge are conserved in nuclear processes" },
+          { "code": "11.1.7", "desc": "Describe composition, mass and charge of α, β and γ radiations (β⁻ and β⁺ included)" },
+          { "code": "11.1.8", "desc": "Understand antiparticles have same mass but opposite charge; positron is antiparticle of electron" },
+          { "code": "11.1.9", "desc": "State antineutrinos are produced in β⁻ decay and neutrinos in β⁺ decay" },
+          { "code": "11.1.10", "desc": "Understand α-particles have discrete energies but β-particles have continuous range due to (anti)neutrino emission" },
+          { "code": "11.1.11", "desc": "Represent α and β decay by radioactive decay equations" },
+          { "code": "11.1.12", "desc": "Use the unified atomic mass unit (u) as a unit of mass" }
+        ]
+      },
+      {
+        "code": "11.2",
+        "title": "Fundamental particles",
+        "subsubs": [
+          { "code": "11.2.1", "desc": "Understand a quark is a fundamental particle; six flavours: up, down, strange, charm, top, bottom" },
+          { "code": "11.2.2", "desc": "Recall and use charge of each quark flavour; antiquark has opposite charge" },
+          { "code": "11.2.3", "desc": "Recall protons and neutrons are not fundamental; describe in terms of quark composition" },
+          { "code": "11.2.4", "desc": "Understand hadrons as baryons (three quarks) or mesons (quark + antiquark)" },
+          { "code": "11.2.5", "desc": "Describe changes to quark composition during β⁻ and β⁺ decay" },
+          { "code": "11.2.6", "desc": "Recall electrons and neutrinos are fundamental particles called leptons" }
+        ]
+      }
+    ]
+  }
+];
+
+// ---- Build pdf -> all related learning-objective codes map, used to show "also covers" on question cards ----
+const pdfToCodes = {};
+Object.keys(questionData).forEach(function(code) {
+  questionData[code].forEach(function(q) {
+    if (!pdfToCodes[q.pdf]) pdfToCodes[q.pdf] = [];
+    if (pdfToCodes[q.pdf].indexOf(code) === -1) pdfToCodes[q.pdf].push(code);
+  });
+});
+
+// ---- Parse a short season+year label (e.g. Jun25) from a paper string like 9702/13/O/N/25 ----
+function seasonLabel(paperStr) {
+  var parts = paperStr.split('/');
+  if (parts.length < 4) return '';
+  var year = parts[parts.length - 1];
+  var session = parts.slice(2, parts.length - 1).join('/');
+  var map = { 'M/J': 'Jun', 'O/N': 'Nov', 'F/M': 'Mar' };
+  return (map[session] || session) + year;
+}
+
+const container = document.getElementById('syllabus');
+
+syllabus.forEach(function(t) {
+  var card = document.createElement('div');
+  card.className = 'topic-card t' + t.topic;
+
+  var header = document.createElement('div');
+  header.className = 'topic-header';
+  header.onclick = function() { card.classList.toggle('expanded'); };
+
+  var num = document.createElement('div');
+  num.className = 'topic-num';
+  num.textContent = t.topic;
+
+  var info = document.createElement('div');
+  info.className = 'topic-info';
+  var subCount = t.subs.length;
+  var subsubCount = 0;
+  var qPdfSet = new Set();
+  for (var i = 0; i < t.subs.length; i++) {
+    subsubCount += t.subs[i].subsubs.length;
+    for (var m = 0; m < t.subs[i].subsubs.length; m++) {
+      var code = t.subs[i].subsubs[m].code;
+      var qs = questionData[code] || [];
+      for (var n = 0; n < qs.length; n++) {
+        qPdfSet.add(qs[n].pdf);
+      }
+    }
+  }
+  var qCount = qPdfSet.size;
+  var countHtml = subCount + ' sub-topics &middot; ' + subsubCount + ' learning objectives';
+  if (qCount > 0) {
+    countHtml += ' &middot; <span class="q-count">' + qCount + ' questions</span>';
+  }
+  info.innerHTML = '<div class="topic-name">' + t.topic + '. ' + t.title + '</div>' +
+    '<div class="topic-count">' + countHtml + '</div>';
+
+  var chevron = document.createElement('div');
+  chevron.className = 'chevron';
+  chevron.innerHTML = '&#9660;';
+
+  header.appendChild(num);
+  header.appendChild(info);
+  header.appendChild(chevron);
+
+  var subList = document.createElement('div');
+  subList.className = 'sub-list';
+
+  for (var j = 0; j < t.subs.length; j++) {
+    var s = t.subs[j];
+    var subCard = document.createElement('div');
+    subCard.className = 'sub-card';
+
+    var subHeader = document.createElement('div');
+    subHeader.className = 'sub-header';
+    subHeader.innerHTML = '<span class="sub-code">' + s.code + '</span><span class="sub-name">' + s.title + '</span>';
+
+    var subsubList = document.createElement('div');
+    subsubList.className = 'subsub-list';
+
+    for (var k = 0; k < s.subsubs.length; k++) {
+      var ss = s.subsubs[k];
+      var qList = questionData[ss.code] || [];
+
+      var item = document.createElement('div');
+      var isSuperHot = qList.length > 10;
+      var isHot = qList.length >= 5;
+      item.className = 'subsub-item' + (isSuperHot ? ' subsub-item-superhot' : (isHot ? ' subsub-item-hot' : ''));
+
+      var row = document.createElement('div');
+      row.className = 'subsub-row';
+      var badgeClass = qList.length > 0 ? 'subsub-badge active' : 'subsub-badge';
+      if (isSuperHot) badgeClass += ' subsub-badge-superhot';
+      else if (isHot) badgeClass += ' subsub-badge-hot';
+      var hotIcon = isSuperHot ? '&#128293;&#128293; ' : (isHot ? '&#128293; ' : '');
+      row.innerHTML = '<span class="subsub-code">' + ss.code + '</span><span class="subsub-desc">' + ss.desc + '</span><span class="' + badgeClass + '">' + hotIcon + qList.length + '</span>';
+      item.appendChild(row);
+
+      if (qList.length > 0) {
+        item.classList.add('clickable');
+
+        // Sort by number of related learning objectives, most first
+        let sortedQList = qList.slice().sort(function(a, b) {
+          var ca = (pdfToCodes[a.pdf] || []).length;
+          var cb = (pdfToCodes[b.pdf] || []).length;
+          return cb - ca;
+        });
+
+        let panel = document.createElement('div');
+        panel.className = 'question-panel';
+
+        let qCards = sortedQList.map(function(q) {
+          var qCard = document.createElement('div');
+          var totalCodes = (pdfToCodes[q.pdf] || []).length;
+          var isMulti = totalCodes >= 3;
+          qCard.className = 'q-card' + (isMulti ? ' q-card-multi' : '');
+          var otherCodes = (pdfToCodes[q.pdf] || []).filter(function(c) { return c !== ss.code; });
+          var otherHtml = '';
+          if (otherCodes.length > 0) {
+            otherHtml = '<div class="q-related">also: ' + otherCodes.map(function(c) {
+              return '<span class="q-related-tag">' + c + '</span>';
+            }).join('') + '</div>';
+          }
+          var multiBadge = isMulti ? '<span class="q-tag multi">&#11088; ' + totalCodes + ' topics</span>' : '';
+          var ans = getAnswer(q.paper, q.qnum);
+          var answerRevealHtml = ans
+            ? '<span class="answer-letter">' + ans + '</span><span>Correct answer</span>'
+            : '<span class="answer-na">No answer data</span>';
+          qCard.innerHTML = '<div class="q-meta"><span class="q-tag paper">' + q.paper + '</span><span class="q-tag qnum">' + q.qnum + '</span>' + multiBadge + '</div>' +
+            '<div class="q-paper-full">' + q.paper_full + '</div>' +
+            otherHtml +
+            '<div class="answer-row"><button type="button" class="answer-btn">&#128065; View Answer</button>' +
+            '<div class="answer-reveal">' + answerRevealHtml + '</div></div>' +
+            '<div class="pdf-container"><embed src="' + q.pdf + '" type="application/pdf">' +
+            '<div class="pdf-fallback" style="display:none">📄 Preview unavailable. <a href="' + q.pdf + '" target="_blank">Download PDF</a></div></div>';
+
+          var answerBtn = qCard.querySelector('.answer-btn');
+          var answerReveal = qCard.querySelector('.answer-reveal');
+          answerBtn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            var isShown = answerReveal.classList.toggle('shown');
+            answerBtn.innerHTML = isShown ? '&#128065; Hide Answer' : '&#128065; View Answer';
+          });
+
+          return qCard;
+        });
+
+        qCards.forEach(function(c) { panel.appendChild(c); });
+
+        if (qCards.length > 1) {
+          let pageIdx = 0;
+          let pager = document.createElement('div');
+          pager.className = 'q-pager';
+
+          let prevBtn = document.createElement('button');
+          prevBtn.className = 'q-pager-btn';
+          prevBtn.type = 'button';
+          prevBtn.innerHTML = '&#8249;';
+
+          let tabsWrap = document.createElement('div');
+          tabsWrap.className = 'q-pager-tabs';
+          let tabs = sortedQList.map(function(q, idx) {
+            var tab = document.createElement('button');
+            var totalCodes = (pdfToCodes[q.pdf] || []).length;
+            tab.className = 'q-pager-tab' + (totalCodes >= 3 ? ' q-pager-tab-multi' : '');
+            tab.type = 'button';
+            tab.innerHTML = '<span class="q-pager-tab-q">' + q.qnum + '</span><span class="q-pager-tab-season">' + seasonLabel(q.paper) + '</span>';
+            tab.addEventListener('click', function(e) {
+              e.stopPropagation();
+              pageIdx = idx;
+              renderPage();
+            });
+            tabsWrap.appendChild(tab);
+            return tab;
+          });
+
+          let nextBtn = document.createElement('button');
+          nextBtn.className = 'q-pager-btn';
+          nextBtn.type = 'button';
+          nextBtn.innerHTML = '&#8250;';
+
+          const renderPage = function() {
+            qCards.forEach(function(c, idx) {
+              c.style.display = idx === pageIdx ? 'block' : 'none';
+            });
+            tabs.forEach(function(tab, idx) {
+              tab.classList.toggle('active', idx === pageIdx);
+            });
+            prevBtn.disabled = pageIdx === 0;
+            nextBtn.disabled = pageIdx === qCards.length - 1;
+          };
+
+          prevBtn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            if (pageIdx > 0) { pageIdx--; renderPage(); }
+          });
+          nextBtn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            if (pageIdx < qCards.length - 1) { pageIdx++; renderPage(); }
+          });
+
+          pager.appendChild(prevBtn);
+          pager.appendChild(tabsWrap);
+          pager.appendChild(nextBtn);
+          panel.insertBefore(pager, panel.firstChild);
+
+          renderPage();
+        }
+
+
+        item.appendChild(panel);
+        item.addEventListener('click', function(e) {
+          e.stopPropagation();
+          panel.classList.toggle('open');
+        });
+      }
+
+      subsubList.appendChild(item);
+    }
+
+    subCard.appendChild(subHeader);
+    subCard.appendChild(subsubList);
+    subList.appendChild(subCard);
+  }
+
+  card.appendChild(header);
+  card.appendChild(subList);
+  container.appendChild(card);
+});
+</script>
+
+</body>
+</html>

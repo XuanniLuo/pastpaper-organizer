@@ -477,6 +477,131 @@ body {
   border-radius: 14px;
   border: 1px solid #e6ded2;
 }
+
+/* ---- Paper 2 (structured questions) ---- */
+.p2-q-card {
+  background: #f4efe7;
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 10px;
+  border-left: 3px solid #d6cbba;
+}
+.p2-q-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  user-select: none;
+}
+.p2-q-num {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 9px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+.p2-q-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6b6154;
+  flex: 1;
+}
+.p2-q-marks {
+  font-size: 11px;
+  font-weight: 700;
+  color: #a89e90;
+  background: #e6ded2;
+  padding: 2px 9px;
+  border-radius: 20px;
+  flex-shrink: 0;
+}
+.p2-q-meta {
+  font-size: 12px;
+  color: #a89e90;
+  margin: 4px 0 10px 0;
+}
+.p2-chevron {
+  font-size: 12px;
+  color: #b5aa9b;
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+.p2-q-card.expanded .p2-chevron { transform: rotate(180deg); }
+.p2-q-body {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+}
+.p2-q-card.expanded .p2-q-body { display: flex; }
+.p2-part {
+  background: #fbf8f4;
+  border-radius: 8px;
+  padding: 10px 12px;
+  border: 1px solid #e6ded2;
+}
+.p2-part-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+.p2-part-label {
+  font-size: 12px;
+  font-weight: 800;
+  color: #6b6154;
+  background: #efe8db;
+  padding: 2px 8px;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+.p2-part-marks {
+  font-size: 10px;
+  font-weight: 700;
+  color: #a89e90;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+.p2-part-codes {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.p2-code-chip {
+  font-size: 10.5px;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: 10px;
+}
+.p2-answer-btn {
+  font-size: 11.5px;
+  font-weight: 700;
+  padding: 5px 12px;
+  border-radius: 8px;
+  border: 1px solid #b9c8d1;
+  background: #eef3f6;
+  color: #5c7a8a;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.p2-answer-btn:hover { background: #dde6ea; border-color: #8497a8; }
+.p2-answer-reveal {
+  display: none;
+  margin-top: 8px;
+  padding: 10px 12px;
+  background: #eef3f6;
+  border-radius: 8px;
+  border: 1px dashed #b9c8d1;
+  font-size: 12.5px;
+  color: #4a5f6e;
+  line-height: 1.55;
+}
+.p2-answer-reveal.shown { display: block; }
+.p2-answer-reveal b { color: #3d5464; }
+.p2-q-body .q-pager-tab { padding: 5px 10px; }
+.p2-part { display: none; }
+.p2-pdf-wrap { display: block; margin-bottom: 10px; }
 </style>
 <base target="_blank">
 <base target="_blank">
@@ -506,7 +631,7 @@ body {
   <div id="syllabus"></div>
 </div>
 <div id="paper2-panel" class="paper-panel">
-  <div class="coming-soon">Paper 2 content coming soon.</div>
+  <div id="syllabus2"></div>
 </div>
 
 <div class="footer">Based on Cambridge International AS &amp; A Level Physics (9702) Syllabus</div>
@@ -2018,6 +2143,834 @@ syllabus.forEach(function(t) {
   card.appendChild(header);
   card.appendChild(subList);
   container.appendChild(card);
+});
+</script>
+
+<script>
+// ============================================================
+// PAPER 2 (structured questions) — grouped by the topic that
+// most of a question's parts belong to. Every part lists the
+// syllabus codes it draws on and a reference (mark-scheme-style)
+// answer.
+// ============================================================
+
+const topicMeta = {
+  '1': 'PHYSICAL QUANTITIES AND UNITS',
+  '2': 'KINEMATICS',
+  '3': 'DYNAMICS',
+  '4': 'FORCES, DENSITY AND PRESSURE',
+  '5': 'WORK, ENERGY AND POWER',
+  '6': 'DEFORMATION OF SOLIDS',
+  '7': 'WAVES',
+  '8': 'SUPERPOSITION',
+  '9': 'ELECTRICITY',
+  '10': 'D.C. CIRCUITS',
+  '11': 'PARTICLE PHYSICS'
+};
+
+const paper2Data = [
+  {
+    topic: '1',
+    paper: '9702/22/F/M/25', paper_full: 'March 2025 · Paper 22', qnum: 'Q1',
+    title: 'Density of a solid cube — accuracy &amp; uncertainty',
+    pdf: '9702_m25_qp_22_Q1_Physical_quantities_and_units_1_3_2.pdf',
+    marks: 7,
+    parts: [
+      { label: '(a)', codes: ['1.3.2'], marks: 1,
+        answer: 'Accuracy is how close a measured value is to the true (actual) value of the quantity being measured.' },
+      { label: '(b)(i)', codes: ['4.3.1'], marks: 2,
+        answer: 'V = (1.53×10⁻² m)³ = 3.58×10⁻⁶ m³<br>ρ = m/V = 31.3×10⁻³ kg ÷ 3.58×10⁻⁶ m³ = 8.7×10³ kg m⁻³' },
+      { label: '(b)(ii)', codes: ['1.3.3'], marks: 2,
+        answer: '%unc(ρ) = %unc(m) + 3×%unc(L)<br>= (0.5/31.3×100%) + 3×(0.01/1.53×100%)<br>= 1.6% + 2.0% ≈ <b>3.6%</b>' },
+      { label: '(b)(iii)', codes: ['1.3.3'], marks: 2,
+        answer: 'Cube A: (8.7 ± 0.31)×10³ kg m⁻³, i.e. range 8.4–9.0×10³<br>Cube B: 9.2×10³ ± 6% = range 8.6–9.8×10³<br>The two ranges overlap (8.6–9.0×10³ common), so the cubes <b>could</b> be made of the same material.' }
+    ]
+  },
+  {
+    topic: '4',
+    paper: '9702/22/F/M/25', paper_full: 'March 2025 · Paper 22', qnum: 'Q2',
+    title: 'Beam supported by a floating cylinder — moments &amp; upthrust',
+    pdf: '9702_m25_qp_22_Q2_Forces_density_and_pressure.pdf',
+    marks: 10,
+    parts: [
+      { label: '(a)', codes: ['4.2.1'], marks: 2,
+        answer: 'For a body in equilibrium, the sum of the clockwise moments about any point equals the sum of the anticlockwise moments about that same point.' },
+      { label: '(b)(i)', codes: ['4.2.1', '4.1.2'], marks: 3,
+        answer: 'Taking moments about A:<br>1300×5.0 = 1700×3.0 + 660×x<br>6500 = 5100 + 660x<br>x = 1400/660 = <b>2.1 m</b>' },
+      { label: '(b)(ii)', codes: ['4.3.5'], marks: 1,
+        answer: 'Weight of cylinder = 11×9.81 = 108 N<br>Upthrust = force from beam + weight = 1300 + 108 = <b>1400 N</b> (equilibrium of cylinder)' },
+      { label: '(b)(iii)', codes: ['4.3.5', '4.3.1'], marks: 2,
+        answer: 'Upthrust = ρgV = ρg(πr²y)<br>y = 1400 / (990×9.81×π×0.39²)<br>= 1400 / 4640 ≈ <b>0.30 m</b>' },
+      { label: '(b)(iv)', codes: ['4.3.5', '4.2.1'], marks: 2,
+        answer: 'Straight line of positive gradient, not starting from the origin — the depth has a positive value even when the person is at A (the cylinder already supports part of the beam\'s weight), and increases linearly as the person (and hence the required upward force from the cylinder) moves towards B.' }
+    ]
+  },
+  {
+    topic: '3',
+    paper: '9702/22/F/M/25', paper_full: 'March 2025 · Paper 22', qnum: 'Q3',
+    title: 'Truck on a slope and braking — kinematics, energy &amp; momentum',
+    pdf: '9702_m25_qp_22_Q3_Dynamics.pdf',
+    marks: 10,
+    parts: [
+      { label: '(a)(i)', codes: ['2.1.7'], marks: 2,
+        answer: 'v² = u² + 2as<br>a = (22² − 13²)/(2×180) = 315/360 = <b>0.88 m s⁻²</b>' },
+      { label: '(a)(ii)', codes: ['5.2.2'], marks: 3,
+        answer: 'ΔEk = ½m(v² − u²) = ½×9400×(22² − 13²)<br>= ½×9400×315 = <b>1.48×10⁶ J</b>' },
+      { label: '(b)(i)', codes: ['3.1.4'], marks: 1,
+        answer: 'Force is the rate of change of momentum (with respect to time).' },
+      { label: '(b)(ii)', codes: ['3.1.4', '2.1.5'], marks: 1,
+        answer: 'F = Δp/Δt = (3.0 − 21)×10⁴ / 15 = −18×10⁴/15 = <b>−1.2×10⁴ N</b> (values read from Fig. 3.2)' },
+      { label: '(b)(iii)', codes: ['3.1.4', '3.1.2'], marks: 3,
+        answer: 'The momentum–time graph for R curves — its gradient (force) decreases with time, so the force is greatest near t = 0 and smaller later on. Truck S experiences a constant force equal to R\'s average force over the first 15 s, which is larger than R\'s true average force over its whole (longer) stopping time. So truck S decelerates, on average, more strongly than R does overall, and comes to rest in <b>less time</b> than truck R.' }
+    ]
+  },
+  {
+    topic: '8',
+    paper: '9702/22/F/M/25', paper_full: 'March 2025 · Paper 22', qnum: 'Q4',
+    title: 'Microwaves reflected from a metal sheet — stationary waves',
+    pdf: '9702_m25_qp_22_Q4_Superposition.pdf',
+    marks: 8,
+    parts: [
+      { label: '(a)', codes: ['8.1.1', '8.1.3'], marks: 4,
+        answer: 'The wave emitted towards the sheet and the wave reflected back from the sheet have the same frequency/wavelength and travel in opposite directions; they overlap and superpose. Where the two waves are always in antiphase, they cancel (destructive interference) — these points are the <b>nodes</b>. Where the two waves are always in phase, their displacements add (constructive interference) — these points are the <b>antinodes</b>. Nodes and antinodes are fixed in position and alternate at intervals of λ/2.' },
+      { label: '(b)(i)', codes: ['7.1.4'], marks: 2,
+        answer: 'v = fλ<br>λ = c/f = 3.0×10⁸ / 6.3×10⁹ = <b>4.8×10⁻² m</b>' },
+      { label: '(b)(ii)', codes: ['8.1.4'], marks: 1,
+        answer: 'Adjacent maximum and minimum are separated by λ/4.<br>PQ = 4.8×10⁻²/4 = <b>1.2×10⁻² m</b>' },
+      { label: '(b)(iii)', codes: ['8.1.3', '8.1.4'], marks: 1,
+        answer: 'QR is the <b>same</b> as PQ — the spacing of nodes/antinodes depends only on the wavelength (which is unchanged, as frequency is unchanged), not on the intensity/amplitude of the waves.' }
+    ]
+  },
+  {
+    topic: '7',
+    paper: '9702/22/F/M/25', paper_full: 'March 2025 · Paper 22', qnum: 'Q5',
+    title: 'Loudspeaker &amp; CRO trace — wavelength and moving source',
+    pdf: '9702_m25_qp_22_Q5_Waves.pdf',
+    marks: 5,
+    parts: [
+      { label: '(a)', codes: ['7.1.3', '7.1.4'], marks: 3,
+        answer: 'From Fig. 5.1, period on screen = 4.0 cm.<br>T = 4.0 × 5.0×10⁻⁴ = 2.0×10⁻³ s<br>λ = vT = 330 × 2.0×10⁻³ = <b>0.66 m</b>' },
+      { label: '(b)', codes: ['7.1.2', '7.3.1'], marks: 2,
+        answer: 'The period of the trace increasing continuously means the detected frequency is continuously decreasing — the loudspeaker is moving away from the microphone with increasing speed (i.e. accelerating away from it).' }
+    ]
+  },
+  {
+    topic: '9',
+    paper: '9702/22/F/M/25', paper_full: 'March 2025 · Paper 22', qnum: 'Q6',
+    title: 'Copper wire — resistance, number density &amp; drift speed',
+    pdf: '9702_m25_qp_22_Q6_Electricity.pdf',
+    marks: 13,
+    parts: [
+      { label: '(a)', codes: ['9.3.2'], marks: 2,
+        answer: 'V = IR = 0.85 × 3.3×10⁻³ = <b>2.8×10⁻³ V</b>' },
+      { label: '(b)(i)', codes: ['9.3.6'], marks: 2,
+        answer: 'R = ρL/A → A = ρL/R<br>A = (1.8×10⁻⁸ × 0.24)/3.3×10⁻³ = <b>1.3×10⁻⁶ m²</b>' },
+      { label: '(b)(ii)', codes: ['9.1.4'], marks: 1,
+        answer: 'n = N/(A×L) = 2.6×10²² / (1.3×10⁻⁶ × 0.24) = <b>8.3×10²⁸ m⁻³</b>' },
+      { label: '(b)(iii)', codes: ['9.1.4'], marks: 2,
+        answer: 'I = Anvq → v = I/(Anq)<br>v = 0.85 / (1.3×10⁻⁶ × 8.3×10²⁸ × 1.6×10⁻¹⁹) ≈ <b>4.9×10⁻⁵ m s⁻¹</b>' },
+      { label: '(c)(i)', codes: ['9.3.6'], marks: 4,
+        answer: 'Wire Q has the same radius as P only at end X; elsewhere its radius (and so cross-sectional area) is smaller. For Q to have the same volume as the uniform wire P despite this smaller average area, Q must be longer than P. Both the smaller average cross-sectional area and the greater length increase resistance (R = ρL/A), so the resistance of Q is <b>greater than</b> the resistance of P.' },
+      { label: '(c)(ii)', codes: ['9.1.4'], marks: 2,
+        answer: 'Since the current I is the same everywhere along the wire and v = I/(nAq), the drift speed is inversely proportional to the cross-sectional area. As A decreases moving away from X, the average drift speed <b>increases</b> — sketch a curve starting above zero at X and rising with increasing gradient (concave up) as distance from X increases.' }
+    ]
+  },
+  {
+    topic: '11',
+    paper: '9702/22/F/M/25', paper_full: 'March 2025 · Paper 22', qnum: 'Q7',
+    title: 'Alpha decay of nucleus Q — momentum &amp; conservation laws',
+    pdf: '9702_m25_qp_22_Q7_Particle_physics.pdf',
+    marks: 7,
+    parts: [
+      { label: '(a)', codes: ['11.1.6', '11.1.11'], marks: 1,
+        answer: 'Nucleon number: 226 = 222 + 4 ✓ &nbsp; Proton number: 88 = 86 + 2, so R has proton number 86.<br><b>²²⁶₈₈Q → ²²²₈₆R + ⁴₂α</b>' },
+      { label: '(b)', codes: ['3.3.1', '11.1.6'], marks: 3,
+        answer: 'Q is initially at rest, so by conservation of momentum:<br>m_R v_R = m_α v_α (equal and opposite momenta)<br>v_R = (m_α/m_R) v_α = (4/222) × 1.5×10⁷ ≈ <b>2.7×10⁵ m s⁻¹</b>' },
+      { label: '(c)', codes: ['11.1.6'], marks: 3,
+        answer: 'Any three of: momentum; (mass–)energy; nucleon number (mass number); charge (proton number).' }
+    ]
+  },
+  {
+    topic: '2',
+    paper: '9702/21/M/J/25', paper_full: 'June 2025 · Paper 21', qnum: 'Q1',
+    title: 'Falling objects A and B — free fall, projectile time &amp; energy',
+    pdf: '9702_s25_qp_21_Q1_Kinematics.pdf',
+    marks: 9,
+    parts: [
+      { label: '(a)', codes: ['2.1.1'], marks: 1,
+        answer: 'Acceleration is the <b>rate of change of velocity</b>.' },
+      { label: '(b)(i)', codes: ['2.1.6', '2.1.7'], marks: 2,
+        answer: 's = ut + ½at², with u = 0 and s = 14 m:<br>t = √(2×14/9.81) = <b>1.7 s</b>' },
+      { label: '(b)(ii)', codes: ['2.1.6', '2.1.7'], marks: 2,
+        answer: 's = ut + ½at², using s = 3.6 m, t = 1.7 s:<br>u = (3.6 − ½×9.81×1.7²) / 1.7 = <b>(−)6.2 m s⁻¹</b> (i.e. B is actually moving downwards at release, not upwards as assumed by the positive direction)' },
+      { label: '(c)(i)', codes: ['2.1.9'], marks: 2,
+        answer: 'The time is <b>less</b> than in (b)(i) — B is released at an angle to the vertical, so the initial <u>vertical component</u> of its velocity is smaller than the (fully vertical) speed u used in (b), meaning it reaches a lower maximum height and returns to release height (then falls) sooner.' },
+      { label: '(c)(ii)', codes: ['5.1.2', '5.2.1', '5.2.2'], marks: 2,
+        answer: 'The total initial energy (KE + GPE) of B is the <b>same</b> as in (b), since the speed u and the release height are unchanged — only the direction differs. As the loss in GPE falling to the ground is also the same, the gain in KE (and so the landing speed) is <b>unaffected</b> by the change in release angle.' }
+    ]
+  },
+  {
+    topic: '4',
+    paper: '9702/21/M/J/25', paper_full: 'June 2025 · Paper 21', qnum: 'Q2',
+    title: 'Beam in equilibrium — moments, spring constant &amp; elastic PE',
+    pdf: '9702_s25_qp_21_Q2_Forces_density_and_pressure.pdf',
+    marks: 10,
+    parts: [
+      { label: '(a)', codes: ['4.2.1'], marks: 2,
+        answer: 'For a body in (rotational) equilibrium, the sum of the clockwise moments about a point equals the sum of the anticlockwise moments about the <u>same</u> point.' },
+      { label: '(b)', codes: ['4.1.2', '4.2.1'], marks: 3,
+        answer: 'Taking moments about the pivot:<br>(80×9.81×3.0) = (60×9.81×3.0) + (45×9.81×x)<br>x = <b>1.3 m</b>' },
+      { label: '(c)(i)', codes: ['6.1.3', '6.1.4'], marks: 3,
+        answer: 'k = F/x, with extension x = 0.80 − 0.59 = 0.21 m and F = weight of A = 60×9.81 N:<br>k = (60×9.81)/0.21 = <b>2800 N m⁻¹</b>' },
+      { label: '(c)(ii)', codes: ['6.2.3', '6.2.4'], marks: 2,
+        answer: 'E = ½kx² = ½×2800×0.21² = <b>62 J</b>' }
+    ]
+  },
+  {
+    topic: '5',
+    paper: '9702/21/M/J/25', paper_full: 'June 2025 · Paper 21', qnum: 'Q3',
+    title: 'Electric car on a slope — power, work done &amp; motor current',
+    pdf: '9702_s25_qp_21_Q3_Work_energy_and_power.pdf',
+    marks: 10,
+    parts: [
+      { label: '(a)', codes: ['5.1.5'], marks: 1,
+        answer: 'Power is the <b>work done per unit time</b>.' },
+      { label: '(b)(i)', codes: ['5.1.7'], marks: 2,
+        answer: 'P = Fv = 1750 × 35 = <b>6.1×10⁴ W</b>' },
+      { label: '(b)(ii)', codes: ['5.1.1'], marks: 2,
+        answer: 'W = Fs = 1750 × 17 000 = <b>3.0×10⁷ J</b>' },
+      { label: '(b)(iii)', codes: ['9.2.3', '5.1.3'], marks: 3,
+        answer: 'P = V×I → power in = 600×I<br>efficiency = useful power output / (total) power input<br>0.85 = (6.1×10⁴)/(600×I)<br>I = <b>120 A</b>' },
+      { label: '(c)(i)', codes: ['3.2.1'], marks: 1,
+        answer: 'Air resistance is the <b>same</b>, as the speed of the car is unchanged.' },
+      { label: '(c)(ii)', codes: ['5.1.3', '5.1.4', '9.2.3'], marks: 1,
+        answer: 'The motor produces <b>less power</b> — gravity now helps drive the car down the slope (loss of GPE converts to KE) — so for the same p.d., the current in the motor is <b>smaller</b>.' }
+    ]
+  },
+  {
+    topic: '8',
+    paper: '9702/21/M/J/25', paper_full: 'June 2025 · Paper 21', qnum: 'Q4',
+    title: 'Double-slit interference — fringe width &amp; slit separation',
+    pdf: '9702_s25_qp_21_Q4_Superposition.pdf',
+    marks: 8,
+    parts: [
+      { label: '(a)', codes: ['8.1.1'], marks: 2,
+        answer: 'When two or more waves meet/overlap at a point, the resultant displacement is the <b>sum of the individual displacements</b> of the waves at that point.' },
+      { label: '(b)(i)', codes: ['8.3.4'], marks: 3,
+        answer: 'Fringe width x = (3.2×10⁻²)/8 = 4.0×10⁻³ m<br>D = ax/λ = (4.0×10⁻³ × 0.16×10⁻³)/7.2×10⁻⁷ = <b>0.89 m</b>' },
+      { label: '(b)(ii)', codes: ['8.3.4'], marks: 3,
+        answer: 'Since x = Dλ/a, x is inversely proportional to slit separation a. Sketch a <b>curve of negative gradient (magnitude decreasing) throughout</b>, ending at (0.16 mm, 0.4 cm) and passing through (0.08 mm, 0.8 cm) and (0.04 mm, 1.6 cm).' }
+    ]
+  },
+  {
+    topic: '7',
+    paper: '9702/21/M/J/25', paper_full: 'June 2025 · Paper 21', qnum: 'Q5',
+    title: 'Moving sound source &amp; CRO trace — Doppler effect and speed of sound',
+    pdf: '9702_s25_qp_21_Q5_Waves.pdf',
+    marks: 6,
+    parts: [
+      { label: '(a)', codes: ['7.1.4'], marks: 2,
+        answer: 'wavelength = distance between successive/adjacent in-phase points (λ = d / number of oscillations); frequency = number of oscillations per unit time (f = number of oscillations / t). Since speed = distance/time, v = d/t = (d/n)×(n/t) = λ×f, so <b>v = fλ</b>.' },
+      { label: '(b)(i)', codes: ['7.1.2', '7.1.3'], marks: 2,
+        answer: 'From Fig. 5.1, T = 4×1.0 ms = 4×10⁻³ s<br>f = 1/T = <b>250 Hz</b>' },
+      { label: '(b)(ii)', codes: ['7.3.1', '7.3.2'], marks: 2,
+        answer: 'f₀ = fₛv/(v − vₛ)<br>250 = 236×v/(v − 20)<br>v = (250×20)/(250 − 236) = <b>360 m s⁻¹</b>' }
+    ]
+  },
+  {
+    topic: '9',
+    paper: '9702/21/M/J/25', paper_full: 'June 2025 · Paper 21', qnum: 'Q6',
+    title: 'Nichrome wire — current, drift speed, resistivity &amp; parallel wires',
+    pdf: '9702_s25_qp_21_Q6_Electricity.pdf',
+    marks: 9,
+    parts: [
+      { label: '(a)(i)', codes: ['9.3.2', '10.2.3'], marks: 1,
+        answer: 'I = V/R = 1.3/1.1 = <b>1.2 A</b>' },
+      { label: '(a)(ii)', codes: ['9.1.4'], marks: 2,
+        answer: 'v = I/(nqA) = 1.2 / (8.5×10²⁸ × 1.60×10⁻¹⁹ × 4.7×10⁻⁷) = <b>1.9×10⁻⁴ m s⁻¹</b>' },
+      { label: '(a)(iii)', codes: ['9.3.6'], marks: 3,
+        answer: 'ρ = RA/L = (1.1 × 4.7×10⁻⁷) / 0.45 = <b>1.1×10⁻⁶ Ω m</b>' },
+      { label: '(b)(i)', codes: ['10.2.4'], marks: 2,
+        answer: 'Adding Y in parallel with X <b>decreases</b> the total resistance of the combination (while the e.m.f. stays the same), so the reading on the ammeter <b>increases</b>.' },
+      { label: '(b)(ii)', codes: ['9.1.4'], marks: 1,
+        answer: 'The average drift speed of the charge carriers in X is <b>unchanged</b>, because the current in X itself is the same as before (X and Y are identical, so the current splits equally, and the current in X alone is unaffected).' }
+    ]
+  },
+  {
+    topic: '11',
+    paper: '9702/21/M/J/25', paper_full: 'June 2025 · Paper 21', qnum: 'Q7',
+    title: 'Beta-plus decay of nitrogen-12 &amp; antiproton quark composition',
+    pdf: '9702_s25_qp_21_Q7_Particle_physics.pdf',
+    marks: 8,
+    parts: [
+      { label: '(a)', codes: ['11.1.6', '11.1.7', '11.1.9', '11.1.11'], marks: 3,
+        answer: '¹²₇N → ¹²₆C + ⁰₁β⁺ + ⁰₀ν<br>(beta-plus particle shown; neutrino shown; symbols, nucleon numbers and proton numbers all correct)' },
+      { label: '(b)(i)', codes: ['11.1.8'], marks: 1,
+        answer: 'charge = <b>+1</b> e' },
+      { label: '(b)(ii)', codes: ['11.2.6'], marks: 1,
+        answer: '<b>Lepton</b>' },
+      { label: '(b)(iii)', codes: ['11.2.1', '11.2.2', '11.2.3'], marks: 3,
+        answer: 'The antiproton comprises two anti-up quarks and one anti-down quark:<br>anti-up (ū): charge <b>−⅔e</b> (×2)<br>anti-down (d̄): charge <b>+⅓e</b>' }
+    ]
+  },
+  {
+    topic: '5',
+    paper: '9702/22/M/J/25', paper_full: 'June 2025 · Paper 22', qnum: 'Q1',
+    title: 'Car accelerating from rest — kinetic energy, work done &amp; power',
+    pdf: '9702_s25_qp_22_Q1_Work_energy_and_power.pdf',
+    marks: 10,
+    parts: [
+      { label: '(a)', codes: ['1.4.1'], marks: 2,
+        answer: '<b>Vectors:</b> acceleration, displacement.<br><b>Scalars:</b> gravitational potential energy, speed, temperature.' },
+      { label: '(b)(i)', codes: ['5.1.1', '5.1.2', '5.2.2'], marks: 3,
+        answer: 'W = Fs and F = ma<br>Using v² = u² + 2as (u = 0): s = v²/2a<br>W = ma×(v²/2a) = ½mv²<br>Since the work done on the car equals the kinetic energy gained, (so) <b>Ek = ½mv²</b>' },
+      { label: '(b)(ii)', codes: ['5.2.2'], marks: 1,
+        answer: 'Ek = ½mv² = ½×920×17² = <b>1.3×10⁵ J</b>' },
+      { label: '(b)(iii)', codes: ['5.1.2', '5.1.5', '5.1.6'], marks: 3,
+        answer: 'P = W/t = (4.7×10⁴ + 1.3×10⁵) / 5.8 = <b>3.1×10⁴ W</b>' },
+      { label: '(b)(iv)', codes: ['5.1.5', '5.1.7'], marks: 1,
+        answer: 'At/after t = 5.8 s the kinetic energy of the car does not change (speed is constant), so work is done only against resistive forces and no work is done to accelerate the car — the output power is therefore <b>less than</b> just before t = 5.8 s.' }
+    ]
+  },
+  {
+    topic: '4',
+    paper: '9702/22/M/J/25', paper_full: 'June 2025 · Paper 22', qnum: 'Q2',
+    title: 'Tree supported by a post — moments, vector triangle &amp; pressure',
+    pdf: '9702_s25_qp_22_Q2_Forces_density_and_pressure.pdf',
+    marks: 8,
+    parts: [
+      { label: '(a)', codes: ['4.1.2'], marks: 1,
+        answer: 'The moment of a force about a point is the product of the force and the perpendicular distance from the point to the line of action of the force.' },
+      { label: '(b)(i)', codes: ['4.1.2', '4.2.1'], marks: 3,
+        answer: 'Taking moments about Q:<br>moment due to weight = 1.2 × 270 × 9.81<br>moment due to post force F = 1800 × (1.6/cosθ)<br>1.2×270×9.81 = 1800×(1.6/cosθ)<br>→ <b>θ = 25°</b>' },
+      { label: '(b)(ii)', codes: ['4.2.3'], marks: 2,
+        answer: 'Draw a closed tip-to-tail vector triangle: vector F at 25° (±3°) anticlockwise from the (vertical) weight vector, and vector R at 37° (±3°) clockwise from the vertical, closing the triangle back to the start of the weight vector.' },
+      { label: '(b)(iii)', codes: ['4.3.2'], marks: 2,
+        answer: 'A = F/p = 1800 / (150×10³) = <b>0.012 m²</b>' }
+    ]
+  },
+  {
+    topic: '8',
+    paper: '9702/22/M/J/25', paper_full: 'June 2025 · Paper 22', qnum: 'Q3',
+    title: 'Two progressive water waves — amplitude, speed, coherence &amp; intensity',
+    pdf: '9702_s25_qp_22_Q3_Superposition.pdf',
+    marks: 8,
+    parts: [
+      { label: '(a)', codes: ['7.1.2'], marks: 1,
+        answer: 'amplitude = <b>10.0 cm</b>' },
+      { label: '(b)(i)', codes: ['7.1.4'], marks: 2,
+        answer: 'v = fλ = 16 × 0.40 = <b>6.4 m s⁻¹</b>' },
+      { label: '(b)(ii)', codes: ['8.3.1'], marks: 1,
+        answer: 'X and Y have a constant phase difference (of 180°), so they <b>are coherent</b>.' },
+      { label: '(c)', codes: ['8.1.1'], marks: 2,
+        answer: 'By the principle of superposition, add the displacements of X and Y at each point along the line: the resultant is a single (negative) sine wave of amplitude 10.0 cm, with the same wavelength (0.40 m) as X and Y.' },
+      { label: '(d)', codes: ['7.1.6'], marks: 2,
+        answer: 'I ∝ A²<br>Ix/Iy = 10²/20² = <b>0.25</b>' }
+    ]
+  },
+  {
+    topic: '3',
+    paper: '9702/22/M/J/25', paper_full: 'June 2025 · Paper 22', qnum: 'Q4',
+    title: 'Bouncing ball — elastic/inelastic collision, momentum &amp; force',
+    pdf: '9702_s25_qp_22_Q4_Dynamics.pdf',
+    marks: 8,
+    parts: [
+      { label: '(a)', codes: ['3.3.3', '3.3.4'], marks: 1,
+        answer: 'The (total) kinetic energy of the ball decreases (speed falls from 5.2 to 3.6 m s⁻¹), so the collision is <b>inelastic</b>.' },
+      { label: '(b)(i)', codes: ['3.1.3'], marks: 2,
+        answer: 'Taking the two speeds as being in opposite directions:<br>Δp = m(v + u) = 0.25×(3.6 + 5.2) = <b>2.2 kg m s⁻¹</b>' },
+      { label: '(b)(ii)', codes: ['3.1.4'], marks: 2,
+        answer: 'F = Δp/Δt = 2.2/0.18 = <b>12 N</b>' },
+      { label: '(c)', codes: ['5.2.1', '5.2.2'], marks: 3,
+        answer: '½mv² = mgh → h = v²/2g<br>h₁ = 5.2²/(2×9.81) = 1.38 m<br>h₂ = 3.6²/(2×9.81) = 0.66 m<br>h₂/h₁ = 0.66/1.38 = <b>0.48</b>' }
+    ]
+  },
+  {
+    topic: '6',
+    paper: '9702/22/M/J/25', paper_full: 'June 2025 · Paper 22', qnum: 'Q5',
+    title: 'Stretched metal wire — Young modulus, cross-sectional area &amp; work done',
+    pdf: '9702_s25_qp_22_Q5_Deformation_of_solids.pdf',
+    marks: 7,
+    parts: [
+      { label: '(a)', codes: ['6.1.5'], marks: 1,
+        answer: 'The Young modulus is the ratio of (tensile) stress to (tensile) strain.' },
+      { label: '(b)(i)', codes: ['6.1.5', '6.1.3'], marks: 3,
+        answer: 'gradient of graph = F/x = 500/(4.0×10⁻³) = 1.25×10⁵ N m⁻¹<br>A = kL/E = (1.25×10⁵ × 0.81) / (95×10⁹) = <b>1.1×10⁻⁶ m²</b>' },
+      { label: '(b)(ii)', codes: ['6.2.2', '6.2.3'], marks: 3,
+        answer: 'work done = area under the force–extension graph between x = 2.0×10⁻³ m and x = 3.0×10⁻³ m<br>= ½k(x₂² − x₁²) = ½×1.25×10⁵×((3.0×10⁻³)² − (2.0×10⁻³)²)<br>= <b>0.31 J</b>' }
+    ]
+  },
+  {
+    topic: '10',
+    paper: '9702/22/M/J/25', paper_full: 'June 2025 · Paper 22', qnum: 'Q6',
+    title: 'Four-resistor circuit — charge, branch currents &amp; potentiometer method',
+    pdf: '9702_s25_qp_22_Q6_DC_circuits.pdf',
+    marks: 10,
+    parts: [
+      { label: '(a)', codes: ['9.2.1'], marks: 1,
+        answer: 'Electric potential difference across a component is the energy transferred (to the component) per unit charge (that passes through it).' },
+      { label: '(b)(i)', codes: ['9.1.3'], marks: 2,
+        answer: 'Q = It = 0.030 × (4.0×60) = <b>7.2 C</b>' },
+      { label: '(b)(ii)', codes: ['10.2.1', '10.2.2'], marks: 2,
+        answer: 'I₁ = V/(R₁+R₂) = 8.0/(430+240) = <b>0.012 A</b>' },
+      { label: '(b)(iii)', codes: ['10.2.1'], marks: 1,
+        answer: 'I₂ = 0.030 − I₁ = 0.030 − 0.012 = <b>0.018 A</b>' },
+      { label: '(b)(iv)', codes: ['10.2.2', '10.2.3', '10.2.4'], marks: 2,
+        answer: 'R = (8.0 − I₂×210)/I₂ = (8.0 − 0.018×210)/0.018 = <b>230 Ω</b>' },
+      { label: '(c)', codes: ['10.3.2', '10.3.3'], marks: 2,
+        answer: 'The variable resistor is adjusted until the galvanometer reads zero (no current through it). At this balance point, the ratio of the resistances in the top branch (210:R) equals the ratio of the resistances in the bottom branch (430:X), so the resistance of X can be calculated from the known resistances and the balance value of R.' }
+    ]
+  },
+  {
+    topic: '11',
+    paper: '9702/22/M/J/25', paper_full: 'June 2025 · Paper 22', qnum: 'Q7',
+    title: 'Nucleus X — fundamental particles, proton number &amp; β decay',
+    pdf: '9702_s25_qp_22_Q7_Particle_physics.pdf',
+    marks: 9,
+    parts: [
+      { label: '(a)', codes: ['11.2.1'], marks: 1,
+        answer: 'A fundamental particle is a particle that cannot be divided/subdivided into smaller particles.' },
+      { label: '(b)(i)', codes: ['11.1.3', '11.1.5'], marks: 3,
+        answer: '(p×e)/(14u) = 4.1×10⁷<br>p = (4.1×10⁷ × 14 × 1.66×10⁻²⁷) / (1.60×10⁻¹⁹)<br>p = <b>6</b> (answer must be an integer)' },
+      { label: '(b)(ii)', codes: ['11.1.7', '11.1.9', '11.1.11'], marks: 3,
+        answer: '<b>¹⁴₆X → ¹⁴₇Z + ⁰₋₁e + ⁰₀ν̄</b> (beta-minus particle and antineutrino shown, with nucleon numbers and proton numbers all correct)' },
+      { label: '(c)', codes: ['11.1.7', '11.1.9', '11.1.10'], marks: 2,
+        answer: 'The particles are positively charged, so they cannot be β⁻ (which are negatively charged) and must be <b>β⁺ decay</b>. They also have a continuous range of kinetic energies, consistent with β decay rather than α decay (α particles are emitted with discrete/fixed energies).' }
+    ]
+  },
+  {
+    topic: '2',
+    paper: '9702/23/M/J/25', paper_full: 'June 2025 · Paper 23', qnum: 'Q1',
+    title: 'Falling objects A and B — kinematics, projectile motion &amp; energy',
+    pdf: '9702_s25_qp_23_Q1_Kinematics.pdf',
+    marks: 8,
+    parts: [
+      { label: '(a)', codes: ['2.1.1'], marks: 1,
+        answer: 'Velocity is the rate of change of displacement.' },
+      { label: '(b)', codes: ['2.1.6', '2.1.7'], marks: 3,
+        answer: 'For object A: s = ut + ½at², with u = 0, s = 10 m:<br>t = √(2×10/9.81) = 1.4 s<br>For object B: h = −(3.0×1.4) + (0.5×9.81×1.4²) = <b>5.7 m</b>' },
+      { label: '(c)(i)', codes: ['2.1.9'], marks: 2,
+        answer: 'The time taken is the <b>same</b> as in (b) — the initial vertical component of B’s velocity is unchanged (the vertical component of 6.0 m s⁻¹ at 60° to the vertical still gives the same effective vertical launch speed), so the vertical motion, and hence the time to reach the ground, is unaffected.' },
+      { label: '(c)(ii)', codes: ['5.1.2', '5.2.1', '5.2.2'], marks: 2,
+        answer: 'The total initial energy (KE + GPE) of B is <b>greater</b> than in (b), since B now also has a horizontal component of velocity giving extra kinetic energy, in addition to the same vertical component. As the loss in GPE falling to the ground is the same as in (b), the extra initial KE means the final KE — and so the landing speed — is <b>greater</b> than in (b).' }
+    ]
+  },
+  {
+    topic: '4',
+    paper: '9702/23/M/J/25', paper_full: 'June 2025 · Paper 23', qnum: 'Q2',
+    title: 'Beam supported by three objects — moments, Young modulus &amp; strain',
+    pdf: '9702_s25_qp_23_Q2_Forces_density_and_pressure.pdf',
+    marks: 9,
+    parts: [
+      { label: '(a)', codes: ['4.1.2'], marks: 1,
+        answer: 'The moment of a force about a pivot is the product of the force and the perpendicular distance from the pivot to the line of action of the force.' },
+      { label: '(b)(i)', codes: ['4.2.1'], marks: 3,
+        answer: 'Taking moments about the pivot:<br>(150×9.81×4.5) = (90×9.81×4.5) + (m×9.81×3.0)<br>→ <b>m = 90 kg</b>' },
+      { label: '(b)(ii)', codes: ['6.1.5'], marks: 3,
+        answer: 'Young modulus = σ/ε = F/(Aε)<br>Area of wire = π(1.8×10⁻³/2)² = 2.5×10⁻⁶ m²<br>Young modulus = (90×9.81)/(2.5×10⁻⁶ × 1.2×10⁻³) = <b>2.9×10¹¹ Pa</b>' },
+      { label: '(b)(iii)', codes: ['4.2.1', '6.1.2'], marks: 2,
+        answer: 'Moving B closer to the pivot decreases the (anticlockwise) moment it provides, so the moment — and hence the force — provided by the wire must increase to keep the beam in equilibrium. Since the Young modulus and cross-sectional area of the wire are unchanged, the strain in the wire <b>increases</b>.' }
+    ]
+  },
+  {
+    topic: '5',
+    paper: '9702/23/M/J/25', paper_full: 'June 2025 · Paper 23', qnum: 'Q3',
+    title: 'Car climbing a slope — power and work done against resistive forces',
+    pdf: '9702_s25_qp_23_Q3_Work_energy_and_power.pdf',
+    marks: 8,
+    parts: [
+      { label: '(a)', codes: ['5.1.7'], marks: 2,
+        answer: 'Work done W = Fd (force × distance moved in the direction of the force)<br>Power P = W/t = Fd/t = F×(d/t) = <b>Fv</b>' },
+      { label: '(b)(i)', codes: ['5.2.1'], marks: 2,
+        answer: 'ΔEp = mgΔh = mg×(v×t×sinθ)<br>= 1500×9.81×30×1.0×sin6.0° = <b>46 000 J</b>' },
+      { label: '(b)(ii)', codes: ['5.1.5', '5.1.6'], marks: 2,
+        answer: 'power to overcome the resistive force = Fv = 1600×30 = 48 000 W<br>total power developed = 48 000 + 46 000 = <b>9.4×10⁴ W</b>' },
+      { label: '(c)(i)', codes: ['3.2.1'], marks: 1,
+        answer: 'The air resistance is <b>unchanged</b>, since the speed of the car is the same as in (b).' },
+      { label: '(c)(ii)', codes: ['5.1.7', '3.2.1'], marks: 1,
+        answer: 'The mass (weight) of the car has increased, so a greater driving force is needed to maintain the same speed up the slope — the power developed by the engine <b>increases</b>.' }
+    ]
+  },
+  {
+    topic: '3',
+    paper: '9702/23/M/J/25', paper_full: 'June 2025 · Paper 23', qnum: 'Q4',
+    title: 'Colliding objects A and B — momentum conservation &amp; kinetic energy loss',
+    pdf: '9702_s25_qp_23_Q4_Dynamics.pdf',
+    marks: 6,
+    parts: [
+      { label: '(a)', codes: ['3.3.1'], marks: 2,
+        answer: 'The total momentum of a system of bodies is constant (total momentum before = total momentum after), provided no (resultant) external force acts on the system (i.e. the system is isolated).' },
+      { label: '(b)(i)', codes: ['3.3.2'], marks: 2,
+        answer: '(4.0×6.0) + (2.0×3.0) = 6.0×v<br>v = <b>5.0 m s⁻¹</b>' },
+      { label: '(b)(ii)', codes: ['3.3.4'], marks: 2,
+        answer: 'KE before = (½×4.0×6.0²) + (½×2.0×3.0²) = 81 J<br>KE after = ½×6.0×5.0² = 75 J<br>percentage transferred = [(81−75)/81]×100 = <b>7%</b>' }
+    ]
+  },
+  {
+    topic: '8',
+    paper: '9702/23/M/J/25', paper_full: 'June 2025 · Paper 23', qnum: 'Q5',
+    title: 'Polarising filter — Malus’s law, intensity &amp; amplitude',
+    pdf: '9702_s25_qp_23_Q5_Superposition.pdf',
+    marks: 8,
+    parts: [
+      { label: '(a)', codes: ['7.5.1'], marks: 1,
+        answer: 'Sound waves are longitudinal (not transverse), and only transverse waves can be polarised.' },
+      { label: '(b)(i)', codes: ['7.5.2'], marks: 3,
+        answer: 'Sketch a smooth, continuous periodic curve (of cos²/sin² shape), with minimum value 0 and maximum value I₀; the curve should peak at 90° and 270° and fall to zero (troughs) at 0°, 180° and 360°.' },
+      { label: '(b)(ii)', codes: ['7.5.2'], marks: 4,
+        answer: 'I ∝ A², and by Malus’s law I = I₀cos²θ, where θ is the angle between the transmission axis of the filter and the plane of polarisation of the light.<br>Initially the transmission axis is perpendicular to the plane of polarisation, so at α = 20° the angle θ = 70° (or equivalently 110°).<br>I = I₀cos²70° ≈ 0.12 I₀<br>Since I ∝ A², amplitude = √0.12 × A₀ ≈ <b>0.34 A₀</b>' }
+    ]
+  },
+  {
+    topic: '8',
+    paper: '9702/23/M/J/25', paper_full: 'June 2025 · Paper 23', qnum: 'Q6',
+    title: 'Diffraction grating — frequency, lines per unit length &amp; wavelength',
+    pdf: '9702_s25_qp_23_Q6_Superposition.pdf',
+    marks: 8,
+    parts: [
+      { label: '(a)', codes: ['8.2.1'], marks: 1,
+        answer: 'Diffraction is the spreading of a wave as it passes through an aperture, or passes by/around an edge or obstacle.' },
+      { label: '(b)(i)', codes: ['8.4.1'], marks: 2,
+        answer: 'v = fλ<br>f = c/λ = 3.00×10⁸/(720×10⁻⁹) = <b>4.2×10¹⁴ Hz</b>' },
+      { label: '(b)(ii)', codes: ['8.4.1'], marks: 3,
+        answer: 'd sinθ = nλ, with the second-order maxima each at 26° from the centre (half of the 52° angle between them):<br>d = (2×720×10⁻⁹)/sin26° = 3.3×10⁻⁶ m<br>number of lines per unit length = 1/d = <b>3.0×10⁵ m⁻¹</b>' },
+      { label: '(b)(iii)', codes: ['8.4.1'], marks: 2,
+        answer: 'Since d and sinθ are the same for both gratings/orders: λ×3 = 720×2<br>λ = <b>480 nm</b>' }
+    ]
+  },
+  {
+    topic: '10',
+    paper: '9702/23/M/J/25', paper_full: 'June 2025 · Paper 23', qnum: 'Q7',
+    title: 'Nichrome-wire potentiometer — resistivity, null method &amp; e.m.f. of cell X',
+    pdf: '9702_s25_qp_23_Q7_DC_circuits.pdf',
+    marks: 8,
+    parts: [
+      { label: '(a)', codes: ['9.3.6'], marks: 3,
+        answer: 'R = ρL/A = (1.12×10⁻⁶ × 1.50)/(2.45×10⁻⁷) = <b>6.86 Ω</b>' },
+      { label: '(b)(i)', codes: ['10.3.3'], marks: 1,
+        answer: 'A null method is one in which the reading on the galvanometer (measuring instrument) is adjusted to zero, so that no current is drawn from the circuit being measured.' },
+      { label: '(b)(ii)', codes: ['10.3.2'], marks: 2,
+        answer: 'e.m.f./1.2 = 64/150<br>e.m.f. = (64/150)×1.2 = <b>0.51 V</b>' },
+      { label: '(b)(iii)', codes: ['10.1.5', '10.3.3'], marks: 2,
+        answer: 'The internal resistance causes a drop in p.d. across the cell (of e.m.f. 1.2 V), so the p.d. across the nichrome wire is lower than before. A greater length of wire is therefore needed to balance the e.m.f. of cell X, so the null point moves <b>to the right</b>.' }
+    ]
+  },
+  {
+    topic: '11',
+    paper: '9702/23/M/J/25', paper_full: 'June 2025 · Paper 23', qnum: 'Q8',
+    title: 'Antineutron — antiquark composition &amp; β⁻-analogous decay',
+    pdf: '9702_s25_qp_23_Q8_Particle_physics.pdf',
+    marks: 5,
+    parts: [
+      { label: '(a)', codes: ['11.2.2', '11.2.3'], marks: 3,
+        answer: 'The antineutron comprises one anti-up quark and two anti-down quarks:<br>anti-up (ū): charge <b>−⅔e</b><br>anti-down (d̄): charge <b>+⅓e</b> (×2)' },
+      { label: '(b)', codes: ['11.1.7', '11.1.9'], marks: 2,
+        answer: 'particle: <b>(electron) neutrino</b><br>antiparticle: <b>positron</b>' }
+    ]
+  },
+  {
+    topic: '4',
+    paper: '9702/24/M/J/25', paper_full: 'June 2025 · Paper 24', qnum: 'Q1',
+    title: 'Trapdoor in equilibrium — moments &amp; component of weight',
+    pdf: '9702_s25_qp_24_Q1_Forces_density_and_pressure.pdf',
+    marks: 6,
+    parts: [
+      { label: '(a)', codes: ['4.1.2'], marks: 1,
+        answer: 'The moment of a force is the product of the force and the perpendicular distance from the point/pivot to the line of action of the force.' },
+      { label: '(b)(i)', codes: ['4.2.1'], marks: 2,
+        answer: 'The trapdoor is in (rotational) equilibrium: the sum of the clockwise moments about a point equals the sum of the anticlockwise moments about the same point.' },
+      { label: '(b)(ii)', codes: ['1.4.3'], marks: 1,
+        answer: 'component of weight = 75×cos42° = <b>56 N</b>' },
+      { label: '(b)(iii)', codes: ['4.1.2', '4.2.1'], marks: 2,
+        answer: 'Taking moments about the hinge A:<br>F×80 = 56×40<br>F = <b>28 N</b>' }
+    ]
+  },
+  {
+    topic: '3',
+    paper: '9702/24/M/J/25', paper_full: 'June 2025 · Paper 24', qnum: 'Q2',
+    title: 'Momentum–time graph — momentum, force &amp; displacement',
+    pdf: '9702_s25_qp_24_Q2_Dynamics.pdf',
+    marks: 10,
+    parts: [
+      { label: '(a)', codes: ['3.1.3'], marks: 1,
+        answer: 'Momentum is the product of mass and velocity.' },
+      { label: '(b)', codes: ['3.1.3'], marks: 1,
+        answer: 'change in momentum = (−1.4) − (+2.8) = <b>(−)4.2 kg m s⁻¹</b> (values read from the graph)' },
+      { label: '(c)', codes: ['3.1.4'], marks: 2,
+        answer: 'F = Δp/Δt = gradient of the graph = 4.2/12 = <b>0.35 N</b>' },
+      { label: '(d)', codes: ['2.1.1', '2.1.2'], marks: 1,
+        answer: 'The speed decreases at a constant/uniform rate, reaching zero at t = 8.0 s.' },
+      { label: '(e)', codes: ['3.2.1'], marks: 2,
+        answer: 'Any two of: the (resultant) force is constant/does not decrease over this interval; air resistance would vary/decrease as the speed decreases, not stay constant; the force is not zero when the speed/velocity is zero (at t = 8 s), whereas air resistance would be zero at zero speed.' },
+      { label: '(f)', codes: ['2.1.3'], marks: 3,
+        answer: 'Sketch a line from the origin with a decreasing positive gradient up to t = 8.0 s (matching the decreasing speed); the gradient changes from positive to negative at t = 8.0 s (as the object reverses direction); after t = 8.0 s the line has a negative gradient of increasing magnitude, ending with a positive value of d at t = 12 s.' }
+    ]
+  },
+  {
+    topic: '6',
+    paper: '9702/24/M/J/25', paper_full: 'June 2025 · Paper 24', qnum: 'Q3',
+    title: 'Block dropped onto a spring — kinetic, gravitational &amp; elastic potential energy',
+    pdf: '9702_s25_qp_24_Q3_Deformation_of_solids.pdf',
+    marks: 11,
+    parts: [
+      { label: '(a)', codes: ['5.2.2'], marks: 2,
+        answer: 'Ek = ½mv²<br>110 = ½×5.5×v²<br>v = <b>6.3 m s⁻¹</b>' },
+      { label: '(b)', codes: ['5.2.1'], marks: 2,
+        answer: 'ΔEp = mgx₀<br>x₀ = 20/(5.5×9.81) = <b>0.37 m</b>' },
+      { label: '(c)', codes: ['5.1.2', '6.2.3'], marks: 1,
+        answer: 'All of the KE and GPE lost by the block converts to elastic PE:<br>max elastic PE = 110 + 20 = <b>130 J</b>' },
+      { label: '(d)', codes: ['6.2.2', '6.2.4'], marks: 2,
+        answer: 'max elastic PE = area under the F–x graph = ½F₀x₀<br>130 = ½×F₀×0.37<br>F₀ = 2×130/0.37 = <b>700 N</b>' },
+      { label: '(e)(i)', codes: ['3.1.2'], marks: 2,
+        answer: 'weight = 5.5×9.81 = 54 N<br>resultant force = 700 − 54 = <b>650 N</b>' },
+      { label: '(e)(ii)', codes: ['3.1.2'], marks: 2,
+        answer: 'F = ma<br>a = 650/5.5 = <b>120 m s⁻²</b>' }
+    ]
+  },
+  {
+    topic: '8',
+    paper: '9702/24/M/J/25', paper_full: 'June 2025 · Paper 24', qnum: 'Q4',
+    title: 'Progressive waves &amp; microwave interference — v = fλ, path difference &amp; intensity',
+    pdf: '9702_s25_qp_24_Q4_Superposition.pdf',
+    marks: 12,
+    parts: [
+      { label: '(a)(i)', codes: ['7.1.1'], marks: 1,
+        answer: 'A progressive wave is a wave that transfers/propagates energy (away from the source), without transferring the medium itself.' },
+      { label: '(a)(ii)', codes: ['7.1.2'], marks: 2,
+        answer: 'distance moved by a wavefront in time t = <b>nλ</b><br>time t = <b>n/f</b>' },
+      { label: '(a)(iii)', codes: ['7.1.4'], marks: 1,
+        answer: 'v = distance/time = nλ/(n/f), so <b>v = fλ</b>' },
+      { label: '(b)(i)', codes: ['7.1.4'], marks: 2,
+        answer: 'f = c/λ = (3×10⁸)/(4×10⁻²) = 7.5×10⁹ Hz = <b>7.5 GHz</b>' },
+      { label: '(b)(ii)', codes: ['8.3.2'], marks: 1,
+        answer: 'XQ − YQ = √(72² + 30²) − 72 = <b>6 cm</b>' },
+      { label: '(b)(iii)', codes: ['8.3.1', '8.3.3'], marks: 3,
+        answer: 'path difference = 6 cm = 1.5λ (since λ = 4.0 cm)<br>corresponding phase difference at Q = 540° (equivalent to 180°)<br>Since the waves arrive at Q an odd number of half-wavelengths out of step (in antiphase), the interference there is destructive, so the intensity at Q is a <b>minimum</b>.' },
+      { label: '(b)(iv)', codes: ['8.3.2', '7.1.6'], marks: 2,
+        answer: 'The amplitude changes from a maximum at P (constructive interference, zero path difference) to a minimum at Q, passing through alternating maxima and minima (maximum → minimum → maximum → minimum) as the detector is moved from P to Q.' }
+    ]
+  },
+  {
+    topic: '10',
+    paper: '9702/24/M/J/25', paper_full: 'June 2025 · Paper 24', qnum: 'Q5',
+    title: 'Filament lamps in parallel — I–V characteristic, e.m.f. &amp; drift speed',
+    pdf: '9702_s25_qp_24_Q5_DC_circuits.pdf',
+    marks: 8,
+    parts: [
+      { label: '(a)(i)', codes: ['9.3.4'], marks: 1,
+        answer: 'As the current decreases, the temperature of the filament decreases, so its resistance <b>decreases</b>.' },
+      { label: '(a)(ii)', codes: ['9.3.3'], marks: 2,
+        answer: 'Sketch a curve through the origin with its steepest gradient near the origin, curving to a decreasing gradient as |V| (and |I|) increase; draw a similarly-shaped curve in the third quadrant (symmetric through the origin) for negative V and I.' },
+      { label: '(b)(i)', codes: ['9.2.3'], marks: 2,
+        answer: 'E = P/I = 18/1.5 = <b>12 V</b>' },
+      { label: '(b)(ii)', codes: ['9.1.4'], marks: 3,
+        answer: 'current in lamp B = 3.3 − 1.5 = 1.8 A<br>I = Anvq<br>1.8 = 1.4×10⁻⁹ × 3.4×10²⁸ × v × 1.6×10⁻¹⁹<br>v = <b>0.24 m s⁻¹</b>' }
+    ]
+  },
+  {
+    topic: '10',
+    paper: '9702/24/M/J/25', paper_full: 'June 2025 · Paper 24', qnum: 'Q6',
+    title: 'Potentiometer circuit — variable resistor, uniform wire &amp; null method',
+    pdf: '9702_s25_qp_24_Q6_DC_circuits.pdf',
+    marks: 8,
+    parts: [
+      { label: '(a)', codes: ['9.3.2', '9.3.6'], marks: 2,
+        answer: '2.4/6.0 = 8/(R+8)<br>→ <b>R = 12 Ω</b>' },
+      { label: '(b)', codes: ['9.3.2', '9.3.6'], marks: 2,
+        answer: 'V = IR = I(ρL/A); the current I and the resistivity ρ and cross-sectional area A of the (uniform) wire are all constant along its length, so <b>V ∝ L</b>.' },
+      { label: '(c)(i)', codes: ['10.3.2', '10.3.3'], marks: 2,
+        answer: 'At the null point (galvanometer reads zero):<br>Vxp/Vxy = Lxp/Lxy<br>E/2.4 = 1.24/2.00<br>E = <b>1.5 V</b>' },
+      { label: '(c)(ii)', codes: ['10.1.5', '10.3.2'], marks: 2,
+        answer: 'Decreasing R increases the p.d. across wire XY (and so across XP for a given length), so a shorter length of wire is now needed to balance the e.m.f. of the cell — P must be moved <b>towards X</b> (to the left).' }
+    ]
+  },
+  {
+    topic: '11',
+    paper: '9702/24/M/J/25', paper_full: 'June 2025 · Paper 24', qnum: 'Q7',
+    title: 'Leptons, hadrons &amp; quark composition of the proton',
+    pdf: '9702_s25_qp_24_Q7_Particle_physics.pdf',
+    marks: 5,
+    parts: [
+      { label: '(a)', codes: ['11.2.6'], marks: 2,
+        answer: 'Any two of: (electron) neutrino; (electron) antineutrino; electron; positron.' },
+      { label: '(b)', codes: ['11.2.4'], marks: 1,
+        answer: 'Only <b>meson</b> and <b>neutron</b> are hadrons (antineutrino and beta-plus are leptons, not hadrons).' },
+      { label: '(c)', codes: ['11.2.2', '11.2.3'], marks: 2,
+        answer: 'The proton has quark composition up, up, down (uud):<br>charge = ⅔e + ⅔e − ⅓e = (+1)e = <b>+1.6×10⁻¹⁹ C</b>' }
+    ]
+  }
+];
+
+const container2 = document.getElementById('syllabus2');
+
+// Group questions by their assigned topic, preserving the order topics first appear
+const topicOrder = [];
+const byTopic = {};
+paper2Data.forEach(function(q) {
+  if (!byTopic[q.topic]) { byTopic[q.topic] = []; topicOrder.push(q.topic); }
+  byTopic[q.topic].push(q);
+});
+topicOrder.sort(function(a, b) { return parseInt(a) - parseInt(b); });
+
+topicOrder.forEach(function(topicNum) {
+  var qs = byTopic[topicNum];
+
+  var card = document.createElement('div');
+  card.className = 'topic-card t' + topicNum;
+
+  var header = document.createElement('div');
+  header.className = 'topic-header';
+  header.onclick = function() { card.classList.toggle('expanded'); };
+
+  var totalMarks = qs.reduce(function(s, q) { return s + q.marks; }, 0);
+
+  var num = document.createElement('div');
+  num.className = 'topic-num';
+  num.textContent = topicNum;
+
+  var info = document.createElement('div');
+  info.className = 'topic-info';
+  info.innerHTML = '<div class="topic-name">' + topicNum + '. ' + (topicMeta[topicNum] || '') + '</div>' +
+    '<div class="topic-count">' + qs.length + ' question' + (qs.length > 1 ? 's' : '') +
+    ' &middot; <span class="q-count">' + totalMarks + ' marks</span></div>';
+
+  var chevron = document.createElement('div');
+  chevron.className = 'chevron';
+  chevron.innerHTML = '&#9660;';
+
+  header.appendChild(num);
+  header.appendChild(info);
+  header.appendChild(chevron);
+
+  var subList = document.createElement('div');
+  subList.className = 'sub-list';
+
+  qs.forEach(function(q) {
+    var qCard = document.createElement('div');
+    qCard.className = 'p2-q-card';
+
+    var qHeader = document.createElement('div');
+    qHeader.className = 'p2-q-header';
+    qHeader.innerHTML = '<span class="p2-q-num sub-code">' + q.qnum + '</span>' +
+      '<span class="p2-q-title">' + q.title + '</span>' +
+      '<span class="p2-q-marks">' + q.marks + ' marks</span>' +
+      '<span class="p2-chevron">&#9660;</span>';
+    qHeader.addEventListener('click', function() { qCard.classList.toggle('expanded'); });
+
+    var qMeta = document.createElement('div');
+    qMeta.className = 'p2-q-meta';
+    qMeta.textContent = q.paper + ' — ' + q.paper_full;
+
+    var qBody = document.createElement('div');
+    qBody.className = 'p2-q-body';
+
+    var pdfWrap = document.createElement('div');
+    pdfWrap.className = 'p2-pdf-wrap pdf-container';
+    pdfWrap.innerHTML = '<embed src="' + q.pdf + '" type="application/pdf">' +
+      '<div class="pdf-fallback" style="display:none">📄 Preview unavailable. <a href="' + q.pdf + '" target="_blank">Download PDF</a></div>';
+    qBody.appendChild(pdfWrap);
+
+    var partCards = q.parts.map(function(p) {
+      var part = document.createElement('div');
+      part.className = 'p2-part';
+
+      var codesHtml = p.codes.map(function(c) {
+        return '<span class="p2-code-chip sub-code">' + c + '</span>';
+      }).join('');
+
+      part.innerHTML = '<div class="p2-part-top">' +
+        '<span class="p2-part-label">' + p.label + '</span>' +
+        '<div class="p2-part-codes">' + codesHtml + '</div>' +
+        '<span class="p2-part-marks">[' + p.marks + ']</span>' +
+        '</div>' +
+        '<button type="button" class="p2-answer-btn">&#128065; View standard answer</button>' +
+        '<div class="p2-answer-reveal">' + p.answer + '</div>';
+
+      var btn = part.querySelector('.p2-answer-btn');
+      var reveal = part.querySelector('.p2-answer-reveal');
+      btn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        var shown = reveal.classList.toggle('shown');
+        btn.innerHTML = shown ? '&#128065; Hide standard answer' : '&#128065; View standard answer';
+      });
+
+      return part;
+    });
+
+    if (partCards.length > 1) {
+      let pageIdx = 0;
+      let pager = document.createElement('div');
+      pager.className = 'q-pager';
+
+      let prevBtn = document.createElement('button');
+      prevBtn.className = 'q-pager-btn';
+      prevBtn.type = 'button';
+      prevBtn.innerHTML = '&#8249;';
+
+      let tabsWrap = document.createElement('div');
+      tabsWrap.className = 'q-pager-tabs';
+      let tabs = q.parts.map(function(p, idx) {
+        var tab = document.createElement('button');
+        tab.className = 'q-pager-tab';
+        tab.type = 'button';
+        tab.innerHTML = '<span class="q-pager-tab-q">' + p.label + '</span>';
+        tab.addEventListener('click', function(e) {
+          e.stopPropagation();
+          pageIdx = idx;
+          renderPage();
+        });
+        tabsWrap.appendChild(tab);
+        return tab;
+      });
+
+      let nextBtn = document.createElement('button');
+      nextBtn.className = 'q-pager-btn';
+      nextBtn.type = 'button';
+      nextBtn.innerHTML = '&#8250;';
+
+      const renderPage = function() {
+        partCards.forEach(function(c, idx) {
+          c.style.display = idx === pageIdx ? 'block' : 'none';
+        });
+        tabs.forEach(function(tab, idx) {
+          tab.classList.toggle('active', idx === pageIdx);
+        });
+        prevBtn.disabled = pageIdx === 0;
+        nextBtn.disabled = pageIdx === partCards.length - 1;
+      };
+
+      prevBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        if (pageIdx > 0) { pageIdx--; renderPage(); }
+      });
+      nextBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        if (pageIdx < partCards.length - 1) { pageIdx++; renderPage(); }
+      });
+
+      pager.appendChild(prevBtn);
+      pager.appendChild(tabsWrap);
+      pager.appendChild(nextBtn);
+      qBody.appendChild(pager);
+
+      renderPage();
+    }
+
+    if (partCards.length <= 1) {
+      partCards.forEach(function(c) { c.style.display = 'block'; });
+    }
+
+    partCards.forEach(function(c) { qBody.appendChild(c); });
+
+    qCard.appendChild(qHeader);
+    qCard.appendChild(qMeta);
+    qCard.appendChild(qBody);
+    subList.appendChild(qCard);
+  });
+
+  card.appendChild(header);
+  card.appendChild(subList);
+  container2.appendChild(card);
 });
 </script>
 

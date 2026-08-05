@@ -574,6 +574,52 @@ body {
   padding: 1px 7px;
   border-radius: 10px;
 }
+.p2-code-chip[data-tip] {
+  position: relative;
+  cursor: help;
+}
+.p2-code-chip[data-tip]::after {
+  content: attr(data-tip);
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 8px);
+  transform: translateX(-50%) translateY(4px);
+  width: max-content;
+  max-width: 260px;
+  background: rgba(40, 36, 30, 0.82);
+  backdrop-filter: blur(2px);
+  color: #fdfaf4;
+  font-size: 11.5px;
+  font-weight: 500;
+  line-height: 1.45;
+  padding: 7px 10px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.22);
+  white-space: normal;
+  text-align: left;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+  z-index: 60;
+}
+.p2-code-chip[data-tip]::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  transform: translateX(-50%) translateY(4px);
+  border: 5px solid transparent;
+  border-top-color: rgba(40, 36, 30, 0.82);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+  z-index: 60;
+}
+.p2-code-chip[data-tip]:hover::after,
+.p2-code-chip[data-tip]:hover::before {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
 .p2-answer-btn {
   font-size: 11.5px;
   font-weight: 700;
@@ -619,7 +665,7 @@ body {
 
 <div class="header">
   <h1>CIE AS Physics 9702 Paper2025</h1>
-  <p>Xuanni: luoxuanni98@gmail.com ^ ^feel free to give me feedback!</p>
+  <p>Xuanni</p>
 </div>
 
 <div class="paper-tabs">
@@ -669,7 +715,7 @@ function getAnswer(paper, qnum) {
 const questionData = {
   '1.1.1': [
     { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q1', pdf: '9702_s25_qp_12_Q1_Physical quantities and units_1.1.1.pdf' },
-    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q1', pdf: '9702_w25_qp_14_Q1_Physical_quantities_and_units_1.1.1.pdf' }
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q1', pdf: '9702_w25_qp_14_Q1_Physical quantities and units_1.1.1.pdf' }
   ],
   '1.1.2': [
     { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q2', pdf: '9702_s25_qp_13_Q2_Physical quantities and units_1.1.2.pdf' },
@@ -1201,7 +1247,7 @@ const questionData = {
   ],
   '8.3.4': [
     { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q31', pdf: '9702_s25_qp_12_Q31_Superposition_8.3.4.pdf' },
-    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q31', pdf: '9702_s25_qp_13_Q31_Superposition_8.3.4.pdf' },
+    { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q31', pdf: '9702_s25_qp_13_Q31_Superposition._8.3.4.pdf' },
     { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q27', pdf: '9702_s25_qp_14_Q27_Superposition_8.3.4.pdf' },
     { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q28', pdf: '9702_w25_qp_13_Q28_Superposition_8.3.4.pdf' }
   ],
@@ -1422,40 +1468,40 @@ const questionData = {
   ],
     '11.1.2': [
     { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q37', pdf: '9702_s25_qp_14_Q37_Particle physics_11.1.2_11.1.3_11.1.5.pdf' },
-    { paper: '9702/11/O/N/25', paper_full: 'November 2025 · Paper 11', qnum: 'Q39', pdf: '9702_w25_qp_11_Q39_Particle__physics_11.1.2_11.1.3_11.1.5.pdf' },
-    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q39', pdf: '9702_w25_qp_13_Q39_Particle__physics_11.1.2_11.1.3_11.1.5.pdf' }
+    { paper: '9702/11/O/N/25', paper_full: 'November 2025 · Paper 11', qnum: 'Q39', pdf: '9702_w25_qp_11_Q39_Particle_physics_11.1.2_11.1.3_11.1.5.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q39', pdf: '9702_w25_qp_13_Q39_Particle_physics_11.1.2_11.1.3_11.1.5.pdf' }
   ],
   '11.1.3': [
     { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q37', pdf: '9702_s25_qp_14_Q37_Particle physics_11.1.2_11.1.3_11.1.5.pdf' },
-    { paper: '9702/11/O/N/25', paper_full: 'November 2025 · Paper 11', qnum: 'Q39', pdf: '9702_w25_qp_11_Q39_Particle__physics_11.1.2_11.1.3_11.1.5.pdf' },
-    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q39', pdf: '9702_w25_qp_13_Q39_Particle__physics_11.1.2_11.1.3_11.1.5.pdf' }
+    { paper: '9702/11/O/N/25', paper_full: 'November 2025 · Paper 11', qnum: 'Q39', pdf: '9702_w25_qp_11_Q39_Particle_physics_11.1.2_11.1.3_11.1.5.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q39', pdf: '9702_w25_qp_13_Q39_Particle_physics_11.1.2_11.1.3_11.1.5.pdf' }
   ],
   '11.1.4': [
     { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q38', pdf: '9702_s25_qp_12_Q38_Particle physics_11.1.4.pdf' }
   ],
   '11.1.5': [
     { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q37', pdf: '9702_s25_qp_14_Q37_Particle physics_11.1.2_11.1.3_11.1.5.pdf' },
-    { paper: '9702/11/O/N/25', paper_full: 'November 2025 · Paper 11', qnum: 'Q38', pdf: '9702_w25_qp_11_Q38_Particle__physics_11.1.11_11.1.5_11.1.6.pdf' },
-    { paper: '9702/11/O/N/25', paper_full: 'November 2025 · Paper 11', qnum: 'Q39', pdf: '9702_w25_qp_11_Q39_Particle__physics_11.1.2_11.1.3_11.1.5.pdf' },
-    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q40', pdf: '9702_w25_qp_12_Q40_Particle__physics_11.1.11_11.1.5_11.1.6.pdf' },
-    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q38', pdf: '9702_w25_qp_13_Q38_Particle__physics_11.1.11_11.1.5_11.1.6.pdf' },
-    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q39', pdf: '9702_w25_qp_13_Q39_Particle__physics_11.1.2_11.1.3_11.1.5.pdf' },
-    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q39', pdf: '9702_w25_qp_14_Q39_Particle__physics_11.1.11_11.1.5_11.1.6.pdf' }
+    { paper: '9702/11/O/N/25', paper_full: 'November 2025 · Paper 11', qnum: 'Q38', pdf: '9702_w25_qp_11_Q38_Particle_physics_11.1.11_11.1.5_11.1.6.pdf' },
+    { paper: '9702/11/O/N/25', paper_full: 'November 2025 · Paper 11', qnum: 'Q39', pdf: '9702_w25_qp_11_Q39_Particle_physics_11.1.2_11.1.3_11.1.5.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q40', pdf: '9702_w25_qp_12_Q40_Particle_physics_11.1.11_11.1.5_11.1.6.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q38', pdf: '9702_w25_qp_13_Q38_Particle_physics_11.1.11_11.1.5_11.1.6.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q39', pdf: '9702_w25_qp_13_Q39_Particle_physics_11.1.2_11.1.3_11.1.5.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q39', pdf: '9702_w25_qp_14_Q39_Particle_physics_11.1.11_11.1.5_11.1.6.pdf' }
   ],
   '11.1.6': [
     { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q40', pdf: '9702_s25_qp_13_Q40_Particle physics_11.1.11_11.1.6.pdf' },
     { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q38', pdf: '9702_s25_qp_14_Q38_Particle physics_11.1.11_11.1.6.pdf' },
     { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q38', pdf: '9702_m25_qp_12_Q38_Particle physics_11.1.6.pdf' },
-    { paper: '9702/11/O/N/25', paper_full: 'November 2025 · Paper 11', qnum: 'Q38', pdf: '9702_w25_qp_11_Q38_Particle__physics_11.1.11_11.1.5_11.1.6.pdf' },
-    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q40', pdf: '9702_w25_qp_12_Q40_Particle__physics_11.1.11_11.1.5_11.1.6.pdf' },
-    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q38', pdf: '9702_w25_qp_13_Q38_Particle__physics_11.1.11_11.1.5_11.1.6.pdf' },
-    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q39', pdf: '9702_w25_qp_14_Q39_Particle__physics_11.1.11_11.1.5_11.1.6.pdf' }
+    { paper: '9702/11/O/N/25', paper_full: 'November 2025 · Paper 11', qnum: 'Q38', pdf: '9702_w25_qp_11_Q38_Particle_physics_11.1.11_11.1.5_11.1.6.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q40', pdf: '9702_w25_qp_12_Q40_Particle_physics_11.1.11_11.1.5_11.1.6.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q38', pdf: '9702_w25_qp_13_Q38_Particle_physics_11.1.11_11.1.5_11.1.6.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q39', pdf: '9702_w25_qp_14_Q39_Particle_physics_11.1.11_11.1.5_11.1.6.pdf' }
   ],
   '11.1.7': [
     { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q39', pdf: '9702_s25_qp_11_Q39_Particle physics_11.1.10_11.1.7.pdf' },
     { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q38', pdf: '9702_s25_qp_13_Q38_Particle physics_11.1.9_11.1.7.pdf' },
-    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q39', pdf: '9702_w25_qp_12_Q39_Particle__physics_11.1.9_11.1.7_11.1.11.pdf' },
-    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q38', pdf: '9702_w25_qp_14_Q38_Particle__physics_11.1.9_11.1.7_11.1.11.pdf' }
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q39', pdf: '9702_w25_qp_12_Q39_Particle_physics_11.1.9_11.1.7_11.1.11.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q38', pdf: '9702_w25_qp_14_Q38_Particle_physics_11.1.9_11.1.7_11.1.11.pdf' }
   ],
   '11.1.8': [
     { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q38', pdf: '9702_s25_qp_11_Q38_Particle physics_11.2.1_11.2.4_11.2.6_11.1.8.pdf' },
@@ -1490,8 +1536,8 @@ const questionData = {
     { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q40', pdf: '9702_s25_qp_11_Q40_Particle physics_11.2.4_11.2.2.pdf' },
     { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q39', pdf: '9702_s25_qp_13_Q39_Particle physics_11.2.2.pdf' },
     { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q40', pdf: '9702_m25_qp_12_Q40_Particle physics_11.2.2.pdf' },
-    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q38', pdf: '9702_w25_qp_12_Q38_Particle__physics_11.2.5_11.2.2.pdf' },
-    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q40', pdf: '9702_w25_qp_14_Q40_Particle__physics_11.2.4_11.2.2.pdf' }
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q38', pdf: '9702_w25_qp_12_Q38_Particle_physics_11.2.5_11.2.2.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q40', pdf: '9702_w25_qp_14_Q40_Particle_physics_11.2.4_11.2.2.pdf' }
   ],
   '11.2.3': [
     { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q40', pdf: '9702_s25_qp_12_Q40_Particle physics_11.2.5_11.2.3_11.1.11.pdf' }
@@ -1501,18 +1547,18 @@ const questionData = {
     { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q40', pdf: '9702_s25_qp_11_Q40_Particle physics_11.2.4_11.2.2.pdf' },
     { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q39', pdf: '9702_s25_qp_12_Q39_Particle physics_11.2.4.pdf' },
     { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q37', pdf: '9702_m25_qp_12_Q37_Particle physics_11.2.4.pdf' },
-    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q40', pdf: '9702_w25_qp_14_Q40_Particle__physics_11.2.4_11.2.2.pdf' }
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q40', pdf: '9702_w25_qp_14_Q40_Particle_physics_11.2.4_11.2.2.pdf' }
   ],
   '11.2.5': [
     { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q40', pdf: '9702_s25_qp_12_Q40_Particle physics_11.2.5_11.2.3_11.1.11.pdf' },
     { paper: '9702/12/F/M/25', paper_full: 'March 2025 · Paper 12', qnum: 'Q39', pdf: '9702_m25_qp_12_Q39_Particle physics_11.2.5.pdf' },
-    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q38', pdf: '9702_w25_qp_12_Q38_Particle__physics_11.2.5_11.2.2.pdf' }
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q38', pdf: '9702_w25_qp_12_Q38_Particle_physics_11.2.5_11.2.2.pdf' }
   ],
   '11.2.6': [
     { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q38', pdf: '9702_s25_qp_11_Q38_Particle physics_11.2.1_11.2.4_11.2.6_11.1.8.pdf' },
     { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q39', pdf: '9702_s25_qp_14_Q39_Particle physics_11.2.6_11.1.8.pdf' },
-    { paper: '9702/11/O/N/25', paper_full: 'November 2025 · Paper 11', qnum: 'Q40', pdf: '9702_w25_qp_11_Q40_Particle__physics_11.2.6_11.1.8.pdf' },
-    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q40', pdf: '9702_w25_qp_13_Q40_Particle__physics_11.2.6_11.1.8.pdf' }
+    { paper: '9702/11/O/N/25', paper_full: 'November 2025 · Paper 11', qnum: 'Q40', pdf: '9702_w25_qp_11_Q40_Particle_physics_11.2.6_11.1.8.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q40', pdf: '9702_w25_qp_13_Q40_Particle_physics_11.2.6_11.1.8.pdf' }
   ],
 };
 
@@ -1915,6 +1961,19 @@ const syllabus = [
     ]
   }
 ];
+
+// ---- Build code -> full learning-objective description lookup (used for hover tooltips on knowledge-point chips) ----
+const codeDescriptions = {};
+syllabus.forEach(function(t) {
+  t.subs.forEach(function(s) {
+    s.subsubs.forEach(function(ss) {
+      codeDescriptions[ss.code] = ss.desc;
+    });
+  });
+});
+function escapeAttr(str) {
+  return String(str).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
 
 // ---- Build pdf -> all related learning-objective codes map, used to show "also covers" on question cards ----
 const pdfToCodes = {};
@@ -2848,11 +2907,11 @@ const paper2Data = [
     pdf: '9702_w25_qp_21_Q3_Deformation_of_solids.pdf',
     marks: 9,
     parts: [
-      { label: '(a)', codes: ['6.2.1'], marks: 1,
+      { label: '(a)', codes: ['6.1.5'], marks: 1,
         answer: 'The Young modulus is the <b>ratio of (tensile) stress to (tensile) strain</b> (within the limit of proportionality).' },
       { label: '(b)(i)', codes: ['9.3.6'], marks: 1,
         answer: 'R₀ = <b>ρL/A</b>' },
-      { label: '(b)(ii)', codes: ['6.1.4', '6.2.1'], marks: 2,
+      { label: '(b)(ii)', codes: ['6.1.4', '6.1.5'], marks: 2,
         answer: 'k = F/x and E = FL/(Ax) = (F/x)×(L/A) = kL/A<br>rearranging gives <b>k₀ = EA/L</b>' },
       { label: '(c)(i)', codes: ['9.3.6', '6.1.4'], marks: 1,
         answer: 'Sketch a straight line of positive gradient, starting from (0, R₀) — as F increases, the wire extends (L increases) while A stays essentially constant, so R = ρL/A increases linearly with F.' },
@@ -2860,7 +2919,7 @@ const paper2Data = [
         answer: 'Sketch a straight horizontal line at k = k₀ — within the limit of proportionality, k₀ = EA/L is constant (E, A and L essentially unchanged), so k does not vary with F.' },
       { label: '(d)(i)', codes: ['9.3.6'], marks: 1,
         answer: 'L = RA/ρ = [0.034 × π×(0.80×10⁻³)²] / 1.8×10⁻⁸ = <b>3.8 m</b>' },
-      { label: '(d)(ii)', codes: ['6.2.1', '6.1.4'], marks: 2,
+      { label: '(d)(ii)', codes: ['6.1.5', '6.1.4'], marks: 2,
         answer: 'k = EA/L = [1.3×10¹¹ × π×(0.80×10⁻³)²] / 3.8 = <b>6.9×10⁴ N m⁻¹</b>' }
     ]
   },
@@ -3033,6 +3092,129 @@ const paper2Data = [
         answer: 'nucleon number of X = 228 − (5×4) = 208<br>proton number of X = 88 − (5×2) + 4 = <b>82</b><br>number of neutrons = 208 − 82 = <b>126</b>' }
     ]
   }
+,
+  {
+    topic: '5',
+    paper: '9702/23/O/N/25', paper_full: 'Oct/Nov 2025 · Paper 23', qnum: 'Q1',
+    title: 'Rocket launch — acceleration from a v–t graph, GPE, KE &amp; engine power',
+    pdf: '9702_w25_qp_23_Q1_Work_energy_and_power.pdf',
+    marks: 10,
+    parts: [
+      { label: '(a)', codes: ['2.1.1'], marks: 1,
+        answer: 'Acceleration is the <b>rate of change of velocity</b>.' },
+      { label: '(b)(i)', codes: ['2.1.2'], marks: 1,
+        answer: 'acceleration = gradient of graph = 320/20 = <b>16 m s⁻²</b>' },
+      { label: '(b)(ii)', codes: ['2.1.5'], marks: 2,
+        answer: 'height = area under the v–t graph = ½(u+v)t<br>= ½ × 20 × 320 = 3200 m = <b>3.2 km</b>' },
+      { label: '(c)(i)', codes: ['5.2.1'], marks: 2,
+        answer: 'ΔEP = mgΔh<br>= 2.9×10⁶ × 9.81 × 3200 = <b>9.1×10¹⁰ J</b>' },
+      { label: '(c)(ii)', codes: ['5.2.2'], marks: 2,
+        answer: 'ΔEK = ½mΔ(v²)<br>= ½ × 2.9×10⁶ × 320² = <b>1.5×10¹¹ J</b>' },
+      { label: '(c)(iii)', codes: ['5.1.5', '5.2.1', '5.2.2'], marks: 2,
+        answer: 'power = work done / time = (ΔEP + ΔEK) / t<br>= ((1.5 + 0.91)×10¹¹) / 20 = <b>1.2×10¹⁰ W</b>' }
+    ]
+  },
+  {
+    topic: '4',
+    paper: '9702/23/O/N/25', paper_full: 'Oct/Nov 2025 · Paper 23', qnum: 'Q2',
+    title: 'Steel ball falling through oil — pressure, upthrust &amp; terminal speed',
+    pdf: '9702_w25_qp_23_Q2_Forces_density_and_pressure.pdf',
+    marks: 12,
+    parts: [
+      { label: '(a)(i)', codes: ['4.3.2'], marks: 1,
+        answer: 'Pressure is the <b>(normal) force per unit (cross-sectional) area</b>.' },
+      { label: '(a)(ii)', codes: ['4.3.5'], marks: 2,
+        answer: 'Due to the difference in depth, there is a difference in (hydrostatic) pressure between the top and bottom of the object; because of this pressure difference, the (upward) force on the bottom of the object is greater than the (downward) force on the top, so the resultant force from the liquid is <b>upwards</b> — this is the upthrust.' },
+      { label: '(b)(i)', codes: ['4.1.2', '4.3.5'], marks: 3,
+        answer: 'Three arrows drawn from the ball: <b>weight</b> vertically downwards; <b>upthrust</b> vertically upwards; <b>(viscous) drag</b> vertically upwards.' },
+      { label: '(b)(ii)', codes: ['1.2.2'], marks: 2,
+        answer: 'SI base units of D (a force) = kg m s⁻²<br>base units of η = (kg m s⁻²) / (m × m s⁻¹) = <b>kg m⁻¹ s⁻¹</b>' },
+      { label: '(c)(i)', codes: ['4.3.1', '4.3.5'], marks: 1,
+        answer: 'upthrust = ρgV = 920 × 9.81 × (4/3)π(4.2×10⁻³)³ = <b>2.8×10⁻³ N</b>' },
+      { label: '(c)(ii)', codes: ['3.2.1', '4.3.5'], marks: 3,
+        answer: 'At terminal speed: weight = drag + upthrust<br>(2.4×10⁻³ × 9.81) = 2.8×10⁻³ + (6π × 4.7 × 4.2×10⁻³ × v)<br>v = <b>0.056 m s⁻¹</b>' }
+    ]
+  },
+  {
+    topic: '6',
+    paper: '9702/23/O/N/25', paper_full: 'Oct/Nov 2025 · Paper 23', qnum: 'Q3',
+    title: 'Wire under tension — Young modulus, resistance &amp; spring constant',
+    pdf: '9702_w25_qp_23_Q3_Deformation_of_solids.pdf',
+    marks: 9,
+    parts: [
+      { label: '(a)', codes: ['6.1.5'], marks: 1,
+        answer: 'The Young modulus is the <b>ratio of (tensile) stress to (tensile) strain</b> (within the limit of proportionality).' },
+      { label: '(b)(i)', codes: ['9.3.6'], marks: 1,
+        answer: 'R₀ = <b>ρL/A</b>' },
+      { label: '(b)(ii)', codes: ['6.1.4', '6.1.5'], marks: 2,
+        answer: 'k = F/x and E = FL/(Ax) = (F/x)×(L/A) = kL/A<br>rearranging gives <b>k₀ = EA/L</b>' },
+      { label: '(c)(i)', codes: ['9.3.6', '6.1.4'], marks: 1,
+        answer: 'Sketch a straight line of positive gradient, starting from (0, R₀) — as F increases, the wire extends (L increases) while A stays essentially constant, so R = ρL/A increases linearly with F.' },
+      { label: '(c)(ii)', codes: ['6.1.4'], marks: 1,
+        answer: 'Sketch a straight horizontal line at k = k₀ — within the limit of proportionality, k₀ = EA/L is constant (E, A and L essentially unchanged), so k does not vary with F.' },
+      { label: '(d)(i)', codes: ['9.3.6'], marks: 1,
+        answer: 'L = RA/ρ = [0.034 × π×(0.80×10⁻³)²] / 1.8×10⁻⁸ = <b>3.8 m</b>' },
+      { label: '(d)(ii)', codes: ['6.1.5', '6.1.4'], marks: 2,
+        answer: 'k = EA/L = [1.3×10¹¹ × π×(0.80×10⁻³)²] / 3.8 = <b>6.9×10⁴ N m⁻¹</b>' }
+    ]
+  },
+  {
+    topic: '8',
+    paper: '9702/23/O/N/25', paper_full: 'Oct/Nov 2025 · Paper 23', qnum: 'Q4',
+    title: 'Diffraction grating with polarised light — grating equation &amp; intensity variation',
+    pdf: '9702_w25_qp_23_Q4_Superposition.pdf',
+    marks: 10,
+    parts: [
+      { label: '(a)', codes: ['8.2.1'], marks: 2,
+        answer: 'Diffraction is the <b>spreading out of a wave</b> as it passes through a gap/aperture (or around an obstacle).' },
+      { label: '(b)(i)', codes: ['8.3.1'], marks: 2,
+        answer: 'nλ = d sinθ<br>θ = sin⁻¹[(540×10⁻⁹)/(5.0×10⁻⁶)] = <b>6.2°</b>' },
+      { label: '(b)(ii)', codes: ['8.3.1'], marks: 1,
+        answer: 'For n = 2: sinθ = 2×540×10⁻⁹/5.0×10⁻⁶ = 0.216<br>θ = <b>12°</b>' },
+      { label: '(b)(iii)', codes: ['8.3.1', '8.3.2'], marks: 3,
+        answer: 'Sketch peaks/maxima at θ = 0, ±6°, ±12° with zero intensity in between each; the central peak (at θ = 0) has intensity I₀, and the other (first- and second-order) peaks are all equal to or less than I₀.' },
+      { label: '(c)', codes: ['8.4.1'], marks: 2,
+        answer: 'The peaks/maxima occur at the <b>same angles</b> as before (unchanged), but the intensity of every peak is <b>halved</b> — the polarising filter at 45° to the vertical transmits only half the intensity of the (vertically polarised) incident beam, following Malus\'s law (cos²45° = ½), before it reaches the grating.' }
+    ]
+  },
+  {
+    topic: '10',
+    paper: '9702/23/O/N/25', paper_full: 'Oct/Nov 2025 · Paper 23', qnum: 'Q5',
+    title: 'Thermistor circuit — Kirchhoff\'s first law, NTC behaviour &amp; e.m.f.',
+    pdf: '9702_w25_qp_23_Q5_D_C__circuits.pdf',
+    marks: 10,
+    parts: [
+      { label: '(a)', codes: ['10.2.1'], marks: 1,
+        answer: 'The sum of the currents into a junction equals the sum of the currents out of that junction (or: the algebraic sum of the currents at a junction is zero).' },
+      { label: '(b)(i)', codes: ['9.3.4'], marks: 2,
+        answer: 'Sketch a curve with negative gradient throughout, starting at (0, R₀) and decreasing (never reaching zero) up to 100°C — resistance of the (NTC) thermistor decreases continuously as temperature increases.' },
+      { label: '(b)(ii)', codes: ['10.2.4', '10.1.5'], marks: 3,
+        answer: 'As temperature increases, the resistance of the thermistor T decreases, so the total resistance of the circuit decreases; the current in the cell therefore <b>increases</b>, so the p.d. across the internal resistance increases; the terminal p.d. (across R and T) therefore <b>decreases</b>, and since the resistance of R is constant, the current in R <b>decreases</b> (by V = IR).' },
+      { label: '(c)(i)', codes: ['10.1.5'], marks: 2,
+        answer: 'p.d. across r = E − IR = 1.50 − (6.00×0.200) = 0.30 V<br>current in cell = 0.30/0.12 = <b>2.5 A</b>' },
+      { label: '(c)(ii)', codes: ['10.2.4', '9.3.2'], marks: 2,
+        answer: 'current in thermistor = 2.5 − 0.200 = 2.3 A<br>resistance of T = (6.00×0.200)/2.3 = <b>0.52 Ω</b>' }
+    ]
+  },
+  {
+    topic: '11',
+    paper: '9702/23/O/N/25', paper_full: 'Oct/Nov 2025 · Paper 23', qnum: 'Q6',
+    title: 'Tritium — nuclide structure, β⁻ decay &amp; quark composition',
+    pdf: '9702_w25_qp_23_Q6_Particle_physics.pdf',
+    marks: 9,
+    parts: [
+      { label: '(a)(i)', codes: ['11.1.3'], marks: 2,
+        answer: 'number of protons = <b>1</b><br>number of electrons = <b>1</b><br>number of neutrons = <b>2</b>' },
+      { label: '(a)(ii)', codes: ['11.1.3'], marks: 2,
+        answer: 'Diagram shows a nucleus containing 1 proton and 2 neutrons (labelled), with 1 electron (labelled) shown separated from/orbiting the nucleus (not touching the nucleons).' },
+      { label: '(b)(i)', codes: ['11.1.7', '11.1.9'], marks: 2,
+        answer: '³₁H → ³₂He + ⁰₋₁β + X<br>helium nucleus: nucleon number <b>3</b>, proton number <b>2</b>; beta particle: nucleon number <b>0</b>, proton (charge) number <b>−1</b>' },
+      { label: '(b)(ii)', codes: ['11.1.8'], marks: 1,
+        answer: 'Particle X is the <b>(electron) antineutrino</b>.' },
+      { label: '(c)', codes: ['11.2.2', '11.2.3'], marks: 2,
+        answer: 'The tritium nucleus contains 1 proton (up, up, down) and 2 neutrons (each up, down, down):<br>quark composition = <b>4 up quarks, 5 down quarks</b>' }
+    ]
+  },
 ];
 
 const container2 = document.getElementById('syllabus2');
@@ -3109,7 +3291,9 @@ topicOrder.forEach(function(topicNum) {
       part.className = 'p2-part';
 
       var codesHtml = p.codes.map(function(c) {
-        return '<span class="p2-code-chip sub-code">' + c + '</span>';
+        var desc = codeDescriptions[c];
+        var tipAttr = desc ? ' data-tip="' + escapeAttr(desc) + '"' : '';
+        return '<span class="p2-code-chip sub-code"' + tipAttr + '>' + c + '</span>';
       }).join('');
 
       part.innerHTML = '<div class="p2-part-top">' +

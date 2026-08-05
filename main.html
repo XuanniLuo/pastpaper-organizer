@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CIE AS Physics 9702 - Syllabus (Topics 1-11)</title>
+<title>CIE AS Physics 9702 - paper 2025 organizer</title>
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
 .watermark {
@@ -648,6 +648,74 @@ body {
 .p2-q-body .q-pager-tab { padding: 5px 10px; }
 .p2-part { display: none; }
 .p2-pdf-wrap { display: block; margin-bottom: 10px; }
+
+/* ---- Question marking (mark-as-done / tricky / hard) ---- */
+.mark-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-left: auto;
+  flex-shrink: 0;
+  padding-left: 4px;
+}
+.mark-dot {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  opacity: 0.35;
+  transition: opacity 0.15s, transform 0.15s, box-shadow 0.15s;
+}
+.mark-dot:hover { opacity: 0.8; transform: scale(1.18); }
+.mark-dot.active { opacity: 1; box-shadow: 0 0 0 2px #fbf8f4, 0 0 0 4px currentColor; }
+.mark-dot.mark-green  { background: #6ea36e; color: #6ea36e; }
+.mark-dot.mark-yellow { background: #d9a441; color: #d9a441; }
+.mark-dot.mark-red    { background: #c0594a; color: #c0594a; }
+
+.q-card.marked-green,   .p2-q-card.marked-green   { border-left: 4px solid #6ea36e; background: #eef4ea; }
+.q-card.marked-yellow,  .p2-q-card.marked-yellow  { border-left: 4px solid #d9a441; background: #faf3e2; }
+.q-card.marked-red,     .p2-q-card.marked-red     { border-left: 4px solid #c0594a; background: #f8ebe8; }
+
+.mark-panel {
+  position: sticky;
+  top: 10px;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  background: #fbf8f4;
+  border: 1px solid #e6ded2;
+  border-radius: 12px;
+  padding: 10px 16px;
+  margin-bottom: 16px;
+  font-size: 12.5px;
+  color: #6b6154;
+  box-shadow: 0 1px 3px rgba(91,83,76,0.08);
+}
+.mark-panel-legend { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.mark-panel-legend span { display: flex; align-items: center; gap: 5px; }
+.mark-legend-dot { width: 11px; height: 11px; border-radius: 50%; display: inline-block; }
+.mark-legend-dot.mark-green  { background: #6ea36e; }
+.mark-legend-dot.mark-yellow { background: #d9a441; }
+.mark-legend-dot.mark-red    { background: #c0594a; }
+.mark-panel-actions { display: flex; align-items: center; gap: 8px; margin-left: auto; }
+.mark-panel-btn {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid #b9c8d1;
+  background: #eef3f6;
+  color: #5c7a8a;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.mark-panel-btn:hover { background: #dde6ea; border-color: #8497a8; }
+.mark-panel-btn.danger { border-color: #d3a99c; background: #f8ece7; color: #a8624c; }
+.mark-panel-btn.danger:hover { background: #f3ddd3; border-color: #c0846b; }
 </style>
 <base target="_blank">
 <base target="_blank">
@@ -664,8 +732,22 @@ body {
 </svg>
 
 <div class="header">
-  <h1>CIE AS Physics 9702 Paper2025</h1>
-  <p>Xuanni</p>
+  <h1>CIE AS Physics 9702 Paper 2025 Organizer</h1>
+  <p>luoxuanni98@gmail.com (update: 5 Aug.)</p>
+</div>
+
+<div class="mark-panel">
+  <div class="mark-panel-legend">
+    <span><span class="mark-legend-dot mark-green"></span>Done <b id="mark-count-green">0</b></span>
+    <span><span class="mark-legend-dot mark-yellow"></span>Error-prone <b id="mark-count-yellow">0</b></span>
+    <span><span class="mark-legend-dot mark-red"></span>Hard <b id="mark-count-red">0</b></span>
+  </div>
+  <div class="mark-panel-actions">
+    <button type="button" class="mark-panel-btn" id="mark-export-btn">Export Marks</button>
+    <button type="button" class="mark-panel-btn" id="mark-import-btn">Import Marks</button>
+    <input type="file" id="mark-import-input" accept="application/json" style="display:none">
+    <button type="button" class="mark-panel-btn danger" id="mark-clear-btn">Clear Marks</button>
+  </div>
 </div>
 
 <div class="paper-tabs">
@@ -689,6 +771,159 @@ document.querySelectorAll('.paper-tab').forEach(function(tab) {
     document.querySelectorAll('.paper-panel').forEach(function(p) { p.classList.remove('active'); });
     tab.classList.add('active');
     document.getElementById('paper' + tab.dataset.paper + '-panel').classList.add('active');
+  });
+});
+</script>
+
+<script>
+// ============================================================
+// QUESTION MARKING — mark any question card green (done),
+// yellow (error-prone) or red (hard). Marks persist
+// in localStorage and can be exported/imported as JSON so they
+// survive across browsers/devices or can be added later.
+// ============================================================
+const MARK_STORAGE_KEY = 'physicsQuestionMarks_v1';
+const MARK_COLORS = [
+  { key: 'green',  title: 'Mark: yes' },
+  { key: 'yellow', title: 'Mark: hmmm' },
+  { key: 'red',    title: 'Mark: not yet' }
+];
+
+let questionMarks = {};
+try {
+  questionMarks = JSON.parse(localStorage.getItem(MARK_STORAGE_KEY) || '{}') || {};
+} catch (e) {
+  questionMarks = {};
+}
+
+// Registry of every markable card so we can re-sync the UI after an import or a clear.
+const markRegistry = [];
+
+function persistMarks() {
+  try { localStorage.setItem(MARK_STORAGE_KEY, JSON.stringify(questionMarks)); } catch (e) {}
+  updateMarkStats();
+}
+
+function applyCardMarkClass(cardEl, id) {
+  cardEl.classList.remove('marked-green', 'marked-yellow', 'marked-red');
+  var m = questionMarks[id];
+  if (m) cardEl.classList.add('marked-' + m);
+}
+
+function syncToolbarDots(toolbarEl, id) {
+  toolbarEl.querySelectorAll('.mark-dot').forEach(function(b) {
+    b.classList.toggle('active', questionMarks[id] === b.getAttribute('data-mark'));
+  });
+}
+
+// Build a small 3-dot toolbar for a given question id (its unique pdf filename) and
+// wire it up so clicking a colour sets that mark, clicking the active colour again clears it.
+function createMarkToolbar(id, cardEl) {
+  var wrap = document.createElement('div');
+  wrap.className = 'mark-toolbar';
+  MARK_COLORS.forEach(function(c) {
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'mark-dot mark-' + c.key;
+    btn.title = c.title;
+    btn.setAttribute('data-mark', c.key);
+    btn.addEventListener('click', function(e) {
+      e.stopPropagation();
+      questionMarks[id] = (questionMarks[id] === c.key) ? undefined : c.key;
+      if (!questionMarks[id]) delete questionMarks[id];
+      syncToolbarDots(wrap, id);
+      applyCardMarkClass(cardEl, id);
+      persistMarks();
+    });
+    wrap.appendChild(btn);
+  });
+  return wrap;
+}
+
+// Call once per question card right after building its toolbar, so it's tracked for
+// import/clear refreshes and gets its initial (possibly already-saved) mark applied.
+function registerMarkable(id, cardEl, toolbarEl) {
+  markRegistry.push({ id: id, cardEl: cardEl, toolbarEl: toolbarEl });
+  applyCardMarkClass(cardEl, id);
+  syncToolbarDots(toolbarEl, id);
+}
+
+function refreshAllMarks() {
+  markRegistry.forEach(function(r) {
+    applyCardMarkClass(r.cardEl, r.id);
+    syncToolbarDots(r.toolbarEl, r.id);
+  });
+  updateMarkStats();
+}
+
+function updateMarkStats() {
+  var counts = { green: 0, yellow: 0, red: 0 };
+  Object.keys(questionMarks).forEach(function(id) {
+    var c = questionMarks[id];
+    if (counts.hasOwnProperty(c)) counts[c]++;
+  });
+  var g = document.getElementById('mark-count-green');
+  var y = document.getElementById('mark-count-yellow');
+  var r = document.getElementById('mark-count-red');
+  if (g) g.textContent = counts.green;
+  if (y) y.textContent = counts.yellow;
+  if (r) r.textContent = counts.red;
+}
+
+function exportMarks() {
+  var data = JSON.stringify(questionMarks, null, 2);
+  var blob = new Blob([data], { type: 'application/json' });
+  var url = URL.createObjectURL(blob);
+  var a = document.createElement('a');
+  a.href = url;
+  var d = new Date();
+  var stamp = d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+  a.download = 'question-marks-' + stamp + '.json';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+function importMarksFromFile(file) {
+  var reader = new FileReader();
+  reader.onload = function(e) {
+    try {
+      var obj = JSON.parse(e.target.result);
+      if (typeof obj !== 'object' || obj === null || Array.isArray(obj)) throw new Error('bad format');
+      // Merge on top of existing marks so importing doesn't wipe marks made on this device only.
+      Object.keys(obj).forEach(function(id) {
+        if (obj[id]) questionMarks[id] = obj[id];
+      });
+      persistMarks();
+      refreshAllMarks();
+    } catch (err) {
+      alert('Import failed: invalid file format. Please select a marks JSON file exported from this page.');
+    }
+  };
+  reader.readAsText(file);
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  updateMarkStats();
+  var exportBtn = document.getElementById('mark-export-btn');
+  var importBtn = document.getElementById('mark-import-btn');
+  var importInput = document.getElementById('mark-import-input');
+  var clearBtn = document.getElementById('mark-clear-btn');
+  if (exportBtn) exportBtn.addEventListener('click', exportMarks);
+  if (importBtn) importBtn.addEventListener('click', function() { importInput.click(); });
+  if (importInput) importInput.addEventListener('change', function() {
+    if (importInput.files && importInput.files[0]) {
+      importMarksFromFile(importInput.files[0]);
+      importInput.value = '';
+    }
+  });
+  if (clearBtn) clearBtn.addEventListener('click', function() {
+    if (confirm('Clear all marks? This cannot be undone (export a backup first if needed).')) {
+      questionMarks = {};
+      persistMarks();
+      refreshAllMarks();
+    }
   });
 });
 </script>
@@ -2118,6 +2353,10 @@ syllabus.forEach(function(t) {
             answerBtn.innerHTML = isShown ? '&#128065; Hide Answer' : '&#128065; View Answer';
           });
 
+          var markToolbar = createMarkToolbar(q.pdf, qCard);
+          qCard.querySelector('.q-meta').appendChild(markToolbar);
+          registerMarkable(q.pdf, qCard, markToolbar);
+
           return qCard;
         });
 
@@ -3272,6 +3511,10 @@ topicOrder.forEach(function(topicNum) {
       '<span class="p2-q-marks">' + q.marks + ' marks</span>' +
       '<span class="p2-chevron">&#9660;</span>';
     qHeader.addEventListener('click', function() { qCard.classList.toggle('expanded'); });
+
+    var markToolbar = createMarkToolbar(q.pdf, qCard);
+    qHeader.insertBefore(markToolbar, qHeader.querySelector('.p2-chevron'));
+    registerMarkable(q.pdf, qCard, markToolbar);
 
     var qMeta = document.createElement('div');
     qMeta.className = 'p2-q-meta';

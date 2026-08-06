@@ -778,18 +778,21 @@ body {
   position: fixed;
   inset: 0;
   z-index: 1300;
-  background: rgba(40, 36, 30, 0.45);
+  background: rgba(40, 36, 30, 0.28);
   padding: 40px 16px;
   overflow-y: auto;
 }
 .dashboard-modal.open { display: block; }
 .dashboard-modal-box {
-  background: #efe9e1;
+  background: rgba(239, 233, 225, 0.72);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
   max-width: 720px;
   margin: 0 auto;
   border-radius: 16px;
   padding: 20px 22px 26px 22px;
-  box-shadow: 0 12px 40px rgba(0,0,0,0.25);
+  border: 1px solid rgba(255,255,255,0.35);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.20);
 }
 .dashboard-modal-header {
   display: flex;
@@ -800,14 +803,14 @@ body {
   color: #4a433c;
   margin-bottom: 16px;
   padding-bottom: 12px;
-  border-bottom: 2px solid #e2d9cc;
+  border-bottom: 2px solid rgba(226,217,204,0.6);
 }
 .dashboard-modal-close {
   width: 28px;
   height: 28px;
   border-radius: 8px;
   border: 1px solid #e6ded2;
-  background: #fbf8f4;
+  background: rgba(251,248,244,0.7);
   color: #a89e90;
   font-size: 13px;
   cursor: pointer;
@@ -822,8 +825,8 @@ body {
   gap: 18px;
 }
 .dash-section {
-  background: #fbf8f4;
-  border: 1px solid #e6ded2;
+  background: rgba(251, 248, 244, 0.5);
+  border: 1px solid rgba(230, 222, 210, 0.6);
   border-radius: 14px;
   padding: 14px 16px;
 }
@@ -834,7 +837,7 @@ body {
   gap: 8px;
   margin-bottom: 10px;
   padding-bottom: 8px;
-  border-bottom: 1px solid #e6ded2;
+  border-bottom: 1px solid rgba(230, 222, 210, 0.6);
 }
 .dash-section-title {
   font-size: 14.5px;
@@ -880,7 +883,7 @@ body {
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background: #fbf8f4;
+  background: rgba(251, 248, 244, 0.9);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -895,6 +898,16 @@ body {
   font-weight: 700;
   color: #a89e90;
   margin-top: 3px;
+  max-width: 46px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.dash-tile-sub {
+  font-size: 8px;
+  font-weight: 600;
+  color: #c2b9ab;
   max-width: 46px;
   text-align: center;
   white-space: nowrap;
@@ -1206,6 +1219,13 @@ function startTimer(id) {
   timerTickHandle = setInterval(function() {
     if (activeTimerId) refreshTimerBadges(activeTimerId);
   }, 1000);
+}
+
+// Zero out a question's accumulated time (used when the timer restarts from scratch).
+function resetTimer(id) {
+  questionTimers[id] = 0;
+  persistTimers();
+  refreshTimerBadges(id);
 }
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -2666,6 +2686,7 @@ syllabus.forEach(function(t) {
             if (isShown) {
               if (activeTimerId === q.pdf) stopTimer();
             } else if (panel.classList.contains('open')) {
+              resetTimer(q.pdf);
               startTimer(q.pdf);
             }
           });
@@ -3895,6 +3916,7 @@ topicOrder.forEach(function(topicNum) {
         if (shown) {
           if (activeTimerId === q.pdf) stopTimer();
         } else if (qCard.classList.contains('expanded')) {
+          resetTimer(q.pdf);
           startTimer(q.pdf);
         }
       });
@@ -4016,7 +4038,7 @@ function paperSortKey(paperStr) {
 }
 
 // A single small donut-chart tile showing a percentage, built with a conic-gradient ring.
-function buildDashTile(label, tooltip, set, color) {
+function buildDashTile(label, subLabel, tooltip, set, color) {
   var total = set.size;
   if (total === 0) return null;
   var done = dashDoneCount(set);
@@ -4030,7 +4052,8 @@ function buildDashTile(label, tooltip, set, color) {
     '<div class="dash-ring" style="background: conic-gradient(' + color + ' ' + deg + 'deg, #e6ded2 ' + deg + 'deg)">' +
     '<div class="dash-ring-hole"><span class="dash-ring-pct">' + pct + '%</span></div>' +
     '</div>' +
-    '<div class="dash-tile-label">' + label + '</div>';
+    '<div class="dash-tile-label">' + label + '</div>' +
+    (subLabel ? '<div class="dash-tile-sub">' + subLabel + '</div>' : '');
   return tile;
 }
 
@@ -4065,7 +4088,7 @@ function buildDashSection(title, sheets, topics) {
   var sheetTiles = document.createElement('div');
   sheetTiles.className = 'dash-tiles';
   sheets.forEach(function(sh) {
-    var tile = buildDashTile(sh.variant, sh.name, sh.set, SHEET_COLOR);
+    var tile = buildDashTile(sh.variant, sh.season, sh.name, sh.set, SHEET_COLOR);
     if (tile) sheetTiles.appendChild(tile);
   });
   section.appendChild(sheetTiles);
@@ -4078,7 +4101,7 @@ function buildDashSection(title, sheets, topics) {
   var topicTiles = document.createElement('div');
   topicTiles.className = 'dash-tiles';
   topics.forEach(function(t) {
-    var tile = buildDashTile(t.num, t.num + '. ' + (t.name || ''), t.set, TOPIC_COLORS[t.num] || '#8497a8');
+    var tile = buildDashTile(t.num, null, t.num + '. ' + (t.name || ''), t.set, TOPIC_COLORS[t.num] || '#8497a8');
     if (tile) topicTiles.appendChild(tile);
   });
   section.appendChild(topicTiles);
@@ -4110,7 +4133,7 @@ function renderDashboard() {
   });
   var p1Sheets = Object.keys(p1SheetSets).sort(function(a, b) { return paperSortKey(a) - paperSortKey(b); }).map(function(p) {
     var variant = p.split('/')[1] || '';
-    return { variant: variant, name: p + ' — ' + p1SheetMeta[p], set: p1SheetSets[p] };
+    return { variant: variant, season: seasonLabel(p), name: p + ' — ' + p1SheetMeta[p], set: p1SheetSets[p] };
   });
   var p1Topics = syllabus.map(function(t) {
     var set = new Set();
@@ -4135,7 +4158,7 @@ function renderDashboard() {
   });
   var p2Sheets = Object.keys(p2SheetSets).sort(function(a, b) { return paperSortKey(a) - paperSortKey(b); }).map(function(p) {
     var variant = p.split('/')[1] || '';
-    return { variant: variant, name: p + ' — ' + p2SheetMeta[p], set: p2SheetSets[p] };
+    return { variant: variant, season: seasonLabel(p), name: p + ' — ' + p2SheetMeta[p], set: p2SheetSets[p] };
   });
   var p2TopicNums = Object.keys(p2TopicSets).sort(function(a, b) { return parseInt(a) - parseInt(b); });
   var p2Topics = p2TopicNums.map(function(n) {

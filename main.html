@@ -716,6 +716,197 @@ body {
 .mark-panel-btn:hover { background: #dde6ea; border-color: #8497a8; }
 .mark-panel-btn.danger { border-color: #d3a99c; background: #f8ece7; color: #a8624c; }
 .mark-panel-btn.danger:hover { background: #f3ddd3; border-color: #c0846b; }
+
+/* ---- Question timer ---- */
+.timer-badge {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 9px;
+  border-radius: 20px;
+  background: #e6ded2;
+  color: #a89e90;
+  flex-shrink: 0;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.timer-badge.timer-running {
+  background: #dde6ea;
+  color: #5c7a8a;
+}
+.timer-badge.timer-running::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #6ea36e;
+  margin-right: 5px;
+  vertical-align: middle;
+  animation: timer-pulse 1.2s ease-in-out infinite;
+}
+@keyframes timer-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.25; }
+}
+
+/* ---- Dashboard trigger button (fixed, top-left) ---- */
+.dashboard-fab {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  z-index: 1200;
+  font-size: 12.5px;
+  font-weight: 700;
+  padding: 9px 14px;
+  border-radius: 20px;
+  border: 1px solid #e6ded2;
+  background: #fbf8f4;
+  color: #6b6154;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(91,83,76,0.15);
+  transition: background 0.15s, border-color 0.15s, transform 0.15s;
+}
+.dashboard-fab:hover {
+  background: #f4efe7;
+  border-color: #b9c8d1;
+  transform: translateY(-1px);
+}
+
+/* ---- Dashboard modal ---- */
+.dashboard-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 1300;
+  background: rgba(40, 36, 30, 0.45);
+  padding: 40px 16px;
+  overflow-y: auto;
+}
+.dashboard-modal.open { display: block; }
+.dashboard-modal-box {
+  background: #efe9e1;
+  max-width: 720px;
+  margin: 0 auto;
+  border-radius: 16px;
+  padding: 20px 22px 26px 22px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.25);
+}
+.dashboard-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 17px;
+  font-weight: 800;
+  color: #4a433c;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #e2d9cc;
+}
+.dashboard-modal-close {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  border: 1px solid #e6ded2;
+  background: #fbf8f4;
+  color: #a89e90;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.dashboard-modal-close:hover { background: #f4efe7; color: #6b6154; }
+
+/* ---- Dashboard content ---- */
+.dash-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+}
+.dash-section {
+  background: #fbf8f4;
+  border: 1px solid #e6ded2;
+  border-radius: 14px;
+  padding: 14px 16px;
+}
+.dash-section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e6ded2;
+}
+.dash-section-title {
+  font-size: 14.5px;
+  font-weight: 800;
+  color: #4a433c;
+}
+.dash-section-overall {
+  font-size: 12px;
+  font-weight: 700;
+  color: #7c8fa0;
+  white-space: nowrap;
+}
+.dash-subheading {
+  font-size: 10.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #a89e90;
+  margin: 10px 0 6px 0;
+}
+.dash-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.dash-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 46px;
+  cursor: default;
+}
+.dash-ring {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.dash-ring-hole {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #fbf8f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dash-ring-pct {
+  font-size: 9px;
+  font-weight: 800;
+  color: #4a433c;
+}
+.dash-tile-label {
+  font-size: 9.5px;
+  font-weight: 700;
+  color: #a89e90;
+  margin-top: 3px;
+  max-width: 46px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.dash-empty {
+  text-align: center;
+  padding: 20px 10px;
+  color: #a89e90;
+  font-size: 12.5px;
+}
 </style>
 <base target="_blank">
 <base target="_blank">
@@ -726,6 +917,7 @@ body {
   <defs>
     <pattern id="wm-pattern" width="260" height="160" patternUnits="userSpaceOnUse" patternTransform="rotate(-28)">
       <text x="0" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#5b534c" fill-opacity="0.07">xuanni test aug.</text>
+
     </pattern>
   </defs>
   <rect width="100%" height="100%" fill="url(#wm-pattern)"></rect>
@@ -750,6 +942,8 @@ body {
   </div>
 </div>
 
+<button type="button" id="dashboard-fab" class="dashboard-fab">&#128202; Dashboard</button>
+
 <div class="paper-tabs">
   <button type="button" class="paper-tab active" data-paper="1">Paper 1</button>
   <button type="button" class="paper-tab" data-paper="2">Paper 2</button>
@@ -760,6 +954,16 @@ body {
 </div>
 <div id="paper2-panel" class="paper-panel">
   <div id="syllabus2"></div>
+</div>
+
+<div id="dashboard-modal" class="dashboard-modal">
+  <div class="dashboard-modal-box">
+    <div class="dashboard-modal-header">
+      <span>&#128202; Dashboard</span>
+      <button type="button" id="dashboard-close-btn" class="dashboard-modal-close">&#10005;</button>
+    </div>
+    <div id="dashboard-content"></div>
+  </div>
 </div>
 
 <div class="footer">Based on Cambridge International AS &amp; A Level Physics (9702) Syllabus</div>
@@ -773,6 +977,26 @@ document.querySelectorAll('.paper-tab').forEach(function(tab) {
     document.getElementById('paper' + tab.dataset.paper + '-panel').classList.add('active');
   });
 });
+
+var dashboardFab = document.getElementById('dashboard-fab');
+var dashboardModal = document.getElementById('dashboard-modal');
+var dashboardCloseBtn = document.getElementById('dashboard-close-btn');
+if (dashboardFab) {
+  dashboardFab.addEventListener('click', function() {
+    if (typeof renderDashboard === 'function') renderDashboard();
+    dashboardModal.classList.add('open');
+  });
+}
+if (dashboardCloseBtn) {
+  dashboardCloseBtn.addEventListener('click', function() {
+    dashboardModal.classList.remove('open');
+  });
+}
+if (dashboardModal) {
+  dashboardModal.addEventListener('click', function(e) {
+    if (e.target === dashboardModal) dashboardModal.classList.remove('open');
+  });
+}
 </script>
 
 <script>
@@ -802,6 +1026,7 @@ const markRegistry = [];
 function persistMarks() {
   try { localStorage.setItem(MARK_STORAGE_KEY, JSON.stringify(questionMarks)); } catch (e) {}
   updateMarkStats();
+  if (typeof renderDashboard === 'function') renderDashboard();
 }
 
 function applyCardMarkClass(cardEl, id) {
@@ -904,6 +1129,85 @@ function importMarksFromFile(file) {
   reader.readAsText(file);
 }
 
+// ============================================================
+// QUESTION TIMER — starts counting the moment a question is
+// opened (expanded / its panel shown) and pauses the moment it's
+// closed. Only one question times at once; opening a new one
+// automatically pauses whichever was running before. Elapsed
+// time accumulates per question id (its unique pdf filename) and
+// persists in localStorage across reloads.
+// ============================================================
+const TIMER_STORAGE_KEY = 'physicsQuestionTimers_v1';
+let questionTimers = {};
+try {
+  questionTimers = JSON.parse(localStorage.getItem(TIMER_STORAGE_KEY) || '{}') || {};
+} catch (e) {
+  questionTimers = {};
+}
+
+const timerBadgeRegistry = {}; // id -> array of badge elements showing this id's time
+let activeTimerId = null;
+let activeTimerStart = null;
+let timerTickHandle = null;
+
+function formatElapsed(ms) {
+  var totalSec = Math.max(0, Math.floor(ms / 1000));
+  var m = Math.floor(totalSec / 60);
+  var s = totalSec % 60;
+  return String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+}
+
+function persistTimers() {
+  try { localStorage.setItem(TIMER_STORAGE_KEY, JSON.stringify(questionTimers)); } catch (e) {}
+}
+
+function currentElapsed(id) {
+  var ms = questionTimers[id] || 0;
+  if (id === activeTimerId && activeTimerStart) ms += (Date.now() - activeTimerStart);
+  return ms;
+}
+
+function refreshTimerBadges(id) {
+  var ms = currentElapsed(id);
+  (timerBadgeRegistry[id] || []).forEach(function(b) {
+    b.textContent = '\u23F1 ' + formatElapsed(ms);
+    b.classList.toggle('timer-running', id === activeTimerId);
+  });
+}
+
+// Create (and register) a small live-updating time badge for a question id.
+function createTimerBadge(id) {
+  var badge = document.createElement('span');
+  badge.className = 'timer-badge';
+  if (!timerBadgeRegistry[id]) timerBadgeRegistry[id] = [];
+  timerBadgeRegistry[id].push(badge);
+  refreshTimerBadges(id);
+  return badge;
+}
+
+function stopTimer() {
+  if (activeTimerId && activeTimerStart) {
+    questionTimers[activeTimerId] = (questionTimers[activeTimerId] || 0) + (Date.now() - activeTimerStart);
+    persistTimers();
+    var finishedId = activeTimerId;
+    activeTimerId = null;
+    activeTimerStart = null;
+    refreshTimerBadges(finishedId);
+  }
+  if (timerTickHandle) { clearInterval(timerTickHandle); timerTickHandle = null; }
+}
+
+function startTimer(id) {
+  if (!id || activeTimerId === id) return;
+  stopTimer();
+  activeTimerId = id;
+  activeTimerStart = Date.now();
+  refreshTimerBadges(id);
+  timerTickHandle = setInterval(function() {
+    if (activeTimerId) refreshTimerBadges(activeTimerId);
+  }, 1000);
+}
+
 document.addEventListener('DOMContentLoaded', function() {
   updateMarkStats();
   var exportBtn = document.getElementById('mark-export-btn');
@@ -925,6 +1229,10 @@ document.addEventListener('DOMContentLoaded', function() {
       refreshAllMarks();
     }
   });
+  document.addEventListener('visibilitychange', function() {
+    if (document.hidden) stopTimer();
+  });
+  window.addEventListener('beforeunload', function() { stopTimer(); });
 });
 </script>
 
@@ -2237,7 +2545,11 @@ syllabus.forEach(function(t) {
 
   var header = document.createElement('div');
   header.className = 'topic-header';
-  header.onclick = function() { card.classList.toggle('expanded'); };
+  header.onclick = function() {
+    var closing = card.classList.contains('expanded');
+    card.classList.toggle('expanded');
+    if (closing) stopTimer();
+  };
 
   var num = document.createElement('div');
   num.className = 'topic-num';
@@ -2351,7 +2663,15 @@ syllabus.forEach(function(t) {
             e.stopPropagation();
             var isShown = answerReveal.classList.toggle('shown');
             answerBtn.innerHTML = isShown ? '&#128065; Hide Answer' : '&#128065; View Answer';
+            if (isShown) {
+              if (activeTimerId === q.pdf) stopTimer();
+            } else if (panel.classList.contains('open')) {
+              startTimer(q.pdf);
+            }
           });
+
+          var timerBadge = createTimerBadge(q.pdf);
+          qCard.querySelector('.q-meta').appendChild(timerBadge);
 
           var markToolbar = createMarkToolbar(q.pdf, qCard);
           qCard.querySelector('.q-meta').appendChild(markToolbar);
@@ -2362,8 +2682,9 @@ syllabus.forEach(function(t) {
 
         qCards.forEach(function(c) { panel.appendChild(c); });
 
+        let pageIdx = 0;
+
         if (qCards.length > 1) {
-          let pageIdx = 0;
           let pager = document.createElement('div');
           pager.className = 'q-pager';
 
@@ -2403,6 +2724,7 @@ syllabus.forEach(function(t) {
             });
             prevBtn.disabled = pageIdx === 0;
             nextBtn.disabled = pageIdx === qCards.length - 1;
+            if (panel.classList.contains('open')) startTimer(sortedQList[pageIdx].pdf);
           };
 
           prevBtn.addEventListener('click', function(e) {
@@ -2426,7 +2748,13 @@ syllabus.forEach(function(t) {
         item.appendChild(panel);
         item.addEventListener('click', function(e) {
           e.stopPropagation();
+          var opening = !panel.classList.contains('open');
           panel.classList.toggle('open');
+          if (opening) {
+            startTimer(sortedQList[pageIdx].pdf);
+          } else {
+            stopTimer();
+          }
         });
       }
 
@@ -3475,7 +3803,11 @@ topicOrder.forEach(function(topicNum) {
 
   var header = document.createElement('div');
   header.className = 'topic-header';
-  header.onclick = function() { card.classList.toggle('expanded'); };
+  header.onclick = function() {
+    var closing = card.classList.contains('expanded');
+    card.classList.toggle('expanded');
+    if (closing) stopTimer();
+  };
 
   var totalMarks = qs.reduce(function(s, q) { return s + q.marks; }, 0);
 
@@ -3510,7 +3842,14 @@ topicOrder.forEach(function(topicNum) {
       '<span class="p2-q-title">' + q.title + '</span>' +
       '<span class="p2-q-marks">' + q.marks + ' marks</span>' +
       '<span class="p2-chevron">&#9660;</span>';
-    qHeader.addEventListener('click', function() { qCard.classList.toggle('expanded'); });
+    qHeader.addEventListener('click', function() {
+      var opening = !qCard.classList.contains('expanded');
+      qCard.classList.toggle('expanded');
+      if (opening) { startTimer(q.pdf); } else { stopTimer(); }
+    });
+
+    var timerBadge = createTimerBadge(q.pdf);
+    qHeader.insertBefore(timerBadge, qHeader.querySelector('.p2-chevron'));
 
     var markToolbar = createMarkToolbar(q.pdf, qCard);
     qHeader.insertBefore(markToolbar, qHeader.querySelector('.p2-chevron'));
@@ -3553,6 +3892,11 @@ topicOrder.forEach(function(topicNum) {
         e.stopPropagation();
         var shown = reveal.classList.toggle('shown');
         btn.innerHTML = shown ? '&#128065; Hide standard answer' : '&#128065; View standard answer';
+        if (shown) {
+          if (activeTimerId === q.pdf) stopTimer();
+        } else if (qCard.classList.contains('expanded')) {
+          startTimer(q.pdf);
+        }
       });
 
       return part;
@@ -3633,6 +3977,174 @@ topicOrder.forEach(function(topicNum) {
   card.appendChild(subList);
   container2.appendChild(card);
 });
+</script>
+
+<script>
+// ============================================================
+// DASHBOARD — completion stats for Paper 1 and Paper 2: one
+// percentage per complete exam sheet (e.g. 9702/12/M/J/25), plus
+// one percentage per topic, shown as small donut-chart tiles.
+// "Completed" = marked green (Done) in the question-marking
+// system. Re-rendered whenever a mark changes, and whenever the
+// dashboard button is opened.
+// ============================================================
+
+// Same palette used for the t1..t11 topic-number badges elsewhere on the page.
+const TOPIC_COLORS = {
+  '1': '#8fa3ad', '2': '#93a382', '3': '#c2a878', '4': '#c08974',
+  '5': '#ba8c95', '6': '#9891ab', '7': '#7fa39a', '8': '#a084a0',
+  '9': '#c39468', '10': '#a3a578', '11': '#8497a8'
+};
+const SHEET_COLOR = '#a89e90';
+
+function dashDoneCount(idSet) {
+  var done = 0;
+  idSet.forEach(function(id) { if (questionMarks[id] === 'green') done++; });
+  return done;
+}
+
+// Chronological sort key for a paper code like "9702/12/F/M/25":
+// by year, then session (Mar < Jun < Nov), then paper variant number.
+function paperSortKey(paperStr) {
+  var parts = paperStr.split('/');
+  var variant = parseInt(parts[1], 10) || 0;
+  var year = parseInt(parts[parts.length - 1], 10) || 0;
+  var session = parts.slice(2, parts.length - 1).join('/');
+  var sessionWeight = { 'F/M': 0, 'M/J': 1, 'O/N': 2 }[session];
+  if (sessionWeight === undefined) sessionWeight = 9;
+  return year * 100 + sessionWeight * 10 + variant / 100;
+}
+
+// A single small donut-chart tile showing a percentage, built with a conic-gradient ring.
+function buildDashTile(label, tooltip, set, color) {
+  var total = set.size;
+  if (total === 0) return null;
+  var done = dashDoneCount(set);
+  var pct = Math.round((done / total) * 100);
+  var deg = (pct / 100) * 360;
+
+  var tile = document.createElement('div');
+  tile.className = 'dash-tile';
+  tile.title = tooltip + ' — ' + done + '/' + total + ' (' + pct + '%)';
+  tile.innerHTML =
+    '<div class="dash-ring" style="background: conic-gradient(' + color + ' ' + deg + 'deg, #e6ded2 ' + deg + 'deg)">' +
+    '<div class="dash-ring-hole"><span class="dash-ring-pct">' + pct + '%</span></div>' +
+    '</div>' +
+    '<div class="dash-tile-label">' + label + '</div>';
+  return tile;
+}
+
+function buildDashSection(title, sheets, topics) {
+  var section = document.createElement('div');
+  section.className = 'dash-section';
+
+  var allIds = new Set();
+  sheets.forEach(function(sh) { sh.set.forEach(function(id) { allIds.add(id); }); });
+  var overallTotal = allIds.size;
+  var overallPct = overallTotal > 0 ? Math.round((dashDoneCount(allIds) / overallTotal) * 100) : 0;
+
+  var head = document.createElement('div');
+  head.className = 'dash-section-head';
+  head.innerHTML = '<span class="dash-section-title">' + title + '</span>' +
+    (overallTotal > 0 ? '<span class="dash-section-overall">' + overallPct + '% overall</span>' : '');
+  section.appendChild(head);
+
+  if (sheets.length === 0 && topics.length === 0) {
+    var empty = document.createElement('div');
+    empty.className = 'dash-empty';
+    empty.textContent = 'No questions found.';
+    section.appendChild(empty);
+    return section;
+  }
+
+  var sheetsHeading = document.createElement('div');
+  sheetsHeading.className = 'dash-subheading';
+  sheetsHeading.textContent = 'By exam paper';
+  section.appendChild(sheetsHeading);
+
+  var sheetTiles = document.createElement('div');
+  sheetTiles.className = 'dash-tiles';
+  sheets.forEach(function(sh) {
+    var tile = buildDashTile(sh.variant, sh.name, sh.set, SHEET_COLOR);
+    if (tile) sheetTiles.appendChild(tile);
+  });
+  section.appendChild(sheetTiles);
+
+  var topicsHeading = document.createElement('div');
+  topicsHeading.className = 'dash-subheading';
+  topicsHeading.textContent = 'By topic';
+  section.appendChild(topicsHeading);
+
+  var topicTiles = document.createElement('div');
+  topicTiles.className = 'dash-tiles';
+  topics.forEach(function(t) {
+    var tile = buildDashTile(t.num, t.num + '. ' + (t.name || ''), t.set, TOPIC_COLORS[t.num] || '#8497a8');
+    if (tile) topicTiles.appendChild(tile);
+  });
+  section.appendChild(topicTiles);
+
+  return section;
+}
+
+function renderDashboard() {
+  var el = document.getElementById('dashboard-content');
+  if (!el) return;
+  el.innerHTML = '';
+
+  var grid = document.createElement('div');
+  grid.className = 'dash-grid';
+  el.appendChild(grid);
+
+  // ---- Paper 1: one sheet per exam session, one set per topic ----
+  var p1SheetSets = {};
+  var p1SheetMeta = {};
+  syllabus.forEach(function(t) {
+    t.subs.forEach(function(s) {
+      s.subsubs.forEach(function(ss) {
+        (questionData[ss.code] || []).forEach(function(q) {
+          if (!p1SheetSets[q.paper]) { p1SheetSets[q.paper] = new Set(); p1SheetMeta[q.paper] = q.paper_full; }
+          p1SheetSets[q.paper].add(q.pdf);
+        });
+      });
+    });
+  });
+  var p1Sheets = Object.keys(p1SheetSets).sort(function(a, b) { return paperSortKey(a) - paperSortKey(b); }).map(function(p) {
+    var variant = p.split('/')[1] || '';
+    return { variant: variant, name: p + ' — ' + p1SheetMeta[p], set: p1SheetSets[p] };
+  });
+  var p1Topics = syllabus.map(function(t) {
+    var set = new Set();
+    t.subs.forEach(function(s) {
+      s.subsubs.forEach(function(ss) {
+        (questionData[ss.code] || []).forEach(function(q) { set.add(q.pdf); });
+      });
+    });
+    return { num: t.topic, name: t.title, set: set };
+  });
+  grid.appendChild(buildDashSection('Paper 1', p1Sheets, p1Topics));
+
+  // ---- Paper 2: one sheet per exam session, one set per topic ----
+  var p2SheetSets = {};
+  var p2SheetMeta = {};
+  var p2TopicSets = {};
+  paper2Data.forEach(function(q) {
+    if (!p2SheetSets[q.paper]) { p2SheetSets[q.paper] = new Set(); p2SheetMeta[q.paper] = q.paper_full; }
+    p2SheetSets[q.paper].add(q.pdf);
+    if (!p2TopicSets[q.topic]) p2TopicSets[q.topic] = new Set();
+    p2TopicSets[q.topic].add(q.pdf);
+  });
+  var p2Sheets = Object.keys(p2SheetSets).sort(function(a, b) { return paperSortKey(a) - paperSortKey(b); }).map(function(p) {
+    var variant = p.split('/')[1] || '';
+    return { variant: variant, name: p + ' — ' + p2SheetMeta[p], set: p2SheetSets[p] };
+  });
+  var p2TopicNums = Object.keys(p2TopicSets).sort(function(a, b) { return parseInt(a) - parseInt(b); });
+  var p2Topics = p2TopicNums.map(function(n) {
+    return { num: n, name: topicMeta[n], set: p2TopicSets[n] };
+  });
+  grid.appendChild(buildDashSection('Paper 2', p2Sheets, p2Topics));
+}
+
+document.addEventListener('DOMContentLoaded', renderDashboard);
 </script>
 
 </body>

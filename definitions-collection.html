@@ -8,7 +8,7 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  background: #efe9e1;
+  background: #e7ebe0;
   color: #5b534c;
   line-height: 1.6;
   padding: 24px;
@@ -19,7 +19,7 @@ body {
   text-align: center;
   margin-bottom: 22px;
   padding-bottom: 18px;
-  border-bottom: 2px solid #e2d9cc;
+  border-bottom: 2px solid #d9dfcd;
 }
 .header h1 {
   font-size: 24px;
@@ -57,7 +57,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: #efe9e1;
+  background: #e7ebe0;
   padding: 4px 0 12px 0;
 }
 .search-box {
@@ -149,15 +149,16 @@ body {
   gap: 6px 8px;
 }
 .term-item {
-  border: 1px solid #efe9e1;
+  border: 1px solid #ebeee2;
   border-radius: 9px;
   background: #fdfbf8;
   overflow: hidden;
   align-self: start;
-  transition: border-color 0.15s;
+  transition: border-color 0.2s, background-color 0.2s;
 }
 .term-item.open {
-  border-color: #dcd2c2;
+  border-color: var(--accent-border, #dcd2c2);
+  background: var(--accent-bg, #fdfbf8);
   grid-column: 1 / -1;
 }
 .term-head {
@@ -172,6 +173,9 @@ body {
 }
 .term-head:hover {
   background: #f4efe7;
+}
+.term-item.open .term-head:hover {
+  background: transparent;
 }
 .term-name {
   font-size: 12.5px;
@@ -225,7 +229,7 @@ mark {
   font-size: 11.5px;
   margin-top: 24px;
   padding-top: 14px;
-  border-top: 1px solid #e2d9cc;
+  border-top: 1px solid #d9dfcd;
 }
 
 @media (max-width: 500px) {
@@ -257,6 +261,14 @@ var TOPIC_COLORS = [
   '#8fa9c2', '#9db892', '#c99f7a', '#b58fb0', '#7fb3ae',
   '#c78e8e', '#8f9fc9', '#b0a878', '#7fa8c9', '#a88fc2', '#9cb87f'
 ];
+
+function hexToRgba(hex, alpha) {
+  var h = hex.replace('#', '');
+  var r = parseInt(h.substring(0, 2), 16);
+  var g = parseInt(h.substring(2, 4), 16);
+  var b = parseInt(h.substring(4, 6), 16);
+  return 'rgba(' + r + ',' + g + ',' + b + ',' + alpha + ')';
+}
 
 var DATA = [
   {
@@ -447,11 +459,12 @@ var container = document.getElementById('topics-container');
 DATA.forEach(function(topic, ti) {
   var card = document.createElement('div');
   card.className = 'topic-card';
+  var topicColor = TOPIC_COLORS[ti % TOPIC_COLORS.length];
 
   var header = document.createElement('div');
   header.className = 'topic-header';
   header.innerHTML =
-    '<div class="topic-num" style="background:' + TOPIC_COLORS[ti % TOPIC_COLORS.length] + '">' + (ti + 1) + '</div>' +
+    '<div class="topic-num" style="background:' + topicColor + '">' + (ti + 1) + '</div>' +
     '<div class="topic-info">' +
       '<div class="topic-name">' + topic.name + '</div>' +
       '<div class="topic-count">' + topic.terms.length + ' definitions</div>' +
@@ -473,6 +486,7 @@ DATA.forEach(function(topic, ti) {
     item.className = 'term-item';
     item.dataset.term = pair[0].toLowerCase();
     item.dataset.def = pair[1].toLowerCase();
+    item.dataset.topicIndex = ti;
 
     var thead = document.createElement('div');
     thead.className = 'term-head';
@@ -480,7 +494,14 @@ DATA.forEach(function(topic, ti) {
       '<span class="term-name">' + pair[0] + '</span>' +
       '<span class="term-chevron">&#9656;</span>';
     thead.addEventListener('click', function() {
-      item.classList.toggle('open');
+      var isOpen = item.classList.toggle('open');
+      if (isOpen) {
+        item.style.setProperty('--accent-bg', hexToRgba(topicColor, 0.13));
+        item.style.setProperty('--accent-border', hexToRgba(topicColor, 0.45));
+      } else {
+        item.style.removeProperty('--accent-bg');
+        item.style.removeProperty('--accent-border');
+      }
     });
 
     var tbody = document.createElement('div');
@@ -534,9 +555,14 @@ searchBox.addEventListener('input', function() {
         totalMatches++;
         if (q) {
           item.classList.add('open');
+          var tColor = TOPIC_COLORS[item.dataset.topicIndex % TOPIC_COLORS.length];
+          item.style.setProperty('--accent-bg', hexToRgba(tColor, 0.13));
+          item.style.setProperty('--accent-border', hexToRgba(tColor, 0.45));
           highlight(item.querySelector('.term-name'), q);
         } else {
           item.classList.remove('open');
+          item.style.removeProperty('--accent-bg');
+          item.style.removeProperty('--accent-border');
           highlight(item.querySelector('.term-name'), '');
         }
       }

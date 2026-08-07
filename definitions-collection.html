@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CIE AS Physics 9702 - Definitions Collection</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: #efe9e1;
+  color: #5b534c;
+  line-height: 1.6;
+  padding: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.header {
+  text-align: center;
+  margin-bottom: 22px;
+  padding-bottom: 18px;
+  border-bottom: 2px solid #e2d9cc;
+}
+.header h1 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #4a433c;
+  margin-bottom: 6px;
+}
+.header p {
+  color: #a89e90;
+  font-size: 13px;
+}
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #6b6154;
+  text-decoration: none;
+  padding: 9px 14px;
+  border-radius: 20px;
+  border: 1px solid #e6ded2;
+  background: #fbf8f4;
+  margin-bottom: 14px;
+  transition: background 0.15s, border-color 0.15s, transform 0.15s;
+}
+.back-link:hover {
+  background: #f4efe7;
+  border-color: #b9c8d1;
+  transform: translateY(-1px);
+}
+
+/* ---- Search ---- */
+.search-wrap {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: #efe9e1;
+  padding: 4px 0 12px 0;
+}
+.search-box {
+  width: 100%;
+  padding: 11px 16px;
+  border-radius: 12px;
+  border: 1px solid #e6ded2;
+  background: #fbf8f4;
+  color: #4a433c;
+  font-size: 14px;
+  outline: none;
+  box-shadow: 0 1px 3px rgba(91,83,76,0.08);
+}
+.search-box:focus {
+  border-color: #b9c8d1;
+}
+.search-meta {
+  font-size: 11.5px;
+  color: #a89e90;
+  margin-top: 6px;
+  padding-left: 4px;
+}
+
+/* ---- Topic cards ---- */
+.topic-card {
+  background: #fbf8f4;
+  border-radius: 14px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(91,83,76,0.08);
+  overflow: hidden;
+  border: 1px solid #e6ded2;
+}
+.topic-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.15s;
+}
+.topic-header:hover {
+  background: #f4efe7;
+}
+.topic-num {
+  width: 32px;
+  height: 32px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 800;
+  color: white;
+  flex-shrink: 0;
+}
+.topic-info { flex: 1; }
+.topic-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4a433c;
+}
+.topic-count {
+  font-size: 11px;
+  color: #a89e90;
+  margin-top: 1px;
+}
+.topic-chevron {
+  font-size: 11px;
+  color: #a89e90;
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+.topic-card.open .topic-chevron {
+  transform: rotate(90deg);
+}
+.topic-body {
+  display: none;
+  padding: 2px 12px 12px 12px;
+}
+.topic-card.open .topic-body {
+  display: block;
+}
+
+/* ---- Compact term grid ---- */
+.terms-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 6px 8px;
+}
+.term-item {
+  border: 1px solid #efe9e1;
+  border-radius: 9px;
+  background: #fdfbf8;
+  overflow: hidden;
+  align-self: start;
+  transition: border-color 0.15s;
+}
+.term-item.open {
+  border-color: #dcd2c2;
+  grid-column: 1 / -1;
+}
+.term-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 7px 10px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.15s;
+}
+.term-head:hover {
+  background: #f4efe7;
+}
+.term-name {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #4a433c;
+  line-height: 1.3;
+}
+.term-chevron {
+  font-size: 9px;
+  color: #c2b9ab;
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+.term-item.open .term-chevron {
+  transform: rotate(90deg);
+}
+.term-body {
+  display: none;
+  padding: 0 10px 9px 10px;
+  font-size: 12px;
+  color: #6b6154;
+}
+.term-item.open .term-body {
+  display: block;
+}
+.term-item.hidden {
+  display: none;
+}
+mark {
+  background: #f0dfa6;
+  color: #4a433c;
+  border-radius: 3px;
+  padding: 0 2px;
+}
+
+.no-results {
+  text-align: center;
+  padding: 30px 10px;
+  color: #a89e90;
+  font-size: 13px;
+  display: none;
+}
+
+.footer {
+  text-align: center;
+  color: #a89e90;
+  font-size: 11.5px;
+  margin-top: 24px;
+  padding-top: 14px;
+  border-top: 1px solid #e2d9cc;
+}
+
+@media (max-width: 500px) {
+  .terms-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>CIE AS Physics 9702 — Definitions Collection</h1>
+  <p>All examinable definitions, organized by topic</p>
+</div>
+
+<a href="main.html" class="back-link">&#8592; Back to Organizer</a>
+
+<div class="search-wrap">
+  <input type="text" id="search-box" class="search-box" placeholder="Search a term or keyword...">
+  <div class="search-meta" id="search-meta"></div>
+</div>
+
+<div id="topics-container"></div>
+<div class="no-results" id="no-results">No definitions match your search.</div>
+
+<div class="footer">Based on Cambridge International AS &amp; A Level Physics (9702) Syllabus</div>
+
+<script>
+var TOPIC_COLORS = [
+  '#8fa9c2', '#9db892', '#c99f7a', '#b58fb0', '#7fb3ae',
+  '#c78e8e', '#8f9fc9', '#b0a878', '#7fa8c9', '#a88fc2', '#9cb87f'
+];
+
+var DATA = [
+  {
+    name: "Topic 1: Physical Quantities and Units",
+    terms: [
+      ["Accuracy", "How close a measurement is to its true value, influenced by the systematic and random errors of that measurement."],
+      ["Absolute Uncertainties", "The interval that a value is said to lie within, with a given level of confidence."],
+      ["Base Units", "The set of seven basic measures from which all other SI units can be derived."],
+      ["Precision", "A measure of how close a measurement is to the mean value. It only gives an indication of the magnitude of random errors, not how close data is to the true value."],
+      ["Random Error", "The unpredictable variation in a measurement. These can be reduced by taking many repeated measurements and calculating their mean."],
+      ["Resolution", "The smallest interval that a given measuring device can measure."],
+      ["Scalar Quantity", "A quantity that only has a magnitude."],
+      ["Systematic Error", "A consistent shift in readings causing a deviation from the true value. This shift is due to the equipment or method being used and cannot be reduced by repeated measurements."],
+      ["Quantity", "A characteristic that can be measured. Quantities always have a size and unit."],
+      ["Vector Quantity", "A quantity that has a magnitude and a direction."],
+      ["Zero Errors", "A form of systematic error, caused when a measuring instrument doesn't read zero at a value of zero. This results in all measurements being offset by a fixed amount."]
+    ]
+  },
+  {
+    name: "Topic 2: Kinematics",
+    terms: [
+      ["Acceleration", "The rate of change of velocity. It is a vector quantity and so has both a direction and a magnitude."],
+      ["Displacement", "The direct distance between an object's starting and ending positions. It is a vector quantity and so has both a direction and a magnitude."],
+      ["Displacement-Time Graphs", "Plots showing how displacement changes over a period of time. The gradient gives the velocity. Curved lines represent an acceleration."],
+      ["Distance", "A measure of how far an object moves. It doesn't depend on direction and is therefore a scalar quantity."],
+      ["Projectile Motion", "The motion of an object that is fired from a point and then upon which only gravity acts. When solving projectile motion problems, it is useful to split the motion into horizontal and vertical components."],
+      ["Speed", "A scalar quantity that is a measure of the rate of change of distance. The average speed is calculated by dividing the distance travelled by the time taken."],
+      ["Velocity", "The rate of change of displacement. It is a vector quantity and so has both a direction and a magnitude."],
+      ["Velocity-Time Graphs", "Plots showing how velocity changes over a period of time. The gradient gives acceleration. Area under line gives displacement. Curved lines represent changing acceleration."]
+    ]
+  },
+  {
+    name: "Topic 3: Dynamics",
+    terms: [
+      ["Conservation of Momentum", "In a closed system with no external forces the momentum of the system before an event is equal to the momentum of the system after the event."],
+      ["Elastic Collision", "When the kinetic energy of a system before an event is equal to the kinetic energy of the system after the event."],
+      ["Force", "The rate of change of momentum of an object. The product of the object's mass with its acceleration."],
+      ["Inelastic Collision", "When the kinetic energy of a system before an event is not equal to the kinetic energy of the system after the event. The kinetic energy has been transferred to other forms."],
+      ["Momentum", "The product of an object's mass and its velocity."],
+      ["Newton's First Law", "An object at a constant velocity will remain at a constant velocity unless acted on by a resultant force. (If this constant velocity is zero the object is at rest)."],
+      ["Newton's Second Law", "If an object is acted upon by a resultant force it will accelerate. The acceleration is inversely proportional to the mass of the object and directly proportional to the force acting upon it."],
+      ["Newton's Third Law", "Every action has an equal and opposite reaction. If an object exerts a force on another object, then the other object must exert a force back, that is opposite in direction and equal in magnitude."],
+      ["Terminal Velocity", "The maximum velocity an object can achieve. It is the point at which frictional forces and driving forces are balanced and so no acceleration occurs and the resultant force on the object is 0 N."],
+      ["Upthrust", "The upwards force that a fluid applies on an object."],
+      ["Weight", "The force of gravity on an object, the product of the object's mass and the acceleration due to gravity."]
+    ]
+  },
+  {
+    name: "Topic 4: Forces, Density and Pressure",
+    terms: [
+      ["Centre of Gravity", "The single point through which the object's weight can be said to act."],
+      ["Centre of Mass", "The single point through which all the mass of an object can be said to act."],
+      ["Couple", "Two equal and opposite parallel forces that act on an object through different lines of action. It has the effect of causing a rotation without translation."],
+      ["Density", "The mass per unit volume of a material."],
+      ["Equilibrium", "For an object to be in equilibrium, both the resultant force and resultant moment acting on the object must be equal to zero."],
+      ["Hydrostatic Pressure", "&Delta;p = &rho;g&Delta;h"],
+      ["Moment of Force", "The product of a force and the perpendicular distance from the line of action of the force to the pivot."],
+      ["Principle of Moments", "For an object to be in equilibrium, the sum of the clockwise moments acting about a point must be equal to the sum of the anticlockwise moments acting about the point."],
+      ["Pressure", "The force that a surface experiences per unit area. It is measured in Pascals (Pa)."],
+      ["Triangle of Forces", "A method of determining the resultant force of two forces. The two forces are joined tip to tail and the resultant force is given by the force that would complete the triangle."],
+      ["Upthrust", "The upwards force that a fluid applies on an object."]
+    ]
+  },
+  {
+    name: "Topic 5: Work, Energy and Power",
+    terms: [
+      ["Conservation of Energy", "In a closed system with no external forces the energy of the system before an event is equal to the energy of the system after the event. The energy does not need to be in the same form after the event as it was before the event."],
+      ["Efficiency", "The ratio of useful energy output to total energy input for a given system."],
+      ["Gravitational Potential Energy", "The energy gained by an object when it is raised by a height in a gravitational field."],
+      ["Kinetic Energy", "A form of energy that all moving objects possess. It is directly proportional to the mass of the object, and to the square of its velocity."],
+      ["Power", "The rate of transfer of energy."],
+      ["Work Done", "The energy transferred by a force moving over a distance. It is equal to the product of the magnitudes of the force and distance."]
+    ]
+  },
+  {
+    name: "Topic 6: Deformation of Solids",
+    terms: [
+      ["Compression", "The result of two coplanar forces acting into an object. Compression usually results in a reduction in the length of the object."],
+      ["Compressive Deformation", "The changing of an object's shape due to compressive forces."],
+      ["Elastic Deformation", "If a material deforms with elastic behaviour, it will return to its original shape when the deforming forces are removed. The object will not be permanently deformed."],
+      ["Elastic Limit", "The force beyond which an object will no longer deform elastically, and instead deform plastically. Beyond the elastic limit, when the deforming forces are removed, the object will not return to its original shape."],
+      ["Elastic Potential Energy", "The energy stored in an object when it is stretched. It is equal to the work done to stretch the object and can be determined from the area under a force-extension graph."],
+      ["Extension", "The increase of an object's length."],
+      ["Force-Extension Graph", "A plot showing how an object extends as the force applied increases. For an elastic object, the gradient should be linear up to the limit of proportionality. The gradient gives the spring constant."],
+      ["Hooke's Law", "The extension of an elastic object will be directly proportional to the force applied to it up to the object's limit of proportionality."],
+      ["Limit of Proportionality", "The point at which the stress on an object is so great that Hooke's law no longer applies to an object."],
+      ["Plastic Deformation", "If a material deforms with plastic behaviour, it will not return to its original shape when the deforming forces are removed. The object will be permanently deformed."],
+      ["Spring Constant", "The constant of proportionality for the extension of a spring under a force. The higher the spring constant, the greater the force needed to achieve a given extension."],
+      ["Strain", "The ratio of an object's extension to its original length. It is a ratio of two lengths and so has no unit."],
+      ["Stress", "The amount of force acting per unit area. Its unit is the Pascal (Pa)."],
+      ["Tension", "The result of two forces acting on an object in opposite, outwards directions."],
+      ["Tensile Strain", "The extension of an object divided by its original length."],
+      ["Tensile Stress", "The internal resistance of an object against a force that acts to deform it. It is the force applied per unit cross-sectional area."],
+      ["Young Modulus", "The ratio of stress to strain for a given material. Its unit is the Pascal (Pa)."]
+    ]
+  },
+  {
+    name: "Topic 7: Waves",
+    terms: [
+      ["Amplitude", "A wave's maximum displacement from its equilibrium position."],
+      ["Displacement", "The distance and direction that a vibrating particle or wave has travelled from its equilibrium position."],
+      ["Electromagnetic Spectrum", "The spectrum of electromagnetic waves, consisting of Gamma Rays, X-Rays, Ultraviolet, Visible Light, Infrared, Microwaves and Radiowaves."],
+      ["Frequency", "The number of complete oscillations of a wave (wave cycles) per second. It is the inverse of the time period."],
+      ["Intensity", "The power transferred per unit area. It is proportional to the square of a wave's amplitude."],
+      ["Longitudinal Wave", "A wave with oscillations that are parallel to the direction of energy propagation. Sound waves are an example of a longitudinal wave."],
+      ["Period", "The time it takes for one complete wave to pass a given point. It is the inverse of frequency."],
+      ["Phase Difference", "The difference in phase between two points on a wave. It is usually expressed in radians."],
+      ["Polarisation", "The restriction of a wave so that it can only oscillate in a single plane. This can only occur for transverse waves."],
+      ["Progressive Waves", "A wave that transfers energy from one point to another, without the transfer of matter."],
+      ["Transverse Waves", "A wave with oscillations that are perpendicular to the direction of energy propagation. Electromagnetic waves are examples of transverse waves."],
+      ["Wavelength", "The distance between two identical positions on two adjacent waves. It is commonly measured from peak to peak or trough to trough."],
+      ["Wave Speed", "The product of a wave's frequency and wavelength."]
+    ]
+  },
+  {
+    name: "Topic 8: Superposition",
+    terms: [
+      ["Antinodes", "A position of maximum displacement in a stationary wave."],
+      ["Coherence", "Waves with the same frequency and constant phase difference."],
+      ["Constructive Interference", "The type of interference that occurs when two waves meet in phase. The wave amplitudes are superposed."],
+      ["Destructive Interference", "The type of interference that occurs when the two waves are in antiphase. When one wave is at a peak and one is at a trough their addition results in a minimum point."],
+      ["Diffraction", "The spreading of a wave as it passes through a gap, or around an obstacle, of a similar magnitude to its wavelength."],
+      ["Diffraction Grating", "A grating with hundreds of slits per millimetre, that results in sharper interference patterns when a wave passes through it. They are used to calculate atomic spacing and to analyse elements."],
+      ["Interference", "The superposition of the amplitudes of waves when they meet."],
+      ["Nodes", "A position of minimum displacement in a stationary wave."],
+      ["Superposition", "When two waves meet at the same point in space their displacements combine and the total displacement at that point becomes the sum of the individual displacements at that point."],
+      ["Two Source Interference", "Interference caused by the interference of two sources of waves."]
+    ]
+  },
+  {
+    name: "Topic 9: Electricity",
+    terms: [
+      ["Charge", "A property of matter that causes it to experience force when placed in an electromagnetic field. It can be positive or negative."],
+      ["Current", "The rate of flow of charge in a circuit."],
+      ["Light-Dependent Resistor (LDR)", "A light sensitive semiconductor whose resistance increases when light intensity decreases."],
+      ["Ohmic Conductor", "A conductor following Ohm's law where current flowing through it is directly proportional to the potential difference between each end of the conductor. This only holds if the conductor is kept at a constant temperature."],
+      ["Potential Difference", "The difference in electrical potential between two points in a circuit. It is also the work done per coulomb to move a charge from the lower potential point to the higher potential point. It is measured in Volts."],
+      ["Power", "The rate of energy transfer in a circuit. It can be calculated as the product of the current and the potential difference between two points. It is measured in Watts."],
+      ["Resistance", "A measure of how difficult it is for current to flow through a material."],
+      ["Resistivity", "A measure of how difficult it is for charge to travel through a material. It is proportional to the object's resistance and cross-sectional area, and inversely proportional to the object's length. It is measured in Ohm metres."],
+      ["Quantisation of Charge", "The idea that charge can only exist in discrete packets of multiples of the elementary charge."],
+      ["Thermistor", "A temperature sensitive semiconductor whose resistance increases when temperature decreases."],
+      ["Volt", "The unit of potential difference."]
+    ]
+  },
+  {
+    name: "Topic 10: D.C. Circuits",
+    terms: [
+      ["Conservation of Charge", "The total charge in a system cannot change."],
+      ["Conservation of Energy", "Energy cannot be created or destroyed - it can only be transferred into different forms."],
+      ["Electromotive Force", "The energy supplied by a source per unit charge passing through the source, measured in volts."],
+      ["Internal Resistance", "The resistance to the flow of charge within a source. Internal resistance results in energy being dissipated within the source."],
+      ["Kirchhoff's First Law", "The total current entering a junction is equal to the total current leaving it."],
+      ["Kirchhoff's Second Law", "A consequence of the conservation of energy. The sum of the voltages in any closed loop must equal zero."],
+      ["Parallel Connection", "When two electrical components are on separate loops to one another in a circuit. Potential difference over each loop is the same, current is split between branches."],
+      ["Potential Divider", "A method of splitting a potential difference, by connecting resistors in series. The total potential difference is split in the ratio of their resistances."],
+      ["Series Connection", "When two electrical components are on the same loop to one another in a circuit. Potential difference is split between components depending on their resistance, current is the same across all components."],
+      ["Variable Resistors", "A resistor that can have its resistance changed. Typically, these are used with power supplies to change the voltage of a circuit without using a transformer."]
+    ]
+  },
+  {
+    name: "Topic 11: Particle Physics",
+    terms: [
+      ["Alpha Particles", "A type of particle consisting of two protons and two neutrons. Alpha particles are emitted in alpha decay and are strongly ionising, but weakly penetrating."],
+      ["Atomic Mass Unit", "A unit used to express atomic masses. One AMU is equal to one twelfth of the mass of a carbon atom."],
+      ["Beta Particles", "An electron or positron. Beta particles are emitted during beta decay and have medium ionising and penetrating capabilities."],
+      ["Beta-Minus Decay", "The process of a neutron inside a nucleus turning into a proton, and emitting a beta-minus particle (an electron) and an antineutrino."],
+      ["Beta-Plus Decay", "The process of a proton inside a nucleus turning into a neutron, and emitting a beta-plus particle (a positron) and a neutrino."],
+      ["Electron", "A negatively charged fundamental particle that is found in energy levels surrounding a nucleus."],
+      ["Hadron", "Particles that undergo strong interactions, they are made up of quarks so include mesons and baryons."],
+      ["Isotopes", "A form of an element with the same number of protons but different numbers of neutrons."],
+      ["Leptons", "A group of elementary subatomic particles, consisting of electrons, muons and neutrinos."],
+      ["Meson", "A particle consisting of one quark and one antiquark. Pions and Kaons are examples of mesons."],
+      ["Nucleon Number", "The number of neutrons and protons in the nucleus."],
+      ["Neutron", "A neutrally charged nucleon, found in the nucleus of an atom. Neutrons are a form of hadron."],
+      ["Positron", "A positively charged particle that is the antiparticle of an electron."],
+      ["Proton", "A positively charged nucleon, found in the nucleus of an atom. Protons are a form of hadron."],
+      ["Proton Number", "The number of protons present in the nucleus of a given element."],
+      ["Quark", "Fundamental particle that interacts with other quarks via the strong interaction, it will change flavour via the weak interaction and annihilate with antiquarks to form photons via the electromagnetic interaction. They come in 6 flavours: up, down, charm, strange, top, bottom."],
+      ["Rutherford Scattering", "An experiment involving firing alpha particles at a thin gold foil and observing their deflections. It showed the existence and nature of the nucleus."],
+      ["Weak Interaction", "The force that causes flavour change in quarks and leptons, it is responsible for beta decay."]
+    ]
+  }
+];
+
+var container = document.getElementById('topics-container');
+
+DATA.forEach(function(topic, ti) {
+  var card = document.createElement('div');
+  card.className = 'topic-card';
+
+  var header = document.createElement('div');
+  header.className = 'topic-header';
+  header.innerHTML =
+    '<div class="topic-num" style="background:' + TOPIC_COLORS[ti % TOPIC_COLORS.length] + '">' + (ti + 1) + '</div>' +
+    '<div class="topic-info">' +
+      '<div class="topic-name">' + topic.name + '</div>' +
+      '<div class="topic-count">' + topic.terms.length + ' definitions</div>' +
+    '</div>' +
+    '<div class="topic-chevron">&#9656;</div>';
+  header.addEventListener('click', function() {
+    card.classList.toggle('open');
+  });
+  card.appendChild(header);
+
+  var body = document.createElement('div');
+  body.className = 'topic-body';
+
+  var grid = document.createElement('div');
+  grid.className = 'terms-grid';
+
+  topic.terms.forEach(function(pair) {
+    var item = document.createElement('div');
+    item.className = 'term-item';
+    item.dataset.term = pair[0].toLowerCase();
+    item.dataset.def = pair[1].toLowerCase();
+
+    var thead = document.createElement('div');
+    thead.className = 'term-head';
+    thead.innerHTML =
+      '<span class="term-name">' + pair[0] + '</span>' +
+      '<span class="term-chevron">&#9656;</span>';
+    thead.addEventListener('click', function() {
+      item.classList.toggle('open');
+    });
+
+    var tbody = document.createElement('div');
+    tbody.className = 'term-body';
+    tbody.innerHTML = pair[1];
+
+    item.appendChild(thead);
+    item.appendChild(tbody);
+    grid.appendChild(item);
+  });
+
+  body.appendChild(grid);
+  card.appendChild(body);
+  container.appendChild(card);
+});
+
+// ---- Search ----
+var searchBox = document.getElementById('search-box');
+var searchMeta = document.getElementById('search-meta');
+var noResults = document.getElementById('no-results');
+
+function escapeRegExp(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function highlight(el, query) {
+  var original = el.dataset.orig || el.textContent;
+  el.dataset.orig = original;
+  if (!query) {
+    el.textContent = original;
+    return;
+  }
+  var re = new RegExp('(' + escapeRegExp(query) + ')', 'ig');
+  el.innerHTML = original.replace(re, '<mark>$1</mark>');
+}
+
+searchBox.addEventListener('input', function() {
+  var q = searchBox.value.trim().toLowerCase();
+  var totalMatches = 0;
+  var topicCards = container.querySelectorAll('.topic-card');
+
+  topicCards.forEach(function(card) {
+    var items = card.querySelectorAll('.term-item');
+    var anyMatchInTopic = false;
+
+    items.forEach(function(item) {
+      var matches = !q || item.dataset.term.indexOf(q) !== -1 || item.dataset.def.indexOf(q) !== -1;
+      item.classList.toggle('hidden', !matches);
+      if (matches) {
+        anyMatchInTopic = true;
+        totalMatches++;
+        if (q) {
+          item.classList.add('open');
+          highlight(item.querySelector('.term-name'), q);
+        } else {
+          item.classList.remove('open');
+          highlight(item.querySelector('.term-name'), '');
+        }
+      }
+    });
+
+    card.style.display = anyMatchInTopic ? '' : 'none';
+    if (q && anyMatchInTopic) {
+      card.classList.add('open');
+    } else if (!q) {
+      card.classList.remove('open');
+    }
+  });
+
+  noResults.style.display = (q && totalMatches === 0) ? 'block' : 'none';
+  searchMeta.textContent = q ? (totalMatches + ' definition' + (totalMatches === 1 ? '' : 's') + ' found') : '';
+});
+</script>
+
+</body>
+</html>

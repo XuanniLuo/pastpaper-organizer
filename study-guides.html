@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CIE AS Physics 9702 - Study Guides</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: #e7ebe0;
+  color: #5b534c;
+  line-height: 1.5;
+  padding: 16px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.header {
+  text-align: center;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #d9dfcd;
+}
+.header h1 {
+  font-size: 19px;
+  font-weight: 800;
+  color: #4a433c;
+  margin-bottom: 3px;
+}
+.header p {
+  color: #a89e90;
+  font-size: 11.5px;
+}
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11.5px;
+  font-weight: 700;
+  color: #6b6154;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 18px;
+  border: 1px solid #e6ded2;
+  background: #fbf8f4;
+  margin-bottom: 10px;
+  transition: background 0.15s, border-color 0.15s, transform 0.15s;
+}
+.back-link:hover {
+  background: #f4efe7;
+  border-color: #b9c8d1;
+  transform: translateY(-1px);
+}
+
+/* ---- Sticky search ---- */
+.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: #e7ebe0;
+  padding: 3px 0 8px 0;
+}
+.search-box {
+  width: 100%;
+  padding: 9px 14px;
+  border-radius: 11px;
+  border: 1px solid #e6ded2;
+  background: #fbf8f4;
+  color: #4a433c;
+  font-size: 13px;
+  outline: none;
+  box-shadow: 0 1px 3px rgba(91,83,76,0.08);
+}
+.search-box:focus {
+  border-color: #b9c8d1;
+}
+.search-meta {
+  font-size: 11px;
+  color: #a89e90;
+  margin-top: 4px;
+  padding-left: 4px;
+}
+
+/* ---- Section cards ---- */
+.section-card {
+  background: #fbf8f4;
+  border-radius: 12px;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 3px rgba(91,83,76,0.08);
+  overflow: hidden;
+  border: 1px solid #e6ded2;
+}
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 14px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.15s;
+}
+.section-header:hover {
+  background: #f4efe7;
+}
+.section-num {
+  width: 27px;
+  height: 27px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11.5px;
+  font-weight: 800;
+  color: white;
+  flex-shrink: 0;
+}
+.section-info { flex: 1; }
+.section-title {
+  font-size: 13px;
+  font-weight: 400;
+  color: #4a433c;
+}
+.section-sub {
+  font-size: 10.5px;
+  color: #a89e90;
+  margin-top: 1px;
+}
+.section-chevron {
+  font-size: 10px;
+  color: #a89e90;
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+.section-card.open .section-chevron {
+  transform: rotate(90deg);
+}
+.section-body {
+  display: none;
+  padding: 2px 16px 14px 16px;
+}
+.section-card.open .section-body {
+  display: block;
+}
+.tip-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.tip-item {
+  display: flex;
+  gap: 9px;
+  align-items: flex-start;
+  padding: 9px 11px;
+  border-radius: 8px;
+  border: 1px solid #ebeee2;
+  background: #fdfbf8;
+}
+.tip-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-top: 6px;
+  flex-shrink: 0;
+}
+.tip-text {
+  font-size: 12px;
+  color: #5b534c;
+  line-height: 1.55;
+}
+.tip-item.hidden {
+  display: none;
+}
+mark {
+  background: #f0dfa6;
+  color: #4a433c;
+  border-radius: 3px;
+  padding: 0 2px;
+}
+
+.no-results {
+  text-align: center;
+  padding: 22px 10px;
+  color: #a89e90;
+  font-size: 12px;
+  display: none;
+}
+
+.footer {
+  text-align: center;
+  color: #a89e90;
+  font-size: 10.5px;
+  margin-top: 18px;
+  padding-top: 12px;
+  border-top: 1px solid #d9dfcd;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>CIE AS Physics 9702 — Study Guides</h1>
+  <p>General studying advice and paper-specific exam technique</p>
+</div>
+
+<a href="main.html" class="back-link">&#8592; Back to Organizer</a>
+
+<div class="sticky-top">
+  <input type="text" id="search-box" class="search-box" placeholder="Search study tips...">
+  <div class="search-meta" id="search-meta"></div>
+</div>
+
+<div id="sections-container"></div>
+<div class="no-results" id="no-results">No tips match your search.</div>
+
+<div class="footer">Personal study and exam-technique notes for Cambridge International AS &amp; A Level Physics (9702)</div>
+
+<script>
+var SECTION_COLORS = ['#8fa9c2', '#9db892', '#c99f7a', '#b58fb0'];
+
+var SECTIONS = [
+  {
+    title: "General Learning/Studying Tips",
+    sub: "",
+    tips: [
+      "When your teacher is teaching in class, pay attention to what your teacher says. Make sure you understand everything taught by your teacher. Actively participate in problem-solving. If you do not understand anything, ask your teacher or friends ASAP.",
+      "You need notes or reference books that are complete. Make your own or find good ones online. Good notes have equations, definitions, conditions/assumptions, facts and diagrams.",
+      "When studying a chapter, read through all the explanations in the notes or in the reference book sentence by sentence. Make sure that you truly understand each sentence before moving on to the next sentence. You also need to know and understand all formulas. Certain topics may require understanding of earlier topics, so make sure you understand those topics. You should also try to relate them to what your teacher had taught in college or school.",
+      "Then, you have to remember everything that you understood. You can memorise the sentences in my notes or in the reference book, or you can also create your own sentences that have the same meaning and memorise them. If you create your own sentences, make sure that you do not change the original meaning, do not leave out any important points and do not change the important keywords and scientific terms. However, do not just memorise without understanding. Once you have understood, it will be quite easy to remember and you will be unlikely to forget any of the points.",
+      "For certain facts, there may be no explanation for them so it is not possible to understand them. In that case, you have to remember and memorise those facts.",
+      "For the calculations, you need to know how to apply what you have learnt and use the correct formula to solve the questions. Go through all the example questions in my notes or in the reference book. Make sure that you understand how every question is solved.",
+      "You have to regularly revise every topics again and again. When revising, go through all the explanation, facts and examples for calculation questions in my notes or in the reference book. Make sure that you do not forget anything that you have understood previously. Regular and repeated revision will help you to remember all the explanation and facts for a long time.",
+      "When you have understood all topics, you have to do topical past year A Level questions. After doing the questions, refer to the mark scheme and do self marking. Past year questions and mark schemes are available online.",
+      "You should understand how the mark schemes are used. In the mark schemes for Physics, there are 4 types of marks, which are M, C, A and B. The A marks are always dependent on the M marks, which means that A marks can only be scored if the M marks are also scored. If a question does not have M mark, then the A mark can be scored on its own. C marks are automatically scored if the subsequent M or A mark is scored, even if the equations/points for the C marks are not written down, but if the subsequent M or A mark is not scored, then the points for the C marks must be written down in order for the C marks to be scored. On the other hand, B marks are independent of any other marks, which means that they can be scored without other marks also being scored. If any Physics term is underlined or highlighted, it means that the exact term must be used in the answer and no other term is acceptable even if the meaning is the same, but grammatical variants of the term is accepted. If any non-Physics term is underlined or highlighted, it means that either the exact term or other terms with the same meaning must be used in the answer. If any words are placed in brackets, it means that the words need not be present in the answer for the mark to be scored. In the mark schemes, A means accept, I means ignore while R means reject.",
+      "When doing revision before exam, you should first go through the subtopics that you think is more difficult or that you may have forgotten. It is helpful if you already have marked/bookmarked your weak topics or difficult ideas from earlier studying or class tests. Then, go through other topics as well if possible.",
+      "Make sure to practice doing FULL exam papers under exam conditions to train your exam-taking skills. Full papers are often cross-topic, and will train your brain stamina and panic for the time duration. No notes, no Google, no music, no talking. Set a timer."
+    ]
+  },
+  {
+    title: "Paper 1 Multiple-Choice Questions (MCQs)",
+    sub: "",
+    tips: [
+      "Read the question and ALL the options carefully. Write any rough workings on the question paper if you need to. Cancel off the options that you consider as definitely wrong. Then, choose the most suitable answer among the options.",
+      "If you got it wrong, make sure you ask questions until you understand why the rest of the answers are not correct. Don't memorize how to do one particular question only.",
+      "Check the Examiner Report for each question to see common mistakes students make. Common errors are related with assumptions e.g. air resistance negligible or not, upthrust negligible or not, quantity is assumed to be constant or not."
+    ]
+  },
+  {
+    title: "Paper 2 Structured Questions",
+    sub: "Applies for Paper 4 as well",
+    tips: [
+      "When answering, read the question and all information given carefully. Make sure that you know what the question is asking for. Answer the questions based on your knowledge and understanding on the relevant topic in Physics. Certain questions may test you on more than one topics. For some questions, you may have to apply what you have learnt in Physics in order to answer them. You have to think carefully and relate the question to what you have learnt. You may also be asked to give your own opinions.",
+      "When writing your answer, you can use the same or similar words or sentences as those in my notes or in the reference books if possible. However, sometimes you may need to make some changes in order to suit the question. You can also answer in your own sentences that have the same meaning. If the question asks on something that is not in my notes and the reference books (the question requires you to apply what you have learnt in Physics or give your own opinion), then you have to answer in your own sentences. For all questions, your answer must be specific and not too general. Give the most suitable answer according to the question.",
+      "You should use the correct Physics terms in your answer. Do not replace them with other terms that are inappropriate, even if their meaning are the same. You should spell all Physics terms correctly. If you can't do so, try to spell it in such a way where it sounds the same as the actual term when read out. Marks are usually not deducted for spelling errors in Physics terms as long as it still sounds the same and that it is not easily confused with other terms. If you spell a non-Physics term wrongly or if you make grammatical errors in your answer, marks will not be deducted for as long as the examiner can understand what you are writing. You are allowed to use suitable short forms in your answer, especially for representing physical quantities or their units.",
+      "It is not compulsory to answer in continuous writing form. You are allowed to answer in table form, point form or other suitable forms. In suitable cases, you can also use diagrams, equations or graphs in your answer.",
+      "When answering questions on calculation, you should show ALL workings. You should not skip any important steps. You must also write the correct unit for the final answer if it is not provided. You are advised to write down the formula used to solve the question, even though it is not compulsory to do so. The number of marks allocated for the question usually shows the amount of working needed. 1 mark will be given for each important step and the final answer. In some cases, if your final answer is correct, full marks will be given and the workings will not be marked. In other cases, marks can only be given for the final answer if the marks for working are scored, where correct answer without working scores 0 mark. Whichever case, if your final answer is wrong but some of your working is correct, you may still be given some marks. You are not allowed to write extra solutions or answers. If you do so and any of the answers or solutions is wrong, marks will be deducted. When copying figures from the question or from your answer for the previous part of the question, be careful not to copy wrongly. For a calculation question which requires you to use your answer from the previous question, even if your answer for the previous question is wrong and you use it for this question causing your answer for this question to be wrong, usually you will still get full marks for this question as long as your calculation for this question is correct. This is known as 'error carried forward'. For questions on 'show', 'prove', 'derive' or similar, usually marks are only given for the workings, not the answer, so it is important that you show complete workings, and explain your workings if necessary.",
+      "Usually, you should give the final answer to 3 significant figures. Do not write your final answer as a fraction or in surd form. However, if the question asks you to give your answer to a specific number of significant figures, then you must follow the instruction, or if the question states that you must give your answer to a suitable number of significant figures, then the number of significant figures of your answer should be equal to the number of significant figures of the raw value used in the calculation with the least number of significant figures.",
+      "When answering questions which requires you to give an answer as well as an explanation to your answer, such as questions that say 'State and explain', 'Suggest and explain' or something similar, it is very important that you give a complete and clear explanation. Marks can only be given for the answer if the marks for explanation are scored. Therefore, correct answer without satisfactory explanation usually scores 0 mark. On the other hand, if your answer is wrong but some of your explanation is correct, you may still be given some marks. In other words, 'explain' is more important than 'state' or 'suggest'.",
+      "For questions that require explanation or description, your answer must be very detailed. You are advised to answer in complete sentences so that your answer can be easily understood. The number of marks allocated for the question usually shows the number of points needed in your answer. 1 mark is given for each correct point. Some of the marks (A marks) may be dependent on other marks (M marks), which means that they can only be scored if the other marks are also scored. Do not miss out any important points in your answer. You are allowed to write extra points in your answer, but you must be careful not to write any points with wrong facts. Marks will only be given for the correct points. For points that are irrelevant but does not contain wrong facts, no mark will be given or deducted. However, for points that contain wrong facts, marks may be deducted.",
+      "For questions that do not require explanation or description, write the answer straight away. You need not answer in complete sentences. The number of marks allocated for the question usually shows the number of answers needed. If the question states the number of answers you have to write, then you are not allowed to write extra answers. If you do so, marks may not be given for the extra answers, and marks may be deducted if any of them is wrong. If the question does not state the number of answers you have to write, you are allowed to write extra answers, but you must be careful not to write any answer with wrong facts. Marks will only be given for the correct answers. For answers that are irrelevant but does not contain wrong facts, no mark will be given or deducted. However, for answers that contain wrong facts, marks may be deducted.",
+      "When drawing diagrams, make sure that all important details are included in the diagram you draw. You have to label correctly all parts in the diagram. Your diagram should be clear and neat."
+    ]
+  },
+  {
+    title: "Paper 3 Lab Practical",
+    sub: "",
+    tips: [
+      "To prepare for Physics Paper 3 (and Paper 5), you should go through all the past year questions and the mark schemes. Find out how every question is marked and which points need to be included in the answers. The pattern of questions set is similar for every year and you should familiarise yourself with the pattern. Usually, the same type of questions will have similar mark scheme, so this can help you when answering exam questions. You should remember the answers for questions that are common.",
+      "For Physics Paper 3, I also suggest that you memorise a list of 20 common answers for the limitations and suggestions question which appears in the last part of Question 2. Lists are usually based on the mark schemes for past year questions. Note that you have to write suggestions and limitations based on the context of the experiment.",
+      "The List of common Answers for the Limitations and Improvements can be found in the Lab Practical 'Files' tab.",
+      "During the test, read the question and all information given carefully. Make sure that you understand the experiment given. Certain parts of the question require you to record the readings from the experiment in a table. You should draw the tables before carrying out the experiment so that you can record your readings in the table straight away during the experiment. Then, carry out the experiment by following the steps given in the question exactly. You need to apply your Physics practical skills when carrying out the experiment.",
+      "Certain questions may require your knowledge and understanding in Physics to answer them. You may also need to give your own opinions. Your answer must be specific and not too general. Give the most suitable answer according to the question.",
+      "When recording readings from an measuring instrument (except metre rule, vernier calipers and micrometre screw gauge), the number of decimal places used should be equal to the smallest division of scale of the instrument. For digital instruments (except digital stopwatch), the number of decimal places used should be the same as that shown on the display. The reading should be recorded to the nearest 0.1cm for metre rule, 0.01cm for vernier calipers, 0.01mm for micrometer screw gauge and 0.01s for stopwatch. In all cases, do not give more or less number of decimal places. You must also write the correct units.",
+      "In most cases, you should take each reading twice, then calculate and record the mean of the 2 readings. Ensure that you show in your answer both readings and the calculation of their mean. However, for the part in Question 1 which requires you to record readings in a table, questions that carry only 1 mark and questions which states that repeated readings are not required, you only need to take each reading once and record it straight away.",
+      "When plotting graph, draw both the horizontal and vertical axis on the graph paper correctly. Label both axis correctly and state the unit (if any). Use a suitable scale for both axis and do not use any odd scales such as 3:10. Both the x-axis and y-axis need not start from 0. The scales should be chosen such that the points plotted on graph cover at least half of the graph paper. The markings on the scales should not be more than 3 large squares apart. Plot all points on the graph accurately. The points should be accurate to half a small square. For all the points, their diameter should not be larger than half a small square. Then, draw the correct straight line or curve. When drawing the straight line or curve, it should pass through all points on the graph if possible. If this is not possible, the line or curve should pass through as many points on the graph as possible, all the points should be close to it and the number of points above and below the line or curve should be almost equal.",
+      "When determining the gradient of the line of graph, choose 2 points on the line and draw a triangle. The distance between the 2 points chosen should be at least half the length of the line. When determining the y-intercept of the line of graph, if the x-axis starts from 0, you can read it off directly from the y-axis of graph, or if the x-axis does not start from 0, you should choose a point on the line, preferably one of the points that you used to calculate its gradient, and substitute its x and y values as well as the gradient into the equation y=mx+c to determine the value of c which is the y-intercept.",
+      "For any questions involving calculation, the number of significant figures of your answer should be equal to or one more than the number of significant figures of the raw value used in the calculation with the least number of significant figures. You should show all workings and do not skip any important steps. You must also write the correct unit for the final answer if it is not provided. You are not allowed to write extra solutions or answers. If you do so and any of the answers or solutions is wrong, marks will be deducted. For a calculation question which requires you to use your answer from the previous question, even if your answer for the previous question is wrong and you use it for this question causing your answer for this question to be wrong, usually you will still get full marks for this question as long as your calculation for this question is correct. This is known as 'error carried forward'.",
+      "For the part of Question 2 which asks you to estimate the percentage uncertainty in a particular value, in most cases the absolute uncertainty used to calculate the percentage uncertainty should be equal to twice the smallest division of scale of the instrument used to measure the value (For both analogue and digital stopwatch, the absolute uncertainty used should be 0.2s). This is because the measurement for this part is often difficult to be done accurately.",
+      "For the part of Question 2 which asks you whether your results support the suggested relationship between 2 variables, you have to calculate the percentage difference between 2 values of a constant which is obtained in previous part of the question. The suggested relationship is supported if the percentage difference is 5% or less and not supported if the percentage difference is more than 5%.",
+      "For the last part of Question 2 which is about limitations and improvements, use answers from the list of common answers (see above) that you memorised. You are not allowed to write more than 4 answers. If you do so, marks may not be given for the extra answers, and marks may be deducted if any of them is wrong.",
+      "For all questions, you should use the correct experimental and Physics terms in your answer. Do not replace them with other terms that are inappropriate, even if their meaning are the same. You should spell all experimental and Physics terms correctly. If you can't do so, try to spell it in such a way where it sounds the same as the actual term when read out. Marks are usually not deducted for spelling errors in experimental and Physics terms as long as it still sounds the same and that it is not easily confused with other terms. If you spell other terms wrongly or if you make grammatical errors in your answer, marks will not be deducted for as long as the examiner can understand what you are writing. You are allowed to use suitable short forms in your answer, especially for representing physical quantities or their units."
+    ]
+  }
+];
+
+var container = document.getElementById('sections-container');
+
+SECTIONS.forEach(function(section, si) {
+  var color = SECTION_COLORS[si % SECTION_COLORS.length];
+  var card = document.createElement('div');
+  card.className = 'section-card';
+
+  var header = document.createElement('div');
+  header.className = 'section-header';
+  header.innerHTML =
+    '<div class="section-num" style="background:' + color + '">' + (si + 1) + '</div>' +
+    '<div class="section-info">' +
+      '<div class="section-title">' + section.title + '</div>' +
+      '<div class="section-sub">' + (section.sub ? section.sub + ' &middot; ' : '') + section.tips.length + ' tips</div>' +
+    '</div>' +
+    '<div class="section-chevron">&#9656;</div>';
+  header.addEventListener('click', function() {
+    card.classList.toggle('open');
+  });
+  card.appendChild(header);
+
+  var body = document.createElement('div');
+  body.className = 'section-body';
+
+  var list = document.createElement('div');
+  list.className = 'tip-list';
+
+  section.tips.forEach(function(text) {
+    var item = document.createElement('div');
+    item.className = 'tip-item';
+    item.dataset.text = text.toLowerCase();
+    item.innerHTML =
+      '<span class="tip-dot" style="background:' + color + '"></span>' +
+      '<span class="tip-text">' + text + '</span>';
+    list.appendChild(item);
+  });
+
+  body.appendChild(list);
+  card.appendChild(body);
+  container.appendChild(card);
+});
+
+var searchBox = document.getElementById('search-box');
+var searchMeta = document.getElementById('search-meta');
+var noResults = document.getElementById('no-results');
+
+function escapeRegExp(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+function highlightText(el, query) {
+  var original = el.dataset.orig || el.textContent;
+  el.dataset.orig = original;
+  if (!query) {
+    el.textContent = original;
+    return;
+  }
+  var re = new RegExp('(' + escapeRegExp(query) + ')', 'ig');
+  el.innerHTML = original.replace(re, '<mark>$1</mark>');
+}
+
+searchBox.addEventListener('input', function() {
+  var q = searchBox.value.trim().toLowerCase();
+  var total = 0;
+
+  container.querySelectorAll('.section-card').forEach(function(card) {
+    var items = card.querySelectorAll('.tip-item');
+    var any = false;
+
+    items.forEach(function(item) {
+      var matches = !q || item.dataset.text.indexOf(q) !== -1;
+      item.classList.toggle('hidden', !matches);
+      if (matches) {
+        any = true;
+        total++;
+        var textEl = item.querySelector('.tip-text');
+        if (q) highlightText(textEl, q);
+        else highlightText(textEl, '');
+      }
+    });
+
+    card.style.display = any ? '' : 'none';
+    if (q && any) card.classList.add('open');
+    else if (!q) card.classList.remove('open');
+  });
+
+  noResults.style.display = (q && total === 0) ? 'block' : 'none';
+  searchMeta.textContent = q ? (total + ' tip' + (total === 1 ? '' : 's') + ' found') : '';
+});
+</script>
+
+</body>
+</html>

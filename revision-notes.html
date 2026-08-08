@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CIE AS Physics 9702 - Revision Notes</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: #e7ebe0;
+  color: #5b534c;
+  line-height: 1.5;
+  padding: 16px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.header {
+  text-align: center;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #d9dfcd;
+}
+.header h1 {
+  font-size: 19px;
+  font-weight: 800;
+  color: #4a433c;
+  margin-bottom: 3px;
+}
+.header p {
+  color: #a89e90;
+  font-size: 11.5px;
+}
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11.5px;
+  font-weight: 700;
+  color: #6b6154;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 18px;
+  border: 1px solid #e6ded2;
+  background: #fbf8f4;
+  margin-bottom: 10px;
+  transition: background 0.15s, border-color 0.15s, transform 0.15s;
+}
+.back-link:hover {
+  background: #f4efe7;
+  border-color: #b9c8d1;
+  transform: translateY(-1px);
+}
+
+/* ---- Sticky nav + search ---- */
+.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: #e7ebe0;
+  padding: 3px 0 8px 0;
+}
+.nav-pills {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+.nav-pill {
+  flex: 1;
+  text-align: center;
+  padding: 8px 8px;
+  border-radius: 10px;
+  border: 1px solid #e6ded2;
+  background: #fbf8f4;
+  color: #6b6154;
+  font-size: 11px;
+  font-weight: 800;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+}
+.nav-pill:hover {
+  background: #f4efe7;
+  border-color: #b9c8d1;
+}
+.search-box {
+  width: 100%;
+  padding: 9px 14px;
+  border-radius: 11px;
+  border: 1px solid #e6ded2;
+  background: #fbf8f4;
+  color: #4a433c;
+  font-size: 13px;
+  outline: none;
+  box-shadow: 0 1px 3px rgba(91,83,76,0.08);
+}
+.search-box:focus {
+  border-color: #b9c8d1;
+}
+.search-meta {
+  font-size: 11px;
+  color: #a89e90;
+  margin-top: 4px;
+  padding-left: 4px;
+}
+
+/* ---- Section headings ---- */
+.section-heading {
+  font-size: 14.5px;
+  font-weight: 800;
+  color: #4a433c;
+  margin: 14px 2px 7px 2px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  scroll-margin-top: 92px;
+}
+.section-heading:first-of-type {
+  margin-top: 2px;
+}
+
+/* ---- Topic cards ---- */
+.topic-card {
+  background: #fbf8f4;
+  border-radius: 12px;
+  margin-bottom: 7px;
+  box-shadow: 0 1px 3px rgba(91,83,76,0.08);
+  overflow: hidden;
+  border: 1px solid #e6ded2;
+}
+.topic-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 13px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.15s;
+}
+.topic-header:hover {
+  background: #f4efe7;
+}
+.topic-num {
+  width: 27px;
+  height: 27px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11.5px;
+  font-weight: 800;
+  color: white;
+  flex-shrink: 0;
+}
+.topic-info { flex: 1; }
+.topic-name {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #4a433c;
+}
+.topic-count {
+  font-size: 10px;
+  color: #a89e90;
+  margin-top: 1px;
+}
+.topic-chevron {
+  font-size: 10px;
+  color: #a89e90;
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+.topic-card.open .topic-chevron {
+  transform: rotate(90deg);
+}
+.topic-body {
+  display: none;
+  padding: 1px 10px 10px 10px;
+}
+.topic-card.open .topic-body {
+  display: block;
+}
+
+/* ---- Compact term grid (Definitions) ---- */
+.terms-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 4px 6px;
+}
+.term-item {
+  border: 1px solid #ebeee2;
+  border-radius: 8px;
+  background: #fdfbf8;
+  overflow: hidden;
+  align-self: start;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+.term-item.open {
+  border-color: var(--accent-border, #dcd2c2);
+  background: var(--accent-bg, #fdfbf8);
+  grid-column: 1 / -1;
+}
+.term-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 7px;
+  padding: 6px 9px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.15s;
+}
+.term-head:hover {
+  background: #f4efe7;
+}
+.term-item.open .term-head:hover {
+  background: transparent;
+}
+.term-name {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: #4a433c;
+  line-height: 1.25;
+}
+.term-chevron {
+  font-size: 8px;
+  color: #c2b9ab;
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+.term-item.open .term-chevron {
+  transform: rotate(90deg);
+}
+.term-body {
+  display: none;
+  padding: 0 9px 7px 9px;
+  font-size: 11px;
+  color: #6b6154;
+  line-height: 1.45;
+}
+.term-body strong {
+  color: #4a433c;
+  font-weight: 800;
+}
+.term-item.open .term-body {
+  display: block;
+}
+.term-item.hidden,
+.formula-item.hidden {
+  display: none;
+}
+mark {
+  background: #f0dfa6;
+  color: #4a433c;
+  border-radius: 3px;
+  padding: 0 2px;
+}
+
+/* ---- Formula rows ---- */
+.formula-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.formula-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 10px;
+  border-radius: 8px;
+  border: 1px solid #ebeee2;
+  background: #fdfbf8;
+}
+.formula-expr {
+  font-family: "Cambria Math", Cambria, Georgia, "Times New Roman", serif;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #4a433c;
+  white-space: nowrap;
+  flex-shrink: 0;
+  min-width: 150px;
+}
+.formula-desc {
+  font-size: 11px;
+  color: #6b6154;
+  line-height: 1.4;
+}
+
+/* ---- Nuclide notation ---- */
+.nuclide {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 2px;
+  vertical-align: middle;
+}
+.nuclide-num {
+  display: flex;
+  flex-direction: column;
+  font-size: 8.5px;
+  line-height: 1;
+  margin-right: 1px;
+}
+.nuclide-sym {
+  font-size: 12.5px;
+  font-weight: 800;
+}
+
+/* ---- Graphs ---- */
+.graph-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 8px;
+}
+.graph-item {
+  border: 1px solid #ebeee2;
+  border-radius: 9px;
+  background: #fdfbf8;
+  padding: 8px 8px 9px 8px;
+}
+.graph-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.graph-title {
+  font-size: 11px;
+  font-weight: 800;
+  color: #4a433c;
+  margin-top: 4px;
+}
+.graph-note {
+  font-size: 10px;
+  color: #a89e90;
+  margin-top: 2px;
+  line-height: 1.4;
+}
+.no-graph {
+  font-size: 11.5px;
+  color: #a89e90;
+  padding: 6px 2px;
+  grid-column: 1 / -1;
+}
+
+.no-results {
+  text-align: center;
+  padding: 22px 10px;
+  color: #a89e90;
+  font-size: 12px;
+  display: none;
+}
+
+.footer {
+  text-align: center;
+  color: #a89e90;
+  font-size: 10.5px;
+  margin-top: 18px;
+  padding-top: 12px;
+  border-top: 1px solid #d9dfcd;
+}
+
+@media (max-width: 500px) {
+  .terms-grid { grid-template-columns: 1fr; }
+  .graph-grid { grid-template-columns: 1fr; }
+  .formula-item { flex-direction: column; align-items: flex-start; gap: 3px; }
+  .formula-expr { min-width: 0; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>CIE AS Physics 9702 — Revision Notes</h1>
+  <p>Definitions, formulas and classic graphs, organized by topic</p>
+</div>
+
+<a href="main.html" class="back-link">&#8592; Back to Organizer</a>
+
+<div class="sticky-top">
+  <div class="nav-pills">
+    <a href="#sec-definitions" class="nav-pill">&#128214; Definitions</a>
+    <a href="#sec-formulas" class="nav-pill">&#129518; Formulas</a>
+    <a href="#sec-graphs" class="nav-pill">&#128200; Graphs</a>
+  </div>
+  <input type="text" id="search-box" class="search-box" placeholder="Search definitions, formulas or graphs...">
+  <div class="search-meta" id="search-meta"></div>
+</div>
+
+<div class="section-heading" id="sec-definitions">&#128214; Definitions</div>
+<div id="definitions-container"></div>
+
+<div class="section-heading" id="sec-formulas">&#129518; Formulas</div>
+<div id="formulas-container"></div>
+
+<div class="section-heading" id="sec-graphs">&#128200; Graphs</div>
+<div id="graphs-container"></div>
+
+<div class="no-results" id="no-results">No results match your search.</div>
+
+<div class="footer">Based on Cambridge International AS &amp; A Level Physics (9702) Syllabus</div>
+
+<script>
+var TOPIC_COLORS = [
+  '#8fa9c2', '#9db892', '#c99f7a', '#b58fb0', '#7fb3ae',
+  '#c78e8e', '#8f9fc9', '#b0a878', '#7fa8c9', '#a88fc2', '#9cb87f'
+];
+
+var TOPIC_NAMES = [
+  "Topic 1: Physical Quantities and Units",
+  "Topic 2: Kinematics",
+  "Topic 3: Dynamics",
+  "Topic 4: Forces, Density and Pressure",
+  "Topic 5: Work, Energy and Power",
+  "Topic 6: Deformation of Solids",
+  "Topic 7: Waves",
+  "Topic 8: Superposition",
+  "Topic 9: Electricity",
+  "Topic 10: D.C. Circuits",
+  "Topic 11: Particle Physics"
+];
+
+function hexToRgba(hex, alpha) {
+  var h = hex.replace('#', '');
+  var r = parseInt(h.substring(0, 2), 16);
+  var g = parseInt(h.substring(2, 4), 16);
+  var b = parseInt(h.substring(4, 6), 16);
+  return 'rgba(' + r + ',' + g + ',' + b + ',' + alpha + ')';
+}
+
+/* ==========================================================
+   DEFINITIONS DATA
+   ========================================================== */
+var DEFINITIONS = [
+  [
+    ["Accuracy", "How close a measurement is to its <strong>true value</strong>, influenced by the systematic and random errors of that measurement."],
+    ["Absolute Uncertainties", "The <strong>interval</strong> that a value is said to lie within, with a given level of confidence."],
+    ["Base Units", "The set of <strong>seven basic measures</strong> from which all other SI units can be derived."],
+    ["Precision", "A measure of how close a measurement is to the <strong>mean value</strong>. It only gives an indication of the magnitude of random errors, not how close data is to the true value."],
+    ["Random Error", "The <strong>unpredictable variation</strong> in a measurement. These can be reduced by taking many repeated measurements and calculating their mean."],
+    ["Resolution", "The <strong>smallest interval</strong> that a given measuring device can measure."],
+    ["Scalar Quantity", "A quantity that only has a <strong>magnitude</strong>."],
+    ["Systematic Error", "A <strong>consistent shift</strong> in readings causing a deviation from the true value. This shift is due to the equipment or method being used and cannot be reduced by repeated measurements."],
+    ["Quantity", "A characteristic that can be measured. Quantities always have a <strong>size and unit</strong>."],
+    ["Vector Quantity", "A quantity that has a <strong>magnitude and a direction</strong>."],
+    ["Zero Errors", "A form of systematic error, caused when a measuring instrument doesn't read zero at a value of zero. This results in all measurements being <strong>offset by a fixed amount</strong>."]
+  ],
+  [
+    ["Acceleration", "The <strong>rate of change of velocity</strong>. It is a vector quantity and so has both a direction and a magnitude."],
+    ["Displacement", "The <strong>direct distance</strong> between an object's starting and ending positions. It is a vector quantity and so has both a direction and a magnitude."],
+    ["Displacement-Time Graphs", "Plots showing how displacement changes over a period of time. The <strong>gradient gives the velocity</strong>. Curved lines represent an acceleration."],
+    ["Distance", "A measure of how far an object moves. It doesn't depend on direction and is therefore a <strong>scalar quantity</strong>."],
+    ["Projectile Motion", "The motion of an object that is fired from a point and then upon which <strong>only gravity acts</strong>. When solving projectile motion problems, it is useful to split the motion into horizontal and vertical components."],
+    ["Speed", "A scalar quantity that is a measure of the <strong>rate of change of distance</strong>. The average speed is calculated by dividing the distance travelled by the time taken."],
+    ["Velocity", "The <strong>rate of change of displacement</strong>. It is a vector quantity and so has both a direction and a magnitude."],
+    ["Velocity-Time Graphs", "Plots showing how velocity changes over a period of time. The <strong>gradient gives acceleration</strong>. Area under line gives displacement. Curved lines represent changing acceleration."]
+  ],
+  [
+    ["Conservation of Momentum", "In a closed system with no external forces the <strong>momentum before an event equals the momentum after</strong> the event."],
+    ["Elastic Collision", "When the <strong>kinetic energy before equals the kinetic energy after</strong> an event."],
+    ["Force", "The <strong>rate of change of momentum</strong> of an object. The product of the object's mass with its acceleration."],
+    ["Inelastic Collision", "When the kinetic energy of a system before an event is <strong>not equal</strong> to the kinetic energy after the event. The kinetic energy has been transferred to other forms."],
+    ["Momentum", "The <strong>product of an object's mass and its velocity</strong>."],
+    ["Newton's First Law", "An object at a constant velocity will remain at a constant velocity <strong>unless acted on by a resultant force</strong>. (If this constant velocity is zero the object is at rest)."],
+    ["Newton's Second Law", "If an object is acted upon by a resultant force it will accelerate. The acceleration is <strong>inversely proportional to the mass</strong> of the object and directly proportional to the force acting upon it."],
+    ["Newton's Third Law", "Every action has an <strong>equal and opposite reaction</strong>. If an object exerts a force on another object, then the other object must exert a force back, that is opposite in direction and equal in magnitude."],
+    ["Terminal Velocity", "The maximum velocity an object can achieve. It is the point at which <strong>frictional forces and driving forces are balanced</strong> and so no acceleration occurs and the resultant force on the object is 0 N."],
+    ["Upthrust", "The <strong>upwards force</strong> that a fluid applies on an object."],
+    ["Weight", "The force of gravity on an object, the <strong>product of the object's mass and the acceleration due to gravity</strong>."]
+  ],
+  [
+    ["Centre of Gravity", "The single point through which the object's <strong>weight</strong> can be said to act."],
+    ["Centre of Mass", "The single point through which <strong>all the mass</strong> of an object can be said to act."],
+    ["Couple", "Two <strong>equal and opposite parallel forces</strong> that act on an object through different lines of action. It has the effect of causing a rotation without translation."],
+    ["Density", "The <strong>mass per unit volume</strong> of a material."],
+    ["Equilibrium", "For an object to be in equilibrium, both the <strong>resultant force and resultant moment</strong> acting on the object must be equal to zero."],
+    ["Hydrostatic Pressure", "<strong>&Delta;p = &rho;g&Delta;h</strong>"],
+    ["Moment of Force", "The product of a force and the <strong>perpendicular distance</strong> from the line of action of the force to the pivot."],
+    ["Principle of Moments", "For an object to be in equilibrium, the sum of the <strong>clockwise moments</strong> acting about a point must be equal to the sum of the anticlockwise moments acting about the point."],
+    ["Pressure", "The force that a surface experiences <strong>per unit area</strong>. It is measured in Pascals (Pa)."],
+    ["Triangle of Forces", "A method of determining the resultant force of two forces. The two forces are joined <strong>tip to tail</strong> and the resultant force is given by the force that would complete the triangle."],
+    ["Upthrust", "The <strong>upwards force</strong> that a fluid applies on an object."]
+  ],
+  [
+    ["Conservation of Energy", "In a closed system with no external forces the <strong>energy before an event equals the energy after</strong> the event. The energy does not need to be in the same form after the event as it was before the event."],
+    ["Efficiency", "The <strong>ratio of useful energy output to total energy input</strong> for a given system."],
+    ["Gravitational Potential Energy", "The energy gained by an object when it is <strong>raised by a height</strong> in a gravitational field."],
+    ["Kinetic Energy", "A form of energy that all moving objects possess. It is directly proportional to the mass of the object, and to the <strong>square of its velocity</strong>."],
+    ["Power", "The <strong>rate of transfer of energy</strong>."],
+    ["Work Done", "The energy transferred by a force moving over a distance. It is equal to the <strong>product of the magnitudes of the force and distance</strong>."]
+  ],
+  [
+    ["Compression", "The result of two coplanar forces acting <strong>into</strong> an object. Compression usually results in a reduction in the length of the object."],
+    ["Compressive Deformation", "The changing of an object's shape due to <strong>compressive forces</strong>."],
+    ["Elastic Deformation", "If a material deforms with elastic behaviour, it will <strong>return to its original shape</strong> when the deforming forces are removed. The object will not be permanently deformed."],
+    ["Elastic Limit", "The force beyond which an object will no longer deform elastically, and instead deform plastically. Beyond the elastic limit, when the deforming forces are removed, the object will <strong>not return to its original shape</strong>."],
+    ["Elastic Potential Energy", "The energy stored in an object when it is stretched. It is equal to the work done to stretch the object and can be determined from the <strong>area under a force-extension graph</strong>."],
+    ["Extension", "The <strong>increase of an object's length</strong>."],
+    ["Force-Extension Graph", "A plot showing how an object extends as the force applied increases. For an elastic object, the gradient should be linear up to the limit of proportionality. The <strong>gradient gives the spring constant</strong>."],
+    ["Hooke's Law", "The extension of an elastic object will be <strong>directly proportional to the force</strong> applied to it up to the object's limit of proportionality."],
+    ["Limit of Proportionality", "The point at which the stress on an object is so great that <strong>Hooke's law no longer applies</strong> to an object."],
+    ["Plastic Deformation", "If a material deforms with plastic behaviour, it will <strong>not return to its original shape</strong> when the deforming forces are removed. The object will be permanently deformed."],
+    ["Spring Constant", "The <strong>constant of proportionality</strong> for the extension of a spring under a force. The higher the spring constant, the greater the force needed to achieve a given extension."],
+    ["Strain", "The <strong>ratio of an object's extension to its original length</strong>. It is a ratio of two lengths and so has no unit."],
+    ["Stress", "The amount of force acting <strong>per unit area</strong>. Its unit is the Pascal (Pa)."],
+    ["Tension", "The result of two forces acting on an object in <strong>opposite, outwards directions</strong>."],
+    ["Tensile Strain", "The extension of an object <strong>divided by its original length</strong>."],
+    ["Tensile Stress", "The internal resistance of an object against a force that acts to deform it. It is the <strong>force applied per unit cross-sectional area</strong>."],
+    ["Young Modulus", "The <strong>ratio of stress to strain</strong> for a given material. Its unit is the Pascal (Pa)."]
+  ],
+  [
+    ["Amplitude", "A wave's <strong>maximum displacement</strong> from its equilibrium position."],
+    ["Displacement", "The distance and direction that a vibrating particle or wave has travelled <strong>from its equilibrium position</strong>."],
+    ["Electromagnetic Spectrum", "The spectrum of electromagnetic waves, consisting of <strong>Gamma Rays, X-Rays, Ultraviolet, Visible Light, Infrared, Microwaves and Radiowaves</strong>."],
+    ["Frequency", "The number of <strong>complete oscillations</strong> of a wave (wave cycles) per second. It is the inverse of the time period."],
+    ["Intensity", "The power transferred per unit area. It is <strong>proportional to the square of a wave's amplitude</strong>."],
+    ["Longitudinal Wave", "A wave with oscillations that are <strong>parallel</strong> to the direction of energy propagation. Sound waves are an example of a longitudinal wave."],
+    ["Period", "The time it takes for <strong>one complete wave</strong> to pass a given point. It is the inverse of frequency."],
+    ["Phase Difference", "The difference in phase between two points on a wave. It is usually expressed in <strong>radians</strong>."],
+    ["Polarisation", "The restriction of a wave so that it can only oscillate in a <strong>single plane</strong>. This can only occur for transverse waves."],
+    ["Progressive Waves", "A wave that transfers energy from one point to another, <strong>without the transfer of matter</strong>."],
+    ["Transverse Waves", "A wave with oscillations that are <strong>perpendicular</strong> to the direction of energy propagation. Electromagnetic waves are examples of transverse waves."],
+    ["Wavelength", "The distance between two identical positions on two adjacent waves. It is commonly measured from <strong>peak to peak or trough to trough</strong>."],
+    ["Wave Speed", "The <strong>product of a wave's frequency and wavelength</strong>."]
+  ],
+  [
+    ["Antinodes", "A position of <strong>maximum displacement</strong> in a stationary wave."],
+    ["Coherence", "Waves with the <strong>same frequency and constant phase difference</strong>."],
+    ["Constructive Interference", "The type of interference that occurs when two waves meet <strong>in phase</strong>. The wave amplitudes are superposed."],
+    ["Destructive Interference", "The type of interference that occurs when the two waves are <strong>in antiphase</strong>. When one wave is at a peak and one is at a trough their addition results in a minimum point."],
+    ["Diffraction", "The <strong>spreading of a wave</strong> as it passes through a gap, or around an obstacle, of a similar magnitude to its wavelength."],
+    ["Diffraction Grating", "A grating with <strong>hundreds of slits per millimetre</strong>, that results in sharper interference patterns when a wave passes through it. They are used to calculate atomic spacing and to analyse elements."],
+    ["Interference", "The <strong>superposition of the amplitudes of waves</strong> when they meet."],
+    ["Nodes", "A position of <strong>minimum displacement</strong> in a stationary wave."],
+    ["Superposition", "When two waves meet at the same point in space their displacements combine and the total displacement at that point becomes the <strong>sum of the individual displacements</strong> at that point."],
+    ["Two Source Interference", "Interference caused by the <strong>interference of two sources</strong> of waves."]
+  ],
+  [
+    ["Charge", "A property of matter that causes it to experience force when placed in an electromagnetic field. It can be <strong>positive or negative</strong>."],
+    ["Current", "The <strong>rate of flow of charge</strong> in a circuit."],
+    ["Light-Dependent Resistor (LDR)", "A light sensitive semiconductor whose resistance <strong>increases when light intensity decreases</strong>."],
+    ["Ohmic Conductor", "A conductor following Ohm's law where current flowing through it is <strong>directly proportional to the potential difference</strong> between each end of the conductor. This only holds if the conductor is kept at a constant temperature."],
+    ["Potential Difference", "The difference in electrical potential between two points in a circuit. It is also the <strong>work done per coulomb</strong> to move a charge from the lower potential point to the higher potential point. It is measured in Volts."],
+    ["Power", "The rate of energy transfer in a circuit. It can be calculated as the <strong>product of the current and the potential difference</strong> between two points. It is measured in Watts."],
+    ["Resistance", "A measure of how difficult it is for <strong>current to flow</strong> through a material."],
+    ["Resistivity", "A measure of how difficult it is for charge to travel through a material. It is <strong>proportional to the object's resistance and cross-sectional area</strong>, and inversely proportional to the object's length. It is measured in Ohm metres."],
+    ["Quantisation of Charge", "The idea that charge can only exist in <strong>discrete packets of multiples of the elementary charge</strong>."],
+    ["Thermistor", "A temperature sensitive semiconductor whose resistance <strong>increases when temperature decreases</strong>."],
+    ["Volt", "The unit of <strong>potential difference</strong>."]
+  ],
+  [
+    ["Conservation of Charge", "The <strong>total charge in a system cannot change</strong>."],
+    ["Conservation of Energy", "Energy cannot be created or destroyed - it can only be <strong>transferred into different forms</strong>."],
+    ["Electromotive Force", "The <strong>energy supplied by a source per unit charge</strong> passing through the source, measured in volts."],
+    ["Internal Resistance", "The resistance to the flow of charge within a source. Internal resistance results in <strong>energy being dissipated within the source</strong>."],
+    ["Kirchhoff's First Law", "The <strong>total current entering a junction equals the total current leaving</strong> it."],
+    ["Kirchhoff's Second Law", "A consequence of the conservation of energy. The <strong>sum of the voltages in any closed loop must equal zero</strong>."],
+    ["Parallel Connection", "When two electrical components are on separate loops to one another in a circuit. <strong>Potential difference over each loop is the same</strong>, current is split between branches."],
+    ["Potential Divider", "A method of splitting a potential difference, by connecting resistors in series. The total potential difference is <strong>split in the ratio of their resistances</strong>."],
+    ["Series Connection", "When two electrical components are on the same loop to one another in a circuit. Potential difference is split between components depending on their resistance, <strong>current is the same across all components</strong>."],
+    ["Variable Resistors", "A resistor that can have its resistance changed. Typically, these are used with power supplies to <strong>change the voltage of a circuit</strong> without using a transformer."]
+  ],
+  [
+    ["Alpha Particles", "A type of particle consisting of <strong>two protons and two neutrons</strong>. Alpha particles are emitted in alpha decay and are strongly ionising, but weakly penetrating."],
+    ["Atomic Mass Unit", "A unit used to express atomic masses. One AMU is equal to <strong>one twelfth of the mass of a carbon atom</strong>."],
+    ["Beta Particles", "An <strong>electron or positron</strong>. Beta particles are emitted during beta decay and have medium ionising and penetrating capabilities."],
+    ["Beta-Minus Decay", "The process of a neutron inside a nucleus turning into a proton, and emitting a <strong>beta-minus particle (an electron) and an antineutrino</strong>."],
+    ["Beta-Plus Decay", "The process of a proton inside a nucleus turning into a neutron, and emitting a <strong>beta-plus particle (a positron) and a neutrino</strong>."],
+    ["Electron", "A <strong>negatively charged fundamental particle</strong> that is found in energy levels surrounding a nucleus."],
+    ["Hadron", "Particles that undergo strong interactions, they are made up of <strong>quarks</strong> so include mesons and baryons."],
+    ["Isotopes", "A form of an element with the <strong>same number of protons but different numbers of neutrons</strong>."],
+    ["Leptons", "A group of elementary subatomic particles, consisting of <strong>electrons, muons and neutrinos</strong>."],
+    ["Meson", "A particle consisting of <strong>one quark and one antiquark</strong>. Pions and Kaons are examples of mesons."],
+    ["Nucleon Number", "The number of <strong>neutrons and protons</strong> in the nucleus."],
+    ["Neutron", "A <strong>neutrally charged nucleon</strong>, found in the nucleus of an atom. Neutrons are a form of hadron."],
+    ["Positron", "A <strong>positively charged</strong> particle that is the antiparticle of an electron."],
+    ["Proton", "A <strong>positively charged nucleon</strong>, found in the nucleus of an atom. Protons are a form of hadron."],
+    ["Proton Number", "The number of <strong>protons</strong> present in the nucleus of a given element."],
+    ["Quark", "Fundamental particle that interacts with other quarks via the strong interaction, it will change flavour via the weak interaction and annihilate with antiquarks to form photons via the electromagnetic interaction. They come in <strong>6 flavours: up, down, charm, strange, top, bottom</strong>."],
+    ["Rutherford Scattering", "An experiment involving firing <strong>alpha particles at a thin gold foil</strong> and observing their deflections. It showed the existence and nature of the nucleus."],
+    ["Weak Interaction", "The force that causes <strong>flavour change</strong> in quarks and leptons, it is responsible for beta decay."]
+  ]
+];
+
+/* ==========================================================
+   FORMULAS DATA (transcribed from reference formula sheets)
+   ========================================================== */
+function nuc(top, bot, sym) {
+  return '<span class="nuclide"><span class="nuclide-num"><span class="nuclide-top">' + top + '</span><span class="nuclide-bot">' + bot + '</span></span><span class="nuclide-sym">' + sym + '</span></span>';
+}
+
+var FORMULAS = [
+  [
+    ["F<sub>x</sub> = F cos&theta;", "Horizontal component of a 2D vector."],
+    ["F<sub>y</sub> = F sin&theta;", "Vertical component of a 2D vector."],
+    ["F = &radic;(F<sub>x</sub><sup>2</sup> + F<sub>y</sub><sup>2</sup>)", "Recombining vector components into a resultant."],
+    ["&Delta;x/x", "Fractional uncertainty = absolute uncertainty / measurement."],
+    ["(&Delta;x/x) &times; 100%", "Percentage uncertainty."],
+    ["p = x<sup>3</sup>y<sup>1&frasl;2</sup> &frasl; 7z<sup>4</sup>", "Example compound quantity for propagating uncertainties."],
+    ["&Delta;p/p = 3(&Delta;x/x) + &frac12;(&Delta;y/y) + 4(&Delta;z/z)", "Fractional (×100% for percentage) uncertainty in a compound quantity — multiply each fractional uncertainty by its power and sum."]
+  ],
+  [
+    ["s = area under v–t graph", "Displacement from a velocity–time graph."],
+    ["v = &Delta;s/&Delta;t", "Velocity = gradient of a displacement–time graph."],
+    ["a = &Delta;v/&Delta;t", "Acceleration = gradient of a velocity–time graph."],
+    ["v = u + at", "Final velocity from initial velocity, acceleration and time."],
+    ["s = &frac12;(u + v)t", "Displacement using the average of initial and final velocity."],
+    ["s = ut + &frac12;at<sup>2</sup>", "Displacement from initial velocity, acceleration and time."],
+    ["v<sup>2</sup> = u<sup>2</sup> + 2as", "Final velocity² without needing time."],
+    ["V<sub>x</sub> = v cos&theta;, V<sub>y</sub> = v sin&theta;", "Projectile velocity components at elevation angle θ."],
+    ["H = u<sup>2</sup>sin<sup>2</sup>&theta; / 2g", "Maximum vertical height of a projectile."],
+    ["R = u<sup>2</sup>sin2&theta; / g", "Maximum horizontal range of a projectile."]
+  ],
+  [
+    ["p = mv", "Momentum = mass × velocity."],
+    ["&Sigma;F = &Delta;p/&Delta;t = ma", "Newton's second law: resultant force = rate of change of momentum."],
+    ["m<sub>1</sub>u<sub>1</sub> + m<sub>2</sub>u<sub>2</sub> = m<sub>1</sub>v<sub>1</sub> + m<sub>2</sub>v<sub>2</sub>", "Conservation of total momentum in a collision."],
+    ["u<sub>1</sub> &minus; u<sub>2</sub> = v<sub>2</sub> &minus; v<sub>1</sub>", "Elastic collisions: relative speed of approach = relative speed of separation."],
+    ["W = mg", "Weight of an object."]
+  ],
+  [
+    ["F<sub>g</sub> = mg", "Gravitational force."],
+    ["F<sub>e</sub> = qE", "Electrostatic force on a charge in a field."],
+    ["D &prop; v<sup>2</sup>", "Drag / viscous force at higher speeds."],
+    ["Moment = F &times; d&perp;", "Moment of a force / torque about a pivot."],
+    ["&rho; = m/V", "Density = mass per unit volume."],
+    ["P = F/A", "Pressure = force per unit area."],
+    ["&Delta;P = &rho;g&Delta;h", "Pressure difference with depth in a fluid."],
+    ["F<sub>up</sub> = &rho;Vg", "Upthrust force on a submerged/floating object."]
+  ],
+  [
+    ["W = Fs cos&theta;", "Work done by a force moving through a distance."],
+    ["E<sub>p</sub> = mgh", "Gravitational potential energy."],
+    ["E<sub>k</sub> = &frac12;mv<sup>2</sup>", "Kinetic energy."],
+    ["E<sub>p</sub> = &frac12;Fx = &frac12;kx<sup>2</sup>", "Elastic potential energy."],
+    ["&eta; = (output/input) &times; 100", "Efficiency of an energy or power transfer."],
+    ["P = W/t = Fv", "Power = rate of doing work = force × velocity."]
+  ],
+  [
+    ["F = k&Delta;x", "Restoring force (Hooke's law)."],
+    ["k = k<sub>1</sub> + k<sub>2</sub> + ...", "Effective spring constant, springs in parallel."],
+    ["1/k = 1/k<sub>1</sub> + 1/k<sub>2</sub> + ...", "Effective spring constant, springs in series."],
+    ["E<sub>s</sub> = &frac12;Fx = &frac12;kx<sup>2</sup>", "Elastic potential (strain) energy."],
+    ["W = &Delta;E<sub>s</sub> = area under F–x graph", "Work done stretching/compressing a spring."],
+    ["&sigma; = F/A", "Stress = force / cross-sectional area."],
+    ["&epsilon; = x/l<sub>0</sub>", "Strain = extension / original length."],
+    ["E = &sigma;/&epsilon; = Fl<sub>0</sub>/(Ax)", "Young modulus = gradient of a linear stress–strain graph."],
+    ["Area under stress–strain graph", "Strain energy stored per unit volume."]
+  ],
+  [
+    ["f = 1/T", "Frequency = 1 / period."],
+    ["v = f&lambda;", "Wave speed = frequency × wavelength."],
+    ["&Delta;t/T = &Delta;x/&lambda; = &Delta;&phi;/2&pi;", "Equivalent ratios for phase difference."],
+    ["I &prop; Amplitude<sup>2</sup>", "Wave intensity is proportional to amplitude²."],
+    ["f<sub>0</sub>/f<sub>s</sub> = v/(v &plusmn; v<sub>s</sub>)", "Doppler effect (+ moving away, − moving towards)."],
+    ["I = I<sub>0</sub>cos<sup>2</sup>&theta;", "Malus's law for intensity through a polariser."]
+  ],
+  [
+    ["&Delta;L = L<sub>2</sub> &minus; L<sub>1</sub>", "Path difference between two waves."],
+    ["&Delta;L = 0, 1&lambda;, 2&lambda;, ... n&lambda;", "Condition for constructive interference."],
+    ["&Delta;L = 0.5&lambda;, 1.5&lambda;, ... (n+&frac12;)&lambda;", "Condition for destructive interference."],
+    ["x = &lambda;D/a", "Young's double-slit fringe separation."],
+    ["n&lambda; = d sin&theta;", "Diffraction grating maxima."],
+    ["d = 1/N", "Grating slit separation (N = lines per metre)."],
+    ["n&lambda; &lt; d sin90&deg;", "Condition for the greatest number of maxima, n."]
+  ],
+  [
+    ["Q = nALq", "Total charge available in a conductor."],
+    ["I = Q/t = nAvq", "Current in terms of charge, or charge-carrier density/area/drift velocity/charge."],
+    ["V = W/Q", "Potential difference = energy transferred per unit charge."],
+    ["R = V/I", "Resistance (constant if the conductor obeys Ohm's law)."],
+    ["R = &rho;L/A", "Resistance of a wire in terms of resistivity, length, area."],
+    ["P = IV = I<sup>2</sup>R = V<sup>2</sup>/R", "Electrical power, three equivalent forms."],
+    ["P<sub>max</sub> = E<sup>2</sup>R/(R+r)<sup>2</sup>", "Maximum power dissipated in an external resistor."]
+  ],
+  [
+    ["E = IR + Ir", "e.m.f. = terminal p.d. + lost volts."],
+    ["R = R<sub>1</sub> + R<sub>2</sub> + R<sub>3</sub> + ...", "Combined resistance, resistors in series."],
+    ["R = (1/R<sub>1</sub> + 1/R<sub>2</sub> + 1/R<sub>3</sub> + ...)<sup>&minus;1</sup>", "Combined resistance, resistors in parallel."],
+    ["&Sigma;I<sub>in</sub> = &Sigma;I<sub>out</sub>", "Kirchhoff's first law, at a junction."],
+    ["&Sigma;V = 0", "Kirchhoff's second law: sum of e.m.f. = sum of potential drops around a loop."],
+    ["V<sub>1</sub>/V<sub>2</sub> = R<sub>1</sub>/R<sub>2</sub>", "Potential divider ratio."],
+    ["V<sub>1</sub>/V<sub>2</sub> = x<sub>1</sub>/x<sub>2</sub>", "Potentiometer ratio of segments."],
+    ["V/V<sub>total</sub> = x/L", "Potentiometer ratio to total length."]
+  ],
+  [
+    [nuc(100, 10, 'X') + ' &rarr; ' + nuc(96, 8, 'Y') + ' + ' + nuc(4, 2, '&alpha;'), "Alpha decay."],
+    [nuc(100, 10, 'X') + ' &rarr; ' + nuc(100, 11, 'Y') + ' + ' + nuc(0, '&minus;1', '&beta;') + ' + ' + '<span style="text-decoration:overline">&nu;</span><sub>e</sub>', "Beta-minus decay (emits an antineutrino)."],
+    [nuc(100, 10, 'X') + ' &rarr; ' + nuc(100, 9, 'Y') + ' + ' + nuc(0, 1, '&beta;') + ' + &nu;<sub>e</sub>', "Beta-plus decay (emits a neutrino)."],
+    [nuc(100, 10, 'X') + ' &rarr; ' + nuc(100, 10, 'Y') + ' + &gamma;', "Gamma decay."]
+  ]
+];
+
+/* ==========================================================
+   GRAPHS DATA — classic curve shapes drawn as small SVGs
+   ========================================================== */
+function P(t, y) {
+  var x0 = 32, y0 = 14, w = 194, h = 106;
+  return [(x0 + t * w).toFixed(1), (y0 + (1 - y) * h).toFixed(1)];
+}
+function dot(t, y, color) {
+  var p = P(t, y);
+  return '<circle cx="' + p[0] + '" cy="' + p[1] + '" r="2.6" fill="' + color + '" stroke="#fff" stroke-width="1"/>';
+}
+function dashedLine(t1, y1, t2, y2, color) {
+  var a = P(t1, y1), b = P(t2, y2);
+  return '<line x1="' + a[0] + '" y1="' + a[1] + '" x2="' + b[0] + '" y2="' + b[1] + '" stroke="' + color + '" stroke-width="1" stroke-dasharray="3,3" opacity="0.7"/>';
+}
+function labelAt(t, y, text, anchor, color) {
+  var p = P(t, y);
+  return '<text x="' + p[0] + '" y="' + p[1] + '" font-size="7.5" fill="' + (color || '#6b6154') + '" text-anchor="' + (anchor || 'start') + '" font-weight="700">' + text + '</text>';
+}
+function pathFromPoints(pts) {
+  var x0 = 32, y0 = 14, w = 194, h = 106;
+  var d = '';
+  pts.forEach(function(p, i) {
+    var px = x0 + p[0] * w;
+    var py = y0 + (1 - p[1]) * h;
+    d += (i === 0 ? 'M' : 'L') + px.toFixed(1) + ',' + py.toFixed(1) + ' ';
+  });
+  return d;
+}
+function sampledPath(fn, n) {
+  n = n || 50;
+  var pts = [];
+  for (var i = 0; i <= n; i++) {
+    var t = i / n;
+    pts.push([t, fn(t)]);
+  }
+  return pathFromPoints(pts);
+}
+function axesSvg() {
+  var x0 = 32, y0 = 14, w = 194, h = 106;
+  var xEnd = x0 + w, yEnd = y0 + h;
+  return '<line x1="' + x0 + '" y1="' + yEnd + '" x2="' + (xEnd + 6) + '" y2="' + yEnd + '" stroke="#a89e90" stroke-width="1.2"/>'
+    + '<polygon points="' + (xEnd + 6) + ',' + yEnd + ' ' + xEnd + ',' + (yEnd - 3) + ' ' + xEnd + ',' + (yEnd + 3) + '" fill="#a89e90"/>'
+    + '<line x1="' + x0 + '" y1="' + yEnd + '" x2="' + x0 + '" y2="' + (y0 - 6) + '" stroke="#a89e90" stroke-width="1.2"/>'
+    + '<polygon points="' + x0 + ',' + (y0 - 6) + ' ' + (x0 - 3) + ',' + y0 + ' ' + (x0 + 3) + ',' + y0 + '" fill="#a89e90"/>';
+}
+function axisLabels(xLabel, yLabel) {
+  return '<text x="234" y="132" font-size="8.5" fill="#6b6154" text-anchor="end" font-weight="700">' + xLabel + '</text>'
+    + '<text x="5" y="12" font-size="8.5" fill="#6b6154" text-anchor="start" font-weight="700">' + yLabel + '</text>';
+}
+function graphSvg(spec, color) {
+  var inner = axesSvg() + axisLabels(spec.xLabel, spec.yLabel);
+  if (spec.fn) {
+    inner += '<path d="' + sampledPath(spec.fn, spec.samples || 50) + '" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"/>';
+  }
+  if (spec.extra) inner += spec.extra(color);
+  return '<svg viewBox="0 0 240 145" class="graph-svg">' + inner + '</svg>';
+}
+
+var feFn = function(t) {
+  if (t <= 0.55) return 0.8 * (t / 0.55);
+  if (t <= 0.85) { var u = (t - 0.55) / 0.3; return 0.8 + 0.15 * Math.sin(u * Math.PI / 2); }
+  var v = (t - 0.85) / 0.15; return 0.95 - 0.20 * v;
+};
+
+var GRAPHS = [
+  [],
+  [
+    { title: 'Displacement–time (constant velocity)', xLabel: 'time', yLabel: 'displacement', fn: function(t) { return 0.1 + 0.75 * t; }, note: 'Straight line — gradient = velocity.' },
+    { title: 'Velocity–time (constant acceleration)', xLabel: 'time', yLabel: 'velocity', fn: function(t) { return 0.12 + 0.78 * t; }, note: 'Gradient = acceleration; area under the line = displacement.' },
+    { title: 'Projectile trajectory', xLabel: 'horizontal distance', yLabel: 'height', fn: function(t) { return 3.2 * 0.78 * t * (1 - t); }, note: 'Parabolic path once only gravity acts.' }
+  ],
+  [
+    { title: 'Force–time (impulse)', xLabel: 'time', yLabel: 'force', fn: function(t) { return 0.55; }, note: 'Area under the graph = impulse = change in momentum.',
+      extra: function(color) { return dashedLine(0.15, 0, 0.15, 0.55, color) + dashedLine(0.85, 0, 0.85, 0.55, color); } },
+    { title: 'Velocity approaching terminal velocity', xLabel: 'time', yLabel: 'velocity', fn: function(t) { return 0.85 * (1 - Math.exp(-4 * t)); }, note: 'Curve flattens once resistive force balances driving force.',
+      extra: function(color) { return dashedLine(0, 0.85, 1, 0.85, color) + labelAt(0.42, 0.9, 'terminal velocity', 'start', color); } }
+  ],
+  [
+    { title: 'Pressure vs depth (fluid)', xLabel: 'depth', yLabel: 'pressure', fn: function(t) { return 0.18 + 0.72 * t; }, note: 'Gradient = ρg; y-intercept = atmospheric pressure.',
+      extra: function(color) { return dot(0, 0.18, color) + labelAt(0.03, 0.26, 'P\u2080', 'start', color); } }
+  ],
+  [
+    { title: 'Kinetic energy vs velocity²', xLabel: 'velocity²', yLabel: 'KE', fn: function(t) { return 0.85 * t; }, note: 'Straight line through the origin; gradient = ½m.' }
+  ],
+  [
+    { title: 'Force–extension graph', xLabel: 'extension', yLabel: 'force', fn: feFn, note: 'Linear to the limit of proportionality; curves and breaks beyond the elastic limit.',
+      extra: function(color) { return dot(0.55, 0.8, color) + labelAt(0.57, 0.72, 'elastic limit', 'start', color) + dot(1, 0.75, '#c78e8e') + labelAt(0.68, 0.62, 'breaks', 'start', '#c78e8e'); } },
+    { title: 'Stress–strain graph', xLabel: 'strain', yLabel: 'stress', fn: feFn, note: 'Gradient of the linear region = Young modulus.' }
+  ],
+  [
+    { title: 'Displacement–time graph', xLabel: 'time', yLabel: 'displacement', fn: function(t) { return 0.5 + 0.42 * Math.sin(t * 4 * Math.PI); }, note: 'Sinusoidal; period T read along the time axis.',
+      extra: function(color) { return dashedLine(0, 0.5, 1, 0.5, '#c2b9ab'); } },
+    { title: 'Displacement–distance graph', xLabel: 'distance', yLabel: 'displacement', fn: function(t) { return 0.5 + 0.42 * Math.sin(t * 4 * Math.PI); }, note: 'Snapshot of the wave; wavelength λ read along the distance axis.',
+      extra: function(color) { return dashedLine(0, 0.5, 1, 0.5, '#c2b9ab'); } }
+  ],
+  [
+    { title: 'Stationary wave snapshot', xLabel: 'position', yLabel: 'displacement', fn: function(t) { return 0.5 + 0.42 * Math.sin(t * 3 * Math.PI); }, note: 'N = node (zero displacement), A = antinode (maximum displacement).',
+      extra: function(color) { return dashedLine(0, 0.5, 1, 0.5, '#c2b9ab'); } },
+    { title: 'Double-slit interference pattern', xLabel: 'position on screen', yLabel: 'intensity', fn: function(t) { var d = t - 0.5; var carrier = Math.pow(Math.cos(d * 8 * Math.PI), 2); var env = Math.exp(-d * d * 10); return 0.04 + 0.9 * carrier * env; }, note: 'Bright fringes decrease in intensity away from the centre.' }
+  ],
+  [
+    { title: 'I–V characteristic: resistor', xLabel: 'V', yLabel: 'I', fn: function(t) { return t * 0.85 + 0.05; }, note: "Straight line through the origin — obeys Ohm's law." },
+    { title: 'I–V characteristic: filament lamp', xLabel: 'V', yLabel: 'I', fn: function(t) { return 0.05 + 0.8 * Math.pow(t, 0.55); }, note: 'Curves as resistance increases with temperature.' },
+    { title: 'I–V characteristic: diode', xLabel: 'V', yLabel: 'I', fn: function(t) { if (t < 0.4) return 0.04; var u = (t - 0.4) / 0.6; return 0.04 + 0.86 * Math.pow(u, 3); }, note: 'No current below the threshold voltage, then rises sharply.' }
+  ],
+  [
+    { title: 'Terminal p.d. vs current', xLabel: 'current', yLabel: 'terminal p.d.', fn: function(t) { return 0.88 - 0.62 * t; }, note: 'Y-intercept = e.m.f.; gradient = −internal resistance.',
+      extra: function(color) { return dot(0, 0.88, color) + labelAt(0.04, 0.94, 'E (e.m.f.)', 'start', color); } }
+  ],
+  []
+];
+
+/* ==========================================================
+   SHARED TOPIC CARD BUILDER
+   ========================================================== */
+function createTopicCard(ti, countText) {
+  var color = TOPIC_COLORS[ti % TOPIC_COLORS.length];
+  var card = document.createElement('div');
+  card.className = 'topic-card';
+  var header = document.createElement('div');
+  header.className = 'topic-header';
+  header.innerHTML =
+    '<div class="topic-num" style="background:' + color + '">' + (ti + 1) + '</div>' +
+    '<div class="topic-info">' +
+      '<div class="topic-name">' + TOPIC_NAMES[ti] + '</div>' +
+      '<div class="topic-count">' + countText + '</div>' +
+    '</div>' +
+    '<div class="topic-chevron">&#9656;</div>';
+  header.addEventListener('click', function() {
+    card.classList.toggle('open');
+  });
+  card.appendChild(header);
+  var body = document.createElement('div');
+  body.className = 'topic-body';
+  card.appendChild(body);
+  return { card: card, body: body, color: color };
+}
+
+/* ---- Build Definitions section ---- */
+function buildDefinitionsSection() {
+  var container = document.getElementById('definitions-container');
+  DEFINITIONS.forEach(function(terms, ti) {
+    var tc = createTopicCard(ti, terms.length + ' definitions');
+    var grid = document.createElement('div');
+    grid.className = 'terms-grid';
+
+    terms.forEach(function(pair) {
+      var item = document.createElement('div');
+      item.className = 'term-item';
+      item.dataset.term = pair[0].toLowerCase();
+      item.dataset.def = pair[1].replace(/<[^>]+>/g, '').toLowerCase();
+      item.dataset.color = tc.color;
+
+      var thead = document.createElement('div');
+      thead.className = 'term-head';
+      thead.innerHTML = '<span class="term-name">' + pair[0] + '</span><span class="term-chevron">&#9656;</span>';
+      thead.addEventListener('click', function() {
+        var isOpen = item.classList.toggle('open');
+        if (isOpen) {
+          item.style.setProperty('--accent-bg', hexToRgba(tc.color, 0.13));
+          item.style.setProperty('--accent-border', hexToRgba(tc.color, 0.45));
+        } else {
+          item.style.removeProperty('--accent-bg');
+          item.style.removeProperty('--accent-border');
+        }
+      });
+
+      var tbody = document.createElement('div');
+      tbody.className = 'term-body';
+      tbody.innerHTML = pair[1];
+
+      item.appendChild(thead);
+      item.appendChild(tbody);
+      grid.appendChild(item);
+    });
+
+    tc.body.appendChild(grid);
+    container.appendChild(tc.card);
+  });
+}
+
+/* ---- Build Formulas section ---- */
+function buildFormulasSection() {
+  var container = document.getElementById('formulas-container');
+  FORMULAS.forEach(function(list, ti) {
+    var tc = createTopicCard(ti, list.length + ' formulas');
+    var wrap = document.createElement('div');
+    wrap.className = 'formula-list';
+
+    list.forEach(function(pair) {
+      var item = document.createElement('div');
+      item.className = 'formula-item';
+      item.dataset.expr = pair[0].replace(/<[^>]+>/g, '').toLowerCase();
+      item.dataset.desc = pair[1].toLowerCase();
+      item.innerHTML = '<span class="formula-expr">' + pair[0] + '</span><span class="formula-desc">' + pair[1] + '</span>';
+      wrap.appendChild(item);
+    });
+
+    tc.body.appendChild(wrap);
+    container.appendChild(tc.card);
+  });
+}
+
+/* ---- Build Graphs section ---- */
+function buildGraphsSection() {
+  var container = document.getElementById('graphs-container');
+  GRAPHS.forEach(function(list, ti) {
+    var tc = createTopicCard(ti, list.length ? (list.length + (list.length === 1 ? ' graph' : ' graphs')) : 'No classic graph');
+    var wrap = document.createElement('div');
+    wrap.className = 'graph-grid';
+
+    if (!list.length) {
+      wrap.innerHTML = '<div class="no-graph">No classic graph for this topic.</div>';
+    } else {
+      list.forEach(function(spec) {
+        var item = document.createElement('div');
+        item.className = 'graph-item';
+        item.innerHTML = graphSvg(spec, tc.color) +
+          '<div class="graph-title">' + spec.title + '</div>' +
+          (spec.note ? '<div class="graph-note">' + spec.note + '</div>' : '');
+        wrap.appendChild(item);
+      });
+    }
+
+    tc.body.appendChild(wrap);
+    container.appendChild(tc.card);
+  });
+}
+
+buildDefinitionsSection();
+buildFormulasSection();
+buildGraphsSection();
+
+/* ==========================================================
+   GLOBAL SEARCH across Definitions + Formulas (+ Graph titles)
+   ========================================================== */
+var searchBox = document.getElementById('search-box');
+var searchMeta = document.getElementById('search-meta');
+var noResults = document.getElementById('no-results');
+
+function escapeRegExp(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+function highlightText(el, query) {
+  var original = el.dataset.orig || el.textContent;
+  el.dataset.orig = original;
+  if (!query) {
+    el.textContent = original;
+    return;
+  }
+  var re = new RegExp('(' + escapeRegExp(query) + ')', 'ig');
+  el.innerHTML = original.replace(re, '<mark>$1</mark>');
+}
+
+searchBox.addEventListener('input', function() {
+  var q = searchBox.value.trim().toLowerCase();
+  var total = 0;
+
+  document.querySelectorAll('#definitions-container .topic-card, #formulas-container .topic-card').forEach(function(card) {
+    var items = card.querySelectorAll('.term-item, .formula-item');
+    var any = false;
+
+    items.forEach(function(item) {
+      var hay = (item.dataset.term || '') + ' ' + (item.dataset.def || '') + ' ' + (item.dataset.expr || '') + ' ' + (item.dataset.desc || '');
+      var matches = !q || hay.indexOf(q) !== -1;
+      item.classList.toggle('hidden', !matches);
+
+      if (matches) {
+        any = true;
+        total++;
+        if (item.classList.contains('term-item')) {
+          if (q) {
+            item.classList.add('open');
+            item.style.setProperty('--accent-bg', hexToRgba(item.dataset.color, 0.13));
+            item.style.setProperty('--accent-border', hexToRgba(item.dataset.color, 0.45));
+            highlightText(item.querySelector('.term-name'), q);
+          } else {
+            item.classList.remove('open');
+            item.style.removeProperty('--accent-bg');
+            item.style.removeProperty('--accent-border');
+            highlightText(item.querySelector('.term-name'), '');
+          }
+        }
+      }
+    });
+
+    card.style.display = any ? '' : 'none';
+    if (q && any) card.classList.add('open');
+    else if (!q) card.classList.remove('open');
+  });
+
+  document.querySelectorAll('#graphs-container .topic-card').forEach(function(card) {
+    var items = card.querySelectorAll('.graph-item');
+    var any = false;
+    items.forEach(function(item) {
+      var t = item.querySelector('.graph-title');
+      var text = t ? t.textContent.toLowerCase() : '';
+      if (!q) {
+        item.style.display = '';
+        any = true;
+        return;
+      }
+      var matches = text.indexOf(q) !== -1;
+      item.style.display = matches ? '' : 'none';
+      if (matches) { any = true; total++; }
+    });
+    if (items.length === 0) any = !q;
+    card.style.display = any ? '' : 'none';
+    if (q && any) card.classList.add('open');
+    else if (!q) card.classList.remove('open');
+  });
+
+  noResults.style.display = (q && total === 0) ? 'block' : 'none';
+  searchMeta.textContent = q ? (total + ' result' + (total === 1 ? '' : 's') + ' found') : '';
+});
+</script>
+
+</body>
+</html>

@@ -61,28 +61,6 @@ body {
   background: #e7ebe0;
   padding: 3px 0 8px 0;
 }
-.nav-pills {
-  display: flex;
-  gap: 6px;
-  margin-bottom: 8px;
-}
-.nav-pill {
-  flex: 1;
-  text-align: center;
-  padding: 8px 8px;
-  border-radius: 10px;
-  border: 1px solid #e6ded2;
-  background: #fbf8f4;
-  color: #6b6154;
-  font-size: 11px;
-  font-weight: 800;
-  text-decoration: none;
-  transition: background 0.15s, border-color 0.15s;
-}
-.nav-pill:hover {
-  background: #f4efe7;
-  border-color: #b9c8d1;
-}
 .search-box {
   width: 100%;
   padding: 9px 14px;
@@ -109,7 +87,9 @@ body {
   font-size: 14.5px;
   font-weight: 800;
   color: #4a433c;
-  margin: 14px 2px 7px 2px;
+  margin: 18px 2px 8px 2px;
+  padding-left: 10px;
+  border-left: 3px solid #ccc;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -118,15 +98,32 @@ body {
 .section-heading:first-of-type {
   margin-top: 2px;
 }
+.section-heading.sec-definitions {
+  border-left-color: #8fa9c2;
+}
+.section-heading.sec-formulas {
+  border-left-color: #c99f7a;
+}
+.section-heading.sec-graphs {
+  border-left-color: #7fb3ae;
+}
 
 /* ---- Topic cards ---- */
+.topics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 7px;
+}
 .topic-card {
   background: #fbf8f4;
   border-radius: 12px;
-  margin-bottom: 7px;
   box-shadow: 0 1px 3px rgba(91,83,76,0.08);
   overflow: hidden;
   border: 1px solid #e6ded2;
+  align-self: start;
+}
+.topic-card.open {
+  grid-column: 1 / -1;
 }
 .topic-header {
   display: flex;
@@ -155,7 +152,7 @@ body {
 .topic-info { flex: 1; }
 .topic-name {
   font-size: 12.5px;
-  font-weight: 700;
+  font-weight: 400;
   color: #4a433c;
 }
 .topic-count {
@@ -220,6 +217,30 @@ body {
   font-weight: 700;
   color: #4a433c;
   line-height: 1.25;
+}
+.term-name-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.term-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  border-radius: 4px;
+  font-size: 8px;
+  font-weight: 800;
+  color: #fff;
+  flex-shrink: 0;
+  vertical-align: middle;
+}
+.term-tag.scalar {
+  background: #8fa9c2;
+}
+.term-tag.vector {
+  background: #c78e8e;
 }
 .term-chevron {
   font-size: 8px;
@@ -358,6 +379,7 @@ mark {
 }
 
 @media (max-width: 500px) {
+  .topics-grid { grid-template-columns: 1fr; }
   .terms-grid { grid-template-columns: 1fr; }
   .graph-grid { grid-template-columns: 1fr; }
   .formula-item { flex-direction: column; align-items: flex-start; gap: 3px; }
@@ -375,23 +397,23 @@ mark {
 <a href="main.html" class="back-link">&#8592; Back to Organizer</a>
 
 <div class="sticky-top">
-  <div class="nav-pills">
-    <a href="#sec-definitions" class="nav-pill">&#128214; Definitions</a>
-    <a href="#sec-formulas" class="nav-pill">&#129518; Formulas</a>
-    <a href="#sec-graphs" class="nav-pill">&#128200; Graphs</a>
-  </div>
   <input type="text" id="search-box" class="search-box" placeholder="Search definitions, formulas or graphs...">
   <div class="search-meta" id="search-meta"></div>
 </div>
 
-<div class="section-heading" id="sec-definitions">&#128214; Definitions</div>
-<div id="definitions-container"></div>
+<div class="section-heading sec-definitions" id="sec-definitions">Definitions
+  <span style="font-size:9.5px;font-weight:700;color:#a89e90;display:inline-flex;align-items:center;gap:4px;margin-left:4px;">
+    (<span class="term-tag scalar" style="display:inline-flex;">S</span>&nbsp;scalar &nbsp;
+    <span class="term-tag vector" style="display:inline-flex;">V</span>&nbsp;vector)
+  </span>
+</div>
+<div id="definitions-container" class="topics-grid"></div>
 
-<div class="section-heading" id="sec-formulas">&#129518; Formulas</div>
-<div id="formulas-container"></div>
+<div class="section-heading sec-formulas" id="sec-formulas">Formulas</div>
+<div id="formulas-container" class="topics-grid"></div>
 
-<div class="section-heading" id="sec-graphs">&#128200; Graphs</div>
-<div id="graphs-container"></div>
+<div class="section-heading sec-graphs" id="sec-graphs">Graphs</div>
+<div id="graphs-container" class="topics-grid"></div>
 
 <div class="no-results" id="no-results">No results match your search.</div>
 
@@ -404,17 +426,17 @@ var TOPIC_COLORS = [
 ];
 
 var TOPIC_NAMES = [
-  "Topic 1: Physical Quantities and Units",
-  "Topic 2: Kinematics",
-  "Topic 3: Dynamics",
-  "Topic 4: Forces, Density and Pressure",
-  "Topic 5: Work, Energy and Power",
-  "Topic 6: Deformation of Solids",
-  "Topic 7: Waves",
-  "Topic 8: Superposition",
-  "Topic 9: Electricity",
-  "Topic 10: D.C. Circuits",
-  "Topic 11: Particle Physics"
+  "Physical Quantities and Units",
+  "Kinematics",
+  "Dynamics",
+  "Forces, Density and Pressure",
+  "Work, Energy and Power",
+  "Deformation of Solids",
+  "Waves",
+  "Superposition",
+  "Electricity",
+  "D.C. Circuits",
+  "Particle Physics"
 ];
 
 function hexToRgba(hex, alpha) {
@@ -443,82 +465,82 @@ var DEFINITIONS = [
     ["Zero Errors", "A form of systematic error, caused when a measuring instrument doesn't read zero at a value of zero. This results in all measurements being <strong>offset by a fixed amount</strong>."]
   ],
   [
-    ["Acceleration", "The <strong>rate of change of velocity</strong>. It is a vector quantity and so has both a direction and a magnitude."],
-    ["Displacement", "The <strong>direct distance</strong> between an object's starting and ending positions. It is a vector quantity and so has both a direction and a magnitude."],
+    ["Acceleration", "The <strong>rate of change of velocity</strong>. It is a vector quantity and so has both a direction and a magnitude.", "V"],
+    ["Displacement", "The <strong>direct distance</strong> between an object's starting and ending positions. It is a vector quantity and so has both a direction and a magnitude.", "V"],
     ["Displacement-Time Graphs", "Plots showing how displacement changes over a period of time. The <strong>gradient gives the velocity</strong>. Curved lines represent an acceleration."],
-    ["Distance", "A measure of how far an object moves. It doesn't depend on direction and is therefore a <strong>scalar quantity</strong>."],
+    ["Distance", "A measure of how far an object moves. It doesn't depend on direction and is therefore a <strong>scalar quantity</strong>.", "S"],
     ["Projectile Motion", "The motion of an object that is fired from a point and then upon which <strong>only gravity acts</strong>. When solving projectile motion problems, it is useful to split the motion into horizontal and vertical components."],
-    ["Speed", "A scalar quantity that is a measure of the <strong>rate of change of distance</strong>. The average speed is calculated by dividing the distance travelled by the time taken."],
-    ["Velocity", "The <strong>rate of change of displacement</strong>. It is a vector quantity and so has both a direction and a magnitude."],
+    ["Speed", "A scalar quantity that is a measure of the <strong>rate of change of distance</strong>. The average speed is calculated by dividing the distance travelled by the time taken.", "S"],
+    ["Velocity", "The <strong>rate of change of displacement</strong>. It is a vector quantity and so has both a direction and a magnitude.", "V"],
     ["Velocity-Time Graphs", "Plots showing how velocity changes over a period of time. The <strong>gradient gives acceleration</strong>. Area under line gives displacement. Curved lines represent changing acceleration."]
   ],
   [
     ["Conservation of Momentum", "In a closed system with no external forces the <strong>momentum before an event equals the momentum after</strong> the event."],
     ["Elastic Collision", "When the <strong>kinetic energy before equals the kinetic energy after</strong> an event."],
-    ["Force", "The <strong>rate of change of momentum</strong> of an object. The product of the object's mass with its acceleration."],
+    ["Force", "The <strong>rate of change of momentum</strong> of an object. The product of the object's mass with its acceleration.", "V"],
     ["Inelastic Collision", "When the kinetic energy of a system before an event is <strong>not equal</strong> to the kinetic energy after the event. The kinetic energy has been transferred to other forms."],
-    ["Momentum", "The <strong>product of an object's mass and its velocity</strong>."],
+    ["Momentum", "The <strong>product of an object's mass and its velocity</strong>.", "V"],
     ["Newton's First Law", "An object at a constant velocity will remain at a constant velocity <strong>unless acted on by a resultant force</strong>. (If this constant velocity is zero the object is at rest)."],
     ["Newton's Second Law", "If an object is acted upon by a resultant force it will accelerate. The acceleration is <strong>inversely proportional to the mass</strong> of the object and directly proportional to the force acting upon it."],
     ["Newton's Third Law", "Every action has an <strong>equal and opposite reaction</strong>. If an object exerts a force on another object, then the other object must exert a force back, that is opposite in direction and equal in magnitude."],
-    ["Terminal Velocity", "The maximum velocity an object can achieve. It is the point at which <strong>frictional forces and driving forces are balanced</strong> and so no acceleration occurs and the resultant force on the object is 0 N."],
-    ["Upthrust", "The <strong>upwards force</strong> that a fluid applies on an object."],
-    ["Weight", "The force of gravity on an object, the <strong>product of the object's mass and the acceleration due to gravity</strong>."]
+    ["Terminal Velocity", "The maximum velocity an object can achieve. It is the point at which <strong>frictional forces and driving forces are balanced</strong> and so no acceleration occurs and the resultant force on the object is 0 N.", "V"],
+    ["Upthrust", "The <strong>upwards force</strong> that a fluid applies on an object.", "V"],
+    ["Weight", "The force of gravity on an object, the <strong>product of the object's mass and the acceleration due to gravity</strong>.", "V"]
   ],
   [
     ["Centre of Gravity", "The single point through which the object's <strong>weight</strong> can be said to act."],
     ["Centre of Mass", "The single point through which <strong>all the mass</strong> of an object can be said to act."],
     ["Couple", "Two <strong>equal and opposite parallel forces</strong> that act on an object through different lines of action. It has the effect of causing a rotation without translation."],
-    ["Density", "The <strong>mass per unit volume</strong> of a material."],
+    ["Density", "The <strong>mass per unit volume</strong> of a material.", "S"],
     ["Equilibrium", "For an object to be in equilibrium, both the <strong>resultant force and resultant moment</strong> acting on the object must be equal to zero."],
-    ["Hydrostatic Pressure", "<strong>&Delta;p = &rho;g&Delta;h</strong>"],
-    ["Moment of Force", "The product of a force and the <strong>perpendicular distance</strong> from the line of action of the force to the pivot."],
+    ["Hydrostatic Pressure", "<strong>&Delta;p = &rho;g&Delta;h</strong>", "S"],
+    ["Moment of Force", "The product of a force and the <strong>perpendicular distance</strong> from the line of action of the force to the pivot.", "S"],
     ["Principle of Moments", "For an object to be in equilibrium, the sum of the <strong>clockwise moments</strong> acting about a point must be equal to the sum of the anticlockwise moments acting about the point."],
-    ["Pressure", "The force that a surface experiences <strong>per unit area</strong>. It is measured in Pascals (Pa)."],
+    ["Pressure", "The force that a surface experiences <strong>per unit area</strong>. It is measured in Pascals (Pa).", "S"],
     ["Triangle of Forces", "A method of determining the resultant force of two forces. The two forces are joined <strong>tip to tail</strong> and the resultant force is given by the force that would complete the triangle."],
-    ["Upthrust", "The <strong>upwards force</strong> that a fluid applies on an object."]
+    ["Upthrust", "The <strong>upwards force</strong> that a fluid applies on an object.", "V"]
   ],
   [
     ["Conservation of Energy", "In a closed system with no external forces the <strong>energy before an event equals the energy after</strong> the event. The energy does not need to be in the same form after the event as it was before the event."],
-    ["Efficiency", "The <strong>ratio of useful energy output to total energy input</strong> for a given system."],
-    ["Gravitational Potential Energy", "The energy gained by an object when it is <strong>raised by a height</strong> in a gravitational field."],
-    ["Kinetic Energy", "A form of energy that all moving objects possess. It is directly proportional to the mass of the object, and to the <strong>square of its velocity</strong>."],
-    ["Power", "The <strong>rate of transfer of energy</strong>."],
-    ["Work Done", "The energy transferred by a force moving over a distance. It is equal to the <strong>product of the magnitudes of the force and distance</strong>."]
+    ["Efficiency", "The <strong>ratio of useful energy output to total energy input</strong> for a given system.", "S"],
+    ["Gravitational Potential Energy", "The energy gained by an object when it is <strong>raised by a height</strong> in a gravitational field.", "S"],
+    ["Kinetic Energy", "A form of energy that all moving objects possess. It is directly proportional to the mass of the object, and to the <strong>square of its velocity</strong>.", "S"],
+    ["Power", "The <strong>rate of transfer of energy</strong>.", "S"],
+    ["Work Done", "The energy transferred by a force moving over a distance. It is equal to the <strong>product of the magnitudes of the force and distance</strong>.", "S"]
   ],
   [
     ["Compression", "The result of two coplanar forces acting <strong>into</strong> an object. Compression usually results in a reduction in the length of the object."],
     ["Compressive Deformation", "The changing of an object's shape due to <strong>compressive forces</strong>."],
     ["Elastic Deformation", "If a material deforms with elastic behaviour, it will <strong>return to its original shape</strong> when the deforming forces are removed. The object will not be permanently deformed."],
     ["Elastic Limit", "The force beyond which an object will no longer deform elastically, and instead deform plastically. Beyond the elastic limit, when the deforming forces are removed, the object will <strong>not return to its original shape</strong>."],
-    ["Elastic Potential Energy", "The energy stored in an object when it is stretched. It is equal to the work done to stretch the object and can be determined from the <strong>area under a force-extension graph</strong>."],
-    ["Extension", "The <strong>increase of an object's length</strong>."],
+    ["Elastic Potential Energy", "The energy stored in an object when it is stretched. It is equal to the work done to stretch the object and can be determined from the <strong>area under a force-extension graph</strong>.", "S"],
+    ["Extension", "The <strong>increase of an object's length</strong>.", "S"],
     ["Force-Extension Graph", "A plot showing how an object extends as the force applied increases. For an elastic object, the gradient should be linear up to the limit of proportionality. The <strong>gradient gives the spring constant</strong>."],
     ["Hooke's Law", "The extension of an elastic object will be <strong>directly proportional to the force</strong> applied to it up to the object's limit of proportionality."],
     ["Limit of Proportionality", "The point at which the stress on an object is so great that <strong>Hooke's law no longer applies</strong> to an object."],
     ["Plastic Deformation", "If a material deforms with plastic behaviour, it will <strong>not return to its original shape</strong> when the deforming forces are removed. The object will be permanently deformed."],
-    ["Spring Constant", "The <strong>constant of proportionality</strong> for the extension of a spring under a force. The higher the spring constant, the greater the force needed to achieve a given extension."],
-    ["Strain", "The <strong>ratio of an object's extension to its original length</strong>. It is a ratio of two lengths and so has no unit."],
-    ["Stress", "The amount of force acting <strong>per unit area</strong>. Its unit is the Pascal (Pa)."],
-    ["Tension", "The result of two forces acting on an object in <strong>opposite, outwards directions</strong>."],
-    ["Tensile Strain", "The extension of an object <strong>divided by its original length</strong>."],
-    ["Tensile Stress", "The internal resistance of an object against a force that acts to deform it. It is the <strong>force applied per unit cross-sectional area</strong>."],
-    ["Young Modulus", "The <strong>ratio of stress to strain</strong> for a given material. Its unit is the Pascal (Pa)."]
+    ["Spring Constant", "The <strong>constant of proportionality</strong> for the extension of a spring under a force. The higher the spring constant, the greater the force needed to achieve a given extension.", "S"],
+    ["Strain", "The <strong>ratio of an object's extension to its original length</strong>. It is a ratio of two lengths and so has no unit.", "S"],
+    ["Stress", "The amount of force acting <strong>per unit area</strong>. Its unit is the Pascal (Pa).", "S"],
+    ["Tension", "The result of two forces acting on an object in <strong>opposite, outwards directions</strong>.", "V"],
+    ["Tensile Strain", "The extension of an object <strong>divided by its original length</strong>.", "S"],
+    ["Tensile Stress", "The internal resistance of an object against a force that acts to deform it. It is the <strong>force applied per unit cross-sectional area</strong>.", "S"],
+    ["Young Modulus", "The <strong>ratio of stress to strain</strong> for a given material. Its unit is the Pascal (Pa).", "S"]
   ],
   [
-    ["Amplitude", "A wave's <strong>maximum displacement</strong> from its equilibrium position."],
-    ["Displacement", "The distance and direction that a vibrating particle or wave has travelled <strong>from its equilibrium position</strong>."],
+    ["Amplitude", "A wave's <strong>maximum displacement</strong> from its equilibrium position.", "S"],
+    ["Displacement", "The distance and direction that a vibrating particle or wave has travelled <strong>from its equilibrium position</strong>.", "V"],
     ["Electromagnetic Spectrum", "The spectrum of electromagnetic waves, consisting of <strong>Gamma Rays, X-Rays, Ultraviolet, Visible Light, Infrared, Microwaves and Radiowaves</strong>."],
-    ["Frequency", "The number of <strong>complete oscillations</strong> of a wave (wave cycles) per second. It is the inverse of the time period."],
-    ["Intensity", "The power transferred per unit area. It is <strong>proportional to the square of a wave's amplitude</strong>."],
+    ["Frequency", "The number of <strong>complete oscillations</strong> of a wave (wave cycles) per second. It is the inverse of the time period.", "S"],
+    ["Intensity", "The power transferred per unit area. It is <strong>proportional to the square of a wave's amplitude</strong>.", "S"],
     ["Longitudinal Wave", "A wave with oscillations that are <strong>parallel</strong> to the direction of energy propagation. Sound waves are an example of a longitudinal wave."],
-    ["Period", "The time it takes for <strong>one complete wave</strong> to pass a given point. It is the inverse of frequency."],
-    ["Phase Difference", "The difference in phase between two points on a wave. It is usually expressed in <strong>radians</strong>."],
+    ["Period", "The time it takes for <strong>one complete wave</strong> to pass a given point. It is the inverse of frequency.", "S"],
+    ["Phase Difference", "The difference in phase between two points on a wave. It is usually expressed in <strong>radians</strong>.", "S"],
     ["Polarisation", "The restriction of a wave so that it can only oscillate in a <strong>single plane</strong>. This can only occur for transverse waves."],
     ["Progressive Waves", "A wave that transfers energy from one point to another, <strong>without the transfer of matter</strong>."],
     ["Transverse Waves", "A wave with oscillations that are <strong>perpendicular</strong> to the direction of energy propagation. Electromagnetic waves are examples of transverse waves."],
-    ["Wavelength", "The distance between two identical positions on two adjacent waves. It is commonly measured from <strong>peak to peak or trough to trough</strong>."],
-    ["Wave Speed", "The <strong>product of a wave's frequency and wavelength</strong>."]
+    ["Wavelength", "The distance between two identical positions on two adjacent waves. It is commonly measured from <strong>peak to peak or trough to trough</strong>.", "S"],
+    ["Wave Speed", "The <strong>product of a wave's frequency and wavelength</strong>.", "S"]
   ],
   [
     ["Antinodes", "A position of <strong>maximum displacement</strong> in a stationary wave."],
@@ -533,14 +555,14 @@ var DEFINITIONS = [
     ["Two Source Interference", "Interference caused by the <strong>interference of two sources</strong> of waves."]
   ],
   [
-    ["Charge", "A property of matter that causes it to experience force when placed in an electromagnetic field. It can be <strong>positive or negative</strong>."],
-    ["Current", "The <strong>rate of flow of charge</strong> in a circuit."],
+    ["Charge", "A property of matter that causes it to experience force when placed in an electromagnetic field. It can be <strong>positive or negative</strong>.", "S"],
+    ["Current", "The <strong>rate of flow of charge</strong> in a circuit.", "S"],
     ["Light-Dependent Resistor (LDR)", "A light sensitive semiconductor whose resistance <strong>increases when light intensity decreases</strong>."],
     ["Ohmic Conductor", "A conductor following Ohm's law where current flowing through it is <strong>directly proportional to the potential difference</strong> between each end of the conductor. This only holds if the conductor is kept at a constant temperature."],
-    ["Potential Difference", "The difference in electrical potential between two points in a circuit. It is also the <strong>work done per coulomb</strong> to move a charge from the lower potential point to the higher potential point. It is measured in Volts."],
-    ["Power", "The rate of energy transfer in a circuit. It can be calculated as the <strong>product of the current and the potential difference</strong> between two points. It is measured in Watts."],
-    ["Resistance", "A measure of how difficult it is for <strong>current to flow</strong> through a material."],
-    ["Resistivity", "A measure of how difficult it is for charge to travel through a material. It is <strong>proportional to the object's resistance and cross-sectional area</strong>, and inversely proportional to the object's length. It is measured in Ohm metres."],
+    ["Potential Difference", "The difference in electrical potential between two points in a circuit. It is also the <strong>work done per coulomb</strong> to move a charge from the lower potential point to the higher potential point. It is measured in Volts.", "S"],
+    ["Power", "The rate of energy transfer in a circuit. It can be calculated as the <strong>product of the current and the potential difference</strong> between two points. It is measured in Watts.", "S"],
+    ["Resistance", "A measure of how difficult it is for <strong>current to flow</strong> through a material.", "S"],
+    ["Resistivity", "A measure of how difficult it is for charge to travel through a material. It is <strong>proportional to the object's resistance and cross-sectional area</strong>, and inversely proportional to the object's length. It is measured in Ohm metres.", "S"],
     ["Quantisation of Charge", "The idea that charge can only exist in <strong>discrete packets of multiples of the elementary charge</strong>."],
     ["Thermistor", "A temperature sensitive semiconductor whose resistance <strong>increases when temperature decreases</strong>."],
     ["Volt", "The unit of <strong>potential difference</strong>."]
@@ -548,8 +570,8 @@ var DEFINITIONS = [
   [
     ["Conservation of Charge", "The <strong>total charge in a system cannot change</strong>."],
     ["Conservation of Energy", "Energy cannot be created or destroyed - it can only be <strong>transferred into different forms</strong>."],
-    ["Electromotive Force", "The <strong>energy supplied by a source per unit charge</strong> passing through the source, measured in volts."],
-    ["Internal Resistance", "The resistance to the flow of charge within a source. Internal resistance results in <strong>energy being dissipated within the source</strong>."],
+    ["Electromotive Force", "The <strong>energy supplied by a source per unit charge</strong> passing through the source, measured in volts.", "S"],
+    ["Internal Resistance", "The resistance to the flow of charge within a source. Internal resistance results in <strong>energy being dissipated within the source</strong>.", "S"],
     ["Kirchhoff's First Law", "The <strong>total current entering a junction equals the total current leaving</strong> it."],
     ["Kirchhoff's Second Law", "A consequence of the conservation of energy. The <strong>sum of the voltages in any closed loop must equal zero</strong>."],
     ["Parallel Connection", "When two electrical components are on separate loops to one another in a circuit. <strong>Potential difference over each loop is the same</strong>, current is split between branches."],
@@ -844,7 +866,8 @@ function buildDefinitionsSection() {
 
       var thead = document.createElement('div');
       thead.className = 'term-head';
-      thead.innerHTML = '<span class="term-name">' + pair[0] + '</span><span class="term-chevron">&#9656;</span>';
+      var tagHtml = pair[2] ? '<span class="term-tag ' + (pair[2] === 'V' ? 'vector' : 'scalar') + '" title="' + (pair[2] === 'V' ? 'Vector' : 'Scalar') + ' quantity">' + pair[2] + '</span>' : '';
+      thead.innerHTML = '<span class="term-name-wrap"><span class="term-name">' + pair[0] + '</span>' + tagHtml + '</span><span class="term-chevron">&#9656;</span>';
       thead.addEventListener('click', function() {
         var isOpen = item.classList.toggle('open');
         if (isOpen) {

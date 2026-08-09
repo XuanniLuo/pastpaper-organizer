@@ -256,6 +256,7 @@ body {
 .diff-badge.diff-easy { background: #6ea36e; }
 .diff-badge.diff-medium { background: #d9a441; }
 .diff-badge.diff-difficult { background: #c0594a; }
+.diff-badge.diff-estimated { border: 1.5px dashed rgba(255,255,255,0.85); }
 .q-card-multi {
   border: 1.5px solid #c9a24a;
   box-shadow: 0 0 0 3px #f0e4c4;
@@ -1461,6 +1462,110 @@ const QUESTION_DIFFICULTY = {
   }
 };
 const DIFFICULTY_DEFAULT = 'difficult';
+
+// ============================================================
+// DIFFICULTY CLASSIFICATION (estimated) — for Paper 1 variants
+// (9702/11, /12, /13, /14) across sessions that have no Cambridge
+// Principal Examiner Report commentary publicly available to classify
+// from (unlike 9702/12/F/M/25 above, which comes straight from that
+// report's wording): the four May/June 2025 variants, and the four
+// October/November 2025 variants. These ratings are instead a direct
+// read of each question by topic difficulty: single-step
+// recall/definition/simple substitution -> 'easy'; a standard 1–2 step
+// calculation or a single clear conceptual judgement -> 'medium';
+// multi-step calculations, derivations, or questions that combine two
+// or more concepts (e.g. relative motion + energy, or multi-stage
+// decay chains) -> 'difficult'. Every question on these papers is
+// rated directly (no default-to-'difficult' fallback the way
+// QUESTION_DIFFICULTY above has for unmentioned questions), and the
+// badge is shown with a dashed outline plus a different tooltip so it
+// reads as an estimate rather than an examiner-verified rating.
+// Note: 9702/11/O/N/25 and 9702/13/O/N/25 share an identical question
+// set (same 40 questions, different paper code), so they carry the
+// same ratings.
+const QUESTION_DIFFICULTY_ESTIMATED = {
+  '9702/11/M/J/25': {
+    'Q1': 'easy', 'Q6': 'easy', 'Q9': 'easy', 'Q13': 'easy', 'Q16': 'easy', 'Q17': 'easy', 'Q21': 'easy',
+    'Q27': 'easy', 'Q28': 'easy', 'Q32': 'easy', 'Q36': 'easy',
+    'Q2': 'medium', 'Q3': 'medium', 'Q4': 'medium', 'Q5': 'medium', 'Q7': 'medium', 'Q8': 'medium',
+    'Q10': 'medium', 'Q12': 'medium', 'Q14': 'medium', 'Q15': 'medium', 'Q20': 'medium', 'Q22': 'medium',
+    'Q25': 'medium', 'Q26': 'medium', 'Q30': 'medium', 'Q31': 'medium', 'Q33': 'medium', 'Q35': 'medium',
+    'Q37': 'medium', 'Q38': 'medium', 'Q40': 'medium',
+    'Q11': 'difficult', 'Q18': 'difficult', 'Q19': 'difficult', 'Q23': 'difficult', 'Q24': 'difficult',
+    'Q29': 'difficult', 'Q34': 'difficult', 'Q39': 'difficult'
+  },
+  '9702/12/M/J/25': {
+    'Q1': 'easy', 'Q5': 'easy', 'Q8': 'easy', 'Q10': 'easy', 'Q17': 'easy', 'Q20': 'easy', 'Q28': 'easy',
+    'Q30': 'easy', 'Q32': 'easy', 'Q37': 'easy', 'Q38': 'easy', 'Q39': 'easy',
+    'Q2': 'medium', 'Q3': 'medium', 'Q4': 'medium', 'Q6': 'medium', 'Q7': 'medium', 'Q9': 'medium',
+    'Q11': 'medium', 'Q12': 'medium', 'Q15': 'medium', 'Q16': 'medium', 'Q18': 'medium', 'Q21': 'medium',
+    'Q23': 'medium', 'Q24': 'medium', 'Q25': 'medium', 'Q27': 'medium', 'Q31': 'medium', 'Q33': 'medium',
+    'Q34': 'medium',
+    'Q13': 'difficult', 'Q14': 'difficult', 'Q19': 'difficult', 'Q22': 'difficult', 'Q26': 'difficult',
+    'Q29': 'difficult', 'Q35': 'difficult', 'Q36': 'difficult', 'Q40': 'difficult'
+  },
+  '9702/13/M/J/25': {
+    'Q1': 'easy', 'Q2': 'easy', 'Q9': 'easy', 'Q13': 'easy', 'Q17': 'easy', 'Q19': 'easy', 'Q20': 'easy',
+    'Q21': 'easy', 'Q22': 'easy', 'Q25': 'easy', 'Q29': 'easy', 'Q31': 'easy', 'Q32': 'easy', 'Q33': 'easy',
+    'Q3': 'medium', 'Q5': 'medium', 'Q6': 'medium', 'Q7': 'medium', 'Q8': 'medium', 'Q10': 'medium',
+    'Q12': 'medium', 'Q14': 'medium', 'Q15': 'medium', 'Q16': 'medium', 'Q18': 'medium', 'Q24': 'medium',
+    'Q26': 'medium', 'Q27': 'medium', 'Q30': 'medium', 'Q34': 'medium', 'Q36': 'medium', 'Q37': 'medium',
+    'Q38': 'medium', 'Q39': 'medium',
+    'Q4': 'difficult', 'Q11': 'difficult', 'Q23': 'difficult', 'Q28': 'difficult', 'Q35': 'difficult',
+    'Q40': 'difficult'
+  },
+  '9702/14/M/J/25': {
+    'Q2': 'easy', 'Q6': 'easy', 'Q7': 'easy', 'Q10': 'easy', 'Q17': 'easy', 'Q23': 'easy', 'Q26': 'easy',
+    'Q30': 'easy', 'Q31': 'easy', 'Q34': 'easy', 'Q39': 'easy', 'Q40': 'easy',
+    'Q1': 'medium', 'Q3': 'medium', 'Q5': 'medium', 'Q8': 'medium', 'Q11': 'medium', 'Q12': 'medium',
+    'Q13': 'medium', 'Q14': 'medium', 'Q15': 'medium', 'Q18': 'medium', 'Q19': 'medium', 'Q20': 'medium',
+    'Q21': 'medium', 'Q22': 'medium', 'Q24': 'medium', 'Q25': 'medium', 'Q27': 'medium', 'Q28': 'medium',
+    'Q32': 'medium', 'Q35': 'medium', 'Q37': 'medium',
+    'Q4': 'difficult', 'Q9': 'difficult', 'Q16': 'difficult', 'Q29': 'difficult', 'Q33': 'difficult',
+    'Q36': 'difficult', 'Q38': 'difficult'
+  },
+  '9702/11/O/N/25': {
+    'Q1': 'easy', 'Q3': 'easy', 'Q9': 'easy', 'Q11': 'easy', 'Q14': 'easy', 'Q16': 'easy', 'Q17': 'easy',
+    'Q19': 'easy', 'Q22': 'easy', 'Q24': 'easy', 'Q31': 'easy', 'Q40': 'easy',
+    'Q2': 'medium', 'Q4': 'medium', 'Q6': 'medium', 'Q7': 'medium', 'Q8': 'medium', 'Q12': 'medium',
+    'Q15': 'medium', 'Q18': 'medium', 'Q20': 'medium', 'Q21': 'medium', 'Q23': 'medium', 'Q27': 'medium',
+    'Q28': 'medium', 'Q29': 'medium', 'Q30': 'medium', 'Q32': 'medium', 'Q33': 'medium', 'Q35': 'medium',
+    'Q37': 'medium', 'Q39': 'medium',
+    'Q5': 'difficult', 'Q10': 'difficult', 'Q13': 'difficult', 'Q25': 'difficult', 'Q26': 'difficult',
+    'Q34': 'difficult', 'Q36': 'difficult', 'Q38': 'difficult'
+  },
+  '9702/12/O/N/25': {
+    'Q2': 'easy', 'Q5': 'easy', 'Q7': 'easy', 'Q8': 'easy', 'Q9': 'easy', 'Q13': 'easy', 'Q18': 'easy',
+    'Q21': 'easy', 'Q28': 'easy', 'Q29': 'easy', 'Q30': 'easy', 'Q31': 'easy', 'Q37': 'easy',
+    'Q1': 'medium', 'Q3': 'medium', 'Q4': 'medium', 'Q10': 'medium', 'Q14': 'medium', 'Q15': 'medium',
+    'Q16': 'medium', 'Q17': 'medium', 'Q20': 'medium', 'Q24': 'medium', 'Q25': 'medium', 'Q26': 'medium',
+    'Q27': 'medium', 'Q32': 'medium', 'Q33': 'medium', 'Q34': 'medium', 'Q35': 'medium', 'Q36': 'medium',
+    'Q38': 'medium', 'Q39': 'medium',
+    'Q6': 'difficult', 'Q11': 'difficult', 'Q12': 'difficult', 'Q19': 'difficult', 'Q22': 'difficult',
+    'Q23': 'difficult', 'Q40': 'difficult'
+  },
+  '9702/13/O/N/25': {
+    'Q1': 'easy', 'Q3': 'easy', 'Q9': 'easy', 'Q11': 'easy', 'Q14': 'easy', 'Q16': 'easy', 'Q17': 'easy',
+    'Q19': 'easy', 'Q22': 'easy', 'Q24': 'easy', 'Q31': 'easy', 'Q40': 'easy',
+    'Q2': 'medium', 'Q4': 'medium', 'Q6': 'medium', 'Q7': 'medium', 'Q8': 'medium', 'Q12': 'medium',
+    'Q15': 'medium', 'Q18': 'medium', 'Q20': 'medium', 'Q21': 'medium', 'Q23': 'medium', 'Q27': 'medium',
+    'Q28': 'medium', 'Q29': 'medium', 'Q30': 'medium', 'Q32': 'medium', 'Q33': 'medium', 'Q35': 'medium',
+    'Q37': 'medium', 'Q39': 'medium',
+    'Q5': 'difficult', 'Q10': 'difficult', 'Q13': 'difficult', 'Q25': 'difficult', 'Q26': 'difficult',
+    'Q34': 'difficult', 'Q36': 'difficult', 'Q38': 'difficult'
+  },
+  '9702/14/O/N/25': {
+    'Q1': 'easy', 'Q4': 'easy', 'Q5': 'easy', 'Q7': 'easy', 'Q8': 'easy', 'Q14': 'easy', 'Q18': 'easy',
+    'Q23': 'easy', 'Q26': 'easy', 'Q28': 'easy', 'Q31': 'easy', 'Q32': 'easy',
+    'Q2': 'medium', 'Q3': 'medium', 'Q9': 'medium', 'Q10': 'medium', 'Q11': 'medium', 'Q15': 'medium',
+    'Q17': 'medium', 'Q19': 'medium', 'Q20': 'medium', 'Q21': 'medium', 'Q25': 'medium', 'Q29': 'medium',
+    'Q30': 'medium', 'Q33': 'medium', 'Q35': 'medium', 'Q37': 'medium', 'Q38': 'medium', 'Q39': 'medium',
+    'Q40': 'medium',
+    'Q6': 'difficult', 'Q12': 'difficult', 'Q13': 'difficult', 'Q16': 'difficult', 'Q22': 'difficult',
+    'Q24': 'difficult', 'Q27': 'difficult', 'Q34': 'difficult', 'Q36': 'difficult'
+  }
+};
+
 const DIFFICULTY_META = {
   easy:      { label: 'Easy',   color: '#6ea36e' },
   medium:    { label: 'Medium', color: '#d9a441' },
@@ -1468,19 +1573,33 @@ const DIFFICULTY_META = {
 };
 
 // Returns 'easy' | 'medium' | 'difficult' for a question on a classified paper
-// (defaulting unmentioned questions to 'difficult'), or null if that paper has
-// no examiner-report commentary to classify from at all.
+// (defaulting unmentioned questions to 'difficult' for examiner-report-sourced
+// papers only), or null if that paper has no classification at all.
 function getDifficulty(paper, qnum) {
   var m = QUESTION_DIFFICULTY[paper];
-  if (!m) return null;
-  return m[qnum] || DIFFICULTY_DEFAULT;
+  if (m) return m[qnum] || DIFFICULTY_DEFAULT;
+  var em = QUESTION_DIFFICULTY_ESTIMATED[paper];
+  if (em) return em[qnum] || null;
+  return null;
+}
+
+// True when a question's rating comes from QUESTION_DIFFICULTY_ESTIMATED
+// (a direct read of the question) rather than QUESTION_DIFFICULTY (sourced
+// from the Cambridge Examiner Report's own wording).
+function isDifficultyEstimated(paper) {
+  return !QUESTION_DIFFICULTY[paper] && !!QUESTION_DIFFICULTY_ESTIMATED[paper];
 }
 
 function difficultyBadgeHtml(paper, qnum) {
   var d = getDifficulty(paper, qnum);
   if (!d) return '';
   var meta = DIFFICULTY_META[d];
-  return '<span class="diff-badge diff-' + d + '" title="Difficulty per Cambridge Examiner Report: ' + meta.label + '">' + meta.label + '</span>';
+  var estimated = isDifficultyEstimated(paper);
+  var cls = 'diff-badge diff-' + d + (estimated ? ' diff-estimated' : '');
+  var title = estimated
+    ? 'Difficulty (estimated — no examiner report available): ' + meta.label
+    : 'Difficulty per Cambridge Examiner Report: ' + meta.label;
+  return '<span class="' + cls + '" title="' + title + '">' + meta.label + '</span>';
 }
 
 const questionData = {
@@ -4317,13 +4436,14 @@ function buildDashSection(title, sheets, topics, diffSets) {
   });
   section.appendChild(topicTiles);
 
-  // "By difficulty" — only shown when at least one question has been classified
-  // from the examiner report (see QUESTION_DIFFICULTY above).
+  // "By difficulty" — only shown when at least one question has been classified,
+  // either from the examiner report or from an estimate (see QUESTION_DIFFICULTY
+  // and QUESTION_DIFFICULTY_ESTIMATED above).
   var diffHasAny = diffSets && (diffSets.easy.size + diffSets.medium.size + diffSets.difficult.size) > 0;
   if (diffHasAny) {
     var diffHeading = document.createElement('div');
     diffHeading.className = 'dash-subheading';
-    diffHeading.textContent = 'By difficulty (examiner report)';
+    diffHeading.textContent = 'By difficulty (examiner report + estimates)';
     section.appendChild(diffHeading);
 
     var diffTiles = document.createElement('div');

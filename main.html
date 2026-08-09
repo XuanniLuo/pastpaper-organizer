@@ -244,6 +244,18 @@ body {
 .q-tag.paper { background: #dde6ea; color: #5c7a8a; }
 .q-tag.qnum { background: #dfe6d3; color: #63764c; }
 .q-tag.multi { background: #f0e4c4; color: #93743f; }
+.diff-badge {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 6px;
+  color: white;
+  flex-shrink: 0;
+  cursor: help;
+}
+.diff-badge.diff-easy { background: #6ea36e; }
+.diff-badge.diff-medium { background: #d9a441; }
+.diff-badge.diff-difficult { background: #c0594a; }
 .q-card-multi {
   border: 1.5px solid #c9a24a;
   box-shadow: 0 0 0 3px #f0e4c4;
@@ -1401,6 +1413,74 @@ const answerKey = {
 function getAnswer(paper, qnum) {
   var m = answerKey[paper];
   return m ? (m[qnum] || null) : null;
+}
+
+// ============================================================
+// DIFFICULTY CLASSIFICATION — derived from the Cambridge 9702
+// March 2025 Principal Examiner Report for Teachers.
+//
+// Only the two March 2025 papers actually discussed in that
+// report (9702/12 Multiple Choice and 9702/22 AS Structured
+// Questions) are classified — other sessions have no examiner
+// commentary to classify from, so they're left unclassified
+// rather than guessed at.
+//
+// Paper 12 (MCQ): 'easy'/'difficult' come directly from the
+// report's "General comments" ("Candidates found Questions 5, 8,
+// 23 and 36 relatively difficult... Questions 1, 22, 34 and 40
+// relatively easy"), extended with a few more calls from
+// "Comments on specific questions" using the same wording pattern
+// (e.g. "answered well by most candidates" -> easy; "found this
+// challenging" / "less than half" -> difficult). Any MCQ question
+// the report doesn't comment on at all defaults to 'difficult' —
+// treat that as "not yet verified as easy", a prompt to double
+// check it, rather than a real difficulty rating.
+//
+// Paper 22 (structured): the report comments on each part
+// separately (e.g. "1(b)(iii)"), but this tracker only marks
+// completion at the whole-question level, so each question's
+// overall rating is a simple vote across its parts' comments
+// (more difficult-sounding parts than easy-sounding parts ->
+// 'difficult', more easy than difficult -> 'easy', a tie ->
+// 'medium'). See the report's Paper 22 section for the
+// part-by-part detail behind each call.
+const QUESTION_DIFFICULTY = {
+  '9702/12/F/M/25': {
+    // relatively easy (either named directly, or "answered well by most candidates")
+    'Q1': 'easy', 'Q3': 'easy', 'Q22': 'easy', 'Q25': 'easy', 'Q34': 'easy', 'Q38': 'easy', 'Q40': 'easy',
+    // discussed in the report but with mixed/middling results
+    'Q4': 'medium', 'Q7': 'medium', 'Q11': 'medium', 'Q15': 'medium', 'Q21': 'medium', 'Q32': 'medium', 'Q39': 'medium',
+    // relatively difficult (either named directly, or "challenging" / "less than half correct")
+    'Q5': 'difficult', 'Q8': 'difficult', 'Q13': 'difficult', 'Q18': 'difficult', 'Q23': 'difficult', 'Q29': 'difficult', 'Q36': 'difficult'
+    // any other Qnum on this paper isn't discussed in the report -> defaults to 'difficult' below
+  },
+  '9702/22/F/M/25': {
+    'Q3': 'easy', 'Q6': 'easy',
+    'Q4': 'medium', 'Q5': 'medium',
+    'Q1': 'difficult', 'Q2': 'difficult', 'Q7': 'difficult'
+  }
+};
+const DIFFICULTY_DEFAULT = 'difficult';
+const DIFFICULTY_META = {
+  easy:      { label: 'Easy',   color: '#6ea36e' },
+  medium:    { label: 'Medium', color: '#d9a441' },
+  difficult: { label: 'Hard',   color: '#c0594a' }
+};
+
+// Returns 'easy' | 'medium' | 'difficult' for a question on a classified paper
+// (defaulting unmentioned questions to 'difficult'), or null if that paper has
+// no examiner-report commentary to classify from at all.
+function getDifficulty(paper, qnum) {
+  var m = QUESTION_DIFFICULTY[paper];
+  if (!m) return null;
+  return m[qnum] || DIFFICULTY_DEFAULT;
+}
+
+function difficultyBadgeHtml(paper, qnum) {
+  var d = getDifficulty(paper, qnum);
+  if (!d) return '';
+  var meta = DIFFICULTY_META[d];
+  return '<span class="diff-badge diff-' + d + '" title="Difficulty per Cambridge Examiner Report: ' + meta.label + '">' + meta.label + '</span>';
 }
 
 const questionData = {
@@ -2793,11 +2873,12 @@ syllabus.forEach(function(t) {
             }).join('') + '</div>';
           }
           var multiBadge = isMulti ? '<span class="q-tag multi">&#11088; ' + totalCodes + ' topics</span>' : '';
+          var diffBadge = difficultyBadgeHtml(q.paper, q.qnum);
           var ans = getAnswer(q.paper, q.qnum);
           var answerRevealHtml = ans
             ? '<span class="answer-letter">' + ans + '</span><span>Correct answer</span>'
             : '<span class="answer-na">No answer data</span>';
-          qCard.innerHTML = '<div class="q-meta"><span class="q-tag paper">' + q.paper + '</span><span class="q-tag qnum">' + q.qnum + '</span>' + multiBadge + '</div>' +
+          qCard.innerHTML = '<div class="q-meta"><span class="q-tag paper">' + q.paper + '</span><span class="q-tag qnum">' + q.qnum + '</span>' + multiBadge + diffBadge + '</div>' +
             '<div class="q-paper-full">' + q.paper_full + '</div>' +
             otherHtml +
             '<div class="answer-row"><button type="button" class="answer-btn">&#128065; View Answer</button>' +
@@ -3987,8 +4068,10 @@ topicOrder.forEach(function(topicNum) {
 
     var qHeader = document.createElement('div');
     qHeader.className = 'p2-q-header';
+    var p2DiffBadge = difficultyBadgeHtml(q.paper, q.qnum);
     qHeader.innerHTML = '<span class="p2-q-num sub-code">' + q.qnum + '</span>' +
       '<span class="p2-q-title">' + q.title + '</span>' +
+      p2DiffBadge +
       '<span class="p2-q-marks">' + q.marks + ' marks</span>' +
       '<span class="p2-chevron">&#9660;</span>';
     qHeader.addEventListener('click', function() {
@@ -4185,7 +4268,7 @@ function buildDashTile(label, subLabel, tooltip, set, color) {
   return tile;
 }
 
-function buildDashSection(title, sheets, topics) {
+function buildDashSection(title, sheets, topics, diffSets) {
   var section = document.createElement('div');
   section.className = 'dash-section';
 
@@ -4234,6 +4317,25 @@ function buildDashSection(title, sheets, topics) {
   });
   section.appendChild(topicTiles);
 
+  // "By difficulty" — only shown when at least one question has been classified
+  // from the examiner report (see QUESTION_DIFFICULTY above).
+  var diffHasAny = diffSets && (diffSets.easy.size + diffSets.medium.size + diffSets.difficult.size) > 0;
+  if (diffHasAny) {
+    var diffHeading = document.createElement('div');
+    diffHeading.className = 'dash-subheading';
+    diffHeading.textContent = 'By difficulty (examiner report)';
+    section.appendChild(diffHeading);
+
+    var diffTiles = document.createElement('div');
+    diffTiles.className = 'dash-tiles';
+    ['easy', 'medium', 'difficult'].forEach(function(key) {
+      var meta = DIFFICULTY_META[key];
+      var tile = buildDashTile(meta.label, null, meta.label + ' questions', diffSets[key], meta.color);
+      if (tile) diffTiles.appendChild(tile);
+    });
+    section.appendChild(diffTiles);
+  }
+
   return section;
 }
 
@@ -4272,7 +4374,18 @@ function renderDashboard() {
     });
     return { num: t.topic, name: t.title, set: set };
   });
-  grid.appendChild(buildDashSection('Paper 1', p1Sheets, p1Topics));
+  var p1DiffSets = { easy: new Set(), medium: new Set(), difficult: new Set() };
+  syllabus.forEach(function(t) {
+    t.subs.forEach(function(s) {
+      s.subsubs.forEach(function(ss) {
+        (questionData[ss.code] || []).forEach(function(q) {
+          var d = getDifficulty(q.paper, q.qnum);
+          if (d) p1DiffSets[d].add(q.pdf);
+        });
+      });
+    });
+  });
+  grid.appendChild(buildDashSection('Paper 1', p1Sheets, p1Topics, p1DiffSets));
 
   // ---- Paper 2: one sheet per exam session, one set per topic ----
   var p2SheetSets = {};
@@ -4292,7 +4405,12 @@ function renderDashboard() {
   var p2Topics = p2TopicNums.map(function(n) {
     return { num: n, name: topicMeta[n], set: p2TopicSets[n] };
   });
-  grid.appendChild(buildDashSection('Paper 2', p2Sheets, p2Topics));
+  var p2DiffSets = { easy: new Set(), medium: new Set(), difficult: new Set() };
+  paper2Data.forEach(function(q) {
+    var d = getDifficulty(q.paper, q.qnum);
+    if (d) p2DiffSets[d].add(q.pdf);
+  });
+  grid.appendChild(buildDashSection('Paper 2', p2Sheets, p2Topics, p2DiffSets));
 }
 
 document.addEventListener('DOMContentLoaded', renderDashboard);

@@ -1008,8 +1008,8 @@ body {
 
 <svg class="watermark" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <pattern id="wm-pattern" width="260" height="160" patternUnits="userSpaceOnUse" patternTransform="rotate(-28)">
-      <text x="0" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#5b534c" fill-opacity="0.07">xuanni test aug.</text>
+    <pattern id="wm-pattern" width="360" height="260" patternUnits="userSpaceOnUse" patternTransform="rotate(-28)">
+      <text x="0" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#5b534c" fill-opacity="0.035">XUANNI LUO</text>
 
     </pattern>
   </defs>
@@ -1018,7 +1018,7 @@ body {
 
 <div class="header">
   <h1>9702 Paper2025 Organizer</h1>
-  <p>luoxuanni98@gmail.com (update: 8 Aug.)</p>
+  <p>luoxuanni98@gmail.com (update: 14 Aug.)</p>
 </div>
 
 <div class="mark-panel">
@@ -1563,6 +1563,36 @@ const QUESTION_DIFFICULTY_ESTIMATED = {
     'Q40': 'medium',
     'Q6': 'difficult', 'Q12': 'difficult', 'Q13': 'difficult', 'Q16': 'difficult', 'Q22': 'difficult',
     'Q24': 'difficult', 'Q27': 'difficult', 'Q34': 'difficult', 'Q36': 'difficult'
+  },
+  // ---- Paper 2 (structured questions), June 2025 variants 21-24 ----
+  // Same estimation method as the Paper 1 variants above (direct read of each
+  // question's content/marks), since no examiner report is available for these
+  // sessions. Because Paper 2 questions are long multi-part structured questions
+  // rather than single MCQs, each question's overall rating reflects the mix of
+  // its parts: mostly recall/single-step substitution -> 'easy'; a standard chain
+  // of 1-3 calculation steps or one clear conceptual judgement -> 'medium';
+  // several combined concepts, a derivation, graph-reading plus multi-step
+  // algebra, or many parts (5+) with at least one genuinely tricky step ->
+  // 'difficult'.
+  '9702/21/M/J/25': {
+    'Q2': 'easy', 'Q6': 'easy',
+    'Q1': 'medium', 'Q3': 'medium', 'Q4': 'medium',
+    'Q5': 'difficult', 'Q7': 'difficult'
+  },
+  '9702/22/M/J/25': {
+    'Q3': 'easy',
+    'Q1': 'medium', 'Q2': 'medium', 'Q4': 'medium', 'Q5': 'medium', 'Q7': 'medium',
+    'Q6': 'difficult'
+  },
+  '9702/23/M/J/25': {
+    'Q3': 'easy', 'Q4': 'easy', 'Q8': 'easy',
+    'Q1': 'medium', 'Q2': 'medium', 'Q7': 'medium',
+    'Q5': 'difficult', 'Q6': 'difficult'
+  },
+  '9702/24/M/J/25': {
+    'Q1': 'easy', 'Q7': 'easy',
+    'Q5': 'medium', 'Q6': 'medium',
+    'Q2': 'difficult', 'Q3': 'difficult', 'Q4': 'difficult'
   }
 };
 
@@ -2396,13 +2426,13 @@ const questionData = {
   '11.1.8': [
     { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q38', pdf: '9702_s25_qp_11_Q38_Particle physics_11.2.1_11.2.4_11.2.6_11.1.8.pdf' },
     { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q39', pdf: '9702_s25_qp_14_Q39_Particle physics_11.2.6_11.1.8.pdf' },
-    { paper: '9702/11/O/N/25', paper_full: 'November 2025 · Paper 11', qnum: 'Q40', pdf: '9702_w25_qp_11_Q40_Particle__physics_11.2.6_11.1.8.pdf' },
-    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q40', pdf: '9702_w25_qp_13_Q40_Particle__physics_11.2.6_11.1.8.pdf' }
+    { paper: '9702/11/O/N/25', paper_full: 'November 2025 · Paper 11', qnum: 'Q40', pdf: '9702_w25_qp_11_Q40_Particle_physics_11.2.6_11.1.8.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q40', pdf: '9702_w25_qp_13_Q40_Particle_physics_11.2.6_11.1.8.pdf' }
   ],
   '11.1.9': [
     { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q38', pdf: '9702_s25_qp_13_Q38_Particle physics_11.1.9_11.1.7.pdf' },
-    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q39', pdf: '9702_w25_qp_12_Q39_Particle__physics_11.1.9_11.1.7_11.1.11.pdf' },
-    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q38', pdf: '9702_w25_qp_14_Q38_Particle__physics_11.1.9_11.1.7_11.1.11.pdf' }
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q39', pdf: '9702_w25_qp_12_Q39_Particle_physics_11.1.9_11.1.7_11.1.11.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q38', pdf: '9702_w25_qp_14_Q38_Particle_physics_11.1.9_11.1.7_11.1.11.pdf' }
   ],
   '11.1.10': [
     { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q39', pdf: '9702_s25_qp_11_Q39_Particle physics_11.1.10_11.1.7.pdf' }
@@ -2411,12 +2441,12 @@ const questionData = {
     { paper: '9702/12/M/J/25', paper_full: 'June 2025 · Paper 12', qnum: 'Q40', pdf: '9702_s25_qp_12_Q40_Particle physics_11.2.5_11.2.3_11.1.11.pdf' },
     { paper: '9702/13/M/J/25', paper_full: 'June 2025 · Paper 13', qnum: 'Q40', pdf: '9702_s25_qp_13_Q40_Particle physics_11.1.11_11.1.6.pdf' },
     { paper: '9702/14/M/J/25', paper_full: 'June 2025 · Paper 14', qnum: 'Q38', pdf: '9702_s25_qp_14_Q38_Particle physics_11.1.11_11.1.6.pdf' },
-    { paper: '9702/11/O/N/25', paper_full: 'November 2025 · Paper 11', qnum: 'Q38', pdf: '9702_w25_qp_11_Q38_Particle__physics_11.1.11_11.1.5_11.1.6.pdf' },
-    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q39', pdf: '9702_w25_qp_12_Q39_Particle__physics_11.1.9_11.1.7_11.1.11.pdf' },
-    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q40', pdf: '9702_w25_qp_12_Q40_Particle__physics_11.1.11_11.1.5_11.1.6.pdf' },
-    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q38', pdf: '9702_w25_qp_13_Q38_Particle__physics_11.1.11_11.1.5_11.1.6.pdf' },
-    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q38', pdf: '9702_w25_qp_14_Q38_Particle__physics_11.1.9_11.1.7_11.1.11.pdf' },
-    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q39', pdf: '9702_w25_qp_14_Q39_Particle__physics_11.1.11_11.1.5_11.1.6.pdf' }
+    { paper: '9702/11/O/N/25', paper_full: 'November 2025 · Paper 11', qnum: 'Q38', pdf: '9702_w25_qp_11_Q38_Particle_physics_11.1.11_11.1.5_11.1.6.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q39', pdf: '9702_w25_qp_12_Q39_Particle_physics_11.1.9_11.1.7_11.1.11.pdf' },
+    { paper: '9702/12/O/N/25', paper_full: 'November 2025 · Paper 12', qnum: 'Q40', pdf: '9702_w25_qp_12_Q40_Particle_physics_11.1.11_11.1.5_11.1.6.pdf' },
+    { paper: '9702/13/O/N/25', paper_full: 'November 2025 · Paper 13', qnum: 'Q38', pdf: '9702_w25_qp_13_Q38_Particle_physics_11.1.11_11.1.5_11.1.6.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q38', pdf: '9702_w25_qp_14_Q38_Particle_physics_11.1.9_11.1.7_11.1.11.pdf' },
+    { paper: '9702/14/O/N/25', paper_full: 'November 2025 · Paper 14', qnum: 'Q39', pdf: '9702_w25_qp_14_Q39_Particle_physics_11.1.11_11.1.5_11.1.6.pdf' }
   ],
   '11.2.1': [
     { paper: '9702/11/M/J/25', paper_full: 'June 2025 · Paper 11', qnum: 'Q38', pdf: '9702_s25_qp_11_Q38_Particle physics_11.2.1_11.2.4_11.2.6_11.1.8.pdf' },

@@ -1,0 +1,550 @@
+{
+  "paper": "9702/42/O/N/24",
+  "paper_full": "November 2024 · Paper 42",
+  "questions": [
+    {
+      "topic": "20",
+      "qnum": "Q1",
+      "title": "Rotating wheel in magnetic field — flux &amp; induced e.m.f.",
+      "marks": 13,
+      "pages": [
+        4,
+        5
+      ],
+      "pdf": "9702_w24_qp_42_Q1_Magnetic_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "12.1.3"
+          ],
+          "marks": 2,
+          "answer": "v = rω<br>= 0.85 × 140<br>= <b>120 m s⁻¹</b>"
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "12.2.3"
+          ],
+          "marks": 2,
+          "answer": "a = rω² = 0.85 × 140²<br>= <b>1.7×10⁴ m s⁻²</b>"
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "20.5.5"
+          ],
+          "marks": 2,
+          "answer": "The direction of the induced e.m.f. is such as to (produce effects that) <b>oppose the change</b> that caused it."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "12.1.3"
+          ],
+          "marks": 1,
+          "answer": "T = 2π/ω = 2π/140 = 0.045 s = <b>45 ms</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "20.5.2"
+          ],
+          "marks": 3,
+          "answer": "In one revolution the spoke sweeps out the area of the disc, so Φ = BA = Bπr²<br>= 0.18 × π × 0.85²<br>= <b>0.41 Wb</b>"
+        },
+        {
+          "label": "(b)(iv)",
+          "codes": [
+            "20.5.5"
+          ],
+          "marks": 2,
+          "answer": "E = Φ/t = 0.41/0.045<br>= <b>9.1 V</b>"
+        },
+        {
+          "label": "(b)(v)",
+          "codes": [
+            "20.5.5",
+            "20.2.2"
+          ],
+          "marks": 1,
+          "answer": "The force on the spoke must oppose the rotation, i.e. act anticlockwise, so by Fleming's left-hand rule the induced current flows from A to X; hence <b>X is at the higher potential</b>."
+        }
+      ]
+    },
+    {
+      "topic": "13",
+      "qnum": "Q2",
+      "title": "Probe approaching the Sun — field strength, potential &amp; luminosity",
+      "marks": 12,
+      "pages": [
+        6,
+        7
+      ],
+      "pdf": "9702_w24_qp_42_Q2_Gravitational_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "13.1.1"
+          ],
+          "marks": 1,
+          "answer": "Gravitational field (strength) is the <b>force per unit mass</b> acting on a small test mass placed in the field."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "13.3.2"
+          ],
+          "marks": 2,
+          "answer": "g = GM/x² = (6.67×10⁻¹¹ × 1.99×10³⁰)/(1.47×10¹¹)²<br>= <b>6.14×10⁻³ N kg⁻¹</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "13.4.3"
+          ],
+          "marks": 2,
+          "answer": "EP = −GMm/x = −(6.67×10⁻¹¹ × 1.99×10³⁰ × 2.63)/(1.47×10¹¹)<br>= <b>−2.37×10⁹ J</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "13.3.2",
+            "25.1.2"
+          ],
+          "marks": 3,
+          "answer": "F = L/(4πx²), so x² = L/(4πF), and g = GM/x², so x² = GM/g.<br>Eliminating x²: GM/g = L/(4πF), giving <b>g = 4πGMF/L</b>."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "25.1.2"
+          ],
+          "marks": 2,
+          "answer": "Read from Fig. 2.1 a consistent pair of values, e.g. F = 1.83×10³ W m⁻² when g = 8.0×10⁻³ N kg⁻¹.<br>L = 4πGMF/g = (4π × 6.67×10⁻¹¹ × 1.99×10³⁰ × 1.83×10³)/(8.0×10⁻³)<br>= <b>3.8×10²⁶ W</b>"
+        },
+        {
+          "label": "(c)(iii)",
+          "codes": [
+            "25.2.2"
+          ],
+          "marks": 2,
+          "answer": "L = 4πσr²T⁴ → r = √(L/(4πσT⁴))<br>= √(3.8×10²⁶/(4π × 5.67×10⁻⁸ × 5780⁴)) = √(4.78×10¹⁷)<br>= <b>6.9×10⁸ m</b>"
+        }
+      ]
+    },
+    {
+      "topic": "14",
+      "qnum": "Q3",
+      "title": "Vaporising liquid — specific latent heat &amp; internal energy",
+      "marks": 11,
+      "pages": [
+        8,
+        9
+      ],
+      "pdf": "9702_w24_qp_42_Q3_Temperature.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "14.3.2"
+          ],
+          "marks": 2,
+          "answer": "Specific latent heat is the (thermal) <b>energy per unit mass</b> required to cause a change of state, <b>at constant temperature</b>."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "16.2.1"
+          ],
+          "marks": 2,
+          "answer": "W = pΔV = 1.0×10⁵ × 0.017 = 1700 J = <b>1.7 kJ</b> (work done by the substance as it expands, so the work done on the substance is −1.7 kJ, of magnitude 1.7 kJ)"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "16.2.2"
+          ],
+          "marks": 2,
+          "answer": "ΔU = Q + W, where W is the work done on the substance (= −1.7 kJ):<br>Q = ΔU − W = 17.6 − (−1.7)<br>= <b>19.3 kJ</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "14.3.2"
+          ],
+          "marks": 2,
+          "answer": "mass = ρV = 710 × 7.2×10⁻⁵ = 0.051 kg<br>LV = Q/m = 19.3/0.051<br>= <b>380 kJ kg⁻¹</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "14.3.2"
+          ],
+          "marks": 3,
+          "answer": "LF is likely to be <b>less than</b> LV. Fusion involves a much smaller volume change than vaporisation, so the change in intermolecular spacing (and hence the change in internal energy) is much smaller, and the work done by the substance during fusion is negligible — both contributions are far smaller for fusion than for vaporisation."
+        }
+      ]
+    },
+    {
+      "topic": "15",
+      "qnum": "Q4",
+      "title": "Kinetic theory — gas pressure &amp; molecular mass from graphs",
+      "marks": 9,
+      "pages": [
+        10,
+        11
+      ],
+      "pdf": "9702_w24_qp_42_Q4_Ideal_gases.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "15.3.1"
+          ],
+          "marks": 3,
+          "answer": "Any three of: molecules are in (constant) <b>random motion</b>; collisions between molecules are (perfectly) <b>elastic</b>; there are <b>no forces between molecules</b> except during collisions; the <b>volume of the molecules is negligible</b> compared with the volume of the gas; collisions between molecules are <b>instantaneous</b>."
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "15.3.2"
+          ],
+          "marks": 3,
+          "answer": "Any three of: molecules <b>collide with the (walls of the) container</b>; the <b>momentum of a molecule changes</b> during a collision with a wall; this change in momentum is caused by a <b>force on the molecule from the wall</b>, so the molecule exerts an equal and opposite force on the wall; many molecules exerting forces across the area of the wall give rise to <b>pressure</b>."
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "15.2.1",
+            "15.1.2"
+          ],
+          "marks": 3,
+          "answer": "Any three of: <b>both gases are ideal</b> — pV is proportional to T (straight lines through the origin in Fig. 4.2); a molecule of Y has <b>double the mass</b> of a molecule of X (6.6×10⁻²⁷ kg and 3.3×10⁻²⁷ kg); the sample of Y contains <b>three times the amount of gas</b> / number of molecules as the sample of X (0.81 mol / 4.9×10²³ against 0.27 mol / 1.6×10²³); the mass of gas Y is <b>six times</b> the mass of gas X (3.2×10⁻³ kg against 5.4×10⁻⁴ kg)."
+        }
+      ]
+    },
+    {
+      "topic": "17",
+      "qnum": "Q5",
+      "title": "Pendulum in simple harmonic motion — energy &amp; EK sketch",
+      "marks": 9,
+      "pages": [
+        12,
+        13
+      ],
+      "pdf": "9702_w24_qp_42_Q5_Oscillations.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "17.1.3"
+          ],
+          "marks": 1,
+          "answer": "An arrow drawn from the centre of the sphere, <b>perpendicular to the string, pointing left and down</b> — the resultant (restoring) force is directed towards the equilibrium position."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "17.1.1"
+          ],
+          "marks": 1,
+          "answer": "amplitude = <b>0.016 m</b> (maximum displacement, read from Fig. 5.2)"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "17.1.1"
+          ],
+          "marks": 2,
+          "answer": "T = 0.40 s (from Fig. 5.2)<br>ω = 2π/T = 2π/0.40<br>= <b>16 rad s⁻¹</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "17.2.2"
+          ],
+          "marks": 2,
+          "answer": "E = ½mω²x₀² = ½ × 0.15 × 15.7² × 0.016²<br>= <b>4.7×10⁻³ J</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "17.2.1"
+          ],
+          "marks": 3,
+          "answer": "A dome-shaped curve starting and ending on the x-axis at x = ±0.016 m, rising to a maximum of <b>4.7×10⁻³ J at x = 0</b> — kinetic energy is zero at the extremes of the oscillation and maximum at the equilibrium position."
+        }
+      ]
+    },
+    {
+      "topic": "18",
+      "qnum": "Q6",
+      "title": "Charged hollow sphere — Coulomb's law &amp; field strength",
+      "marks": 10,
+      "pages": [
+        14,
+        15
+      ],
+      "pdf": "9702_w24_qp_42_Q6_Electric_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "18.3.2"
+          ],
+          "marks": 2,
+          "answer": "The (electric) force between two point charges is <b>directly proportional to the product of the charges</b> and <b>inversely proportional to the square of their separation</b>."
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "18.1.3"
+          ],
+          "marks": 3,
+          "answer": "At least four straight, radial lines from the surface of the sphere, approximately equally spaced, with <b>arrows pointing away from the sphere</b> (field lines leave the positive charge and extend to infinity)."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "18.3.1"
+          ],
+          "marks": 1,
+          "answer": "The field is zero inside the sphere, so the plotted curve begins at the surface: radius = <b>3.2 cm</b>."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "18.4.1"
+          ],
+          "marks": 3,
+          "answer": "E = Q/(4πε₀x²) → Q = 4πε₀x²E<br>= 2.2×10⁵ × 4π × 8.85×10⁻¹² × 0.032²<br>= <b>2.5×10⁻⁸ C</b> (with E = 2.2×10⁵ N C⁻¹ read from Fig. 6.2 at the surface)"
+        },
+        {
+          "label": "(c)(iii)",
+          "codes": [
+            "18.3.1"
+          ],
+          "marks": 1,
+          "answer": "Any one of: the (positive) <b>charge is spread all the way around the surface</b>; a charge placed inside the sphere is <b>pulled equally in all directions</b>, so the fields cancel; if the field were not zero, the <b>charges would move</b> until it was; field lines go from positive to negative charge and there are <b>no negative charges inside</b> the sphere."
+        }
+      ]
+    },
+    {
+      "topic": "19",
+      "qnum": "Q7",
+      "title": "Charging and sharing capacitors — energy stored",
+      "marks": 10,
+      "pages": [
+        16,
+        17
+      ],
+      "pdf": "9702_w24_qp_42_Q7_Capacitance.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "19.1.1"
+          ],
+          "marks": 2,
+          "answer": "Capacitance is the <b>charge per unit potential difference</b> — the charge on one plate divided by the p.d. between the plates."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "19.1.2"
+          ],
+          "marks": 2,
+          "answer": "A <b>straight line through the origin with positive gradient</b>, ending at the point (V, Q) — charge is proportional to p.d. (C = Q/V)."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "19.2.1"
+          ],
+          "marks": 2,
+          "answer": "W = <b>½QV</b>. The work done in charging is the area under the charge–p.d. graph, which is a triangle of base V and height Q, so W = ½ × Q × V."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "19.1.2",
+            "19.1.4"
+          ],
+          "marks": 3,
+          "answer": "Charge is conserved and, with the capacitors in parallel, the final p.d. across each is the same: V′ = Q/(C + 3C) = Q/4C = V/4.<br>X: final p.d. <b>V/4</b>, final charge <b>Q/4</b>;<br>Y: final p.d. <b>V/4</b>, final charge <b>3Q/4</b>."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "19.2.2"
+          ],
+          "marks": 1,
+          "answer": "<b>Less than</b> — some of the stored energy is dissipated as thermal/internal energy while the charge redistributes."
+        }
+      ]
+    },
+    {
+      "topic": "21",
+      "qnum": "Q8",
+      "title": "Sinusoidal alternating current — r.m.s. &amp; mean power",
+      "marks": 9,
+      "pages": [
+        18,
+        19
+      ],
+      "pdf": "9702_w24_qp_42_Q8_Alternating_currents.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "21.1.1"
+          ],
+          "marks": 1,
+          "answer": "Frequency is the <b>number of complete cycles per unit time</b>."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "21.1.2"
+          ],
+          "marks": 1,
+          "answer": "T = 2π/ω = 2π/40π = 0.050 s = <b>50 ms</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "21.1.2"
+          ],
+          "marks": 3,
+          "answer": "A sinusoidal curve starting at (0, 0) and initially increasing, showing <b>two complete cycles</b> between t = 0 and t = 100 ms (period 50 ms), with all peaks at I = +3.5 A and all troughs at I = −3.5 A."
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "21.1.4"
+          ],
+          "marks": 1,
+          "answer": "Ir.m.s. = I₀/√2 = 3.5/√2<br>= <b>2.5 A</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "21.1.3"
+          ],
+          "marks": 3,
+          "answer": "Peak power = I₀²R = 3.5² × 680 = <b>8330 W</b>.<br>Mean power = Ir.m.s.²R = 2.47² × 680 = <b>4150 W</b> ≈ ½ × 8330 W, so the <b>mean power is half the peak power</b>."
+        }
+      ]
+    },
+    {
+      "topic": "22",
+      "qnum": "Q9",
+      "title": "Electron diffraction — de Broglie wavelength &amp; momentum",
+      "marks": 9,
+      "pages": [
+        20,
+        21,
+        22
+      ],
+      "pdf": "9702_w24_qp_42_Q9_Quantum_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "22.3.2"
+          ],
+          "marks": 1,
+          "answer": "Diffraction is characteristic of wave behaviour, so the observation shows that <b>electrons can behave like waves</b>."
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "22.3.3"
+          ],
+          "marks": 3,
+          "answer": "qV = ½mv² → v = √(2qV/m)<br>p = mv = m√(2qV/m)<br>= <b>√(2qVm)</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "22.3.4",
+            "22.3.2"
+          ],
+          "marks": 2,
+          "answer": "The electrons gain greater kinetic energy, so they have <b>greater momentum</b> and hence a smaller de Broglie wavelength (λ = h/p). The interference fringes therefore become <b>closer together</b>."
+        },
+        {
+          "label": "(d)(i)",
+          "codes": [
+            "22.3.4"
+          ],
+          "marks": 2,
+          "answer": "λ = h/p, so p = h/λ = h × (1/λ): a <b>straight line with positive gradient passing through the origin</b>."
+        },
+        {
+          "label": "(d)(ii)",
+          "codes": [
+            "22.3.4"
+          ],
+          "marks": 1,
+          "answer": "The <b>Planck constant</b>."
+        }
+      ]
+    },
+    {
+      "topic": "23",
+      "qnum": "Q10",
+      "title": "Random decay, fission &amp; fusion — binding energy per nucleon",
+      "marks": 8,
+      "pages": [
+        23,
+        24
+      ],
+      "pdf": "9702_w24_qp_42_Q10_Nuclear_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "23.2.2"
+          ],
+          "marks": 1,
+          "answer": "Random: <b>it cannot be predicted when a particular nucleus will decay</b> (or which nucleus will decay next)."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "23.2.2"
+          ],
+          "marks": 1,
+          "answer": "Spontaneous: <b>the decay is not affected by external (environmental) factors</b> — it occurs on its own."
+        },
+        {
+          "label": "(a)(iii)",
+          "codes": [
+            "23.2.1"
+          ],
+          "marks": 1,
+          "answer": "Evidence: <b>fluctuations in the (measured) count rate</b>."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "23.1.2"
+          ],
+          "marks": 3,
+          "answer": "Any three of: <b>large nuclei undergo fission whereas small nuclei undergo fusion</b>; <b>fission involves one nucleus splitting into two (or more) smaller nuclei</b>; <b>fusion involves two nuclei joining together to form one (larger) nucleus</b>; <b>fission is usually initiated by neutron bombardment</b>; <b>fusion is usually initiated by (very) high temperatures</b>."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "23.1.1"
+          ],
+          "marks": 2,
+          "answer": "Binding energy per nucleon is greatest for intermediate nucleon numbers. Fission (large → intermediate nuclei) and fusion (small → intermediate nuclei) both move towards <b>greater binding energy per nucleon</b>, so energy is released in both processes."
+        }
+      ]
+    }
+  ]
+}

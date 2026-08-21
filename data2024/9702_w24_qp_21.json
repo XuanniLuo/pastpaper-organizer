@@ -1,0 +1,386 @@
+{
+  "paper": "9702/21/O/N/24",
+  "paper_full": "November 2024 · Paper 21",
+  "questions": [
+    {
+      "topic": "1",
+      "qnum": "Q1",
+      "title": "Density of a cuboidal glass block — density &amp; uncertainty",
+      "marks": 7,
+      "pages": [
+        4,
+        5
+      ],
+      "pdf": "9702_w24_qp_21_Q1_Physical_quantities_and_units.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "4.3.1"
+          ],
+          "marks": 1,
+          "answer": "Density is the <b>mass per unit volume</b> of a substance."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "4.3.1"
+          ],
+          "marks": 2,
+          "answer": "V = xyz = 0.0541 × 0.1109 × 0.0162 = 9.72×10⁻⁵ m³<br>ρ = m/V = 0.243 / 9.72×10⁻⁵ = <b>2500 kg m⁻³</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "1.3.3"
+          ],
+          "marks": 3,
+          "answer": "%unc(ρ) = %unc(m) + %unc(x) + %unc(y) + %unc(z)<br>= (0.001/0.243 + 0.01/5.41 + 0.01/11.09 + 0.01/1.62) × 100<br>= (0.4 + 0.2 + 0.1 + 0.6)% = <b>1.3%</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "1.3.1"
+          ],
+          "marks": 1,
+          "answer": "Any one of: a <b>zero error</b> on the balance or calipers; incorrect calibration of the balance/calipers — a persistent error in the same direction that affects every measurement."
+        }
+      ]
+    },
+    {
+      "topic": "3",
+      "qnum": "Q2",
+      "title": "Car momentum–time graph — momentum, kinetic energy &amp; acceleration",
+      "marks": 11,
+      "pages": [
+        6,
+        7
+      ],
+      "pdf": "9702_w24_qp_21_Q2_Dynamics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "3.1.3"
+          ],
+          "marks": 1,
+          "answer": "Linear momentum is the <b>product of the mass and the velocity</b> of an object."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "3.1.3"
+          ],
+          "marks": 1,
+          "answer": "Maximum momentum read from Fig. 2.1 = 7.2×10⁴ N s<br>v = p/m = 7.2×10⁴ / 1800 = <b>40 m s⁻¹</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "5.2.2"
+          ],
+          "marks": 2,
+          "answer": "Ek = ½mv² = ½ × 1800 × 40²<br>= <b>1.4×10⁶ J</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "3.1.2",
+            "2.1.5"
+          ],
+          "marks": 2,
+          "answer": "a = (gradient of momentum–time graph)/m = Δp/(Δt×m)<br>= 3.6×10⁴ / (4.0 × 1800)<br>= 9.0×10³ / 1800 = <b>5.0 m s⁻²</b> (at t = 4.0 s the momentum has risen linearly to 3.6×10⁴ N s)"
+        },
+        {
+          "label": "(b)(iv)",
+          "codes": [
+            "2.1.3",
+            "2.1.7"
+          ],
+          "marks": 2,
+          "answer": "The velocity rises linearly from 0 to 40 m s⁻¹ over 8.0 s, then falls linearly to zero over the next 4.0 s.<br>distance = area under the v–t graph = ½ × 40 × (8.0 + 4.0) = <b>240 m</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "2.1.5",
+            "2.1.2"
+          ],
+          "marks": 3,
+          "answer": "Sketch a stepped graph with no time delay at the step: a <b>horizontal straight line at a = 5.0 m s⁻² from t = 0 to t = 8.0 s</b>, a vertical step down at t = 8.0 s, then a <b>horizontal straight line at a = −10 m s⁻² from t = 8.0 s to t = 12.0 s</b> (the gradient of the p–t graph is constant at 7.2×10⁴/8 = 9.0×10³ N from 0 to 8 s, then −1.8×10⁴ N from 8 to 12 s)."
+        }
+      ]
+    },
+    {
+      "topic": "5",
+      "qnum": "Q3",
+      "title": "Motor lifting a load — work done, efficiency &amp; coil current",
+      "marks": 11,
+      "pages": [
+        8,
+        9
+      ],
+      "pdf": "9702_w24_qp_21_Q3_Work_energy_and_power.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "5.1.1"
+          ],
+          "marks": 1,
+          "answer": "The work done by a force is the <b>product of the force and the displacement moved in the direction of the force</b>."
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "5.2.1"
+          ],
+          "marks": 2,
+          "answer": "The block is raised at constant speed, so the lifting force equals the weight mg, where g is the acceleration of free fall (9.81 m s⁻²).<br>ΔEP = work done by the lifting force = force × distance = mg × Δh, so <b>ΔEP = mgΔh</b>."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "5.1.1"
+          ],
+          "marks": 1,
+          "answer": "work done = Fs = 240 × 150 = 36 000 J = <b>36 kJ</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "5.1.6"
+          ],
+          "marks": 2,
+          "answer": "P = W/t = 36 000 / 60<br>= <b>600 W</b>"
+        },
+        {
+          "label": "(c)(iii)",
+          "codes": [
+            "5.1.3",
+            "5.1.4"
+          ],
+          "marks": 2,
+          "answer": "efficiency = useful output power / total input power<br>= 600 / 900 = <b>0.67</b>"
+        },
+        {
+          "label": "(c)(iv)",
+          "codes": [
+            "9.2.3",
+            "9.3.6"
+          ],
+          "marks": 3,
+          "answer": "R = ρL/A = (1.7×10⁻⁸ × 23) / (2.6×10⁻⁸) = 15.0 Ω<br>P = I²R → 280 = I² × 15.0<br>I² = 18.6 → I = <b>4.3 A</b>"
+        }
+      ]
+    },
+    {
+      "topic": "6",
+      "qnum": "Q4",
+      "title": "Metal wires P and Q — Young modulus &amp; spring constant",
+      "marks": 7,
+      "pages": [
+        10
+      ],
+      "pdf": "9702_w24_qp_21_Q4_Deformation_of_solids.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "6.1.5"
+          ],
+          "marks": 1,
+          "answer": "The Young modulus is the <b>ratio of (tensile) stress to (tensile) strain</b>."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "6.1.3"
+          ],
+          "marks": 1,
+          "answer": "A <b>straight line of positive gradient passing through the origin</b> (Hooke's law behaviour within the limit of proportionality)."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "6.1.4"
+          ],
+          "marks": 1,
+          "answer": "The gradient represents the <b>spring constant</b> k = F/x of the wire."
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "6.2.3"
+          ],
+          "marks": 1,
+          "answer": "The area under the line represents the <b>elastic potential energy</b> stored in the wire."
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "6.1.5",
+            "6.1.2"
+          ],
+          "marks": 3,
+          "answer": "x = FL/(AE). Wire Q has double the cross-sectional area and double the Young modulus of P, and — having the same volume as P but double its area — half the length of P.<br>x_Q/x_P = (L_Q/L_P) × (A_P/A_Q) × (E_P/E_Q) = ½ × ½ × ½ = ⅛<br>The extension of Q is <b>⅛ times the extension of P</b>: extension is proportional to length and inversely proportional to cross-sectional area and Young modulus."
+        }
+      ]
+    },
+    {
+      "topic": "11",
+      "qnum": "Q5",
+      "title": "Beta decay of potassium-40 — decay equation &amp; quark composition",
+      "marks": 7,
+      "pages": [
+        11
+      ],
+      "pdf": "9702_w24_qp_21_Q5_Particle_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "11.1.11",
+            "11.1.6"
+          ],
+          "marks": 2,
+          "answer": "Conserving nucleon number: 40 = P + 0, so <b>P = 40</b>; in β⁻ decay a neutron becomes a proton so the nucleon number is unchanged, Q = 40 − 20 = 20 → <b>Q = 20</b>.<br>Conserving charge: 19 = Q + S, so <b>S = −1</b>; the β⁻ carries no nucleons, so <b>R = 0</b>."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "11.1.9"
+          ],
+          "marks": 1,
+          "answer": "Particle Z is the <b>(electron) antineutrino</b>."
+        },
+        {
+          "label": "(a)(iii)",
+          "codes": [
+            "11.2.6"
+          ],
+          "marks": 1,
+          "answer": "Both the β⁻ particle and the antineutrino belong to the class of fundamental particles called <b>leptons</b>."
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "11.2.3"
+          ],
+          "marks": 3,
+          "answer": "An alpha-particle consists of 2 protons and 2 neutrons. A proton is made of up–up–down quarks and a neutron of up–down–down quarks, so:<br>2 protons + 2 neutrons give (2×2 + 2×1) up quarks and (2×1 + 2×2) down quarks<br>= <b>6 up quarks and 6 down quarks</b>."
+        }
+      ]
+    },
+    {
+      "topic": "8",
+      "qnum": "Q6",
+      "title": "Two coherent microwave sources — phase difference &amp; interference",
+      "marks": 9,
+      "pages": [
+        12,
+        13
+      ],
+      "pdf": "9702_w24_qp_21_Q6_Superposition.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "8.1.1",
+            "8.3.3"
+          ],
+          "marks": 2,
+          "answer": "For maximum intensity, the waves from X and Y must arrive <b>in phase</b> at the point of detection. At O the two paths are equal, so the 90° phase difference between the sources is unchanged — the waves are not in phase at O, so O is not the position of greatest intensity."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "8.3.4",
+            "8.3.3"
+          ],
+          "marks": 2,
+          "answer": "Draw a cross labelled B on line PQ, on the opposite side of O from A, with <b>OB = OA</b> — the intensity minimum closest to O is the same distance from O as the closest maximum A (both at path difference λ/4 = 0.003 m from O)."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "7.1.4"
+          ],
+          "marks": 2,
+          "answer": "v = fλ<br>λ = c/f = 3.00×10⁸ / 2.5×10¹⁰<br>= <b>0.012 m</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "8.3.3"
+          ],
+          "marks": 1,
+          "answer": "At A the waves arrive in phase, so the path difference must cancel the 90° source phase difference: Δx = λ/4.<br>Δx = 0.012 / 4 = <b>0.0030 m</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "8.3.4"
+          ],
+          "marks": 2,
+          "answer": "λ = ax/D → fringe spacing x = λD/a<br>x = (0.012 × 2.3) / 0.18<br>= <b>0.15 m</b>"
+        }
+      ]
+    },
+    {
+      "topic": "10",
+      "qnum": "Q7",
+      "title": "Cell with internal resistance — terminal p.d., series &amp; parallel resistors",
+      "marks": 8,
+      "pages": [
+        14,
+        15,
+        16
+      ],
+      "pdf": "9702_w24_qp_21_Q7_DC_circuits.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "10.1.5"
+          ],
+          "marks": 2,
+          "answer": "Lost volts across the internal resistance = e.m.f. − terminal p.d. = 1.50 − 1.36 = 0.14 V<br>I = V/r = 0.14 / 0.28 = <b>0.50 A</b>"
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "9.3.2",
+            "10.2.3"
+          ],
+          "marks": 2,
+          "answer": "combined resistance = terminal p.d. / current = 1.36 / 0.50<br>= <b>2.7 Ω</b>"
+        },
+        {
+          "label": "(a)(iii)",
+          "codes": [
+            "10.2.3"
+          ],
+          "marks": 1,
+          "answer": "R = combined resistance − 1.0 = 2.72 − 1.0<br>= <b>1.7 Ω</b>"
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "10.1.2"
+          ],
+          "marks": 1,
+          "answer": "Complete Fig. 7.2 by connecting the two resistors (1.0 Ω and R) <b>in parallel</b> across the terminals of the cell, in series with the 0.28 Ω internal resistance, and no other components."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "10.1.5"
+          ],
+          "marks": 2,
+          "answer": "The external resistance is now <b>smaller</b> (the parallel combination of 1.0 Ω and 1.7 Ω is less than 1.0 Ω, whereas the series combination was 2.7 Ω), so a larger current flows and a larger fraction of the e.m.f. is dropped across the internal resistance. Hence the terminal p.d. is <b>less than</b> 1.36 V."
+        }
+      ]
+    }
+  ]
+}

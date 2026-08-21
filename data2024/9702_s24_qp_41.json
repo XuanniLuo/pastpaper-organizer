@@ -1,0 +1,566 @@
+{
+  "paper": "9702/41/M/J/24",
+  "paper_full": "June 2024 · Paper 41",
+  "questions": [
+    {
+      "topic": "13",
+      "qnum": "Q1",
+      "title": "Satellite in circular orbit — gravitational field strength &amp; energy",
+      "marks": 10,
+      "pages": [
+        4,
+        5
+      ],
+      "pdf": "9702_s24_qp_41_Q1_Gravitational_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "13.4.1"
+          ],
+          "marks": 2,
+          "answer": "The work done per unit mass<br>in bringing a small test mass from infinity to the point."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "13.4.1"
+          ],
+          "marks": 2,
+          "answer": "The gravitational potential is defined as zero at infinity. As the two masses move closer together (or as a mass is brought towards the planet), work is done by the gravitational field, so the potential falls below zero — hence it is negative."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "13.4.2"
+          ],
+          "marks": 2,
+          "answer": "ϕ = −GM/r and, at X, −Φ = −GM/(4R), so GM/R = 4Φ.<br>At Y (radius R): potential = <b>−4Φ</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "13.3.2",
+            "13.4.3"
+          ],
+          "marks": 4,
+          "answer": "Since Φ = GM/(4R), GM = 4ΦR.<br>Field strength: g = GM/r²<br>X: g = GM/(4R)² = <b>Φ/4R</b>; Y: g = GM/R² = <b>4Φ/R</b><br>Potential energy: EP = −GMm/r<br>X: EP = −GM·M/4R = <b>−MΦ</b>; Y: EP = −GM·2M/R = <b>−8MΦ</b>"
+        }
+      ]
+    },
+    {
+      "topic": "14",
+      "qnum": "Q2",
+      "title": "Temperature measurement — absolute zero, platinum thermometer &amp; thermistor",
+      "marks": 7,
+      "pages": [
+        6,
+        7
+      ],
+      "pdf": "9702_s24_qp_41_Q2_Temperature.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "14.2.4"
+          ],
+          "marks": 1,
+          "answer": "Magnitude <b>0 K</b> (zero kelvin), the lowest possible temperature on the thermodynamic scale."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "14.2.2"
+          ],
+          "marks": 1,
+          "answer": "Its measurement depends on the properties of the liquid (its expansion), whereas the thermodynamic scale does not depend on the properties of any particular substance."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "14.2.1"
+          ],
+          "marks": 2,
+          "answer": "Any two of: the resistivity (and hence resistance) of platinum varies with temperature; the variation with temperature is linear; there is a unique value of resistivity for each (different value of) temperature."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "14.3.1"
+          ],
+          "marks": 1,
+          "answer": "The thermometer has a high heat capacity, so it takes time (energy transfer) to reach the temperature of the surroundings and cannot follow a rapidly changing temperature."
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "14.2.1"
+          ],
+          "marks": 1,
+          "answer": "A <b>thermocouple</b>."
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "14.2.1"
+          ],
+          "marks": 1,
+          "answer": "The resistance of the (negative temperature coefficient) thermistor decreases as temperature increases (inverse, non-linear variation), whereas the resistance of a platinum wire increases with temperature."
+        }
+      ]
+    },
+    {
+      "topic": "15",
+      "qnum": "Q3",
+      "title": "Ideal gas — kinetic theory, internal energy &amp; U–V graph",
+      "marks": 12,
+      "pages": [
+        8,
+        9
+      ],
+      "pdf": "9702_s24_qp_41_Q3_Ideal_gases.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "15.2.1"
+          ],
+          "marks": 2,
+          "answer": "A gas for which pV ∝ T, where T is the thermodynamic temperature (i.e. an ideal gas obeys the equation of state at all temperatures and pressures)."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "15.3.1"
+          ],
+          "marks": 2,
+          "answer": "One basic assumption is that there are no intermolecular forces between the molecules (except during collisions). Hence the potential energy associated with the random motion of the molecules is zero."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "15.2.2"
+          ],
+          "marks": 2,
+          "answer": "pV = NkT<br>N = (2.0×10⁵ × 0.26) / (1.38×10⁻²³ × 290) = 5.2×10⁴ / 4.0×10⁻²¹ = <b>1.3×10²⁵</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "15.3.4"
+          ],
+          "marks": 2,
+          "answer": "EK = ½m〈c²〉 = (3/2)kT<br>= 1.5 × 1.38×10⁻²³ × 290 = <b>6.0×10⁻²¹ J</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "16.1.1",
+            "15.3.1"
+          ],
+          "marks": 2,
+          "answer": "For an ideal gas the potential energy is zero, so internal energy = total kinetic energy of all the molecules.<br>U = N × EK = 1.3×10²⁵ × 6.0×10⁻²¹ = <b>7.8×10⁴ J</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "15.2.2",
+            "16.1.2"
+          ],
+          "marks": 2,
+          "answer": "A straight line through the origin with positive gradient — internal energy U ∝ T, and at constant pressure V ∝ T, so U is directly proportional to V."
+        }
+      ]
+    },
+    {
+      "topic": "17",
+      "qnum": "Q4",
+      "title": "Resonance — damping &amp; forced oscillations of a ball",
+      "marks": 8,
+      "pages": [
+        10,
+        11
+      ],
+      "pdf": "9702_s24_qp_41_Q4_Oscillations.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "17.3.3"
+          ],
+          "marks": 2,
+          "answer": "Resonance is the phenomenon in which an oscillating system has its amplitude a maximum, and this occurs when the driving frequency equals the natural frequency of the system."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "17.3.2"
+          ],
+          "marks": 1,
+          "answer": "<b>Light damping</b>."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "17.3.1",
+            "17.3.2"
+          ],
+          "marks": 2,
+          "answer": "The oscillations of the ball lose energy because resistive forces (air resistance / friction in the string) act on the ball and do work against its motion, so the amplitude decreases gradually with time."
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "17.1.1"
+          ],
+          "marks": 1,
+          "answer": "Period T = 0.25 s (time between successive maxima of Fig. 4.2).<br>f = 1/T = 1/0.25 = <b>4.0 Hz</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "17.3.3"
+          ],
+          "marks": 2,
+          "answer": "A resonance curve: the amplitude rises from zero at f = 0, reaches a single maximum at f = 4.0 Hz (the natural frequency of the ball), and then falls again as f increases towards 10 Hz."
+        }
+      ]
+    },
+    {
+      "topic": "18",
+      "qnum": "Q5",
+      "title": "Parallel plates — electric field &amp; undeflected electron in crossed fields",
+      "marks": 13,
+      "pages": [
+        12,
+        13
+      ],
+      "pdf": "9702_s24_qp_41_Q5_Electric_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "18.1.1"
+          ],
+          "marks": 2,
+          "answer": "The electric field strength at a point is the force per unit positive charge exerted on a small test charge placed at that point."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "18.1.3"
+          ],
+          "marks": 2,
+          "answer": "Four straight, parallel lines between the plates, approximately evenly spaced, running from the +430 V plate towards the 0 V plate, with arrows pointing downwards."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "18.2.1"
+          ],
+          "marks": 2,
+          "answer": "E = V/d = 430 / 0.067 = 6.4×10³ → <b>6.4×10³ N C⁻¹</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "18.2.2"
+          ],
+          "marks": 2,
+          "answer": "A smooth curve within the plates, bending upwards towards the +430 V plate (the electron is deflected towards the positive plate), with straight lines outside the plates continuing along the tangent to the curve at each edge."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "20.3.1"
+          ],
+          "marks": 1,
+          "answer": "<b>Into the page</b> (perpendicular to both the electron velocity and the electric field), so that the magnetic force on the electron is opposite to the electric force."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "18.1.2",
+            "20.3.6"
+          ],
+          "marks": 2,
+          "answer": "The electric force on the electron is upwards and the magnetic force is downwards. When their magnitudes are equal the forces are equal and opposite, so the resultant force on the electron is zero and its path is undeviated."
+        },
+        {
+          "label": "(c)(iii)",
+          "codes": [
+            "20.3.6",
+            "20.3.2"
+          ],
+          "marks": 2,
+          "answer": "Eq = Bqv → B = E/v = (6.4×10³) / (2.6×10⁷) = <b>2.5×10⁻⁴ T</b>"
+        }
+      ]
+    },
+    {
+      "topic": "19",
+      "qnum": "Q6",
+      "title": "Capacitor discharge — current–time graph, resistance &amp; time constant",
+      "marks": 10,
+      "pages": [
+        14,
+        15
+      ],
+      "pdf": "9702_s24_qp_41_Q6_Capacitance.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "19.3.1",
+            "19.3.3"
+          ],
+          "marks": 3,
+          "answer": "The p.d. across the capacitor is proportional to the charge on it, and this p.d. equals the p.d. across the resistor. The current in the resistor is proportional to the p.d. across it, and the current is the rate of decrease of charge on the capacitor. Hence the current is proportional to the charge remaining, so the rate of decrease of current itself decreases as the current falls — giving an exponential decay."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "19.3.1",
+            "19.3.3"
+          ],
+          "marks": 2,
+          "answer": "Initial current (at t = 0) I₀ = 0.13 mA (read from Fig. 6.2).<br>R = V/I₀ = 12 / (0.13×10⁻³) = <b>9.2×10⁴ Ω</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "19.3.2",
+            "19.3.3"
+          ],
+          "marks": 3,
+          "answer": "I = I₀e^(−t/τ); at t = τ the current falls to I₀e⁻¹ = 0.13 × 0.368 = 0.048 mA.<br>From Fig. 6.2, I = 0.048 mA at t = 4.3 s, so <b>τ = 4.3 s</b>."
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "19.3.2"
+          ],
+          "marks": 2,
+          "answer": "τ = RC<br>C = τ/R = 4.3 / (9.2×10⁴) = <b>4.7×10⁻⁵ F</b>"
+        }
+      ]
+    },
+    {
+      "topic": "21",
+      "qnum": "Q7",
+      "title": "Full-wave rectification — power dissipation in a load resistor",
+      "marks": 10,
+      "pages": [
+        16,
+        17
+      ],
+      "pdf": "9702_s24_qp_41_Q7_Alternating_currents.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "21.2.3"
+          ],
+          "marks": 2,
+          "answer": "The circuit rectifies the alternating input voltage — a bridge rectifier of four diodes that produces a full-wave rectified (unidirectional) output voltage across R."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "21.1.2",
+            "21.1.3"
+          ],
+          "marks": 2,
+          "answer": "Peak output voltage V₀ = 9.0 V (from Fig. 7.2).<br>Pmax = V₀²/R = 9.0² / 370 = 81 / 370 = <b>0.22 W</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "21.1.3"
+          ],
+          "marks": 3,
+          "answer": "A sinusoidal curve that sits on (or above) the time axis — minima of zero power at t = 0, 0.02, 0.04, 0.06 and 0.08 s, and maxima of 0.22 W at t = 0.01, 0.03, 0.05 and 0.07 s (period 0.02 s, i.e. frequency 50 Hz)."
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "21.1.3"
+          ],
+          "marks": 1,
+          "answer": "Mean power = peak power / 2 = 0.22 / 2 = <b>0.11 W</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "21.1.3"
+          ],
+          "marks": 2,
+          "answer": "The power–time graph is identical to that in (b)(ii) — the power depends on the square of the voltage, so the negative half-cycles give the same power pulses as the rectified positive ones. Hence the mean power dissipated is the same (<b>0.11 W</b>)."
+        }
+      ]
+    },
+    {
+      "topic": "22",
+      "qnum": "Q8",
+      "title": "X-ray tube — photon energy, momentum &amp; wavelength",
+      "marks": 13,
+      "pages": [
+        18,
+        19
+      ],
+      "pdf": "9702_s24_qp_41_Q8_Quantum_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "22.1.1",
+            "22.1.2"
+          ],
+          "marks": 2,
+          "answer": "A photon is a quantum (packet) of electromagnetic radiation, carrying energy E = hf."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "24.2.1"
+          ],
+          "marks": 1,
+          "answer": "<b>Electrons</b> (accelerated from the filament towards the metal target)."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "24.2.1"
+          ],
+          "marks": 1,
+          "answer": "Terminal X is labelled − and terminal Y is labelled + (electrons, being negative, are accelerated from the negative filament towards the positive target)."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "22.1.3",
+            "22.1.4"
+          ],
+          "marks": 1,
+          "answer": "Maximum photon energy = eV = 32 keV = <b>0.032 MeV</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "22.1.5"
+          ],
+          "marks": 2,
+          "answer": "p = E/c = (0.032 × 1.60×10⁻¹³) / (3.00×10⁸) = 5.12×10⁻¹⁵ / 3.00×10⁸ = <b>1.7×10⁻²³ N s</b>"
+        },
+        {
+          "label": "(c)(iii)",
+          "codes": [
+            "22.1.3"
+          ],
+          "marks": 3,
+          "answer": "E = hf and c = fλ → λ = hc/E<br>= (6.63×10⁻³⁴ × 3.00×10⁸) / (0.032 × 1.60×10⁻¹³) = 1.99×10⁻²⁵ / 5.12×10⁻¹⁵ = <b>3.9×10⁻¹¹ m</b>"
+        },
+        {
+          "label": "(d)",
+          "codes": [
+            "24.2.2"
+          ],
+          "marks": 3,
+          "answer": "X-rays are attenuated differently by different tissues — bone and soft tissue have very different linear attenuation (absorption) coefficients, so the X-rays transmitted through bone and through soft tissue have very different intensities. The large difference in transmitted intensity produces the good contrast in the image."
+        }
+      ]
+    },
+    {
+      "topic": "23",
+      "qnum": "Q9",
+      "title": "Radioactive decay of isotope X — half-life &amp; nucleon number",
+      "marks": 8,
+      "pages": [
+        20,
+        21
+      ],
+      "pdf": "9702_s24_qp_41_Q9_Nuclear_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "23.2.4"
+          ],
+          "marks": 1,
+          "answer": "The time taken for the activity of the sample to halve."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "23.2.3"
+          ],
+          "marks": 1,
+          "answer": "The <b>activity</b> of X at time t — the magnitude of the gradient of the number–time graph, since the number of X nuclei is decreasing (activity = −dN/dt)."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "23.2.6",
+            "23.2.4",
+            "23.2.5"
+          ],
+          "marks": 3,
+          "answer": "Any three of:<br>1. Y is a stable isotope (its number of nuclei eventually becomes constant);<br>2. the total number of nuclei is constant (X + Y = 4.0×10²²);<br>3. the half-life of X is 13.6 s;<br>4. the decay constant of X is λ = 0.693/13.6 = 0.051 s⁻¹;<br>5. the amount of X at t = 0 is 4.0×10²²/6.02×10²³ = 0.066 mol;<br>6. the activity of X at t = 0 is λN = 0.051 × 4.0×10²² = 2.0×10²¹ Bq."
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "23.2.6"
+          ],
+          "marks": 3,
+          "answer": "Number of nuclei at t = 0: N₀ = 4.0×10²² (from Fig. 9.1).<br>Mass of one nucleus = 7.3×10⁻⁴ / 4.0×10²² = 1.8×10⁻²⁶ kg<br>Nucleon number = mass of nucleus / (1.66×10⁻²⁷) = 1.8×10⁻²⁶ / 1.66×10⁻²⁷ = <b>11</b>"
+        }
+      ]
+    },
+    {
+      "topic": "25",
+      "qnum": "Q10",
+      "title": "Luminosity of the Sun — Stefan–Boltzmann &amp; Wien's laws",
+      "marks": 9,
+      "pages": [
+        22
+      ],
+      "pdf": "9702_s24_qp_41_Q10_Astronomy_and_cosmology.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "25.1.1"
+          ],
+          "marks": 2,
+          "answer": "The luminosity of a star is the total power of radiation emitted by the star (over all wavelengths)."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "25.1.3",
+            "25.1.4"
+          ],
+          "marks": 3,
+          "answer": "A standard candle is an object of known luminosity L. The radiant flux intensity F received from it is measured by the observer, and since F = L/(4πd²), the distance of the galaxy can be determined: d = √(L/4πF)."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "25.2.2"
+          ],
+          "marks": 2,
+          "answer": "L = 4πσr²T⁴ = 4π × 5.67×10⁻⁸ × (6.96×10⁸)² × 5780⁴<br>= <b>3.85×10²⁶ W</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "25.2.1"
+          ],
+          "marks": 2,
+          "answer": "λmaxT = constant → T = (5780 × 501) / 624 = <b>4640 K</b>"
+        }
+      ]
+    }
+  ]
+}

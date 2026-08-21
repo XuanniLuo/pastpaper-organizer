@@ -1,0 +1,367 @@
+{
+  "paper": "9702/23/M/J/24",
+  "paper_full": "June 2024 · Paper 23",
+  "questions": [
+    {
+      "topic": "1",
+      "qnum": "Q1",
+      "title": "Sphere falling through a liquid — viscosity, upthrust &amp; forces",
+      "marks": 10,
+      "pages": [
+        4,
+        5
+      ],
+      "pdf": "9702_s24_qp_23_Q1_Physical_quantities_and_units.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "1.2.2",
+            "1.2.3"
+          ],
+          "marks": 2,
+          "answer": "Rearranging FD = 6πηrv gives η = FD/(6πrv). From F = ma, force has base units kg m s⁻²; r → m and v → m s⁻¹.<br>units of η = (kg m s⁻²)/(m × m s⁻¹) = <b>kg m⁻¹ s⁻¹</b>"
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "3.2.3"
+          ],
+          "marks": 2,
+          "answer": "η = FD/(6πrv) = 0.096 / (6π × 0.030 × 2.0) = 0.096/1.13 = <b>0.085 kg m⁻¹ s⁻¹</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "3.1.6",
+            "4.3.4",
+            "3.2.1"
+          ],
+          "marks": 2,
+          "answer": "Three arrows on the sphere: <b>weight</b> (W) vertically downwards; <b>upthrust</b> (U) vertically upwards; <b>drag/viscous force</b> (FD) vertically upwards. At terminal velocity the resultant force is zero, so the two upward arrows together balance the weight."
+        },
+        {
+          "label": "(d)(i)",
+          "codes": [
+            "4.3.5",
+            "4.3.1"
+          ],
+          "marks": 2,
+          "answer": "V = (4/3)πr³ = (4/3) × π × (0.030)³ = 1.13×10⁻⁴ m³<br>upthrust = ρgV = 920 × 9.81 × 1.13×10⁻⁴ = <b>1.0 N</b>"
+        },
+        {
+          "label": "(d)(ii)",
+          "codes": [
+            "3.1.6",
+            "4.2.2"
+          ],
+          "marks": 2,
+          "answer": "At terminal velocity the forces balance: weight = upthrust + drag = 1.0 + 0.096 = 1.096 N<br>m = W/g = 1.096/9.81 = <b>0.11 kg</b>"
+        }
+      ]
+    },
+    {
+      "topic": "2",
+      "qnum": "Q2",
+      "title": "Object projected onto a slope — kinematics &amp; energy",
+      "marks": 11,
+      "pages": [
+        6,
+        7
+      ],
+      "pdf": "9702_s24_qp_23_Q2_Kinematics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "2.1.1"
+          ],
+          "marks": 1,
+          "answer": "Displacement from a point is the <b>distance in a straight line from the point in a given direction</b>."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "2.1.7"
+          ],
+          "marks": 1,
+          "answer": "horizontal distance = ut = 6.0 × 0.71 = <b>4.3 m</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "2.1.6",
+            "2.1.7"
+          ],
+          "marks": 2,
+          "answer": "s = ut + ½at², with u = 0 vertically:<br>s = ½ × 9.81 × 0.71² = <b>2.5 m</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "2.1.7",
+            "2.1.9"
+          ],
+          "marks": 2,
+          "answer": "tanθ = (vertical distance)/(horizontal distance) = 2.5/4.3<br>θ = <b>30°</b>"
+        },
+        {
+          "label": "(b)(iv)",
+          "codes": [
+            "2.1.1"
+          ],
+          "marks": 2,
+          "answer": "displacement = √(4.3² + 2.5²) = √24.7 = <b>5.0 m</b>"
+        },
+        {
+          "label": "(b)(v)",
+          "codes": [
+            "5.1.2",
+            "5.2.1",
+            "5.2.2"
+          ],
+          "marks": 3,
+          "answer": "By conservation of energy, initial KE + loss of GPE = final KE:<br>½mv² = ½mu² + mgh → v² = u² + 2gh = 6.0² + 2 × 9.81 × 2.5 = 36 + 49.1 = 85.1<br>v = <b>9.2 m s⁻¹</b>"
+        }
+      ]
+    },
+    {
+      "topic": "6",
+      "qnum": "Q3",
+      "title": "Force–extension graph of a sample — Hooke’s law &amp; Young modulus",
+      "marks": 12,
+      "pages": [
+        8,
+        9,
+        10
+      ],
+      "pdf": "9702_s24_qp_23_Q3_Deformation_of_solids.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "6.1.3"
+          ],
+          "marks": 1,
+          "answer": "The extension of a sample is <b>proportional to the applied force</b> (provided the limit of proportionality is not exceeded)."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "6.1.2"
+          ],
+          "marks": 1,
+          "answer": "Draw a cross (×) labelled P on the graph at the limit of proportionality — the last point on the straight-line section, at approximately <b>(60 mm, 5.4 N)</b>."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "6.2.1"
+          ],
+          "marks": 1,
+          "answer": "Draw a cross (×) labelled E on the graph at the elastic limit — just beyond P where the curve starts to bend away from the straight line (the sample stops obeying Hooke’s law but is still elastic), at approximately <b>(80 mm, 5.9 N)</b>."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "6.1.4"
+          ],
+          "marks": 2,
+          "answer": "k = F/x = gradient of the straight-line section = 5.4/0.060 = <b>90 N m⁻¹</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "6.1.5"
+          ],
+          "marks": 3,
+          "answer": "Young modulus E = σ/ε = FL/Ax, with A = 0.40 mm² = 4.0×10⁻⁷ m²:<br>E = (5.4 × 3.2)/(4.0×10⁻⁷ × 0.060) = <b>7.2×10⁸ Pa</b>"
+        },
+        {
+          "label": "(d)",
+          "codes": [
+            "6.2.2",
+            "6.2.3"
+          ],
+          "marks": 2,
+          "answer": "Work done = <b>area under the force–extension graph</b> up to the breaking point X. The region is roughly a triangle of base ≈ 0.20 m and height ≈ 10 N: area ≈ ½ × 0.20 × 10 ≈ <b>1.0 J</b> (0.8–1.2 J acceptable)."
+        },
+        {
+          "label": "(e)",
+          "codes": [
+            "6.1.4"
+          ],
+          "marks": 2,
+          "answer": "The spring constant of the second sample is <b>greater</b>. Since E = kL/A and both samples are the same material (same E) with the same length L, k is proportional to the cross-sectional area — so a larger area requires a greater force to produce the same extension."
+        }
+      ]
+    },
+    {
+      "topic": "7",
+      "qnum": "Q4",
+      "title": "Transverse wave &amp; ripple-tank interference — phase, frequency &amp; superposition",
+      "marks": 8,
+      "pages": [
+        12,
+        13
+      ],
+      "pdf": "9702_s24_qp_23_Q4_Waves.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "7.1.2"
+          ],
+          "marks": 1,
+          "answer": "R and T are separated by three-quarters of a wavelength (¾ of a cycle), so phase difference = <b>270°</b>."
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "7.1.2"
+          ],
+          "marks": 1,
+          "answer": "Draw an arrow at T pointing <b>vertically downwards</b> — T is on the section of the wave descending towards the next trough as the wave travels from left to right."
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "7.1.4"
+          ],
+          "marks": 3,
+          "answer": "R and T are ¾λ apart (phase difference 270°), so λ = 0.62 × (4/3) = 0.827 cm = 8.27×10⁻³ m<br>f = v/λ = 0.27/8.27×10⁻³ = <b>33 Hz</b>"
+        },
+        {
+          "label": "(d)",
+          "codes": [
+            "8.1.1",
+            "8.3.1",
+            "8.3.3"
+          ],
+          "marks": 3,
+          "answer": "At P the waves from S1 and S2 superpose: the resultant displacement is the sum of the two displacements. A crest from one dipper meets a trough from the other (the waves arrive in antiphase, with a path difference of an odd number of half-wavelengths), so the waves <b>destructively interfere</b> and the amplitude of the resultant wave at P is <b>zero</b> (at all times)."
+        }
+      ]
+    },
+    {
+      "topic": "10",
+      "qnum": "Q5",
+      "title": "Cell with internal resistance — Kirchhoff’s laws &amp; parallel resistors",
+      "marks": 11,
+      "pages": [
+        14,
+        15,
+        16
+      ],
+      "pdf": "9702_s24_qp_23_Q5_DC_circuits.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "10.2.2"
+          ],
+          "marks": 1,
+          "answer": "The sum of the e.m.f.s around a closed loop is <b>equal to the sum of the p.d.s around that loop</b> (or: the algebraic sum of the e.m.f.s and p.d.s around a closed loop is zero)."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "10.2.2"
+          ],
+          "marks": 1,
+          "answer": "The <b>conservation of energy</b> (gives rise to Kirchhoff’s second law)."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "10.2.1",
+            "10.2.4"
+          ],
+          "marks": 2,
+          "answer": "By Kirchhoff’s first law, the current splits at the junction: I = I₁ + I₂. The resistors are in parallel, so each has the same p.d. V:<br>I = V/R₁ + V/R₂ and I = V/RT, hence V/RT = V/R₁ + V/R₂, so <b>1/RT = 1/R₁ + 1/R₂</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "10.1.5",
+            "10.2.4",
+            "9.3.2"
+          ],
+          "marks": 3,
+          "answer": "RT = (15 × 10)/(15 + 10) = 6.0 Ω<br>I = V/RT = 1.38/6.0 = 0.23 A<br>r = (E − V)/I = (1.50 − 1.38)/0.23 = <b>0.52 Ω</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "10.2.4"
+          ],
+          "marks": 2,
+          "answer": "Adding a resistor in parallel <b>decreases</b> the total resistance of the external circuit. Since I = E/(RT + r) and E and r are unchanged, the current in the cell <b>increases</b>."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "10.1.5"
+          ],
+          "marks": 2,
+          "answer": "The larger current causes a larger p.d. drop across the internal resistance (Ir), so the terminal p.d. — the p.d. across the parallel resistors measured by the voltmeter — <b>decreases</b>."
+        }
+      ]
+    },
+    {
+      "topic": "11",
+      "qnum": "Q6",
+      "title": "Samarium isotope — α decay, nuclide notation &amp; quarks",
+      "marks": 8,
+      "pages": [
+        18,
+        19
+      ],
+      "pdf": "9702_s24_qp_23_Q6_Particle_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "11.1.3",
+            "11.1.5"
+          ],
+          "marks": 1,
+          "answer": "Nucleon number A = 62 + 85 = 147; proton number Z = 62.<br><b>¹⁴⁷₆₂Sm</b>"
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "11.1.10"
+          ],
+          "marks": 2,
+          "answer": "The spectrum shows a single sharp line: the emitted particles have <b>discrete</b> (one) kinetic-energy value(s), which is characteristic of α-particles. β-particles have a <b>continuous range</b> of kinetic energies, so the particles cannot be β."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "11.1.6",
+            "11.1.11"
+          ],
+          "marks": 2,
+          "answer": "<b>¹⁴⁷₆₂Sm → ¹⁴³₆₀Nd + ⁴₂α</b><br>(nucleon number: 147 = 143 + 4 ✓; proton number: 62 = 60 + 2 ✓)"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "11.2.2"
+          ],
+          "marks": 2,
+          "answer": "Up quark charge = +⅔e, bottom quark charge = −⅓e. Total charge is zero:<br>0 = +⅔e + (−⅓e) + q<br>q = <b>−⅓e</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "11.2.2"
+          ],
+          "marks": 1,
+          "answer": "A quark of charge −⅓e: the <b>down (d)</b> quark or the <b>strange (s)</b> quark."
+        }
+      ]
+    }
+  ]
+}

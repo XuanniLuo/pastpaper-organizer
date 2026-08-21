@@ -1,0 +1,139 @@
+1.1.1 — Understand that all physical quantities consist of a numerical magnitude and a unit
+1.1.2 — Make reasonable estimates of physical quantities included within the syllabus
+1.2.1 — Recall SI base quantities and their units: mass (kg), length (m), time (s), current (A), temperature (K)
+1.2.2 — Express derived units as products or quotients of SI base units
+1.2.3 — Use SI base units to check the homogeneity of physical equations
+1.2.4 — Recall and use prefixes: pico (p), nano (n), micro (μ), milli (m), centi (c), deci (d), kilo (k), mega (M), giga (G), tera (T)
+1.3.1 — Understand and explain systematic errors (including zero errors) and random errors
+1.3.2 — Understand the distinction between precision and accuracy
+1.3.3 — Assess uncertainty in a derived quantity by simple addition of absolute or percentage uncertainties
+1.4.1 — Understand the difference between scalar and vector quantities
+1.4.2 — Add and subtract coplanar vectors
+1.4.3 — Represent a vector as two perpendicular components
+2.1.1 — Define and use distance, displacement, speed, velocity and acceleration
+2.1.2 — Use graphical methods to represent distance, displacement, speed, velocity and acceleration
+2.1.3 — Determine displacement from the area under a velocity-time graph
+2.1.4 — Determine velocity using the gradient of a displacement-time graph
+2.1.5 — Determine acceleration using the gradient of a velocity-time graph
+2.1.6 — Derive equations for uniformly accelerated motion in a straight line
+2.1.7 — Solve problems using equations of uniformly accelerated motion, including free fall without air resistance
+2.1.8 — Describe an experiment to determine the acceleration of free fall using a falling object
+2.1.9 — Describe and explain motion due to uniform velocity in one direction and uniform acceleration in a perpendicular direction
+3.1.1 — Understand that mass is the property of an object that resists change in motion
+3.1.2 — Recall F = ma and solve problems using it
+3.1.3 — Define and use linear momentum as the product of mass and velocity
+3.1.4 — Define and use force as rate of change of momentum
+3.1.5 — State and apply each of Newton's laws of motion
+3.1.6 — Describe and use weight as the effect of a gravitational field on a mass (W = mg)
+3.2.1 — Show qualitative understanding of frictional forces and viscous/drag forces including air resistance
+3.2.2 — Describe and explain qualitatively the motion of objects in a uniform gravitational field with air resistance
+3.2.3 — Understand that objects moving against a resistive force may reach terminal velocity
+3.3.1 — State the principle of conservation of momentum
+3.3.2 — Apply conservation of momentum to simple problems, including elastic and inelastic interactions in one and two dimensions
+3.3.3 — Recall that for an elastic collision, total kinetic energy is conserved and relative speed of approach equals relative speed of separation
+3.3.4 — Understand that while momentum is always conserved, some kinetic energy may change
+4.1.1 — Understand that weight may be taken as acting at the centre of gravity
+4.1.2 — Define and apply the moment of a force
+4.1.3 — Understand that a couple is a pair of forces that acts to produce rotation only
+4.1.4 — Define and apply the torque of a couple
+4.2.1 — State and apply the principle of moments
+4.2.2 — Understand that when there is no resultant force and no resultant torque, a system is in equilibrium
+4.2.3 — Use a vector triangle to represent coplanar forces in equilibrium
+4.3.1 — Define and use density
+4.3.2 — Define and use pressure
+4.3.3 — Derive and use the equation for hydrostatic pressure: Δp = ρgΔh
+4.3.4 — Understand that upthrust is due to a difference in hydrostatic pressure
+4.3.5 — Calculate upthrust using Archimedes' principle: F = ρgV
+5.1.1 — Understand work done = force × displacement in the direction of the force
+5.1.2 — Recall and apply the principle of conservation of energy
+5.1.3 — Recall that efficiency = useful energy output / total energy input
+5.1.4 — Use the concept of efficiency to solve problems
+5.1.5 — Define power as work done per unit time
+5.1.6 — Solve problems using P = W/t
+5.1.7 — Derive P = Fv and use it to solve problems
+5.2.1 — Derive and use ΔEp = mgΔh for gravitational potential energy changes
+5.2.2 — Derive and use Ek = ½mv² for kinetic energy
+6.1.1 — Understand that deformation is caused by tensile or compressive forces (one dimension only)
+6.1.2 — Understand and use load, extension, compression and limit of proportionality
+6.1.3 — Recall and use Hooke's law
+6.1.4 — Recall and use k = F/x for spring constant
+6.1.5 — Define and use stress, strain and the Young modulus
+6.1.6 — Describe an experiment to determine the Young modulus of a metal wire
+6.2.1 — Understand elastic deformation, plastic deformation and elastic limit
+6.2.2 — Understand that the area under the force-extension graph represents work done
+6.2.3 — Determine elastic potential energy from the area under the force-extension graph
+6.2.4 — Recall and use Ep = ½Fx = ½kx² (within limit of proportionality)
+7.1.1 — Describe wave motion as illustrated by vibration in ropes, springs and ripple tanks
+7.1.2 — Understand and use displacement, amplitude, phase difference, period, frequency, wavelength and speed
+7.1.3 — Understand the use of time-base and y-gain of a CRO to determine frequency and amplitude
+7.1.4 — Derive and use the wave equation v = fλ
+7.1.5 — Understand that energy is transferred by a progressive wave
+7.1.6 — Recall and use intensity = power/area and intensity ∝ (amplitude)²
+7.2.1 — Compare transverse and longitudinal waves
+7.2.2 — Analyse and interpret graphical representations of transverse and longitudinal waves
+7.3.1 — Understand observed frequency differs from source frequency when source moves relative to stationary observer
+7.3.2 — Use f₀ = fₛV/(V ± Vₛ) for observed frequency
+7.4.1 — State that all EM waves are transverse and travel at speed c in free space
+7.4.2 — Recall approximate wavelength ranges from radio waves to γ-rays
+7.4.3 — Recall visible light range: 400-700 nm
+7.5.1 — Understand polarisation is a phenomenon associated with transverse waves
+7.5.2 — Recall and use Malus's law: I = I₀cos²θ
+8.1.1 — Explain and use the principle of superposition
+8.1.2 — Show understanding of experiments demonstrating stationary waves using microwaves, stretched strings and air columns
+8.1.3 — Explain formation of stationary waves graphically; identify nodes and antinodes
+8.1.4 — Understand how wavelength may be determined from positions of nodes or antinodes
+8.2.1 — Explain the meaning of diffraction
+8.2.2 — Show understanding of experiments demonstrating diffraction, including effect of gap width relative to wavelength
+8.3.1 — Understand interference and coherence
+8.3.2 — Show understanding of two-source interference experiments using water waves, sound, light and microwaves
+8.3.3 — Understand conditions required for two-source interference fringes to be observed
+8.3.4 — Recall and use λ = ax/D for double-slit interference
+8.4.1 — Recall and use d sin θ = nλ
+8.4.2 — Describe use of a diffraction grating to determine wavelength of light
+9.1.1 — Understand electric current as a flow of charge carriers
+9.1.2 — Understand that charge on charge carriers is quantised
+9.1.3 — Recall and use Q = It
+9.1.4 — Use I = Anvq for a current-carrying conductor
+9.2.1 — Define potential difference as energy transferred per unit charge
+9.2.2 — Recall and use V = W/Q
+9.2.3 — Recall and use P = VI, P = I²R and P = V²/R
+9.3.1 — Define resistance
+9.3.2 — Recall and use V = IR
+9.3.3 — Sketch I-V characteristics of metallic conductor, semiconductor diode and filament lamp
+9.3.4 — Explain that resistance of a filament lamp increases with current due to temperature increase
+9.3.5 — State Ohm's law
+9.3.6 — Recall and use R = ρL/A
+9.3.7 — Understand LDR resistance decreases as light intensity increases
+9.3.8 — Understand thermistor resistance decreases as temperature increases (negative temperature coefficient)
+10.1.1 — Recall and use circuit symbols from the syllabus
+10.1.2 — Draw and interpret circuit diagrams
+10.1.3 — Define e.m.f. as energy transferred per unit charge in driving charge around a complete circuit
+10.1.4 — Distinguish between e.m.f. and p.d. in terms of energy considerations
+10.1.5 — Understand effects of internal resistance on terminal potential difference
+10.2.1 — Recall Kirchhoff's first law (conservation of charge)
+10.2.2 — Recall Kirchhoff's second law (conservation of energy)
+10.2.3 — Derive and use formula for combined resistance of resistors in series
+10.2.4 — Derive and use formula for combined resistance of resistors in parallel
+10.2.5 — Use Kirchhoff's laws to solve simple circuit problems
+10.3.1 — Understand the principle of a potential divider circuit
+10.3.2 — Recall and use the potentiometer as a means of comparing potential differences
+10.3.3 — Understand the use of a galvanometer in null methods
+10.3.4 — Explain use of thermistors and LDRs in potential dividers
+11.1.1 — Infer from α-particle scattering experiment the existence and small size of the nucleus
+11.1.2 — Describe a simple model for the nuclear atom (protons, neutrons, orbital electrons)
+11.1.3 — Distinguish between nucleon number and proton number
+11.1.4 — Understand isotopes as forms of the same element with different numbers of neutrons
+11.1.5 — Understand and use notation ᴬZX for nuclides
+11.1.6 — Understand that nucleon number and charge are conserved in nuclear processes
+11.1.7 — Describe composition, mass and charge of α, β and γ radiations (β⁻ and β⁺ included)
+11.1.8 — Understand antiparticles have same mass but opposite charge; positron is antiparticle of electron
+11.1.9 — State antineutrinos are produced in β⁻ decay and neutrinos in β⁺ decay
+11.1.10 — Understand α-particles have discrete energies but β-particles have continuous range due to (anti)neutrino emission
+11.1.11 — Represent α and β decay by radioactive decay equations
+11.1.12 — Use the unified atomic mass unit (u) as a unit of mass
+11.2.1 — Understand a quark is a fundamental particle; six flavours: up, down, strange, charm, top, bottom
+11.2.2 — Recall and use charge of each quark flavour; antiquark has opposite charge
+11.2.3 — Recall protons and neutrons are not fundamental; describe in terms of quark composition
+11.2.4 — Understand hadrons as baryons (three quarks) or mesons (quark + antiquark)
+11.2.5 — Describe changes to quark composition during β⁻ and β⁺ decay
+11.2.6 — Recall electrons and neutrinos are fundamental particles called leptons

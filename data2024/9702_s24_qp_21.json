@@ -1,0 +1,343 @@
+{
+  "paper": "9702/21/M/J/24",
+  "paper_full": "June 2024 · Paper 21",
+  "questions": [
+    {
+      "topic": "1",
+      "qnum": "Q1",
+      "title": "Drag force on a falling sphere — SI base units &amp; terminal velocity",
+      "marks": 10,
+      "pages": [
+        3,
+        4
+      ],
+      "pdf": "9702_s24_qp_21_Q1_Physical_quantities_and_units.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "1.2.2",
+            "1.2.3"
+          ],
+          "marks": 3,
+          "answer": "FD is a force, so its base units are kg m s⁻².<br>ρ has units kg m⁻³, A has units m² and v has units m s⁻¹ (so v² has units m² s⁻²).<br>Substituting: kg m s⁻² = C × (kg m⁻³)(m²)(m² s⁻²) = C × kg m s⁻²<br>All unit terms cancel, so <b>C has no units</b> (it is dimensionless)."
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "3.2.3"
+          ],
+          "marks": 2,
+          "answer": "Draw and label two arrows acting through the centre of the sphere:<br><b>Weight W</b> — vertically downward.<br><b>Drag force FD</b> (air resistance / viscous force) — vertically upward.<br>Both arrows vertical (within 10° of the vertical); at terminal velocity the two forces are equal in magnitude."
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "3.2.3",
+            "3.1.6"
+          ],
+          "marks": 2,
+          "answer": "At terminal velocity the sphere is in equilibrium (no resultant force), so the drag force equals the weight:<br>FD = mg = 0.049 × 9.81 = <b>0.48 N</b>"
+        },
+        {
+          "label": "(d)",
+          "codes": [
+            "3.2.3"
+          ],
+          "marks": 3,
+          "answer": "Cross-sectional area A = πr² = π × (0.060/2)² = 2.83×10⁻³ m²<br>FD = ½CρAv² → C = 2FD/(ρAv²)<br>C = (2 × 0.48)/(1.2 × 2.83×10⁻³ × 25²) = 0.96/2.12 = <b>0.45</b>"
+        }
+      ]
+    },
+    {
+      "topic": "2",
+      "qnum": "Q2",
+      "title": "Ball thrown over a wall — projectile time, velocity &amp; height",
+      "marks": 7,
+      "pages": [
+        5,
+        6
+      ],
+      "pdf": "9702_s24_qp_21_Q2_Kinematics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "2.1.1"
+          ],
+          "marks": 1,
+          "answer": "Velocity is the <b>rate of change of displacement</b> (change in displacement per unit time, in a stated direction)."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "2.1.9",
+            "2.1.1"
+          ],
+          "marks": 2,
+          "answer": "Horizontal component of velocity = 22 cos 40° = 16.9 m s⁻¹; this remains constant during the flight (air resistance negligible).<br>t = 36/16.9 = <b>2.1 s</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "2.1.9"
+          ],
+          "marks": 1,
+          "answer": "u = 22 sin 40° = <b>14 m s⁻¹</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "2.1.6",
+            "2.1.7"
+          ],
+          "marks": 3,
+          "answer": "s = ut + ½at², with u = 14 m s⁻¹, a = −9.81 m s⁻² and t = 2.1 s:<br>s = (14 × 2.1) + (½ × −9.81 × 2.1²) = 29.4 − 21.6 = 7.8 m (rise above the release point)<br>height of wall h = 7.8 + 1.2 = <b>9.0 m</b>"
+        }
+      ]
+    },
+    {
+      "topic": "3",
+      "qnum": "Q3",
+      "title": "Two-dimensional collision and braking — momentum &amp; work done",
+      "marks": 9,
+      "pages": [
+        7,
+        8
+      ],
+      "pdf": "9702_s24_qp_21_Q3_Dynamics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "3.3.1"
+          ],
+          "marks": 2,
+          "answer": "The total momentum before a collision equals the total momentum after the collision, provided no (resultant) external force acts on the system (i.e. for an isolated system). <b>Momentum is conserved</b>."
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "3.3.2",
+            "3.3.1"
+          ],
+          "marks": 4,
+          "answer": "Along the original direction of motion:<br>2m × 5.0 = 2mv cos 30° + 3mw cos 30°<br>Perpendicular to the motion:<br>2mv sin 30° = 3mw sin 30° → v = 1.5w<br>Substituting: 10m = 2m(1.5w)cos 30° + 3mw cos 30° = 6mw cos 30°<br>w = 10/(6 cos 30°) = 10/5.196 = <b>1.9 m s⁻¹</b><br>v = 1.5 × 1.9 = <b>2.9 m s⁻¹</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "5.2.2",
+            "5.1.1"
+          ],
+          "marks": 3,
+          "answer": "Work done by the braking force = kinetic energy lost:<br>Ek = ½mv² = ½ × 4.2 × 6.0² = 76 J<br>F = W/d = 76/0.050 = <b>1500 N</b>"
+        }
+      ]
+    },
+    {
+      "topic": "6",
+      "qnum": "Q4",
+      "title": "Copper wire — Young modulus, stress-strain graph &amp; comparison",
+      "marks": 8,
+      "pages": [
+        9,
+        10
+      ],
+      "pdf": "9702_s24_qp_21_Q4_Deformation_of_solids.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "6.1.5"
+          ],
+          "marks": 1,
+          "answer": "Strain is the <b>extension per unit original length</b> (extension/original length)."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "6.1.5",
+            "6.1.2"
+          ],
+          "marks": 3,
+          "answer": "stress = F/A = 18/(4.5×10⁻⁷) = 4.0×10⁷ Pa<br>strain = e/L = 1.4×10⁻³/4.0 = 3.5×10⁻⁴<br>Young modulus = stress/strain = 4.0×10⁷/(3.5×10⁻⁴) = <b>1.1×10¹¹ Pa</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "6.1.5"
+          ],
+          "marks": 2,
+          "answer": "Draw a <b>straight line through the origin</b> (up to the limit of proportionality, stress is proportional to strain), ending at the point (3.5 × 10⁻⁴, 4.0 × 10⁷ Pa) — the top-right of the plotted grid."
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "6.1.5"
+          ],
+          "marks": 2,
+          "answer": "The second wire has a larger diameter, so a larger cross-sectional area A.<br>Same force: stress = F/A is <b>less in the second wire</b>.<br>Same material (same Young modulus): strain = stress/E is <b>less in the second wire</b>."
+        }
+      ]
+    },
+    {
+      "topic": "8",
+      "qnum": "Q5",
+      "title": "Stationary wave on a stretched string — wavelength, phase &amp; speed",
+      "marks": 8,
+      "pages": [
+        11,
+        12
+      ],
+      "pdf": "9702_s24_qp_21_Q5_Superposition.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "8.1.2",
+            "8.1.3"
+          ],
+          "marks": 2,
+          "answer": "The progressive wave travels along the string and is <b>reflected at the fixed end</b> (the wall / point Q).<br>The incident and reflected waves travel in opposite directions and superpose (interfere), forming a stationary wave with fixed nodes and antinodes."
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "8.1.4"
+          ],
+          "marks": 1,
+          "answer": "From Fig. 5.2 the string (length 1.2 m) contains 1.5 complete wavelengths:<br>λ = 1.2/1.5 = <b>0.80 m</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "8.1.3",
+            "8.1.4"
+          ],
+          "marks": 2,
+          "answer": "t = 0.24 s = 1.5T, so every point of the string is now at its maximum displacement on the <b>opposite side</b> of the equilibrium position.<br>Sketch the wave <b>reflected in the horizontal dashed axis (inverted)</b>: the same wavelength and amplitude as at t = 0, crossing the axis at the same nodes."
+        },
+        {
+          "label": "(d)",
+          "codes": [
+            "7.1.2"
+          ],
+          "marks": 1,
+          "answer": "A node lies between R and T (the points are on opposite sides of a node), so they oscillate in antiphase:<br>phase difference = <b>180°</b>"
+        },
+        {
+          "label": "(e)",
+          "codes": [
+            "7.1.4",
+            "7.1.2"
+          ],
+          "marks": 2,
+          "answer": "f = 1/T = 1/0.16 = 6.25 Hz<br>v = fλ = 6.25 × 0.80 = <b>5.0 m s⁻¹</b>"
+        }
+      ]
+    },
+    {
+      "topic": "10",
+      "qnum": "Q6",
+      "title": "Cell with internal resistance — Kirchhoff's laws &amp; terminal p.d.",
+      "marks": 10,
+      "pages": [
+        13,
+        14
+      ],
+      "pdf": "9702_s24_qp_21_Q6_DC_circuits.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "10.2.1"
+          ],
+          "marks": 1,
+          "answer": "The sum of the currents entering a junction equals the sum of the currents leaving it: <b>ΣI(in) = ΣI(out)</b> (the algebraic sum of the currents at a junction is zero)."
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "10.2.2",
+            "10.2.3"
+          ],
+          "marks": 2,
+          "answer": "By Kirchhoff's second law, the p.d. across the series combination is the sum of the individual p.d.s:<br>V = V1 + V2<br>Using V = IR: IRT = IR1 + IR2; dividing through by I gives <b>RT = R1 + R2</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "10.1.5",
+            "9.3.2"
+          ],
+          "marks": 3,
+          "answer": "Current in the circuit: I = V/R = 1.35/(10 + 15) = 0.054 A<br>E = V + Ir → r = (E − V)/I<br>r = (1.50 − 1.35)/0.054 = <b>2.8 Ω</b>"
+        },
+        {
+          "label": "(d)(i)",
+          "codes": [
+            "10.2.4",
+            "10.1.5"
+          ],
+          "marks": 2,
+          "answer": "Adding R3 in parallel with R2 <b>decreases</b> the total resistance of the circuit while the e.m.f. is unchanged.<br>The total current — and so the current in the cell — therefore <b>increases</b>."
+        },
+        {
+          "label": "(d)(ii)",
+          "codes": [
+            "10.1.5"
+          ],
+          "marks": 2,
+          "answer": "The larger current causes a <b>larger p.d. across the internal resistance</b> (Ir).<br>Since terminal p.d. V = E − Ir, the terminal p.d. of the cell <b>decreases</b>."
+        }
+      ]
+    },
+    {
+      "topic": "11",
+      "qnum": "Q7",
+      "title": "Beta decay of copper-66 — spectrum, antineutrino &amp; decay equation",
+      "marks": 8,
+      "pages": [
+        15,
+        16
+      ],
+      "pdf": "9702_s24_qp_21_Q7_Particle_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "11.1.5"
+          ],
+          "marks": 1,
+          "answer": "Nucleon number = 29 + 37 = 66; proton number = 29.<br><b>⁶⁶₂₉Cu</b>"
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "11.1.10"
+          ],
+          "marks": 3,
+          "answer": "The total energy released in each decay is fixed (constant), but Fig. 7.1 shows the β particles have a <b>continuous range of kinetic energies</b> up to a maximum value.<br>For energy (and momentum) to be conserved, another particle must be emitted to carry away the remaining energy — the difference between the total energy of the decay and the kinetic energy of the β particle."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "11.1.9"
+          ],
+          "marks": 1,
+          "answer": "an (electron) <b>antineutrino</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "11.1.11",
+            "11.1.6"
+          ],
+          "marks": 3,
+          "answer": "<b>⁶⁶₂₉Cu → ⁶⁶₃₀Zn + ⁰₋₁β + ⁰₀ν̄ₑ</b><br>Nucleon number is conserved: 66 = 66 + 0 + 0.<br>Charge is conserved: 29 = 30 + (−1) + 0."
+        }
+      ]
+    }
+  ]
+}

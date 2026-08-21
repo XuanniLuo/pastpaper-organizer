@@ -1,0 +1,536 @@
+{
+  "paper": "9702/41/O/N/24",
+  "paper_full": "November 2024 · Paper 41",
+  "questions": [
+    {
+      "topic": "13",
+      "qnum": "Q1",
+      "title": "Satellite in circular orbit — Newton's law &amp; orbital period graph",
+      "marks": 12,
+      "pages": [
+        4,
+        5
+      ],
+      "pdf": "9702_w24_qp_41_Q1_Gravitational_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "13.2.2"
+          ],
+          "marks": 2,
+          "answer": "The gravitational force between two point masses is directly proportional to the product of the masses and inversely proportional to the square of the distance between them: <b>F = Gm₁m₂/r²</b>."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "13.2.3",
+            "12.2.1"
+          ],
+          "marks": 2,
+          "answer": "The gravitational force on the satellite acts towards the centre of the planet, so it is always perpendicular to the direction of motion of the satellite. This force provides the <b>centripetal acceleration</b>, so the satellite moves in a circular path at constant speed."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "13.2.3",
+            "12.1.3"
+          ],
+          "marks": 3,
+          "answer": "Gravitational force = centripetal force:<br>GMm/(h + B)² = m(h + B)ω², with ω = 2π/T<br>GM/(h + B)² = (h + B)(2π/T)²<br>(h + B)³ = GMT²/4π² = <b>(GA/4π²)T²</b><br>where A = M (the mass of the planet) and B = the radius of the planet."
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "13.2.1",
+            "13.2.3"
+          ],
+          "marks": 5,
+          "answer": "From Fig. 1.1, gradient m = (1280 − 360)/(12×10⁶) = 7.7×10⁻⁵ s²/³ m⁻¹.<br>Since T²/³ = m(h + B), the intercept is mB, and m³ = 4π²/GA.<br>A = 4π²/(Gm³) = 4π²/(6.67×10⁻¹¹ × (7.7×10⁻⁵)³) = <b>1.3×10²⁴ kg</b><br>B = intercept/m = 360/(7.7×10⁻⁵) = <b>4.7×10⁶ m</b>"
+        }
+      ]
+    },
+    {
+      "topic": "14",
+      "qnum": "Q2",
+      "title": "Two metal blocks in thermal contact — specific heat capacity",
+      "marks": 8,
+      "pages": [
+        6,
+        7
+      ],
+      "pdf": "9702_w24_qp_41_Q2_Temperature.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "14.3.1"
+          ],
+          "marks": 2,
+          "answer": "The (thermal) energy required per unit mass of a substance to change its temperature by one unit (1 K): <b>c = ΔE/(mΔθ)</b>."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "14.1.2",
+            "14.3.1"
+          ],
+          "marks": 3,
+          "answer": "Any three of (up to two may be quantitative):<br>1. the two blocks end up in thermal equilibrium — both reach the same final temperature;<br>2. the heat capacity of Y is larger than that of X (Y's temperature changes less for the same energy transfer);<br>3. no heat is lost to the surroundings (the energy lost by X equals the energy gained by Y);<br>4. the initial temperature of X is 85 °C and of Y is 25 °C;<br>5. the temperature change of X is 45 °C and of Y is 15 °C (the change for X is three times that for Y);<br>6. the final temperature of both blocks is <b>40 °C</b>."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "14.3.1"
+          ],
+          "marks": 3,
+          "answer": "Heat lost by X = heat gained by Y:<br>mXcXΔθX = mYcYΔθY, with ΔθX = 45 °C, ΔθY = 15 °C and mY = 1.3mX<br>mXcX × 45 = 1.3mX × 901 × 15<br>cX = (1.3 × 901 × 15)/45 = <b>390 J kg⁻¹ K⁻¹</b>"
+        }
+      ]
+    },
+    {
+      "topic": "15",
+      "qnum": "Q3",
+      "title": "Two ideal gas samples — pressure, mean-square speed &amp; internal energy",
+      "marks": 8,
+      "pages": [
+        8,
+        9
+      ],
+      "pdf": "9702_w24_qp_41_Q3_Ideal_gases.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "15.1.2"
+          ],
+          "marks": 1,
+          "answer": "The <b>number of particles (atoms or molecules) in one mole</b> of a substance (the number of particles per unit amount of substance)."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "15.2.3"
+          ],
+          "marks": 1,
+          "answer": "<b>Nₐ = R/k</b>"
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "15.2.2",
+            "15.1.2",
+            "15.3.4",
+            "16.1.1"
+          ],
+          "marks": 4,
+          "answer": "Pressure (pV = NkT): X = NkT/V; Y = 2NkT/2V = <b>NkT/V</b> (the same).<br>Amount of substance: X = N/Nₐ; Y = <b>2N/Nₐ</b>.<br>Mean-square speed (½m〈c²〉 = (3/2)kT): X = 3kT/m; Y = <b>3kT/2m</b>.<br>Internal energy: X = (3/2)NkT; Y = (3/2) × 2N × kT = <b>3NkT</b>."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "15.3.3",
+            "15.3.4"
+          ],
+          "marks": 2,
+          "answer": "c.r.m.s. = √(3kT/m), so <b>c.r.m.s. ∝ √T</b>: a curve starting at the origin with a positive but continuously decreasing gradient, rising without limit as T increases (it does not return to either axis)."
+        }
+      ]
+    },
+    {
+      "topic": "17",
+      "qnum": "Q4",
+      "title": "Block oscillating on a spring — amplitude, angular frequency &amp; sketch",
+      "marks": 11,
+      "pages": [
+        10,
+        11
+      ],
+      "pdf": "9702_w24_qp_41_Q4_Oscillations.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "17.1.3"
+          ],
+          "marks": 2,
+          "answer": "Motion in which the acceleration is <b>directly proportional to the displacement</b> from a fixed point (the equilibrium position) and is always directed towards that fixed point (opposite in direction to the displacement)."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "17.1.1"
+          ],
+          "marks": 1,
+          "answer": "From Fig. 4.2, the turning points (v = 0) are at h = 3.5 cm and h = 9.5 cm.<br>amplitude = (9.5 − 3.5)/2 = <b>3.0 cm</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "17.1.4"
+          ],
+          "marks": 2,
+          "answer": "vmax = v₀ = ωx₀ → ω = v₀/x₀<br>ω = 9.5/3.0 = <b>3.2 rad s⁻¹</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "17.1.1"
+          ],
+          "marks": 2,
+          "answer": "T = 2π/ω = 2π/3.2 = <b>2.0 s</b>"
+        },
+        {
+          "label": "(b)(iv)",
+          "codes": [
+            "17.1.5",
+            "17.2.1"
+          ],
+          "marks": 4,
+          "answer": "A sinusoidal curve starting at a minimum (h = 3.5 cm) at t = 0, since the block is released from rest at its lowest point. Three complete cycles from t = 0 to t = 6.0 s (period 2.0 s), with <b>all peaks at h = 9.5 cm and all troughs at h = 3.5 cm</b>."
+        }
+      ]
+    },
+    {
+      "topic": "18",
+      "qnum": "Q5",
+      "title": "Two charged spheres — electric potential &amp; resultant field strength",
+      "marks": 10,
+      "pages": [
+        12,
+        13
+      ],
+      "pdf": "9702_w24_qp_41_Q5_Electric_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "18.5.2"
+          ],
+          "marks": 2,
+          "answer": "The electric field strength at a point is equal to the (negative) potential gradient at that point: <b>E = −ΔV/Δd</b>, the minus sign showing the field is directed from higher to lower potential."
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "18.5.1",
+            "18.4.1"
+          ],
+          "marks": 3,
+          "answer": "For the total potential at P to be zero, the two potentials must be of opposite sign, so the charges must have opposite signs. For the resultant field at P to be zero, the two fields must be equal in magnitude and opposite in direction, which (with P between the spheres) requires the charges to have the same sign. The charges cannot be both the same and opposite in sign at the same time, so the potential and the field <b>cannot both be zero at P</b>."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "18.5.3"
+          ],
+          "marks": 2,
+          "answer": "VX = Q/4πε₀x and VY = 2Q/4πε₀y (magnitudes).<br>The total potential is zero, so VX = VY:<br>Q/4πε₀x = 2Q/4πε₀y, giving <b>y = 2x</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "18.4.1"
+          ],
+          "marks": 1,
+          "answer": "<b>EX = Q/4πε₀x²</b>"
+        },
+        {
+          "label": "(c)(iii)",
+          "codes": [
+            "18.4.1"
+          ],
+          "marks": 2,
+          "answer": "EY = 2Q/4πε₀(2x)² = Q/8πε₀x²<br>The charges have opposite signs, so at P (between the spheres) the two fields act in the same direction and their magnitudes add:<br>E = Q/4πε₀x² + Q/8πε₀x² = <b>3Q/8πε₀x²</b>"
+        }
+      ]
+    },
+    {
+      "topic": "21",
+      "qnum": "Q6",
+      "title": "Half-wave rectification &amp; capacitor smoothing — capacitance &amp; resistance",
+      "marks": 11,
+      "pages": [
+        14,
+        15
+      ],
+      "pdf": "9702_w24_qp_41_Q6_Alternating_currents.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "21.2.1"
+          ],
+          "marks": 1,
+          "answer": "Rectification is the <b>conversion of an alternating voltage (a.c.) into a direct voltage (d.c.)</b> — a unidirectional output voltage."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "21.2.1"
+          ],
+          "marks": 2,
+          "answer": "Half-wave rectification <b>removes the voltage in one direction</b> (the output is zero during alternate half-cycles), whereas full-wave rectification <b>reverses the voltage in one direction</b> so that the output voltage is in the same direction throughout each cycle."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "21.2.2"
+          ],
+          "marks": 2,
+          "answer": "In Fig. 6.1, one of the gaps is connected by a <b>single diode</b> (drawn with the correct circuit symbol — a triangle with a bar) and the other gap is connected <b>directly by a wire</b>. The diode conducts in only one half of each cycle, so a p.d. appears across R in that half-cycle only."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "21.2.4"
+          ],
+          "marks": 1,
+          "answer": "<b>Smoothing</b> — the capacitor charges when VOUT rises and discharges through R when VOUT falls, reducing the variation (ripple) of the output voltage."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "19.2.2"
+          ],
+          "marks": 2,
+          "answer": "E = ½CV² → C = 2E/V²<br>C = 2 × 0.041/12² = 5.7×10⁻⁴ F = <b>570 μF</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "19.3.3",
+            "19.3.2"
+          ],
+          "marks": 3,
+          "answer": "From Fig. 6.3, VOUT decays from 12 V to 8.0 V in 0.010 s (during the non-conducting half-cycle).<br>V = V₀e^(−t/RC): 8.0 = 12.0e^(−0.010/RC)<br>ln(8.0/12.0) = −0.010/RC, so RC = 0.010/ln(1.5) = 0.0247 s<br>R = RC/C = 0.0247/(5.7×10⁻⁴) = <b>43 Ω</b>"
+        }
+      ]
+    },
+    {
+      "topic": "20",
+      "qnum": "Q7",
+      "title": "Two parallel wires — magnetic field &amp; force between currents",
+      "marks": 11,
+      "pages": [
+        16,
+        17
+      ],
+      "pdf": "9702_w24_qp_41_Q7_Magnetic_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "20.2.3"
+          ],
+          "marks": 2,
+          "answer": "The magnetic flux density is the force acting per unit current per unit length on a current-carrying conductor placed at right angles to the magnetic field: <b>B = F/IL</b>."
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "20.4.1"
+          ],
+          "marks": 3,
+          "answer": "Concentric circles around the wire (at least two circles), with the spacing between the circles increasing as the distance from the wire increases (at least four circles). Arrows on the field lines show the field direction is <b>clockwise</b> (right-hand grip rule for a current into the page)."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "20.4.3",
+            "20.2.2"
+          ],
+          "marks": 2,
+          "answer": "Each wire is in the magnetic field produced by the current in the other wire. The current in each wire is perpendicular to the magnetic field due to the other wire, so a magnetic force (<b>F = BIL</b>) acts on each wire."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "20.4.3",
+            "20.2.2"
+          ],
+          "marks": 1,
+          "answer": "An arrow starting from wire X and pointing towards wire Y, labelled F — parallel currents in the same direction attract, so the force on X is <b>towards Y</b>."
+        },
+        {
+          "label": "(c)(iii)",
+          "codes": [
+            "20.4.3"
+          ],
+          "marks": 2,
+          "answer": "The magnetic force on Y has the <b>same magnitude</b> as the force on X (the two forces are a Newton's third law pair), but it acts in the <b>opposite direction</b>."
+        },
+        {
+          "label": "(c)(iv)",
+          "codes": [
+            "20.4.3",
+            "20.2.2"
+          ],
+          "marks": 1,
+          "answer": "There is <b>no change</b> in the direction of the force on X — both the current in X and the magnetic field due to Y are reversed, so the direction of the force (attraction towards Y) is unchanged."
+        }
+      ]
+    },
+    {
+      "topic": "22",
+      "qnum": "Q8",
+      "title": "Photoelectric emission from magnesium — work function &amp; electron speed",
+      "marks": 9,
+      "pages": [
+        18,
+        19,
+        20
+      ],
+      "pdf": "9702_w24_qp_41_Q8_Quantum_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "22.2.1"
+          ],
+          "marks": 1,
+          "answer": "The <b>photoelectric effect</b>."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "22.2.3",
+            "22.2.4",
+            "22.1.3"
+          ],
+          "marks": 2,
+          "answer": "Φ = hf₀ = 6.63×10⁻³⁴ × 8.8×10¹⁴ = <b>5.8×10⁻¹⁹ J</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "22.2.4",
+            "22.1.3"
+          ],
+          "marks": 3,
+          "answer": "hf = Φ + ½mvmax²<br>6.63×10⁻³⁴ × 11×10¹⁴ = 5.8×10⁻¹⁹ + ½ × 9.11×10⁻³¹ × vmax²<br>vmax² = 2 × (7.29×10⁻¹⁹ − 5.8×10⁻¹⁹)/(9.11×10⁻³¹) = 3.2×10¹¹<br>vmax = <b>5.7×10⁵ m s⁻¹</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "22.2.4",
+            "22.2.5"
+          ],
+          "marks": 3,
+          "answer": "EMAX = hf − Φ: EMAX is zero from f = 8.0×10¹⁴ to 8.8×10¹⁴ Hz (below the threshold frequency), then rises as a single straight line of positive gradient (gradient = h) from f = 8.8×10¹⁴ to 11×10¹⁴ Hz, passing through the point (11, <b>1.45</b>) — EMAX = 1.45×10⁻¹⁹ J at f = 11×10¹⁴ Hz."
+        }
+      ]
+    },
+    {
+      "topic": "24",
+      "qnum": "Q9",
+      "title": "Fluorine-18 tracer — decay, activity &amp; PET imaging",
+      "marks": 10,
+      "pages": [
+        21
+      ],
+      "pdf": "9702_w24_qp_41_Q9_Medical_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "24.3.3"
+          ],
+          "marks": 1,
+          "answer": "The <b>positron</b> (the antiparticle of the electron)."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "23.2.5",
+            "23.2.4"
+          ],
+          "marks": 1,
+          "answer": "λ = ln 2/t½ = 0.693/(110 × 60) = 0.693/6600 = <b>1.05×10⁻⁴ s⁻¹</b>"
+        },
+        {
+          "label": "(a)(iii)",
+          "codes": [
+            "23.2.3",
+            "15.1.2"
+          ],
+          "marks": 3,
+          "answer": "N = M/(18u) = 2.1×10⁻¹²/(18 × 1.66×10⁻²⁷) = 7.0×10¹³ nuclei<br>A = λN = 1.05×10⁻⁴ × 7.0×10¹³ = <b>7.4×10⁹ Bq</b>"
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "24.3.4",
+            "24.3.3",
+            "24.3.6"
+          ],
+          "marks": 3,
+          "answer": "Any three of:<br>1. the β⁺ particle (positron) <b>annihilates</b> when it interacts with an electron in the body;<br>2. the mass of the two particles is converted into energy;<br>3. <b>two gamma-ray photons</b> are produced, travelling in opposite directions, and leave the body;<br>4. the difference in the arrival times of the two photons at the detector is processed to locate the source and build the image."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "24.3.1"
+          ],
+          "marks": 2,
+          "answer": "With a shorter half-life, the sample would decay (almost) completely before the scan is complete, so there would be insufficient activity to form the image. With a longer half-life, the patient would be exposed to harmful (ionising) radiation for longer than necessary (or a larger dose would be needed to give a detectable activity) — so 110 minutes is <b>long enough for the scan but short enough to limit exposure</b>."
+        }
+      ]
+    },
+    {
+      "topic": "25",
+      "qnum": "Q10",
+      "title": "Redshift of galaxy light — distance, speed &amp; Hubble's law",
+      "marks": 10,
+      "pages": [
+        22,
+        23,
+        24
+      ],
+      "pdf": "9702_w24_qp_41_Q10_Astronomy_and_cosmology.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "25.3.1",
+            "25.3.3"
+          ],
+          "marks": 3,
+          "answer": "Any three of:<br>1. redshift is the increase in the observed wavelength (decrease in observed frequency) of radiation from a source moving away from the observer (Doppler effect);<br>2. the radiation from distant galaxies is observed to be redshifted;<br>3. this provides evidence that the galaxies are moving away from the Earth (away from each other);<br>4. if the galaxies are moving apart, <b>the Universe must be expanding</b>."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "25.1.2"
+          ],
+          "marks": 2,
+          "answer": "F = L/4πd² → d = √(L/4πF)<br>d = √(1.90×10³⁶/(4π × 8.42×10⁻¹⁶)) = √(1.80×10⁵⁰) = <b>1.34×10²⁵ m</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "25.3.2"
+          ],
+          "marks": 2,
+          "answer": "Δλ/λ = v/c<br>v = (726 − 658)/658 × 3.00×10⁸ = 0.103 × 3.00×10⁸ = <b>3.1×10⁷ m s⁻¹</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "25.3.4"
+          ],
+          "marks": 2,
+          "answer": "A straight line passing through the origin with a positive gradient — v is <b>directly proportional to d</b> (Hubble's law)."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "25.3.4"
+          ],
+          "marks": 1,
+          "answer": "The <b>Hubble constant</b> (H₀)."
+        }
+      ]
+    }
+  ]
+}

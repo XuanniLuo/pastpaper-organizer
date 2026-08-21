@@ -1,0 +1,385 @@
+{
+  "paper": "9702/22/F/M/24",
+  "paper_full": "March 2024 · Paper 22",
+  "questions": [
+    {
+      "topic": "1",
+      "qnum": "Q1",
+      "title": "SI base quantities, power units &amp; light intensity",
+      "marks": 6,
+      "pages": [
+        4
+      ],
+      "pdf": "9702_m24_qp_22_Q1_Physical_quantities_and_units.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "1.2.1"
+          ],
+          "marks": 1,
+          "answer": "Tick only the rows for <b>current</b> and <b>mass</b>. These are the SI base quantities; energy and force are derived quantities."
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "1.2.2"
+          ],
+          "marks": 2,
+          "answer": "power = work done / time = (force × distance) / time<br>force = mass × acceleration, so:<br>kg × m s⁻² × m ÷ s = <b>kg m² s⁻³</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "7.1.6",
+            "1.2.4"
+          ],
+          "marks": 3,
+          "answer": "power = intensity × area<br>area = 2.2 cm² = 2.2×10⁻⁴ m²<br>P = 950 × 2.2×10⁻⁴ = <b>0.21 W</b>"
+        }
+      ]
+    },
+    {
+      "topic": "3",
+      "qnum": "Q2",
+      "title": "Diver — projectile speed, drag force &amp; upthrust in water",
+      "marks": 11,
+      "pages": [
+        6,
+        7
+      ],
+      "pdf": "9702_m24_qp_22_Q2_Dynamics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "2.1.1"
+          ],
+          "marks": 1,
+          "answer": "Acceleration is the <b>rate of change of velocity</b>."
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "2.1.7",
+            "2.1.9",
+            "5.2.1"
+          ],
+          "marks": 3,
+          "answer": "Energy conservation: ½mv² = ½mu² + mgΔh, with Δh = 9.0 − 1.2 = 7.8 m:<br>v² = 5.9² + 2×9.81×7.8 = 34.8 + 153.0 = 187.8<br>v = <b>14 m s⁻¹</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "3.2.1"
+          ],
+          "marks": 2,
+          "answer": "As the diver moves downwards his speed decreases (he is decelerating), so the viscous (drag) force, which depends on speed, <b>decreases</b>."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "4.3.5"
+          ],
+          "marks": 1,
+          "answer": "upthrust = ρgV = 1.0×10³ × 9.81 × 7.5×10⁻² = <b>740 N</b> ✓ (shown)"
+        },
+        {
+          "label": "(c)(iii)",
+          "codes": [
+            "3.1.2",
+            "3.1.6"
+          ],
+          "marks": 4,
+          "answer": "resultant force = upthrust + drag − weight<br>= 740 + 950 − 78×9.81 = 1690 − 765 = 925 N<br>a = F/m = 925/78 = <b>12 m s⁻²</b><br>direction: <b>vertically upwards</b> (upthrust and drag together exceed the weight)"
+        }
+      ]
+    },
+    {
+      "topic": "6",
+      "qnum": "Q3",
+      "title": "Wire suspending a model planet — stress, strain &amp; elastic energy",
+      "marks": 8,
+      "pages": [
+        8,
+        9
+      ],
+      "pdf": "9702_m24_qp_22_Q3_Deformation_of_solids.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "6.1.5"
+          ],
+          "marks": 3,
+          "answer": "From Fig. 3.2, stress at strain 5.4×10⁻³ is 0.72×10⁹ Pa<br>force = stress × area = 0.72×10⁹ × π × (1.2×10⁻³/2)²<br>= 0.72×10⁹ × 1.13×10⁻⁶ = <b>810 N</b>"
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "6.2.4",
+            "6.1.5"
+          ],
+          "marks": 3,
+          "answer": "E = ½Fx → x = 2E/F = 2×0.31/810 = 7.7×10⁻⁴ m<br>strain ε = x/L → L = x/ε<br>L = 7.7×10⁻⁴/5.4×10⁻³ = <b>0.14 m</b>"
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "6.1.5",
+            "6.1.3"
+          ],
+          "marks": 2,
+          "answer": "Draw a <b>straight line through the origin with twice the gradient</b> of wire X (stress = Young modulus × strain, and Y has double the Young modulus). The line should pass through (strain 3.0×10⁻³, stress 0.8 GPa)."
+        }
+      ]
+    },
+    {
+      "topic": "11",
+      "qnum": "Q4",
+      "title": "Alpha decay of nucleus P — decay equation &amp; momentum",
+      "marks": 6,
+      "pages": [
+        10
+      ],
+      "pdf": "9702_m24_qp_22_Q4_Particle_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "11.1.6",
+            "11.1.11"
+          ],
+          "marks": 2,
+          "answer": "<b>²¹⁵₈₄P → ²¹¹₈₂Q + ⁴₂α</b><br>nucleon number: 215 = 211 + 4; proton number: 84 = 82 + 2"
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "3.3.1"
+          ],
+          "marks": 2,
+          "answer": "The <b>total momentum of a system of bodies is constant</b> (momentum before = momentum after), provided no resultant external force acts on the system (an isolated system)."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "3.3.1",
+            "3.3.2"
+          ],
+          "marks": 2,
+          "answer": "By conservation of momentum: m_α v = m_P × 3.2×10⁵ (Q is stationary)<br>v = (215 × 3.2×10⁵)/4 = <b>1.7×10⁷ m s⁻¹</b>"
+        }
+      ]
+    },
+    {
+      "topic": "7",
+      "qnum": "Q5",
+      "title": "Transverse wave, infrared region &amp; CRO wavelength",
+      "marks": 5,
+      "pages": [
+        11
+      ],
+      "pdf": "9702_m24_qp_22_Q5_Waves.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "7.2.1"
+          ],
+          "marks": 1,
+          "answer": "A transverse wave is one in which the vibrations/oscillations of the particles are <b>perpendicular to the direction of propagation of energy</b>."
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "7.4.2"
+          ],
+          "marks": 1,
+          "answer": "<b>Infrared</b> (12–28 μm lies between visible light and microwaves, in the ~1 μm–1 mm range)."
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "7.1.3",
+            "7.1.4"
+          ],
+          "marks": 3,
+          "answer": "From Fig. 5.1, one period occupies 6.0 cm on the screen:<br>T = 6.0 × 5.0×10⁻¹⁵ = 3.0×10⁻¹⁴ s<br>λ = cT = 3.0×10⁸ × 3.0×10⁻¹⁴ = <b>9.0×10⁻⁶ m</b>"
+        }
+      ]
+    },
+    {
+      "topic": "8",
+      "qnum": "Q6",
+      "title": "Double-slit fringes &amp; stationary wave on a string",
+      "marks": 10,
+      "pages": [
+        12,
+        13
+      ],
+      "pdf": "9702_m24_qp_22_Q6_Superposition.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "8.1.1",
+            "8.3.1",
+            "8.3.3"
+          ],
+          "marks": 3,
+          "answer": "Any three of: light diffracts at the two slits; the waves from the two slits meet/superpose at the screen; where the phase difference is 0° (in phase) a <b>bright fringe</b> is formed (constructive interference); where the phase difference is 180° (in antiphase) a <b>dark fringe</b> is formed (destructive interference)."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "8.3.4"
+          ],
+          "marks": 3,
+          "answer": "Seven bright fringes → six fringe separations, so x = 10.2×10⁻³/6 = 1.7×10⁻³ m<br>λ = ax/D = (1.2×10⁻³ × 1.7×10⁻³)/3.1<br>= <b>6.6×10⁻⁷ m</b>"
+        },
+        {
+          "label": "(a)(iii)",
+          "codes": [
+            "8.3.4"
+          ],
+          "marks": 1,
+          "answer": "Since x = Dλ/a, the new fringe separation is <b>smaller</b> (directly proportional to wavelength)."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "8.1.3"
+          ],
+          "marks": 1,
+          "answer": "Draw a cross (×) at the intersection of the string with the mean-position line — this is a <b>node</b> (a point that remains stationary); the fixed ends A and B are also acceptable."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "8.1.3"
+          ],
+          "marks": 1,
+          "answer": "<b>0°</b> — P and Q are in the same loop between two adjacent nodes, so they oscillate in phase."
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "8.1.3"
+          ],
+          "marks": 1,
+          "answer": "<b>180°</b> — P and R are in adjacent loops on either side of a node, so they oscillate in antiphase."
+        }
+      ]
+    },
+    {
+      "topic": "10",
+      "qnum": "Q7",
+      "title": "Cell with internal resistance &amp; filament lamp circuit",
+      "marks": 8,
+      "pages": [
+        14,
+        15
+      ],
+      "pdf": "9702_m24_qp_22_Q7_DC_circuits.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "9.2.1"
+          ],
+          "marks": 1,
+          "answer": "Electric potential difference is the <b>energy transferred per unit charge</b> passing through a component."
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "10.1.5",
+            "10.2.3",
+            "9.3.2"
+          ],
+          "marks": 3,
+          "answer": "With S open, only the 6.0 Ω resistor is in the circuit:<br>V = IR = 0.25 × 6.0 = 1.5 V<br>Ir = E − V = 1.8 − 1.5 = 0.3 V<br>r = 0.3/0.25 = <b>1.2 Ω</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "10.1.3"
+          ],
+          "marks": 1,
+          "answer": "The e.m.f. is <b>the same</b> — the e.m.f. of the cell is unchanged when the switch is closed."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "9.3.4",
+            "10.2.4"
+          ],
+          "marks": 3,
+          "answer": "Any three of: before t₁ the total resistance is constant, so the current is constant. At t₁ the switch closes and the lamp is connected in parallel, decreasing the total resistance, so the current <b>increases</b>. After t₁ the filament lamp heats up, so the resistance of the lamp <b>increases</b>, increasing the total resistance, so the current <b>decreases</b> and eventually becomes constant again once the lamp reaches its working temperature."
+        }
+      ]
+    },
+    {
+      "topic": "11",
+      "qnum": "Q8",
+      "title": "Neutrino, quark composition of hadron P &amp; β decay",
+      "marks": 6,
+      "pages": [
+        16
+      ],
+      "pdf": "9702_m24_qp_22_Q8_Particle_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "11.2.6"
+          ],
+          "marks": 1,
+          "answer": "<b>Leptons</b> — the neutrino belongs to the lepton class of fundamental particles."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "11.2.2"
+          ],
+          "marks": 1,
+          "answer": "The down antiquark has charge +⅓e, so the other quark must have charge +⅔e to give a total of +1e: <b>up, charm or top</b> quark."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "11.2.4"
+          ],
+          "marks": 1,
+          "answer": "<b>Meson</b> — a hadron composed of one quark and one antiquark."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "11.1.7",
+            "11.1.9"
+          ],
+          "marks": 1,
+          "answer": "X is a <b>β⁻ particle (electron)</b> — an antineutrino is emitted together with the β⁻ particle in β⁻ decay."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "11.1.6"
+          ],
+          "marks": 1,
+          "answer": "The nucleon numbers of Q and R are <b>equal</b> — β⁻ decay converts a neutron into a proton, leaving the nucleon number unchanged."
+        },
+        {
+          "label": "(c)(iii)",
+          "codes": [
+            "11.1.6"
+          ],
+          "marks": 1,
+          "answer": "The charge of R is <b>greater</b> than the charge of Q — R has one more proton, so R is more positive by +1e."
+        }
+      ]
+    }
+  ]
+}

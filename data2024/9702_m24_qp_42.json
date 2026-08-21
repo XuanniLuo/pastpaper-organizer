@@ -1,0 +1,549 @@
+{
+  "paper": "9702/42/F/M/24",
+  "paper_full": "March 2024 · Paper 42",
+  "questions": [
+    {
+      "topic": "13",
+      "qnum": "Q1",
+      "title": "Gravitational potential of a planet — satellite orbit &amp; escape energy",
+      "marks": 10,
+      "pages": [
+        4,
+        5
+      ],
+      "pdf": "9702_m24_qp_42_Q1_Gravitational_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "13.4.1"
+          ],
+          "marks": 2,
+          "answer": "Gravitational potential is defined to be zero at infinity. The gravitational force is attractive, so work must be done <u>on</u> a mass to move it from a point in the field to infinity — the potential therefore rises towards zero from negative values, so near a point mass it is <b>negative</b>."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "13.4.2"
+          ],
+          "marks": 2,
+          "answer": "φ = −GM/r, so M = −φr/G. From Fig. 1.1, at 1/r = 3.75×10⁻⁸ m⁻¹ the potential is φ = −2.2×10⁸ J kg⁻¹:<br>M = (2.2×10⁸/3.75×10⁻⁸)/6.67×10⁻¹¹ = <b>8.8×10²⁵ kg</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "13.2.2",
+            "13.2.3"
+          ],
+          "marks": 3,
+          "answer": "GMm/R² = mRω² with ω = 2π/T → R³ = GMT²/4π²<br>T = 0.72×24×3600 = 6.22×10⁴ s<br>R³ = 6.67×10⁻¹¹×8.8×10²⁵×(6.22×10⁴)²/4π² = 5.75×10²³<br>R = <b>8.3×10⁷ m</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "13.4.3"
+          ],
+          "marks": 3,
+          "answer": "Energy required = ΔGPE − KE = GMm/R − ½mv²<br>= 6.67×10⁻¹¹×8.8×10²⁵×1200/(8.3×10⁷) − ½×1200×8400²<br>= 8.49×10¹⁰ − 4.23×10¹⁰ = <b>4.3×10¹⁰ J</b>"
+        }
+      ]
+    },
+    {
+      "topic": "16",
+      "qnum": "Q2",
+      "title": "Ideal gas expansion — work done, temperature &amp; specific heat capacity",
+      "marks": 11,
+      "pages": [
+        6,
+        7
+      ],
+      "pdf": "9702_m24_qp_42_Q2_Thermodynamics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "16.1.1"
+          ],
+          "marks": 2,
+          "answer": "Internal energy is the sum of the randomly distributed kinetic energies and the potential energies of the molecules. For an ideal gas there are no intermolecular forces, so there is no potential energy — the internal energy is <b>the sum of the kinetic energies of the molecules only</b>."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "16.2.1"
+          ],
+          "marks": 2,
+          "answer": "W = pΔV = 1.01×10⁵ × 5.20×10⁻⁵ = <b>5.25 J</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "15.2.1",
+            "15.2.2"
+          ],
+          "marks": 2,
+          "answer": "At constant pressure V/T = constant. Final volume = 1.24×10⁻⁴ + 5.20×10⁻⁵ = 1.76×10⁻⁴ m³<br>T = 293 × (1.76×10⁻⁴/1.24×10⁻⁴) = <b>416 K</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "14.3.1"
+          ],
+          "marks": 2,
+          "answer": "c = E/(mΔT) = 960/(0.016×(420−293)) = <b>470 J kg⁻¹ K⁻¹</b> (the mark scheme also accepts 490 J kg⁻¹ K⁻¹ using the unrounded final temperature of 416 K)"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "16.2.2"
+          ],
+          "marks": 3,
+          "answer": "With the piston fixed there is no change in volume, so W = 0. The same temperature rise gives the same ΔU (the internal energy of an ideal gas depends only on temperature). From the first law ΔU = q + W, less energy by heating q is needed than in (b) (where the gas also did work), so c = q/(mΔT) is <b>less</b> than in (b)(iii)."
+        }
+      ]
+    },
+    {
+      "topic": "17",
+      "qnum": "Q3",
+      "title": "Object on an oscillating platform — angular frequency &amp; amplitude",
+      "marks": 7,
+      "pages": [
+        8,
+        9
+      ],
+      "pdf": "9702_m24_qp_42_Q3_Oscillations.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "17.2.2",
+            "17.1.1"
+          ],
+          "marks": 3,
+          "answer": "Distance travelled per oscillation = 4x₀ → x₀ = 14×10⁻³/4 = 3.5×10⁻³ m<br>E = ½mω²x₀² → ω² = 2E/(mx₀²) = 2×2.2×10⁻⁴/(0.024×(3.5×10⁻³)²) = 1.50×10³<br>ω = <b>39 rad s⁻¹</b>"
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "17.1.3"
+          ],
+          "marks": 2,
+          "answer": "The object loses contact when the maximum downward acceleration of the platform, ω²x₀, exceeds g:<br>x₀ = g/ω² = 9.81/39² = <b>6.4×10⁻³ m</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "17.1.3"
+          ],
+          "marks": 2,
+          "answer": "At the <b>top of the oscillation</b> — there the acceleration of the platform is a maximum downwards (a = −ω²x, magnitude ω²x₀). The object's maximum possible downward acceleration is g = 9.81 m s⁻², so it loses contact when ω²x₀ exceeds 9.81 m s⁻², i.e. first at the top of the oscillation."
+        }
+      ]
+    },
+    {
+      "topic": "21",
+      "qnum": "Q4",
+      "title": "Capacitor network — bridge rectifier, smoothing &amp; mean power",
+      "marks": 10,
+      "pages": [
+        10,
+        11
+      ],
+      "pdf": "9702_m24_qp_42_Q4_Alternating_currents.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "19.1.4"
+          ],
+          "marks": 2,
+          "answer": "10 μF and 20 μF in parallel give 30 μF; this is in series with the 45 μF capacitor:<br>1/C = 1/45 + 1/30 → C = <b>18 μF</b>"
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "19.2.2"
+          ],
+          "marks": 2,
+          "answer": "ΔE = ½C(V₂² − V₁²) = ½×45×10⁻⁶×(9.6² − 8.0²)<br>= ½×45×10⁻⁶×28.16 = <b>6.3×10⁻⁴ J</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "21.2.4"
+          ],
+          "marks": 1,
+          "answer": "Add a capacitor <b>in parallel with the load resistor</b>, i.e. connected directly across the two output terminals of the bridge rectifier, with wires completing the circuit."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "19.3.2",
+            "19.3.3"
+          ],
+          "marks": 3,
+          "answer": "From Fig. 4.3: V = 4.0 V at t = 5 ms and V = 3.2 V at t = 13 ms (a drop over 8 ms). Using V = V₀e^(−t/RC):<br>3.2 = 4.0e^(−0.008/RC)<br>RC = −0.008/ln(3.2/4.0) = <b>36 ms</b>"
+        },
+        {
+          "label": "(d)(i)",
+          "codes": [
+            "21.1.3"
+          ],
+          "marks": 1,
+          "answer": "Mean power = half the maximum power for a sinusoidal a.c.:<br>mean power = 16/2 = <b>8.0 W</b>"
+        },
+        {
+          "label": "(d)(ii)",
+          "codes": [
+            "21.1.3"
+          ],
+          "marks": 1,
+          "answer": "Half-wave rectification supplies power for only half of each cycle, so the mean power is half of the full-wave value:<br>mean power = 8.0/2 = <b>4.0 W</b>"
+        }
+      ]
+    },
+    {
+      "topic": "20",
+      "qnum": "Q5",
+      "title": "Alpha particle in a magnetic field — circular motion &amp; velocity selection",
+      "marks": 10,
+      "pages": [
+        12,
+        13
+      ],
+      "pdf": "9702_m24_qp_42_Q5_Magnetic_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "12.2.1"
+          ],
+          "marks": 2,
+          "answer": "Any two of: displacement; velocity; momentum; (centripetal) acceleration; (centripetal) force. Their magnitudes stay constant but their <b>directions vary continuously</b> during the motion (the speed and angular speed are constant)."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "20.3.2",
+            "20.3.5"
+          ],
+          "marks": 3,
+          "answer": "The magnetic force provides the centripetal force: Bqv = mv²/r. With v = 2πr/T:<br>Bq(2πr/T) = m(2πr/T)²/r<br>Bq(2πr/T) = m(4π²r/T²) → B = <b>2πm/(qT)</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "20.3.2"
+          ],
+          "marks": 2,
+          "answer": "For an alpha particle m = 4u = 4×1.66×10⁻²⁷ kg and q = 2e = 2×1.6×10⁻¹⁹ C:<br>B = 2π×4×1.66×10⁻²⁷/(2×1.6×10⁻¹⁹×2.5×10⁻⁶) = <b>0.052 T</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "20.3.5"
+          ],
+          "marks": 1,
+          "answer": "The periods are <b>the same</b> — T = 2πm/(Bq) is independent of the radius r (B, q and m are unchanged)."
+        },
+        {
+          "label": "(b)(iv)",
+          "codes": [
+            "20.3.6"
+          ],
+          "marks": 2,
+          "answer": "For constant velocity the electric force balances the magnetic force: qE = Bqv → E = Bv<br>E = 0.052×1.1×10⁶ = <b>5.7×10⁴ N C⁻¹</b> (equivalent to V m⁻¹)"
+        }
+      ]
+    },
+    {
+      "topic": "20",
+      "qnum": "Q6",
+      "title": "Coil in a solenoid — flux linkage, induced e.m.f. &amp; magnetic forces",
+      "marks": 11,
+      "pages": [
+        14,
+        15,
+        16
+      ],
+      "pdf": "9702_m24_qp_42_Q6_Magnetic_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "20.5.3"
+          ],
+          "marks": 1,
+          "answer": "A <b>non-zero horizontal straight line</b> from X to Y — the flux linkage is constant throughout the solenoid."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "20.5.3"
+          ],
+          "marks": 2,
+          "answer": "Inside the solenoid the magnetic field is uniform, so B is constant (and the area A and number of turns N are constant). Hence the flux linkage Φ = BAN is <b>constant</b>, giving the horizontal line."
+        },
+        {
+          "label": "(a)(iii)",
+          "codes": [
+            "20.5.3"
+          ],
+          "marks": 2,
+          "answer": "Φ = BAN, with A = 0.71 cm² = 7.1×10⁻⁵ m² and B = 0.080 T:<br>Φ = 0.080×7.1×10⁻⁵×64 = <b>3.6×10⁻⁴ Wb turns</b>"
+        },
+        {
+          "label": "(a)(iv)",
+          "codes": [
+            "20.5.5"
+          ],
+          "marks": 3,
+          "answer": "E = −dΦ/dt. Sketch: a horizontal line at <b>E = 0 from time 0 to time t</b> (B constant); a horizontal line at a <b>positive value of E from t to 2t</b> (B increasing at a steady rate); a horizontal line at a <b>negative value of E from 2t to 4t</b> (B decreasing). Lines of equal magnitude for the two non-zero sections are acceptable."
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "20.2.1",
+            "20.4.3"
+          ],
+          "marks": 3,
+          "answer": "When the supply is switched on a current flows through every turn of the spring, producing a magnetic field around each turn. The fields of adjacent turns exert forces on each other — turns carrying parallel currents in the same direction attract — so the turns are pulled together and the distance between them <b>decreases</b> (the spring shortens)."
+        }
+      ]
+    },
+    {
+      "topic": "22",
+      "qnum": "Q7",
+      "title": "Photon momentum &amp; the photoelectric effect — threshold wavelength",
+      "marks": 9,
+      "pages": [
+        17,
+        18
+      ],
+      "pdf": "9702_m24_qp_42_Q7_Quantum_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "22.1.5"
+          ],
+          "marks": 2,
+          "answer": "p = E/c = 3.11×10⁻¹⁹/3.00×10⁸ = <b>1.04×10⁻²⁷ N s</b>"
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "22.1.3"
+          ],
+          "marks": 2,
+          "answer": "E(photon) = hc/λ = 6.63×10⁻³⁴×3.00×10⁸/(640×10⁻⁹) = 3.11×10⁻¹⁹ J<br>N = Pt/E = 0.350×1.0/3.11×10⁻¹⁹ = <b>1.1×10¹⁸</b> photons"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "22.1.5"
+          ],
+          "marks": 2,
+          "answer": "Momentum of one photon p = E/c. In time t the laser emits N = Pt/E photons, so the total momentum delivered to the surface is NE/c = Pt/c. Force = rate of change of momentum = (Pt/c)/t, so F = <b>P/c</b>."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "22.2.2"
+          ],
+          "marks": 1,
+          "answer": "The threshold wavelength is the <b>maximum wavelength</b> of electromagnetic radiation that causes emission of electrons from the surface of the metal (the photon energy then equals the work function energy)."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "22.2.2",
+            "22.2.4"
+          ],
+          "marks": 2,
+          "answer": "The largest threshold wavelength corresponds to the smallest work function: potassium, Φ = 2.26 eV = 2.26×1.6×10⁻¹⁹ = 3.62×10⁻¹⁹ J<br>λ₀ = hc/Φ = 6.63×10⁻³⁴×3.00×10⁸/(3.62×10⁻¹⁹) = <b>5.50×10⁻⁷ m</b>"
+        }
+      ]
+    },
+    {
+      "topic": "23",
+      "qnum": "Q8",
+      "title": "Nuclear fission of uranium-235 — binding energy &amp; half-life",
+      "marks": 9,
+      "pages": [
+        19,
+        20
+      ],
+      "pdf": "9702_m24_qp_42_Q8_Nuclear_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "23.1.1"
+          ],
+          "marks": 2,
+          "answer": "The binding energy of a nucleus is the <b>minimum energy required to separate the nucleons</b> (protons and neutrons) of the nucleus to infinity — equivalently, the energy released when the nucleons come together to form the nucleus."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "23.1.2"
+          ],
+          "marks": 1,
+          "answer": "235 + 1 = 142 + 90 + n → n = <b>4</b> neutrons"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "23.1.1"
+          ],
+          "marks": 2,
+          "answer": "Energy released = (142×8.37 + 90×8.72) − (235×7.59)<br>= 1973 − 1784 = <b>190 MeV</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "23.1.1"
+          ],
+          "marks": 1,
+          "answer": "Xenon-142 has <b>too many neutrons</b> (it is neutron-rich), so the nucleus is unstable (alternatively: its binding energy per nucleon is too small)."
+        },
+        {
+          "label": "(b)(iv)",
+          "codes": [
+            "23.2.4",
+            "23.2.5"
+          ],
+          "marks": 3,
+          "answer": "Decayed:undecayed = 31:1, so the fraction undecayed N/N₀ = 1/32 = (½)⁵ — 5 half-lives have elapsed in 6.0 s:<br>t₁/₂ = 6.0/5 = <b>1.2 s</b>"
+        }
+      ]
+    },
+    {
+      "topic": "24",
+      "qnum": "Q9",
+      "title": "X-ray imaging &amp; ultrasound — attenuation and acoustic impedance",
+      "marks": 13,
+      "pages": [
+        21,
+        22,
+        23
+      ],
+      "pdf": "9702_m24_qp_42_Q9_Medical_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "24.2.1"
+          ],
+          "marks": 2,
+          "answer": "eV = hc/λ → λ = hc/(eV) = 6.63×10⁻³⁴×3.00×10⁸/(1.6×10⁻¹⁹×84×10³)<br>= <b>1.5×10⁻¹¹ m</b>"
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "24.2.1"
+          ],
+          "marks": 2,
+          "answer": "A large proportion of the kinetic energy of the electrons is converted to thermal energy in the target (and some X-rays are absorbed by it), so the target becomes very hot. Tungsten is used because its <b>high melting point</b> (3420 °C) prevents the target from melting."
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "24.2.3"
+          ],
+          "marks": 3,
+          "answer": "I = I₀e^(−μx): total attenuation coefficient μ = 0.22 + 3.0 = 3.22 cm⁻¹<br>0.13 = e^(−3.22x)<br>x = −ln(0.13)/3.22 = <b>0.63 cm</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "24.1.4"
+          ],
+          "marks": 2,
+          "answer": "The specific acoustic impedance Z of a medium is the <b>product of the density of the medium and the speed of ultrasound in the medium</b>: Z = ρc."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "24.1.5"
+          ],
+          "marks": 2,
+          "answer": "I_R/I₀ = (Z₂−Z₁)²/(Z₂+Z₁)² = (7.8−1.7)²/(7.8+1.7)² = 6.1²/9.5² = 0.41 (reflected)<br>fraction transmitted = 1 − 0.41 = <b>59%</b>"
+        },
+        {
+          "label": "(c)(iii)",
+          "codes": [
+            "24.1.3",
+            "24.1.6"
+          ],
+          "marks": 2,
+          "answer": "Any two of: the beam crosses more than one boundary (tissue–bone and bone–tissue), so there are <b>more reflections</b>, each reducing the transmitted intensity further; the ultrasound is <b>attenuated</b> (absorbed and scattered) as it travels through the matter."
+        }
+      ]
+    },
+    {
+      "topic": "25",
+      "qnum": "Q10",
+      "title": "The Sun &amp; a receding galaxy — radius, flux &amp; redshift",
+      "marks": 10,
+      "pages": [
+        24,
+        25
+      ],
+      "pdf": "9702_m24_qp_42_Q10_Astronomy_and_cosmology.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "25.2.2"
+          ],
+          "marks": 2,
+          "answer": "L = 4πσr²T⁴ → r² = L/(4πσT⁴)<br>r² = 3.85×10²⁶/(4π×5.67×10⁻⁸×5780⁴) = 4.84×10¹⁷<br>r = <b>6.96×10⁸ m</b>"
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "25.1.2"
+          ],
+          "marks": 2,
+          "answer": "F = L/(4πd²) = 3.85×10²⁶/(4π×(1.50×10¹¹)²) = <b>1.36×10³ W m⁻²</b>"
+        },
+        {
+          "label": "(a)(iii)",
+          "codes": [
+            "25.2.1",
+            "25.2.2"
+          ],
+          "marks": 2,
+          "answer": "A curve of the same black-body shape that is <b>always below</b> the Sun's curve (same radius but lower temperature gives lower luminosity) with its <b>peak intensity at a greater wavelength</b> (Wien's law: λ_max ∝ 1/T)."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "25.3.1"
+          ],
+          "marks": 1,
+          "answer": "The same pattern of five lines (at 397, 410, 434, 486 and 656 nm), all <b>shifted to longer wavelengths</b> by similar amounts (redshift)."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "25.3.2"
+          ],
+          "marks": 2,
+          "answer": "Lowest visible energy emission = the longest visible wavelength, 656 nm:<br>Δλ/λ = v/c → Δλ = 656×(21 400/300 000) = 46.8 nm<br>observed λ = 656 + 46.8 = <b>703 nm</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "25.2.1",
+            "25.3.3"
+          ],
+          "marks": 1,
+          "answer": "The value is <b>too low</b> — the observed wavelength is increased by the redshift, and Wien's law (λ_max ∝ 1/T) then gives a temperature that is too low."
+        }
+      ]
+    }
+  ]
+}

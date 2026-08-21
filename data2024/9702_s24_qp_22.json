@@ -1,0 +1,338 @@
+{
+  "paper": "9702/22/M/J/24",
+  "paper_full": "June 2024 · Paper 22",
+  "questions": [
+    {
+      "topic": "1",
+      "qnum": "Q1",
+      "title": "Solar panel light intensity — SI quantities, uncertainty &amp; efficiency",
+      "marks": 10,
+      "pages": [
+        4,
+        5
+      ],
+      "pdf": "9702_s24_qp_22_Q1_Physical_quantities_and_units.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "1.2.1"
+          ],
+          "marks": 1,
+          "answer": "<b>Charge</b> is not an SI base quantity — the SI base quantities are current, length and time (with mass, temperature, amount of substance and luminous intensity)."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "7.1.6",
+            "1.2.4"
+          ],
+          "marks": 3,
+          "answer": "Area A = (1300 × 10⁻³)² = 1.69 m²<br>I = P/A = 750 / 1.69 = <b>440 W m⁻²</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "1.3.3"
+          ],
+          "marks": 2,
+          "answer": "%unc(I) = %unc(P) + 2 × %unc(L)<br>= 3% + 2 × (5/1300) × 100%<br>= 3% + 0.8% = <b>3.8%</b> (mark scheme accepts ±4%)"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "5.1.4"
+          ],
+          "marks": 1,
+          "answer": "efficiency = useful output power / total input power = (160 / 750) × 100 = <b>21%</b>"
+        },
+        {
+          "label": "(b)(iv)",
+          "codes": [
+            "5.1.3",
+            "5.1.4"
+          ],
+          "marks": 3,
+          "answer": "The new panel has a <b>smaller area</b>, so with the same incident intensity its input (total) power is <b>less</b> than the original panel's. The useful power output is the same, so efficiency = useful output / total input is <b>greater</b> for the new panel."
+        }
+      ]
+    },
+    {
+      "topic": "3",
+      "qnum": "Q2",
+      "title": "Skydiver terminal velocity and parachute — acceleration &amp; momentum",
+      "marks": 10,
+      "pages": [
+        6,
+        7
+      ],
+      "pdf": "9702_s24_qp_22_Q2_Dynamics.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "3.2.3"
+          ],
+          "marks": 1,
+          "answer": "The curve becomes horizontal at the end, so the terminal velocity is <b>39 m s⁻¹</b>."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "2.1.5"
+          ],
+          "marks": 2,
+          "answer": "Draw the tangent to the curve at t = 9.0 s and measure its gradient:<br>a = Δv/Δt = (44 − 26) / (18 − 0) ≈ <b>1.0 m s⁻²</b> (0.9–1.1 m s⁻² accepted)."
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "3.1.2",
+            "3.1.6",
+            "3.2.1"
+          ],
+          "marks": 3,
+          "answer": "Resultant force = mg − F(drag) = 68 × 9.81 − 1800 = 667 − 1800 = −1133 N<br>a = ΣF/m = 1133 / 68 = <b>17 m s⁻²</b>, directed <b>upwards</b> (the drag force exceeds the weight, so the acceleration opposes the motion)."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "3.2.2"
+          ],
+          "marks": 2,
+          "answer": "Between t₂ and t₃ the speed decreases, so the drag force decreases; the resultant (upward) force therefore decreases, and the magnitude of the acceleration <b>decreases to zero</b> as the constant velocity of 5.7 m s⁻¹ is reached."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "3.1.3"
+          ],
+          "marks": 2,
+          "answer": "Δp = m(v − u) = 68 × (5.7 − 39) = 68 × (−33.3) = <b>−2.3 × 10³ N s</b> (magnitude 2300 N s)."
+        }
+      ]
+    },
+    {
+      "topic": "9",
+      "qnum": "Q3",
+      "title": "Lightning strike and copper rod — charge, power &amp; resistance",
+      "marks": 11,
+      "pages": [
+        8,
+        9
+      ],
+      "pdf": "9702_s24_qp_22_Q3_Electricity.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "9.1.3"
+          ],
+          "marks": 2,
+          "answer": "Q = It = 3.3 × 10⁴ × 2.6 × 10⁻⁵ = <b>0.86 C</b>"
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "9.2.3"
+          ],
+          "marks": 2,
+          "answer": "P = IV = 3.3 × 10⁴ × 3.0 × 10⁷ = 9.9 × 10¹¹ W = <b>990 GW</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "9.3.6"
+          ],
+          "marks": 3,
+          "answer": "R = ρL/A, with A = πr²<br>r = √(ρL/πR) = √(1.7 × 10⁻⁸ × 95 / (π × 9.6)) = √(5.36 × 10⁻⁸)<br>r = <b>2.3 × 10⁻⁴ m</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "9.3.6"
+          ],
+          "marks": 1,
+          "answer": "Doubling the radius quadruples the cross-sectional area A; since R = ρL/A, the resistance <b>decreases by a factor of 4</b> (to one quarter of its original value)."
+        },
+        {
+          "label": "(d)",
+          "codes": [
+            "6.1.5"
+          ],
+          "marks": 3,
+          "answer": "E = σ/ε and strain ε = x/L, so x = σL/E<br>x = 1.9 × 10⁶ × 0.12 / (1.3 × 10¹¹) = 2.28 × 10⁵ / 1.3 × 10¹¹ = <b>1.8 × 10⁻⁶ m</b>"
+        }
+      ]
+    },
+    {
+      "topic": "5",
+      "qnum": "Q4",
+      "title": "Pinball spring launch and trapdoor — energy &amp; moments",
+      "marks": 11,
+      "pages": [
+        10,
+        11
+      ],
+      "pdf": "9702_s24_qp_22_Q4_Work_energy_and_power.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "6.2.4"
+          ],
+          "marks": 2,
+          "answer": "E = ½kx² = ½ × 29 × (8.0 × 10⁻²)² = 14.5 × 6.4 × 10⁻³ = <b>9.3 × 10⁻² J</b>"
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "5.2.1"
+          ],
+          "marks": 3,
+          "answer": "ΔEₚ = mgΔh, with Δh = x sin 15° = 8.0 × 10⁻² × sin 15° = 2.07 × 10⁻² m<br>ΔEₚ = 4.5 × 10⁻² × 9.81 × 2.07 × 10⁻² = <b>9.1 × 10⁻³ J</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "5.2.2",
+            "5.1.2"
+          ],
+          "marks": 3,
+          "answer": "½mv² = E(elastic) − ΔEₚ = 9.3 × 10⁻² − 9.1 × 10⁻³ = 8.4 × 10⁻² J<br>v = √(2 × 8.4 × 10⁻² / 4.5 × 10⁻²) = √3.7 = <b>1.9 m s⁻¹</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "4.2.1",
+            "4.1.2"
+          ],
+          "marks": 2,
+          "answer": "Taking moments about the pivot, clockwise moments = anticlockwise moments:<br>1.7 × 2.0 × 10⁻² = 4.5 × 10⁻² × 9.81 × d<br>d = 0.034 / 0.441 = <b>7.7 × 10⁻² m</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "4.1.2"
+          ],
+          "marks": 1,
+          "answer": "The moment due to F decreases while the (opposing) moment due to the ball is unchanged, so the resultant moment about the pivot is <b>clockwise</b>."
+        }
+      ]
+    },
+    {
+      "topic": "10",
+      "qnum": "Q5",
+      "title": "Thermistor circuit — Kirchhoff's laws and potential divider",
+      "marks": 9,
+      "pages": [
+        12,
+        13
+      ],
+      "pdf": "9702_s24_qp_22_Q5_DC_circuits.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "10.2.2"
+          ],
+          "marks": 1,
+          "answer": "Kirchhoff's second law: the <b>sum of the electromotive forces (e.m.f.s) around a closed loop equals the sum of the potential differences around that loop</b> (conservation of energy)."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "9.3.2",
+            "10.2.3"
+          ],
+          "marks": 2,
+          "answer": "p.d. across X = E − Vᵧ = 9.0 − 4.0 = 5.0 V<br>R = V/I = 5.0 / (1.1 × 10⁻²) = <b>450 Ω</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "10.3.1",
+            "9.3.8"
+          ],
+          "marks": 3,
+          "answer": "From Fig. 5.2 at 190 °C, Rᵧ = 25 Ω. Using the potential-divider formula:<br>Vᵧ = E × Rᵧ/(Rᵧ + Rᵥ) = 9.0 × 25 / (25 + 450) = 225 / 475 = <b>0.47 V</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "10.2.3",
+            "9.3.2"
+          ],
+          "marks": 3,
+          "answer": "Increasing Rᵥ increases the total resistance of the series circuit, so the current in the circuit <b>decreases</b>. With V = IR and Rᵧ unchanged, the p.d. across Y therefore <b>decreases</b>."
+        }
+      ]
+    },
+    {
+      "topic": "8",
+      "qnum": "Q6",
+      "title": "Diffraction grating — number of bright fringes",
+      "marks": 6,
+      "pages": [
+        14,
+        15
+      ],
+      "pdf": "9702_s24_qp_22_Q6_Superposition.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "8.4.1"
+          ],
+          "marks": 3,
+          "answer": "d sin θ = nλ, with maximum order when sin θ = 1:<br>n(max) = d/λ = 3.8 × 10⁻⁶ / (520 × 10⁻⁹) = 7.31, so n = 7 on each side of the central maximum.<br>Total number of bright fringes = 7 + 1 + 7 = <b>15</b>"
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "7.1.4"
+          ],
+          "marks": 1,
+          "answer": "The frequency of red light is <b>less</b> than the frequency of the original light (c = fλ is constant and red light has a longer wavelength)."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "8.4.1",
+            "7.1.4"
+          ],
+          "marks": 2,
+          "answer": "Red light has a <b>longer wavelength</b>, so the maximum order n(max) = d/λ is smaller. The number of bright fringes formed is therefore <b>fewer</b>."
+        }
+      ]
+    },
+    {
+      "topic": "11",
+      "qnum": "Q7",
+      "title": "Mesons — quark composition and charge",
+      "marks": 3,
+      "pages": [
+        16
+      ],
+      "pdf": "9702_s24_qp_22_Q7_Particle_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "11.2.4"
+          ],
+          "marks": 1,
+          "answer": "A particle composed of one quark and one antiquark belongs to the class of <b>mesons</b> (also accepted: hadrons)."
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "11.2.2"
+          ],
+          "marks": 2,
+          "answer": "Q: strange quark has charge −⅓e; total charge −1e, so the second quark must be an antiquark of charge −⅔e — <b>anti-up</b> (or anti-charm or anti-top).<br>R: anti-up has charge −⅔e; total charge 0, so the second quark must have charge +⅔e — <b>up</b> (or charm or top)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "paper": "9702/42/M/J/24",
+  "paper_full": "June 2024 · Paper 42",
+  "questions": [
+    {
+      "topic": "12",
+      "qnum": "Q1",
+      "title": "Disc with modelling clay — angular speed &amp; centripetal acceleration",
+      "marks": 10,
+      "pages": [
+        4,
+        5
+      ],
+      "pdf": "9702_s24_qp_42_Q1_Motion_in_a_circle.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "12.1.1"
+          ],
+          "marks": 1,
+          "answer": "The angle subtended at the centre of a circle by an arc whose length is <b>equal to the radius</b>."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "12.1.3"
+          ],
+          "marks": 1,
+          "answer": "Draw an arrow labelled V from the modelling clay pointing in the <b>NE direction</b> — the velocity is tangential to the circular path (perpendicular to the radius of the disc)."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "12.2.1"
+          ],
+          "marks": 1,
+          "answer": "Draw an arrow labelled A from the modelling clay pointing in the <b>NW direction</b>, i.e. towards the centre of the disc (the direction of the centripetal acceleration)."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "12.1.3"
+          ],
+          "marks": 2,
+          "answer": "Distance of the clay from the axis: r = 9.3 − 1.2 = 8.1 cm = 8.1×10⁻² m<br>v = rω<br>ω = v/r = 0.68 / 8.1×10⁻² = <b>8.4 rad s⁻¹</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "12.2.3"
+          ],
+          "marks": 2,
+          "answer": "a = v²/r = 0.68² / 8.1×10⁻² = 0.4624 / 8.1×10⁻²<br>= <b>5.7 m s⁻²</b>"
+        },
+        {
+          "label": "(d)",
+          "codes": [
+            "12.1.3",
+            "12.2.3"
+          ],
+          "marks": 3,
+          "answer": "angular speed: <b>same for both pieces</b> — the disc is one rigid body, so every point has the same ω.<br>linear speed: <b>less for the second piece</b> — v = rω and the second piece is nearer the axis.<br>acceleration: <b>less for the second piece</b> — a = rω² and the second piece has the smaller radius."
+        }
+      ]
+    },
+    {
+      "topic": "15",
+      "qnum": "Q2",
+      "title": "Ideal gases in thermal equilibrium — temperature &amp; molecule count",
+      "marks": 10,
+      "pages": [
+        6,
+        7
+      ],
+      "pdf": "9702_s24_qp_42_Q2_Ideal_gases.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "14.1.2"
+          ],
+          "marks": 1,
+          "answer": "(If the objects are in thermal contact) there is <b>no net transfer of thermal energy</b> between them."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "15.2.2"
+          ],
+          "marks": 3,
+          "answer": "pV = nRT<br>T = (1.20×10⁵ × 0.0260) / (0.740 × 8.31) = 3120 / 6.15 = 507 K<br>θ = T − 273 = 507 − 273 = <b>234 °C</b> (shown)"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "15.2.2",
+            "14.1.2"
+          ],
+          "marks": 3,
+          "answer": "The samples are in thermal equilibrium, so the gas in Y has the same temperature as the gas in X: T = 507 K.<br>pV = NkT<br>N = (2.90×10⁵ × 0.0430) / (1.38×10⁻²³ × 507) = 12470 / 6.997×10⁻²¹<br>= <b>1.78×10²⁴</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "15.3.4",
+            "15.3.3"
+          ],
+          "marks": 3,
+          "answer": "The mean molecular kinetic energy is the same in both cylinders (equal temperatures), and kinetic energy ∝ mass × mean-square speed, i.e. mean-square speed ∝ 1/m.<br>Each molecule of gas in X has 4× the mass of a molecule in Y, so 〈c²〉 in X is ¼ of 〈c²〉 in Y.<br>Hence the r.m.s. speed in X is <b>half the r.m.s. speed in Y</b>."
+        }
+      ]
+    },
+    {
+      "topic": "16",
+      "qnum": "Q3",
+      "title": "Internal energy — heating a gas and stretching a wire",
+      "marks": 8,
+      "pages": [
+        8
+      ],
+      "pdf": "9702_s24_qp_42_Q3_Thermodynamics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "16.1.1"
+          ],
+          "marks": 2,
+          "answer": "The internal energy of a system is the <b>sum of the kinetic energies and potential energies</b> of its molecules — the total energy of the random motion of the particles of the system."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "16.1.1",
+            "16.1.2"
+          ],
+          "marks": 3,
+          "answer": "Heated at constant volume: the molecular separation does not change, so <b>the molecular potential energy is unchanged</b>.<br>The temperature increases, so <b>the molecular kinetic energy increases</b>.<br>Kinetic energy increases and potential energy is unchanged, so <b>the internal energy increases</b>."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "16.1.1",
+            "16.1.2"
+          ],
+          "marks": 3,
+          "answer": "Stretched within its elastic limit at constant temperature: the temperature is constant, so <b>the molecular kinetic energy is unchanged</b>.<br>The molecules are pulled further apart, so <b>the molecular potential energy increases</b>.<br>Potential energy increases and kinetic energy is unchanged, so <b>the internal energy increases</b>."
+        }
+      ]
+    },
+    {
+      "topic": "17",
+      "qnum": "Q4",
+      "title": "Block oscillating on a spring — simple harmonic motion &amp; energy",
+      "marks": 9,
+      "pages": [
+        9,
+        10
+      ],
+      "pdf": "9702_s24_qp_42_Q4_Oscillations.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "17.1.3"
+          ],
+          "marks": 2,
+          "answer": "Fig. 4.2 is a straight line through the origin, showing that <b>a is proportional to x</b>; its negative gradient shows that <b>a and x are always in opposite directions</b>, i.e. a = −ω²x."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "17.1.3"
+          ],
+          "marks": 1,
+          "answer": "a = −ω²x with x0 = 3Y and a_max = 2A:<br>2A = ω²(3Y)<br>ω = <b>√(2A/3Y)</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "17.1.4"
+          ],
+          "marks": 2,
+          "answer": "v0 = ωx0 = √(2A/3Y) × 3Y<br>= <b>√(6AY)</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "17.2.2"
+          ],
+          "marks": 2,
+          "answer": "E = ½mω²x0² = ½m × (2A/3Y) × (3Y)²<br>= ½m × 6AY = <b>3mAY</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "17.1.1",
+            "17.1.3"
+          ],
+          "marks": 2,
+          "answer": "ω = 2π/T = 2π/0.75 = 8.4 rad s⁻¹; amplitude x0 = 3Y = 1.8 cm<br>x = x0 sin ωt<br>x = <b>1.8 sin (8.4t)</b> (x in cm, t in s)"
+        }
+      ]
+    },
+    {
+      "topic": "18",
+      "qnum": "Q5",
+      "title": "Electric potential of two charged spheres — proton at rest",
+      "marks": 7,
+      "pages": [
+        11,
+        12
+      ],
+      "pdf": "9702_s24_qp_42_Q5_Electric_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "18.5.1"
+          ],
+          "marks": 2,
+          "answer": "The <b>work done per unit positive charge</b><br>in bringing a small test charge from infinity to the point."
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "18.5.3",
+            "18.3.1"
+          ],
+          "marks": 3,
+          "answer": "Any three of:<br>the radius of sphere X is <b>0.30 m</b> (V → ∞ as x → 0.30 m)<br>the radius of sphere Y is <b>0.10 m</b> (V → ∞ as x → 1.10 m)<br>both spheres are <b>positively charged</b> (V is positive throughout)<br>the charges on the spheres have the <b>same magnitude</b> (V is a minimum at the midpoint x = 0.60 m)"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "18.3.2",
+            "18.5.4"
+          ],
+          "marks": 2,
+          "answer": "The proton <b>remains at rest</b>.<br>At x = 0.60 m the electric forces from the two spheres are equal and opposite (equal charges at equal distances), so the resultant force on the proton is zero — equivalently, its electric potential energy is already at its minimum there."
+        }
+      ]
+    },
+    {
+      "topic": "19",
+      "qnum": "Q6",
+      "title": "Capacitors in series and parallel — stored energy variation",
+      "marks": 10,
+      "pages": [
+        13,
+        14
+      ],
+      "pdf": "9702_s24_qp_42_Q6_Capacitance.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "19.1.3"
+          ],
+          "marks": 3,
+          "answer": "In series the same charge Q is stored on both capacitors (the charging current is the same), and the total p.d. is the sum of the p.d.s: V = VX + VY.<br>V = Q/C, so Q/CT = Q/CX + Q/CY, hence<br><b>1/CT = 1/CX + 1/CY</b>"
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "19.2.2"
+          ],
+          "marks": 2,
+          "answer": "E = ½CV²<br>V = √(2E/C) = √(2 × 2.5×10⁻³ / 200×10⁻⁶) = √25<br>= <b>5.0 V</b> (shown)"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "19.1.4",
+            "19.2.2"
+          ],
+          "marks": 3,
+          "answer": "Total capacitance = CP + CQ = 200 + 400 = 600 μF<br>E = ½CV² = ½ × 600×10⁻⁶ × 5.0² = 7.5×10⁻³ J<br>= <b>7.5 mJ</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "19.1.4",
+            "19.2.2"
+          ],
+          "marks": 2,
+          "answer": "E = ½V²(CP + CQ), so E increases linearly with CQ.<br>Draw a <b>straight line of positive gradient</b> starting at (0, 2.5 mJ) and passing through (400 μF, 7.5 mJ)."
+        }
+      ]
+    },
+    {
+      "topic": "20",
+      "qnum": "Q7",
+      "title": "Coil in varying magnetic field — flux linkage &amp; induced e.m.f.",
+      "marks": 14,
+      "pages": [
+        15,
+        16
+      ],
+      "pdf": "9702_s24_qp_42_Q7_Magnetic_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "20.5.5"
+          ],
+          "marks": 2,
+          "answer": "The induced e.m.f. is <b>(directly) proportional to the rate of change of magnetic flux linkage</b>."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "20.5.2"
+          ],
+          "marks": 2,
+          "answer": "Maximum B read from Fig. 7.2 = 7.2 mT<br>Φ = BA = 7.2×10⁻³ × 3.2×10⁻⁴<br>= <b>2.3×10⁻⁶ Wb</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "20.5.5",
+            "20.5.4"
+          ],
+          "marks": 3,
+          "answer": "The e.m.f. is proportional to the gradient of the B–t graph. A tangent drawn at the steepest point of Fig. 7.2 gives dB/dt ≈ 7.5 mT ms⁻¹ = 7.5 T s⁻¹.<br>Maximum rate of change of flux linkage = N × A × (dB/dt) = 340 × 3.2×10⁻⁴ × 7.5<br>= <b>0.82 Wb s⁻¹</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "20.5.5"
+          ],
+          "marks": 1,
+          "answer": "By Faraday's law the induced e.m.f. equals the rate of change of flux linkage, so<br>V0 = <b>0.82 V</b>"
+        },
+        {
+          "label": "(b)(iv)",
+          "codes": [
+            "20.5.5"
+          ],
+          "marks": 3,
+          "answer": "Sketch a <b>sinusoidal curve of period 2.0 ms</b> from t = 0 to t = 6.0 ms:<br>all peaks at +V0 (t ≈ 0.5, 2.5, 4.5 ms) and all troughs at −V0 (t ≈ 1.5, 3.5, 5.5 ms)<br>V = 0 at (and only at) t = 0, 1.0, 2.0, 3.0, 4.0, 5.0 and 6.0 ms."
+        },
+        {
+          "label": "(b)(v)",
+          "codes": [
+            "20.5.5"
+          ],
+          "marks": 3,
+          "answer": "A = amplitude of the induced e.m.f. = V0<br>A = <b>0.82 V</b><br>B = angular frequency = 2π/T = 2π/(2.0×10⁻³)<br>B = <b>3.1×10³ rad s⁻¹</b>"
+        }
+      ]
+    },
+    {
+      "topic": "25",
+      "qnum": "Q8",
+      "title": "Hydrogen spectrum from a receding galaxy — redshift &amp; Hubble distance",
+      "marks": 12,
+      "pages": [
+        17,
+        18
+      ],
+      "pdf": "9702_s24_qp_42_Q8_Astronomy_and_cosmology.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "25.3.1",
+            "25.3.2"
+          ],
+          "marks": 2,
+          "answer": "The motion of the galaxy away from the Earth causes a <b>redshift</b>: the observed frequency of the lines is lower (and the observed wavelength longer) than the emitted values, so all the lines are shifted towards the red (low-frequency) end of the spectrum."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "25.3.1"
+          ],
+          "marks": 2,
+          "answer": "Draw the three lines <b>to the left of the corresponding printed lines</b>, with each drawn line displaced from its printed line by approximately the same distance (same Δλ/λ for all three lines)."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "22.1.3"
+          ],
+          "marks": 2,
+          "answer": "E = hf = hc/λ = (6.63×10⁻³⁴ × 3.00×10⁸) / (488×10⁻⁹)<br>= <b>4.08×10⁻¹⁹ J</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "22.4.3",
+            "22.1.4"
+          ],
+          "marks": 2,
+          "answer": "Photon energy = 4.08×10⁻¹⁹ / 1.60×10⁻¹⁹ = 2.55 eV<br>hf = E1 − E2, so E1 = −3.40 + 2.55<br>= <b>−0.85 eV</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "25.3.2"
+          ],
+          "marks": 2,
+          "answer": "Δλ/λ = v/c<br>Δλ = λv/c = (488 × 6.2×10⁶) / 3.00×10⁸ = 10.1 ≈ 10 nm<br>Observed wavelength = 488 + 10<br>= <b>498 nm</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "25.3.4"
+          ],
+          "marks": 2,
+          "answer": "v = H0d<br>d = v/H0 = 6.2×10⁶ / 2.3×10⁻¹⁸<br>= <b>2.7×10²⁴ m</b>"
+        }
+      ]
+    },
+    {
+      "topic": "23",
+      "qnum": "Q9",
+      "title": "Binding energy of polonium-212 — mass defect &amp; alpha-decay energy",
+      "marks": 13,
+      "pages": [
+        19,
+        20
+      ],
+      "pdf": "9702_s24_qp_42_Q9_Nuclear_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "23.1.1"
+          ],
+          "marks": 2,
+          "answer": "The binding energy of a nucleus is the <b>energy required to separate all the nucleons</b> in the nucleus <b>to infinity</b> (so that they are no longer interacting)."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "23.1.1"
+          ],
+          "marks": 3,
+          "answer": "Po-212 has Z = 84, so 84 protons and 212 − 84 = 128 neutrons.<br>Δm = (84 × 1.007276 + 128 × 1.008665) − 211.942749<br>= 213.7203 − 211.9427 = 1.778 u<br>= 1.778 × 1.66×10⁻²⁷<br>= <b>2.95×10⁻²⁷ kg</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "23.1.1"
+          ],
+          "marks": 2,
+          "answer": "E = Δmc² = 2.95×10⁻²⁷ × (3.00×10⁸)²<br>= <b>2.66×10⁻¹⁰ J</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "23.1.1"
+          ],
+          "marks": 1,
+          "answer": "Binding energy per nucleon = 2.66×10⁻¹⁰ / 212<br>= <b>1.25×10⁻¹² J</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "23.1.1"
+          ],
+          "marks": 2,
+          "answer": "Sketch a curve that <b>rises steeply from A = 1</b> to a single peak at about A = 50–60, then <b>decreases continuously</b> with a shallow negative gradient towards A = 250."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "23.1.1"
+          ],
+          "marks": 1,
+          "answer": "Place an X on the curve on the <b>right-hand descending branch</b>, at A ≈ 212 (to the right of the peak)."
+        },
+        {
+          "label": "(c)(iii)",
+          "codes": [
+            "23.1.1"
+          ],
+          "marks": 2,
+          "answer": "The daughter nucleus has a lower nucleon number than polonium-212, so, reading from Fig. 9.1, it has a <b>greater binding energy per nucleon</b> (it lies further up the curve).<br>Energy is released because the products of the decay are more tightly bound, so <b>the alpha-decay releases energy</b>."
+        }
+      ]
+    },
+    {
+      "topic": "24",
+      "qnum": "Q10",
+      "title": "Ultrasound imaging — acoustic impedance &amp; intensity reflection coefficient",
+      "marks": 7,
+      "pages": [
+        21,
+        22
+      ],
+      "pdf": "9702_s24_qp_42_Q10_Medical_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "24.1.3"
+          ],
+          "marks": 2,
+          "answer": "The time between emission and detection of a reflected pulse gives <b>the depth (position) of the boundary</b> between the two tissues.<br>The intensity (amplitude) of the reflected pulse gives <b>information about the nature of the boundary</b> (the acoustic-impedance mismatch, and hence the different tissues involved)."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "24.1.4"
+          ],
+          "marks": 2,
+          "answer": "The specific acoustic impedance of a medium is the <b>product of the density of the medium and the speed of (ultra)sound in the medium</b>: Z = ρc."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "24.1.5"
+          ],
+          "marks": 3,
+          "answer": "Z_water = 1000 × 1420 = 1.42×10⁶ kg m⁻² s⁻¹<br>Z_glass = 2500 × 4560 = 11.4×10⁶ kg m⁻² s⁻¹<br>IR/I0 = (Z2 − Z1)² / (Z2 + Z1)² = (11.4 − 1.42)² / (11.4 + 1.42)²<br>= 9.98² / 12.82² = 99.6 / 164.4<br>= <b>0.61</b>"
+        }
+      ]
+    }
+  ]
+}

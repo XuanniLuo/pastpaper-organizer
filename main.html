@@ -30,10 +30,14 @@ body {
   border-bottom: 2px solid #d3cec5;
 }
 .header h1 {
-  font-size: 24px;
-  font-weight: 800;
+  font-family: "Didot", "Bodoni 72", "Playfair Display", Georgia, serif;
+  font-style: italic;
+  font-size: 46px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
   color: #403d38;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.06);
 }
 .header p {
   color: #a19b90;
@@ -1151,11 +1155,163 @@ body {
   color: #a19b90;
   margin-right: 5px;
 }
+
+/* ---- Night (dark) theme — toggle with the moon button, persisted in localStorage ---- */
+.theme-toggle {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 1500;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid #dbd7cf;
+  background: #f7f5f1;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform 0.15s, background 0.15s, border-color 0.15s;
+}
+.theme-toggle:hover { transform: translateY(-2px); }
+
+body.dark { background: #24221e; color: #cfc9bc; }
+body.dark .watermark text { fill: #8a8478; }
+body.dark .theme-toggle { background: #312e28; border-color: #423e36; }
+body.dark .header { border-bottom-color: #423e36; }
+body.dark .header h1 { color: #e7e3d8; }
+body.dark .header p { color: #8d877b; }
+body.dark .topic-card { background: #2e2b26; border-color: #423e36; box-shadow: 0 1px 3px rgba(0,0,0,0.35); }
+body.dark .topic-header:hover { background: #35322c; }
+body.dark .topic-name { color: #e7e3d8; }
+body.dark .topic-count { color: #8d877b; }
+body.dark .topic-count .q-count { color: #9fb0ba; }
+body.dark .sub-list { background: #2a2823; }
+body.dark .sub-card { background: #312e28; border-color: #423e36; }
+body.dark .sub-code { background: #35322c; color: #b8c4cb; }
+body.dark .sub-name { color: #d5cfc2; }
+body.dark .subsub-item { background: #312e28; border-color: #423e36; color: #b3ada1; }
+body.dark .subsub-item.clickable:hover { background: #35322c; border-color: #56626b; }
+body.dark .subsub-item.clickable:hover { background: #35322c; }
+body.dark .subsub-code { color: #9fb0ba; background: #35322c; }
+body.dark .subsub-desc { color: #b3ada1; }
+body.dark .question-panel { background: #2a2823; border-color: #423e36; }
+body.dark .q-card { background: #312e28; border-color: #423e36; }
+body.dark .q-meta { color: #8d877b; }
+body.dark .q-tag.paper { background: #333a3e; color: #9db6c4; }
+body.dark .q-tag.qnum { background: #2f3329; color: #a9bd93; }
+body.dark .q-tag.multi { background: #353127; color: #cfae7a; }
+body.dark .q-paper-full { color: #8d877b; }
+body.dark .answer-btn { background: #35322c; border-color: #423e36; color: #cfc9bc; }
+body.dark .answer-btn:hover { background: #333a3e; border-color: #56626b; color: #9fb0ba; }
+body.dark .answer-reveal { background: #2a2823; border-color: #423e36; color: #cfc9bc; }
+body.dark .answer-reveal .answer-letter { background: #94a5af; color: #24221e; }
+body.dark .q-related { background: #2a2823; }
+body.dark .q-related-tag { background: #35322c; color: #9fb0ba; }
+body.dark .q-pager-btn { background: #312e28; border-color: #423e36; color: #cfc9bc; }
+body.dark .q-pager-btn:hover:not(:disabled) { background: #35322c; border-color: #56626b; }
+body.dark .q-pager-tab { background: #312e28; border-color: #423e36; color: #b3ada1; }
+body.dark .q-pager-tab.active { background: #94a5af; border-color: #94a5af; color: #24221e; }
+body.dark .q-pager-tab-season { color: #8d877b; }
+body.dark .pdf-fallback a { color: #9fb0ba; }
+body.dark .footer { color: #6e695f; }
+body.dark .gp-corner { color: #8d877b; }
+body.dark .gp-head, body.dark .gp-year { background: #312e28; border-color: #423e36; color: #e7e3d8; }
+body.dark .gp-head span { color: #8d877b; }
+body.dark .gp-cell { background: #2b2924; border-color: #423e36; color: #6e695f; }
+body.dark .gp-cell.available { background: #312e28; border-color: #56626b; color: #e7e3d8; }
+body.dark .gp-cell.available .gp-count { color: #9fb0ba; }
+body.dark .gp-cell.available:hover { border-color: #94a5af; box-shadow: 0 6px 14px rgba(0,0,0,0.35); }
+body.dark .gp-dl { background: #333a3e; border-color: #4a565e; color: #9fb0ba; }
+body.dark .gp-dl:hover { background: #94a5af; border-color: #94a5af; color: #24221e; }
+body.dark .selection-bar { background: #2e2b26; border-color: #423e36; }
+body.dark .selection-label { color: #e7e3d8; }
+body.dark .selection-change-btn { background: #312e28; border-color: #56626b; color: #9fb0ba; }
+body.dark .selection-change-btn:hover { background: #94a5af; border-color: #94a5af; color: #24221e; }
+body.dark #grid-toast { background: #e7e3d8; color: #24221e; box-shadow: 0 6px 18px rgba(0,0,0,0.45); }
+body.dark .coming-soon { background: #2e2b26; border-color: #423e36; color: #8d877b; }
+body.dark .p2-q-card { background: #312e28; border-color: #423e36; }
+body.dark .p2-q-title { color: #e7e3d8; }
+body.dark .p2-q-marks { background: #35322c; color: #9fb0ba; }
+body.dark .p2-part { background: #2e2b26; border-color: #423e36; }
+body.dark .p2-q-meta { color: #8d877b; }
+body.dark .p2-part-label { color: #cfc9bc; }
+body.dark .p2-part-marks { color: #8d877b; }
+body.dark .p2-answer-btn { background: #35322c; border-color: #423e36; color: #9fb0ba; }
+body.dark .p2-answer-btn:hover { background: #333a3e; border-color: #56626b; }
+body.dark .p2-answer-reveal { background: #2a2823; border-color: #423e36; color: #cfc9bc; }
+body.dark .p2-answer-reveal b { color: #c9d6dd; }
+body.dark .q-card.marked-green, body.dark .p2-q-card.marked-green { border-left-color: #7e9c84; background: #2a3026; }
+body.dark .q-card.marked-yellow, body.dark .p2-q-card.marked-yellow { border-left-color: #c2a878; background: #322e22; }
+body.dark .q-card.marked-red, body.dark .p2-q-card.marked-red { border-left-color: #8a6258; background: #322825; }
+body.dark .mark-dot.active { box-shadow: 0 0 0 2px #24221e, 0 0 0 4px currentColor; }
+body.dark .mark-panel { background: #2e2b26; border-color: #423e36; }
+body.dark .mark-panel-btn { background: #35322c; border-color: #423e36; color: #b3ada1; }
+body.dark .mark-panel-btn:hover { background: #333a3e; border-color: #56626b; color: #9fb0ba; }
+body.dark .mark-panel-btn.danger { background: #322825; border-color: #6b4c44; color: #c39a8e; }
+body.dark .mark-panel-btn.danger:hover { background: #3a2e2a; border-color: #8a6258; }
+body.dark .timer-badge { background: #35322c; color: #8d877b; }
+body.dark .timer-badge.timer-running { background: #333a3e; color: #9fb0ba; }
+body.dark .dashboard-fab { background: #312e28; border-color: #423e36; color: #cfc9bc; }
+body.dark .dashboard-fab:hover { background: #35322c; border-color: #56626b; }
+body.dark .dashboard-modal { background: rgba(20,18,15,0.6); }
+body.dark .dashboard-modal-box { background: #2a2823; }
+body.dark .dashboard-modal-header { color: #e7e3d8; border-bottom-color: #423e36; }
+body.dark .dashboard-modal-close { color: #8d877b; }
+body.dark .dashboard-modal-close:hover { background: #35322c; color: #e7e3d8; }
+body.dark .dash-section { background: #312e28; border-color: #423e36; }
+body.dark .dash-section-title { color: #e7e3d8; }
+body.dark .dash-section-overall { color: #9fb0ba; }
+body.dark .dash-subheading { color: #8d877b; }
+body.dark .dash-tile-label { color: #cfc9bc; }
+body.dark .dash-tile-sub { color: #8d877b; }
+body.dark .dash-ring-hole { background: #312e28; }
+body.dark .dash-empty { color: #8d877b; }
+body.dark .syl-topic { background: #312e28; border-color: #423e36; }
+body.dark .syl-topic-title { color: #e7e3d8; }
+body.dark .syl-sub-title { color: #cfc9bc; }
+body.dark .syl-subsub-item { color: #b3ada1; }
+body.dark .syl-subsub-code { color: #9fb0ba; }
+.gen-choice-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  margin-bottom: 8px;
+  border: 1px solid #dbd7cf;
+  border-radius: 10px;
+  background: #f7f5f1;
+  cursor: pointer;
+  transition: border-color 0.15s, transform 0.15s, background 0.15s;
+}
+.gen-choice-row:hover { border-color: #7c8d97; transform: translateY(-1px); }
+.gen-choice-row.disabled { opacity: 0.45; cursor: not-allowed; }
+.gen-choice-row.disabled:hover { border-color: #dbd7cf; transform: none; }
+.gen-choice-label { font-weight: 800; color: #403d38; font-size: 14px; }
+.gen-choice-sub { font-size: 12px; color: #a19b90; }
+.gen-note { font-size: 12px; color: #a19b90; margin-top: 4px; line-height: 1.6; }
+body.dark .gen-choice-row { background: #312e28; border-color: #423e36; }
+body.dark .gen-choice-row:hover { border-color: #94a5af; }
+body.dark .gen-choice-row.disabled:hover { border-color: #423e36; }
+body.dark .gen-choice-label { color: #e7e3d8; }
+body.dark .subsub-item-hot { background: #332d20; border-color: #6b5c3a; }
+body.dark .subsub-item-hot.clickable:hover { background: #3a3324; border-color: #8a764b; }
+body.dark .subsub-item-superhot { background: #332722; border-color: #7a5148; box-shadow: 0 0 0 3px #3d2c28; }
+body.dark .subsub-item-superhot.clickable:hover { background: #3b2b26; border-color: #8a6258; }
+body.dark .subsub-item-superhot .subsub-desc { color: #d9b3a5; }
+body.dark .subsub-badge { background: #35322c; color: #8d877b; }
+body.dark .subsub-badge.active { background: #94a5af; color: #24221e; }
+body.dark .q-card-multi { box-shadow: 0 0 0 3px #423e36; }
+body.dark .diff-badge.diff-estimated { border-color: rgba(255,255,255,0.45); }
+body.dark .pdf-container { background: #2e2b26; border-color: #423e36; }
+body.dark .pdf-container embed { filter: invert(0.9) hue-rotate(180deg); }
+body.dark .pdf-fallback { color: #8d877b; }
 </style>
 <base target="_blank">
 <base target="_blank">
 </head>
 <body>
+<script>try{if(localStorage.getItem('ppTheme')==='dark')document.body.classList.add('dark');}catch(e){}</script>
 
 <svg class="watermark" xmlns="http://www.w3.org/2000/svg">
   <defs>
@@ -1168,8 +1324,8 @@ body {
 </svg>
 
 <div class="header">
-  <h1>9702 Past Paper Organizer</h1>
-  <p>luoxuanni98@gmail.com (update: 21 Aug.)</p>
+  <h1>9702 Past Paper Question Organizer</h1>
+  <p>luoxuanni98@gmail.com (update: 22 Aug.)</p>
   </div>
 
 <div class="mark-panel">
@@ -1186,10 +1342,15 @@ body {
   </div>
 </div>
 
+<!-- temporarily removed (2026-08-22): Dashboard / Syllabus / Revision Notes / Study Guides buttons -->
+<!--
 <button type="button" id="dashboard-fab" class="dashboard-fab">Dashboard</button>
 <button type="button" id="syllabus-fab" class="dashboard-fab" style="top:66px;">Syllabus</button>
 <a href="revision-notes.html" id="revision-notes-fab" class="dashboard-fab" style="left:auto;right:16px;text-decoration:none;display:inline-block;">Revision Notes</a>
 <a href="study-guides.html" id="study-guides-fab" class="dashboard-fab" style="left:auto;right:16px;top:66px;text-decoration:none;display:inline-block;">Study Guides</a>
+-->
+<button type="button" id="theme-toggle" class="theme-toggle" title="Toggle night mode">&#127769;</button>
+<button type="button" id="generate-fab" class="dashboard-fab" style="left:auto;right:16px;top:66px;">&#127922; Practice Paper</button>
 
 <!-- Year × Paper selection grid: pick a year row and a paper column to open that set -->
 <div class="year-paper-grid" id="year-paper-grid">
@@ -1299,9 +1460,33 @@ body {
   </div>
 </div>
 
+<div class="dashboard-modal" id="gen-modal">
+  <div class="dashboard-modal-box" style="max-width:440px;">
+    <div class="dashboard-modal-header">
+      <span>Generate a practice paper</span>
+      <button type="button" id="gen-close-btn" class="dashboard-modal-close">&#10005;</button>
+    </div>
+    <div id="gen-choices"></div>
+    <div class="gen-note">Questions are drawn from all years (2024–2026) with balanced topic coverage and difficulty mix. Two PDFs download automatically: the question paper and its answer paper. Questions keep their original numbering.</div>
+  </div>
+</div>
 <div class="footer">Based on Cambridge International AS &amp; A Level Physics (9702) Syllabus</div>
 
 <script>
+// ---- Theme toggle (light / night) ----
+var themeToggleBtn = document.getElementById('theme-toggle');
+function applyTheme(mode) {
+  document.body.classList.toggle('dark', mode === 'dark');
+  if (themeToggleBtn) themeToggleBtn.textContent = mode === 'dark' ? '\u2600\uFE0F' : '\uD83C\uDF19';
+  try { localStorage.setItem('ppTheme', mode); } catch (e) {}
+}
+if (themeToggleBtn) {
+  themeToggleBtn.addEventListener('click', function() {
+    applyTheme(document.body.classList.contains('dark') ? 'light' : 'dark');
+  });
+  applyTheme(document.body.classList.contains('dark') ? 'dark' : 'light');
+}
+
 // ---- Year × Paper grid selection ----
 // Clicking a cell picks the year and the paper at once, then opens the
 // topic 1-11 list for that set. Cells without data yet show a toast.
@@ -8537,5 +8722,342 @@ function renderDashboard() {
 document.addEventListener('DOMContentLoaded', renderDashboard);
 </script>
 
+
+<script>
+// ============================================================
+// PRACTICE PAPER GENERATOR — picks questions from the sliced
+// pools (all years) with balanced topics + difficulty, then
+// merges them into a question PDF and an answer PDF (pdf-lib).
+// Needs the folder served over http (double-click start.command).
+// ============================================================
+var genFab = document.getElementById('generate-fab');
+var genModal = document.getElementById('gen-modal');
+var genChoices = document.getElementById('gen-choices');
+var genCloseBtn = document.getElementById('gen-close-btn');
+var genLibs = null;
+
+var GEN_TYPES = [
+  { key: '1', label: 'Paper 1 — Multiple choice', sub: '40 questions · AS topics 1–11', enabled: true },
+  { key: '2', label: 'Paper 2 — AS structured', sub: '≈60 marks · AS topics 1–11', enabled: true },
+  { key: '3', label: 'Paper 3 — Advanced practical', sub: 'not included in the organizer yet', enabled: false },
+  { key: '4', label: 'Paper 4 — A2 structured', sub: '≈100 marks · A2 topics 12–25', enabled: true },
+  { key: '5', label: 'Paper 5 — Planning & analysis', sub: '30 marks · 2 questions', enabled: true }
+];
+
+function ensureLibs() {
+  if (genLibs) return genLibs;
+  genLibs = new Promise(function(res) {
+    var s1 = document.createElement('script');
+    s1.src = 'pdf-lib.min.js';
+    s1.onload = function() {
+      var s2 = document.createElement('script');
+      s2.src = 'gen-fonts.js';
+      s2.onload = function() { res(); };
+      s2.onerror = function() { showToast('gen-fonts.js missing — fonts unavailable'); res(); };
+      document.head.appendChild(s2);
+    };
+    s1.onerror = function() { showToast('pdf-lib.min.js missing'); genLibs = null; };
+    document.head.appendChild(s1);
+  });
+  return genLibs;
+}
+
+if (genFab) {
+  genFab.addEventListener('click', function() {
+    var rows = GEN_TYPES.map(function(t) {
+      var div = document.createElement('div');
+      div.className = 'gen-choice-row' + (t.enabled ? '' : ' disabled');
+      div.innerHTML = '<div><div class="gen-choice-label">' + t.label + '</div>' +
+        '<div class="gen-choice-sub">' + t.sub + '</div></div>';
+      if (t.enabled) {
+        div.addEventListener('click', function() { genModal.classList.remove('open'); generatePaper(t.key); });
+      } else {
+        div.addEventListener('click', function() { showToast(t.label + ' — coming soon (not in the organizer yet)'); });
+      }
+      return div;
+    });
+    genChoices.innerHTML = '';
+    rows.forEach(function(r) { genChoices.appendChild(r); });
+    genModal.classList.add('open');
+  });
+}
+if (genCloseBtn) genCloseBtn.addEventListener('click', function() { genModal.classList.remove('open'); });
+if (genModal) genModal.addEventListener('click', function(e) { if (e.target === genModal) genModal.classList.remove('open'); });
+
+// ---- helpers ----
+function shuffle(arr) {
+  for (var i = arr.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var t = arr[i]; arr[i] = arr[j]; arr[j] = t;
+  }
+  return arr;
+}
+function pickBalanced(items, n) {
+  var buckets = { easy: [], medium: [], difficult: [], unknown: [] };
+  items.forEach(function(q) {
+    var d = (typeof getDifficulty === 'function' && getDifficulty(q.paper, q.qnum)) || 'unknown';
+    buckets[d].push(q);
+  });
+  ['easy', 'medium', 'difficult', 'unknown'].forEach(function(k) { shuffle(buckets[k]); });
+  var live = ['easy', 'medium', 'difficult', 'unknown'].filter(function(k) { return buckets[k].length > 0; });
+  var chosen = [];
+  var i = 0;
+  while (chosen.length < n && live.length) {
+    var k = live[i % live.length];
+    var q = buckets[k].shift();
+    if (q) chosen.push(q);
+    if (!buckets[k].length) { live.splice(i % live.length, 1); }
+    else { i++; }
+  }
+  return chosen;
+}
+function mcqPool() {
+  var pool = [];
+  Object.keys(questionData).forEach(function(code) {
+    questionData[code].forEach(function(q) { pool.push({ paper: q.paper, paper_full: q.paper_full, qnum: q.qnum, pdf: q.pdf, code: code }); });
+  });
+  if (typeof questionData2026 !== 'undefined') {
+    Object.keys(questionData2026).forEach(function(code) {
+      questionData2026[code].forEach(function(q) { pool.push({ paper: q.paper, paper_full: q.paper_full, qnum: q.qnum, pdf: q.pdf, code: code }); });
+    });
+  }
+  return pool;
+}
+function structuredPool(kind) {
+  var arrs = [];
+  if (kind === '2') arrs = [paper2Data, paper2Data2024, paper2Data2026];
+  if (kind === '4') arrs = [paper4Data2024, paper4Data2026];
+  if (kind === '5') arrs = [paper5Data2026];
+  var out = [];
+  arrs.forEach(function(a) { if (a) a.forEach(function(q) { out.push(q); }); });
+  return out;
+}
+
+// ---- selection ----
+function pickPaper1() {
+  var pool = mcqPool();
+  var byTopic = {};
+  pool.forEach(function(q) {
+    var t = (q.code || '').split('.')[0];
+    (byTopic[t] = byTopic[t] || []).push(q);
+  });
+  var topics = Object.keys(byTopic).filter(function(t) { return byTopic[t].length >= 5; }).sort(function(a, b) { return +a - +b; });
+  var heavy = shuffle(topics.slice()).slice(0, 7);
+  var chosen = [];
+  topics.forEach(function(t) {
+    var n = heavy.indexOf(t) >= 0 ? 4 : 3;
+    chosen = chosen.concat(pickBalanced(byTopic[t], n));
+  });
+  return { questions: chosen.slice(0, 40), total: 40, label: '40 questions' };
+}
+function pickStructured(kind, nQ, target, tol) {
+  var pool = structuredPool(kind);
+  var byTopic = {};
+  pool.forEach(function(q) { (byTopic[String(q.topic)] = byTopic[String(q.topic)] || []).push(q); });
+  var topics = shuffle(Object.keys(byTopic));
+  var best = null;
+  for (var t = 0; t < 400; t++) {
+    var picked = [];
+    shuffle(topics.slice()).slice(0, nQ).forEach(function(tt) {
+      var q = pickBalanced(byTopic[tt], 1)[0];
+      if (q) picked.push(q);
+    });
+    if (picked.length < nQ) continue;
+    var total = picked.reduce(function(s, q) { return s + q.marks; }, 0);
+    var diff = Math.abs(total - target);
+    if (!best || diff < best.diff) best = { picked: picked, total: total, diff: diff };
+    if (diff <= tol) break;
+  }
+  // local swap refinement: replace questions with same-topic alternatives that bring the total closer
+  for (var s = 0; s < 400 && best.diff > tol; s++) {
+    var idx = Math.floor(Math.random() * best.picked.length);
+    var tt = String(best.picked[idx].topic);
+    var alts = byTopic[tt].filter(function(q) { return best.picked.indexOf(q) < 0; });
+    if (!alts.length) continue;
+    var alt = alts[Math.floor(Math.random() * alts.length)];
+    var newTotal = best.total - best.picked[idx].marks + alt.marks;
+    var newDiff = Math.abs(newTotal - target);
+    if (newDiff <= best.diff) {
+      best.picked[idx] = alt;
+      best.total = newTotal;
+      best.diff = newDiff;
+    }
+  }
+  best.picked.sort(function(a, b) { return (+a.topic) - (+b.topic); });
+  return { questions: best.picked, total: best.total, label: best.picked.length + ' questions · ' + best.total + ' marks' };
+}
+function pickPaper5() {
+  var pool = structuredPool('5');
+  var plans = shuffle(pool.filter(function(q) { return q.qnum === 'Q1'; }));
+  var ana = shuffle(pool.filter(function(q) { return q.qnum === 'Q2'; }));
+  var chosen = [plans[0], ana[0]].filter(Boolean);
+  return { questions: chosen, total: chosen.reduce(function(s, q) { return s + q.marks; }, 0), label: chosen.length + ' questions · 30 marks' };
+}
+
+// ---- text helpers for the answer PDF ----
+function stripHtml(s) {
+  return String(s).replace(/<br\s*\/?>/gi, '\n').replace(/<[^>]+>/g, '')
+    .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"');
+}
+function wrapLines(text, font, size, maxW) {
+  var out = [];
+  text.split('\n').forEach(function(para) {
+    var words = para.split(' ');
+    var line = '';
+    words.forEach(function(w) {
+      var test = line ? line + ' ' + w : w;
+      if (font.widthOfTextAtSize(test, size) > maxW && line) { out.push(line); line = w; }
+      else { line = test; }
+    });
+    if (line) out.push(line);
+    out.push('');
+  });
+  return out;
+}
+function esc(t) { return t.replace(/\\/g, '\\\\'); }
+function b64bytes(b64) {
+  var bin = atob(b64);
+  var arr = new Uint8Array(bin.length);
+  for (var i = 0; i < bin.length; i++) arr[i] = bin.charCodeAt(i);
+  return arr;
+}
+function downloadPdf(bytes, name) {
+  var blob = new Blob([bytes], { type: 'application/pdf' });
+  var url = URL.createObjectURL(blob);
+  var a = document.createElement('a');
+  a.href = url;
+  a.download = name;
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(function() { document.body.removeChild(a); URL.revokeObjectURL(url); }, 3000);
+}
+
+// ---- PDF builders ----
+var PDF_W = 595.28, PDF_H = 841.89;
+var DARK = null, MUTED = null;
+
+async function coverPage(doc, helv, bold, title, lines) {
+  var page = doc.addPage([PDF_W, PDF_H]);
+  page.drawText(title, { x: 60, y: PDF_H - 140, size: 26, font: bold, color: DARK });
+  var y = PDF_H - 180;
+  lines.forEach(function(l) {
+    page.drawText(esc(l), { x: 60, y: y, size: 12, font: helv, color: MUTED });
+    y -= 20;
+  });
+  return page;
+}
+
+async function buildQuestionsPdf(meta) {
+  var PDFLib = window.PDFLib;
+  var doc = await PDFLib.PDFDocument.create();
+  var helv = await doc.embedFont(PDFLib.StandardFonts.Helvetica);
+  var bold = await doc.embedFont(PDFLib.StandardFonts.HelveticaBold);
+  var today = new Date().toISOString().slice(0, 10);
+  await coverPage(doc, helv, bold, 'Practice ' + meta.typeName, [
+    'Randomly generated — ' + today,
+    meta.label,
+    'Topics and difficulty levels are balanced across the pool.',
+    'Questions keep their original numbering.',
+    'luoxuanni98@gmail.com'
+  ]);
+  for (var qi = 0; qi < meta.questions.length; qi++) {
+    var q = meta.questions[qi];
+    var buf = await (await fetch(q.pdf)).arrayBuffer();
+    var src = await PDFLib.PDFDocument.load(buf, { ignoreEncryption: true });
+    var pages = await doc.copyPages(src, src.getPageIndices());
+    pages.forEach(function(pg) { doc.addPage(pg); });
+  }
+  return doc.save();
+}
+
+async function buildAnswersPdf(meta, answers) {
+  var PDFLib = window.PDFLib;
+  var doc = await PDFLib.PDFDocument.create();
+  var helv = await doc.embedFont(PDFLib.StandardFonts.Helvetica);
+  var bold = await doc.embedFont(PDFLib.StandardFonts.HelveticaBold);
+  var dj = null, djb = null;
+  try {
+    dj = await doc.embedFont(b64bytes(window.FONT_BASE64), { subset: true });
+    djb = await doc.embedFont(b64bytes(window.FONT_BOLD_BASE64), { subset: true });
+  } catch (e) { dj = helv; djb = bold; }
+  var today = new Date().toISOString().slice(0, 10);
+  await coverPage(doc, helv, bold, 'Practice ' + meta.typeName + ' — Answers', [
+    'Answers to the practice paper generated on ' + today,
+    meta.label,
+    'luoxuanni98@gmail.com'
+  ]);
+  var page = doc.addPage([PDF_W, PDF_H]);
+  var y = PDF_H - 90;
+  function needSpace(h) { if (y < 90) { page = doc.addPage([PDF_W, PDF_H]); y = PDF_H - 90; } }
+  if (meta.type === '1') {
+    page.drawText('Answer key', { x: 60, y: y, size: 16, font: djb, color: DARK });
+    y -= 30;
+    for (var i = 0; i < meta.questions.length; i++) {
+      var q = meta.questions[i];
+      var letter = (typeof getAnswer === 'function' && getAnswer(q.paper, q.qnum)) || '—';
+      var col = i % 2;
+      var x = 60 + col * 250;
+      page.drawText(esc('Q' + (i + 1) + '  (' + q.qnum + ', ' + q.paper + '): ' + letter), { x: x, y: y, size: 11, font: dj, color: DARK });
+      if (col === 1) y -= 20;
+    }
+  } else {
+    for (var qi = 0; qi < meta.questions.length; qi++) {
+      var qq = meta.questions[qi];
+      needSpace(60);
+      page.drawText(esc(qq.qnum + '  ' + qq.title + '  [' + qq.marks + ' marks]  (' + qq.paper + ')'), { x: 60, y: y, size: 13, font: djb, color: DARK });
+      y -= 24;
+      (qq.parts || []).forEach(function(part) {
+        var codes = (part.codes || []).join(', ');
+        var head = part.label + '  [' + part.marks + ']' + (codes ? '   ' + codes : '');
+        needSpace(40);
+        page.drawText(esc(head), { x: 60, y: y, size: 10.5, font: djb, color: DARK });
+        y -= 16;
+        var lines = wrapLines(stripHtml(part.answer), dj, 10, PDF_W - 120);
+        lines.forEach(function(l) {
+          needSpace(16);
+          if (l) { page.drawText(esc(l), { x: 72, y: y, size: 10, font: dj, color: DARK }); }
+          y -= 15;
+        });
+        y -= 6;
+      });
+      y -= 10;
+    }
+  }
+  return doc.save();
+}
+
+// ---- entry ----
+async function generatePaper(typeKey) {
+  if (location.protocol === 'file:') {
+    showToast('Please double-click start.command (local server) so the generator can read the question PDFs');
+    return;
+  }
+  showToast('Generating practice paper…');
+  try {
+    await ensureLibs();
+    DARK = window.PDFLib.rgb(0.24, 0.22, 0.2);
+    MUTED = window.PDFLib.rgb(0.55, 0.51, 0.46);
+    var meta = null;
+    if (typeKey === '1') meta = pickPaper1();
+    else if (typeKey === '2') meta = pickStructured('2', 6, 60, 2);
+    else if (typeKey === '4') meta = pickStructured('4', 10, 100, 3);
+    else if (typeKey === '5') meta = pickPaper5();
+    if (!meta || !meta.questions.length) { showToast('Not enough questions available for this paper type'); return; }
+    meta.type = typeKey;
+    meta.typeName = { '1': 'Paper 1', '2': 'Paper 2', '4': 'Paper 4', '5': 'Paper 5' }[typeKey];
+    var today = new Date().toISOString().slice(0, 10);
+    var qBytes = await buildQuestionsPdf(meta);
+    var aBytes = await buildAnswersPdf(meta);
+    downloadPdf(qBytes, 'Practice_' + meta.typeName.replace(' ', '') + '_' + today + '.pdf');
+    setTimeout(function() {
+      downloadPdf(aBytes, 'Practice_' + meta.typeName.replace(' ', '') + '_Answers_' + today + '.pdf');
+    }, 700);
+    showToast('Practice paper generated — two PDFs downloading');
+  } catch (err) {
+    showToast('Generation failed: ' + err.message);
+    console.error(err);
+  }
+}
+</script>
 </body>
 </html>

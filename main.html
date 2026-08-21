@@ -523,6 +523,34 @@ body {
 .gp-cell.available:active {
   transform: translateY(0) scale(0.97);
 }
+.gp-open-btn {
+  all: unset;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  font-size: 13px;
+  font-weight: 800;
+  color: inherit;
+  cursor: pointer;
+}
+.gp-dl {
+  font-size: 10px;
+  font-weight: 700;
+  color: #6b7f8d;
+  background: #eef3f6;
+  border: 1px solid #cdd9e0;
+  padding: 2px 10px;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+}
+.gp-dl:hover {
+  background: #7c8fa0;
+  border-color: #7c8fa0;
+  color: white;
+}
 .selection-bar {
   display: none;
   align-items: center;
@@ -1142,107 +1170,7 @@ body {
 <div class="header">
   <h1>9702 Past Paper Organizer</h1>
   <p>luoxuanni98@gmail.com (update: 21 Aug.)</p>
-  <a href="2025 categorized paper1.pdf" download style="text-decoration:none; display:inline-block; margin-top:16px;">
-    <button type="button" style="
-      display:inline-flex;
-      align-items:center;
-      gap:8px;
-      padding:12px 22px;
-      font-size:13px;
-      font-weight:700;
-      letter-spacing:0.2px;
-      border-radius:12px;
-      border:none;
-      background:linear-gradient(135deg, #c39a5f, #a8624c);
-      color:#fff;
-      cursor:pointer;
-      box-shadow:0 3px 10px rgba(168,98,76,0.28);
-      transition:transform 0.15s, box-shadow 0.15s, filter 0.15s;
-    "
-      onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 16px rgba(168,98,76,0.38)'; this.style.filter='brightness(1.05)';"
-      onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 3px 10px rgba(168,98,76,0.28)'; this.style.filter='brightness(1)';"
-      onmousedown="this.style.transform='translateY(0) scale(0.97)';"
-      onmouseup="this.style.transform='translateY(-2px) scale(1)';">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-      DOWNLOAD paper1 SET
-    </button>
-  </a>
-  <a href="2026 categorized paper1.pdf" download style="text-decoration:none; display:inline-block; margin-top:12px;">
-    <button type="button" style="
-      display:inline-flex;
-      align-items:center;
-      gap:8px;
-      padding:12px 22px;
-      font-size:13px;
-      font-weight:700;
-      letter-spacing:0.2px;
-      border-radius:12px;
-      border:none;
-      background:linear-gradient(135deg, #6f9aa8, #4c7286);
-      color:#fff;
-      cursor:pointer;
-      box-shadow:0 3px 10px rgba(76,114,134,0.28);
-      transition:transform 0.15s, box-shadow 0.15s, filter 0.15s;
-    "
-      onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 16px rgba(76,114,134,0.38)'; this.style.filter='brightness(1.05)';"
-      onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 3px 10px rgba(76,114,134,0.28)'; this.style.filter='brightness(1)';"
-      onmousedown="this.style.transform='translateY(0) scale(0.97)';"
-      onmouseup="this.style.transform='translateY(-2px) scale(1)';">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-      DOWNLOAD 2026 paper1 SET
-    </button>
-  </a>
-  <a href="categorized_2025_paper2_questions_with_answers.pdf" download style="text-decoration:none; display:inline-block; margin-top:12px;">
-    <button type="button" style="
-      display:inline-flex;
-      align-items:center;
-      gap:8px;
-      padding:12px 22px;
-      font-size:13px;
-      font-weight:700;
-      letter-spacing:0.2px;
-      border-radius:12px;
-      border:none;
-      background:linear-gradient(135deg, #c39a5f, #a8624c);
-      color:#fff;
-      cursor:pointer;
-      box-shadow:0 3px 10px rgba(168,98,76,0.28);
-      transition:transform 0.15s, box-shadow 0.15s, filter 0.15s;
-    "
-      onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 16px rgba(168,98,76,0.38)'; this.style.filter='brightness(1.05)';"
-      onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 3px 10px rgba(168,98,76,0.28)'; this.style.filter='brightness(1)';"
-      onmousedown="this.style.transform='translateY(0) scale(0.97)';"
-      onmouseup="this.style.transform='translateY(-2px) scale(1)';">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-      DOWNLOAD paper2 SET
-    </button>
-  </a>
-  <a href="categorized_2024_paper2_questions_with_answers.pdf" download style="text-decoration:none; display:inline-block; margin-top:12px;">
-    <button type="button" style="
-      display:inline-flex;
-      align-items:center;
-      gap:8px;
-      padding:12px 22px;
-      font-size:13px;
-      font-weight:700;
-      letter-spacing:0.2px;
-      border-radius:12px;
-      border:none;
-      background:linear-gradient(135deg, #8fa9c2, #7c8fa0);
-      color:#fff;
-      cursor:pointer;
-      box-shadow:0 3px 10px rgba(124,143,160,0.28);
-      transition:transform 0.15s, box-shadow 0.15s, filter 0.15s;
-    "
-      onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 16px rgba(124,143,160,0.38)'; this.style.filter='brightness(1.05)';"
-      onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 3px 10px rgba(124,143,160,0.28)'; this.style.filter='brightness(1)';"
-      onmousedown="this.style.transform='translateY(0) scale(0.97)';"
-      onmouseup="this.style.transform='translateY(-2px) scale(1)';">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-      DOWNLOAD paper2 2024 SET
-    </button>
-  </a>
-</div>
+  </div>
 
 <div class="mark-panel">
   <div class="mark-panel-legend">
@@ -1272,21 +1200,44 @@ body {
   <div class="gp-head">Paper 5<span>Planning &amp; analysis</span></div>
 
   <div class="gp-year">2026</div>
-  <button type="button" class="gp-cell available" data-year="2026" data-paper="1">Open<span class="gp-count" id="gp-count-p1-2026"></span></button>
-  <button type="button" class="gp-cell available" data-year="2026" data-paper="2">Open<span class="gp-count" id="gp-count-p2-2026"></span></button>
-  <button type="button" class="gp-cell available" data-year="2026" data-paper="4">Open<span class="gp-count" id="gp-count-p4-2026"></span></button>
-  <button type="button" class="gp-cell available" data-year="2026" data-paper="5">Open<span class="gp-count" id="gp-count-p5-2026"></span></button>
+  <div class="gp-cell available" data-year="2026" data-paper="1">
+    <button type="button" class="gp-open-btn">Open<span class="gp-count" id="gp-count-p1-2026"></span></button>
+    <a class="gp-dl" href="2026 categorized paper1.pdf" download>&#11015; PDF</a>
+  </div>
+  <div class="gp-cell available" data-year="2026" data-paper="2">
+    <button type="button" class="gp-open-btn">Open<span class="gp-count" id="gp-count-p2-2026"></span></button>
+    <a class="gp-dl" href="2026 categorized paper2.pdf" download>&#11015; PDF</a>
+  </div>
+  <div class="gp-cell available" data-year="2026" data-paper="4">
+    <button type="button" class="gp-open-btn">Open<span class="gp-count" id="gp-count-p4-2026"></span></button>
+    <a class="gp-dl" href="categorized_2026_paper4_questions_with_answers.pdf" download>&#11015; PDF</a>
+  </div>
+  <div class="gp-cell available" data-year="2026" data-paper="5">
+    <button type="button" class="gp-open-btn">Open<span class="gp-count" id="gp-count-p5-2026"></span></button>
+    <a class="gp-dl" href="categorized_2026_paper5_questions_with_answers.pdf" download>&#11015; PDF</a>
+  </div>
 
   <div class="gp-year">2025</div>
-  <button type="button" class="gp-cell available" data-year="2025" data-paper="1">Open<span class="gp-count" id="gp-count-p1"></span></button>
-  <button type="button" class="gp-cell available" data-year="2025" data-paper="2">Open<span class="gp-count" id="gp-count-p2"></span></button>
+  <div class="gp-cell available" data-year="2025" data-paper="1">
+    <button type="button" class="gp-open-btn">Open<span class="gp-count" id="gp-count-p1"></span></button>
+    <a class="gp-dl" href="2025 categorized paper1.pdf" download>&#11015; PDF</a>
+  </div>
+  <div class="gp-cell available" data-year="2025" data-paper="2">
+    <button type="button" class="gp-open-btn">Open<span class="gp-count" id="gp-count-p2"></span></button>
+    <a class="gp-dl" href="categorized_2025_paper2_questions_with_answers.pdf" download>&#11015; PDF</a>
+  </div>
   <button type="button" class="gp-cell soon" data-year="2025" data-paper="4">Soon</button>
   <button type="button" class="gp-cell soon" data-year="2025" data-paper="5">Soon</button>
 
   <div class="gp-year">2024</div>
   <button type="button" class="gp-cell soon" data-year="2024" data-paper="1">Soon</button>
-  <button type="button" class="gp-cell available" data-year="2024" data-paper="2">Open<span class="gp-count" id="gp-count-p2-2024"></span></button>
-  <button type="button" class="gp-cell available" data-year="2024" data-paper="4">Open<span class="gp-count" id="gp-count-p4-2024"></span></button>
+  <div class="gp-cell available" data-year="2024" data-paper="2">
+    <button type="button" class="gp-open-btn">Open<span class="gp-count" id="gp-count-p2-2024"></span></button>
+    <a class="gp-dl" href="categorized_2024_paper2_questions_with_answers.pdf" download>&#11015; PDF</a>
+  </div>
+  <div class="gp-cell available" data-year="2024" data-paper="4">
+    <button type="button" class="gp-open-btn">Open<span class="gp-count" id="gp-count-p4-2024"></span></button>
+  </div>
   <button type="button" class="gp-cell soon" data-year="2024" data-paper="5">Soon</button>
 
   <div class="gp-year">2023</div>
@@ -1383,7 +1334,8 @@ function showPaperPanel(year, paper) {
 }
 
 document.querySelectorAll('.gp-cell').forEach(function(cell) {
-  cell.addEventListener('click', function() {
+  cell.addEventListener('click', function(e) {
+    if (e.target.closest('a')) return;
     var year = cell.getAttribute('data-year');
     var paper = cell.getAttribute('data-paper');
     if (!cell.classList.contains('available')) {
@@ -6893,6 +6845,1275 @@ const answerKey2026 = {
   '9702/13/M/J/26': { 'Q1': 'D', 'Q2': 'C', 'Q3': 'D', 'Q4': 'B', 'Q5': 'B', 'Q6': 'C', 'Q7': 'B', 'Q8': 'A', 'Q9': 'A', 'Q10': 'D', 'Q11': 'C', 'Q12': 'A', 'Q13': 'B', 'Q14': 'A', 'Q15': 'D', 'Q16': 'A', 'Q17': 'B', 'Q18': 'B', 'Q19': 'A', 'Q20': 'C', 'Q21': 'C', 'Q22': 'A', 'Q23': 'D', 'Q24': 'C', 'Q25': 'B', 'Q26': 'A', 'Q27': 'D', 'Q28': 'A', 'Q29': 'B', 'Q30': 'B', 'Q31': 'A', 'Q32': 'D', 'Q33': 'D', 'Q34': 'C', 'Q35': 'D', 'Q36': 'C', 'Q37': 'D', 'Q38': 'C', 'Q39': 'A', 'Q40': 'C' },
   '9702/14/M/J/26': { 'Q1': 'D', 'Q2': 'C', 'Q3': 'C', 'Q4': 'B', 'Q5': 'D', 'Q6': 'C', 'Q7': 'C', 'Q8': 'A', 'Q9': 'B', 'Q10': 'D', 'Q11': 'C', 'Q12': 'D', 'Q13': 'C', 'Q14': 'D', 'Q15': 'B', 'Q16': 'A', 'Q17': 'C', 'Q18': 'B', 'Q19': 'A', 'Q20': 'B', 'Q21': 'A', 'Q22': 'D', 'Q23': 'D', 'Q24': 'A', 'Q25': 'A', 'Q26': 'C', 'Q27': 'D', 'Q28': 'B', 'Q29': 'C', 'Q30': 'D', 'Q31': 'D', 'Q32': 'B', 'Q33': 'B', 'Q34': 'A', 'Q35': 'D', 'Q36': 'B', 'Q37': 'C', 'Q38': 'C', 'Q39': 'A', 'Q40': 'D' },
 };
+
+
+// ---- Paper 2 (structured questions), June 2026 variants 22-24 (variant 21 MS not yet available) ----
+const paper2Data2026 = [
+  {
+    topic: '2', 
+    paper: '9702/22/M/J/26', paper_full: 'June 2026 · Paper 22', qnum: 'Q1', 
+    title: 'Car on a straight road — scalars, distance &amp; acceleration', 
+    pdf: '9702_s26_qp_22_Q1_Kinematics.pdf', 
+    marks: 11, 
+    parts: [
+      { label: '(a)', codes: ['1.4.1'], marks: 2, 
+        answer: 'Amplitude: <b>scalar</b><br>Force: <b>vector</b><br>Momentum: <b>vector</b><br>Power: <b>scalar</b>' },
+      { label: '(b)(i)', codes: ['2.1.3'], marks: 1, 
+        answer: 'The distance travelled is represented by the <b>area under the graph line</b> between t = 0 and t = 40 s.' },
+      { label: '(b)(ii)', codes: ['2.1.3'], marks: 1, 
+        answer: 'Area = ½×10×12 + 25×12 + ½×5×12<br>= 60 + 300 + 30 = <b>390 m</b>' },
+      { label: '(b)(iii)', codes: ['2.1.5'], marks: 2, 
+        answer: 'Maximum acceleration = maximum gradient of the v–t graph (the 35–40 s section):<br>a = (0 − 12)/5 = −2.4 m s⁻²<br>Magnitude = <b>2.4 m s⁻²</b> (the other sections give 12/10 = 1.2 and 10/40 = 0.25 m s⁻²)' },
+      { label: '(b)(iv)', codes: ['2.1.7'], marks: 2, 
+        answer: 'At t = 40 s the car is momentarily at rest; it then moves with acceleration −0.25 m s⁻² over displacement −150 m back to P:<br>v² = u² + 2as = 0 + 2×(−0.25)×(−150) = 75<br>v = √75 = <b>8.7 m s⁻¹</b>' },
+      { label: '(b)(v)', codes: ['2.1.2'], marks: 3, 
+        answer: 'Sketch a displacement–time graph from t = 0 to t = 80 s that: starts at the origin and <b>rises with increasing gradient up to t = 10 s</b>, continues with a <b>constant (straight) positive gradient between t = 10 s and t = 35 s</b>, then a <b>decreasing gradient between t = 35 s and t = 40 s</b>, reaching its <b>maximum displacement at t = 40 s</b>; from t = 40 s to t = 80 s the displacement <b>decreases</b> without crossing the t-axis, ending at (or up to 5 mm before) the t-axis at t = 80 s. No step changes in displacement.' },
+    ]
+  },
+  {
+    topic: '4', 
+    paper: '9702/22/M/J/26', paper_full: 'June 2026 · Paper 22', qnum: 'Q2', 
+    title: 'Block on a plank with ropes — equilibrium &amp; Hooke\'s law', 
+    pdf: '9702_s26_qp_22_Q2_Forces_density_and_pressure.pdf', 
+    marks: 8, 
+    parts: [
+      { label: '(a)', codes: ['4.2.2'], marks: 2, 
+        answer: 'The <b>resultant force on the object is zero</b> and the <b>resultant torque (moment) about any point is zero</b>.' },
+      { label: '(b)(i)', codes: ['4.2.2'], marks: 2, 
+        answer: 'Each rope has vertical component T cosθ; two ropes act on the plank and two on the block.<br>Forces on the plank: 2T cosθ = R + WP<br>Forces on the block: 2T cosθ + R = WB<br>Equating the two expressions for 2T cosθ:<br><b>R + WP = WB − R</b> ✓' },
+      { label: '(b)(ii)', codes: ['4.2.2', '3.1.6'], marks: 2, 
+        answer: 'From R + WP = WB − R:<br>2R = WB − WP = (8.1 − 4.5) × 9.81 = 35.3 N<br>R = <b>18 N</b>' },
+      { label: '(c)(i)', codes: ['6.1.3'], marks: 1, 
+        answer: '<b>Hooke\'s law</b>' },
+      { label: '(c)(ii)', codes: ['6.2.1'], marks: 1, 
+        answer: 'Elastic deformation: when the tension (force) is removed, the rope <b>returns to its original length</b> — the deformation is reversible and the extension falls back to zero.' },
+    ]
+  },
+  {
+    topic: '7', 
+    paper: '9702/22/M/J/26', paper_full: 'June 2026 · Paper 22', qnum: 'Q3', 
+    title: 'Two-source interference on a lake — wave speed &amp; energy', 
+    pdf: '9702_s26_qp_22_Q3_Waves.pdf', 
+    marks: 10, 
+    parts: [
+      { label: '(a)', codes: ['7.1.5'], marks: 1, 
+        answer: 'A progressive wave is a wave that <b>transfers energy</b> from one point to another in the direction of propagation.' },
+      { label: '(b)(i)', codes: ['7.1.2'], marks: 1, 
+        answer: 'T = 1/f = 1/3.0 = <b>0.33 s</b>' },
+      { label: '(b)(ii)', codes: ['7.1.4', '8.3.2'], marks: 3, 
+        answer: 'The waves arrive at P in phase (constructive interference), so the path difference equals one wavelength:<br>λ = 3.9 − 2.4 = 1.5 m<br>v = fλ = 3.0 × 1.5 = <b>4.5 m s⁻¹</b>' },
+      { label: '(c)(i)', codes: ['5.2.1'], marks: 3, 
+        answer: 'ΔE = mgΔh, where Δh = 2 × amplitude = 2 × 0.15 = 0.30 m<br>ΔE = 0.44 × 9.81 × 0.30 = <b>1.3 J</b>' },
+      { label: '(c)(ii)', codes: ['8.3.3'], marks: 2, 
+        answer: 'At f = 4.0 Hz the wavelength is λ = v/f = 4.5/4.0 ≈ 1.1 m, so the path difference at P (1.5 m) is <b>no longer a whole number of wavelengths</b> — the waves arriving at P are not in phase and no longer give constructive interference. The amplitude of the oscillation of the ball <b>decreases</b>.' },
+    ]
+  },
+  {
+    topic: '5', 
+    paper: '9702/22/M/J/26', paper_full: 'June 2026 · Paper 22', qnum: 'Q4', 
+    title: 'Electric train on a slope — kinetic energy, power &amp; efficiency', 
+    pdf: '9702_s26_qp_22_Q4_Work_energy_and_power.pdf', 
+    marks: 10, 
+    parts: [
+      { label: '(a)', codes: ['5.2.2'], marks: 3, 
+        answer: 'Ek = ½mv²<br>v² = 2 × 1.3 × 10⁵ / 1.5 × 10⁴ = 17.3<br>v = <b>4.2 m s⁻¹</b>' },
+      { label: '(b)(i)', codes: ['5.1.5'], marks: 1, 
+        answer: 'Power is the <b>rate of doing work</b> — the work done (energy transferred) per unit time.' },
+      { label: '(b)(ii)', codes: ['5.1.7', '5.1.2'], marks: 3, 
+        answer: 'Useful output energy = gain in gravitational PE + work done against resistive force F:<br>W = (1.1 × 10⁵ × 52) − (13.0 × 10⁶ − 7.4 × 10⁶) = 5.72 × 10⁶ − 5.6 × 10⁶ = 1.2 × 10⁵ J<br>F = W/(vt) = 1.2 × 10⁵ / (4.2 × 52) = <b>550 N</b><br>(Alternatively P = Fv: F = [1.1 × 10⁵ − (13.0 − 7.4) × 10⁶/52] / 4.2 = 2.3 × 10³/4.2 = 550 N)' },
+      { label: '(b)(iii)', codes: ['5.1.4', '9.2.3'], marks: 3, 
+        answer: 'Input power = IV = 95 × 1400 = 1.33 × 10⁵ W<br>efficiency = useful output power / input power × 100<br>= (1.1 × 10⁵ / 1.33 × 10⁵) × 100 = <b>83%</b>' },
+    ]
+  },
+  {
+    topic: '10', 
+    paper: '9702/22/M/J/26', paper_full: 'June 2026 · Paper 22', qnum: 'Q5', 
+    title: 'Resistors in parallel with an LDR — current, drift speed &amp; resistance', 
+    pdf: '9702_s26_qp_22_Q5_DC_circuits.pdf', 
+    marks: 12, 
+    parts: [
+      { label: '(a)', codes: ['10.2.4'], marks: 2, 
+        answer: 'The p.d. across each parallel resistor is the same (V), and the currents add:<br>IT = I1 + I2 + I3<br>V/RT = V/R1 + V/R2 + V/R3<br>Dividing by V:<br><b>1/RT = 1/R1 + 1/R2 + 1/R3</b> ✓' },
+      { label: '(b)(i)', codes: ['10.2.4', '9.3.2'], marks: 2, 
+        answer: 'Combined resistance: 1/RT = 1/2.8 + 1/2.8 → RT = 1.4 Ω<br>I = V/RT = 12/1.4 = <b>8.6 A</b>' },
+      { label: '(b)(ii)', codes: ['9.1.4'], marks: 2, 
+        answer: 'Current in each identical wire = 8.6/2 = 4.3 A<br>I = Anvq → v = I/(Anq)<br>v = 4.3 / (6.1 × 10⁻⁶ × 8.5 × 10²⁸ × 1.6 × 10⁻¹⁹)<br>= 4.3 / 8.30 × 10⁴ = <b>5.2 × 10⁻⁵ m s⁻¹</b>' },
+      { label: '(c)(i)', codes: ['9.3.7'], marks: 1, 
+        answer: '<b>Light-dependent resistor (LDR)</b>' },
+      { label: '(c)(ii)', codes: ['10.2.5', '9.3.2'], marks: 3, 
+        answer: 'Current through X: IX = 5.0 − 12/2.8 = 5.0 − 4.3 = 0.71 A<br>Resistance of the top branch: R = V/I = 12/0.71 = 16.8 Ω<br>R(X) = 16.8 − 2.8 = <b>14 Ω</b>' },
+      { label: '(c)(iii)', codes: ['9.3.7'], marks: 2, 
+        answer: 'The battery current has decreased, so the total circuit resistance has increased; since the resistance wires are unchanged, <b>the resistance of X has increased</b>. For an LDR, resistance increases as light intensity decreases, so the environment of X changed such that the <b>light intensity incident on it decreased</b> (it became darker).' },
+    ]
+  },
+  {
+    topic: '11', 
+    paper: '9702/22/M/J/26', paper_full: 'June 2026 · Paper 22', qnum: 'Q6', 
+    title: 'α-particle scattering and gold nucleus — momentum &amp; quarks', 
+    pdf: '9702_s26_qp_22_Q6_Particle_physics.pdf', 
+    marks: 9, 
+    parts: [
+      { label: '(a)', codes: ['11.1.1'], marks: 1, 
+        answer: '<b>Most of the α-particles passed straight through</b> the gold foil with little or no deviation.' },
+      { label: '(b)(i)', codes: ['3.1.3', '11.1.12'], marks: 2, 
+        answer: 'Mass of α-particle = 4u = 4 × 1.66 × 10⁻²⁷ kg<br>p = mv = 4 × 1.66 × 10⁻²⁷ × 5.60 × 10⁶<br>= <b>3.72 × 10⁻²⁰ kg m s⁻¹</b> ✓' },
+      { label: '(b)(ii)', codes: ['3.3.2', '3.1.3'], marks: 2, 
+        answer: 'Conservation of momentum (gold nucleus initially at rest):<br>4u × 5.60 × 10⁶ = 197u × v − 4u × 5.38 × 10⁶<br>197 × 1.66 × 10⁻²⁷ × v = 3.72 × 10⁻²⁰ + 3.57 × 10⁻²⁰ = 7.29 × 10⁻²⁰<br>v = 7.29 × 10⁻²⁰ / 3.27 × 10⁻²⁵ = <b>2.2 × 10⁵ m s⁻¹</b>' },
+      { label: '(b)(iii)', codes: ['1.3.3'], marks: 2, 
+        answer: 'Change in velocity Δv = 5.60 × 10⁶ + 5.38 × 10⁶ = 10.98 × 10⁶ m s⁻¹ (directions are opposite)<br>Absolute uncertainty in Δv = 5 × 10⁴ + 5 × 10⁴ = 1 × 10⁵ m s⁻¹<br>Percentage uncertainty = (1 × 10⁵ / 10.98 × 10⁶) × 100 = <b>0.9%</b>' },
+      { label: '(c)', codes: ['11.2.3'], marks: 1, 
+        answer: '²₁H has 1 proton and 1 neutron. Each proton contains 2 up quarks and each neutron contains 1 up quark:<br>Total up quarks = 2 + 1 = <b>3</b>' },
+      { label: '(d)', codes: ['11.2.4'], marks: 1, 
+        answer: 'A meson is composed of <b>one quark and one antiquark</b>.' },
+    ]
+  },
+  {
+    topic: '3', 
+    paper: '9702/23/M/J/26', paper_full: 'June 2026 · Paper 23', qnum: 'Q1', 
+    title: 'Elastic collision of two balls — momentum, acceleration &amp; distance', 
+    pdf: '9702_s26_qp_23_Q1_Dynamics.pdf', 
+    marks: 13, 
+    parts: [
+      { label: '(a)', codes: ['3.1.3'], marks: 1, 
+        answer: 'Momentum is the <b>product of the mass and the velocity</b> of an object (p = mv).' },
+      { label: '(b)(i)', codes: ['2.1.5'], marks: 2, 
+        answer: 'a = Δv/Δt = (−0.8 − 1.6)/(0.12 − 0.09) = −2.4/0.03<br>magnitude of acceleration = <b>80 m s⁻²</b> (read-offs from Fig. 1.1: v = +1.6 m s⁻¹ at t = 0.09 s, v = −0.8 m s⁻¹ at t = 0.12 s)' },
+      { label: '(b)(ii)', codes: ['3.1.3'], marks: 2, 
+        answer: 'Δp = mΔv = 0.15 × (−0.8 − 1.6) = 0.15 × (−2.4)<br>magnitude of change in momentum = <b>0.36 kg m s⁻¹</b>' },
+      { label: '(b)(iii)', codes: ['2.1.3'], marks: 2, 
+        answer: 'Distance = area under the v–t graph during the collision (t = 0.09 s to 0.12 s):<br>½ × 1.6 × 0.020 + ½ × 0.8 × 0.010 = 0.016 + 0.004<br>distance = <b>0.020 m</b>' },
+      { label: '(c)(i)', codes: ['3.3.3'], marks: 2, 
+        answer: 'For an elastic collision, the relative speed of approach equals the relative speed of separation.<br>Speed of approach = 1.6 − 0 = 1.6 m s⁻¹, so speed of separation = v(Y) − (−0.8) = v(Y) + 0.8 = 1.6<br>velocity of Y = <b>+0.80 m s⁻¹</b>' },
+      { label: '(c)(ii)', codes: ['2.1.2'], marks: 2, 
+        answer: 'Sketch on Fig. 1.1: a horizontal line at v = 0 from t = 0 to t = 0.09 s; a straight diagonal line of positive gradient from (0.09 s, 0) to (0.12 s, +0.80 m s⁻¹); then a <b>horizontal line at +0.80 m s⁻¹ from t = 0.12 s to t = 0.20 s</b>.' },
+      { label: '(c)(iii)', codes: ['3.3.2', '3.3.1'], marks: 2, 
+        answer: 'Conservation of momentum on the frictionless surface (no external horizontal force):<br>0.15 × 1.6 = 0.15 × (−0.8) + 0.80m<br>0.24 = −0.12 + 0.80m → 0.80m = 0.36<br>mass of Y = <b>0.45 kg</b>' },
+    ]
+  },
+  {
+    topic: '6', 
+    paper: '9702/23/M/J/26', paper_full: 'June 2026 · Paper 23', qnum: 'Q2', 
+    title: 'Suspended polythene thread — Young modulus &amp; elastic energy', 
+    pdf: '9702_s26_qp_23_Q2_Deformation_of_solids.pdf', 
+    marks: 12, 
+    parts: [
+      { label: '(a)', codes: ['6.1.5'], marks: 1, 
+        answer: 'The Young modulus of a material is the <b>ratio of stress to strain</b> (stress per unit strain), within the limit of proportionality.' },
+      { label: '(b)(i)', codes: ['4.3.1'], marks: 2, 
+        answer: 'ρ = m/V and V = AL, so L = m/(ρA)<br>L = 0.018/(960 × 2.6×10⁻⁶) = 0.018/2.496×10⁻³<br>length = <b>7.2 m</b>' },
+      { label: '(b)(ii)', codes: ['6.1.5', '3.1.6'], marks: 2, 
+        answer: 'Stress = F/A, where F = weight of the whole thread = mg = 0.018 × 9.81 N<br>σ = (0.018 × 9.81)/(2.6×10⁻⁶) = 0.177/2.6×10⁻⁶<br>stress = <b>6.8×10⁴ Pa</b>' },
+      { label: '(b)(iii)', codes: ['6.1.5'], marks: 2, 
+        answer: 'The weight supported at a point decreases linearly as the distance from the top increases, because less thread hangs below the point. Since the cross-sectional area is uniform, stress (σ = F/A) is proportional to the weight supported, so the variation is <b>linear</b>.' },
+      { label: '(c)(i)', codes: ['6.1.5'], marks: 2, 
+        answer: 'E = σ/ε and ε = x/L → x = σL/E<br>x = (6.8×10⁴ × 7.2)/(8.0×10⁸) = 4.9×10⁵/8.0×10⁸<br>extension = <b>6.1×10⁻⁴ m</b>' },
+      { label: '(c)(ii)', codes: ['6.2.3', '6.2.4'], marks: 2, 
+        answer: 'E = ½Fx, with F = σA = 6.8×10⁴ × 2.6×10⁻⁶ = 0.177 N<br>E = ½ × 0.177 × 6.1×10⁻⁴<br>elastic potential energy = <b>5.4×10⁻⁵ J</b>' },
+      { label: '(d)', codes: ['6.1.5'], marks: 1, 
+        answer: 'The total extension is <b>less</b> — in the vertical thread the stress is less than 6.8×10⁴ Pa everywhere except at the very top (the stress, and hence the extension per unit length, is smaller lower down the thread).' },
+    ]
+  },
+  {
+    topic: '8', 
+    paper: '9702/23/M/J/26', paper_full: 'June 2026 · Paper 23', qnum: 'Q3', 
+    title: 'Double-slit interference — coherent light, fringes &amp; frequency', 
+    pdf: '9702_s26_qp_23_Q3_Superposition.pdf', 
+    marks: 14, 
+    parts: [
+      { label: '(a)', codes: ['8.1.1'], marks: 2, 
+        answer: 'When two or more waves meet (overlap) at a point, the resultant displacement at that point is the <b>sum of the individual displacements</b> of the waves.' },
+      { label: '(b)(i)', codes: ['8.3.1'], marks: 1, 
+        answer: 'Waves are coherent if they have a <b>constant phase difference</b>.' },
+      { label: '(b)(ii)', codes: ['8.2.1'], marks: 1, 
+        answer: 'The light <b>diffracts</b> (spreads out) as it passes through each slit.' },
+      { label: '(b)(iii)', codes: ['8.3.3', '8.1.1'], marks: 3, 
+        answer: 'The waves from the two slits meet (superpose) at X with <b>zero path difference / zero phase difference</b> (they are in phase). Constructive interference occurs, so the resultant wave has <b>maximum amplitude</b>, forming the bright fringe.' },
+      { label: '(b)(iv)', codes: ['8.3.4'], marks: 3, 
+        answer: 'λ = ax/D → x = λD/a<br>x = (560×10⁻⁹ × 0.43)/(1.4×10⁻⁵) = 2.41×10⁻⁷/1.4×10⁻⁵ = 1.72×10⁻² m (fringe spacing)<br>The first dark fringe lies halfway between the central maximum and the first bright fringe:<br>XY = x/2 = 1.72×10⁻²/2 = <b>8.6×10⁻³ m</b>' },
+      { label: '(c)(i)', codes: ['8.3.4'], marks: 1, 
+        answer: 'Mark a cross B at the next bright fringe — <b>the same distance above Y as XY</b>, i.e. one fringe spacing (2XY) above X.' },
+      { label: '(c)(ii)', codes: ['8.3.4'], marks: 1, 
+        answer: 'Mark a cross D at the first dark fringe below X — <b>the same distance below X as XY</b>.' },
+      { label: '(d)', codes: ['7.1.4'], marks: 2, 
+        answer: 'c = fλ → f = c/λ<br>f = (3.00×10⁸)/(560×10⁻⁹)<br>frequency = <b>5.4×10¹⁴ Hz</b>' },
+    ]
+  },
+  {
+    topic: '10', 
+    paper: '9702/23/M/J/26', paper_full: 'June 2026 · Paper 23', qnum: 'Q4', 
+    title: 'LDR across a cell — internal resistance &amp; power', 
+    pdf: '9702_s26_qp_23_Q4_DC_circuits.pdf', 
+    marks: 11, 
+    parts: [
+      { label: '(a)', codes: ['10.1.2', '10.1.5', '9.3.7'], marks: 3, 
+        answer: 'Draw a cell symbol with the internal resistance shown (a resistor symbol in series inside a dotted box around the cell, or just the cell symbol); the LDR symbol <b>connected across the terminals of the cell</b> (in parallel with it); and a <b>voltmeter symbol connected in parallel with the LDR</b>.' },
+      { label: '(b)(i)', codes: ['1.3.1'], marks: 1, 
+        answer: 'A <b>zero error / calibration error</b> of the digital voltmeter (or contact resistance in the connections / resistance of the connecting wires).' },
+      { label: '(b)(ii)', codes: ['9.2.3'], marks: 2, 
+        answer: 'P = V²/R = 4.78²/230 = 22.8/230<br>power = <b>0.099 W</b>' },
+      { label: '(b)(iii)', codes: ['10.1.5', '10.1.3'], marks: 2, 
+        answer: 'I = V/R = 4.78/230 = 2.08×10⁻² A<br>E = V + Ir → r = (E − V)/I = (4.90 − 4.78)/(2.08×10⁻²) = 0.12/2.08×10⁻²<br>internal resistance = <b>5.8 Ω</b>' },
+      { label: '(b)(iv)', codes: ['9.3.7', '10.1.5'], marks: 3, 
+        answer: 'As the light intensity decreases: the resistance of the LDR <b>increases</b>; the current in the cell <b>decreases</b>; the p.d. across the LDR <b>increases</b> (V = E − Ir, with E and r fixed, so less p.d. is dropped across r).' },
+    ]
+  },
+  {
+    topic: '11', 
+    paper: '9702/23/M/J/26', paper_full: 'June 2026 · Paper 23', qnum: 'Q5', 
+    title: 'Mesons, quarks &amp; β+ decay — conservation and neutrino', 
+    pdf: '9702_s26_qp_23_Q5_Particle_physics.pdf', 
+    marks: 10, 
+    parts: [
+      { label: '(a)', codes: ['11.2.4'], marks: 1, 
+        answer: 'A meson is a hadron consisting of <b>one quark and one antiquark</b>.' },
+      { label: '(b)', codes: ['11.2.2'], marks: 3, 
+        answer: 'Quark charges have magnitudes of either ⅔e or ⅓e.<br>Charge −1e: any two of — three quarks each of charge −⅓e (e.g. ddd); two quarks of charge −⅔e plus one quark of charge +⅓e.<br>Charge +2e: <b>three quarks each of charge +⅔e</b> (e.g. uuu).' },
+      { label: '(c)(i)', codes: ['11.1.6', '11.1.5'], marks: 2, 
+        answer: 'Conserving nucleon number and charge (proton number) in ¹⁸₈X → ᴾQY + ʳₛβ⁺ + ⁰₀Z:<br>P = <b>18</b>, Q = <b>7</b> (proton number of X decreases by 1 in β⁺ decay), R = <b>0</b>, S = <b>+1</b> (the positron has charge +1e and negligible mass).' },
+      { label: '(c)(ii)', codes: ['11.1.9'], marks: 1, 
+        answer: 'Particle Z is the (electron) <b>neutrino</b>.' },
+      { label: '(c)(iii)', codes: ['11.2.5'], marks: 1, 
+        answer: 'In β⁺ decay a proton changes into a neutron, so the net change in quark composition is an <b>up quark changing to a down quark</b> (uud → udd).' },
+      { label: '(c)(iv)', codes: ['11.1.10'], marks: 2, 
+        answer: 'The total energy released in each decay is constant, but particle Z takes some of this energy — the energy is <b>shared between Z and the β⁺ particle</b>. The way the total energy is distributed between them varies from decay to decay, so the β⁺ particles have a <b>continuous range of kinetic energies</b>.' },
+    ]
+  },
+  {
+    topic: '3', 
+    paper: '9702/24/M/J/26', paper_full: 'June 2026 · Paper 24', qnum: 'Q1', 
+    title: 'Braking car — vector quantities, kinetic energy &amp; resultant force', 
+    pdf: '9702_s26_qp_24_Q1_Dynamics.pdf', 
+    marks: 10, 
+    parts: [
+      { label: '(a)', codes: ['1.4.1'], marks: 1, 
+        answer: 'Underline all three vector quantities: <b>displacement, velocity and acceleration</b> (distance and speed are scalars).' },
+      { label: '(b)(i)', codes: ['5.2.2'], marks: 2, 
+        answer: 'Ek = ½mv² = ½ × 1400 × 15² = 700 × 225 = <b>1.6×10⁵ J</b> (1.575×10⁵ J)' },
+      { label: '(b)(ii)', codes: ['2.1.6', '2.1.7'], marks: 2, 
+        answer: 'v² = u² + 2as, with v = 0, u = 15 m s⁻¹, s = 35 m:<br>0 = 15² + 2a(35)<br>a = −225/70 = <b>−3.2 m s⁻²</b> (deceleration of 3.2 m s⁻²)' },
+      { label: '(b)(iii)', codes: ['3.1.2'], marks: 2, 
+        answer: 'F = ma = 1400 × 3.2 = <b>4.5×10³ N (4500 N)</b><br>Alternatively F = W/s = 1.6×10⁵/35 ≈ 4600 N (work done = loss of kinetic energy).' },
+      { label: '(c)(i)', codes: ['3.1.2'], marks: 1, 
+        answer: 'The acceleration <b>remains the same</b> — the resultant force and the mass are unchanged, so a = F/m is unchanged.' },
+      { label: '(c)(ii)', codes: ['2.1.7', '5.2.2'], marks: 2, 
+        answer: 'Ek = ½mv² is proportional to v², so doubling the speed makes the initial kinetic energy <b>four times greater</b>. For the same braking (resultant) force, the work done Fs to stop the car is four times greater, so the stopping distance is <b>four times greater (140 m)</b>.<br>(Alternatively, with the same acceleration, s = u²/2a, so s is proportional to u².)' },
+    ]
+  },
+  {
+    topic: '6', 
+    paper: '9702/24/M/J/26', paper_full: 'June 2026 · Paper 24', qnum: 'Q2', 
+    title: 'Spring extension — Hooke\'s law, spring constant &amp; percentage uncertainty', 
+    pdf: '9702_s26_qp_24_Q2_Deformation_of_solids.pdf', 
+    marks: 10, 
+    parts: [
+      { label: '(a)', codes: ['6.1.3'], marks: 1, 
+        answer: 'Hooke\'s law: the <b>extension of a spring is directly proportional to the applied force (load)</b>, provided the limit of proportionality is not exceeded.' },
+      { label: '(b)(i)', codes: ['1.3.3'], marks: 1, 
+        answer: 'extension = 14.0 − 2.1 = 11.9 cm<br>absolute uncertainty = 0.1 + 0.1 = 0.2 cm<br><b>(11.9 ± 0.2) cm</b>' },
+      { label: '(b)(ii)', codes: ['6.1.4'], marks: 3, 
+        answer: 'k = F/x, where F = mg = 0.300 × 9.81 = 2.943 N and x = 11.9 cm = 0.119 m:<br>k = 2.943/0.119 = <b>24.7 N m⁻¹</b> (≈ 25 N m⁻¹)' },
+      { label: '(b)(iii)', codes: ['1.3.3'], marks: 2, 
+        answer: 'percentage uncertainty = (ΔF/F + Δx/x) × 100%<br>= (0.005/0.300 + 0.2/11.9) × 100% = (1.67 + 1.68)%<br>= <b>3%</b>' },
+      { label: '(c)(i)', codes: ['6.1.4'], marks: 1, 
+        answer: 'The extension of spring Y is <b>less</b> than that of spring X — for the same applied force, x = F/k, so the extension is smaller when the spring constant is greater.' },
+      { label: '(c)(ii)', codes: ['6.2.4'], marks: 2, 
+        answer: 'The elastic potential energy stored in Y is <b>less</b> than that stored in X — Ep = ½Fx with the same force F but a smaller extension, or Ep = ½F²/k, which decreases as the spring constant k increases.' },
+    ]
+  },
+  {
+    topic: '8', 
+    paper: '9702/24/M/J/26', paper_full: 'June 2026 · Paper 24', qnum: 'Q3', 
+    title: 'Stationary wave on a string — nodes, wavelength &amp; speed', 
+    pdf: '9702_s26_qp_24_Q3_Superposition.pdf', 
+    marks: 8, 
+    parts: [
+      { label: '(a)', codes: ['8.1.2', '8.1.3'], marks: 2, 
+        answer: 'The progressive wave travels along the string and is reflected at the fixed point (end). The incident (travelling) wave and the reflected wave travel in opposite directions along the string, overlap and superpose (interfere), forming a <b>stationary wave</b> with nodes and antinodes fixed in position.' },
+      { label: '(b)', codes: ['8.1.3'], marks: 1, 
+        answer: 'Draw a cross (×) on the string at a node — a point of zero displacement where the string crosses the equilibrium (dotted) line, e.g. at the <b>centre of the string (or at either fixed point)</b>.' },
+      { label: '(c)', codes: ['7.1.4', '8.1.4'], marks: 3, 
+        answer: 'From Figure 3.1 the string holds 2 full wavelengths (4 loops), so:<br>λ = 1.80/2 = 0.90 m<br>v = fλ = 26 × 0.90 = <b>23 m s⁻¹</b>' },
+      { label: '(d)', codes: ['8.1.3', '8.1.4'], marks: 2, 
+        answer: 'Halving the frequency (v unchanged) doubles the wavelength to λ = 1.8 m, so the string now holds one full wavelength: two loops with nodes at both fixed points and at the centre, antinodes at L/4 and 3L/4.<br>Draw a <b>sinusoidal curve touching both fixed points</b>, rising to a maximum in the left half and falling to a minimum in the right half, <b>crossing the dotted equilibrium line once, in the middle</b> (any amplitude).' },
+    ]
+  },
+  {
+    topic: '4', 
+    paper: '9702/24/M/J/26', paper_full: 'June 2026 · Paper 24', qnum: 'Q4', 
+    title: 'Falling object in liquid — terminal velocity, drag &amp; upthrust', 
+    pdf: '9702_s26_qp_24_Q4_Forces_density_and_pressure.pdf', 
+    marks: 7, 
+    parts: [
+      { label: '(a)', codes: ['3.2.2', '4.3.5'], marks: 3, 
+        answer: 'Table 4.1, one tick per row:<br><b>W — stays the same</b> (the weight depends only on the mass, which is constant).<br><b>D — increases</b> (the drag force increases as the speed of the object increases).<br><b>U — stays the same</b> (the object remains fully submerged, so the volume of liquid displaced is unchanged and U = ρgV is constant).' },
+      { label: '(b)', codes: ['3.2.3'], marks: 1, 
+        answer: 'At terminal velocity the resultant force on the object is zero:<br><b>W = D + U</b>' },
+      { label: '(c)', codes: ['3.1.6', '4.3.5'], marks: 3, 
+        answer: 'W = mg = 0.070 × 9.81 = 0.69 N<br>U = ρgV = 1100 × 9.81 × 1.0×10⁻⁵ = 0.108 N ≈ 0.11 N<br>D = W − U = 0.69 − 0.11 = <b>0.58 N</b>' },
+    ]
+  },
+  {
+    topic: '9', 
+    paper: '9702/24/M/J/26', paper_full: 'June 2026 · Paper 24', qnum: 'Q5', 
+    title: 'Diode I–V characteristic — resistance, e.m.f. &amp; parallel currents', 
+    pdf: '9702_s26_qp_24_Q5_Electricity.pdf', 
+    marks: 10, 
+    parts: [
+      { label: '(a)', codes: ['9.3.3'], marks: 1, 
+        answer: 'Component X is a <b>(semiconductor) diode</b>.' },
+      { label: '(b)', codes: ['9.3.2', '9.3.3'], marks: 2, 
+        answer: 'On Figure 5.1 sketch a <b>straight line through the origin</b> passing through the point (0.80 V, 20 mA):<br>I = V/R = 0.80/40 = 0.020 A = 20 mA at V = 0.80 V. (A line continuing past 0.80 V may be ignored.)' },
+      { label: '(c)', codes: ['9.3.2', '10.1.3'], marks: 3, 
+        answer: 'From Figure 5.1, at I = 5.0 mA the p.d. across component X = 0.70 V.<br>p.d. across the 20 Ω resistor = IR = 5.0×10⁻³ × 20 = 0.10 V.<br>e.m.f. = 0.70 + 0.10 = <b>0.80 V</b>' },
+      { label: '(d)', codes: ['9.3.3'], marks: 1, 
+        answer: 'reading on ammeter = <b>0 A</b> — the diode is now reverse-biased, so no current flows (approximately zero).' },
+      { label: '(e)', codes: ['9.3.2', '10.2.4'], marks: 3, 
+        answer: 'p.d. across each parallel branch = 0.80 V.<br>current in the 20 Ω resistor = V/R = 0.80/20 = 0.040 A.<br>From Figure 5.1, at V = 0.80 V the current in component X = 40 mA = 0.040 A.<br>current in ammeter = 0.040 + 0.040 = <b>0.080 A</b>' },
+    ]
+  },
+  {
+    topic: '9', 
+    paper: '9702/24/M/J/26', paper_full: 'June 2026 · Paper 24', qnum: 'Q6', 
+    title: 'Nichrome wire — power, resistivity, length &amp; drift speed', 
+    pdf: '9702_s26_qp_24_Q6_Electricity.pdf', 
+    marks: 7, 
+    parts: [
+      { label: '(a)', codes: ['9.2.3'], marks: 2, 
+        answer: 'P = V²/R → R = V²/P<br>R = 230²/1000 = 52 900/1000 = 52.9 Ω ≈ <b>53 Ω</b>' },
+      { label: '(b)', codes: ['9.3.6'], marks: 2, 
+        answer: 'R = ρL/A → L = RA/ρ<br>L = (53 × 5.7×10⁻⁸)/(1.3×10⁻⁶) = 3.0×10⁻⁶/1.3×10⁻⁶ = <b>2.3 m</b>' },
+      { label: '(c)', codes: ['9.1.4'], marks: 3, 
+        answer: 'I = P/V = 1000/230 = 4.35 A<br>I = Anvq → n = I/(Aqv)<br>n = 4.35/(5.7×10⁻⁸ × 1.6×10⁻¹⁹ × 5.4×10⁻³) = 4.35/4.92×10⁻²⁹<br>= <b>8.8×10²⁸ m⁻³</b>' },
+    ]
+  },
+  {
+    topic: '11', 
+    paper: '9702/24/M/J/26', paper_full: 'June 2026 · Paper 24', qnum: 'Q7', 
+    title: 'Isotopes, thorium decay chain &amp; quark composition', 
+    pdf: '9702_s26_qp_24_Q7_Particle_physics.pdf', 
+    marks: 8, 
+    parts: [
+      { label: '(a)(i)', codes: ['11.1.4'], marks: 2, 
+        answer: 'Isotopes are (different forms of the same) atoms/nuclei of an element with the <b>same proton number (atomic number)</b> but <b>different numbers of neutrons</b> (different nucleon/mass number).' },
+      { label: '(a)(ii)', codes: ['11.1.6', '11.1.11'], marks: 2, 
+        answer: 'An α-particle reduces the proton number by 2 and the nucleon number by 4; a β⁻ particle increases the proton number by 1 (nucleon number unchanged). To end on another isotope of thorium (Z = 90):<br>one α decay: Z 90 → 88 (A: 232 → 228), then two β⁻ decays: Z 88 → 90.<br>minimum number of α-particles = <b>1</b><br>minimum number of β⁻ particles = <b>2</b>' },
+      { label: '(a)(iii)', codes: ['11.1.3', '11.1.6'], marks: 2, 
+        answer: 'Final nucleus: nucleon number = 232 − 4 = 228, proton number = 90.<br><b>²²⁸₉₀Th</b>' },
+      { label: '(b)(i)', codes: ['11.2.3'], marks: 1, 
+        answer: 'A proton is composed of quarks: <b>up, up, down (uud)</b>.' },
+      { label: '(b)(ii)', codes: ['11.2.5'], marks: 1, 
+        answer: 'In β⁺ decay <b>one up quark changes into a down quark</b>, so the composition changes from uud to udd (a proton becomes a neutron).' },
+    ]
+  },
+];
+
+
+// ---- Paper 4 (structured questions, A2 topics 12-25), June 2026 variants 41-44 ----
+const paper4Data2026 = [
+  {
+    topic: '13', 
+    paper: '9702/41/M/J/26', paper_full: 'June 2026 · Paper 41', qnum: 'Q1', 
+    title: 'Gravitational potential &amp; field strength of a uniform planet', 
+    pdf: '9702_s26_qp_41_Q1_Gravitational_fields.pdf', 
+    marks: 10, 
+    parts: [
+      { label: '(a)', codes: ['13.4.1'], marks: 2, 
+        answer: 'The <b>work done per unit mass</b><br>in bringing a small test mass from <b>infinity to the point</b>.' },
+      { label: '(b)(i)', codes: ['13.4.1', '13.4.3'], marks: 2, 
+        answer: 'The gravitational potential is defined as zero at infinity. Work is done by the two masses as they move towards each other (equivalently, work must be done on them to move them apart), so the potential decreases below zero — hence φ is <b>negative</b> for all values of x.' },
+      { label: '(b)(ii)', codes: ['13.4.2'], marks: 2, 
+        answer: 'ϕ = −GM/r. At the surface, r = R and ϕ = −Φ, so −Φ = −GM/R.<br>M = <b>ΦR/G</b>, where G is the (universal) gravitational constant.' },
+      { label: '(b)(iii)', codes: ['13.3.1', '13.3.2'], marks: 1, 
+        answer: 'g₀ = GM/R² = (ΦR)/R² = <b>Φ/R</b>' },
+      { label: '(b)(iv)', codes: ['13.3.2'], marks: 3, 
+        answer: 'Two curves: one in the <b>top-left quadrant</b> (between x = −3R and x = −R) and one in the <b>bottom-right quadrant</b> (between x = R and x = 3R). The upper curve passes through (−R, g₀) and (−2R, ¼g₀), with a non-zero value of g at x = −3R; the lower curve passes through (R, −g₀) and (2R, −¼g₀), with a non-zero value of g at x = 3R. Between −3R and −R the curve has a gradient and a magnitude of g that increase towards −R; between R and 3R the gradient and the magnitude of g decrease away from R. Nothing is drawn between x = −R and x = R.' },
+    ]
+  },
+  {
+    topic: '15', 
+    paper: '9702/41/M/J/26', paper_full: 'June 2026 · Paper 41', qnum: 'Q2', 
+    title: 'Ideal gas — thermometers, r.m.s. speed &amp; temperature', 
+    pdf: '9702_s26_qp_41_Q2_Ideal_gases.pdf', 
+    marks: 13, 
+    parts: [
+      { label: '(a)', codes: ['15.2.1'], marks: 2, 
+        answer: 'A gas which obeys the equation of state <b>pV = nRT (or pV = NkT) under all conditions</b>,<br>where T is the <b>thermodynamic temperature</b>.' },
+      { label: '(b)(i)', codes: ['14.2.1'], marks: 1, 
+        answer: 'Any one of: it measures <b>absolute (thermodynamic) temperature</b>, unlike a liquid-in-glass thermometer; it has a much greater range of temperature; its measurement does not depend on the properties of a (real) substance.' },
+      { label: '(b)(ii)', codes: ['14.2.1'], marks: 1, 
+        answer: 'Any one of: where the temperature changes <b>rapidly</b>; where the thermometer must have a very small mass (low heat capacity) so that it does not disturb the surroundings; where a <b>remote reading</b> is required.' },
+      { label: '(c)', codes: ['15.3.3'], marks: 2, 
+        answer: '〈c²〉 = (357² + 424² + 509² + 286² + 435²)/5 = 837 327/5 = 167 465<br>c₀ = √167 465 = <b>409 m s⁻¹</b>' },
+      { label: '(d)(i)', codes: ['15.1.2'], marks: 2, 
+        answer: 'n = N/N_A = (5.0 × 10²³)/(6.02 × 10²³) = <b>0.83 mol</b>' },
+      { label: '(d)(ii)', codes: ['15.3.4'], marks: 2, 
+        answer: '½mc² = (3/2)kT, where c is the r.m.s. speed, so T₀ = mc₀²/(3k)<br>= (3.34 × 10⁻²⁷ × 409²)/(3 × 1.38 × 10⁻²³) = 5.59 × 10⁻²²/4.14 × 10⁻²³ = <b>13.5 K</b>' },
+      { label: '(d)(iii)', codes: ['15.3.4'], marks: 3, 
+        answer: 'A curve starting at the point (T₀, c₀) with a positive gradient at that point. The gradient decreases as T increases, since the r.m.s. speed is proportional to the square root of the thermodynamic temperature. When extrapolated back from T₀, the curve <b>passes through the origin (0, 0)</b>.' },
+    ]
+  },
+  {
+    topic: '16', 
+    paper: '9702/41/M/J/26', paper_full: 'June 2026 · Paper 41', qnum: 'Q3', 
+    title: 'Internal energy of an ideal gas — first law &amp; p–V cycle', 
+    pdf: '9702_s26_qp_41_Q3_Thermodynamics.pdf', 
+    marks: 10, 
+    parts: [
+      { label: '(a)', codes: ['16.1.1'], marks: 2, 
+        answer: 'The internal energy of a system is the <b>sum of the potential energy and the kinetic energy</b> of its particles — the total energy of the random motion of the particles.' },
+      { label: '(b)(i)', codes: ['15.2.2'], marks: 2, 
+        answer: 'pV = NkT → V = NkT/p<br>= (8.7 × 10²³ × 1.38 × 10⁻²³ × 300)/(2.0 × 10⁵) = 3602/2.0 × 10⁵ = <b>0.018 m³</b>' },
+      { label: '(b)(ii)', codes: ['16.1.1', '15.3.4'], marks: 3, 
+        answer: 'For an ideal gas there are no intermolecular forces, so the potential energy of the molecules is zero — the internal energy is the total kinetic energy of the molecules.<br>U = (3/2)NkT = 1.5 × 8.7 × 10²³ × 1.38 × 10⁻²³ × 300 = <b>5400 J</b>' },
+      { label: '(c)', codes: ['16.2.1', '16.2.2'], marks: 3, 
+        answer: 'Any three of:<br>AB: the internal energy does not change, so the work done on the gas equals the thermal energy transferred from it.<br>BC: the volume is constant, so no work is done on or by the gas; the internal energy is halved (decreases by 2.7 kJ), and this decrease in internal energy equals the thermal energy removed.<br>CA: the internal energy is doubled (from 2.7 kJ to 5.4 kJ); the work done by the gas is 1.8 kJ and the thermal energy transferred to the gas is 4.5 kJ.<br>Whole cycle: there is <b>no overall change in internal energy</b>; overall, work is done on the gas and an equal amount of thermal energy is removed from it (net work done = net thermal energy transferred).' },
+    ]
+  },
+  {
+    topic: '18', 
+    paper: '9702/41/M/J/26', paper_full: 'June 2026 · Paper 41', qnum: 'Q4', 
+    title: 'Electric fields &amp; potentials of a proton–electron pair', 
+    pdf: '9702_s26_qp_41_Q4_Electric_fields.pdf', 
+    marks: 9, 
+    parts: [
+      { label: '(a)(i)', codes: ['18.4.1'], marks: 3, 
+        answer: 'At P each charge is at the same distance x, and the field of a point charge is E = Q/(4πε₀r²). The two charges have equal magnitude e, so the two field strengths are <b>equal in magnitude</b>. Both fields point towards the electron and away from the proton — that is, in the <b>same direction</b> — so the fields of the proton and the electron add together.' },
+      { label: '(a)(ii)', codes: ['18.5.3'], marks: 3, 
+        answer: 'V = Q/(4πε₀r): the charges have equal magnitude and are equidistant from P, so the two potentials have <b>equal magnitude</b>. The potential due to the proton (positive charge) is positive and the potential due to the electron (negative charge) is negative — the signs are <b>opposite</b>, so the two potentials cancel and the total potential at P is zero.' },
+      { label: '(b)(i)', codes: ['18.3.2'], marks: 2, 
+        answer: 'F = Q₁Q₂/(4πε₀r²), with Q₁ = Q₂ = e and separation r = 2x<br>F = <b>e²/(16πε₀x²)</b>' },
+      { label: '(b)(ii)', codes: ['18.5.4'], marks: 1, 
+        answer: 'E_P = Qq/(4πε₀r) = e²/(4πε₀ × 2x) = e²/(8πε₀x), and F = e²/(16πε₀x²), so<br>E_P = <b>2Fx</b>' },
+    ]
+  },
+  {
+    topic: '19', 
+    paper: '9702/41/M/J/26', paper_full: 'June 2026 · Paper 41', qnum: 'Q5', 
+    title: 'Capacitance — parallel derivation &amp; series stored energy', 
+    pdf: '9702_s26_qp_41_Q5_Capacitance.pdf', 
+    marks: 8, 
+    parts: [
+      { label: '(a)', codes: ['19.1.1'], marks: 2, 
+        answer: 'The capacitance is the <b>charge stored per unit potential difference</b> — the charge on one plate divided by the p.d. between the plates.' },
+      { label: '(b)', codes: ['19.1.3'], marks: 3, 
+        answer: 'In parallel, the p.d. across each capacitor is the same: V = V_X = V_Y (= E).<br>The total charge is the sum of the charges on the two capacitors: Q_T = Q_X + Q_Y.<br>Using Q = CV: C_TV = C_XV + C_YV, hence<br>C_T = <b>C_X + C_Y</b>' },
+      { label: '(c)', codes: ['19.1.4', '19.2.2'], marks: 3, 
+        answer: 'For capacitors in series: 1/C_T = 1/C + 1/(2C), so C_T = 2C/3.<br>W = ½C_TV² = ½ × (2C/3) × 6.00² = 1.30 × 10⁻³<br>C = (3 × 1.30 × 10⁻³)/6.00² = 3.90 × 10⁻³/36.0 = 1.08 × 10⁻⁴ F<br>= <b>108 μF</b>' },
+    ]
+  },
+  {
+    topic: '20', 
+    paper: '9702/41/M/J/26', paper_full: 'June 2026 · Paper 41', qnum: 'Q6', 
+    title: 'Charged particles in a magnetic field — mass spectrometer', 
+    pdf: '9702_s26_qp_41_Q6_Magnetic_fields.pdf', 
+    marks: 12, 
+    parts: [
+      { label: '(a)', codes: ['20.2.3'], marks: 2, 
+        answer: 'Magnetic flux density is the <b>force per unit current per unit length</b> acting on a current-carrying wire placed at right angles to the magnetic field (B = F/IL with the wire perpendicular to the field).' },
+      { label: '(b)(i)', codes: ['20.3.1'], marks: 2, 
+        answer: 'At X the (magnetic) force on the particles is to the left, curving the beam towards the detector at Y. Applying Fleming\'s left-hand rule with the field out of the plane of the page and the effective current in the direction of movement of the particles gives a force in this direction only for a positive charge — hence the particles are <b>positively charged</b>.' },
+      { label: '(b)(ii)', codes: ['20.3.5'], marks: 2, 
+        answer: 'The magnetic force is always perpendicular to the direction of motion of the particles, so it does no work and changes only the direction, not the speed. A force of constant magnitude always perpendicular to the velocity provides the centripetal acceleration, so the particles follow a <b>circular path</b>.' },
+      { label: '(c)(i)', codes: ['12.2.3', '20.3.5'], marks: 2, 
+        answer: 'XY is the diameter of the circular path, so r = ½ × 8.2 × 10⁻² = 0.041 m.<br>a = v²/r = (7.3 × 10⁴)²/0.041 = 5.33 × 10⁹/0.041<br>= <b>1.3 × 10¹¹ m s⁻²</b>' },
+      { label: '(c)(ii)', codes: ['20.3.2'], marks: 2, 
+        answer: 'Bqv = ma → B = ma/(qv)<br>= (2.0 × 10⁻²⁶ × 1.3 × 10¹¹)/(3.2 × 10⁻¹⁹ × 7.3 × 10⁴) = 2.6 × 10⁻¹⁵/2.34 × 10⁻¹⁴<br>= <b>0.11 T</b>' },
+      { label: '(d)', codes: ['20.3.5'], marks: 2, 
+        answer: 'r = mv/(Bq). With the mass quartered and the charge halved, r′ = (m/4)v/(B × q/2) = r/2 — the radius is <b>halved</b>. Draw the beam entering the field at X along the same line as before, deflecting in the same direction, but following a circular path of half the radius.' },
+    ]
+  },
+  {
+    topic: '21', 
+    paper: '9702/41/M/J/26', paper_full: 'June 2026 · Paper 41', qnum: 'Q7', 
+    title: 'Half-wave rectification &amp; r.m.s. values', 
+    pdf: '9702_s26_qp_41_Q7_Alternating_currents.pdf', 
+    marks: 8, 
+    parts: [
+      { label: '(a)(i)', codes: ['21.2.1', '21.2.2'], marks: 2, 
+        answer: 'Half-wave rectification allows the current to pass (unhindered) in <b>one direction</b> and blocks the current (completely) in the <b>other direction</b>, so the output contains only one polarity of the alternating input.' },
+      { label: '(a)(ii)', codes: ['21.2.2'], marks: 2, 
+        answer: 'Complete the circuit by inserting a <b>diode</b> in one of the two gaps and a <b>direct wire connection</b> across the other gap. The diode must be drawn with the correct diode symbol (triangle with bar) and orientated so that it conducts for one polarity of the input.' },
+      { label: '(b)', codes: ['21.1.4'], marks: 4, 
+        answer: 'Complete table:<br>V₁ (sinusoidal): unrectified = <b>V₀/√2</b>, half-wave rectified = <b>V₀/2</b><br>V₂ (square wave): unrectified = <b>V₀</b>, half-wave rectified = <b>V₀/√2</b>' },
+    ]
+  },
+  {
+    topic: '24', 
+    paper: '9702/41/M/J/26', paper_full: 'June 2026 · Paper 41', qnum: 'Q8', 
+    title: 'X-ray production — photons, minimum wavelength &amp; contrast', 
+    pdf: '9702_s26_qp_41_Q8_Medical_physics.pdf', 
+    marks: 13, 
+    parts: [
+      { label: '(a)', codes: ['22.1.1', '22.1.2'], marks: 2, 
+        answer: 'A photon is a <b>packet (quantum) of energy</b><br>of electromagnetic radiation, carrying energy E = hf.' },
+      { label: '(b)(i)', codes: ['24.2.1'], marks: 1, 
+        answer: '<b>Electrons</b>.' },
+      { label: '(b)(ii)', codes: ['24.2.1'], marks: 2, 
+        answer: 'The electrons are <b>decelerated by the metal target</b>. (Some of) the kinetic energy of the electrons becomes the energy of photons, which are emitted as X-rays.' },
+      { label: '(b)(iii)', codes: ['24.2.1', '22.1.3'], marks: 3, 
+        answer: 'Some of an electron\'s kinetic energy is dissipated as thermal energy in the target, so the photon energy varies from electron to electron — giving a range of wavelengths. The wavelength is inversely proportional to the photon energy (λ = hc/E). The <b>minimum wavelength</b> occurs when all of an electron\'s kinetic energy becomes the energy of a single photon.' },
+      { label: '(b)(iv)', codes: ['24.2.1', '22.1.3'], marks: 3, 
+        answer: 'eV = hc/λ_min, so λ_min = hc/(eV)<br>= (6.63 × 10⁻³⁴ × 3.00 × 10⁸)/(1.60 × 10⁻¹⁹ × 52.0 × 10³) = 1.99 × 10⁻²⁵/8.32 × 10⁻¹⁵<br>= <b>2.39 × 10⁻¹¹ m</b>' },
+      { label: '(c)', codes: ['24.2.2'], marks: 2, 
+        answer: 'The image contrast is determined by the (linear) attenuation coefficients μ of the two materials — how strongly each material attenuates the X-ray beam (I = I₀e^(−μx)). Good contrast requires the two materials to have <b>very different attenuation coefficients</b>, so that the transmitted intensities through them are very different.' },
+    ]
+  },
+  {
+    topic: '23', 
+    paper: '9702/41/M/J/26', paper_full: 'June 2026 · Paper 41', qnum: 'Q9', 
+    title: 'Thorium-228 decay — mass defect &amp; alpha emission', 
+    pdf: '9702_s26_qp_41_Q9_Nuclear_physics.pdf', 
+    marks: 9, 
+    parts: [
+      { label: '(a)', codes: ['23.1.1'], marks: 2, 
+        answer: 'The mass defect of a nucleus is the <b>difference between the mass of the nucleus and the sum of the masses of its constituent nucleons</b> (protons and neutrons), when the nucleons are separated to infinity.' },
+      { label: '(b)(i)', codes: ['23.1.1', '23.1.2'], marks: 4, 
+        answer: 'α-decay produces Ra-224 (plus He-4); β⁺ decay would produce Ac-228 and β⁻ decay would produce Pa-228.<br>Total mass defect of the α-decay products = 1.846 840 + 0.030 377 = 1.877 217 u, which is greater than the mass defect of thorium-228 (1.871 290 u), so α-decay releases energy.<br>The mass defects of Ac-228 (1.869 820 u) and Pa-228 (1.866 129 u) are both smaller than that of thorium-228, so β⁺ and β⁻ decay would not release energy. A decay can occur only if the mass defect of the products is greater than that of the parent nucleus — hence thorium-228 is an <b>α-emitter</b> and not a β⁻ or β⁺ emitter.' },
+      { label: '(b)(ii)', codes: ['23.1.1'], marks: 3, 
+        answer: 'Δm = 1.877 217 − 1.871 290 = 0.005 927 u.<br>E = Δmc² = 0.005 927 × 1.66 × 10⁻²⁷ × (3.00 × 10⁸)² = 8.85 × 10⁻¹³ J<br>= 8.85 × 10⁻¹³/(1.60 × 10⁻¹³) = <b>5.53 MeV</b>' },
+    ]
+  },
+  {
+    topic: '25', 
+    paper: '9702/41/M/J/26', paper_full: 'June 2026 · Paper 41', qnum: 'Q10', 
+    title: 'Sun\'s luminosity — radiant flux, Wien\'s law &amp; star temperature', 
+    pdf: '9702_s26_qp_41_Q10_Astronomy_and_cosmology.pdf', 
+    marks: 8, 
+    parts: [
+      { label: '(a)', codes: ['25.2.1'], marks: 2, 
+        answer: 'Wien\'s displacement law states that the (thermodynamic) temperature of the surface of a star is <b>inversely proportional to the wavelength</b> at which the maximum emission rate (intensity) occurs — that is, λ_maxT = constant.' },
+      { label: '(b)(i)', codes: ['25.2.2'], marks: 2, 
+        answer: 'L = 4πσr²T⁴ = 4π × 5.67 × 10⁻⁸ × (6.96 × 10⁸)² × 5770⁴<br>= <b>3.83 × 10²⁶ W</b>' },
+      { label: '(b)(ii)', codes: ['25.1.2'], marks: 3, 
+        answer: 'F = L/(4πd²) = 3.83 × 10²⁶/(4π × (1.52 × 10¹¹)²)<br>= 3.83 × 10²⁶/2.90 × 10²³ = <b>1320 W m⁻²</b>' },
+      { label: '(b)(iii)', codes: ['25.2.1'], marks: 1, 
+        answer: 'λ_max ∝ 1/T, so T = 5770/0.581 = <b>9930 K</b>' },
+    ]
+  },
+  {
+    topic: '12', 
+    paper: '9702/42/M/J/26', paper_full: 'June 2026 · Paper 42', qnum: 'Q1', 
+    title: 'Aircraft in horizontal circle — centripetal acceleration &amp; banking angle', 
+    pdf: '9702_s26_qp_42_Q1_Motion_in_a_circle.pdf', 
+    marks: 10, 
+    parts: [
+      { label: '(a)', codes: ['12.2.1', '12.2.2'], marks: 2, 
+        answer: 'The acceleration is (always) perpendicular to the velocity, directed towards the centre of the circle, and the magnitudes of the velocity (the speed) and of the acceleration are constant — but their <b>directions change continuously</b>.' },
+      { label: '(b)(i)', codes: ['12.2.1', '12.2.4'], marks: 2, 
+        answer: 'The only other force on the aircraft is its weight, which is vertical and has no horizontal component. The lift must therefore have a horizontal component (the resultant force towards the centre of the circle) to provide the centripetal force — so the lift <b>cannot be vertically upwards</b>.' },
+      { label: '(b)(ii)', codes: ['12.2.4'], marks: 1, 
+        answer: 'Arrow drawn from the aircraft pointing <b>horizontally to the left</b>, i.e. towards the centre of the circle — the resultant force provides the centripetal force.' },
+      { label: '(b)(iii)', codes: ['12.2.3'], marks: 2, 
+        answer: 'a = v²/r = 180²/7200<br>= <b>4.5 m s⁻²</b>' },
+      { label: '(b)(iv)', codes: ['12.2.4'], marks: 3, 
+        answer: 'The vertical component of the lift balances the weight (L cos θ = mg) and the horizontal component of the lift causes the centripetal acceleration (L sin θ = ma):<br>tan θ = a/g = 4.5/9.81<br>θ = <b>25°</b>' },
+    ]
+  },
+  {
+    topic: '13', 
+    paper: '9702/42/M/J/26', paper_full: 'June 2026 · Paper 42', qnum: 'Q2', 
+    title: 'Earth\'s gravitational field — mass, potential &amp; satellite energy', 
+    pdf: '9702_s26_qp_42_Q2_Gravitational_fields.pdf', 
+    marks: 9, 
+    parts: [
+      { label: '(a)(i)', codes: ['13.1.1'], marks: 1, 
+        answer: 'The gravitational field (strength) at a point is the <b>force per unit mass acting on a small test mass placed at that point</b>.' },
+      { label: '(a)(ii)', codes: ['13.1.2'], marks: 2, 
+        answer: 'Draw <b>four straight, parallel field lines perpendicular to the ground</b> (vertical), approximately evenly spaced, with <b>arrows pointing downwards towards the ground</b>.' },
+      { label: '(b)(i)', codes: ['13.3.2'], marks: 2, 
+        answer: 'g = GM/R² → M = gR²/G = 9.81×(6.37×10⁶)²/(6.67×10⁻¹¹)<br>= <b>5.97×10²⁴ kg</b>' },
+      { label: '(b)(ii)', codes: ['13.4.2'], marks: 2, 
+        answer: 'φ = −GM/R = −6.67×10⁻¹¹×5.97×10²⁴/(6.37×10⁶)<br>= <b>−6.25×10⁷ J kg⁻¹</b>' },
+      { label: '(b)(iii)', codes: ['13.4.3'], marks: 2, 
+        answer: 'Orbital radius r = (6.37 + 1.93)×10⁶ = 8.30×10⁶ m<br>E_P = −GMm/r = −6.67×10⁻¹¹×5.97×10²⁴×96.0/(8.30×10⁶)<br>= <b>−4.61×10⁹ J</b>' },
+    ]
+  },
+  {
+    topic: '16', 
+    paper: '9702/42/M/J/26', paper_full: 'June 2026 · Paper 42', qnum: 'Q3', 
+    title: 'Cooling gas at constant pressure — internal energy &amp; specific heat capacity', 
+    pdf: '9702_s26_qp_42_Q3_Thermodynamics.pdf', 
+    marks: 14, 
+    parts: [
+      { label: '(a)', codes: ['14.3.1'], marks: 2, 
+        answer: 'The specific heat capacity of a substance is the <b>thermal energy per unit mass per unit change in temperature</b>.' },
+      { label: '(b)(i)', codes: ['16.2.1'], marks: 2, 
+        answer: 'W = pΔV = 1.01×10⁵ × (1.00 − 0.80)×0.0243<br>= <b>491 J</b>' },
+      { label: '(b)(ii)', codes: ['16.2.1'], marks: 1, 
+        answer: 'The volume of the gas decreases (the gas is compressed), so the work done <b>on</b> the gas is <b>positive</b>.' },
+      { label: '(b)(iii)', codes: ['15.3.4', '16.1.2'], marks: 2, 
+        answer: 'For an ideal gas the internal energy is proportional to the thermodynamic temperature (U = ³⁄₂NkT). At constant pressure the temperature is proportional to the volume, so the internal energy falls to 80% of its initial value:<br>ΔU = −0.20×3676 = <b>−735 J</b>' },
+      { label: '(b)(iv)', codes: ['16.2.2'], marks: 2, 
+        answer: 'First law: ΔU = Q + W (W is the work done on the gas)<br>−735 = Q + 491<br>Q = <b>−1226 J</b> (thermal energy is removed from the gas)' },
+      { label: '(b)(v)', codes: ['14.3.1'], marks: 2, 
+        answer: 'ΔT = 0.20×296 = 59 K<br>c = Q/(mΔT) = 1226/(6.00×10²³×6.64×10⁻²⁷×0.20×296)<br>= <b>5200 J kg⁻¹ K⁻¹</b>' },
+      { label: '(c)', codes: ['16.2.2', '14.3.1'], marks: 3, 
+        answer: 'The same temperature change gives the same change in internal energy as in (b). At constant volume no work is done on or by the gas (W = 0), so from ΔU = Q + W only 735 J of thermal energy needs to be supplied — less than the 1226 J removed in (b). Hence c = Q/(mΔT) is <b>less</b> than the value in (b)(v).' },
+    ]
+  },
+  {
+    topic: '15', 
+    paper: '9702/42/M/J/26', paper_full: 'June 2026 · Paper 42', qnum: 'Q4', 
+    title: 'Particle in a cubic box — momentum change &amp; pressure derivation', 
+    pdf: '9702_s26_qp_42_Q4_Ideal_gases.pdf', 
+    marks: 10, 
+    parts: [
+      { label: '(a)', codes: ['15.3.1'], marks: 2, 
+        answer: 'Any two of: collisions between particles and with the walls are <b>instantaneous</b> (collision time negligible compared with the time between collisions); collisions are <b>perfectly elastic</b> (no kinetic energy is lost).' },
+      { label: '(b)(i)', codes: ['15.3.2'], marks: 1, 
+        answer: 'The momentum reverses from +mu to −mu:<br>change in momentum = <b>2mu</b>' },
+      { label: '(b)(ii)', codes: ['15.3.2'], marks: 1, 
+        answer: 'The particle travels a distance 2L (there and back) between successive collisions with the same face:<br>time = <b>2L/u</b>' },
+      { label: '(b)(iii)', codes: ['15.3.2'], marks: 1, 
+        answer: 'F = Δp/t = 2mu/(2L/u)<br>= <b>mu²/L</b>' },
+      { label: '(b)(iv)', codes: ['15.3.2'], marks: 2, 
+        answer: 'By Newton\'s third law the force exerted on the face by the particle is equal (and opposite) to the force exerted on the particle by the face. Pressure = force/area:<br>p = F/A = (mu²/L)/L² = <b>mu²/L³</b>' },
+      { label: '(c)', codes: ['15.3.2', '15.3.4'], marks: 3, 
+        answer: 'Three modifications: the volume of the cube L³ is the volume V of the gas, so pV = mu²; particles move in three (all) dimensions, so only one-third of the mean-square speed acts along any one axis — u² becomes ⅓⟨c²⟩; with N particles the pressure is N times that due to a single particle:<br>pV = <b>⅓Nm⟨c²⟩</b>' },
+    ]
+  },
+  {
+    topic: '17', 
+    paper: '9702/42/M/J/26', paper_full: 'June 2026 · Paper 42', qnum: 'Q5', 
+    title: 'Block oscillating on a spring — amplitude &amp; kinetic energy', 
+    pdf: '9702_s26_qp_42_Q5_Oscillations.pdf', 
+    marks: 8, 
+    parts: [
+      { label: '(a)(i)', codes: ['17.1.1'], marks: 1, 
+        answer: 'ω = 2π/T = 2π/1.7<br>= <b>3.7 rad s⁻¹</b>' },
+      { label: '(a)(ii)', codes: ['17.1.1'], marks: 1, 
+        answer: 'The amplitude is the <b>magnitude of the maximum displacement of the block from its equilibrium (mean) position</b>.' },
+      { label: '(a)(iii)', codes: ['17.2.2'], marks: 3, 
+        answer: 'E = ½mω²x₀²<br>13×10⁻⁶ = ½×27×10⁻³×3.7²×x₀²<br>x₀² = 2×13×10⁻⁶/(0.027×3.7²) = 7.03×10⁻⁵<br>x₀ = <b>8.4×10⁻³ m</b>' },
+      { label: '(b)', codes: ['17.2.1'], marks: 3, 
+        answer: 'Sketch a dome-shaped curve, symmetrical about the EK-axis, with a single peak of <b>13 μJ at x = 0</b>, falling to EK = 0 at x = ±8.4×10⁻³ m (the amplitude). Add a consistent x-axis scale with at least one marking in each half (e.g. ±8 and ±4, in units of 10⁻³ m), corresponding to the end points.' },
+    ]
+  },
+  {
+    topic: '18', 
+    paper: '9702/42/M/J/26', paper_full: 'June 2026 · Paper 42', qnum: 'Q6', 
+    title: 'Charged conducting sphere — electric potential &amp; dome capacitance', 
+    pdf: '9702_s26_qp_42_Q6_Electric_fields.pdf', 
+    marks: 13, 
+    parts: [
+      { label: '(a)', codes: ['18.5.1'], marks: 2, 
+        answer: 'The electric potential at a point is the <b>work done per unit positive charge in bringing a small test charge from infinity to the point</b>.' },
+      { label: '(b)(i)', codes: ['18.5.3'], marks: 1, 
+        answer: 'V₀ = <b>Q/(4πε₀R)</b>, where ε₀ is the permittivity of free space.' },
+      { label: '(b)(ii)', codes: ['18.5.2', '18.5.3'], marks: 3, 
+        answer: 'Sketch a curve starting at (R, V₀) that falls with decreasing magnitude of V and of gradient (V = Q/4πε₀x), passing through <b>(2R, ½V₀) and (3R, ⅓V₀)</b>, entirely within the positive V region and approaching the x-axis without crossing it.' },
+      { label: '(c)(i)', codes: ['18.5.3'], marks: 2, 
+        answer: 'V = Q/(4πε₀r) → Q = 4πε₀rV = 4π×8.85×10⁻¹²×0.119×(−4.80×10⁴)<br>= <b>−6.35×10⁻⁷ C</b>' },
+      { label: '(c)(ii)', codes: ['19.1.1'], marks: 1, 
+        answer: 'The dome <b>stores charge (and hence energy) at a potential</b> — it can be charged and discharged — so it acts as a capacitor: its capacitance is the <b>charge stored per unit p.d.</b>' },
+      { label: '(c)(iii)', codes: ['19.1.2'], marks: 2, 
+        answer: 'C = Q/V = 6.35×10⁻⁷/4.80×10⁴<br>= <b>1.32×10⁻¹¹ F</b> (13.2 pF)' },
+      { label: '(c)(iv)', codes: ['19.2.2'], marks: 2, 
+        answer: 'E = ½QV = ½×6.35×10⁻⁷×4.80×10⁴<br>= <b>0.0152 J</b>' },
+    ]
+  },
+  {
+    topic: '20', 
+    paper: '9702/42/M/J/26', paper_full: 'June 2026 · Paper 42', qnum: 'Q7', 
+    title: 'Hall probe in a magnetic field — Hall voltage &amp; charge carriers', 
+    pdf: '9702_s26_qp_42_Q7_Magnetic_fields.pdf', 
+    marks: 8, 
+    parts: [
+      { label: '(a)(i)', codes: ['20.3.3'], marks: 1, 
+        answer: 'The Hall voltage is induced between faces <b>PSZW and QRYX</b>.' },
+      { label: '(a)(ii)', codes: ['20.3.3'], marks: 3, 
+        answer: 'n = <b>number density of charge carriers</b> (number per unit volume);<br>q = <b>charge on each charge carrier</b>;<br>t = <b>thickness of the slice</b> (the distance between faces PSZW and QRYX).' },
+      { label: '(b)(i)', codes: ['20.3.3'], marks: 3, 
+        answer: 'Any three of: the charge carriers <b>experience a force due to the magnetic field</b>; the force on the carriers is <b>perpendicular to both I and B</b>; the carriers <b>deflect towards one face</b> (accumulating there, leaving the opposite face with the opposite charge); the charge separation between the faces produces a <b>p.d. (the Hall voltage) between them</b>; a steady state is reached when the magnetic force is <b>balanced by the force due to the resulting electric field</b>.' },
+      { label: '(b)(ii)', codes: ['20.3.3', '20.3.1'], marks: 1, 
+        answer: 'The (negative) electrons are deflected towards face QRYX, leaving face PSZW positively charged — face <b>PSZW is at the higher potential</b>.' },
+    ]
+  },
+  {
+    topic: '21', 
+    paper: '9702/42/M/J/26', paper_full: 'June 2026 · Paper 42', qnum: 'Q8', 
+    title: 'Rectification &amp; smoothing of a sinusoidal input voltage', 
+    pdf: '9702_s26_qp_42_Q8_Alternating_currents.pdf', 
+    marks: 7, 
+    parts: [
+      { label: '(a)(i)', codes: ['21.2.2'], marks: 1, 
+        answer: '<b>Diode</b> (single diode producing half-wave rectification).' },
+      { label: '(a)(ii)', codes: ['21.2.4'], marks: 1, 
+        answer: '<b>Capacitor</b> (connected in parallel across the output).' },
+      { label: '(b)(i)', codes: ['21.1.1'], marks: 1, 
+        answer: 'peak value of VIN = <b>3.6 V</b>' },
+      { label: '(b)(ii)', codes: ['21.1.1'], marks: 1, 
+        answer: 'period of VIN = <b>0.040 s</b>' },
+      { label: '(c)', codes: ['21.2.1', '21.1.4', '21.2.4'], marks: 3, 
+        answer: 'Any three of: the rectification is <b>half-wave</b> (VOUT is zero during alternate half-cycles); frequency of VIN = 1/0.040 = <b>25 Hz</b> (angular frequency 160 rad s⁻¹); r.m.s. input voltage = 3.6/√2 = <b>2.5 V</b>; time constant of the smoothing circuit = <b>0.058 s</b>; ripple (variation in VOUT) = <b>1.6 V</b> (44% of the peak).' },
+    ]
+  },
+  {
+    topic: '22', 
+    paper: '9702/42/M/J/26', paper_full: 'June 2026 · Paper 42', qnum: 'Q9', 
+    title: 'Electron accelerated by 3.5 kV — speed &amp; de Broglie wavelength', 
+    pdf: '9702_s26_qp_42_Q9_Quantum_physics.pdf', 
+    marks: 10, 
+    parts: [
+      { label: '(a)', codes: ['22.3.3'], marks: 1, 
+        answer: 'The de Broglie wavelength is the <b>wavelength associated with a moving particle</b> (λ = h/p).' },
+      { label: '(b)', codes: ['22.3.2', '22.3.1'], marks: 4, 
+        answer: 'Wave nature of matter: <b>electron diffraction</b> (or electron interference);<br>particle nature of matter: <b>states of matter / state changes / gas behaviour / quantisation of charge / radioactive decay / Rutherford scattering / Brownian motion</b>;<br>wave nature of EM radiation: <b>diffraction / interference / polarisation</b>;<br>particle nature of EM radiation: <b>photoelectric effect</b> (or emission/absorption line spectra, Compton scattering).' },
+      { label: '(c)(i)', codes: ['22.1.4'], marks: 3, 
+        answer: 'qV = ½mv²<br>1.60×10⁻¹⁹×3500 = ½×9.11×10⁻³¹×v²<br>v² = 2×1.60×10⁻¹⁹×3500/(9.11×10⁻³¹) = 1.23×10¹⁵<br>v = <b>3.5×10⁷ m s⁻¹</b>' },
+      { label: '(c)(ii)', codes: ['22.3.4'], marks: 2, 
+        answer: 'λ = h/(mv) = 6.63×10⁻³⁴/(9.11×10⁻³¹×3.5×10⁷)<br>= <b>2.1×10⁻¹¹ m</b>' },
+    ]
+  },
+  {
+    topic: '23', 
+    paper: '9702/42/M/J/26', paper_full: 'June 2026 · Paper 42', qnum: 'Q10', 
+    title: 'Star fusing hydrogen to helium — binding energy &amp; mass loss', 
+    pdf: '9702_s26_qp_42_Q10_Nuclear_physics.pdf', 
+    marks: 11, 
+    parts: [
+      { label: '(a)', codes: ['23.1.1'], marks: 2, 
+        answer: 'The binding energy of a nucleus is the <b>energy required to separate all the nucleons (protons and neutrons) in the nucleus to infinity</b> — equivalently, the energy released when the nucleons come together to form the nucleus.' },
+      { label: '(b)(i)', codes: ['23.1.2'], marks: 1, 
+        answer: '4 ¹H → ⁴He + 2X, so X is the <b>positron</b> (β⁺).' },
+      { label: '(b)(ii)', codes: ['23.1.1'], marks: 2, 
+        answer: 'E = Δmc² = 0.030377×1.66×10⁻²⁷×(3.00×10⁸)²<br>= <b>4.54×10⁻¹² J</b>' },
+      { label: '(c)(i)', codes: ['25.1.2'], marks: 2, 
+        answer: 'F = L/(4πd²) = 7.98×10²⁷/(4π×(8.15×10¹⁶)²)<br>= <b>9.56×10⁻⁸ W m⁻²</b>' },
+      { label: '(c)(ii)', codes: ['23.1.1', '23.1.2'], marks: 4, 
+        answer: 'Number of He-4 nuclei formed per second = L/E_He = 7.98×10²⁷/4.54×10⁻¹² = 1.76×10³⁹ s⁻¹. Each He-4 nucleus is formed from 4 hydrogen nuclei, each of mass 1.67×10⁻²⁷ kg:<br>mass rate = 4×1.67×10⁻²⁷×7.98×10²⁷/4.54×10⁻¹²<br>= <b>1.17×10¹³ kg s⁻¹</b>' },
+    ]
+  },
+  {
+    topic: '13', 
+    paper: '9702/43/M/J/26', paper_full: 'June 2026 · Paper 43', qnum: 'Q1', 
+    title: 'Gravitational potential &amp; field strength of a uniform planet', 
+    pdf: '9702_s26_qp_43_Q1_Gravitational_fields.pdf', 
+    marks: 10, 
+    parts: [
+      { label: '(a)', codes: ['13.4.1'], marks: 2, 
+        answer: 'The gravitational potential at a point is the <b>work done per unit mass</b> in bringing a small test mass from <b>infinity</b> to that point.' },
+      { label: '(b)(i)', codes: ['13.4.1'], marks: 2, 
+        answer: 'The potential is defined as <b>zero at infinity</b>.<br>Work is done <b>by</b> the two masses as they move towards each other from infinity (or work must be done on them to increase their separation), so their gravitational potential energy decreases — hence the potential at any finite point is <b>negative for all values of x</b>.' },
+      { label: '(b)(ii)', codes: ['13.4.2'], marks: 2, 
+        answer: 'At the surface: ϕ = −GM/R = −Φ<br>M = <b>ΦR/G</b>, where G is the universal gravitational constant.' },
+      { label: '(b)(iii)', codes: ['13.3.2'], marks: 1, 
+        answer: 'g0 = GM/R² = G(ΦR/G)/R² = <b>Φ/R</b>' },
+      { label: '(b)(iv)', codes: ['13.3.2'], marks: 3, 
+        answer: 'Draw two curves — one in the <b>top-left quadrant</b> and one in the <b>bottom-right quadrant</b> (nothing drawn between x = −R and x = +R).<br>Each curve must pass through (±R, ±g0) and (±2R, ±¼g0), with a <b>non-zero value of g at ±3R</b>.<br>The magnitudes of both g and the gradient <b>decrease</b> as |x| increases (g ∝ 1/x²), so each curve flattens towards the x-axis away from the planet.' },
+    ]
+  },
+  {
+    topic: '15', 
+    paper: '9702/43/M/J/26', paper_full: 'June 2026 · Paper 43', qnum: 'Q2', 
+    title: 'Ideal gas — r.m.s. speed, amount of substance &amp; temperature', 
+    pdf: '9702_s26_qp_43_Q2_Ideal_gases.pdf', 
+    marks: 13, 
+    parts: [
+      { label: '(a)', codes: ['15.2.1'], marks: 2, 
+        answer: 'A gas that obeys the relationship <b>pV ∝ T</b> (i.e. pV = nRT or pV = NkT) under all conditions, where T is the thermodynamic (Kelvin) temperature.' },
+      { label: '(b)(i)', codes: ['14.2.2'], marks: 1, 
+        answer: 'It measures the <b>absolute (thermodynamic) temperature</b> directly — its scale does not depend on the properties of any particular substance, and it can measure a much greater range of temperatures than a liquid-in-glass thermometer.' },
+      { label: '(b)(ii)', codes: ['14.2.1'], marks: 1, 
+        answer: 'Any one of: measuring <b>rapidly changing temperatures</b>; measuring the temperature of a very small mass (amount) of substance; taking a remote reading — the thermocouple has a very small thermal capacity and responds quickly.' },
+      { label: '(c)', codes: ['15.3.3'], marks: 2, 
+        answer: '〈c²〉 = (357² + 424² + 509² + 286² + 435²)/5 = 837327/5 = 167465<br>c0 = √167465 = <b>409 m s⁻¹</b> (to 3 s.f.)' },
+      { label: '(d)(i)', codes: ['15.1.2'], marks: 2, 
+        answer: 'n = N/NA = 5.0×10²³ / 6.02×10²³ = <b>0.83 mol</b>' },
+      { label: '(d)(ii)', codes: ['15.3.4'], marks: 2, 
+        answer: '½m〈c²〉 = (3/2)kT, so T0 = m〈c²〉/(3k)<br>T0 = (3.34×10⁻²⁷ × 409²)/(3 × 1.38×10⁻²³) = 5.59×10⁻²²/4.14×10⁻²³<br>T0 = <b>13.5 K</b>' },
+      { label: '(d)(iii)', codes: ['15.3.4'], marks: 3, 
+        answer: 'A curve starting at the point (T0, c0) with a <b>positive gradient</b> at that point.<br>The gradient is positive but <b>decreasing</b> as T increases (the line becomes almost horizontal, but never of negative gradient).<br>When extrapolated back from T = T0 towards T = 0, the line passes through the <b>origin (0, 0)</b> — consistent with c ∝ √T.' },
+    ]
+  },
+  {
+    topic: '16', 
+    paper: '9702/43/M/J/26', paper_full: 'June 2026 · Paper 43', qnum: 'Q3', 
+    title: 'Internal energy — p–V cycle of an ideal gas', 
+    pdf: '9702_s26_qp_43_Q3_Thermodynamics.pdf', 
+    marks: 10, 
+    parts: [
+      { label: '(a)', codes: ['16.1.1'], marks: 2, 
+        answer: 'The internal energy of a system is the <b>sum of the kinetic energies and potential energies</b> of its molecules — the total energy of the random motion of its particles.' },
+      { label: '(b)(i)', codes: ['15.2.2'], marks: 2, 
+        answer: 'pV = NkT<br>V = (8.7×10²³ × 1.38×10⁻²³ × 300)/(2.0×10⁵) = 3602/2.0×10⁵ = <b>0.018 m³</b> (shown)' },
+      { label: '(b)(ii)', codes: ['16.1.1', '15.3.4'], marks: 3, 
+        answer: 'For an ideal gas there are no intermolecular forces, so the <b>potential energy of the molecules is zero</b> — the internal energy is entirely the total kinetic energy of the molecules.<br>U = (3/2)NkT = 1.5 × 8.7×10²³ × 1.38×10⁻²³ × 300<br>U = <b>5.4×10³ J</b>' },
+      { label: '(c)', codes: ['16.2.1', '16.2.2'], marks: 3, 
+        answer: 'Any three conclusions (each must be related to a specific change or to the whole cycle):<br><b>AB (isothermal):</b> no change in internal energy (pV is constant); work done on the gas equals the thermal energy transferred from it.<br><b>BC (constant volume):</b> no work is done; the internal energy halves to 2.7 kJ; the decrease in internal energy equals the thermal energy removed (2.7 kJ).<br><b>CA (constant pressure):</b> the internal energy doubles (increases by 2.7 kJ to 5.4 kJ); work done by the gas = p∆V = 2.0×10⁵ × 0.009 = <b>1.8 kJ</b>; thermal energy transferred to the gas = <b>4.5 kJ</b>.<br><b>Complete cycle:</b> no overall change in internal energy; net work is done on the gas and thermal energy is removed from it (net work done = net thermal energy transferred).' },
+    ]
+  },
+  {
+    topic: '18', 
+    paper: '9702/43/M/J/26', paper_full: 'June 2026 · Paper 43', qnum: 'Q4', 
+    title: 'Hydrogen atom — electric field &amp; potential at the midpoint', 
+    pdf: '9702_s26_qp_43_Q4_Electric_fields.pdf', 
+    marks: 9, 
+    parts: [
+      { label: '(a)(i)', codes: ['18.4.1'], marks: 3, 
+        answer: 'The magnitudes of the two fields are <b>equal</b> — the proton and the electron have charges of equal magnitude and are at equal distances (x) from P, and E = Q/4πε0r².<br>The directions are <b>the same</b>: the field due to the proton is away from the proton (to the right at P), and the field due to the electron is towards the electron (also to the right at P).' },
+      { label: '(a)(ii)', codes: ['18.5.3'], marks: 3, 
+        answer: 'The magnitudes of the two potentials are <b>equal</b>, since the charge magnitudes and the distances are equal (V = Q/4πε0r).<br>The signs are <b>opposite</b>: the potential due to the proton is <b>positive</b> and the potential due to the electron is <b>negative</b>.' },
+      { label: '(b)(i)', codes: ['18.3.2'], marks: 2, 
+        answer: 'F = Q1Q2/4πε0r² with Q1 = Q2 = e and separation r = 2x:<br>F = <b>e²/16πε0x²</b>' },
+      { label: '(b)(ii)', codes: ['18.5.4'], marks: 1, 
+        answer: 'EP = e²/4πε0(2x) = e²/8πε0x = <b>2Fx</b> (since F = e²/16πε0x²)' },
+    ]
+  },
+  {
+    topic: '19', 
+    paper: '9702/43/M/J/26', paper_full: 'June 2026 · Paper 43', qnum: 'Q5', 
+    title: 'Capacitors in series &amp; parallel — combined capacitance &amp; energy', 
+    pdf: '9702_s26_qp_43_Q5_Capacitance.pdf', 
+    marks: 8, 
+    parts: [
+      { label: '(a)', codes: ['19.1.1'], marks: 2, 
+        answer: 'Capacitance is the <b>charge stored per unit potential difference</b> (C = Q/V), where the charge is the charge on one plate and the potential difference is the p.d. between the plates.' },
+      { label: '(b)', codes: ['19.1.3'], marks: 3, 
+        answer: 'In parallel, the p.d. across each capacitor is the same: <b>VX = VY = E</b>.<br>Total charge: <b>QT = QX + QY</b>, and Q = CV:<br>CT V = CX V + CY V<br>CT = <b>CX + CY</b>' },
+      { label: '(c)', codes: ['19.1.4', '19.2.2'], marks: 3, 
+        answer: 'Series combination: 1/CT = 1/C + 1/2C → CT = 2C/3<br>E = ½CT V² = ½ × (2C/3) × 6.00² = 12C<br>12C = 1.30×10⁻³ → C = 1.08×10⁻⁴ F<br>C = <b>108 µF</b>' },
+    ]
+  },
+  {
+    topic: '20', 
+    paper: '9702/43/M/J/26', paper_full: 'June 2026 · Paper 43', qnum: 'Q6', 
+    title: 'Mass spectrometer — circular path &amp; magnetic flux density', 
+    pdf: '9702_s26_qp_43_Q6_Magnetic_fields.pdf', 
+    marks: 12, 
+    parts: [
+      { label: '(a)', codes: ['20.2.3'], marks: 2, 
+        answer: 'Magnetic flux density is the <b>force per unit current per unit length</b> on a wire placed at <b>right angles to the magnetic field</b> (B = F/IL).' },
+      { label: '(b)(i)', codes: ['20.3.1'], marks: 2, 
+        answer: 'At X, the magnetic force on the particles is <b>to the left</b> (the path curves towards Y).<br>Applying Fleming\'s left-hand rule with the force to the left and the field out of the page shows that the (effective) current is in the direction of movement of the particles — so the charge is <b>positive</b>.' },
+      { label: '(b)(ii)', codes: ['20.3.5'], marks: 2, 
+        answer: 'The magnetic force is always <b>perpendicular to the direction of motion</b> of the particles.<br>It changes only the direction of the motion, not the speed — it acts as a centripetal force, so the path is <b>circular</b> (at constant speed).' },
+      { label: '(c)(i)', codes: ['12.2.3', '20.3.5'], marks: 2, 
+        answer: 'The path is a semicircle, so r = ½XY = ½ × 8.2 = 4.1 cm = 0.041 m.<br>a = v²/r = (7.3×10⁴)²/0.041 = 5.33×10⁹/0.041 = <b>1.3×10¹¹ m s⁻²</b> (shown)' },
+      { label: '(c)(ii)', codes: ['20.3.2'], marks: 2, 
+        answer: 'BQv = ma<br>B = ma/Qv = (2.0×10⁻²⁶ × 1.3×10¹¹)/(3.2×10⁻¹⁹ × 7.3×10⁴) = 2.6×10⁻¹⁵/2.34×10⁻¹⁴<br>B = <b>0.11 T</b>' },
+      { label: '(d)', codes: ['20.3.5'], marks: 2, 
+        answer: 'Radius of the circular path: r = mv/BQ. With the mass quartered and the charge halved, r′ = r × ¼ ÷ ½ = <b>r/2</b>.<br>Draw the beam entering the field at X along the same line and deflecting in the same direction, following a semicircular path of <b>half the radius</b> of the original beam.' },
+    ]
+  },
+  {
+    topic: '21', 
+    paper: '9702/43/M/J/26', paper_full: 'June 2026 · Paper 43', qnum: 'Q7', 
+    title: 'Half-wave rectification — r.m.s. values of two waveforms', 
+    pdf: '9702_s26_qp_43_Q7_Alternating_currents.pdf', 
+    marks: 8, 
+    parts: [
+      { label: '(a)(i)', codes: ['21.2.2'], marks: 2, 
+        answer: 'Half-wave rectification <b>allows the current (unhindered) in one direction</b> and <b>blocks the current completely in the other direction</b>, so that the output current is always in the same direction.' },
+      { label: '(a)(ii)', codes: ['21.2.2'], marks: 2, 
+        answer: 'Complete the circuit by drawing a <b>diode (with the correct diode symbol) in one of the two gaps</b>, connected so that it conducts in the required direction, and a <b>direct connection across the other gap</b>.' },
+      { label: '(b)', codes: ['21.1.4'], marks: 4, 
+        answer: 'Complete the table as follows:<br>V1 (sinusoidal), unrectified: <b>V0/√2</b><br>V2 (square wave), unrectified: <b>V0</b><br>V1, half-wave rectified: <b>V0/2</b><br>V2, half-wave rectified: <b>V0/√2</b><br>(Half-wave rectification halves the mean-square value of the sinusoid — Vrms = √(V0²/4) = V0/2 — while the rectified square wave is V0 for half the period and 0 for half — Vrms = √(V0²/2) = V0/√2.)' },
+    ]
+  },
+  {
+    topic: '22', 
+    paper: '9702/43/M/J/26', paper_full: 'June 2026 · Paper 43', qnum: 'Q8', 
+    title: 'X-rays for medical diagnosis — photon energy &amp; wavelength', 
+    pdf: '9702_s26_qp_43_Q8_Quantum_physics.pdf', 
+    marks: 13, 
+    parts: [
+      { label: '(a)', codes: ['22.1.2'], marks: 2, 
+        answer: 'A photon is a <b>quantum (packet) of energy</b> of electromagnetic radiation — a discrete amount of electromagnetic energy, of energy E = hf.' },
+      { label: '(b)(i)', codes: ['24.2.1'], marks: 1, 
+        answer: '<b>Electrons</b>.' },
+      { label: '(b)(ii)', codes: ['24.2.1'], marks: 2, 
+        answer: 'The electrons are accelerated to high speed and then <b>decelerated rapidly by the metal target</b>.<br>Some of their kinetic energy is converted into the energy of photons, which are emitted as X-rays.' },
+      { label: '(b)(iii)', codes: ['24.2.1', '22.1.3'], marks: 3, 
+        answer: 'In a single interaction most electrons lose only part of their kinetic energy — some energy is dissipated as <b>thermal energy</b> in the target — and the amount lost varies from electron to electron, so photons are produced with a <b>range of energies</b> (and hence wavelengths, since λ = hc/E and wavelength is inversely proportional to photon energy).<br>The <b>minimum wavelength</b> occurs when all of an electron\'s kinetic energy becomes the energy of a single photon (E = eV).' },
+      { label: '(b)(iv)', codes: ['24.2.1', '22.1.3'], marks: 3, 
+        answer: 'eV = hc/λ → λ = hc/eV<br>λ = (6.63×10⁻³⁴ × 3.00×10⁸)/(1.60×10⁻¹⁹ × 52.0×10³) = 1.99×10⁻²⁵/8.32×10⁻¹⁵<br>λ = <b>2.39×10⁻¹¹ m</b>' },
+      { label: '(c)', codes: ['24.2.2'], marks: 2, 
+        answer: 'Contrast depends on the <b>linear attenuation (absorption) coefficients</b> of the two materials: the greater the difference in attenuation coefficient, the greater the difference between the intensities transmitted through them.<br>Good contrast requires the transmitted intensities to be <b>very different</b> — if the materials have similar attenuation coefficients, the transmitted intensities are similar and the contrast is poor.' },
+    ]
+  },
+  {
+    topic: '23', 
+    paper: '9702/43/M/J/26', paper_full: 'June 2026 · Paper 43', qnum: 'Q9', 
+    title: 'Thorium-228 — mass defect &amp; energy released by decay', 
+    pdf: '9702_s26_qp_43_Q9_Nuclear_physics.pdf', 
+    marks: 9, 
+    parts: [
+      { label: '(a)', codes: ['23.1.1'], marks: 2, 
+        answer: 'The mass defect of a nucleus is the <b>difference between the mass of the nucleus and the sum of the masses of its constituent nucleons</b> (protons and neutrons) when separated to infinity.' },
+      { label: '(b)(i)', codes: ['23.1.2', '23.1.1'], marks: 4, 
+        answer: 'α-decay: ²²⁸₉₀Th → ²²⁴₈₈Ra + ⁴₂He; the total mass defect of the products = 1.846840 + 0.030377 = <b>1.877217 u</b>.<br>β⁻-decay would give ²²⁸₉₁Pa (mass defect 1.866129 u); β⁺-decay would give ²²⁸₈₉Ac (mass defect 1.869820 u).<br>Decay is possible only if the mass defect of the products is greater than that of the parent nucleus (1.871290 u), i.e. if energy is released.<br>Only the α-decay products satisfy this condition, so thorium-228 is an <b>α-emitter</b> and not a β⁻- or β⁺-emitter.' },
+      { label: '(b)(ii)', codes: ['23.1.1'], marks: 3, 
+        answer: 'E = Δmc²<br>Δm = 1.877217 − 1.871290 = 0.005927 u = 0.005927 × 1.66×10⁻²⁷ kg<br>E = 0.005927 × 1.66×10⁻²⁷ × (3.00×10⁸)² = 8.85×10⁻¹³ J<br>E = 8.85×10⁻¹³/(1.60×10⁻¹³) = <b>5.53 MeV</b> (to 3 s.f.)' },
+    ]
+  },
+  {
+    topic: '25', 
+    paper: '9702/43/M/J/26', paper_full: 'June 2026 · Paper 43', qnum: 'Q10', 
+    title: 'Sun\'s luminosity &amp; radiant flux — Wien\'s law temperature', 
+    pdf: '9702_s26_qp_43_Q10_Astronomy_and_cosmology.pdf', 
+    marks: 8, 
+    parts: [
+      { label: '(a)', codes: ['25.2.1'], marks: 2, 
+        answer: 'Wien\'s displacement law states that the wavelength of maximum emission (of radiation from a star) is <b>inversely proportional to the thermodynamic temperature</b> of its surface: λmax ∝ 1/T.' },
+      { label: '(b)(i)', codes: ['25.2.2'], marks: 2, 
+        answer: 'L = 4πσr²T⁴ = 4π × 5.67×10⁻⁸ × (6.96×10⁸)² × 5770⁴<br>L = 4π × 5.67×10⁻⁸ × 4.84×10¹⁷ × 1.11×10¹⁵<br>L = <b>3.83×10²⁶ W</b>' },
+      { label: '(b)(ii)', codes: ['25.1.2'], marks: 3, 
+        answer: 'F = L/4πd² = 3.83×10²⁶/(4π × (1.52×10¹¹)²)<br>F = 3.83×10²⁶/2.90×10²³ = <b>1.32×10³ W m⁻²</b>' },
+      { label: '(b)(iii)', codes: ['25.2.1'], marks: 1, 
+        answer: 'λmax ∝ 1/T, so TX = TS × λS/λX = 5770/0.581<br>TX = <b>9.93×10³ K</b>' },
+    ]
+  },
+  {
+    topic: '18', 
+    paper: '9702/44/M/J/26', paper_full: 'June 2026 · Paper 44', qnum: 'Q1', 
+    title: 'Electron in circular orbit — electric force, acceleration &amp; period', 
+    pdf: '9702_s26_qp_44_Q1_Electric_fields.pdf', 
+    marks: 10, 
+    parts: [
+      { label: '(a)', codes: ['18.3.2'], marks: 2, 
+        answer: 'The electric force between two point charges is <b>directly proportional to the product of the charges</b> and <b>inversely proportional to the square of their separation</b>.' },
+      { label: '(b)(i)', codes: ['18.5.4', '18.3.2'], marks: 1, 
+        answer: 'Eₚ = Qq/(4πε₀r) → r = Qq/(4πε₀Eₚ)<br>r = (1.60×10⁻¹⁹)²/(4π×8.85×10⁻¹²×1.09×10⁻¹⁸) = 2.56×10⁻³⁸/1.21×10⁻²⁸<br>= <b>2.11×10⁻¹⁰ m</b>' },
+      { label: '(b)(ii)', codes: ['18.3.2'], marks: 1, 
+        answer: 'F = Qq/(4πε₀r²) = (1.60×10⁻¹⁹)²/(4π×8.85×10⁻¹²×(2.11×10⁻¹⁰)²)<br>= 2.56×10⁻³⁸/4.95×10⁻³⁰ = <b>5.17×10⁻⁹ N</b>' },
+      { label: '(b)(iii)', codes: ['12.2.3'], marks: 1, 
+        answer: 'a = F/m = 5.17×10⁻⁹/9.11×10⁻³¹ = <b>5.68×10²¹ m s⁻²</b>' },
+      { label: '(b)(iv)', codes: ['12.2.3', '12.1.3'], marks: 2, 
+        answer: 'a = rω² and ω = 2π/T:<br>T = 2π√(r/a) = 2π√(2.11×10⁻¹⁰/5.68×10²¹) = 2π×1.93×10⁻¹⁶<br>= <b>1.21×10⁻¹⁵ s</b>' },
+      { label: '(c)', codes: ['18.5.4', '12.2.3'], marks: 3, 
+        answer: 'Eₚ = −Qq/(4πε₀r) decreases (becomes more negative), so the radius of the orbit <b>decreases</b>. The force F = Qq/(4πε₀r²) therefore increases, so the centripetal acceleration a = F/m <b>increases</b>. With a = rω², ω = √(a/r) <b>increases</b>.' },
+    ]
+  },
+  {
+    topic: '13', 
+    paper: '9702/44/M/J/26', paper_full: 'June 2026 · Paper 44', qnum: 'Q2', 
+    title: 'Geostationary satellite — Earth\'s mass &amp; mean density', 
+    pdf: '9702_s26_qp_44_Q2_Gravitational_fields.pdf', 
+    marks: 10, 
+    parts: [
+      { label: '(a)(i)', codes: ['13.2.4'], marks: 1, 
+        answer: 'A geostationary orbit is one in which the satellite <b>remains above the same point on the Earth\'s surface</b>.' },
+      { label: '(a)(ii)', codes: ['13.2.4'], marks: 2, 
+        answer: 'Any two of: the orbit is <b>equatorial</b> (directly above the Equator); the satellite orbits <b>from west to east</b>; the orbital period is <b>24 hours</b> (equal to the Earth\'s period of rotation).' },
+      { label: '(b)(i)', codes: ['13.2.3'], marks: 1, 
+        answer: 'v = <b>2πR/T</b>' },
+      { label: '(b)(ii)', codes: ['13.2.2', '13.2.3'], marks: 2, 
+        answer: 'GMm/R² = mRω² and ω = 2π/T:<br>GMm/R² = mR(2π/T)² → M = <b>4π²R³/(GT²)</b>' },
+      { label: '(c)', codes: ['13.2.3', '13.2.2'], marks: 4, 
+        answer: 'Orbit radius R = (6370 + 35 900)×10³ = 4.23×10⁷ m; T = 24×3600 = 8.64×10⁴ s<br>M = 4π²R³/(GT²) = 4π²×(4.23×10⁷)³/(6.67×10⁻¹¹×(8.64×10⁴)²) = 5.99×10²⁴ kg<br>V = (4/3)πr³ = (4/3)π×(6.37×10⁶)³ = 1.08×10²¹ m³<br>density = M/V = 5.99×10²⁴/1.08×10²¹ = <b>5530 kg m⁻³</b>' },
+    ]
+  },
+  {
+    topic: '14', 
+    paper: '9702/44/M/J/26', paper_full: 'June 2026 · Paper 44', qnum: 'Q3', 
+    title: 'Thermistor in warm water — thermal equilibrium &amp; specific heat capacity', 
+    pdf: '9702_s26_qp_44_Q3_Temperature.pdf', 
+    marks: 9, 
+    parts: [
+      { label: '(a)', codes: ['14.1.2', '14.1.1'], marks: 2, 
+        answer: 'Two objects are in thermal equilibrium when they are <b>at the same temperature</b>, so that (if in thermal contact) there is <b>no net transfer of thermal energy</b> between them.' },
+      { label: '(b)(i)', codes: ['14.1.1'], marks: 2, 
+        answer: 'The thermistor absorbs thermal energy to raise its own temperature; this energy is transferred from the water, so the water cools. The equilibrium temperature is therefore <b>below 78.0 °C</b>.' },
+      { label: '(b)(ii)', codes: ['14.3.1'], marks: 3, 
+        answer: 'Energy lost by water = energy gained by thermistor: Q = mcΔθ<br>63×4.2×(78.0−76.8) = 8.5×c×(76.8−25.0)<br>317.5 = 440.3c<br>c = <b>0.72 J g⁻¹ K⁻¹</b>' },
+      { label: '(c)', codes: ['14.2.1'], marks: 2, 
+        answer: 'Use a thermocouple, or a smaller/lower-mass thermistor: the smaller mass (heat capacity) <b>removes less thermal energy from the water</b>, so the reading is closer to the true 78.0 °C. Alternatively, warm the thermistor to about 78 °C before immersion, so it removes much less thermal energy from the water.' },
+    ]
+  },
+  {
+    topic: '16', 
+    paper: '9702/44/M/J/26', paper_full: 'June 2026 · Paper 44', qnum: 'Q4', 
+    title: 'Ideal gas internal energy — molecular kinetic energy &amp; first law', 
+    pdf: '9702_s26_qp_44_Q4_Thermodynamics.pdf', 
+    marks: 13, 
+    parts: [
+      { label: '(a)', codes: ['16.2.2'], marks: 2, 
+        answer: 'The increase in internal energy of a system is equal to the work done on the system plus the energy transferred to the system by heating: <b>ΔU = q + W</b>.' },
+      { label: '(b)(i)', codes: ['15.2.2'], marks: 2, 
+        answer: 'pV = NkT → V = NkT/p<br>V = 3.58×10²⁴×1.38×10⁻²³×298/(1.84×10⁵) = 1.47×10⁴/1.84×10⁵<br>= <b>0.0800 m³</b>' },
+      { label: '(b)(ii)', codes: ['15.1.2'], marks: 1, 
+        answer: 'n = N/Nₐ = 3.58×10²⁴/6.02×10²³ = <b>5.95 mol</b>' },
+      { label: '(b)(iii)', codes: ['15.3.4'], marks: 2, 
+        answer: 'E_K = (3/2)kT = 1.5×1.38×10⁻²³×298 = <b>6.17×10⁻²¹ J</b>' },
+      { label: '(b)(iv)', codes: ['15.3.1'], marks: 1, 
+        answer: 'An ideal gas has <b>no intermolecular forces</b>, so the molecules have no potential energy — only kinetic energy.' },
+      { label: '(b)(v)', codes: ['16.1.1'], marks: 1, 
+        answer: 'U = NE_K = 3.58×10²⁴×6.17×10⁻²¹ = <b>2.21×10⁴ J</b>' },
+      { label: '(c)(i)', codes: ['16.2.1', '16.2.2'], marks: 2, 
+        answer: 'During AB the volume is constant, so no work is done (W = 0); by the first law Q = ΔU. For an ideal gas U ∝ pV and V is constant, so ΔU/Uₐ = Δp/p:<br>Q = (5.84−1.84)/1.84 × Uₐ = <b>2.2Uₐ</b> (50Uₐ/23)' },
+      { label: '(c)(ii)', codes: ['16.2.2', '16.2.1'], marks: 2, 
+        answer: 'During BC there is no transfer of thermal energy (adiabatic), so W = ΔU. At C, U_C ∝ pV = 1.84×10⁵×0.160, which is twice pV at A, so U_C = 2Uₐ:<br>W = U_C − U_B = 2Uₐ − (Uₐ + 2.2Uₐ) = <b>−1.2Uₐ</b> (−27Uₐ/23) — 1.2Uₐ of work is done by the gas.' },
+    ]
+  },
+  {
+    topic: '17', 
+    paper: '9702/44/M/J/26', paper_full: 'June 2026 · Paper 44', qnum: 'Q5', 
+    title: 'Ball on a spring — velocity–displacement graph &amp; resonance', 
+    pdf: '9702_s26_qp_44_Q5_Oscillations.pdf', 
+    marks: 9, 
+    parts: [
+      { label: '(a)(i)', codes: ['17.1.4', '17.1.5'], marks: 3, 
+        answer: 'Draw a smooth closed loop (ellipse) enclosing the origin, cutting the x-axis at x = <b>±2.5 cm</b> (and nowhere further out) and the v-axis at v = <b>±4.4 cm s⁻¹</b> (and nowhere further out). The v–x graph for s.h.m. is an ellipse, v = ±ω√(x₀²−x²), not straight lines between the intercepts.' },
+      { label: '(a)(ii)', codes: ['17.1.4', '17.1.1'], marks: 2, 
+        answer: 'v₀ = ωx₀ and ω = 2πf:<br>f = v₀/(2πx₀) = 4.4/(2π×2.5) = 4.4/15.7<br>= <b>0.28 Hz</b>' },
+      { label: '(b)(i)', codes: ['17.3.3'], marks: 2, 
+        answer: 'Resonance is the oscillation of an object at <b>maximum amplitude</b>, which occurs when the <b>driving frequency equals the natural frequency</b> of the oscillating system.' },
+      { label: '(b)(ii)', codes: ['17.3.3'], marks: 2, 
+        answer: 'Draw a curve rising continuously from f = 0 (amplitude never zero when f > 0) to a single peak at f = <b>0.28 Hz</b>, then falling continuously to f = 0.40 Hz.' },
+    ]
+  },
+  {
+    topic: '19', 
+    paper: '9702/44/M/J/26', paper_full: 'June 2026 · Paper 44', qnum: 'Q6', 
+    title: 'Capacitor switching circuit — time constant, discharge &amp; minimum p.d.', 
+    pdf: '9702_s26_qp_44_Q6_Capacitance.pdf', 
+    marks: 9, 
+    parts: [
+      { label: '(a)(i)', codes: ['19.3.2', '19.1.2'], marks: 2, 
+        answer: 'RC = 2.4 s → R = 2.4/(47×10⁻⁶) = 5.1×10⁴ Ω<br>= <b>51 kΩ</b>' },
+      { label: '(a)(ii)', codes: ['19.3.3', '19.3.2'], marks: 2, 
+        answer: 'The switch is at Y for 2.5 s in each 5.0 s cycle, so the discharge time is 2.5 s:<br>V = V₀e^(−t/RC) = 1.50e^(−2.5/2.4) = 1.50×0.353<br>= <b>0.53 V</b>' },
+      { label: '(b)', codes: ['19.3.1'], marks: 3, 
+        answer: 'While the switch is at X (t = 0–2.5 s and 5.0–7.5 s) the capacitor re-charges: draw horizontal lines at V_C = <b>1.50 V</b>. While it is at Y (t = 2.5–5.0 s and 7.5–10.0 s) it discharges: draw smooth exponential decay curves of continuously decreasing negative gradient, falling to a minimum of V_C = 0.53 V.' },
+      { label: '(c)', codes: ['19.3.1', '19.3.3'], marks: 2, 
+        answer: 'Doubling the frequency halves the discharge time (2.5 s → 1.25 s) before re-charging, so the capacitor loses less charge and its p.d. does not fall as far — the minimum p.d. is <b>greater than 0.53 V</b>.' },
+    ]
+  },
+  {
+    topic: '20', 
+    paper: '9702/44/M/J/26', paper_full: 'June 2026 · Paper 44', qnum: 'Q7', 
+    title: 'Solenoid magnetic field — flux linkage &amp; induced e.m.f.', 
+    pdf: '9702_s26_qp_44_Q7_Magnetic_fields.pdf', 
+    marks: 14, 
+    parts: [
+      { label: '(a)', codes: ['21.1.1'], marks: 1, 
+        answer: 'An alternating current is a current whose <b>direction regularly (periodically) reverses</b>.' },
+      { label: '(b)(i)', codes: ['20.4.1'], marks: 3, 
+        answer: 'Draw at least five straight, parallel, horizontal field lines inside the solenoid; outside, draw the bar-magnet pattern of curved lines looping from one end to the other (at least one complete loop above and one below the central axis, plus one horizontal line outside each pole). The inside and outside lines must be continuous with each other, with arrows showing the field direction <b>right to left inside the solenoid</b>.' },
+      { label: '(b)(ii)', codes: ['20.4.1'], marks: 1, 
+        answer: 'Mark <b>N at the left-hand end</b> and <b>S at the right-hand end</b> of the solenoid.' },
+      { label: '(c)(i)', codes: ['21.1.2', '12.1.3'], marks: 1, 
+        answer: 'B = 2.0 cos(200πt), so ω = 200π = 2π/T:<br>T = 2π/200π = <b>0.010 s</b>' },
+      { label: '(c)(ii)', codes: ['21.1.2'], marks: 2, 
+        answer: 'Draw two complete cycles of a cosine curve with period 0.010 s and amplitude <b>2.0 mT</b>: B = +2.0 mT at t = 0, zero at t = 0.0025, 0.0075, 0.0125 and 0.0175 s, with minima of −2.0 mT at t = 0.005 s and t = 0.015 s.' },
+      { label: '(d)(i)', codes: ['20.5.1', '20.5.2'], marks: 3, 
+        answer: 'Φ = BAN = 2.0×10⁻³×π×(2.8×10⁻³)²×45<br>= 2.0×10⁻³×2.46×10⁻⁵×45<br>= <b>2.2×10⁻⁶ Wb</b>' },
+      { label: '(d)(ii)', codes: ['20.5.5'], marks: 3, 
+        answer: 'Draw a tangent to the B–t curve at its steepest part and measure its gradient (the maximum rate of change of B). Multiply this steepest gradient by the area of the coil and the number of turns to obtain the maximum rate of change of flux linkage. By Faraday\'s law the maximum induced e.m.f. equals <b>this maximum rate of cutting flux</b>.' },
+    ]
+  },
+  {
+    topic: '22', 
+    paper: '9702/44/M/J/26', paper_full: 'June 2026 · Paper 44', qnum: 'Q8', 
+    title: 'Photoelectric effect — Planck constant &amp; work function energy', 
+    pdf: '9702_s26_qp_44_Q8_Quantum_physics.pdf', 
+    marks: 11, 
+    parts: [
+      { label: '(a)(i)', codes: ['22.2.1'], marks: 1, 
+        answer: 'The <b>photoelectric effect</b> (photoelectric emission).' },
+      { label: '(a)(ii)', codes: ['22.2.2'], marks: 1, 
+        answer: 'The threshold frequency is the <b>minimum frequency of radiation needed to cause emission of electrons</b> from the metal surface.' },
+      { label: '(a)(iii)', codes: ['22.2.3', '22.1.3', '22.2.2'], marks: 3, 
+        answer: 'Any three of: electrons need a minimum energy (the work function energy) to leave the surface; a photon absorbed by an electron must have enough energy for the electron to escape; photons are packets (quanta) of energy proportional to frequency (E = hf); a minimum photon energy therefore requires a minimum frequency, so radiation below the <b>threshold frequency</b> cannot eject electrons however intense it is.' },
+      { label: '(b)(i)', codes: ['22.2.4', '22.1.3'], marks: 3, 
+        answer: 'hf = Φ + E_K for each wavelength; subtracting the two equations:<br>hc(1/λ₁ − 1/λ₂) = E₂ − E₁<br>h×3.00×10⁸×(1/178×10⁻⁹ − 1/254×10⁻⁹) = (5.27−1.91)×10⁻¹⁹<br>h×3.00×10⁸×1.68×10⁶ = 3.36×10⁻¹⁹<br>h = <b>6.66×10⁻³⁴ J s</b>' },
+      { label: '(b)(ii)', codes: ['22.2.4', '22.1.4'], marks: 3, 
+        answer: 'Φ = hc/λ − E_K = 6.66×10⁻³⁴×3.00×10⁸/(178×10⁻⁹) − 5.27×10⁻¹⁹<br>= 1.12×10⁻¹⁸ − 5.27×10⁻¹⁹ = 5.95×10⁻¹⁹ J<br>Φ = 5.95×10⁻¹⁹/1.60×10⁻¹⁹ = <b>3.7 eV</b>' },
+    ]
+  },
+  {
+    topic: '24', 
+    paper: '9702/44/M/J/26', paper_full: 'June 2026 · Paper 44', qnum: 'Q9', 
+    title: 'Ultrasound transducer — acoustic impedance &amp; attenuation of materials', 
+    pdf: '9702_s26_qp_44_Q9_Medical_physics.pdf', 
+    marks: 8, 
+    parts: [
+      { label: '(a)', codes: ['24.1.1', '24.1.2'], marks: 3, 
+        answer: 'A p.d. applied across the piezo-electric crystal causes it to distort (change shape); an alternating p.d. is applied, so the crystal vibrates; the vibrations of the crystal at the ultrasound frequency cause oscillations in the surrounding medium, <b>generating the ultrasound waves</b>.' },
+      { label: '(b)(i)', codes: ['24.1.4'], marks: 2, 
+        answer: 'Z = ρc = 8960×4720 = <b>4.23×10⁷ kg m⁻² s⁻¹</b>' },
+      { label: '(b)(ii)', codes: ['24.1.6', '24.1.5'], marks: 3, 
+        answer: 'Any three of: the total thickness of the structure is 12.0 cm, with material X occupying <b>10.0 cm</b> along PQ and material Y 2.0 cm thick (X is thicker than Y); the linear attenuation coefficient of X is <b>3.2 cm⁻¹</b> and that of Y is 1.5 cm⁻¹, so X attenuates ultrasound more strongly than Y; the intensity transmission coefficient at the X–Y boundary is 0.37, so the intensity reflection coefficient there is 0.63.' },
+    ]
+  },
+  {
+    topic: '25', 
+    paper: '9702/44/M/J/26', paper_full: 'June 2026 · Paper 44', qnum: 'Q10', 
+    title: 'Standard candles &amp; a distant star — distance, temperature &amp; radius', 
+    pdf: '9702_s26_qp_44_Q10_Astronomy_and_cosmology.pdf', 
+    marks: 7, 
+    parts: [
+      { label: '(a)(i)', codes: ['25.1.3'], marks: 1, 
+        answer: 'A standard candle is an astronomical object (star) of <b>known luminosity</b>.' },
+      { label: '(a)(ii)', codes: ['25.1.4', '25.1.2'], marks: 2, 
+        answer: 'Measure the radiant flux intensity F received from the object, then calculate the distance using the inverse square law: d = <b>√(L/4πF)</b>, where L is the known luminosity.' },
+      { label: '(b)(i)', codes: ['25.3.1', '25.3.2'], marks: 2, 
+        answer: 'The star is moving away from the observer, so its radiation is <b>redshifted</b> — the observed wavelength is greater than the emitted wavelength. The correction removes this Doppler shift, so λstar is the true (emitted) wavelength of maximum intensity.' },
+      { label: '(b)(ii)', codes: ['25.2.1'], marks: 1, 
+        answer: 'Wien\'s law: λmax ∝ 1/T → Tstar = <b>λ₀T₀/λstar</b>' },
+      { label: '(b)(iii)', codes: ['25.2.2', '25.2.3'], marks: 1, 
+        answer: 'L = 4πσr²T⁴ → radius = <b>√(L/4πσTstar⁴)</b>, where σ is the Stefan–Boltzmann constant.' },
+    ]
+  },
+];
+
+
+// ---- Paper 5 (planning, analysis and evaluation), June 2026 variants 51-54 ----
+const paper5Data2026 = [
+  {
+    topic: '17', 
+    paper: '9702/51/M/J/26', paper_full: 'June 2026 · Paper 51', qnum: 'Q1', 
+    title: 'Planning an experiment — oscillations of a suspended bar', 
+    pdf: '9702_s26_qp_51_Q1_Oscillations.pdf', 
+    marks: 15, 
+    parts: [
+      { label: '(a)', codes: ['17.1.1', '17.1.3'], marks: 15, 
+        answer: '<b>Diagram:</b> rod fixed horizontally to two retort stands (clamped to the stands, stands on a bench); bar suspended from the rod by two vertical strings so that the bar is horizontal; metre rule; stopwatch; top-pan balance. Label the rod, string, bar, a (equal horizontal distance of each string from the centre of the bar), L (separation between the rod and the bar) and the centre of the bar.<br><b>Procedure and measurements:</b> vary a (independent variable) and measure the period T of the oscillations (dependent variable), keeping L constant; mark the centre of the bar (measure the length of the bar with a rule and divide by 2) and measure a from the centre to each string with a rule; displace one end of the bar horizontally and release it; measure the time t for n oscillations (n at least 5) with the stopwatch and calculate T = t/n; repeat for the same value of a and take the average; repeat for a range of at least six values of a.<br><b>Analysis:</b> plot a graph of lg T against lg a; the relationship T = (2πP/a^q)·√(L/M) is valid if a straight line (not through the origin) is obtained; gradient = −q, so <b>q = −gradient</b>; y-intercept = lg(2πP√(L/M)), so <b>P = √(M/L)·10^(y-intercept)/(2π)</b>. (Equivalently plot lg T against lg(1/a) — gradient = q — or lg a against lg(1/T) — gradient = 1/q.)<br><b>Controls:</b> keep L constant (same string length) and M constant (same bar); keep the bar horizontal and the strings vertical (check with a spirit level or set square); use a small amplitude and a fiducial marker at the midpoint of the oscillation; prevent the strings from sliding (notches, grooves or adhesive putty); use a large value of L to increase T and reduce the percentage uncertainty in T.<br><b>Safety:</b> G-clamp the stands to the bench, or place cushions/a sand tray on the bench below the bar, to prevent the bar or rod from falling onto the bench.' },
+    ]
+  },
+  {
+    topic: '3', 
+    paper: '9702/51/M/J/26', paper_full: 'June 2026 · Paper 51', qnum: 'Q2', 
+    title: 'Analysis of data — terminal velocity of a falling sphere', 
+    pdf: '9702_s26_qp_51_Q2_Dynamics.pdf', 
+    marks: 15, 
+    parts: [
+      { label: '(a)', codes: ['3.2.1', '3.2.3'], marks: 1, 
+        answer: 't = 18βz/(gd²(ρ − σ)) = [18βz/(g(ρ − σ))] × 1/d²<br>Comparing with y = mx: gradient = <b>18βz/(g(ρ − σ))</b>' },
+      { label: '(b)', codes: ['1.3.3'], marks: 2, 
+        answer: '1/d² / mm⁻² (for d = 2.6, 3.0, 3.4, 4.1, 4.4, 5.0 mm): <b>0.148, 0.111, 0.0865, 0.0595, 0.0517, 0.0400</b><br>Uncertainty: Δ(1/d²) = 2Δd/d³ — from ±0.011 mm⁻² (d = 2.6 ± 0.1 mm) down to ±0.002 mm⁻² (d = 5.0 ± 0.1 mm), i.e. uncertainties from <b>±0.01 to ±0.002</b>' },
+      { label: '(c)(i)', codes: ['3.2.3'], marks: 2, 
+        answer: 'All six points from (b) plotted correctly — each within half a small square of its true position, with point diameter less than half a small square (check the second and fourth plots from the left; ecf from 2(b)).<br>Error bars in 1/d² plotted for all six points — total length of each bar accurate to less than half a small square and symmetrical about the point.' },
+      { label: '(c)(ii)', codes: ['1.3.3'], marks: 2, 
+        answer: 'Straight line of best fit drawn (not from the top point to the bottom point; line thickness less than half a small square; must pass between (0.064, 2.50) and (0.066, 2.50) and between (0.134, 5.50) and (0.138, 5.50)).<br>Worst acceptable line drawn — the steepest or shallowest line that passes through all the error bars (may be constrained by an intermediate error bar).<br>Label both lines.' },
+      { label: '(c)(iii)', codes: ['1.3.3'], marks: 2, 
+        answer: 'Using two widely spaced points on the best-fit line (Δx at least 0.07), with clear substitution into Δy/Δx:<br>gradient = (5.50 − 2.50)/(0.134 − 0.064) = 3.00/0.070<br>= <b>43 s mm⁻²</b> (expect about 36–48 s mm⁻², i.e. (3.6–4.8) × 10⁻⁵ s m²)<br>Absolute uncertainty = gradient(best fit) − gradient(worst acceptable line), or ½(steepest gradient − shallowest gradient)<br>gradient = <b>43 ± 2 s mm⁻², i.e. (4.3 ± 0.2) × 10⁻⁵ s m²</b>' },
+      { label: '(d)', codes: ['1.3.3'], marks: 1, 
+        answer: 'ρ − σ = 7850 − 1250 = <b>6600 kg m⁻³</b><br>Δ(ρ − σ) = 50 + 50 = 100 kg m⁻³<br><b>(ρ − σ) = (6600 ± 100) kg m⁻³</b>' },
+      { label: '(e)(i)', codes: ['3.2.1', '3.2.3'], marks: 2, 
+        answer: 'β = gradient × g(ρ − σ)/(18z) = 4.3 × 10⁻⁵ × 9.81 × 6600/(18 × 0.097) = 2.78/1.746<br>= <b>1.6 kg m⁻¹ s⁻¹</b> (expect about 1.5; 2–3 s.f.; ecf from 2(c)(iii) and 2(d))<br>Unit of β: <b>kg m⁻¹ s⁻¹</b> (or Pa s)' },
+      { label: '(e)(ii)', codes: ['1.3.3'], marks: 1, 
+        answer: '%unc(β) = (Δgradient/gradient + Δ(ρ − σ)/(ρ − σ) + Δz/z) × 100%<br>= (2/43 + 100/6600 + 2/97) × 100%<br>= (4.7% + 1.5% + 2.1%) = <b>8.3%</b> (answer must be greater than 2%; max/min method allowed)' },
+      { label: '(f)', codes: ['1.3.3', '3.2.3'], marks: 2, 
+        answer: 't = gradient × 1/d² = 4.3 × 10⁻⁵ × 1/(0.0120 m)² = 4.3 × 10⁻⁵ × 6944<br>= <b>0.30 s</b> (expect about 0.28 s; minimum 2 s.f.; ecf from 2(c)(iii))<br>Δ(1/d²)/(1/d²) = 2Δd/d = 2 × 0.01/1.20 = 0.0167<br>Δt = t × (Δgradient/gradient + 2Δd/d) = 0.30 × (2/43 + 0.0167) = 0.30 × 0.063<br><b>t = (0.30 ± 0.02) s</b>' },
+    ]
+  },
+  {
+    topic: '19', 
+    paper: '9702/52/M/J/26', paper_full: 'June 2026 · Paper 52', qnum: 'Q1', 
+    title: 'Planning an experiment — capacitor discharge current and plate separation', 
+    pdf: '9702_s26_qp_52_Q1_Capacitance.pdf', 
+    marks: 15, 
+    parts: [
+      { label: '(a)', codes: ['19.1.1', '19.1.2', '19.3.1', '21.1.1'], marks: 15, 
+        answer: '<b>Diagram:</b> d.c. supply connected through the reed switch to a parallel-plate capacitor; resistor in series with an ammeter (to measure I); voltmeter across the d.c. supply (to measure E); signal generator or a.c. supply connected to terminals F and G of the reed switch; the two circular plates (area A, separation h) supported on stands (vertical orientation) or on the bench with spacers (horizontal orientation).<br><b>Procedure and measurements:</b> vary h (independent variable) and measure I (dependent variable); measure h with calipers or a micrometer — measure the total distance between the outer faces of the plates and subtract the plate thicknesses; read I on the ammeter for each value of h; repeat the measurement of h at several positions between the plates and take the mean; use a range of at least 5–6 values of h.<br><b>Analysis:</b> plot a graph of I against 1/h; the relationship I = KAfE/h is valid if a straight line through the origin is obtained; gradient = K/(AfE), so K = gradient × AfE (or plot lg I against lg h — a straight line of gradient −1; then K = AfE × 10^intercept).<br><b>Controls:</b> keep f constant (fixed signal-generator setting); keep A and E constant; measure the diameter d of the plates with calipers and calculate A = πd²/4; determine f with an oscilloscope — measure the period T from the time-base (T = number of divisions × time-base setting, or time for n cycles divided by n) and calculate f = 1/T — or read it off the signal generator; keep the plates parallel and aligned using spacers of equal thickness and check h at different points on the plates; use large values of A to increase I and reduce the percentage uncertainty in I.<br><b>Safety:</b> clamp the stands to the bench so the plates cannot fall; avoid electric shock — do not touch the plates or capacitor terminals and switch off the circuit when adjusting h; do not touch the resistor when hot; place an insulating mat on the bench.' },
+    ]
+  },
+  {
+    topic: '17', 
+    paper: '9702/52/M/J/26', paper_full: 'June 2026 · Paper 52', qnum: 'Q2', 
+    title: 'Oscillations of a suspended rod — period versus string separation', 
+    pdf: '9702_s26_qp_52_Q2_Oscillations.pdf', 
+    marks: 15, 
+    parts: [
+      { label: '(a)', codes: ['17.1.1'], marks: 1, 
+        answer: 'Squaring the equation: T² = 4π²αD/(MgL²) = (4π²αD/Mg) × 1/L²<br>Comparing with y = mx: gradient = <b>4π²αD/(Mg)</b>' },
+      { label: '(b)', codes: ['1.3.3', '17.1.1'], marks: 2, 
+        answer: 'T = t/10 and 1/L² = 1/(L in m)²<br>1/L² / m⁻²: 13.32, 10.82, 8.26, 6.01, 4.27, 3.28<br>T / s: 1.58, 1.45, 1.26, 1.08, 0.92, 0.80 — each with uncertainty <b>± 0.02 s</b> (= ± 0.2/10)<br>T² / s²: 2.50, 2.10, 1.59, 1.17, 0.85, 0.64 — uncertainty in T² = 2TΔT: <b>0.06, 0.06, 0.05, 0.04, 0.04, 0.03 s²</b> (from ± 0.06 down to ± 0.03)' },
+      { label: '(c)(i)', codes: ['17.1.1'], marks: 2, 
+        answer: 'All six points from (b) plotted correctly — each within half a small square of its true position, with point diameter less than half a small square (check the second and fifth plots from the left; ecf from 2(b)).<br>Error bars in T² plotted for all six points — total length of each bar accurate to less than half a small square and symmetrical about the point.' },
+      { label: '(c)(ii)', codes: ['1.3.3'], marks: 2, 
+        answer: 'Straight line of best fit drawn (not from the top point to the bottom point; line thickness less than half a small square; must pass between (5.0, 1.0) and (5.3, 1.0) and between (11.3, 2.2) and (11.6, 2.2)).<br>Worst acceptable line drawn — the steepest or shallowest line that passes through all the error bars (may be constrained by an intermediate error bar).<br>Label both lines.' },
+      { label: '(c)(iii)', codes: ['1.3.3'], marks: 2, 
+        answer: 'Using two widely spaced points on the best-fit line (Δx at least 7), with clear substitution into Δy/Δx:<br>gradient = (2.50 − 0.64)/(13.32 − 3.28) = 1.86/10.04 = <b>0.185</b> (expect about 0.14 − 0.24)<br>Absolute uncertainty = gradient(best fit) − gradient(worst acceptable line), or ½(steepest gradient − shallowest gradient) = <b>± 0.02</b><br>gradient = <b>0.185 ± 0.02 s² m²</b>' },
+      { label: '(d)', codes: ['1.3.3'], marks: 1, 
+        answer: 'D = (0.826 + 0.829 + 0.824 + 0.821)/4 = 3.300/4 = 0.825 m<br>ΔD = (0.829 − 0.821)/2 = 0.004 m<br><b>D = (0.825 ± 0.004) m</b>' },
+      { label: '(e)(i)', codes: ['17.1.1', '1.2.2'], marks: 2, 
+        answer: 'α = gradient × Mg/(4π²D) = 0.185 × 0.097 × 9.81/(4π² × 0.825) = 0.176/32.6<br>= <b>5.4 × 10⁻³ kg m²</b> (expect about 5.5 × 10⁻³; 2–3 s.f.; ecf from 2(c)(iii) and 2(d))<br>Unit of α: <b>kg m²</b> (or g m²)' },
+      { label: '(e)(ii)', codes: ['1.3.3'], marks: 1, 
+        answer: '%unc(α) = (Δgradient/gradient + 2ΔD/D + ΔM/M) × 100%<br>= (0.02/0.185 + 2 × 0.004/0.825 + 2/97) × 100%<br>= (10.8% + 1.0% + 2.1%) = <b>13.8%</b> (answer must be greater than 2.5%; max/min method allowed)' },
+      { label: '(f)', codes: ['1.3.3', '17.1.1'], marks: 2, 
+        answer: 'T² = gradient/L², so L = √(gradient)/T<br>L = √0.185/2.20 = 0.430/2.20 = 0.196 m, i.e. about <b>0.20 m</b> (minimum 2 s.f.; ecf from 2(c)(iii))<br>ΔL/L = ½ × Δgradient/gradient + ΔT/T = ½ × 0.02/0.185 + 0.02/2.20 = 0.054 + 0.009 = 0.063<br>ΔL = 0.063 × 0.196 = 0.012 m<br><b>L = (0.196 ± 0.012) m, i.e. about 0.20 ± 0.01 m</b><br>(or using α: L = 2π√(αD/(Mg))/T with ΔL/L = ½(Δα/α) + ΔT/T, Δα/α from 2(e)(ii))' },
+    ]
+  },
+  {
+    topic: '17', 
+    paper: '9702/53/M/J/26', paper_full: 'June 2026 · Paper 53', qnum: 'Q1', 
+    title: 'Planning an experiment — oscillations of a bar suspended by strings', 
+    pdf: '9702_s26_qp_53_Q1_Oscillations.pdf', 
+    marks: 15, 
+    parts: [
+      { label: '(a)', codes: ['17.1.1', '1.3.3'], marks: 15, 
+        answer: '<b>Apparatus:</b> rod fixed horizontally to two stands with bosses and clamps on a bench; solid bar of mass M suspended from the rod by two equal vertical strings at equal distances a from its centre; metre rule, stopwatch, balance, spirit level.<br><b>Measurements:</b> measure a (string to centre of bar) and L (rod to bar) with a rule; measure M with a balance. Displace one end of the bar horizontally by a small amount, release it and measure the time t for n oscillations (n is at least 5) with a stopwatch; T = t/n. Repeat for the same a and average T. Vary a over a wide range of values, keeping L constant, and repeat the procedure.<br><b>Analysis:</b> plot a graph of lg T against lg a. Since T = 2πP√(a^q M/L), lg T = lg(2πP√(M/L)) + (q/2)lg a, so the graph is a straight line of gradient q/2. Hence q = 2 × gradient, and the y-intercept = lg(2πP√(M/L)), giving P = 10^(y-intercept) × √(L/M)/(2π). The relationship is valid if a straight line is obtained (it need not pass through the origin).<br><b>Control of variables:</b> keep L and M constant; measure each a from the centre of the bar (e.g. measure the length of the bar, divide by two and mark the midpoint); keep the bar horizontal (spirit level) and the strings vertical (set square or plumb line); prevent the strings from sliding (adhesive putty, notches or grooves); use small-amplitude oscillations and a fiducial marker at the midpoint; use a large L to increase T and reduce its percentage uncertainty; repeat timings for the same a and average T.<br><b>Safety:</b> G-clamp the stands to the bench (or load them with heavy weights) and place cushions or a sand tray on the bench below the bar, so that the bar or rod cannot fall and injure anyone.' },
+    ]
+  },
+  {
+    topic: '3', 
+    paper: '9702/53/M/J/26', paper_full: 'June 2026 · Paper 53', qnum: 'Q2', 
+    title: 'Falling steel ball in a liquid — density &amp; terminal velocity', 
+    pdf: '9702_s26_qp_53_Q2_Dynamics.pdf', 
+    marks: 15, 
+    parts: [
+      { label: '(a)', codes: ['3.2.3', '4.3.1'], marks: 1, 
+        answer: 't = z / (gd²(ρ − σ)/18β) = (18βz/g(ρ − σ)) × (1/d²), so the graph of t against 1/d² is a straight line through the origin with gradient = <b>18βz/(g(ρ − σ))</b>.' },
+      { label: '(b)', codes: ['1.3.3'], marks: 2, 
+        answer: '1/d² = 1/(2.6)² = 0.148, 0.111, 0.0865, 0.0595, 0.0517, 0.040 mm⁻².<br>Uncertainty in each: Δ(1/d²) = 2Δd/d³, giving ±0.011, ±0.007, ±0.005, ±0.003, ±0.002, ±0.002 mm⁻² — values from ±0.01 to ±0.002 (first value may be between ±0.010 and ±0.013).' },
+      { label: '(c)(i)', codes: ['1.3.3'], marks: 2, 
+        answer: 'Plot all six points of t against 1/d², each within half a small square of its true position, with point diameter less than half a small square (ecf from (b)). Add vertical error bars in 1/d² to all six points, symmetrical, with total length accurate to less than half a small square.' },
+      { label: '(c)(ii)', codes: ['1.3.3'], marks: 2, 
+        answer: 'Draw the straight line of best fit — it must pass between (0.064, 2.50) and (0.066, 2.50), and between (0.134, 5.50) and (0.138, 5.50); label it. Draw the worst acceptable line — the steepest or shallowest line that passes through all the error bars; label it.' },
+      { label: '(c)(iii)', codes: ['1.3.3'], marks: 2, 
+        answer: 'Gradient of best-fit line, with clear substitution of two data points separated by more than half the length of the line:<br>G = (6.10 − 1.45)/(0.148 − 0.040) = 4.65/0.108 = <b>43 s mm²</b> (expect 36–48).<br>Absolute uncertainty = |gradient of best fit − gradient of worst acceptable line| (or ½(steepest − shallowest)) = <b>±1 s mm²</b> (example).' },
+      { label: '(d)', codes: ['4.3.1', '1.3.3'], marks: 1, 
+        answer: '(ρ − σ) = 7850 − 1250 = 6600; uncertainty = 50 + 50 = 100<br>(ρ − σ) = <b>(6600 ± 100) kg m⁻³</b>.' },
+      { label: '(e)(i)', codes: ['3.2.1', '1.3.3'], marks: 2, 
+        answer: 'From (a): β = gradient × g(ρ − σ)/(18z), with z = 0.097 m and gradient = 43 s mm² = 4.3×10⁻⁵ s m².<br>β = 4.3×10⁻⁵ × 9.81 × 6600/(18 × 0.097) = 2.78/1.746 = <b>1.6 kg m⁻¹ s⁻¹</b> (expect ≈ 1.5; also accept 0.0015 kg mm⁻¹ s⁻¹, 1.5 g mm⁻¹ s⁻¹, Pa s or N m⁻² s).' },
+      { label: '(e)(ii)', codes: ['1.3.3'], marks: 1, 
+        answer: 'Percentage uncertainty in β, with method shown:<br>%β = 100% × (ΔG/G + Δ(ρ − σ)/(ρ − σ) + Δz/z)<br>= 100% × (1/43 + 100/6600 + 2/97) = 100% × (0.023 + 0.0152 + 0.0206) ≈ <b>5.9%</b> (must be greater than 2%; the density and z terms alone give ≈ 3.5%).' },
+      { label: '(f)', codes: ['3.2.3', '1.3.3'], marks: 2, 
+        answer: 'd = 1.20 cm = 0.0120 m, so 1/d² = 1/(0.0120)² = 6944 m⁻² = 6.94×10⁻³ mm⁻².<br>t = gradient × (1/d²) = 43 × 6.94×10⁻³ = 0.298 ≈ <b>0.30 s</b> (expect ≈ 0.28 s).<br>Δt = t(ΔG/G + 2Δd/d) = 0.30 × (1/43 + 2 × 0.01/1.20) = 0.30 × (0.023 + 0.0167) = 0.012 ≈ <b>±0.01 s</b><br>t = <b>(0.30 ± 0.01) s</b>.' },
+    ]
+  },
+  {
+    topic: '6', 
+    paper: '9702/54/M/J/26', paper_full: 'June 2026 · Paper 54', qnum: 'Q1', 
+    title: 'Planning an experiment — spring compression by a falling ball', 
+    pdf: '9702_s26_qp_54_Q1_Deformation_of_solids.pdf', 
+    marks: 15, 
+    parts: [
+      { label: '(a)', codes: ['6.1.2', '6.1.4', '4.3.1', '2.1.7'], marks: 15, 
+        answer: '<b>Diagram:</b> a sheet of cardboard supported by four springs standing on the bench; a rule (ruler) clamped vertically to a stand next to the cardboard to measure the compression c; a steel ball released from a fixed height h above the cardboard, e.g. held by an electromagnet (or at a fixed release point between the springs).<br><b>Procedure and measurements:</b> vary r (independent variable) using steel balls of different radii and measure c (dependent variable); measure the initial height of the cardboard/springs and the height when the ball is on the cardboard, so that c = original height − new height; measure r with a micrometer or calipers — measure the diameter d and calculate r = d/2; measure the height h through which the ball falls with the rule and determine v from v² = 2gh; use a range of at least 5–6 different radii; repeat the measurement of c for the same ball (same r) and take the mean.<br><b>Analysis:</b> plot a graph of 1/c² against 1/r³ (or 1/r³ against 1/c²). For the plot of 1/c² (y) against 1/r³ (x): gradient = v²/(απρ), so α = v²/(πρ × gradient); y-intercept = Z/v², so Z = y-intercept × v². The relationship is valid if a straight line is obtained (with y-intercept = Z/v²).<br><b>Controls:</b> keep v constant — release the ball from the same height each time (fixed release point/electromagnet); ensure the ball hits the centre of the cardboard and use springs each with the same spring constant, so that c is the same for all springs; measure the mass m of each ball with a balance to verify ρ, using ρ = m/(4/3πr³) or ρ = 6m/(πd³); keep the rule vertical using a plumb line or set square, and measure from the bottom of the ball to the top of the cardboard for accurate h and c.<br><b>Safety:</b> place screens around the apparatus or cushions/a sand tray on the bench to stop the ball leaving the bench; use springs with a small spring constant or a larger drop height so that c is large enough to measure accurately (or use video with slow-motion playback, with the rule in view, to read the minimum height).' },
+    ]
+  },
+  {
+    topic: '17', 
+    paper: '9702/54/M/J/26', paper_full: 'June 2026 · Paper 54', qnum: 'Q2', 
+    title: 'Oscillating steel strip — period, width &amp; Young modulus', 
+    pdf: '9702_s26_qp_54_Q2_Oscillations.pdf', 
+    marks: 15, 
+    parts: [
+      { label: '(a)', codes: ['17.1.1'], marks: 1, 
+        answer: 'E = 16π²ML³/(wT²d³), so T² = (16π²ML³/(Ed³)) × (1/w)<br>Comparing with y = mx: gradient = <b>16π²ML³/(Ed³)</b>' },
+      { label: '(b)', codes: ['17.1.1', '1.3.3'], marks: 2, 
+        answer: 'T = t/20:<br>T / s: 0.400, 0.371, 0.339, 0.310, 0.289, 0.271 — each with uncertainty <b>± 0.004 s</b> (= ± 0.08/20)<br>T² / s²: 0.160, 0.138, 0.115, 0.0961, 0.0835, 0.0734 — uncertainty in T² = 2TΔT: <b>from ± 0.003 down to ± 0.002 s²</b>' },
+      { label: '(c)(i)', codes: ['1.3.3'], marks: 2, 
+        answer: 'All six points from (b) plotted correctly — each within half a small square of its true position, with point diameter less than half a small square (check the second and fifth plots from the left; ecf from 2(b)).<br>Error bars in T² plotted for all six points — total length of each bar accurate to less than half a small square and symmetrical about the point.' },
+      { label: '(c)(ii)', codes: ['1.3.3'], marks: 2, 
+        answer: 'Straight line of best fit drawn (not from the top point to the bottom point; line thickness less than half a small square; must pass between (65.0, 0.090) and (67.0, 0.090) and between (103.0, 0.140) and (104.0, 0.140)).<br>Worst acceptable line drawn — the steepest or shallowest line that passes through all the error bars (may be constrained by an intermediate error bar).<br>Label both lines.' },
+      { label: '(c)(iii)', codes: ['1.3.3'], marks: 2, 
+        answer: 'Using two widely spaced points on the best-fit line (Δx at least 35), with clear substitution into Δy/Δx:<br>gradient = (0.160 − 0.0734)/(118 − 52.1) = 0.0866/65.9 = <b>0.0013</b> (expect about 0.0011 − 0.0015)<br>Absolute uncertainty = gradient(best fit) − gradient(worst acceptable line), or ½(steepest gradient − shallowest gradient) = <b>± 0.0001</b><br>gradient = <b>0.0013 ± 0.0001 s² m</b>' },
+      { label: '(d)', codes: ['1.3.3'], marks: 1, 
+        answer: 'd = (0.98 + 0.99 + 0.93 + 0.97 + 0.98)/5 = 4.85/5 = 0.97 mm<br>Δd = (0.99 − 0.93)/2 = 0.03 mm<br><b>d = (0.97 ± 0.03) mm</b> (0.98 ± 0.01 also allowed)' },
+      { label: '(e)(i)', codes: ['6.1.5', '17.1.1'], marks: 2, 
+        answer: 'E = 16π²ML³/(gradient × d³) = 16π² × 0.100 × 0.262³/(0.00131 × (9.7 × 10⁻⁴)³)<br>= 0.284/(0.00131 × 9.13 × 10⁻¹⁰) = <b>2.4 × 10¹¹ N m⁻²</b> (expect about 2.4 × 10¹¹; 2–3 s.f.; ecf from 2(c)(iii) and 2(d))<br>Unit of E: <b>N m⁻² or Pa</b> (kg m⁻¹ s⁻²)' },
+      { label: '(e)(ii)', codes: ['1.3.3'], marks: 1, 
+        answer: '%unc(E) = (ΔM/M + 3ΔL/L + 3Δd/d + Δgradient/gradient) × 100%<br>= (5/100 + 3 × 0.2/26.2 + 3 × 0.03/0.97 + 0.0001/0.00131) × 100%<br>= 5% + 2.3% + 9.3% + 7.6% = <b>24%</b> (must be greater than 7%; with the correct Δd from 2(d) alone, at least about 16%; max/min method allowed)' },
+      { label: '(f)', codes: ['17.1.1', '1.3.3'], marks: 2, 
+        answer: 'T² = gradient × (1/w), so w = gradient/T²<br>w = 0.00131/0.500² = 0.00131/0.250 = <b>5.2 × 10⁻³ m</b> (expect about 5 × 10⁻³; minimum 2 s.f.; ecf from 2(c)(iii) and 2(e)(i))<br>Δw/w = 2 × ΔT/T + Δgradient/gradient = 2 × 0.004/0.500 + 0.0001/0.00131 = 0.016 + 0.076 = 0.092<br>Δw = 0.092 × 5.2 × 10⁻³ = 4.8 × 10⁻⁴ m<br><b>w = (5.2 ± 0.5) × 10⁻³ m</b> (max/min method allowed; or using E and d with Δw/w = ΔM/M + 3ΔL/L + 3Δd/d + ΔE/E + 2ΔT/T)' },
+    ]
+  },
+];
 
 function renderPaper2Panel(containerId, data) {
   const container = document.getElementById(containerId);

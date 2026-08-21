@@ -1,0 +1,119 @@
+{
+  "paper": "9702/51/M/J/26",
+  "paper_full": "June 2026 · Paper 51",
+  "questions": [
+    {
+      "topic": "17",
+      "qnum": "Q1",
+      "title": "Planning an experiment — oscillations of a suspended bar",
+      "marks": 15,
+      "pages": [
+        2,
+        3,
+        4
+      ],
+      "pdf": "9702_s26_qp_51_Q1_Oscillations.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "17.1.1",
+            "17.1.3"
+          ],
+          "marks": 15,
+          "answer": "<b>Diagram:</b> rod fixed horizontally to two retort stands (clamped to the stands, stands on a bench); bar suspended from the rod by two vertical strings so that the bar is horizontal; metre rule; stopwatch; top-pan balance. Label the rod, string, bar, a (equal horizontal distance of each string from the centre of the bar), L (separation between the rod and the bar) and the centre of the bar.<br><b>Procedure and measurements:</b> vary a (independent variable) and measure the period T of the oscillations (dependent variable), keeping L constant; mark the centre of the bar (measure the length of the bar with a rule and divide by 2) and measure a from the centre to each string with a rule; displace one end of the bar horizontally and release it; measure the time t for n oscillations (n at least 5) with the stopwatch and calculate T = t/n; repeat for the same value of a and take the average; repeat for a range of at least six values of a.<br><b>Analysis:</b> plot a graph of lg T against lg a; the relationship T = (2πP/a^q)·√(L/M) is valid if a straight line (not through the origin) is obtained; gradient = −q, so <b>q = −gradient</b>; y-intercept = lg(2πP√(L/M)), so <b>P = √(M/L)·10^(y-intercept)/(2π)</b>. (Equivalently plot lg T against lg(1/a) — gradient = q — or lg a against lg(1/T) — gradient = 1/q.)<br><b>Controls:</b> keep L constant (same string length) and M constant (same bar); keep the bar horizontal and the strings vertical (check with a spirit level or set square); use a small amplitude and a fiducial marker at the midpoint of the oscillation; prevent the strings from sliding (notches, grooves or adhesive putty); use a large value of L to increase T and reduce the percentage uncertainty in T.<br><b>Safety:</b> G-clamp the stands to the bench, or place cushions/a sand tray on the bench below the bar, to prevent the bar or rod from falling onto the bench."
+        }
+      ]
+    },
+    {
+      "topic": "3",
+      "qnum": "Q2",
+      "title": "Analysis of data — terminal velocity of a falling sphere",
+      "marks": 15,
+      "pages": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "pdf": "9702_s26_qp_51_Q2_Dynamics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "3.2.1",
+            "3.2.3"
+          ],
+          "marks": 1,
+          "answer": "t = 18βz/(gd²(ρ − σ)) = [18βz/(g(ρ − σ))] × 1/d²<br>Comparing with y = mx: gradient = <b>18βz/(g(ρ − σ))</b>"
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "1.3.3"
+          ],
+          "marks": 2,
+          "answer": "1/d² / mm⁻² (for d = 2.6, 3.0, 3.4, 4.1, 4.4, 5.0 mm): <b>0.148, 0.111, 0.0865, 0.0595, 0.0517, 0.0400</b><br>Uncertainty: Δ(1/d²) = 2Δd/d³ — from ±0.011 mm⁻² (d = 2.6 ± 0.1 mm) down to ±0.002 mm⁻² (d = 5.0 ± 0.1 mm), i.e. uncertainties from <b>±0.01 to ±0.002</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "3.2.3"
+          ],
+          "marks": 2,
+          "answer": "All six points from (b) plotted correctly — each within half a small square of its true position, with point diameter less than half a small square (check the second and fourth plots from the left; ecf from 2(b)).<br>Error bars in 1/d² plotted for all six points — total length of each bar accurate to less than half a small square and symmetrical about the point."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "1.3.3"
+          ],
+          "marks": 2,
+          "answer": "Straight line of best fit drawn (not from the top point to the bottom point; line thickness less than half a small square; must pass between (0.064, 2.50) and (0.066, 2.50) and between (0.134, 5.50) and (0.138, 5.50)).<br>Worst acceptable line drawn — the steepest or shallowest line that passes through all the error bars (may be constrained by an intermediate error bar).<br>Label both lines."
+        },
+        {
+          "label": "(c)(iii)",
+          "codes": [
+            "1.3.3"
+          ],
+          "marks": 2,
+          "answer": "Using two widely spaced points on the best-fit line (Δx at least 0.07), with clear substitution into Δy/Δx:<br>gradient = (5.50 − 2.50)/(0.134 − 0.064) = 3.00/0.070<br>= <b>43 s mm⁻²</b> (expect about 36–48 s mm⁻², i.e. (3.6–4.8) × 10⁻⁵ s m²)<br>Absolute uncertainty = gradient(best fit) − gradient(worst acceptable line), or ½(steepest gradient − shallowest gradient)<br>gradient = <b>43 ± 2 s mm⁻², i.e. (4.3 ± 0.2) × 10⁻⁵ s m²</b>"
+        },
+        {
+          "label": "(d)",
+          "codes": [
+            "1.3.3"
+          ],
+          "marks": 1,
+          "answer": "ρ − σ = 7850 − 1250 = <b>6600 kg m⁻³</b><br>Δ(ρ − σ) = 50 + 50 = 100 kg m⁻³<br><b>(ρ − σ) = (6600 ± 100) kg m⁻³</b>"
+        },
+        {
+          "label": "(e)(i)",
+          "codes": [
+            "3.2.1",
+            "3.2.3"
+          ],
+          "marks": 2,
+          "answer": "β = gradient × g(ρ − σ)/(18z) = 4.3 × 10⁻⁵ × 9.81 × 6600/(18 × 0.097) = 2.78/1.746<br>= <b>1.6 kg m⁻¹ s⁻¹</b> (expect about 1.5; 2–3 s.f.; ecf from 2(c)(iii) and 2(d))<br>Unit of β: <b>kg m⁻¹ s⁻¹</b> (or Pa s)"
+        },
+        {
+          "label": "(e)(ii)",
+          "codes": [
+            "1.3.3"
+          ],
+          "marks": 1,
+          "answer": "%unc(β) = (Δgradient/gradient + Δ(ρ − σ)/(ρ − σ) + Δz/z) × 100%<br>= (2/43 + 100/6600 + 2/97) × 100%<br>= (4.7% + 1.5% + 2.1%) = <b>8.3%</b> (answer must be greater than 2%; max/min method allowed)"
+        },
+        {
+          "label": "(f)",
+          "codes": [
+            "1.3.3",
+            "3.2.3"
+          ],
+          "marks": 2,
+          "answer": "t = gradient × 1/d² = 4.3 × 10⁻⁵ × 1/(0.0120 m)² = 4.3 × 10⁻⁵ × 6944<br>= <b>0.30 s</b> (expect about 0.28 s; minimum 2 s.f.; ecf from 2(c)(iii))<br>Δ(1/d²)/(1/d²) = 2Δd/d = 2 × 0.01/1.20 = 0.0167<br>Δt = t × (Δgradient/gradient + 2Δd/d) = 0.30 × (2/43 + 0.0167) = 0.30 × 0.063<br><b>t = (0.30 ± 0.02) s</b>"
+        }
+      ]
+    }
+  ]
+}

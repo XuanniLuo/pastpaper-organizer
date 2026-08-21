@@ -422,7 +422,8 @@ mark {
 <script>
 var TOPIC_COLORS = [
   '#8fa9c2', '#9db892', '#c99f7a', '#b58fb0', '#7fb3ae',
-  '#c78e8e', '#8f9fc9', '#b0a878', '#7fa8c9', '#a88fc2', '#9cb87f'
+  '#c78e8e', '#8f9fc9', '#b0a878', '#7fa8c9', '#a88fc2', '#9cb87f',
+  '#c2a878', '#c08974', '#8497a8', '#93a382', '#9891ab'
 ];
 
 var TOPIC_NAMES = [
@@ -436,7 +437,12 @@ var TOPIC_NAMES = [
   "Superposition",
   "Electricity",
   "D.C. Circuits",
-  "Particle Physics"
+  "Particle Physics",
+  "Oscillations",
+  "Thermal Physics",
+  "Electric Fields",
+  "Capacitance",
+  "Magnetic Fields and EM Induction"
 ];
 
 function hexToRgba(hex, alpha) {
@@ -497,6 +503,7 @@ var DEFINITIONS = [
     ["Moment of Force", "The product of a force and the <strong>perpendicular distance</strong> from the line of action of the force to the pivot.", "S"],
     ["Principle of Moments", "For an object to be in equilibrium, the sum of the <strong>clockwise moments</strong> acting about a point must be equal to the sum of the anticlockwise moments acting about the point."],
     ["Pressure", "The force that a surface experiences <strong>per unit area</strong>. It is measured in Pascals (Pa).", "S"],
+    ["Torque of a Couple", "The <strong>product of one of the forces</strong> of a couple and the perpendicular distance between the two forces.", "S"],
     ["Triangle of Forces", "A method of determining the resultant force of two forces. The two forces are joined <strong>tip to tail</strong> and the resultant force is given by the force that would complete the triangle."],
     ["Upthrust", "The <strong>upwards force</strong> that a fluid applies on an object.", "V"]
   ],
@@ -556,7 +563,9 @@ var DEFINITIONS = [
   ],
   [
     ["Charge", "A property of matter that causes it to experience force when placed in an electromagnetic field. It can be <strong>positive or negative</strong>.", "S"],
+    ["Coulomb", "The <strong>unit of charge</strong>; equal to one ampere second (the charge passing a point in one second when the current is one ampere).", "S"],
     ["Current", "The <strong>rate of flow of charge</strong> in a circuit.", "S"],
+    ["Ohm", "The <strong>unit of resistance</strong>; equal to one volt per ampere.", "S"],
     ["Light-Dependent Resistor (LDR)", "A light sensitive semiconductor whose resistance <strong>increases when light intensity decreases</strong>."],
     ["Ohmic Conductor", "A conductor following Ohm's law where current flowing through it is <strong>directly proportional to the potential difference</strong> between each end of the conductor. This only holds if the conductor is kept at a constant temperature."],
     ["Potential Difference", "The difference in electrical potential between two points in a circuit. It is also the <strong>work done per coulomb</strong> to move a charge from the lower potential point to the higher potential point. It is measured in Volts.", "S"],
@@ -598,6 +607,42 @@ var DEFINITIONS = [
     ["Quark", "Fundamental particle that interacts with other quarks via the strong interaction, it will change flavour via the weak interaction and annihilate with antiquarks to form photons via the electromagnetic interaction. They come in <strong>6 flavours: up, down, charm, strange, top, bottom</strong>."],
     ["Rutherford Scattering", "An experiment involving firing <strong>alpha particles at a thin gold foil</strong> and observing their deflections. It showed the existence and nature of the nucleus."],
     ["Weak Interaction", "The force that causes <strong>flavour change</strong> in quarks and leptons, it is responsible for beta decay."]
+  ],
+  [
+    ["Damping", "The <strong>loss of energy</strong> from an oscillating system, caused by resistive force(s) acting on it."],
+    ["Displacement (Oscillations)", "The distance of the oscillating object <strong>from a reference (equilibrium) point</strong>, in a given direction.", "V"],
+    ["Natural Frequency", "The frequency at which a system will <strong>vibrate freely</strong> when there is no resultant external (driving or resistive) force acting on it.", "S"],
+    ["Resonance", "The <strong>oscillation of a system at maximum amplitude</strong>, which occurs when the frequency of a periodic driving force is equal to the natural frequency of the system.", "S"],
+    ["Simple Harmonic Motion", "Motion in which the <strong>acceleration is directly proportional to the displacement</strong> from a fixed point, and is always directed towards that point (i.e. in the opposite direction to the displacement)."]
+  ],
+  [
+    ["Avogadro Constant", "The <strong>number of particles per unit amount</strong> (mole) of a substance.", "S"],
+    ["Basic Assumptions of Kinetic Theory", "Molecules are in <strong>continuous random motion</strong>; have negligible volume compared with the gas; exert negligible forces on each other except during collisions; undergo perfectly <strong>elastic collisions</strong> of negligible duration."],
+    ["First Law of Thermodynamics", "The <strong>increase in internal energy</strong> of a system is equal to the work done on the system plus the thermal energy transferred to the system by heating (&Delta;U = q + W)."],
+    ["Ideal Gas", "A gas that obeys the equation <strong>pV &prop; T</strong> (i.e. pV/T = constant) for all values of pressure, volume and thermodynamic temperature."],
+    ["Internal Energy", "The <strong>sum of the potential energy and the (random) kinetic energy</strong> of the particles of a system, due to their random motion.", "S"],
+    ["Mean-Square-Speed", "The <strong>mean of the squares of the speeds</strong> of the individual atoms or molecules in a gas.", "S"],
+    ["Root-Mean-Square (r.m.s.) Value", "The value of the <strong>steady (direct) current or voltage</strong> that would produce/dissipate the same (heating) power in a resistor as the actual alternating current or voltage.", "S"],
+    ["Specific Heat Capacity", "The <strong>thermal energy required per unit mass</strong> of a substance to cause a temperature change of one degree (kelvin).", "S"],
+    ["Specific Latent Heat", "The <strong>thermal energy required per unit mass</strong> of a substance to change its state, without any change in temperature.", "S"],
+    ["Specific Latent Heat of Fusion", "The thermal energy required per unit mass to change a substance <strong>from solid to liquid</strong> at constant temperature.", "S"],
+    ["Specific Latent Heat of Vaporisation", "The thermal energy required per unit mass to change a substance <strong>from liquid to gas</strong> at constant temperature.", "S"],
+    ["Thermal Equilibrium", "Two objects are in thermal equilibrium when they are at the <strong>same temperature</strong>, so that there is no net transfer of thermal energy between them."]
+  ],
+  [
+    ["Coulomb's Law", "The electrostatic force between two point charges is <strong>directly proportional to the product of the charges</strong> and inversely proportional to the square of their separation."],
+    ["Electric Field", "A region of space in which a <strong>(stationary) charge experiences an (electric) force</strong>."],
+    ["Electric Field at a Point", "The <strong>force per unit positive charge</strong> acting on a small stationary test charge placed at that point.", "V"],
+    ["Electric Potential at a Point", "The <strong>work done per unit (positive) charge</strong> in bringing a small test charge from infinity to that point.", "S"]
+  ],
+  [
+    ["Capacitance", "The <strong>charge stored on one plate per unit potential difference</strong> between the plates of a capacitor.", "S"]
+  ],
+  [
+    ["Faraday's Law of Electromagnetic Induction", "The magnitude of the <strong>induced e.m.f. is directly proportional to the rate of change of magnetic flux linkage</strong>."],
+    ["Lenz's Law", "The direction of an <strong>induced e.m.f. (or current) opposes the change</strong> that is causing it."],
+    ["Magnetic Flux", "The <strong>product of the magnetic flux density and the area</strong> perpendicular to the field through which the field passes.", "S"],
+    ["Magnetic Flux Density", "The <strong>force acting per unit current per unit length</strong> on a current-carrying conductor placed perpendicular to a magnetic field.", "S"]
   ]
 ];
 
@@ -707,6 +752,42 @@ var FORMULAS = [
     [nuc(100, 10, 'X') + ' &rarr; ' + nuc(100, 11, 'Y') + ' + ' + nuc(0, '&minus;1', '&beta;') + ' + ' + '<span style="text-decoration:overline">&nu;</span><sub>e</sub>', "Beta-minus decay (emits an antineutrino)."],
     [nuc(100, 10, 'X') + ' &rarr; ' + nuc(100, 9, 'Y') + ' + ' + nuc(0, 1, '&beta;') + ' + &nu;<sub>e</sub>', "Beta-plus decay (emits a neutrino)."],
     [nuc(100, 10, 'X') + ' &rarr; ' + nuc(100, 10, 'Y') + ' + &gamma;', "Gamma decay."]
+  ],
+  [
+    ["x = x<sub>0</sub>sin(&omega;t)", "Displacement in simple harmonic motion (starting from equilibrium)."],
+    ["v = &plusmn;&omega;&radic;(x<sub>0</sub><sup>2</sup> &minus; x<sup>2</sup>)", "Velocity in simple harmonic motion."],
+    ["a = &minus;&omega;<sup>2</sup>x", "Acceleration in simple harmonic motion."],
+    ["&omega; = 2&pi;/T = 2&pi;f", "Angular frequency."],
+    ["E = &frac12;m&omega;<sup>2</sup>x<sub>0</sub><sup>2</sup>", "Total energy of a system oscillating in SHM."]
+  ],
+  [
+    ["Q = mc&Delta;&theta;", "Thermal energy to change temperature (specific heat capacity)."],
+    ["Q = mL", "Thermal energy to change state (specific latent heat)."],
+    ["pV = NkT", "Ideal gas equation (N = number of molecules, k = Boltzmann constant)."],
+    ["pV = nRT", "Ideal gas equation (n = number of moles, R = molar gas constant)."],
+    ["&Delta;U = q + W", "First law of thermodynamics."],
+    ["&frac12;m&lt;c<sup>2</sup>&gt; = &frac32;kT", "Mean kinetic energy of a gas molecule."]
+  ],
+  [
+    ["F = Qq/(4&pi;&epsilon;<sub>0</sub>r<sup>2</sup>)", "Coulomb's law: force between two point charges."],
+    ["E = F/Q", "Electric field strength = force per unit charge."],
+    ["E = Q/(4&pi;&epsilon;<sub>0</sub>r<sup>2</sup>)", "Electric field strength due to a point charge."],
+    ["V = Q/(4&pi;&epsilon;<sub>0</sub>r)", "Electric potential due to a point charge."],
+    ["E = V/d", "Field strength between parallel plates."]
+  ],
+  [
+    ["C = Q/V", "Capacitance = charge per unit potential difference."],
+    ["C = A&epsilon;<sub>0</sub>&epsilon;<sub>r</sub>/d", "Capacitance of a parallel-plate capacitor."],
+    ["W = &frac12;QV = &frac12;CV<sup>2</sup>", "Energy stored in a charged capacitor."],
+    ["C = C<sub>1</sub> + C<sub>2</sub> + ...", "Combined capacitance, capacitors in parallel."],
+    ["1/C = 1/C<sub>1</sub> + 1/C<sub>2</sub> + ...", "Combined capacitance, capacitors in series."]
+  ],
+  [
+    ["F = BIL sin&theta;", "Force on a current-carrying conductor in a magnetic field."],
+    ["F = BQv sin&theta;", "Force on a moving charge in a magnetic field."],
+    ["&Phi; = BA", "Magnetic flux = flux density × area (perpendicular to field)."],
+    ["N&Phi;", "Magnetic flux linkage (N = number of turns)."],
+    ["E = &minus;N&Delta;&Phi;/&Delta;t", "Faraday's law: induced e.m.f. = rate of change of flux linkage."]
   ]
 ];
 
@@ -820,7 +901,30 @@ var GRAPHS = [
     { title: 'Terminal p.d. vs current', xLabel: 'current', yLabel: 'terminal p.d.', fn: function(t) { return 0.88 - 0.62 * t; }, note: 'Y-intercept = e.m.f.; gradient = −internal resistance.',
       extra: function(color) { return dot(0, 0.88, color) + labelAt(0.04, 0.94, 'E (e.m.f.)', 'start', color); } }
   ],
-  []
+  [],
+  [
+    { title: 'Displacement–time (SHM)', xLabel: 'time', yLabel: 'displacement', fn: function(t) { return 0.5 + 0.42 * Math.sin(t * 4 * Math.PI); }, note: 'Sinusoidal; amplitude x₀, period T.',
+      extra: function(color) { return dashedLine(0, 0.5, 1, 0.5, '#c2b9ab'); } },
+    { title: 'Velocity–displacement (SHM)', xLabel: 'displacement', yLabel: 'velocity', fn: function(t) { var x = 2 * t - 1; var v2 = 1 - x * x; return 0.5 + 0.46 * (v2 > 0 ? Math.sqrt(v2) : 0); }, note: 'Ellipse — maximum speed at zero displacement.' },
+    { title: 'Amplitude vs driving frequency (resonance)', xLabel: 'driving frequency', yLabel: 'amplitude', fn: function(t) { var d = t - 0.5; return 0.06 + 0.88 * Math.exp(-d * d * 40); }, note: 'Peaks sharply when driving frequency = natural frequency.' }
+  ],
+  [
+    { title: 'Temperature vs time (heating through a change of state)', xLabel: 'time', yLabel: 'temperature', fn: function(t) { if (t < 0.3) return 0.15 + (0.4 / 0.3) * t; if (t < 0.55) return 0.55; return 0.55 + (0.35 / 0.45) * (t - 0.55); }, note: 'Flat sections show energy going into a change of state, not a temperature rise.' },
+    { title: 'pV vs T for an ideal gas', xLabel: 'thermodynamic temperature', yLabel: 'pV', fn: function(t) { return 0.05 + 0.9 * t; }, note: 'Straight line through the origin — pV ∝ T.' }
+  ],
+  [
+    { title: 'Field strength vs distance (point charge)', xLabel: 'distance', yLabel: 'field strength', fn: function(t) { return 0.06 + 0.85 / Math.pow(0.18 + t, 2) / 30; }, note: 'E ∝ 1/r² — falls away sharply with distance.' },
+    { title: 'Potential vs distance (point charge)', xLabel: 'distance', yLabel: 'potential', fn: function(t) { return 0.06 + 0.8 / (0.18 + t) / 6; }, note: 'V ∝ 1/r — falls away less sharply than field strength.' }
+  ],
+  [
+    { title: 'Charge vs p.d. (capacitor)', xLabel: 'p.d.', yLabel: 'charge', fn: function(t) { return 0.85 * t; }, note: 'Straight line through the origin; gradient = capacitance C.' },
+    { title: 'Capacitor charging (charge vs time)', xLabel: 'time', yLabel: 'charge', fn: function(t) { return 0.9 * (1 - Math.exp(-4 * t)); }, note: 'Exponential rise towards the maximum charge CV.' },
+    { title: 'Capacitor discharging (charge vs time)', xLabel: 'time', yLabel: 'charge', fn: function(t) { return 0.9 * Math.exp(-4 * t); }, note: 'Exponential decay towards zero.' }
+  ],
+  [
+    { title: 'Induced e.m.f. vs time (rotating coil)', xLabel: 'time', yLabel: 'e.m.f.', fn: function(t) { return 0.5 + 0.44 * Math.sin(t * 4 * Math.PI); }, note: 'Sinusoidal a.c. output; peak e.m.f. when flux is changing fastest.',
+      extra: function(color) { return dashedLine(0, 0.5, 1, 0.5, '#c2b9ab'); } }
+  ]
 ];
 
 /* ==========================================================

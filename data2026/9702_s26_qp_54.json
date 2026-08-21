@@ -1,0 +1,121 @@
+{
+  "paper": "9702/54/M/J/26",
+  "paper_full": "June 2026 · Paper 54",
+  "questions": [
+    {
+      "topic": "6",
+      "qnum": "Q1",
+      "title": "Planning an experiment — spring compression by a falling ball",
+      "marks": 15,
+      "pages": [
+        2,
+        3,
+        4
+      ],
+      "pdf": "9702_s26_qp_54_Q1_Deformation_of_solids.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "6.1.2",
+            "6.1.4",
+            "4.3.1",
+            "2.1.7"
+          ],
+          "marks": 15,
+          "answer": "<b>Diagram:</b> a sheet of cardboard supported by four springs standing on the bench; a rule (ruler) clamped vertically to a stand next to the cardboard to measure the compression c; a steel ball released from a fixed height h above the cardboard, e.g. held by an electromagnet (or at a fixed release point between the springs).<br><b>Procedure and measurements:</b> vary r (independent variable) using steel balls of different radii and measure c (dependent variable); measure the initial height of the cardboard/springs and the height when the ball is on the cardboard, so that c = original height − new height; measure r with a micrometer or calipers — measure the diameter d and calculate r = d/2; measure the height h through which the ball falls with the rule and determine v from v² = 2gh; use a range of at least 5–6 different radii; repeat the measurement of c for the same ball (same r) and take the mean.<br><b>Analysis:</b> plot a graph of 1/c² against 1/r³ (or 1/r³ against 1/c²). For the plot of 1/c² (y) against 1/r³ (x): gradient = v²/(απρ), so α = v²/(πρ × gradient); y-intercept = Z/v², so Z = y-intercept × v². The relationship is valid if a straight line is obtained (with y-intercept = Z/v²).<br><b>Controls:</b> keep v constant — release the ball from the same height each time (fixed release point/electromagnet); ensure the ball hits the centre of the cardboard and use springs each with the same spring constant, so that c is the same for all springs; measure the mass m of each ball with a balance to verify ρ, using ρ = m/(4/3πr³) or ρ = 6m/(πd³); keep the rule vertical using a plumb line or set square, and measure from the bottom of the ball to the top of the cardboard for accurate h and c.<br><b>Safety:</b> place screens around the apparatus or cushions/a sand tray on the bench to stop the ball leaving the bench; use springs with a small spring constant or a larger drop height so that c is large enough to measure accurately (or use video with slow-motion playback, with the rule in view, to read the minimum height)."
+        }
+      ]
+    },
+    {
+      "topic": "17",
+      "qnum": "Q2",
+      "title": "Oscillating steel strip — period, width &amp; Young modulus",
+      "marks": 15,
+      "pages": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "pdf": "9702_s26_qp_54_Q2_Oscillations.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "17.1.1"
+          ],
+          "marks": 1,
+          "answer": "E = 16π²ML³/(wT²d³), so T² = (16π²ML³/(Ed³)) × (1/w)<br>Comparing with y = mx: gradient = <b>16π²ML³/(Ed³)</b>"
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "17.1.1",
+            "1.3.3"
+          ],
+          "marks": 2,
+          "answer": "T = t/20:<br>T / s: 0.400, 0.371, 0.339, 0.310, 0.289, 0.271 — each with uncertainty <b>± 0.004 s</b> (= ± 0.08/20)<br>T² / s²: 0.160, 0.138, 0.115, 0.0961, 0.0835, 0.0734 — uncertainty in T² = 2TΔT: <b>from ± 0.003 down to ± 0.002 s²</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "1.3.3"
+          ],
+          "marks": 2,
+          "answer": "All six points from (b) plotted correctly — each within half a small square of its true position, with point diameter less than half a small square (check the second and fifth plots from the left; ecf from 2(b)).<br>Error bars in T² plotted for all six points — total length of each bar accurate to less than half a small square and symmetrical about the point."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "1.3.3"
+          ],
+          "marks": 2,
+          "answer": "Straight line of best fit drawn (not from the top point to the bottom point; line thickness less than half a small square; must pass between (65.0, 0.090) and (67.0, 0.090) and between (103.0, 0.140) and (104.0, 0.140)).<br>Worst acceptable line drawn — the steepest or shallowest line that passes through all the error bars (may be constrained by an intermediate error bar).<br>Label both lines."
+        },
+        {
+          "label": "(c)(iii)",
+          "codes": [
+            "1.3.3"
+          ],
+          "marks": 2,
+          "answer": "Using two widely spaced points on the best-fit line (Δx at least 35), with clear substitution into Δy/Δx:<br>gradient = (0.160 − 0.0734)/(118 − 52.1) = 0.0866/65.9 = <b>0.0013</b> (expect about 0.0011 − 0.0015)<br>Absolute uncertainty = gradient(best fit) − gradient(worst acceptable line), or ½(steepest gradient − shallowest gradient) = <b>± 0.0001</b><br>gradient = <b>0.0013 ± 0.0001 s² m</b>"
+        },
+        {
+          "label": "(d)",
+          "codes": [
+            "1.3.3"
+          ],
+          "marks": 1,
+          "answer": "d = (0.98 + 0.99 + 0.93 + 0.97 + 0.98)/5 = 4.85/5 = 0.97 mm<br>Δd = (0.99 − 0.93)/2 = 0.03 mm<br><b>d = (0.97 ± 0.03) mm</b> (0.98 ± 0.01 also allowed)"
+        },
+        {
+          "label": "(e)(i)",
+          "codes": [
+            "6.1.5",
+            "17.1.1"
+          ],
+          "marks": 2,
+          "answer": "E = 16π²ML³/(gradient × d³) = 16π² × 0.100 × 0.262³/(0.00131 × (9.7 × 10⁻⁴)³)<br>= 0.284/(0.00131 × 9.13 × 10⁻¹⁰) = <b>2.4 × 10¹¹ N m⁻²</b> (expect about 2.4 × 10¹¹; 2–3 s.f.; ecf from 2(c)(iii) and 2(d))<br>Unit of E: <b>N m⁻² or Pa</b> (kg m⁻¹ s⁻²)"
+        },
+        {
+          "label": "(e)(ii)",
+          "codes": [
+            "1.3.3"
+          ],
+          "marks": 1,
+          "answer": "%unc(E) = (ΔM/M + 3ΔL/L + 3Δd/d + Δgradient/gradient) × 100%<br>= (5/100 + 3 × 0.2/26.2 + 3 × 0.03/0.97 + 0.0001/0.00131) × 100%<br>= 5% + 2.3% + 9.3% + 7.6% = <b>24%</b> (must be greater than 7%; with the correct Δd from 2(d) alone, at least about 16%; max/min method allowed)"
+        },
+        {
+          "label": "(f)",
+          "codes": [
+            "17.1.1",
+            "1.3.3"
+          ],
+          "marks": 2,
+          "answer": "T² = gradient × (1/w), so w = gradient/T²<br>w = 0.00131/0.500² = 0.00131/0.250 = <b>5.2 × 10⁻³ m</b> (expect about 5 × 10⁻³; minimum 2 s.f.; ecf from 2(c)(iii) and 2(e)(i))<br>Δw/w = 2 × ΔT/T + Δgradient/gradient = 2 × 0.004/0.500 + 0.0001/0.00131 = 0.016 + 0.076 = 0.092<br>Δw = 0.092 × 5.2 × 10⁻³ = 4.8 × 10⁻⁴ m<br><b>w = (5.2 ± 0.5) × 10⁻³ m</b> (max/min method allowed; or using E and d with Δw/w = ΔM/M + 3ΔL/L + 3Δd/d + ΔE/E + 2ΔT/T)"
+        }
+      ]
+    }
+  ]
+}

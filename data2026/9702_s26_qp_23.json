@@ -1,0 +1,344 @@
+{
+  "paper": "9702/23/M/J/26",
+  "paper_full": "June 2026 · Paper 23",
+  "questions": [
+    {
+      "topic": "3",
+      "qnum": "Q1",
+      "title": "Elastic collision of two balls — momentum, acceleration &amp; distance",
+      "marks": 13,
+      "pages": [
+        4,
+        5
+      ],
+      "pdf": "9702_s26_qp_23_Q1_Dynamics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "3.1.3"
+          ],
+          "marks": 1,
+          "answer": "Momentum is the <b>product of the mass and the velocity</b> of an object (p = mv)."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "2.1.5"
+          ],
+          "marks": 2,
+          "answer": "a = Δv/Δt = (−0.8 − 1.6)/(0.12 − 0.09) = −2.4/0.03<br>magnitude of acceleration = <b>80 m s⁻²</b> (read-offs from Fig. 1.1: v = +1.6 m s⁻¹ at t = 0.09 s, v = −0.8 m s⁻¹ at t = 0.12 s)"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "3.1.3"
+          ],
+          "marks": 2,
+          "answer": "Δp = mΔv = 0.15 × (−0.8 − 1.6) = 0.15 × (−2.4)<br>magnitude of change in momentum = <b>0.36 kg m s⁻¹</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "2.1.3"
+          ],
+          "marks": 2,
+          "answer": "Distance = area under the v–t graph during the collision (t = 0.09 s to 0.12 s):<br>½ × 1.6 × 0.020 + ½ × 0.8 × 0.010 = 0.016 + 0.004<br>distance = <b>0.020 m</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "3.3.3"
+          ],
+          "marks": 2,
+          "answer": "For an elastic collision, the relative speed of approach equals the relative speed of separation.<br>Speed of approach = 1.6 − 0 = 1.6 m s⁻¹, so speed of separation = v(Y) − (−0.8) = v(Y) + 0.8 = 1.6<br>velocity of Y = <b>+0.80 m s⁻¹</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "2.1.2"
+          ],
+          "marks": 2,
+          "answer": "Sketch on Fig. 1.1: a horizontal line at v = 0 from t = 0 to t = 0.09 s; a straight diagonal line of positive gradient from (0.09 s, 0) to (0.12 s, +0.80 m s⁻¹); then a <b>horizontal line at +0.80 m s⁻¹ from t = 0.12 s to t = 0.20 s</b>."
+        },
+        {
+          "label": "(c)(iii)",
+          "codes": [
+            "3.3.2",
+            "3.3.1"
+          ],
+          "marks": 2,
+          "answer": "Conservation of momentum on the frictionless surface (no external horizontal force):<br>0.15 × 1.6 = 0.15 × (−0.8) + 0.80m<br>0.24 = −0.12 + 0.80m → 0.80m = 0.36<br>mass of Y = <b>0.45 kg</b>"
+        }
+      ]
+    },
+    {
+      "topic": "6",
+      "qnum": "Q2",
+      "title": "Suspended polythene thread — Young modulus &amp; elastic energy",
+      "marks": 12,
+      "pages": [
+        6,
+        7
+      ],
+      "pdf": "9702_s26_qp_23_Q2_Deformation_of_solids.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "6.1.5"
+          ],
+          "marks": 1,
+          "answer": "The Young modulus of a material is the <b>ratio of stress to strain</b> (stress per unit strain), within the limit of proportionality."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "4.3.1"
+          ],
+          "marks": 2,
+          "answer": "ρ = m/V and V = AL, so L = m/(ρA)<br>L = 0.018/(960 × 2.6×10⁻⁶) = 0.018/2.496×10⁻³<br>length = <b>7.2 m</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "6.1.5",
+            "3.1.6"
+          ],
+          "marks": 2,
+          "answer": "Stress = F/A, where F = weight of the whole thread = mg = 0.018 × 9.81 N<br>σ = (0.018 × 9.81)/(2.6×10⁻⁶) = 0.177/2.6×10⁻⁶<br>stress = <b>6.8×10⁴ Pa</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "6.1.5"
+          ],
+          "marks": 2,
+          "answer": "The weight supported at a point decreases linearly as the distance from the top increases, because less thread hangs below the point. Since the cross-sectional area is uniform, stress (σ = F/A) is proportional to the weight supported, so the variation is <b>linear</b>."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "6.1.5"
+          ],
+          "marks": 2,
+          "answer": "E = σ/ε and ε = x/L → x = σL/E<br>x = (6.8×10⁴ × 7.2)/(8.0×10⁸) = 4.9×10⁵/8.0×10⁸<br>extension = <b>6.1×10⁻⁴ m</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "6.2.3",
+            "6.2.4"
+          ],
+          "marks": 2,
+          "answer": "E = ½Fx, with F = σA = 6.8×10⁴ × 2.6×10⁻⁶ = 0.177 N<br>E = ½ × 0.177 × 6.1×10⁻⁴<br>elastic potential energy = <b>5.4×10⁻⁵ J</b>"
+        },
+        {
+          "label": "(d)",
+          "codes": [
+            "6.1.5"
+          ],
+          "marks": 1,
+          "answer": "The total extension is <b>less</b> — in the vertical thread the stress is less than 6.8×10⁴ Pa everywhere except at the very top (the stress, and hence the extension per unit length, is smaller lower down the thread)."
+        }
+      ]
+    },
+    {
+      "topic": "8",
+      "qnum": "Q3",
+      "title": "Double-slit interference — coherent light, fringes &amp; frequency",
+      "marks": 14,
+      "pages": [
+        8,
+        9
+      ],
+      "pdf": "9702_s26_qp_23_Q3_Superposition.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "8.1.1"
+          ],
+          "marks": 2,
+          "answer": "When two or more waves meet (overlap) at a point, the resultant displacement at that point is the <b>sum of the individual displacements</b> of the waves."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "8.3.1"
+          ],
+          "marks": 1,
+          "answer": "Waves are coherent if they have a <b>constant phase difference</b>."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "8.2.1"
+          ],
+          "marks": 1,
+          "answer": "The light <b>diffracts</b> (spreads out) as it passes through each slit."
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "8.3.3",
+            "8.1.1"
+          ],
+          "marks": 3,
+          "answer": "The waves from the two slits meet (superpose) at X with <b>zero path difference / zero phase difference</b> (they are in phase). Constructive interference occurs, so the resultant wave has <b>maximum amplitude</b>, forming the bright fringe."
+        },
+        {
+          "label": "(b)(iv)",
+          "codes": [
+            "8.3.4"
+          ],
+          "marks": 3,
+          "answer": "λ = ax/D → x = λD/a<br>x = (560×10⁻⁹ × 0.43)/(1.4×10⁻⁵) = 2.41×10⁻⁷/1.4×10⁻⁵ = 1.72×10⁻² m (fringe spacing)<br>The first dark fringe lies halfway between the central maximum and the first bright fringe:<br>XY = x/2 = 1.72×10⁻²/2 = <b>8.6×10⁻³ m</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "8.3.4"
+          ],
+          "marks": 1,
+          "answer": "Mark a cross B at the next bright fringe — <b>the same distance above Y as XY</b>, i.e. one fringe spacing (2XY) above X."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "8.3.4"
+          ],
+          "marks": 1,
+          "answer": "Mark a cross D at the first dark fringe below X — <b>the same distance below X as XY</b>."
+        },
+        {
+          "label": "(d)",
+          "codes": [
+            "7.1.4"
+          ],
+          "marks": 2,
+          "answer": "c = fλ → f = c/λ<br>f = (3.00×10⁸)/(560×10⁻⁹)<br>frequency = <b>5.4×10¹⁴ Hz</b>"
+        }
+      ]
+    },
+    {
+      "topic": "10",
+      "qnum": "Q4",
+      "title": "LDR across a cell — internal resistance &amp; power",
+      "marks": 11,
+      "pages": [
+        10,
+        11
+      ],
+      "pdf": "9702_s26_qp_23_Q4_DC_circuits.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "10.1.2",
+            "10.1.5",
+            "9.3.7"
+          ],
+          "marks": 3,
+          "answer": "Draw a cell symbol with the internal resistance shown (a resistor symbol in series inside a dotted box around the cell, or just the cell symbol); the LDR symbol <b>connected across the terminals of the cell</b> (in parallel with it); and a <b>voltmeter symbol connected in parallel with the LDR</b>."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "1.3.1"
+          ],
+          "marks": 1,
+          "answer": "A <b>zero error / calibration error</b> of the digital voltmeter (or contact resistance in the connections / resistance of the connecting wires)."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "9.2.3"
+          ],
+          "marks": 2,
+          "answer": "P = V²/R = 4.78²/230 = 22.8/230<br>power = <b>0.099 W</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "10.1.5",
+            "10.1.3"
+          ],
+          "marks": 2,
+          "answer": "I = V/R = 4.78/230 = 2.08×10⁻² A<br>E = V + Ir → r = (E − V)/I = (4.90 − 4.78)/(2.08×10⁻²) = 0.12/2.08×10⁻²<br>internal resistance = <b>5.8 Ω</b>"
+        },
+        {
+          "label": "(b)(iv)",
+          "codes": [
+            "9.3.7",
+            "10.1.5"
+          ],
+          "marks": 3,
+          "answer": "As the light intensity decreases: the resistance of the LDR <b>increases</b>; the current in the cell <b>decreases</b>; the p.d. across the LDR <b>increases</b> (V = E − Ir, with E and r fixed, so less p.d. is dropped across r)."
+        }
+      ]
+    },
+    {
+      "topic": "11",
+      "qnum": "Q5",
+      "title": "Mesons, quarks &amp; β+ decay — conservation and neutrino",
+      "marks": 10,
+      "pages": [
+        12,
+        13
+      ],
+      "pdf": "9702_s26_qp_23_Q5_Particle_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "11.2.4"
+          ],
+          "marks": 1,
+          "answer": "A meson is a hadron consisting of <b>one quark and one antiquark</b>."
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "11.2.2"
+          ],
+          "marks": 3,
+          "answer": "Quark charges have magnitudes of either ⅔e or ⅓e.<br>Charge −1e: any two of — three quarks each of charge −⅓e (e.g. ddd); two quarks of charge −⅔e plus one quark of charge +⅓e.<br>Charge +2e: <b>three quarks each of charge +⅔e</b> (e.g. uuu)."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "11.1.6",
+            "11.1.5"
+          ],
+          "marks": 2,
+          "answer": "Conserving nucleon number and charge (proton number) in ¹⁸₈X → ᴾQY + ʳₛβ⁺ + ⁰₀Z:<br>P = <b>18</b>, Q = <b>7</b> (proton number of X decreases by 1 in β⁺ decay), R = <b>0</b>, S = <b>+1</b> (the positron has charge +1e and negligible mass)."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "11.1.9"
+          ],
+          "marks": 1,
+          "answer": "Particle Z is the (electron) <b>neutrino</b>."
+        },
+        {
+          "label": "(c)(iii)",
+          "codes": [
+            "11.2.5"
+          ],
+          "marks": 1,
+          "answer": "In β⁺ decay a proton changes into a neutron, so the net change in quark composition is an <b>up quark changing to a down quark</b> (uud → udd)."
+        },
+        {
+          "label": "(c)(iv)",
+          "codes": [
+            "11.1.10"
+          ],
+          "marks": 2,
+          "answer": "The total energy released in each decay is constant, but particle Z takes some of this energy — the energy is <b>shared between Z and the β⁺ particle</b>. The way the total energy is distributed between them varies from decay to decay, so the β⁺ particles have a <b>continuous range of kinetic energies</b>."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,568 @@
+{
+  "paper": "9702/44/M/J/26",
+  "paper_full": "June 2026 · Paper 44",
+  "questions": [
+    {
+      "topic": "18",
+      "qnum": "Q1",
+      "title": "Electron in circular orbit — electric force, acceleration &amp; period",
+      "marks": 10,
+      "pages": [
+        4,
+        5
+      ],
+      "pdf": "9702_s26_qp_44_Q1_Electric_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "18.3.2"
+          ],
+          "marks": 2,
+          "answer": "The electric force between two point charges is <b>directly proportional to the product of the charges</b> and <b>inversely proportional to the square of their separation</b>."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "18.5.4",
+            "18.3.2"
+          ],
+          "marks": 1,
+          "answer": "Eₚ = Qq/(4πε₀r) → r = Qq/(4πε₀Eₚ)<br>r = (1.60×10⁻¹⁹)²/(4π×8.85×10⁻¹²×1.09×10⁻¹⁸) = 2.56×10⁻³⁸/1.21×10⁻²⁸<br>= <b>2.11×10⁻¹⁰ m</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "18.3.2"
+          ],
+          "marks": 1,
+          "answer": "F = Qq/(4πε₀r²) = (1.60×10⁻¹⁹)²/(4π×8.85×10⁻¹²×(2.11×10⁻¹⁰)²)<br>= 2.56×10⁻³⁸/4.95×10⁻³⁰ = <b>5.17×10⁻⁹ N</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "12.2.3"
+          ],
+          "marks": 1,
+          "answer": "a = F/m = 5.17×10⁻⁹/9.11×10⁻³¹ = <b>5.68×10²¹ m s⁻²</b>"
+        },
+        {
+          "label": "(b)(iv)",
+          "codes": [
+            "12.2.3",
+            "12.1.3"
+          ],
+          "marks": 2,
+          "answer": "a = rω² and ω = 2π/T:<br>T = 2π√(r/a) = 2π√(2.11×10⁻¹⁰/5.68×10²¹) = 2π×1.93×10⁻¹⁶<br>= <b>1.21×10⁻¹⁵ s</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "18.5.4",
+            "12.2.3"
+          ],
+          "marks": 3,
+          "answer": "Eₚ = −Qq/(4πε₀r) decreases (becomes more negative), so the radius of the orbit <b>decreases</b>. The force F = Qq/(4πε₀r²) therefore increases, so the centripetal acceleration a = F/m <b>increases</b>. With a = rω², ω = √(a/r) <b>increases</b>."
+        }
+      ]
+    },
+    {
+      "topic": "13",
+      "qnum": "Q2",
+      "title": "Geostationary satellite — Earth's mass &amp; mean density",
+      "marks": 10,
+      "pages": [
+        6,
+        7
+      ],
+      "pdf": "9702_s26_qp_44_Q2_Gravitational_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "13.2.4"
+          ],
+          "marks": 1,
+          "answer": "A geostationary orbit is one in which the satellite <b>remains above the same point on the Earth's surface</b>."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "13.2.4"
+          ],
+          "marks": 2,
+          "answer": "Any two of: the orbit is <b>equatorial</b> (directly above the Equator); the satellite orbits <b>from west to east</b>; the orbital period is <b>24 hours</b> (equal to the Earth's period of rotation)."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "13.2.3"
+          ],
+          "marks": 1,
+          "answer": "v = <b>2πR/T</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "13.2.2",
+            "13.2.3"
+          ],
+          "marks": 2,
+          "answer": "GMm/R² = mRω² and ω = 2π/T:<br>GMm/R² = mR(2π/T)² → M = <b>4π²R³/(GT²)</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "13.2.3",
+            "13.2.2"
+          ],
+          "marks": 4,
+          "answer": "Orbit radius R = (6370 + 35 900)×10³ = 4.23×10⁷ m; T = 24×3600 = 8.64×10⁴ s<br>M = 4π²R³/(GT²) = 4π²×(4.23×10⁷)³/(6.67×10⁻¹¹×(8.64×10⁴)²) = 5.99×10²⁴ kg<br>V = (4/3)πr³ = (4/3)π×(6.37×10⁶)³ = 1.08×10²¹ m³<br>density = M/V = 5.99×10²⁴/1.08×10²¹ = <b>5530 kg m⁻³</b>"
+        }
+      ]
+    },
+    {
+      "topic": "14",
+      "qnum": "Q3",
+      "title": "Thermistor in warm water — thermal equilibrium &amp; specific heat capacity",
+      "marks": 9,
+      "pages": [
+        8,
+        9
+      ],
+      "pdf": "9702_s26_qp_44_Q3_Temperature.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "14.1.2",
+            "14.1.1"
+          ],
+          "marks": 2,
+          "answer": "Two objects are in thermal equilibrium when they are <b>at the same temperature</b>, so that (if in thermal contact) there is <b>no net transfer of thermal energy</b> between them."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "14.1.1"
+          ],
+          "marks": 2,
+          "answer": "The thermistor absorbs thermal energy to raise its own temperature; this energy is transferred from the water, so the water cools. The equilibrium temperature is therefore <b>below 78.0 °C</b>."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "14.3.1"
+          ],
+          "marks": 3,
+          "answer": "Energy lost by water = energy gained by thermistor: Q = mcΔθ<br>63×4.2×(78.0−76.8) = 8.5×c×(76.8−25.0)<br>317.5 = 440.3c<br>c = <b>0.72 J g⁻¹ K⁻¹</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "14.2.1"
+          ],
+          "marks": 2,
+          "answer": "Use a thermocouple, or a smaller/lower-mass thermistor: the smaller mass (heat capacity) <b>removes less thermal energy from the water</b>, so the reading is closer to the true 78.0 °C. Alternatively, warm the thermistor to about 78 °C before immersion, so it removes much less thermal energy from the water."
+        }
+      ]
+    },
+    {
+      "topic": "16",
+      "qnum": "Q4",
+      "title": "Ideal gas internal energy — molecular kinetic energy &amp; first law",
+      "marks": 13,
+      "pages": [
+        9,
+        10,
+        11
+      ],
+      "pdf": "9702_s26_qp_44_Q4_Thermodynamics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "16.2.2"
+          ],
+          "marks": 2,
+          "answer": "The increase in internal energy of a system is equal to the work done on the system plus the energy transferred to the system by heating: <b>ΔU = q + W</b>."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "15.2.2"
+          ],
+          "marks": 2,
+          "answer": "pV = NkT → V = NkT/p<br>V = 3.58×10²⁴×1.38×10⁻²³×298/(1.84×10⁵) = 1.47×10⁴/1.84×10⁵<br>= <b>0.0800 m³</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "15.1.2"
+          ],
+          "marks": 1,
+          "answer": "n = N/Nₐ = 3.58×10²⁴/6.02×10²³ = <b>5.95 mol</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "15.3.4"
+          ],
+          "marks": 2,
+          "answer": "E_K = (3/2)kT = 1.5×1.38×10⁻²³×298 = <b>6.17×10⁻²¹ J</b>"
+        },
+        {
+          "label": "(b)(iv)",
+          "codes": [
+            "15.3.1"
+          ],
+          "marks": 1,
+          "answer": "An ideal gas has <b>no intermolecular forces</b>, so the molecules have no potential energy — only kinetic energy."
+        },
+        {
+          "label": "(b)(v)",
+          "codes": [
+            "16.1.1"
+          ],
+          "marks": 1,
+          "answer": "U = NE_K = 3.58×10²⁴×6.17×10⁻²¹ = <b>2.21×10⁴ J</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "16.2.1",
+            "16.2.2"
+          ],
+          "marks": 2,
+          "answer": "During AB the volume is constant, so no work is done (W = 0); by the first law Q = ΔU. For an ideal gas U ∝ pV and V is constant, so ΔU/Uₐ = Δp/p:<br>Q = (5.84−1.84)/1.84 × Uₐ = <b>2.2Uₐ</b> (50Uₐ/23)"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "16.2.2",
+            "16.2.1"
+          ],
+          "marks": 2,
+          "answer": "During BC there is no transfer of thermal energy (adiabatic), so W = ΔU. At C, U_C ∝ pV = 1.84×10⁵×0.160, which is twice pV at A, so U_C = 2Uₐ:<br>W = U_C − U_B = 2Uₐ − (Uₐ + 2.2Uₐ) = <b>−1.2Uₐ</b> (−27Uₐ/23) — 1.2Uₐ of work is done by the gas."
+        }
+      ]
+    },
+    {
+      "topic": "17",
+      "qnum": "Q5",
+      "title": "Ball on a spring — velocity–displacement graph &amp; resonance",
+      "marks": 9,
+      "pages": [
+        12,
+        13
+      ],
+      "pdf": "9702_s26_qp_44_Q5_Oscillations.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "17.1.4",
+            "17.1.5"
+          ],
+          "marks": 3,
+          "answer": "Draw a smooth closed loop (ellipse) enclosing the origin, cutting the x-axis at x = <b>±2.5 cm</b> (and nowhere further out) and the v-axis at v = <b>±4.4 cm s⁻¹</b> (and nowhere further out). The v–x graph for s.h.m. is an ellipse, v = ±ω√(x₀²−x²), not straight lines between the intercepts."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "17.1.4",
+            "17.1.1"
+          ],
+          "marks": 2,
+          "answer": "v₀ = ωx₀ and ω = 2πf:<br>f = v₀/(2πx₀) = 4.4/(2π×2.5) = 4.4/15.7<br>= <b>0.28 Hz</b>"
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "17.3.3"
+          ],
+          "marks": 2,
+          "answer": "Resonance is the oscillation of an object at <b>maximum amplitude</b>, which occurs when the <b>driving frequency equals the natural frequency</b> of the oscillating system."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "17.3.3"
+          ],
+          "marks": 2,
+          "answer": "Draw a curve rising continuously from f = 0 (amplitude never zero when f > 0) to a single peak at f = <b>0.28 Hz</b>, then falling continuously to f = 0.40 Hz."
+        }
+      ]
+    },
+    {
+      "topic": "19",
+      "qnum": "Q6",
+      "title": "Capacitor switching circuit — time constant, discharge &amp; minimum p.d.",
+      "marks": 9,
+      "pages": [
+        14,
+        15
+      ],
+      "pdf": "9702_s26_qp_44_Q6_Capacitance.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "19.3.2",
+            "19.1.2"
+          ],
+          "marks": 2,
+          "answer": "RC = 2.4 s → R = 2.4/(47×10⁻⁶) = 5.1×10⁴ Ω<br>= <b>51 kΩ</b>"
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "19.3.3",
+            "19.3.2"
+          ],
+          "marks": 2,
+          "answer": "The switch is at Y for 2.5 s in each 5.0 s cycle, so the discharge time is 2.5 s:<br>V = V₀e^(−t/RC) = 1.50e^(−2.5/2.4) = 1.50×0.353<br>= <b>0.53 V</b>"
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "19.3.1"
+          ],
+          "marks": 3,
+          "answer": "While the switch is at X (t = 0–2.5 s and 5.0–7.5 s) the capacitor re-charges: draw horizontal lines at V_C = <b>1.50 V</b>. While it is at Y (t = 2.5–5.0 s and 7.5–10.0 s) it discharges: draw smooth exponential decay curves of continuously decreasing negative gradient, falling to a minimum of V_C = 0.53 V."
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "19.3.1",
+            "19.3.3"
+          ],
+          "marks": 2,
+          "answer": "Doubling the frequency halves the discharge time (2.5 s → 1.25 s) before re-charging, so the capacitor loses less charge and its p.d. does not fall as far — the minimum p.d. is <b>greater than 0.53 V</b>."
+        }
+      ]
+    },
+    {
+      "topic": "20",
+      "qnum": "Q7",
+      "title": "Solenoid magnetic field — flux linkage &amp; induced e.m.f.",
+      "marks": 14,
+      "pages": [
+        16,
+        17
+      ],
+      "pdf": "9702_s26_qp_44_Q7_Magnetic_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "21.1.1"
+          ],
+          "marks": 1,
+          "answer": "An alternating current is a current whose <b>direction regularly (periodically) reverses</b>."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "20.4.1"
+          ],
+          "marks": 3,
+          "answer": "Draw at least five straight, parallel, horizontal field lines inside the solenoid; outside, draw the bar-magnet pattern of curved lines looping from one end to the other (at least one complete loop above and one below the central axis, plus one horizontal line outside each pole). The inside and outside lines must be continuous with each other, with arrows showing the field direction <b>right to left inside the solenoid</b>."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "20.4.1"
+          ],
+          "marks": 1,
+          "answer": "Mark <b>N at the left-hand end</b> and <b>S at the right-hand end</b> of the solenoid."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "21.1.2",
+            "12.1.3"
+          ],
+          "marks": 1,
+          "answer": "B = 2.0 cos(200πt), so ω = 200π = 2π/T:<br>T = 2π/200π = <b>0.010 s</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "21.1.2"
+          ],
+          "marks": 2,
+          "answer": "Draw two complete cycles of a cosine curve with period 0.010 s and amplitude <b>2.0 mT</b>: B = +2.0 mT at t = 0, zero at t = 0.0025, 0.0075, 0.0125 and 0.0175 s, with minima of −2.0 mT at t = 0.005 s and t = 0.015 s."
+        },
+        {
+          "label": "(d)(i)",
+          "codes": [
+            "20.5.1",
+            "20.5.2"
+          ],
+          "marks": 3,
+          "answer": "Φ = BAN = 2.0×10⁻³×π×(2.8×10⁻³)²×45<br>= 2.0×10⁻³×2.46×10⁻⁵×45<br>= <b>2.2×10⁻⁶ Wb</b>"
+        },
+        {
+          "label": "(d)(ii)",
+          "codes": [
+            "20.5.5"
+          ],
+          "marks": 3,
+          "answer": "Draw a tangent to the B–t curve at its steepest part and measure its gradient (the maximum rate of change of B). Multiply this steepest gradient by the area of the coil and the number of turns to obtain the maximum rate of change of flux linkage. By Faraday's law the maximum induced e.m.f. equals <b>this maximum rate of cutting flux</b>."
+        }
+      ]
+    },
+    {
+      "topic": "22",
+      "qnum": "Q8",
+      "title": "Photoelectric effect — Planck constant &amp; work function energy",
+      "marks": 11,
+      "pages": [
+        18,
+        19
+      ],
+      "pdf": "9702_s26_qp_44_Q8_Quantum_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "22.2.1"
+          ],
+          "marks": 1,
+          "answer": "The <b>photoelectric effect</b> (photoelectric emission)."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "22.2.2"
+          ],
+          "marks": 1,
+          "answer": "The threshold frequency is the <b>minimum frequency of radiation needed to cause emission of electrons</b> from the metal surface."
+        },
+        {
+          "label": "(a)(iii)",
+          "codes": [
+            "22.2.3",
+            "22.1.3",
+            "22.2.2"
+          ],
+          "marks": 3,
+          "answer": "Any three of: electrons need a minimum energy (the work function energy) to leave the surface; a photon absorbed by an electron must have enough energy for the electron to escape; photons are packets (quanta) of energy proportional to frequency (E = hf); a minimum photon energy therefore requires a minimum frequency, so radiation below the <b>threshold frequency</b> cannot eject electrons however intense it is."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "22.2.4",
+            "22.1.3"
+          ],
+          "marks": 3,
+          "answer": "hf = Φ + E_K for each wavelength; subtracting the two equations:<br>hc(1/λ₁ − 1/λ₂) = E₂ − E₁<br>h×3.00×10⁸×(1/178×10⁻⁹ − 1/254×10⁻⁹) = (5.27−1.91)×10⁻¹⁹<br>h×3.00×10⁸×1.68×10⁶ = 3.36×10⁻¹⁹<br>h = <b>6.66×10⁻³⁴ J s</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "22.2.4",
+            "22.1.4"
+          ],
+          "marks": 3,
+          "answer": "Φ = hc/λ − E_K = 6.66×10⁻³⁴×3.00×10⁸/(178×10⁻⁹) − 5.27×10⁻¹⁹<br>= 1.12×10⁻¹⁸ − 5.27×10⁻¹⁹ = 5.95×10⁻¹⁹ J<br>Φ = 5.95×10⁻¹⁹/1.60×10⁻¹⁹ = <b>3.7 eV</b>"
+        }
+      ]
+    },
+    {
+      "topic": "24",
+      "qnum": "Q9",
+      "title": "Ultrasound transducer — acoustic impedance &amp; attenuation of materials",
+      "marks": 8,
+      "pages": [
+        20,
+        21
+      ],
+      "pdf": "9702_s26_qp_44_Q9_Medical_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "24.1.1",
+            "24.1.2"
+          ],
+          "marks": 3,
+          "answer": "A p.d. applied across the piezo-electric crystal causes it to distort (change shape); an alternating p.d. is applied, so the crystal vibrates; the vibrations of the crystal at the ultrasound frequency cause oscillations in the surrounding medium, <b>generating the ultrasound waves</b>."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "24.1.4"
+          ],
+          "marks": 2,
+          "answer": "Z = ρc = 8960×4720 = <b>4.23×10⁷ kg m⁻² s⁻¹</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "24.1.6",
+            "24.1.5"
+          ],
+          "marks": 3,
+          "answer": "Any three of: the total thickness of the structure is 12.0 cm, with material X occupying <b>10.0 cm</b> along PQ and material Y 2.0 cm thick (X is thicker than Y); the linear attenuation coefficient of X is <b>3.2 cm⁻¹</b> and that of Y is 1.5 cm⁻¹, so X attenuates ultrasound more strongly than Y; the intensity transmission coefficient at the X–Y boundary is 0.37, so the intensity reflection coefficient there is 0.63."
+        }
+      ]
+    },
+    {
+      "topic": "25",
+      "qnum": "Q10",
+      "title": "Standard candles &amp; a distant star — distance, temperature &amp; radius",
+      "marks": 7,
+      "pages": [
+        22
+      ],
+      "pdf": "9702_s26_qp_44_Q10_Astronomy_and_cosmology.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "25.1.3"
+          ],
+          "marks": 1,
+          "answer": "A standard candle is an astronomical object (star) of <b>known luminosity</b>."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "25.1.4",
+            "25.1.2"
+          ],
+          "marks": 2,
+          "answer": "Measure the radiant flux intensity F received from the object, then calculate the distance using the inverse square law: d = <b>√(L/4πF)</b>, where L is the known luminosity."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "25.3.1",
+            "25.3.2"
+          ],
+          "marks": 2,
+          "answer": "The star is moving away from the observer, so its radiation is <b>redshifted</b> — the observed wavelength is greater than the emitted wavelength. The correction removes this Doppler shift, so λstar is the true (emitted) wavelength of maximum intensity."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "25.2.1"
+          ],
+          "marks": 1,
+          "answer": "Wien's law: λmax ∝ 1/T → Tstar = <b>λ₀T₀/λstar</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "25.2.2",
+            "25.2.3"
+          ],
+          "marks": 1,
+          "answer": "L = 4πσr²T⁴ → radius = <b>√(L/4πσTstar⁴)</b>, where σ is the Stefan–Boltzmann constant."
+        }
+      ]
+    }
+  ]
+}

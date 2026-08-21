@@ -1,0 +1,351 @@
+{
+  "paper": "9702/22/M/J/26",
+  "paper_full": "June 2026 · Paper 22",
+  "questions": [
+    {
+      "topic": "2",
+      "qnum": "Q1",
+      "title": "Car on a straight road — scalars, distance &amp; acceleration",
+      "marks": 11,
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "pdf": "9702_s26_qp_22_Q1_Kinematics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "1.4.1"
+          ],
+          "marks": 2,
+          "answer": "Amplitude: <b>scalar</b><br>Force: <b>vector</b><br>Momentum: <b>vector</b><br>Power: <b>scalar</b>"
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "2.1.3"
+          ],
+          "marks": 1,
+          "answer": "The distance travelled is represented by the <b>area under the graph line</b> between t = 0 and t = 40 s."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "2.1.3"
+          ],
+          "marks": 1,
+          "answer": "Area = ½×10×12 + 25×12 + ½×5×12<br>= 60 + 300 + 30 = <b>390 m</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "2.1.5"
+          ],
+          "marks": 2,
+          "answer": "Maximum acceleration = maximum gradient of the v–t graph (the 35–40 s section):<br>a = (0 − 12)/5 = −2.4 m s⁻²<br>Magnitude = <b>2.4 m s⁻²</b> (the other sections give 12/10 = 1.2 and 10/40 = 0.25 m s⁻²)"
+        },
+        {
+          "label": "(b)(iv)",
+          "codes": [
+            "2.1.7"
+          ],
+          "marks": 2,
+          "answer": "At t = 40 s the car is momentarily at rest; it then moves with acceleration −0.25 m s⁻² over displacement −150 m back to P:<br>v² = u² + 2as = 0 + 2×(−0.25)×(−150) = 75<br>v = √75 = <b>8.7 m s⁻¹</b>"
+        },
+        {
+          "label": "(b)(v)",
+          "codes": [
+            "2.1.2"
+          ],
+          "marks": 3,
+          "answer": "Sketch a displacement–time graph from t = 0 to t = 80 s that: starts at the origin and <b>rises with increasing gradient up to t = 10 s</b>, continues with a <b>constant (straight) positive gradient between t = 10 s and t = 35 s</b>, then a <b>decreasing gradient between t = 35 s and t = 40 s</b>, reaching its <b>maximum displacement at t = 40 s</b>; from t = 40 s to t = 80 s the displacement <b>decreases</b> without crossing the t-axis, ending at (or up to 5 mm before) the t-axis at t = 80 s. No step changes in displacement."
+        }
+      ]
+    },
+    {
+      "topic": "4",
+      "qnum": "Q2",
+      "title": "Block on a plank with ropes — equilibrium &amp; Hooke's law",
+      "marks": 8,
+      "pages": [
+        8,
+        9
+      ],
+      "pdf": "9702_s26_qp_22_Q2_Forces_density_and_pressure.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "4.2.2"
+          ],
+          "marks": 2,
+          "answer": "The <b>resultant force on the object is zero</b> and the <b>resultant torque (moment) about any point is zero</b>."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "4.2.2"
+          ],
+          "marks": 2,
+          "answer": "Each rope has vertical component T cosθ; two ropes act on the plank and two on the block.<br>Forces on the plank: 2T cosθ = R + WP<br>Forces on the block: 2T cosθ + R = WB<br>Equating the two expressions for 2T cosθ:<br><b>R + WP = WB − R</b> ✓"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "4.2.2",
+            "3.1.6"
+          ],
+          "marks": 2,
+          "answer": "From R + WP = WB − R:<br>2R = WB − WP = (8.1 − 4.5) × 9.81 = 35.3 N<br>R = <b>18 N</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "6.1.3"
+          ],
+          "marks": 1,
+          "answer": "<b>Hooke's law</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "6.2.1"
+          ],
+          "marks": 1,
+          "answer": "Elastic deformation: when the tension (force) is removed, the rope <b>returns to its original length</b> — the deformation is reversible and the extension falls back to zero."
+        }
+      ]
+    },
+    {
+      "topic": "7",
+      "qnum": "Q3",
+      "title": "Two-source interference on a lake — wave speed &amp; energy",
+      "marks": 10,
+      "pages": [
+        10,
+        11
+      ],
+      "pdf": "9702_s26_qp_22_Q3_Waves.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "7.1.5"
+          ],
+          "marks": 1,
+          "answer": "A progressive wave is a wave that <b>transfers energy</b> from one point to another in the direction of propagation."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "7.1.2"
+          ],
+          "marks": 1,
+          "answer": "T = 1/f = 1/3.0 = <b>0.33 s</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "7.1.4",
+            "8.3.2"
+          ],
+          "marks": 3,
+          "answer": "The waves arrive at P in phase (constructive interference), so the path difference equals one wavelength:<br>λ = 3.9 − 2.4 = 1.5 m<br>v = fλ = 3.0 × 1.5 = <b>4.5 m s⁻¹</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "5.2.1"
+          ],
+          "marks": 3,
+          "answer": "ΔE = mgΔh, where Δh = 2 × amplitude = 2 × 0.15 = 0.30 m<br>ΔE = 0.44 × 9.81 × 0.30 = <b>1.3 J</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "8.3.3"
+          ],
+          "marks": 2,
+          "answer": "At f = 4.0 Hz the wavelength is λ = v/f = 4.5/4.0 ≈ 1.1 m, so the path difference at P (1.5 m) is <b>no longer a whole number of wavelengths</b> — the waves arriving at P are not in phase and no longer give constructive interference. The amplitude of the oscillation of the ball <b>decreases</b>."
+        }
+      ]
+    },
+    {
+      "topic": "5",
+      "qnum": "Q4",
+      "title": "Electric train on a slope — kinetic energy, power &amp; efficiency",
+      "marks": 10,
+      "pages": [
+        12,
+        13
+      ],
+      "pdf": "9702_s26_qp_22_Q4_Work_energy_and_power.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "5.2.2"
+          ],
+          "marks": 3,
+          "answer": "Ek = ½mv²<br>v² = 2 × 1.3 × 10⁵ / 1.5 × 10⁴ = 17.3<br>v = <b>4.2 m s⁻¹</b>"
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "5.1.5"
+          ],
+          "marks": 1,
+          "answer": "Power is the <b>rate of doing work</b> — the work done (energy transferred) per unit time."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "5.1.7",
+            "5.1.2"
+          ],
+          "marks": 3,
+          "answer": "Useful output energy = gain in gravitational PE + work done against resistive force F:<br>W = (1.1 × 10⁵ × 52) − (13.0 × 10⁶ − 7.4 × 10⁶) = 5.72 × 10⁶ − 5.6 × 10⁶ = 1.2 × 10⁵ J<br>F = W/(vt) = 1.2 × 10⁵ / (4.2 × 52) = <b>550 N</b><br>(Alternatively P = Fv: F = [1.1 × 10⁵ − (13.0 − 7.4) × 10⁶/52] / 4.2 = 2.3 × 10³/4.2 = 550 N)"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "5.1.4",
+            "9.2.3"
+          ],
+          "marks": 3,
+          "answer": "Input power = IV = 95 × 1400 = 1.33 × 10⁵ W<br>efficiency = useful output power / input power × 100<br>= (1.1 × 10⁵ / 1.33 × 10⁵) × 100 = <b>83%</b>"
+        }
+      ]
+    },
+    {
+      "topic": "10",
+      "qnum": "Q5",
+      "title": "Resistors in parallel with an LDR — current, drift speed &amp; resistance",
+      "marks": 12,
+      "pages": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "pdf": "9702_s26_qp_22_Q5_DC_circuits.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "10.2.4"
+          ],
+          "marks": 2,
+          "answer": "The p.d. across each parallel resistor is the same (V), and the currents add:<br>IT = I1 + I2 + I3<br>V/RT = V/R1 + V/R2 + V/R3<br>Dividing by V:<br><b>1/RT = 1/R1 + 1/R2 + 1/R3</b> ✓"
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "10.2.4",
+            "9.3.2"
+          ],
+          "marks": 2,
+          "answer": "Combined resistance: 1/RT = 1/2.8 + 1/2.8 → RT = 1.4 Ω<br>I = V/RT = 12/1.4 = <b>8.6 A</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "9.1.4"
+          ],
+          "marks": 2,
+          "answer": "Current in each identical wire = 8.6/2 = 4.3 A<br>I = Anvq → v = I/(Anq)<br>v = 4.3 / (6.1 × 10⁻⁶ × 8.5 × 10²⁸ × 1.6 × 10⁻¹⁹)<br>= 4.3 / 8.30 × 10⁴ = <b>5.2 × 10⁻⁵ m s⁻¹</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "9.3.7"
+          ],
+          "marks": 1,
+          "answer": "<b>Light-dependent resistor (LDR)</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "10.2.5",
+            "9.3.2"
+          ],
+          "marks": 3,
+          "answer": "Current through X: IX = 5.0 − 12/2.8 = 5.0 − 4.3 = 0.71 A<br>Resistance of the top branch: R = V/I = 12/0.71 = 16.8 Ω<br>R(X) = 16.8 − 2.8 = <b>14 Ω</b>"
+        },
+        {
+          "label": "(c)(iii)",
+          "codes": [
+            "9.3.7"
+          ],
+          "marks": 2,
+          "answer": "The battery current has decreased, so the total circuit resistance has increased; since the resistance wires are unchanged, <b>the resistance of X has increased</b>. For an LDR, resistance increases as light intensity decreases, so the environment of X changed such that the <b>light intensity incident on it decreased</b> (it became darker)."
+        }
+      ]
+    },
+    {
+      "topic": "11",
+      "qnum": "Q6",
+      "title": "α-particle scattering and gold nucleus — momentum &amp; quarks",
+      "marks": 9,
+      "pages": [
+        18,
+        19
+      ],
+      "pdf": "9702_s26_qp_22_Q6_Particle_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "11.1.1"
+          ],
+          "marks": 1,
+          "answer": "<b>Most of the α-particles passed straight through</b> the gold foil with little or no deviation."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "3.1.3",
+            "11.1.12"
+          ],
+          "marks": 2,
+          "answer": "Mass of α-particle = 4u = 4 × 1.66 × 10⁻²⁷ kg<br>p = mv = 4 × 1.66 × 10⁻²⁷ × 5.60 × 10⁶<br>= <b>3.72 × 10⁻²⁰ kg m s⁻¹</b> ✓"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "3.3.2",
+            "3.1.3"
+          ],
+          "marks": 2,
+          "answer": "Conservation of momentum (gold nucleus initially at rest):<br>4u × 5.60 × 10⁶ = 197u × v − 4u × 5.38 × 10⁶<br>197 × 1.66 × 10⁻²⁷ × v = 3.72 × 10⁻²⁰ + 3.57 × 10⁻²⁰ = 7.29 × 10⁻²⁰<br>v = 7.29 × 10⁻²⁰ / 3.27 × 10⁻²⁵ = <b>2.2 × 10⁵ m s⁻¹</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "1.3.3"
+          ],
+          "marks": 2,
+          "answer": "Change in velocity Δv = 5.60 × 10⁶ + 5.38 × 10⁶ = 10.98 × 10⁶ m s⁻¹ (directions are opposite)<br>Absolute uncertainty in Δv = 5 × 10⁴ + 5 × 10⁴ = 1 × 10⁵ m s⁻¹<br>Percentage uncertainty = (1 × 10⁵ / 10.98 × 10⁶) × 100 = <b>0.9%</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "11.2.3"
+          ],
+          "marks": 1,
+          "answer": "²₁H has 1 proton and 1 neutron. Each proton contains 2 up quarks and each neutron contains 1 up quark:<br>Total up quarks = 2 + 1 = <b>3</b>"
+        },
+        {
+          "label": "(d)",
+          "codes": [
+            "11.2.4"
+          ],
+          "marks": 1,
+          "answer": "A meson is composed of <b>one quark and one antiquark</b>."
+        }
+      ]
+    }
+  ]
+}

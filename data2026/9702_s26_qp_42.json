@@ -1,0 +1,563 @@
+{
+  "paper": "9702/42/M/J/26",
+  "paper_full": "June 2026 · Paper 42",
+  "questions": [
+    {
+      "topic": "12",
+      "qnum": "Q1",
+      "title": "Aircraft in horizontal circle — centripetal acceleration &amp; banking angle",
+      "marks": 10,
+      "pages": [
+        4,
+        5
+      ],
+      "pdf": "9702_s26_qp_42_Q1_Motion_in_a_circle.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "12.2.1",
+            "12.2.2"
+          ],
+          "marks": 2,
+          "answer": "The acceleration is (always) perpendicular to the velocity, directed towards the centre of the circle, and the magnitudes of the velocity (the speed) and of the acceleration are constant — but their <b>directions change continuously</b>."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "12.2.1",
+            "12.2.4"
+          ],
+          "marks": 2,
+          "answer": "The only other force on the aircraft is its weight, which is vertical and has no horizontal component. The lift must therefore have a horizontal component (the resultant force towards the centre of the circle) to provide the centripetal force — so the lift <b>cannot be vertically upwards</b>."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "12.2.4"
+          ],
+          "marks": 1,
+          "answer": "Arrow drawn from the aircraft pointing <b>horizontally to the left</b>, i.e. towards the centre of the circle — the resultant force provides the centripetal force."
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "12.2.3"
+          ],
+          "marks": 2,
+          "answer": "a = v²/r = 180²/7200<br>= <b>4.5 m s⁻²</b>"
+        },
+        {
+          "label": "(b)(iv)",
+          "codes": [
+            "12.2.4"
+          ],
+          "marks": 3,
+          "answer": "The vertical component of the lift balances the weight (L cos θ = mg) and the horizontal component of the lift causes the centripetal acceleration (L sin θ = ma):<br>tan θ = a/g = 4.5/9.81<br>θ = <b>25°</b>"
+        }
+      ]
+    },
+    {
+      "topic": "13",
+      "qnum": "Q2",
+      "title": "Earth's gravitational field — mass, potential &amp; satellite energy",
+      "marks": 9,
+      "pages": [
+        6,
+        7
+      ],
+      "pdf": "9702_s26_qp_42_Q2_Gravitational_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "13.1.1"
+          ],
+          "marks": 1,
+          "answer": "The gravitational field (strength) at a point is the <b>force per unit mass acting on a small test mass placed at that point</b>."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "13.1.2"
+          ],
+          "marks": 2,
+          "answer": "Draw <b>four straight, parallel field lines perpendicular to the ground</b> (vertical), approximately evenly spaced, with <b>arrows pointing downwards towards the ground</b>."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "13.3.2"
+          ],
+          "marks": 2,
+          "answer": "g = GM/R² → M = gR²/G = 9.81×(6.37×10⁶)²/(6.67×10⁻¹¹)<br>= <b>5.97×10²⁴ kg</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "13.4.2"
+          ],
+          "marks": 2,
+          "answer": "φ = −GM/R = −6.67×10⁻¹¹×5.97×10²⁴/(6.37×10⁶)<br>= <b>−6.25×10⁷ J kg⁻¹</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "13.4.3"
+          ],
+          "marks": 2,
+          "answer": "Orbital radius r = (6.37 + 1.93)×10⁶ = 8.30×10⁶ m<br>E_P = −GMm/r = −6.67×10⁻¹¹×5.97×10²⁴×96.0/(8.30×10⁶)<br>= <b>−4.61×10⁹ J</b>"
+        }
+      ]
+    },
+    {
+      "topic": "16",
+      "qnum": "Q3",
+      "title": "Cooling gas at constant pressure — internal energy &amp; specific heat capacity",
+      "marks": 14,
+      "pages": [
+        8,
+        9
+      ],
+      "pdf": "9702_s26_qp_42_Q3_Thermodynamics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "14.3.1"
+          ],
+          "marks": 2,
+          "answer": "The specific heat capacity of a substance is the <b>thermal energy per unit mass per unit change in temperature</b>."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "16.2.1"
+          ],
+          "marks": 2,
+          "answer": "W = pΔV = 1.01×10⁵ × (1.00 − 0.80)×0.0243<br>= <b>491 J</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "16.2.1"
+          ],
+          "marks": 1,
+          "answer": "The volume of the gas decreases (the gas is compressed), so the work done <b>on</b> the gas is <b>positive</b>."
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "15.3.4",
+            "16.1.2"
+          ],
+          "marks": 2,
+          "answer": "For an ideal gas the internal energy is proportional to the thermodynamic temperature (U = ³⁄₂NkT). At constant pressure the temperature is proportional to the volume, so the internal energy falls to 80% of its initial value:<br>ΔU = −0.20×3676 = <b>−735 J</b>"
+        },
+        {
+          "label": "(b)(iv)",
+          "codes": [
+            "16.2.2"
+          ],
+          "marks": 2,
+          "answer": "First law: ΔU = Q + W (W is the work done on the gas)<br>−735 = Q + 491<br>Q = <b>−1226 J</b> (thermal energy is removed from the gas)"
+        },
+        {
+          "label": "(b)(v)",
+          "codes": [
+            "14.3.1"
+          ],
+          "marks": 2,
+          "answer": "ΔT = 0.20×296 = 59 K<br>c = Q/(mΔT) = 1226/(6.00×10²³×6.64×10⁻²⁷×0.20×296)<br>= <b>5200 J kg⁻¹ K⁻¹</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "16.2.2",
+            "14.3.1"
+          ],
+          "marks": 3,
+          "answer": "The same temperature change gives the same change in internal energy as in (b). At constant volume no work is done on or by the gas (W = 0), so from ΔU = Q + W only 735 J of thermal energy needs to be supplied — less than the 1226 J removed in (b). Hence c = Q/(mΔT) is <b>less</b> than the value in (b)(v)."
+        }
+      ]
+    },
+    {
+      "topic": "15",
+      "qnum": "Q4",
+      "title": "Particle in a cubic box — momentum change &amp; pressure derivation",
+      "marks": 10,
+      "pages": [
+        10,
+        11
+      ],
+      "pdf": "9702_s26_qp_42_Q4_Ideal_gases.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "15.3.1"
+          ],
+          "marks": 2,
+          "answer": "Any two of: collisions between particles and with the walls are <b>instantaneous</b> (collision time negligible compared with the time between collisions); collisions are <b>perfectly elastic</b> (no kinetic energy is lost)."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "15.3.2"
+          ],
+          "marks": 1,
+          "answer": "The momentum reverses from +mu to −mu:<br>change in momentum = <b>2mu</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "15.3.2"
+          ],
+          "marks": 1,
+          "answer": "The particle travels a distance 2L (there and back) between successive collisions with the same face:<br>time = <b>2L/u</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "15.3.2"
+          ],
+          "marks": 1,
+          "answer": "F = Δp/t = 2mu/(2L/u)<br>= <b>mu²/L</b>"
+        },
+        {
+          "label": "(b)(iv)",
+          "codes": [
+            "15.3.2"
+          ],
+          "marks": 2,
+          "answer": "By Newton's third law the force exerted on the face by the particle is equal (and opposite) to the force exerted on the particle by the face. Pressure = force/area:<br>p = F/A = (mu²/L)/L² = <b>mu²/L³</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "15.3.2",
+            "15.3.4"
+          ],
+          "marks": 3,
+          "answer": "Three modifications: the volume of the cube L³ is the volume V of the gas, so pV = mu²; particles move in three (all) dimensions, so only one-third of the mean-square speed acts along any one axis — u² becomes ⅓⟨c²⟩; with N particles the pressure is N times that due to a single particle:<br>pV = <b>⅓Nm⟨c²⟩</b>"
+        }
+      ]
+    },
+    {
+      "topic": "17",
+      "qnum": "Q5",
+      "title": "Block oscillating on a spring — amplitude &amp; kinetic energy",
+      "marks": 8,
+      "pages": [
+        12,
+        13
+      ],
+      "pdf": "9702_s26_qp_42_Q5_Oscillations.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "17.1.1"
+          ],
+          "marks": 1,
+          "answer": "ω = 2π/T = 2π/1.7<br>= <b>3.7 rad s⁻¹</b>"
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "17.1.1"
+          ],
+          "marks": 1,
+          "answer": "The amplitude is the <b>magnitude of the maximum displacement of the block from its equilibrium (mean) position</b>."
+        },
+        {
+          "label": "(a)(iii)",
+          "codes": [
+            "17.2.2"
+          ],
+          "marks": 3,
+          "answer": "E = ½mω²x₀²<br>13×10⁻⁶ = ½×27×10⁻³×3.7²×x₀²<br>x₀² = 2×13×10⁻⁶/(0.027×3.7²) = 7.03×10⁻⁵<br>x₀ = <b>8.4×10⁻³ m</b>"
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "17.2.1"
+          ],
+          "marks": 3,
+          "answer": "Sketch a dome-shaped curve, symmetrical about the EK-axis, with a single peak of <b>13 μJ at x = 0</b>, falling to EK = 0 at x = ±8.4×10⁻³ m (the amplitude). Add a consistent x-axis scale with at least one marking in each half (e.g. ±8 and ±4, in units of 10⁻³ m), corresponding to the end points."
+        }
+      ]
+    },
+    {
+      "topic": "18",
+      "qnum": "Q6",
+      "title": "Charged conducting sphere — electric potential &amp; dome capacitance",
+      "marks": 13,
+      "pages": [
+        14,
+        15
+      ],
+      "pdf": "9702_s26_qp_42_Q6_Electric_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "18.5.1"
+          ],
+          "marks": 2,
+          "answer": "The electric potential at a point is the <b>work done per unit positive charge in bringing a small test charge from infinity to the point</b>."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "18.5.3"
+          ],
+          "marks": 1,
+          "answer": "V₀ = <b>Q/(4πε₀R)</b>, where ε₀ is the permittivity of free space."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "18.5.2",
+            "18.5.3"
+          ],
+          "marks": 3,
+          "answer": "Sketch a curve starting at (R, V₀) that falls with decreasing magnitude of V and of gradient (V = Q/4πε₀x), passing through <b>(2R, ½V₀) and (3R, ⅓V₀)</b>, entirely within the positive V region and approaching the x-axis without crossing it."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "18.5.3"
+          ],
+          "marks": 2,
+          "answer": "V = Q/(4πε₀r) → Q = 4πε₀rV = 4π×8.85×10⁻¹²×0.119×(−4.80×10⁴)<br>= <b>−6.35×10⁻⁷ C</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "19.1.1"
+          ],
+          "marks": 1,
+          "answer": "The dome <b>stores charge (and hence energy) at a potential</b> — it can be charged and discharged — so it acts as a capacitor: its capacitance is the <b>charge stored per unit p.d.</b>"
+        },
+        {
+          "label": "(c)(iii)",
+          "codes": [
+            "19.1.2"
+          ],
+          "marks": 2,
+          "answer": "C = Q/V = 6.35×10⁻⁷/4.80×10⁴<br>= <b>1.32×10⁻¹¹ F</b> (13.2 pF)"
+        },
+        {
+          "label": "(c)(iv)",
+          "codes": [
+            "19.2.2"
+          ],
+          "marks": 2,
+          "answer": "E = ½QV = ½×6.35×10⁻⁷×4.80×10⁴<br>= <b>0.0152 J</b>"
+        }
+      ]
+    },
+    {
+      "topic": "20",
+      "qnum": "Q7",
+      "title": "Hall probe in a magnetic field — Hall voltage &amp; charge carriers",
+      "marks": 8,
+      "pages": [
+        16,
+        17
+      ],
+      "pdf": "9702_s26_qp_42_Q7_Magnetic_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "20.3.3"
+          ],
+          "marks": 1,
+          "answer": "The Hall voltage is induced between faces <b>PSZW and QRYX</b>."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "20.3.3"
+          ],
+          "marks": 3,
+          "answer": "n = <b>number density of charge carriers</b> (number per unit volume);<br>q = <b>charge on each charge carrier</b>;<br>t = <b>thickness of the slice</b> (the distance between faces PSZW and QRYX)."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "20.3.3"
+          ],
+          "marks": 3,
+          "answer": "Any three of: the charge carriers <b>experience a force due to the magnetic field</b>; the force on the carriers is <b>perpendicular to both I and B</b>; the carriers <b>deflect towards one face</b> (accumulating there, leaving the opposite face with the opposite charge); the charge separation between the faces produces a <b>p.d. (the Hall voltage) between them</b>; a steady state is reached when the magnetic force is <b>balanced by the force due to the resulting electric field</b>."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "20.3.3",
+            "20.3.1"
+          ],
+          "marks": 1,
+          "answer": "The (negative) electrons are deflected towards face QRYX, leaving face PSZW positively charged — face <b>PSZW is at the higher potential</b>."
+        }
+      ]
+    },
+    {
+      "topic": "21",
+      "qnum": "Q8",
+      "title": "Rectification &amp; smoothing of a sinusoidal input voltage",
+      "marks": 7,
+      "pages": [
+        18,
+        19
+      ],
+      "pdf": "9702_s26_qp_42_Q8_Alternating_currents.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "21.2.2"
+          ],
+          "marks": 1,
+          "answer": "<b>Diode</b> (single diode producing half-wave rectification)."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "21.2.4"
+          ],
+          "marks": 1,
+          "answer": "<b>Capacitor</b> (connected in parallel across the output)."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "21.1.1"
+          ],
+          "marks": 1,
+          "answer": "peak value of VIN = <b>3.6 V</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "21.1.1"
+          ],
+          "marks": 1,
+          "answer": "period of VIN = <b>0.040 s</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "21.2.1",
+            "21.1.4",
+            "21.2.4"
+          ],
+          "marks": 3,
+          "answer": "Any three of: the rectification is <b>half-wave</b> (VOUT is zero during alternate half-cycles); frequency of VIN = 1/0.040 = <b>25 Hz</b> (angular frequency 160 rad s⁻¹); r.m.s. input voltage = 3.6/√2 = <b>2.5 V</b>; time constant of the smoothing circuit = <b>0.058 s</b>; ripple (variation in VOUT) = <b>1.6 V</b> (44% of the peak)."
+        }
+      ]
+    },
+    {
+      "topic": "22",
+      "qnum": "Q9",
+      "title": "Electron accelerated by 3.5 kV — speed &amp; de Broglie wavelength",
+      "marks": 10,
+      "pages": [
+        20,
+        21
+      ],
+      "pdf": "9702_s26_qp_42_Q9_Quantum_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "22.3.3"
+          ],
+          "marks": 1,
+          "answer": "The de Broglie wavelength is the <b>wavelength associated with a moving particle</b> (λ = h/p)."
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "22.3.2",
+            "22.3.1"
+          ],
+          "marks": 4,
+          "answer": "Wave nature of matter: <b>electron diffraction</b> (or electron interference);<br>particle nature of matter: <b>states of matter / state changes / gas behaviour / quantisation of charge / radioactive decay / Rutherford scattering / Brownian motion</b>;<br>wave nature of EM radiation: <b>diffraction / interference / polarisation</b>;<br>particle nature of EM radiation: <b>photoelectric effect</b> (or emission/absorption line spectra, Compton scattering)."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "22.1.4"
+          ],
+          "marks": 3,
+          "answer": "qV = ½mv²<br>1.60×10⁻¹⁹×3500 = ½×9.11×10⁻³¹×v²<br>v² = 2×1.60×10⁻¹⁹×3500/(9.11×10⁻³¹) = 1.23×10¹⁵<br>v = <b>3.5×10⁷ m s⁻¹</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "22.3.4"
+          ],
+          "marks": 2,
+          "answer": "λ = h/(mv) = 6.63×10⁻³⁴/(9.11×10⁻³¹×3.5×10⁷)<br>= <b>2.1×10⁻¹¹ m</b>"
+        }
+      ]
+    },
+    {
+      "topic": "23",
+      "qnum": "Q10",
+      "title": "Star fusing hydrogen to helium — binding energy &amp; mass loss",
+      "marks": 11,
+      "pages": [
+        22,
+        23
+      ],
+      "pdf": "9702_s26_qp_42_Q10_Nuclear_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "23.1.1"
+          ],
+          "marks": 2,
+          "answer": "The binding energy of a nucleus is the <b>energy required to separate all the nucleons (protons and neutrons) in the nucleus to infinity</b> — equivalently, the energy released when the nucleons come together to form the nucleus."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "23.1.2"
+          ],
+          "marks": 1,
+          "answer": "4 ¹H → ⁴He + 2X, so X is the <b>positron</b> (β⁺)."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "23.1.1"
+          ],
+          "marks": 2,
+          "answer": "E = Δmc² = 0.030377×1.66×10⁻²⁷×(3.00×10⁸)²<br>= <b>4.54×10⁻¹² J</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "25.1.2"
+          ],
+          "marks": 2,
+          "answer": "F = L/(4πd²) = 7.98×10²⁷/(4π×(8.15×10¹⁶)²)<br>= <b>9.56×10⁻⁸ W m⁻²</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "23.1.1",
+            "23.1.2"
+          ],
+          "marks": 4,
+          "answer": "Number of He-4 nuclei formed per second = L/E_He = 7.98×10²⁷/4.54×10⁻¹² = 1.76×10³⁹ s⁻¹. Each He-4 nucleus is formed from 4 hydrogen nuclei, each of mass 1.67×10⁻²⁷ kg:<br>mass rate = 4×1.67×10⁻²⁷×7.98×10²⁷/4.54×10⁻¹²<br>= <b>1.17×10¹³ kg s⁻¹</b>"
+        }
+      ]
+    }
+  ]
+}

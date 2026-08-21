@@ -1,0 +1,286 @@
+{
+  "paper": "9702/11/M/J/26",
+  "paper_full": "June 2026 · Paper 11",
+  "questions": [
+    {
+      "qnum": 1,
+      "code": "1.2.1",
+      "topic_name": "Physical quantities and units",
+      "answer": "D",
+      "pdf": "9702_s26_qp_11_Q1_Physical quantities and units_1.2.1.pdf"
+    },
+    {
+      "qnum": 2,
+      "code": "1.3.3",
+      "topic_name": "Physical quantities and units",
+      "answer": "B",
+      "pdf": "9702_s26_qp_11_Q2_Physical quantities and units_1.3.3.pdf"
+    },
+    {
+      "qnum": 3,
+      "code": "1.1.1",
+      "topic_name": "Physical quantities and units",
+      "answer": "C",
+      "pdf": "9702_s26_qp_11_Q3_Physical quantities and units_1.1.1.pdf"
+    },
+    {
+      "qnum": 4,
+      "code": "1.4.2",
+      "topic_name": "Physical quantities and units",
+      "answer": "B",
+      "pdf": "9702_s26_qp_11_Q4_Physical quantities and units_1.4.2.pdf"
+    },
+    {
+      "qnum": 5,
+      "code": "2.1.9",
+      "topic_name": "Kinematics",
+      "answer": "B",
+      "pdf": "9702_s26_qp_11_Q5_Kinematics_2.1.9.pdf"
+    },
+    {
+      "qnum": 6,
+      "code": "2.1.1",
+      "topic_name": "Kinematics",
+      "answer": "D",
+      "pdf": "9702_s26_qp_11_Q6_Kinematics_2.1.1.pdf"
+    },
+    {
+      "qnum": 7,
+      "code": "2.1.9",
+      "topic_name": "Kinematics",
+      "answer": "C",
+      "pdf": "9702_s26_qp_11_Q7_Kinematics_2.1.9.pdf"
+    },
+    {
+      "qnum": 8,
+      "code": "2.1.1",
+      "topic_name": "Kinematics",
+      "answer": "B",
+      "pdf": "9702_s26_qp_11_Q8_Kinematics_2.1.1.pdf"
+    },
+    {
+      "qnum": 9,
+      "code": "3.1.5",
+      "topic_name": "Dynamics",
+      "answer": "D",
+      "pdf": "9702_s26_qp_11_Q9_Dynamics_3.1.5.pdf"
+    },
+    {
+      "qnum": 10,
+      "code": "1.1.2",
+      "topic_name": "Physical quantities and units",
+      "answer": "B",
+      "pdf": "9702_s26_qp_11_Q10_Physical quantities and units_1.1.2.pdf"
+    },
+    {
+      "qnum": 11,
+      "code": "3.2.1",
+      "topic_name": "Dynamics",
+      "answer": "A",
+      "pdf": "9702_s26_qp_11_Q11_Dynamics_3.2.1.pdf"
+    },
+    {
+      "qnum": 12,
+      "code": "3.3.2",
+      "topic_name": "Dynamics",
+      "answer": "C",
+      "pdf": "9702_s26_qp_11_Q12_Dynamics_3.3.2.pdf"
+    },
+    {
+      "qnum": 13,
+      "code": "4.1.4",
+      "topic_name": "Forces, density and pressure",
+      "answer": "C",
+      "pdf": "9702_s26_qp_11_Q13_Forces, density and pressure_4.1.4.pdf"
+    },
+    {
+      "qnum": 14,
+      "code": "4.3.5",
+      "topic_name": "Forces, density and pressure",
+      "answer": "A",
+      "pdf": "9702_s26_qp_11_Q14_Forces, density and pressure_4.3.5.pdf"
+    },
+    {
+      "qnum": 15,
+      "code": "4.1.2_4.2.1_4.2.2",
+      "topic_name": "Forces, density and pressure",
+      "answer": "B",
+      "pdf": "9702_s26_qp_11_Q15_Forces, density and pressure_4.1.2_4.2.1_4.2.2.pdf"
+    },
+    {
+      "qnum": 16,
+      "code": "4.3.1",
+      "topic_name": "Forces, density and pressure",
+      "answer": "D",
+      "pdf": "9702_s26_qp_11_Q16_Forces, density and pressure_4.3.1.pdf"
+    },
+    {
+      "qnum": 17,
+      "code": "5.1.3",
+      "topic_name": "Work, energy and power",
+      "answer": "C",
+      "pdf": "9702_s26_qp_11_Q17_Work, energy and power_5.1.3.pdf"
+    },
+    {
+      "qnum": 18,
+      "code": "2.1.7",
+      "topic_name": "Kinematics",
+      "answer": "B",
+      "pdf": "9702_s26_qp_11_Q18_Kinematics_2.1.7.pdf"
+    },
+    {
+      "qnum": 19,
+      "code": "5.1.7",
+      "topic_name": "Work, energy and power",
+      "answer": "C",
+      "pdf": "9702_s26_qp_11_Q19_Work, energy and power_5.1.7.pdf"
+    },
+    {
+      "qnum": 20,
+      "code": "6.1.5",
+      "topic_name": "Deformation of solids",
+      "answer": "D",
+      "pdf": "9702_s26_qp_11_Q20_Deformation of solids_6.1.5.pdf"
+    },
+    {
+      "qnum": 21,
+      "code": "6.2.4",
+      "topic_name": "Deformation of solids",
+      "answer": "D",
+      "pdf": "9702_s26_qp_11_Q21_Deformation of solids_6.2.4.pdf"
+    },
+    {
+      "qnum": 22,
+      "code": "6.1.4",
+      "topic_name": "Deformation of solids",
+      "answer": "C",
+      "pdf": "9702_s26_qp_11_Q22_Deformation of solids_6.1.4.pdf"
+    },
+    {
+      "qnum": 23,
+      "code": "7.5.2",
+      "topic_name": "Waves",
+      "answer": "A",
+      "pdf": "9702_s26_qp_11_Q23_Waves_7.5.2.pdf"
+    },
+    {
+      "qnum": 24,
+      "code": "7.3.1",
+      "topic_name": "Waves",
+      "answer": "C",
+      "pdf": "9702_s26_qp_11_Q24_Waves_7.3.1.pdf"
+    },
+    {
+      "qnum": 25,
+      "code": "7.4.2",
+      "topic_name": "Waves",
+      "answer": "D",
+      "pdf": "9702_s26_qp_11_Q25_Waves_7.4.2.pdf"
+    },
+    {
+      "qnum": 26,
+      "code": "7.1.6",
+      "topic_name": "Waves",
+      "answer": "D",
+      "pdf": "9702_s26_qp_11_Q26_Waves_7.1.6.pdf"
+    },
+    {
+      "qnum": 27,
+      "code": "8.1.3_8.1.4",
+      "topic_name": "Superposition",
+      "answer": "A",
+      "pdf": "9702_s26_qp_11_Q27_Superposition_8.1.3_8.1.4.pdf"
+    },
+    {
+      "qnum": 28,
+      "code": "8.2.1_8.2.2",
+      "topic_name": "Superposition",
+      "answer": "A",
+      "pdf": "9702_s26_qp_11_Q28_Superposition_8.2.1_8.2.2.pdf"
+    },
+    {
+      "qnum": 29,
+      "code": "8.3.1_8.3.3",
+      "topic_name": "Superposition",
+      "answer": "B",
+      "pdf": "9702_s26_qp_11_Q29_Superposition_8.3.1_8.3.3.pdf"
+    },
+    {
+      "qnum": 30,
+      "code": "8.3.4",
+      "topic_name": "Superposition",
+      "answer": "A",
+      "pdf": "9702_s26_qp_11_Q30_Superposition_8.3.4.pdf"
+    },
+    {
+      "qnum": 31,
+      "code": "9.2.1",
+      "topic_name": "Electricity",
+      "answer": "A",
+      "pdf": "9702_s26_qp_11_Q31_Electricity_9.2.1.pdf"
+    },
+    {
+      "qnum": 32,
+      "code": "9.3.6",
+      "topic_name": "Electricity",
+      "answer": "B",
+      "pdf": "9702_s26_qp_11_Q32_Electricity_9.3.6.pdf"
+    },
+    {
+      "qnum": 33,
+      "code": "9.2.3",
+      "topic_name": "Electricity",
+      "answer": "B",
+      "pdf": "9702_s26_qp_11_Q33_Electricity_9.2.3.pdf"
+    },
+    {
+      "qnum": 34,
+      "code": "9.1.3",
+      "topic_name": "Electricity",
+      "answer": "A",
+      "pdf": "9702_s26_qp_11_Q34_Electricity_9.1.3.pdf"
+    },
+    {
+      "qnum": 35,
+      "code": "10.2.2",
+      "topic_name": "D.C. circuits",
+      "answer": "A",
+      "pdf": "9702_s26_qp_11_Q35_D.C. circuits_10.2.2.pdf"
+    },
+    {
+      "qnum": 36,
+      "code": "10.2.5_10.3.1",
+      "topic_name": "D.C. circuits",
+      "answer": "B",
+      "pdf": "9702_s26_qp_11_Q36_D.C. circuits_10.2.5_10.3.1.pdf"
+    },
+    {
+      "qnum": 37,
+      "code": "9.3.7",
+      "topic_name": "Electricity",
+      "answer": "D",
+      "pdf": "9702_s26_qp_11_Q37_Electricity_9.3.7.pdf"
+    },
+    {
+      "qnum": 38,
+      "code": "11.1.7",
+      "topic_name": "Particle physics",
+      "answer": "C",
+      "pdf": "9702_s26_qp_11_Q38_Particle physics_11.1.7.pdf"
+    },
+    {
+      "qnum": 39,
+      "code": "11.1.11",
+      "topic_name": "Particle physics",
+      "answer": "A",
+      "pdf": "9702_s26_qp_11_Q39_Particle physics_11.1.11.pdf"
+    },
+    {
+      "qnum": 40,
+      "code": "11.2.2_11.2.4",
+      "topic_name": "Particle physics",
+      "answer": "D",
+      "pdf": "9702_s26_qp_11_Q40_Particle physics_11.2.2_11.2.4.pdf"
+    }
+  ]
+}

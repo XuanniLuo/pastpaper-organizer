@@ -1,0 +1,120 @@
+{
+  "paper": "9702/53/M/J/26",
+  "paper_full": "June 2026 · Paper 53",
+  "questions": [
+    {
+      "topic": "17",
+      "qnum": "Q1",
+      "title": "Planning an experiment — oscillations of a bar suspended by strings",
+      "marks": 15,
+      "pages": [
+        2,
+        3,
+        4
+      ],
+      "pdf": "9702_s26_qp_53_Q1_Oscillations.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "17.1.1",
+            "1.3.3"
+          ],
+          "marks": 15,
+          "answer": "<b>Apparatus:</b> rod fixed horizontally to two stands with bosses and clamps on a bench; solid bar of mass M suspended from the rod by two equal vertical strings at equal distances a from its centre; metre rule, stopwatch, balance, spirit level.<br><b>Measurements:</b> measure a (string to centre of bar) and L (rod to bar) with a rule; measure M with a balance. Displace one end of the bar horizontally by a small amount, release it and measure the time t for n oscillations (n is at least 5) with a stopwatch; T = t/n. Repeat for the same a and average T. Vary a over a wide range of values, keeping L constant, and repeat the procedure.<br><b>Analysis:</b> plot a graph of lg T against lg a. Since T = 2πP√(a^q M/L), lg T = lg(2πP√(M/L)) + (q/2)lg a, so the graph is a straight line of gradient q/2. Hence q = 2 × gradient, and the y-intercept = lg(2πP√(M/L)), giving P = 10^(y-intercept) × √(L/M)/(2π). The relationship is valid if a straight line is obtained (it need not pass through the origin).<br><b>Control of variables:</b> keep L and M constant; measure each a from the centre of the bar (e.g. measure the length of the bar, divide by two and mark the midpoint); keep the bar horizontal (spirit level) and the strings vertical (set square or plumb line); prevent the strings from sliding (adhesive putty, notches or grooves); use small-amplitude oscillations and a fiducial marker at the midpoint; use a large L to increase T and reduce its percentage uncertainty; repeat timings for the same a and average T.<br><b>Safety:</b> G-clamp the stands to the bench (or load them with heavy weights) and place cushions or a sand tray on the bench below the bar, so that the bar or rod cannot fall and injure anyone."
+        }
+      ]
+    },
+    {
+      "topic": "3",
+      "qnum": "Q2",
+      "title": "Falling steel ball in a liquid — density &amp; terminal velocity",
+      "marks": 15,
+      "pages": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "pdf": "9702_s26_qp_53_Q2_Dynamics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "3.2.3",
+            "4.3.1"
+          ],
+          "marks": 1,
+          "answer": "t = z / (gd²(ρ − σ)/18β) = (18βz/g(ρ − σ)) × (1/d²), so the graph of t against 1/d² is a straight line through the origin with gradient = <b>18βz/(g(ρ − σ))</b>."
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "1.3.3"
+          ],
+          "marks": 2,
+          "answer": "1/d² = 1/(2.6)² = 0.148, 0.111, 0.0865, 0.0595, 0.0517, 0.040 mm⁻².<br>Uncertainty in each: Δ(1/d²) = 2Δd/d³, giving ±0.011, ±0.007, ±0.005, ±0.003, ±0.002, ±0.002 mm⁻² — values from ±0.01 to ±0.002 (first value may be between ±0.010 and ±0.013)."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "1.3.3"
+          ],
+          "marks": 2,
+          "answer": "Plot all six points of t against 1/d², each within half a small square of its true position, with point diameter less than half a small square (ecf from (b)). Add vertical error bars in 1/d² to all six points, symmetrical, with total length accurate to less than half a small square."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "1.3.3"
+          ],
+          "marks": 2,
+          "answer": "Draw the straight line of best fit — it must pass between (0.064, 2.50) and (0.066, 2.50), and between (0.134, 5.50) and (0.138, 5.50); label it. Draw the worst acceptable line — the steepest or shallowest line that passes through all the error bars; label it."
+        },
+        {
+          "label": "(c)(iii)",
+          "codes": [
+            "1.3.3"
+          ],
+          "marks": 2,
+          "answer": "Gradient of best-fit line, with clear substitution of two data points separated by more than half the length of the line:<br>G = (6.10 − 1.45)/(0.148 − 0.040) = 4.65/0.108 = <b>43 s mm²</b> (expect 36–48).<br>Absolute uncertainty = |gradient of best fit − gradient of worst acceptable line| (or ½(steepest − shallowest)) = <b>±1 s mm²</b> (example)."
+        },
+        {
+          "label": "(d)",
+          "codes": [
+            "4.3.1",
+            "1.3.3"
+          ],
+          "marks": 1,
+          "answer": "(ρ − σ) = 7850 − 1250 = 6600; uncertainty = 50 + 50 = 100<br>(ρ − σ) = <b>(6600 ± 100) kg m⁻³</b>."
+        },
+        {
+          "label": "(e)(i)",
+          "codes": [
+            "3.2.1",
+            "1.3.3"
+          ],
+          "marks": 2,
+          "answer": "From (a): β = gradient × g(ρ − σ)/(18z), with z = 0.097 m and gradient = 43 s mm² = 4.3×10⁻⁵ s m².<br>β = 4.3×10⁻⁵ × 9.81 × 6600/(18 × 0.097) = 2.78/1.746 = <b>1.6 kg m⁻¹ s⁻¹</b> (expect ≈ 1.5; also accept 0.0015 kg mm⁻¹ s⁻¹, 1.5 g mm⁻¹ s⁻¹, Pa s or N m⁻² s)."
+        },
+        {
+          "label": "(e)(ii)",
+          "codes": [
+            "1.3.3"
+          ],
+          "marks": 1,
+          "answer": "Percentage uncertainty in β, with method shown:<br>%β = 100% × (ΔG/G + Δ(ρ − σ)/(ρ − σ) + Δz/z)<br>= 100% × (1/43 + 100/6600 + 2/97) = 100% × (0.023 + 0.0152 + 0.0206) ≈ <b>5.9%</b> (must be greater than 2%; the density and z terms alone give ≈ 3.5%)."
+        },
+        {
+          "label": "(f)",
+          "codes": [
+            "3.2.3",
+            "1.3.3"
+          ],
+          "marks": 2,
+          "answer": "d = 1.20 cm = 0.0120 m, so 1/d² = 1/(0.0120)² = 6944 m⁻² = 6.94×10⁻³ mm⁻².<br>t = gradient × (1/d²) = 43 × 6.94×10⁻³ = 0.298 ≈ <b>0.30 s</b> (expect ≈ 0.28 s).<br>Δt = t(ΔG/G + 2Δd/d) = 0.30 × (1/43 + 2 × 0.01/1.20) = 0.30 × (0.023 + 0.0167) = 0.012 ≈ <b>±0.01 s</b><br>t = <b>(0.30 ± 0.01) s</b>."
+        }
+      ]
+    }
+  ]
+}

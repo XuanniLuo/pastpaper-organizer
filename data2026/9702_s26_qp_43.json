@@ -1,0 +1,503 @@
+{
+  "paper": "9702/43/M/J/26",
+  "paper_full": "June 2026 · Paper 43",
+  "questions": [
+    {
+      "topic": "13",
+      "qnum": "Q1",
+      "title": "Gravitational potential &amp; field strength of a uniform planet",
+      "marks": 10,
+      "pages": [
+        4,
+        5
+      ],
+      "pdf": "9702_s26_qp_43_Q1_Gravitational_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "13.4.1"
+          ],
+          "marks": 2,
+          "answer": "The gravitational potential at a point is the <b>work done per unit mass</b> in bringing a small test mass from <b>infinity</b> to that point."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "13.4.1"
+          ],
+          "marks": 2,
+          "answer": "The potential is defined as <b>zero at infinity</b>.<br>Work is done <b>by</b> the two masses as they move towards each other from infinity (or work must be done on them to increase their separation), so their gravitational potential energy decreases — hence the potential at any finite point is <b>negative for all values of x</b>."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "13.4.2"
+          ],
+          "marks": 2,
+          "answer": "At the surface: ϕ = −GM/R = −Φ<br>M = <b>ΦR/G</b>, where G is the universal gravitational constant."
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "13.3.2"
+          ],
+          "marks": 1,
+          "answer": "g0 = GM/R² = G(ΦR/G)/R² = <b>Φ/R</b>"
+        },
+        {
+          "label": "(b)(iv)",
+          "codes": [
+            "13.3.2"
+          ],
+          "marks": 3,
+          "answer": "Draw two curves — one in the <b>top-left quadrant</b> and one in the <b>bottom-right quadrant</b> (nothing drawn between x = −R and x = +R).<br>Each curve must pass through (±R, ±g0) and (±2R, ±¼g0), with a <b>non-zero value of g at ±3R</b>.<br>The magnitudes of both g and the gradient <b>decrease</b> as |x| increases (g ∝ 1/x²), so each curve flattens towards the x-axis away from the planet."
+        }
+      ]
+    },
+    {
+      "topic": "15",
+      "qnum": "Q2",
+      "title": "Ideal gas — r.m.s. speed, amount of substance &amp; temperature",
+      "marks": 13,
+      "pages": [
+        6,
+        7
+      ],
+      "pdf": "9702_s26_qp_43_Q2_Ideal_gases.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "15.2.1"
+          ],
+          "marks": 2,
+          "answer": "A gas that obeys the relationship <b>pV ∝ T</b> (i.e. pV = nRT or pV = NkT) under all conditions, where T is the thermodynamic (Kelvin) temperature."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "14.2.2"
+          ],
+          "marks": 1,
+          "answer": "It measures the <b>absolute (thermodynamic) temperature</b> directly — its scale does not depend on the properties of any particular substance, and it can measure a much greater range of temperatures than a liquid-in-glass thermometer."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "14.2.1"
+          ],
+          "marks": 1,
+          "answer": "Any one of: measuring <b>rapidly changing temperatures</b>; measuring the temperature of a very small mass (amount) of substance; taking a remote reading — the thermocouple has a very small thermal capacity and responds quickly."
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "15.3.3"
+          ],
+          "marks": 2,
+          "answer": "〈c²〉 = (357² + 424² + 509² + 286² + 435²)/5 = 837327/5 = 167465<br>c0 = √167465 = <b>409 m s⁻¹</b> (to 3 s.f.)"
+        },
+        {
+          "label": "(d)(i)",
+          "codes": [
+            "15.1.2"
+          ],
+          "marks": 2,
+          "answer": "n = N/NA = 5.0×10²³ / 6.02×10²³ = <b>0.83 mol</b>"
+        },
+        {
+          "label": "(d)(ii)",
+          "codes": [
+            "15.3.4"
+          ],
+          "marks": 2,
+          "answer": "½m〈c²〉 = (3/2)kT, so T0 = m〈c²〉/(3k)<br>T0 = (3.34×10⁻²⁷ × 409²)/(3 × 1.38×10⁻²³) = 5.59×10⁻²²/4.14×10⁻²³<br>T0 = <b>13.5 K</b>"
+        },
+        {
+          "label": "(d)(iii)",
+          "codes": [
+            "15.3.4"
+          ],
+          "marks": 3,
+          "answer": "A curve starting at the point (T0, c0) with a <b>positive gradient</b> at that point.<br>The gradient is positive but <b>decreasing</b> as T increases (the line becomes almost horizontal, but never of negative gradient).<br>When extrapolated back from T = T0 towards T = 0, the line passes through the <b>origin (0, 0)</b> — consistent with c ∝ √T."
+        }
+      ]
+    },
+    {
+      "topic": "16",
+      "qnum": "Q3",
+      "title": "Internal energy — p–V cycle of an ideal gas",
+      "marks": 10,
+      "pages": [
+        8,
+        9
+      ],
+      "pdf": "9702_s26_qp_43_Q3_Thermodynamics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "16.1.1"
+          ],
+          "marks": 2,
+          "answer": "The internal energy of a system is the <b>sum of the kinetic energies and potential energies</b> of its molecules — the total energy of the random motion of its particles."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "15.2.2"
+          ],
+          "marks": 2,
+          "answer": "pV = NkT<br>V = (8.7×10²³ × 1.38×10⁻²³ × 300)/(2.0×10⁵) = 3602/2.0×10⁵ = <b>0.018 m³</b> (shown)"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "16.1.1",
+            "15.3.4"
+          ],
+          "marks": 3,
+          "answer": "For an ideal gas there are no intermolecular forces, so the <b>potential energy of the molecules is zero</b> — the internal energy is entirely the total kinetic energy of the molecules.<br>U = (3/2)NkT = 1.5 × 8.7×10²³ × 1.38×10⁻²³ × 300<br>U = <b>5.4×10³ J</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "16.2.1",
+            "16.2.2"
+          ],
+          "marks": 3,
+          "answer": "Any three conclusions (each must be related to a specific change or to the whole cycle):<br><b>AB (isothermal):</b> no change in internal energy (pV is constant); work done on the gas equals the thermal energy transferred from it.<br><b>BC (constant volume):</b> no work is done; the internal energy halves to 2.7 kJ; the decrease in internal energy equals the thermal energy removed (2.7 kJ).<br><b>CA (constant pressure):</b> the internal energy doubles (increases by 2.7 kJ to 5.4 kJ); work done by the gas = p∆V = 2.0×10⁵ × 0.009 = <b>1.8 kJ</b>; thermal energy transferred to the gas = <b>4.5 kJ</b>.<br><b>Complete cycle:</b> no overall change in internal energy; net work is done on the gas and thermal energy is removed from it (net work done = net thermal energy transferred)."
+        }
+      ]
+    },
+    {
+      "topic": "18",
+      "qnum": "Q4",
+      "title": "Hydrogen atom — electric field &amp; potential at the midpoint",
+      "marks": 9,
+      "pages": [
+        10,
+        11
+      ],
+      "pdf": "9702_s26_qp_43_Q4_Electric_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "18.4.1"
+          ],
+          "marks": 3,
+          "answer": "The magnitudes of the two fields are <b>equal</b> — the proton and the electron have charges of equal magnitude and are at equal distances (x) from P, and E = Q/4πε0r².<br>The directions are <b>the same</b>: the field due to the proton is away from the proton (to the right at P), and the field due to the electron is towards the electron (also to the right at P)."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "18.5.3"
+          ],
+          "marks": 3,
+          "answer": "The magnitudes of the two potentials are <b>equal</b>, since the charge magnitudes and the distances are equal (V = Q/4πε0r).<br>The signs are <b>opposite</b>: the potential due to the proton is <b>positive</b> and the potential due to the electron is <b>negative</b>."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "18.3.2"
+          ],
+          "marks": 2,
+          "answer": "F = Q1Q2/4πε0r² with Q1 = Q2 = e and separation r = 2x:<br>F = <b>e²/16πε0x²</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "18.5.4"
+          ],
+          "marks": 1,
+          "answer": "EP = e²/4πε0(2x) = e²/8πε0x = <b>2Fx</b> (since F = e²/16πε0x²)"
+        }
+      ]
+    },
+    {
+      "topic": "19",
+      "qnum": "Q5",
+      "title": "Capacitors in series &amp; parallel — combined capacitance &amp; energy",
+      "marks": 8,
+      "pages": [
+        12,
+        13
+      ],
+      "pdf": "9702_s26_qp_43_Q5_Capacitance.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "19.1.1"
+          ],
+          "marks": 2,
+          "answer": "Capacitance is the <b>charge stored per unit potential difference</b> (C = Q/V), where the charge is the charge on one plate and the potential difference is the p.d. between the plates."
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "19.1.3"
+          ],
+          "marks": 3,
+          "answer": "In parallel, the p.d. across each capacitor is the same: <b>VX = VY = E</b>.<br>Total charge: <b>QT = QX + QY</b>, and Q = CV:<br>CT V = CX V + CY V<br>CT = <b>CX + CY</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "19.1.4",
+            "19.2.2"
+          ],
+          "marks": 3,
+          "answer": "Series combination: 1/CT = 1/C + 1/2C → CT = 2C/3<br>E = ½CT V² = ½ × (2C/3) × 6.00² = 12C<br>12C = 1.30×10⁻³ → C = 1.08×10⁻⁴ F<br>C = <b>108 µF</b>"
+        }
+      ]
+    },
+    {
+      "topic": "20",
+      "qnum": "Q6",
+      "title": "Mass spectrometer — circular path &amp; magnetic flux density",
+      "marks": 12,
+      "pages": [
+        14,
+        15
+      ],
+      "pdf": "9702_s26_qp_43_Q6_Magnetic_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "20.2.3"
+          ],
+          "marks": 2,
+          "answer": "Magnetic flux density is the <b>force per unit current per unit length</b> on a wire placed at <b>right angles to the magnetic field</b> (B = F/IL)."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "20.3.1"
+          ],
+          "marks": 2,
+          "answer": "At X, the magnetic force on the particles is <b>to the left</b> (the path curves towards Y).<br>Applying Fleming's left-hand rule with the force to the left and the field out of the page shows that the (effective) current is in the direction of movement of the particles — so the charge is <b>positive</b>."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "20.3.5"
+          ],
+          "marks": 2,
+          "answer": "The magnetic force is always <b>perpendicular to the direction of motion</b> of the particles.<br>It changes only the direction of the motion, not the speed — it acts as a centripetal force, so the path is <b>circular</b> (at constant speed)."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "12.2.3",
+            "20.3.5"
+          ],
+          "marks": 2,
+          "answer": "The path is a semicircle, so r = ½XY = ½ × 8.2 = 4.1 cm = 0.041 m.<br>a = v²/r = (7.3×10⁴)²/0.041 = 5.33×10⁹/0.041 = <b>1.3×10¹¹ m s⁻²</b> (shown)"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "20.3.2"
+          ],
+          "marks": 2,
+          "answer": "BQv = ma<br>B = ma/Qv = (2.0×10⁻²⁶ × 1.3×10¹¹)/(3.2×10⁻¹⁹ × 7.3×10⁴) = 2.6×10⁻¹⁵/2.34×10⁻¹⁴<br>B = <b>0.11 T</b>"
+        },
+        {
+          "label": "(d)",
+          "codes": [
+            "20.3.5"
+          ],
+          "marks": 2,
+          "answer": "Radius of the circular path: r = mv/BQ. With the mass quartered and the charge halved, r′ = r × ¼ ÷ ½ = <b>r/2</b>.<br>Draw the beam entering the field at X along the same line and deflecting in the same direction, following a semicircular path of <b>half the radius</b> of the original beam."
+        }
+      ]
+    },
+    {
+      "topic": "21",
+      "qnum": "Q7",
+      "title": "Half-wave rectification — r.m.s. values of two waveforms",
+      "marks": 8,
+      "pages": [
+        16,
+        17
+      ],
+      "pdf": "9702_s26_qp_43_Q7_Alternating_currents.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": [
+            "21.2.2"
+          ],
+          "marks": 2,
+          "answer": "Half-wave rectification <b>allows the current (unhindered) in one direction</b> and <b>blocks the current completely in the other direction</b>, so that the output current is always in the same direction."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": [
+            "21.2.2"
+          ],
+          "marks": 2,
+          "answer": "Complete the circuit by drawing a <b>diode (with the correct diode symbol) in one of the two gaps</b>, connected so that it conducts in the required direction, and a <b>direct connection across the other gap</b>."
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "21.1.4"
+          ],
+          "marks": 4,
+          "answer": "Complete the table as follows:<br>V1 (sinusoidal), unrectified: <b>V0/√2</b><br>V2 (square wave), unrectified: <b>V0</b><br>V1, half-wave rectified: <b>V0/2</b><br>V2, half-wave rectified: <b>V0/√2</b><br>(Half-wave rectification halves the mean-square value of the sinusoid — Vrms = √(V0²/4) = V0/2 — while the rectified square wave is V0 for half the period and 0 for half — Vrms = √(V0²/2) = V0/√2.)"
+        }
+      ]
+    },
+    {
+      "topic": "22",
+      "qnum": "Q8",
+      "title": "X-rays for medical diagnosis — photon energy &amp; wavelength",
+      "marks": 13,
+      "pages": [
+        18,
+        19
+      ],
+      "pdf": "9702_s26_qp_43_Q8_Quantum_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "22.1.2"
+          ],
+          "marks": 2,
+          "answer": "A photon is a <b>quantum (packet) of energy</b> of electromagnetic radiation — a discrete amount of electromagnetic energy, of energy E = hf."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "24.2.1"
+          ],
+          "marks": 1,
+          "answer": "<b>Electrons</b>."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "24.2.1"
+          ],
+          "marks": 2,
+          "answer": "The electrons are accelerated to high speed and then <b>decelerated rapidly by the metal target</b>.<br>Some of their kinetic energy is converted into the energy of photons, which are emitted as X-rays."
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "24.2.1",
+            "22.1.3"
+          ],
+          "marks": 3,
+          "answer": "In a single interaction most electrons lose only part of their kinetic energy — some energy is dissipated as <b>thermal energy</b> in the target — and the amount lost varies from electron to electron, so photons are produced with a <b>range of energies</b> (and hence wavelengths, since λ = hc/E and wavelength is inversely proportional to photon energy).<br>The <b>minimum wavelength</b> occurs when all of an electron's kinetic energy becomes the energy of a single photon (E = eV)."
+        },
+        {
+          "label": "(b)(iv)",
+          "codes": [
+            "24.2.1",
+            "22.1.3"
+          ],
+          "marks": 3,
+          "answer": "eV = hc/λ → λ = hc/eV<br>λ = (6.63×10⁻³⁴ × 3.00×10⁸)/(1.60×10⁻¹⁹ × 52.0×10³) = 1.99×10⁻²⁵/8.32×10⁻¹⁵<br>λ = <b>2.39×10⁻¹¹ m</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": [
+            "24.2.2"
+          ],
+          "marks": 2,
+          "answer": "Contrast depends on the <b>linear attenuation (absorption) coefficients</b> of the two materials: the greater the difference in attenuation coefficient, the greater the difference between the intensities transmitted through them.<br>Good contrast requires the transmitted intensities to be <b>very different</b> — if the materials have similar attenuation coefficients, the transmitted intensities are similar and the contrast is poor."
+        }
+      ]
+    },
+    {
+      "topic": "23",
+      "qnum": "Q9",
+      "title": "Thorium-228 — mass defect &amp; energy released by decay",
+      "marks": 9,
+      "pages": [
+        20,
+        21
+      ],
+      "pdf": "9702_s26_qp_43_Q9_Nuclear_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "23.1.1"
+          ],
+          "marks": 2,
+          "answer": "The mass defect of a nucleus is the <b>difference between the mass of the nucleus and the sum of the masses of its constituent nucleons</b> (protons and neutrons) when separated to infinity."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "23.1.2",
+            "23.1.1"
+          ],
+          "marks": 4,
+          "answer": "α-decay: ²²⁸₉₀Th → ²²⁴₈₈Ra + ⁴₂He; the total mass defect of the products = 1.846840 + 0.030377 = <b>1.877217 u</b>.<br>β⁻-decay would give ²²⁸₉₁Pa (mass defect 1.866129 u); β⁺-decay would give ²²⁸₈₉Ac (mass defect 1.869820 u).<br>Decay is possible only if the mass defect of the products is greater than that of the parent nucleus (1.871290 u), i.e. if energy is released.<br>Only the α-decay products satisfy this condition, so thorium-228 is an <b>α-emitter</b> and not a β⁻- or β⁺-emitter."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "23.1.1"
+          ],
+          "marks": 3,
+          "answer": "E = Δmc²<br>Δm = 1.877217 − 1.871290 = 0.005927 u = 0.005927 × 1.66×10⁻²⁷ kg<br>E = 0.005927 × 1.66×10⁻²⁷ × (3.00×10⁸)² = 8.85×10⁻¹³ J<br>E = 8.85×10⁻¹³/(1.60×10⁻¹³) = <b>5.53 MeV</b> (to 3 s.f.)"
+        }
+      ]
+    },
+    {
+      "topic": "25",
+      "qnum": "Q10",
+      "title": "Sun's luminosity &amp; radiant flux — Wien's law temperature",
+      "marks": 8,
+      "pages": [
+        22,
+        23
+      ],
+      "pdf": "9702_s26_qp_43_Q10_Astronomy_and_cosmology.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "25.2.1"
+          ],
+          "marks": 2,
+          "answer": "Wien's displacement law states that the wavelength of maximum emission (of radiation from a star) is <b>inversely proportional to the thermodynamic temperature</b> of its surface: λmax ∝ 1/T."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": [
+            "25.2.2"
+          ],
+          "marks": 2,
+          "answer": "L = 4πσr²T⁴ = 4π × 5.67×10⁻⁸ × (6.96×10⁸)² × 5770⁴<br>L = 4π × 5.67×10⁻⁸ × 4.84×10¹⁷ × 1.11×10¹⁵<br>L = <b>3.83×10²⁶ W</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": [
+            "25.1.2"
+          ],
+          "marks": 3,
+          "answer": "F = L/4πd² = 3.83×10²⁶/(4π × (1.52×10¹¹)²)<br>F = 3.83×10²⁶/2.90×10²³ = <b>1.32×10³ W m⁻²</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": [
+            "25.2.1"
+          ],
+          "marks": 1,
+          "answer": "λmax ∝ 1/T, so TX = TS × λS/λX = 5770/0.581<br>TX = <b>9.93×10³ K</b>"
+        }
+      ]
+    }
+  ]
+}

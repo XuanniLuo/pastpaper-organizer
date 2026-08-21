@@ -1,0 +1,121 @@
+{
+  "paper": "9702/52/M/J/26",
+  "paper_full": "June 2026 · Paper 52",
+  "questions": [
+    {
+      "topic": "19",
+      "qnum": "Q1",
+      "title": "Planning an experiment — capacitor discharge current and plate separation",
+      "marks": 15,
+      "pages": [
+        2,
+        3,
+        4
+      ],
+      "pdf": "9702_s26_qp_52_Q1_Capacitance.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "19.1.1",
+            "19.1.2",
+            "19.3.1",
+            "21.1.1"
+          ],
+          "marks": 15,
+          "answer": "<b>Diagram:</b> d.c. supply connected through the reed switch to a parallel-plate capacitor; resistor in series with an ammeter (to measure I); voltmeter across the d.c. supply (to measure E); signal generator or a.c. supply connected to terminals F and G of the reed switch; the two circular plates (area A, separation h) supported on stands (vertical orientation) or on the bench with spacers (horizontal orientation).<br><b>Procedure and measurements:</b> vary h (independent variable) and measure I (dependent variable); measure h with calipers or a micrometer — measure the total distance between the outer faces of the plates and subtract the plate thicknesses; read I on the ammeter for each value of h; repeat the measurement of h at several positions between the plates and take the mean; use a range of at least 5–6 values of h.<br><b>Analysis:</b> plot a graph of I against 1/h; the relationship I = KAfE/h is valid if a straight line through the origin is obtained; gradient = K/(AfE), so K = gradient × AfE (or plot lg I against lg h — a straight line of gradient −1; then K = AfE × 10^intercept).<br><b>Controls:</b> keep f constant (fixed signal-generator setting); keep A and E constant; measure the diameter d of the plates with calipers and calculate A = πd²/4; determine f with an oscilloscope — measure the period T from the time-base (T = number of divisions × time-base setting, or time for n cycles divided by n) and calculate f = 1/T — or read it off the signal generator; keep the plates parallel and aligned using spacers of equal thickness and check h at different points on the plates; use large values of A to increase I and reduce the percentage uncertainty in I.<br><b>Safety:</b> clamp the stands to the bench so the plates cannot fall; avoid electric shock — do not touch the plates or capacitor terminals and switch off the circuit when adjusting h; do not touch the resistor when hot; place an insulating mat on the bench."
+        }
+      ]
+    },
+    {
+      "topic": "17",
+      "qnum": "Q2",
+      "title": "Oscillations of a suspended rod — period versus string separation",
+      "marks": 15,
+      "pages": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "pdf": "9702_s26_qp_52_Q2_Oscillations.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": [
+            "17.1.1"
+          ],
+          "marks": 1,
+          "answer": "Squaring the equation: T² = 4π²αD/(MgL²) = (4π²αD/Mg) × 1/L²<br>Comparing with y = mx: gradient = <b>4π²αD/(Mg)</b>"
+        },
+        {
+          "label": "(b)",
+          "codes": [
+            "1.3.3",
+            "17.1.1"
+          ],
+          "marks": 2,
+          "answer": "T = t/10 and 1/L² = 1/(L in m)²<br>1/L² / m⁻²: 13.32, 10.82, 8.26, 6.01, 4.27, 3.28<br>T / s: 1.58, 1.45, 1.26, 1.08, 0.92, 0.80 — each with uncertainty <b>± 0.02 s</b> (= ± 0.2/10)<br>T² / s²: 2.50, 2.10, 1.59, 1.17, 0.85, 0.64 — uncertainty in T² = 2TΔT: <b>0.06, 0.06, 0.05, 0.04, 0.04, 0.03 s²</b> (from ± 0.06 down to ± 0.03)"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": [
+            "17.1.1"
+          ],
+          "marks": 2,
+          "answer": "All six points from (b) plotted correctly — each within half a small square of its true position, with point diameter less than half a small square (check the second and fifth plots from the left; ecf from 2(b)).<br>Error bars in T² plotted for all six points — total length of each bar accurate to less than half a small square and symmetrical about the point."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": [
+            "1.3.3"
+          ],
+          "marks": 2,
+          "answer": "Straight line of best fit drawn (not from the top point to the bottom point; line thickness less than half a small square; must pass between (5.0, 1.0) and (5.3, 1.0) and between (11.3, 2.2) and (11.6, 2.2)).<br>Worst acceptable line drawn — the steepest or shallowest line that passes through all the error bars (may be constrained by an intermediate error bar).<br>Label both lines."
+        },
+        {
+          "label": "(c)(iii)",
+          "codes": [
+            "1.3.3"
+          ],
+          "marks": 2,
+          "answer": "Using two widely spaced points on the best-fit line (Δx at least 7), with clear substitution into Δy/Δx:<br>gradient = (2.50 − 0.64)/(13.32 − 3.28) = 1.86/10.04 = <b>0.185</b> (expect about 0.14 − 0.24)<br>Absolute uncertainty = gradient(best fit) − gradient(worst acceptable line), or ½(steepest gradient − shallowest gradient) = <b>± 0.02</b><br>gradient = <b>0.185 ± 0.02 s² m²</b>"
+        },
+        {
+          "label": "(d)",
+          "codes": [
+            "1.3.3"
+          ],
+          "marks": 1,
+          "answer": "D = (0.826 + 0.829 + 0.824 + 0.821)/4 = 3.300/4 = 0.825 m<br>ΔD = (0.829 − 0.821)/2 = 0.004 m<br><b>D = (0.825 ± 0.004) m</b>"
+        },
+        {
+          "label": "(e)(i)",
+          "codes": [
+            "17.1.1",
+            "1.2.2"
+          ],
+          "marks": 2,
+          "answer": "α = gradient × Mg/(4π²D) = 0.185 × 0.097 × 9.81/(4π² × 0.825) = 0.176/32.6<br>= <b>5.4 × 10⁻³ kg m²</b> (expect about 5.5 × 10⁻³; 2–3 s.f.; ecf from 2(c)(iii) and 2(d))<br>Unit of α: <b>kg m²</b> (or g m²)"
+        },
+        {
+          "label": "(e)(ii)",
+          "codes": [
+            "1.3.3"
+          ],
+          "marks": 1,
+          "answer": "%unc(α) = (Δgradient/gradient + 2ΔD/D + ΔM/M) × 100%<br>= (0.02/0.185 + 2 × 0.004/0.825 + 2/97) × 100%<br>= (10.8% + 1.0% + 2.1%) = <b>13.8%</b> (answer must be greater than 2.5%; max/min method allowed)"
+        },
+        {
+          "label": "(f)",
+          "codes": [
+            "1.3.3",
+            "17.1.1"
+          ],
+          "marks": 2,
+          "answer": "T² = gradient/L², so L = √(gradient)/T<br>L = √0.185/2.20 = 0.430/2.20 = 0.196 m, i.e. about <b>0.20 m</b> (minimum 2 s.f.; ecf from 2(c)(iii))<br>ΔL/L = ½ × Δgradient/gradient + ΔT/T = ½ × 0.02/0.185 + 0.02/2.20 = 0.054 + 0.009 = 0.063<br>ΔL = 0.063 × 0.196 = 0.012 m<br><b>L = (0.196 ± 0.012) m, i.e. about 0.20 ± 0.01 m</b><br>(or using α: L = 2π√(αD/(Mg))/T with ΔL/L = ½(Δα/α) + ΔT/T, Δα/α from 2(e)(ii))"
+        }
+      ]
+    }
+  ]
+}

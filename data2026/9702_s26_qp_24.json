@@ -1,0 +1,268 @@
+{
+  "paper": "9702/24/M/J/26",
+  "paper_full": "June 2026 · Paper 24",
+  "questions": [
+    {
+      "topic": "3",
+      "qnum": "Q1",
+      "title": "Braking car — vector quantities, kinetic energy &amp; resultant force",
+      "marks": 10,
+      "pages": [4, 5],
+      "pdf": "9702_s26_qp_24_Q1_Dynamics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["1.4.1"],
+          "marks": 1,
+          "answer": "Underline all three vector quantities: <b>displacement, velocity and acceleration</b> (distance and speed are scalars)."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["5.2.2"],
+          "marks": 2,
+          "answer": "Ek = ½mv² = ½ × 1400 × 15² = 700 × 225 = <b>1.6×10⁵ J</b> (1.575×10⁵ J)"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["2.1.6", "2.1.7"],
+          "marks": 2,
+          "answer": "v² = u² + 2as, with v = 0, u = 15 m s⁻¹, s = 35 m:<br>0 = 15² + 2a(35)<br>a = −225/70 = <b>−3.2 m s⁻²</b> (deceleration of 3.2 m s⁻²)"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": ["3.1.2"],
+          "marks": 2,
+          "answer": "F = ma = 1400 × 3.2 = <b>4.5×10³ N (4500 N)</b><br>Alternatively F = W/s = 1.6×10⁵/35 ≈ 4600 N (work done = loss of kinetic energy)."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["3.1.2"],
+          "marks": 1,
+          "answer": "The acceleration <b>remains the same</b> — the resultant force and the mass are unchanged, so a = F/m is unchanged."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["2.1.7", "5.2.2"],
+          "marks": 2,
+          "answer": "Ek = ½mv² is proportional to v², so doubling the speed makes the initial kinetic energy <b>four times greater</b>. For the same braking (resultant) force, the work done Fs to stop the car is four times greater, so the stopping distance is <b>four times greater (140 m)</b>.<br>(Alternatively, with the same acceleration, s = u²/2a, so s is proportional to u².)"
+        }
+      ]
+    },
+    {
+      "topic": "6",
+      "qnum": "Q2",
+      "title": "Spring extension — Hooke's law, spring constant &amp; percentage uncertainty",
+      "marks": 10,
+      "pages": [6, 7],
+      "pdf": "9702_s26_qp_24_Q2_Deformation_of_solids.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["6.1.3"],
+          "marks": 1,
+          "answer": "Hooke's law: the <b>extension of a spring is directly proportional to the applied force (load)</b>, provided the limit of proportionality is not exceeded."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["1.3.3"],
+          "marks": 1,
+          "answer": "extension = 14.0 − 2.1 = 11.9 cm<br>absolute uncertainty = 0.1 + 0.1 = 0.2 cm<br><b>(11.9 ± 0.2) cm</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["6.1.4"],
+          "marks": 3,
+          "answer": "k = F/x, where F = mg = 0.300 × 9.81 = 2.943 N and x = 11.9 cm = 0.119 m:<br>k = 2.943/0.119 = <b>24.7 N m⁻¹</b> (≈ 25 N m⁻¹)"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": ["1.3.3"],
+          "marks": 2,
+          "answer": "percentage uncertainty = (ΔF/F + Δx/x) × 100%<br>= (0.005/0.300 + 0.2/11.9) × 100% = (1.67 + 1.68)%<br>= <b>3%</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["6.1.4"],
+          "marks": 1,
+          "answer": "The extension of spring Y is <b>less</b> than that of spring X — for the same applied force, x = F/k, so the extension is smaller when the spring constant is greater."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["6.2.4"],
+          "marks": 2,
+          "answer": "The elastic potential energy stored in Y is <b>less</b> than that stored in X — Ep = ½Fx with the same force F but a smaller extension, or Ep = ½F²/k, which decreases as the spring constant k increases."
+        }
+      ]
+    },
+    {
+      "topic": "8",
+      "qnum": "Q3",
+      "title": "Stationary wave on a string — nodes, wavelength &amp; speed",
+      "marks": 8,
+      "pages": [8, 9],
+      "pdf": "9702_s26_qp_24_Q3_Superposition.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["8.1.2", "8.1.3"],
+          "marks": 2,
+          "answer": "The progressive wave travels along the string and is reflected at the fixed point (end). The incident (travelling) wave and the reflected wave travel in opposite directions along the string, overlap and superpose (interfere), forming a <b>stationary wave</b> with nodes and antinodes fixed in position."
+        },
+        {
+          "label": "(b)",
+          "codes": ["8.1.3"],
+          "marks": 1,
+          "answer": "Draw a cross (×) on the string at a node — a point of zero displacement where the string crosses the equilibrium (dotted) line, e.g. at the <b>centre of the string (or at either fixed point)</b>."
+        },
+        {
+          "label": "(c)",
+          "codes": ["7.1.4", "8.1.4"],
+          "marks": 3,
+          "answer": "From Figure 3.1 the string holds 2 full wavelengths (4 loops), so:<br>λ = 1.80/2 = 0.90 m<br>v = fλ = 26 × 0.90 = <b>23 m s⁻¹</b>"
+        },
+        {
+          "label": "(d)",
+          "codes": ["8.1.3", "8.1.4"],
+          "marks": 2,
+          "answer": "Halving the frequency (v unchanged) doubles the wavelength to λ = 1.8 m, so the string now holds one full wavelength: two loops with nodes at both fixed points and at the centre, antinodes at L/4 and 3L/4.<br>Draw a <b>sinusoidal curve touching both fixed points</b>, rising to a maximum in the left half and falling to a minimum in the right half, <b>crossing the dotted equilibrium line once, in the middle</b> (any amplitude)."
+        }
+      ]
+    },
+    {
+      "topic": "4",
+      "qnum": "Q4",
+      "title": "Falling object in liquid — terminal velocity, drag &amp; upthrust",
+      "marks": 7,
+      "pages": [10, 11],
+      "pdf": "9702_s26_qp_24_Q4_Forces_density_and_pressure.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["3.2.2", "4.3.5"],
+          "marks": 3,
+          "answer": "Table 4.1, one tick per row:<br><b>W — stays the same</b> (the weight depends only on the mass, which is constant).<br><b>D — increases</b> (the drag force increases as the speed of the object increases).<br><b>U — stays the same</b> (the object remains fully submerged, so the volume of liquid displaced is unchanged and U = ρgV is constant)."
+        },
+        {
+          "label": "(b)",
+          "codes": ["3.2.3"],
+          "marks": 1,
+          "answer": "At terminal velocity the resultant force on the object is zero:<br><b>W = D + U</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": ["3.1.6", "4.3.5"],
+          "marks": 3,
+          "answer": "W = mg = 0.070 × 9.81 = 0.69 N<br>U = ρgV = 1100 × 9.81 × 1.0×10⁻⁵ = 0.108 N ≈ 0.11 N<br>D = W − U = 0.69 − 0.11 = <b>0.58 N</b>"
+        }
+      ]
+    },
+    {
+      "topic": "9",
+      "qnum": "Q5",
+      "title": "Diode I–V characteristic — resistance, e.m.f. &amp; parallel currents",
+      "marks": 10,
+      "pages": [12, 13, 14],
+      "pdf": "9702_s26_qp_24_Q5_Electricity.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["9.3.3"],
+          "marks": 1,
+          "answer": "Component X is a <b>(semiconductor) diode</b>."
+        },
+        {
+          "label": "(b)",
+          "codes": ["9.3.2", "9.3.3"],
+          "marks": 2,
+          "answer": "On Figure 5.1 sketch a <b>straight line through the origin</b> passing through the point (0.80 V, 20 mA):<br>I = V/R = 0.80/40 = 0.020 A = 20 mA at V = 0.80 V. (A line continuing past 0.80 V may be ignored.)"
+        },
+        {
+          "label": "(c)",
+          "codes": ["9.3.2", "10.1.3"],
+          "marks": 3,
+          "answer": "From Figure 5.1, at I = 5.0 mA the p.d. across component X = 0.70 V.<br>p.d. across the 20 Ω resistor = IR = 5.0×10⁻³ × 20 = 0.10 V.<br>e.m.f. = 0.70 + 0.10 = <b>0.80 V</b>"
+        },
+        {
+          "label": "(d)",
+          "codes": ["9.3.3"],
+          "marks": 1,
+          "answer": "reading on ammeter = <b>0 A</b> — the diode is now reverse-biased, so no current flows (approximately zero)."
+        },
+        {
+          "label": "(e)",
+          "codes": ["9.3.2", "10.2.4"],
+          "marks": 3,
+          "answer": "p.d. across each parallel branch = 0.80 V.<br>current in the 20 Ω resistor = V/R = 0.80/20 = 0.040 A.<br>From Figure 5.1, at V = 0.80 V the current in component X = 40 mA = 0.040 A.<br>current in ammeter = 0.040 + 0.040 = <b>0.080 A</b>"
+        }
+      ]
+    },
+    {
+      "topic": "9",
+      "qnum": "Q6",
+      "title": "Nichrome wire — power, resistivity, length &amp; drift speed",
+      "marks": 7,
+      "pages": [15],
+      "pdf": "9702_s26_qp_24_Q6_Electricity.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["9.2.3"],
+          "marks": 2,
+          "answer": "P = V²/R → R = V²/P<br>R = 230²/1000 = 52 900/1000 = 52.9 Ω ≈ <b>53 Ω</b>"
+        },
+        {
+          "label": "(b)",
+          "codes": ["9.3.6"],
+          "marks": 2,
+          "answer": "R = ρL/A → L = RA/ρ<br>L = (53 × 5.7×10⁻⁸)/(1.3×10⁻⁶) = 3.0×10⁻⁶/1.3×10⁻⁶ = <b>2.3 m</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": ["9.1.4"],
+          "marks": 3,
+          "answer": "I = P/V = 1000/230 = 4.35 A<br>I = Anvq → n = I/(Aqv)<br>n = 4.35/(5.7×10⁻⁸ × 1.6×10⁻¹⁹ × 5.4×10⁻³) = 4.35/4.92×10⁻²⁹<br>= <b>8.8×10²⁸ m⁻³</b>"
+        }
+      ]
+    },
+    {
+      "topic": "11",
+      "qnum": "Q7",
+      "title": "Isotopes, thorium decay chain &amp; quark composition",
+      "marks": 8,
+      "pages": [16],
+      "pdf": "9702_s26_qp_24_Q7_Particle_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": ["11.1.4"],
+          "marks": 2,
+          "answer": "Isotopes are (different forms of the same) atoms/nuclei of an element with the <b>same proton number (atomic number)</b> but <b>different numbers of neutrons</b> (different nucleon/mass number)."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": ["11.1.6", "11.1.11"],
+          "marks": 2,
+          "answer": "An α-particle reduces the proton number by 2 and the nucleon number by 4; a β⁻ particle increases the proton number by 1 (nucleon number unchanged). To end on another isotope of thorium (Z = 90):<br>one α decay: Z 90 → 88 (A: 232 → 228), then two β⁻ decays: Z 88 → 90.<br>minimum number of α-particles = <b>1</b><br>minimum number of β⁻ particles = <b>2</b>"
+        },
+        {
+          "label": "(a)(iii)",
+          "codes": ["11.1.3", "11.1.6"],
+          "marks": 2,
+          "answer": "Final nucleus: nucleon number = 232 − 4 = 228, proton number = 90.<br><b>²²⁸₉₀Th</b>"
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["11.2.3"],
+          "marks": 1,
+          "answer": "A proton is composed of quarks: <b>up, up, down (uud)</b>."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["11.2.5"],
+          "marks": 1,
+          "answer": "In β⁺ decay <b>one up quark changes into a down quark</b>, so the composition changes from uud to udd (a proton becomes a neutron)."
+        }
+      ]
+    }
+  ]
+}

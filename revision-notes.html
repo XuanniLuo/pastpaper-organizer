@@ -107,6 +107,16 @@ body {
 .section-heading.sec-graphs {
   border-left-color: #7fb3ae;
 }
+.section-count {
+  font-size: 9.5px;
+  font-weight: 700;
+  color: #a89e90;
+  background: #f0ece4;
+  border-radius: 9px;
+  padding: 1px 7px;
+  margin-left: 2px;
+  letter-spacing: 0.2px;
+}
 
 /* ---- Topic cards ---- */
 .topics-grid {
@@ -290,6 +300,12 @@ mark {
   border-radius: 8px;
   border: 1px solid #ebeee2;
   background: #fdfbf8;
+  transition: border-color 0.15s, background 0.15s, box-shadow 0.15s;
+}
+.formula-item:hover {
+  border-color: #dcd2c2;
+  background: #fbf6ef;
+  box-shadow: 0 1px 4px rgba(91,83,76,0.06);
 }
 .formula-expr {
   font-family: "Cambria Math", Cambria, Georgia, "Times New Roman", serif;
@@ -324,6 +340,10 @@ mark {
   font-size: 12.5px;
   font-weight: 800;
 }
+.nuclide-top,
+.nuclide-bot {
+  text-align: center;
+}
 
 /* ---- Graphs ---- */
 .graph-grid {
@@ -336,6 +356,11 @@ mark {
   border-radius: 9px;
   background: #fdfbf8;
   padding: 8px 8px 9px 8px;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.graph-item:hover {
+  border-color: #dcd2c2;
+  box-shadow: 0 3px 10px rgba(91,83,76,0.10);
 }
 .graph-svg {
   width: 100%;
@@ -468,6 +493,10 @@ var DEFINITIONS = [
     ["Systematic Error", "A <strong>consistent shift</strong> in readings causing a deviation from the true value. This shift is due to the equipment or method being used and cannot be reduced by repeated measurements."],
     ["Quantity", "A characteristic that can be measured. Quantities always have a <strong>size and unit</strong>."],
     ["Vector Quantity", "A quantity that has a <strong>magnitude and a direction</strong>."],
+    ["Derived Unit", "A unit derived from a combination of the <strong>seven base SI units</strong> (e.g. m/s, m/s², N)."],
+    ["Fractional Uncertainty", "The uncertainty in a measurement expressed as a <strong>fraction</strong> of the measured value."],
+    ["Percentage Uncertainty", "The uncertainty in a measurement expressed as a <strong>percentage</strong> of the measured value."],
+    ["Homogeneity of an Equation", "A check that the <strong>base units on both sides</strong> of an equation are the same, so every term has the same units."],
     ["Zero Errors", "A form of systematic error, caused when a measuring instrument doesn't read zero at a value of zero. This results in all measurements being <strong>offset by a fixed amount</strong>."]
   ],
   [
@@ -478,7 +507,10 @@ var DEFINITIONS = [
     ["Projectile Motion", "The motion of an object that is fired from a point and then upon which <strong>only gravity acts</strong>. When solving projectile motion problems, it is useful to split the motion into horizontal and vertical components."],
     ["Speed", "A scalar quantity that is a measure of the <strong>rate of change of distance</strong>. The average speed is calculated by dividing the distance travelled by the time taken.", "S"],
     ["Velocity", "The <strong>rate of change of displacement</strong>. It is a vector quantity and so has both a direction and a magnitude.", "V"],
-    ["Velocity-Time Graphs", "Plots showing how velocity changes over a period of time. The <strong>gradient gives acceleration</strong>. Area under line gives displacement. Curved lines represent changing acceleration."]
+    ["Velocity-Time Graphs", "Plots showing how velocity changes over a period of time. The <strong>gradient gives acceleration</strong>. Area under line gives displacement. Curved lines represent changing acceleration."],
+    ["Time of Flight", "The <strong>total time</strong> a projectile spends in the air."],
+    ["Range", "The <strong>horizontal distance</strong> travelled by a projectile from launch to landing.", "S"],
+    ["Maximum Height", "The greatest <strong>vertical displacement</strong> reached by a projectile, at which point it is momentarily at rest.", "S"]
   ],
   [
     ["Conservation of Momentum", "In a closed system with no external forces the <strong>momentum before an event equals the momentum after</strong> the event."],
@@ -490,8 +522,10 @@ var DEFINITIONS = [
     ["Newton's Second Law", "If an object is acted upon by a resultant force it will accelerate. The acceleration is <strong>inversely proportional to the mass</strong> of the object and directly proportional to the force acting upon it."],
     ["Newton's Third Law", "Every action has an <strong>equal and opposite reaction</strong>. If an object exerts a force on another object, then the other object must exert a force back, that is opposite in direction and equal in magnitude."],
     ["Terminal Velocity", "The maximum velocity an object can achieve. It is the point at which <strong>frictional forces and driving forces are balanced</strong> and so no acceleration occurs and the resultant force on the object is 0 N.", "V"],
-    ["Upthrust", "The <strong>upwards force</strong> that a fluid applies on an object.", "V"],
-    ["Weight", "The force of gravity on an object, the <strong>product of the object's mass and the acceleration due to gravity</strong>.", "V"]
+    ["Weight", "The force of gravity on an object, the <strong>product of the object's mass and the acceleration due to gravity</strong>.", "V"],
+    ["Mass", "A measure of the <strong>amount of matter</strong> in an object; it does not change with location.", "S"],
+    ["Free Fall", "Motion of an object under the influence of <strong>gravity alone</strong>, with no other forces acting."],
+    ["Drag Force", "A resistive force that opposes the motion of an object moving through a <strong>fluid</strong>; it increases with speed.", "V"]
   ],
   [
     ["Centre of Gravity", "The single point through which the object's <strong>weight</strong> can be said to act."],
@@ -499,13 +533,14 @@ var DEFINITIONS = [
     ["Couple", "Two <strong>equal and opposite parallel forces</strong> that act on an object through different lines of action. It has the effect of causing a rotation without translation."],
     ["Density", "The <strong>mass per unit volume</strong> of a material.", "S"],
     ["Equilibrium", "For an object to be in equilibrium, both the <strong>resultant force and resultant moment</strong> acting on the object must be equal to zero."],
-    ["Hydrostatic Pressure", "<strong>&Delta;p = &rho;g&Delta;h</strong>", "S"],
+    ["Hydrostatic Pressure", "The pressure at a depth in a fluid, caused by the weight of the fluid above; the difference in pressure between two depths is <strong>&Delta;p = &rho;g&Delta;h</strong> (density &times; gravitational field strength &times; height).", "S"],
     ["Moment of Force", "The product of a force and the <strong>perpendicular distance</strong> from the line of action of the force to the pivot.", "S"],
     ["Principle of Moments", "For an object to be in equilibrium, the sum of the <strong>clockwise moments</strong> acting about a point must be equal to the sum of the anticlockwise moments acting about the point."],
     ["Pressure", "The force that a surface experiences <strong>per unit area</strong>. It is measured in Pascals (Pa).", "S"],
     ["Torque of a Couple", "The <strong>product of one of the forces</strong> of a couple and the perpendicular distance between the two forces.", "S"],
     ["Triangle of Forces", "A method of determining the resultant force of two forces. The two forces are joined <strong>tip to tail</strong> and the resultant force is given by the force that would complete the triangle."],
-    ["Upthrust", "The <strong>upwards force</strong> that a fluid applies on an object.", "V"]
+    ["Upthrust", "The <strong>upwards force</strong> that a fluid applies on an object.", "V"],
+    ["Archimedes' Principle", "An object submerged in a fluid experiences an <strong>upthrust equal to the weight</strong> of the fluid it displaces."]
   ],
   [
     ["Conservation of Energy", "In a closed system with no external forces the <strong>energy before an event equals the energy after</strong> the event. The energy does not need to be in the same form after the event as it was before the event."],
@@ -559,7 +594,8 @@ var DEFINITIONS = [
     ["Interference", "The <strong>superposition of the amplitudes of waves</strong> when they meet."],
     ["Nodes", "A position of <strong>minimum displacement</strong> in a stationary wave."],
     ["Superposition", "When two waves meet at the same point in space their displacements combine and the total displacement at that point becomes the <strong>sum of the individual displacements</strong> at that point."],
-    ["Two Source Interference", "Interference caused by the <strong>interference of two sources</strong> of waves."]
+    ["Two Source Interference", "Interference caused by the <strong>interference of two sources</strong> of waves."],
+    ["Stationary Wave", "A wave formed by the <strong>superposition of two progressive waves of the same frequency and amplitude travelling in opposite directions</strong> (usually a travelling wave and its reflection). The peaks and troughs do not move along the medium."]
   ],
   [
     ["Charge", "A property of matter that causes it to experience force when placed in an electromagnetic field. It can be <strong>positive or negative</strong>.", "S"],
@@ -574,7 +610,8 @@ var DEFINITIONS = [
     ["Resistivity", "A measure of how difficult it is for charge to travel through a material. It is <strong>proportional to the object's resistance and cross-sectional area</strong>, and inversely proportional to the object's length. It is measured in Ohm metres.", "S"],
     ["Quantisation of Charge", "The idea that charge can only exist in <strong>discrete packets of multiples of the elementary charge</strong>."],
     ["Thermistor", "A temperature sensitive semiconductor whose resistance <strong>increases when temperature decreases</strong>."],
-    ["Volt", "The unit of <strong>potential difference</strong>."]
+    ["Volt", "The unit of <strong>potential difference</strong>."],
+    ["Drift Velocity", "The <strong>average velocity</strong> of charge carriers moving through a conductor.", "V"]
   ],
   [
     ["Conservation of Charge", "The <strong>total charge in a system cannot change</strong>."],
@@ -586,7 +623,9 @@ var DEFINITIONS = [
     ["Parallel Connection", "When two electrical components are on separate loops to one another in a circuit. <strong>Potential difference over each loop is the same</strong>, current is split between branches."],
     ["Potential Divider", "A method of splitting a potential difference, by connecting resistors in series. The total potential difference is <strong>split in the ratio of their resistances</strong>."],
     ["Series Connection", "When two electrical components are on the same loop to one another in a circuit. Potential difference is split between components depending on their resistance, <strong>current is the same across all components</strong>."],
-    ["Variable Resistors", "A resistor that can have its resistance changed. Typically, these are used with power supplies to <strong>change the voltage of a circuit</strong> without using a transformer."]
+    ["Variable Resistors", "A resistor that can have its resistance changed. Typically, these are used with power supplies to <strong>change the voltage of a circuit</strong> without using a transformer."],
+    ["Potentiometer", "A device (similar to a variable resistor) with a sliding contact, used to <strong>divide a potential difference</strong> into adjustable fractions."],
+    ["Galvanometer", "A sensitive type of <strong>ammeter</strong> used to detect and measure current; <strong>null deflection</strong> shows that no current is flowing."]
   ],
   [
     ["Alpha Particles", "A type of particle consisting of <strong>two protons and two neutrons</strong>. Alpha particles are emitted in alpha decay and are strongly ionising, but weakly penetrating."],
@@ -606,7 +645,13 @@ var DEFINITIONS = [
     ["Proton Number", "The number of <strong>protons</strong> present in the nucleus of a given element."],
     ["Quark", "Fundamental particle that interacts with other quarks via the strong interaction, it will change flavour via the weak interaction and annihilate with antiquarks to form photons via the electromagnetic interaction. They come in <strong>6 flavours: up, down, charm, strange, top, bottom</strong>."],
     ["Rutherford Scattering", "An experiment involving firing <strong>alpha particles at a thin gold foil</strong> and observing their deflections. It showed the existence and nature of the nucleus."],
-    ["Weak Interaction", "The force that causes <strong>flavour change</strong> in quarks and leptons, it is responsible for beta decay."]
+    ["Weak Interaction", "The force that causes <strong>flavour change</strong> in quarks and leptons, it is responsible for beta decay."],
+    ["Fundamental Particle", "A particle that <strong>cannot be broken down</strong> into smaller parts (e.g. quarks and leptons)."],
+    ["Baryon", "A <strong>hadron made up of three quarks</strong> (e.g. protons and neutrons)."],
+    ["Neutrino", "A <strong>neutral, nearly massless</strong> fundamental particle emitted from the nucleus. An electron antineutrino accompanies beta-minus decay; an electron neutrino accompanies beta-plus decay."],
+    ["Antiparticle (Antimatter)", "A particle that is <strong>identical to its matter counterpart but with opposite charge</strong>."],
+    ["Gamma Rays", "High-energy <strong>electromagnetic waves</strong> emitted from an unstable nucleus, with <strong>no charge</strong> and the greatest penetrating power."],
+    ["Ionisation", "The <strong>removal of electrons</strong> from an atom when radiation passes through matter."]
   ],
   [
     ["Damping", "The <strong>loss of energy</strong> from an oscillating system, caused by resistive force(s) acting on it."],
@@ -716,6 +761,7 @@ var FORMULAS = [
     ["v = f&lambda;", "Wave speed = frequency × wavelength."],
     ["&Delta;t/T = &Delta;x/&lambda; = &Delta;&phi;/2&pi;", "Equivalent ratios for phase difference."],
     ["I &prop; Amplitude<sup>2</sup>", "Wave intensity is proportional to amplitude²."],
+    ["I = P/A", "Intensity = power per unit area, through an area perpendicular to the wave's direction."],
     ["f<sub>0</sub>/f<sub>s</sub> = v/(v &plusmn; v<sub>s</sub>)", "Doppler effect (+ moving away, − moving towards)."],
     ["I = I<sub>0</sub>cos<sup>2</sup>&theta;", "Malus's law for intensity through a polariser."]
   ],
@@ -726,7 +772,8 @@ var FORMULAS = [
     ["x = &lambda;D/a", "Young's double-slit fringe separation."],
     ["n&lambda; = d sin&theta;", "Diffraction grating maxima."],
     ["d = 1/N", "Grating slit separation (N = lines per metre)."],
-    ["n&lambda; &lt; d sin90&deg;", "Condition for the greatest number of maxima, n."]
+    ["n&lambda; &lt; d sin90&deg;", "Condition for the greatest number of maxima, n."],
+    ["tan&theta; = h/D", "Finding the angle θ in a grating / double-slit setup (h = distance to a fringe, D = distance from slits to screen)."]
   ],
   [
     ["Q = nALq", "Total charge available in a conductor."],
@@ -835,14 +882,28 @@ function axesSvg() {
   return '<line x1="' + x0 + '" y1="' + yEnd + '" x2="' + (xEnd + 6) + '" y2="' + yEnd + '" stroke="#a89e90" stroke-width="1.2"/>'
     + '<polygon points="' + (xEnd + 6) + ',' + yEnd + ' ' + xEnd + ',' + (yEnd - 3) + ' ' + xEnd + ',' + (yEnd + 3) + '" fill="#a89e90"/>'
     + '<line x1="' + x0 + '" y1="' + yEnd + '" x2="' + x0 + '" y2="' + (y0 - 6) + '" stroke="#a89e90" stroke-width="1.2"/>'
-    + '<polygon points="' + x0 + ',' + (y0 - 6) + ' ' + (x0 - 3) + ',' + y0 + ' ' + (x0 + 3) + ',' + y0 + '" fill="#a89e90"/>';
+    + '<polygon points="' + x0 + ',' + (y0 - 6) + ' ' + (x0 - 3) + ',' + y0 + ' ' + (x0 + 3) + ',' + y0 + '" fill="#a89e90"/>'
+    + '<text x="' + (x0 - 4) + '" y="' + (yEnd + 8) + '" font-size="7.5" fill="#a89e90" text-anchor="end">0</text>';
 }
 function axisLabels(xLabel, yLabel) {
   return '<text x="234" y="132" font-size="8.5" fill="#6b6154" text-anchor="end" font-weight="700">' + xLabel + '</text>'
     + '<text x="5" y="12" font-size="8.5" fill="#6b6154" text-anchor="start" font-weight="700">' + yLabel + '</text>';
 }
+function gridSvg() {
+  var x0 = 32, y0 = 14, w = 194, h = 106;
+  var s = '';
+  for (var i = 1; i < 5; i++) {
+    var gx = (x0 + i * w / 5).toFixed(1);
+    s += '<line x1="' + gx + '" y1="' + y0 + '" x2="' + gx + '" y2="' + (y0 + h) + '" stroke="#eae4da" stroke-width="0.7"/>';
+  }
+  for (var j = 1; j < 5; j++) {
+    var gy = (y0 + j * h / 5).toFixed(1);
+    s += '<line x1="' + x0 + '" y1="' + gy + '" x2="' + (x0 + w) + '" y2="' + gy + '" stroke="#eae4da" stroke-width="0.7"/>';
+  }
+  return s;
+}
 function graphSvg(spec, color) {
-  var inner = axesSvg() + axisLabels(spec.xLabel, spec.yLabel);
+  var inner = gridSvg() + axesSvg() + axisLabels(spec.xLabel, spec.yLabel);
   if (spec.fn) {
     inner += '<path d="' + sampledPath(spec.fn, spec.samples || 50) + '" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"/>';
   }
@@ -861,7 +922,9 @@ var GRAPHS = [
   [
     { title: 'Displacement–time (constant velocity)', xLabel: 'time', yLabel: 'displacement', fn: function(t) { return 0.1 + 0.75 * t; }, note: 'Straight line — gradient = velocity.' },
     { title: 'Velocity–time (constant acceleration)', xLabel: 'time', yLabel: 'velocity', fn: function(t) { return 0.12 + 0.78 * t; }, note: 'Gradient = acceleration; area under the line = displacement.' },
-    { title: 'Projectile trajectory', xLabel: 'horizontal distance', yLabel: 'height', fn: function(t) { return 3.2 * 0.78 * t * (1 - t); }, note: 'Parabolic path once only gravity acts.' }
+    { title: 'Projectile trajectory', xLabel: 'horizontal distance', yLabel: 'height', fn: function(t) { return 3.2 * 0.78 * t * (1 - t); }, note: 'Parabolic path once only gravity acts.' },
+    { title: 'Acceleration–time (constant acceleration)', xLabel: 'time', yLabel: 'acceleration', fn: function(t) { return 0.5; }, note: 'Horizontal line — area under the graph = change in velocity.',
+      extra: function(color) { return dashedLine(0.15, 0, 0.15, 0.5, color) + dashedLine(0.85, 0, 0.85, 0.5, color); } }
   ],
   [
     { title: 'Force–time (impulse)', xLabel: 'time', yLabel: 'force', fn: function(t) { return 0.55; }, note: 'Area under the graph = impulse = change in momentum.',
@@ -901,7 +964,17 @@ var GRAPHS = [
     { title: 'Terminal p.d. vs current', xLabel: 'current', yLabel: 'terminal p.d.', fn: function(t) { return 0.88 - 0.62 * t; }, note: 'Y-intercept = e.m.f.; gradient = −internal resistance.',
       extra: function(color) { return dot(0, 0.88, color) + labelAt(0.04, 0.94, 'E (e.m.f.)', 'start', color); } }
   ],
-  [],
+  [
+    { title: '&alpha; and &beta; particle energy spectra', xLabel: 'kinetic energy', yLabel: 'number of particles', fn: function(t) { return 0.04 + 0.55 * Math.pow(4 * t * (1 - t), 0.9); }, note: 'Alpha particles have discrete energies (spikes); beta particles show a continuous spectrum.',
+      extra: function(color) {
+        var s = '';
+        [0.15, 0.3, 0.45].forEach(function(t) {
+          var top = P(t, 0.6), bot = P(t, 0.04);
+          s += '<line x1="' + top[0] + '" y1="' + top[1] + '" x2="' + bot[0] + '" y2="' + bot[1] + '" stroke="' + color + '" stroke-width="2"/>';
+        });
+        return s + labelAt(0.18, 0.7, '&alpha;', 'start', color) + labelAt(0.8, 0.5, '&beta;', 'start', color);
+      } }
+  ],
   [
     { title: 'Displacement–time (SHM)', xLabel: 'time', yLabel: 'displacement', fn: function(t) { return 0.5 + 0.42 * Math.sin(t * 4 * Math.PI); }, note: 'Sinusoidal; amplitude x₀, period T.',
       extra: function(color) { return dashedLine(0, 0.5, 1, 0.5, '#c2b9ab'); } },
@@ -1048,6 +1121,23 @@ function buildGraphsSection() {
 buildDefinitionsSection();
 buildFormulasSection();
 buildGraphsSection();
+
+/* ---- Section count badges ---- */
+(function() {
+  function total(arr) {
+    return arr.reduce(function(acc, list) { return acc + list.length; }, 0);
+  }
+  function addCount(id, label) {
+    var el = document.getElementById(id);
+    var s = document.createElement('span');
+    s.className = 'section-count';
+    s.textContent = label;
+    el.appendChild(s);
+  }
+  addCount('sec-definitions', total(DEFINITIONS) + ' terms');
+  addCount('sec-formulas', total(FORMULAS) + ' formulas');
+  addCount('sec-graphs', total(GRAPHS) + ' graphs');
+})();
 
 /* ==========================================================
    GLOBAL SEARCH across Definitions + Formulas (+ Graph titles)

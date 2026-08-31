@@ -1,0 +1,1109 @@
+
+===== PDF PAGE 1 =====
+This document has 24 pages. Any blank pages are indicated.
+ 
+[Turn over
+Cambridge International AS & A Level
+PHYSICS 
+9702/44
+Paper 4 A Level Structured Questions 
+October/November 2025
+ 
+2 hours
+You must answer on the question paper.
+No additional materials are needed.
+INSTRUCTIONS
+ 
+●
+Answer all questions.
+ 
+●
+Use a black or dark blue pen. You may use an HB pencil for any diagrams or graphs.
+ 
+●
+Write your name, centre number and candidate number in the boxes at the top of the page.
+ 
+●
+Write your answer to each question in the space provided.
+ 
+●
+Do not use an erasable pen or correction fluid.
+ 
+●
+Do not write on any bar codes.
+ 
+●
+You may use a calculator.
+ 
+●
+You should show all your working and use appropriate units.
+INFORMATION
+ 
+●
+The total mark for this paper is 100.
+ 
+●
+The number of marks for each question or part question is shown in brackets [ ].
+* 5 2 7 3 3 5 7 1 0 3 *
+DC (DE/CT) 360040/1
+© UCLES 2025
+,	,
+* 0000800000001 *
+¬O> 4mHuOªE`z5W
+¬ssYvasB¥UNJ¦
+¥uuEueuueUUU
+DFD
+
+
+===== PDF PAGE 2 =====
+2
+9702/44/O/N/25
+© UCLES 2025
+Data
+acceleration of free fall 
+g = 9.81 m s–2
+speed of light in free space  
+c = 3.00 × 108 m s–1
+elementary charge  
+e = 1.60 × 10–19 C
+unified atomic mass unit  
+1 u = 1.66 × 10–27 kg
+rest mass of proton  
+mp = 1.67 × 10–27 kg
+rest mass of electron  
+me = 9.11 × 10–31 kg
+Avogadro constant  
+NA = 6.02 × 1023 mol–1
+molar gas constant  
+R = 8.31 J K–1 mol–1
+Boltzmann constant  
+k = 1.38 × 10–23 J K–1
+gravitational constant  
+G = 6.67 × 10–11 N m2 kg–2
+permittivity of free space  
+ε0 = 8.85 × 10–12 F m–1
+ 
+(4
+1
+0
+rf = 8.99 × 109 m F–1)
+Planck constant  
+h = 6.63 × 10–34 J s
+Stefan–Boltzmann constant  
+σ = 5.67 × 10–8 W m–2 K–4
+Formulae
+uniformly accelerated motion 
+s = ut + 2
+1 at 2
+ 
+v 2 = u 2 + 2as
+hydrostatic pressure 
+∆p = ρg∆h
+upthrust 
+F = ρgV
+Doppler effect for sound waves 
+fo = v
+v
+f v
+s
+s
+!
+electric current 
+I = Anvq
+resistors in series 
+R = R1 + R2 + ...
+resistors in parallel 
+R
+1 =  R
+1
+1
+ + R
+1
+2
+ + ...
+* 0000800000002 *
+,	,
+ĬÍĊ¾Ġ´íÈõÏĪÅĊÝü·þ×
+ĬĝñôÜĪòïÚþðÝÍßĞòĞĂ
+ĥÕĕĕµĕąĕĕÕåÅąµÅĕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 3 =====
+3
+9702/44/O/N/25
+© UCLES 2025
+[Turn over
+gravitational potential 
+ϕ = –  r
+GM
+gravitational potential energy 
+EP = – 
+r
+GMm
+pressure of an ideal gas 
+p = 
+V
+Nm
+3
+1
+ 〈c2〉
+simple harmonic motion 
+a = – ω 2x
+velocity of particle in s.h.m. 
+v = v0 cos ωt
+ 
+v = ! ω
+(
+)
+x
+x
+0
+2
+2
+-
+electric potential 
+V = 
+r
+Q
+4
+0
+rf
+electrical potential energy 
+EP = 
+r
+Qq
+4
+0
+rf
+capacitors in series 
+C
+1 =  C
+1
+1
+ + C
+1
+2
+ + ...
+capacitors in parallel 
+C = C1 + C2 + ...
+discharge of a capacitor 
+x = 
+e
+x
+RC
+t
+0
+-
+Hall voltage 
+VH = 
+I
+ntq
+B
+alternating current/voltage 
+x = x0 sin ωt
+radioactive decay 
+x = x0e– λt
+decay constant 
+λ = .
+t
+0 693
+2
+1
+intensity reflection coefficient 
+I
+IR
+0
+ = 
+(
+)
+(
+)
+Z
+Z
+Z
+Z
+1
+2
+2
+1
+2
+2
++
+-
+Stefan–Boltzmann law 
+L = 4πσr 2T 4
+Doppler redshift  
+ ∆λ
+λ á f
+f
+D á c
+v
+* 0000800000003 *
+,	,
+ĬÏĊ¾Ġ´íÈõÏĪÅĊÝú·þ×
+ĬĝòóÔĠîÿßüāĬĉ×ºòĎĂ
+ĥÕĥÕõõĥõąåõÅąÕåÕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 4 =====
+4
+9702/44/O/N/25
+© UCLES 2025
+1 
+(a) State Newton’s law of gravitation.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+(b) A binary star consists of star A, of mass 4.0 × 1030 kg, and star B, of mass 2.0 × 1030 kg, 
+separated by a distance of 3.3 × 1012 m. The stars are both in circular orbit around their 
+common centre of gravity X, as shown in Fig. 1.1.
+RA
+X
+RB
+3.3 × 1012 m
+star B
+star A
+orbit of A
+orbit of B
+Fig. 1.1
+ 
+ 
+The radius RB of the orbit of star B is double the radius RA of the orbit of star A.
+ 
+ 
+(i) Use Newton’s law of gravitation to calculate the magnitude of the gravitational force 
+exerted by each star on the other.
+ 
+force =  ..................................................... N [2]
+* 0000800000004 *
+,	,
+ĬÍĊ¾Ġ´íÈõÏĪÅĊßü·Ā×
+ĬĝòòÔĦĀĊÜöĊģëûĜĢĦĂ
+ĥĥµÕµõĥÕĥąąÅÅÕąÕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 5 =====
+5
+9702/44/O/N/25
+© UCLES 2025
+[Turn over
+ 
+ 
+(ii) Calculate the centripetal acceleration of star A.
+ 
+acceleration =  ................................................ m s–2 [1]
+ 
+ 
+(iii) Use your answer in (b)(ii) to determine the period of the orbit of star A.
+ 
+period =  ...................................................... s [3]
+ 
+ 
+(iv) By placing a tick (✓) in each row, complete Table 1.1 to show how the quantities indicated 
+for star B compare with the same quantities for star A.
+Table 1.1
+B less than A
+B equal to A
+B greater than A
+centripetal acceleration
+linear speed
+period
+ 
+[3]
+ 
+[Total: 11]
+* 0000800000005 *
+,	,
+ĬÏĊ¾Ġ´íÈõÏĪÅĊßú·Ā×
+ĬĝññÜĤĄúÝĄ÷æïăÀĢĖĂ
+ĥĥÅĕõĕąµõõÕÅÅµĥĕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 6 =====
+6
+9702/44/O/N/25
+© UCLES 2025
+2 
+(a) The equation of state for an ideal gas may be expressed as
+pV  =  NkT.
+ 
+ 
+(i) State the meaning of each of the symbols in this equation.
+p:  .......................................................................................................................................
+V:  .......................................................................................................................................
+N:  .......................................................................................................................................
+k:  .......................................................................................................................................
+T:  .......................................................................................................................................
+ 
+[3]
+ 
+ 
+(ii) Using the equation of state, derive an expression for the average translational kinetic 
+energy EK of a particle in the gas in terms of some or all of N, k and T.
+ 
+EK =  ......................................................... [2]
+* 0000800000006 *
+,	,
+ĬÑĊ¾Ġ´íÈõÏĪÅĊÞú¶þ×
+Ĭĝòñ×ĪĬôåćĆÏďûÝÊĦĂ
+ĥµĥĕõµąĕµĕõÅąµÅÕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 7 =====
+7
+9702/44/O/N/25
+© UCLES 2025
+[Turn over
+ 
+(b) A molecule of hydrogen gas consists of two hydrogen atoms, each of nucleon number 1.
+ 
+ 
+A molecule of oxygen gas consists of two oxygen atoms, each of nucleon number 16.
+ 
+ 
+Assume that hydrogen and oxygen both behave as ideal gases.
+ 
+ 
+A sample of hydrogen gas is at the same temperature as a sample of oxygen gas.
+ 
+ 
+For the two samples, determine the ratio
+root-mean-square (r.m.s.) speed of hydrogen molecules
+root-mean-square (r.m.s.) speed of oxygen molecules
+ .
+ 
+ratio =  ......................................................... [2]
+ 
+[Total: 7]
+* 0000800000007 *
+,	,
+ĬÓĊ¾Ġ´íÈõÏĪÅĊÞü¶þ×
+ĬĝñòÏĠĨĄÔñûĚËăùÊĖĂ
+ĥµĕÕµÕĥõåĥåÅąÕåĕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 8 =====
+8
+9702/44/O/N/25
+© UCLES 2025
+3 
+(a) With reference to molecular kinetic energy and molecular potential energy, explain what is 
+meant by the internal energy of an ideal gas.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+(b) A sample of an ideal gas is initially in state A, at a pressure of 2.0 × 105 Pa and with a volume 
+of 0.016 m3, as shown in Fig. 3.1.
+6
+4
+2
+0
+0
+0.01
+0.02
+volume / m3
+0.03
+0.04
+pressure / 105 Pa
+A
+ 
+Fig. 3.1
+ 
+ 
+In state A, the temperature of the gas is 400 K.
+ 
+ 
+The gas undergoes two successive changes X and Y.
+ 
+ 
+In change X, it is heated at constant volume to a pressure of 4.0 × 105 Pa. At the end of 
+change X, the gas is in state B.
+ 
+ 
+In change Y, it is then allowed to expand at constant temperature back to its original pressure. 
+At the end of change Y, the gas is in state C.
+* 0000800000008 *
+,		,
+ĬÑĊ¾Ġ´íÈõÏĪÅĊàú¶Ā×
+ĬĝñóÏĦĖąçïôđĩßÛÚĞĂ
+ĥąÅÕõÕĥÕÅÅÕÅÅÕąĕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 9 =====
+9
+9702/44/O/N/25
+© UCLES 2025
+[Turn over
+ 
+ 
+(i) Determine the internal energy of the gas in state A.
+ 
+internal energy =  ...................................................... J [2]
+ 
+ 
+(ii) Determine the temperature of the gas in state B.
+ 
+temperature =  ...................................................... K [1]
+ 
+ 
+(iii) Determine the volume of the gas in state C.
+ 
+volume =  .................................................... m3 [1]
+ 
+ 
+(iv) On Fig. 3.1, draw two lines, one to represent change X and one to represent change Y. 
+Label your lines X and Y respectively. 
+[3]
+ 
+[Total: 9]
+* 0000800000009 *
+,	
+,
+ĬÓĊ¾Ġ´íÈõÏĪÅĊàü¶Ā×
+Ĭĝòô×ĤĚõÒĉýØ­×ÿÚĎĂ
+ĥąµĕµµąµÕµąÅÅµĥÕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 10 =====
+10
+9702/44/O/N/25
+© UCLES 2025
+4 
+(a) State what is meant by the frequency of the oscillations of an oscillating object.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+(b) An object is oscillating.
+ 
+ 
+Fig. 4.1 shows the variation of the acceleration a of the object with its displacement x from the
+equilibrium position.
+ 
+ 
+Fig. 4.2 shows the variation of the kinetic energy EK of the object with time t.
+8
+4
+0
+0
+0.2
+0.4
+t / s
+0.6
+0.8
+EK / 10– 4 J
+0
+a / m s–2
+2
+–0.02
+0
+0.02
+–2
+x / m
+ 
+Fig. 4.1 
+Fig. 4.2
+ 
+ 
+(i) Explain how Fig. 4.2 shows that the period of the oscillations is 0.80 s.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Calculate the angular frequency ω of the oscillations.
+ 
+ω =  .............................................. rad s–1 [2]
+* 0000800000010 *
+,	,
+ĬÑĊ¾Ġ´íÈõÏĪÅĊÝú¸þ×
+ĬĝôóÖĨĎēéøû»ąÝ¯ĢĖĂ
+ĥÕåĕõÕÅÕĥõÕąÅõąĕąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 11 =====
+11
+9702/44/O/N/25
+© UCLES 2025
+[Turn over
+ 
+ 
+(iii) Apart from the period, frequency and angular frequency of the oscillations, determine 
+three other conclusions about the object and its oscillations that may be drawn from 
+Fig. 4.1 and Fig. 4.2. The conclusions may be qualitative or quantitative. Use the space 
+below for any working.
+1  ........................................................................................................................................
+ ...........................................................................................................................................
+2  ........................................................................................................................................
+ ...........................................................................................................................................
+3  ........................................................................................................................................
+ ...........................................................................................................................................
+ 
+[3]
+ 
+ 
+(iv) Describe the interchange between kinetic energy and potential energy during the 
+oscillations. Numerical values are not required.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [3]
+ 
+[Total: 10]
+* 0000800000011 *
+,	,
+ĬÓĊ¾Ġ´íÈõÏĪÅĊÝü¸þ×
+ĬĝóôÎĢĒģÐĂĆîÑÕīĢĦĂ
+ĥÕÕÕµµåµõąąąÅĕĥÕĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 12 =====
+12
+9702/44/O/N/25
+© UCLES 2025
+5 
+(a) Explain why the electric potential near an isolated proton is positive.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+ 
+(b) An isolated metal sphere is positively charged and has radius R, as shown in Fig. 5.1.
++
++
++
++
++
++
++
++
++
++
++
++
+R
+x
+P
+Q
+X
+Y
+sphere
+Fig. 5.1
+ 
+ 
+Line XY passes through the centre of the sphere.
+ 
+ 
+Point P lies on line XY at a variable displacement x from the centre of the sphere.
+ 
+ 
+Point Q is at a fixed position that is not on line XY.
+ 
+ 
+The electric field strength at the surface of the sphere is E0.
+ 
+ 
+(i) On Fig. 5.1, draw an arrow at point Q to show the direction of the electric field at 
+that point. 
+[1]
+* 0000800000012 *
+,	,
+ĬÑĊ¾Ġ´íÈõÏĪÅĊßú¸Ā×
+ĬĝóñÎĬĤĦëĀýõóùÉòĎĂ
+ĥĥąÕõµåĕĕåõąąĕÅÕąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 13 =====
+13
+9702/44/O/N/25
+© UCLES 2025
+[Turn over
+ 
+ 
+(ii) On Fig. 5.2, sketch the variation of the electric field E at point P with x for values of x 
+between x = –3R and x = 3R. Do not include the region inside the sphere between 
+x = –R and x = R.
+–½E0
+–E0
+½E0
+E0
+–3R
+–2R
+–R
+R
+0
+2R
+3R
+0
+x
+E
+ 
+Fig. 5.2
+ 
+[3]
+ 
+(c) The proton and the electron in a hydrogen atom are separated by a distance of 5.3 × 10–11 m.
+ 
+ 
+Calculate the electric potential energy of the proton and the electron.
+ 
+electric potential energy =  ...................................................... J [2]
+ 
+[Total: 9]
+* 0000800000013 *
+,	,
+ĬÓĊ¾Ġ´íÈõÏĪÅĊßü¸Ā×
+ĬĝôòÖĞĠĖÎúô´çāčòĞĂ
+ĥĥõĕµÕÅõąÕåąąõåĕĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 14 =====
+14
+9702/44/O/N/25
+© UCLES 2025
+BLANK PAGE
+* 0000800000014 *
+,	,
+ĬÍĊ¾Ġ´íÈõÏĪÅĊàûµĂ×
+Ĭĝóô×ĤēĞàð÷ďċÜęÂĦĂ
+ĥÅõÕõµąÕĥÅåÅÅµąÕÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 15 =====
+15
+9702/44/O/N/25
+© UCLES 2025
+[Turn over
+6 
+Fig. 6.1 shows part of a bridge rectifier circuit that can be used for rectification of an alternating 
+input voltage VIN.
+VOUT
+R
+VIN
+ 
+Fig. 6.1
+ 
+The circuit contains four diodes, one of which is shown.
+ 
+The rectified output voltage VOUT is applied across load resistor R.
+ 
+(a) (i) State what is meant by rectification.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) State the name of the type of rectification produced by a bridge rectifier circuit.
+ ..................................................................................................................................... [1]
+ 
+ 
+(iii) Complete the circuit in Fig. 6.1 by drawing the three missing diodes inside the dashed 
+circles. 
+[2]
+* 0000800000015 *
+,	,
+ĬÏĊ¾Ġ´íÈõÏĪÅĊàùµĂ×
+ĬĝôóÏĦďĎÙĊĊÚÏä½ÂĖĂ
+ĥÅąĕµÕĥµõµõÅÅÕĥĕÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 16 =====
+16
+9702/44/O/N/25
+© UCLES 2025
+ 
+(b) The input voltage varies with time t according to the equation
+VIN = 34 sin 18t
+ 
+ 
+where VIN is in V and t is in s.
+ 
+ 
+(i) Show that the period of the input voltage is 0.35 s.
+ 
+ 
+[2]
+ 
+ 
+(ii) Calculate the root-mean-square (r.m.s.) input voltage.
+ 
+ 
+r.m.s. voltage =  ...................................................... V [1]
+ 
+ 
+(iii) On Fig. 6.2, sketch the variation of VOUT with t from t = 0 to t = 0.35 s.
+0
+0.1
+0.2
+0.3
+t / s
+VOUT / V
+0
+40
+– 40
+0.4
+ 
+Fig. 6.2
+ 
+[3]
+* 0000800000016 *
+,	,
+ĬÍĊ¾Ġ´íÈõÏĪÅĊÞûµĄ×
+ĬĝôòÏĠĝěÞĈāÑíĀğÒĞĂ
+ĥõÕĕõÕĥĕĕĕąÅąÕÅĕÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 17 =====
+17
+9702/44/O/N/25
+© UCLES 2025
+[Turn over
+ 
+(c) Resistor R has a resistance of 56 kΩ. A capacitor of capacitance 12 μF is connected into the 
+circuit of Fig. 6.1 in order to smooth the output voltage.
+ 
+ 
+(i) On Fig. 6.1, draw the capacitor correctly connected into the circuit. 
+[1]
+ 
+ 
+(ii) Calculate the time constant of the smoothing circuit.
+ 
+ 
+time constant =  ...................................................... s [2]
+ 
+ 
+(iii) During each discharge cycle, the time for which the capacitor is discharging is 0.14 s.
+ 
+ 
+ Determine the minimum value of the smoothed output voltage.
+ 
+ 
+minimum voltage =  ...................................................... V [2]
+ 
+[Total: 15]
+* 0000800000017 *
+,	,
+ĬÏĊ¾Ġ´íÈõÏĪÅĊÞùµĄ×
+Ĭĝóñ×ĪġīÛòðĘéø»ÒĎĂ
+ĥõåÕµµąõąĥÕÅąµåÕÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 18 =====
+18
+9702/44/O/N/25
+© UCLES 2025
+7 
+(a) State Lenz’s law of electromagnetic induction.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+(b) A helicopter hovering in stationary equilibrium has four rotors, each of length 12 m, as shown 
+in the view from above in Fig. 7.1.
+O
+X
+12 m
+direction of
+rotation
+rotors
+Fig. 7.1
+ 
+ 
+The vertical component of the Earth’s magnetic field at the helicopter is downwards with a 
+flux density of 0.047 mT.
+ 
+ 
+The rotors each rotate in a horizontal plane in the direction shown with a frequency of 85 Hz.
+ 
+ 
+(i) Calculate the magnetic flux Φ cut by rotor OX during one complete rotation. Give a unit 
+with your answer.
+ 
+ 
+Φ =  .................................... unit  ............ [3]
+* 0000800000018 *
+,		,
+ĬÍĊ¾Ġ´íÈõÏĪÅĊßû·Ă×
+ĬĝñòÖĞĥýäÿĊûđþċĪĖĂ
+ĥåµÕõÕÅĕµåąąąõÅĕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 19 =====
+19
+9702/44/O/N/25
+© UCLES 2025
+[Turn over
+ 
+ 
+(ii) Determine the magnitude of the electromotive force (e.m.f.) induced across the length of 
+rotor OX.
+ 
+ 
+e.m.f. =  ...................................................... V [2]
+ 
+ 
+(iii) Use Lenz’s law to explain whether end O or end X of the rotor is at the higher potential.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+[Total: 9]
+* 0000800000019 *
+,	
+,
+ĬÏĊ¾Ġ´íÈõÏĪÅĊßù·Ă×
+ĬĝòñÎĬĩíÕù÷®ÅöÏĪĦĂ
+ĥåÅĕµµåõåÕÕąąĕåÕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 20 =====
+20
+9702/44/O/N/25
+© UCLES 2025
+8 
+Oxygen-15 (15
+8O) is radioactive and has a half-life of 2.04 minutes.
+ 
+The decay of oxygen-15 produces positrons. For this reason, oxygen-15 is sometimes used as a
+tracer in positron emission tomography (PET scanning).
+ 
+(a) State what is meant by a tracer.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+(b) The equation for the decay of oxygen-15 is
+15
+8O  
+  P
+Q X  +  R
+S β+  +  Z
+ 
+ 
+where X is the nucleus formed during the decay and Z is another particle.
+ 
+ 
+(i) State the values of the integers P, Q, R and S.
+P =  ............................................... 
+R =  .............................................
+Q =  .............................................. 
+S =  ..............................................
+ 
+[2]
+ 
+ 
+(ii) State the name of particle Z.
+ ..................................................................................................................................... [1]
+ 
+(c) (i) Define the activity of a sample.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Calculate the decay constant of oxygen-15. Give a unit with your answer.
+ 
+ 
+decay constant =  .................................... unit  ............ [2]
+* 0000800000020 *
+,	,
+ĬÍĊ¾Ġ´íÈõÏĪÅĊÝû·Ą×
+ĬĝòôÎĢěüâ÷ðµħÚíúĎĂ
+ĥĕĕĕõµåÕÅõåąÅĕąÕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 21 =====
+21
+9702/44/O/N/25
+© UCLES 2025
+[Turn over
+ 
+ 
+(iii) Determine the rate at which positrons are produced in a sample of oxygen-15 that has a 
+mass of 2.85 × 10–6 kg.
+ 
+ 
+rate =  ................................................... s–1 [4]
+ 
+(d) The particles that are emitted from the body and detected outside it during PET scanning are 
+not positrons but another type of particle.
+ 
+ 
+(i) State the name of the particles that are detected.
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Explain how these particles are formed inside the body.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+[Total: 15]
+* 0000800000021 *
+,	,
+ĬÏĊ¾Ġ´íÈõÏĪÅĊÝù·Ą×
+ĬĝñóÖĨėČ×āāô³âéúĞĂ
+ĥĕĥÕµÕÅµÕąõąÅõĥĕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 22 =====
+22
+9702/44/O/N/25
+© UCLES 2025
+9 
+(a) State what is meant by the photoelectric effect.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+(b) The photoelectric effect is investigated using two clean metal plates. One plate is made from 
+metal X and the other is made from metal Y.
+ 
+ 
+Metal X has work function energy Φ. Metal Y has work function energy 2Φ.
+ 
+ 
+Metal X has threshold frequency F.
+ 
+ 
+State expressions, in terms of either or both of Φ and F, for
+ 
+ 
+(i) the threshold frequency of metal Y
+ 
+threshold frequency =  ......................................................... [1]
+ 
+ 
+(ii) the Planck constant.
+ 
+Planck constant =  ......................................................... [1]
+ 
+(c) The maximum kinetic energy EK of photoelectrons is determined for each of the plates in (b) 
+for different frequencies f of incident radiation.
+ 
+ 
+On Fig. 9.1, sketch the variation of EK with f for each plate. Label your lines X and Y to identify 
+which line relates to which plate.
+2Φ
+Φ
+Φ
+Φ
+–2
+–
+0
+F
+f
+EK
+2F
+3F
+0
+ 
+Fig. 9.1
+ 
+[4]
+ 
+[Total: 8]
+* 0000800000022 *
+,	,
+ĬÑĊ¾Ġ´íÈõÏĪÅĊàù¶Ă×
+ĬĝòóÙĞïĂÏĆôĉÓÚÌÒĎĂ
+ĥÅÅÕµõÅĕĕĥÕąąõÅÕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 23 =====
+23
+9702/44/O/N/25
+© UCLES 2025
+10 (a) State what is meant by redshift.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+(b) Explain how observations of redshift lead to the idea that the universe is expanding.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+(c) Explain how Hubble’s law leads to the Big Bang theory of the origin of the universe.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+ 
+[Total: 7]
+* 0000800000023 *
+,	,
+ĬÓĊ¾Ġ´íÈõÏĪÅĊàû¶Ă×
+ĬĝñôÑĬóòêôýÀćâĐÒĞĂ
+ĥÅµĕõĕåõąĕąąąĕåĕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 24 =====
+24
+9702/44/O/N/25
+© UCLES 2025
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every 
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the 
+publisher will be pleased to make amends at the earliest possible opportunity.
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+Cambridge Assessment International Education is part of Cambridge Assessment. Cambridge Assessment is the brand name of the University of Cambridge 
+Local Examinations Syndicate (UCLES), which is a department of the University of Cambridge.
+BLANK PAGE
+* 0000800000024 *
+,	,
+ĬÑĊ¾Ġ´íÈõÏĪÅĊÞù¶Ą×
+ĬĝññÑĢā÷ÍîĆÇåþ®ÂĖĂ
+ĥõĥĕµĕåÕĥµõąÅĕąĕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD

@@ -1,0 +1,44 @@
+{
+  "paper": "9702/52/O/N/25",
+  "paper_full": "November 2025 · Paper 52",
+  "questions": [
+    {
+      "topic": "5",
+      "qnum": "Q1",
+      "title": "Planning an experiment — wind turbine &amp; power of moving air",
+      "marks": 15,
+      "pages": [2, 3, 4],
+      "pdf": "9702_w25_qp_52_Q1_Work_energy_and_power.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["5.1.2", "5.1.3"], "marks": 15,
+          "answer": "<b>Diagram:</b> a model wind turbine (blades of length L, swept area A) on a bench, a fan positioned in line with the turbine so the air flows over the blades; a <b>resistor R connected in series with an ammeter across the turbine terminals</b>; the speed v of the air and the atmospheric pressure P and temperature T indicated.<br><b>Procedure and measurements:</b> vary the air speed v (independent variable — change the fan speed, the fan–turbine distance, or the fan p.d.) and measure the current I in the resistor (dependent variable), keeping A and R (and P, T) constant. Measure T with a thermometer (T = θ/°C + 273). Measure L with a rule and A = πL² (repeat at several positions/blades and average). Measure v with an anemometer/air-speed meter (or P with a manometer/pressure gauge). Determine R with an ohmmeter (or R = V/I).<br><b>Analysis:</b> plot a graph of <b>I² against v³</b>. The relationship is valid if a <b>straight line through the origin</b> is produced (for lg I against lg v, a straight line of gradient 1.5). From I²R = QAPv³/(2T): gradient = QAP/(2TR), so <b>Q = gradient × 2TR/(AP)</b>.<br><b>Controls:</b> keep A, R, P and T constant. Wait for a steady/constant air flow and current before reading. Clamp the turbine/fan to the bench. Check that the temperature/pressure are constant by measuring before and after.<br><b>Safety:</b> keep away from the (moving) fan/turbine blades (or use a screen); wear goggles to protect the eyes from the air stream/dust. Repeat readings and average." }
+      ]
+    },
+    {
+      "topic": "13",
+      "qnum": "Q2",
+      "title": "Analysis of data — orbits of Saturn’s moons (Kepler’s law)",
+      "marks": 15,
+      "pages": [5, 6, 7, 8],
+      "pdf": "9702_w25_qp_52_Q2_Gravitational_fields.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["13.2.3"], "marks": 1,
+          "answer": "T = 2πrⁿ/k, so lg T = lg(2π/k) + n lg r.<br>gradient = <b>n</b> and y-intercept = <b>lg(2π/k)</b>" },
+        { "label": "(b)", "codes": ["13.2.3"], "marks": 2,
+          "answer": "lg (r/10⁸ m): 0.152, 0.270, 0.377, 0.470, 0.576, 0.723.<br>lg (T/10³ s): 1.72 ± 0.04, 1.91 ± 0.03, 2.08 ± 0.04, 2.23 ± 0.03, 2.38 ± 0.04, 2.59 ± 0.03." },
+        { "label": "(c)(i)", "codes": ["13.2.3"], "marks": 2,
+          "answer": "Plot the six points of lg(T/10³ s) against lg(r/10⁸ m) (within half a small square), each with a vertical error bar." },
+        { "label": "(c)(ii)", "codes": ["13.2.3"], "marks": 2,
+          "answer": "Draw a straight <b>line of best fit</b> and a <b>worst acceptable line</b> (steepest/shallowest line through all the error bars)." },
+        { "label": "(c)(iii)", "codes": ["13.2.3"], "marks": 2,
+          "answer": "gradient ≈ <b>1.5</b> (from Δy/Δx over more than half the line's length). Absolute uncertainty = gradient of best fit − gradient of worst acceptable line." },
+        { "label": "(c)(iv)", "codes": ["13.2.3"], "marks": 2,
+          "answer": "y-intercept ≈ <b>1.5</b> (substituting a point into y = mx + c). Uncertainty = difference between the two intercepts." },
+        { "label": "(d)", "codes": ["13.2.3"], "marks": 3,
+          "answer": "n = gradient = <b>1.5</b>.<br>k = 2π/10^(y-intercept) ≈ <b>2 × 10⁸</b> (≈ √(GM) for Saturn, in SI units).<br>Uncertainty in n = uncertainty in gradient; uncertainty in k from the worst-line intercept." },
+        { "label": "(e)", "codes": ["13.2.3"], "marks": 1,
+          "answer": "T = 1.38 × 10⁶ s = 1380 × 10³ s, so lg(T/10³) = lg 1380.<br>r = 10⁸ × 10^[(lg 1380 − y-intercept)/gradient] = 10⁸ × 10^[(3.14 − 1.5)/1.5]<br>= <b>1.2 × 10⁹ m</b>" }
+      ]
+    }
+  ]
+}

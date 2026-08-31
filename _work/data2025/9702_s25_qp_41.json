@@ -1,0 +1,212 @@
+{
+  "paper": "9702/41/M/J/25",
+  "paper_full": "June 2025 · Paper 41",
+  "questions": [
+    {
+      "topic": "13",
+      "qnum": "Q1",
+      "title": "Gravitational potential &amp; field of Mars — satellite orbit",
+      "marks": 9,
+      "pages": [4, 5],
+      "pdf": "9702_s25_qp_41_Q1_Gravitational_fields.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["13.4.1"], "marks": 2,
+          "answer": "The <b>work done per unit mass</b><br>in moving a small test mass <b>from infinity to the point</b>." },
+        { "label": "(b)(i)", "codes": ["13.4.3", "13.2.2"], "marks": 3,
+          "answer": "The satellite moves from r₁ = (3.4 + 1.7) × 10⁶ = 5.1 × 10⁶ m to r₂ = (3.4 + 6.8) × 10⁶ = 10.2 × 10⁶ m from the centre of Mars. Using ΔE<sub>P</sub> = GMm(1/r₁ − 1/r₂):<br>5.1 × 10⁸ = 6.67 × 10⁻¹¹ × M × 122 × [(5.1 × 10⁶)⁻¹ − (10.2 × 10⁶)⁻¹]<br>M = <b>6.4 × 10²³ kg</b>" },
+        { "label": "(b)(ii)", "codes": ["13.4.2"], "marks": 2,
+          "answer": "φ = −GM/R = −(6.67 × 10⁻¹¹ × 6.4 × 10²³)/(3.4 × 10⁶)<br>= <b>−1.3 × 10⁷ J kg⁻¹</b>" },
+        { "label": "(c)(i)", "codes": ["13.2.4"], "marks": 1,
+          "answer": "The satellite stays over the same point of Mars, so its period equals Mars’s rotation period: <b>Mars takes (just under) 25 hours to rotate once on its axis</b>." },
+        { "label": "(c)(ii)", "codes": ["13.2.4"], "marks": 1,
+          "answer": "The orbit is <b>equatorial</b>, and/or the satellite orbits <b>in the same direction as the rotation of Mars</b>." }
+      ]
+    },
+    {
+      "topic": "18",
+      "qnum": "Q2",
+      "title": "Helium atom model — Coulomb’s law, electron orbits &amp; field strength",
+      "marks": 11,
+      "pages": [6, 7],
+      "pdf": "9702_s25_qp_41_Q2_Electric_fields.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["18.3.2"], "marks": 2,
+          "answer": "The (electric) force between two point charges is <b>(directly) proportional to the product of their charges</b> and <b>inversely proportional to the square of their separation</b>." },
+        { "label": "(b)(i)", "codes": ["18.3.1"], "marks": 1,
+          "answer": "The helium nucleus contains two protons, so its charge is <b>+2e</b>." },
+        { "label": "(b)(ii)", "codes": ["18.3.2"], "marks": 1,
+          "answer": "F = Qq/(4πε₀r²) = 2 × (1.60 × 10⁻¹⁹)²/[4π × 8.85 × 10⁻¹² × (170 × 10⁻¹²)²]<br>= <b>1.6 × 10⁻⁸ N</b>" },
+        { "label": "(c)(i)", "codes": ["18.3.2"], "marks": 2,
+          "answer": "The electric force provides the centripetal force: F = mv²/r, so<br>v = √(Fr/m) = √(1.6 × 10⁻⁸ × 170 × 10⁻¹² / 9.11 × 10⁻³¹)<br>= <b>1.7 × 10⁶ m s⁻¹</b>" },
+        { "label": "(c)(ii)", "codes": ["18.3.2"], "marks": 2,
+          "answer": "v = 2πr/T, so T = 2πr/v = 2π × 170 × 10⁻¹² / (1.7 × 10⁶)<br>= <b>6.2 × 10⁻¹⁶ s</b><br>(Equivalently F = 4π²mr/T² gives the same period.)" },
+        { "label": "(d)(i)", "codes": ["18.4.1"], "marks": 2,
+          "answer": "E ∝ Q/r². The other electron has charge e at a distance of 340 pm, and the nucleus has charge 2e at 170 pm, so<br>ratio = [e/(340 × 10⁻¹²)²]/[2e/(170 × 10⁻¹²)²] = (170)²/(2 × 340)² = <b>0.13</b>" },
+        { "label": "(d)(ii)", "codes": ["18.3.2"], "marks": 1,
+          "answer": "The other electron exerts a small repulsive force, so the resultant inward force is slightly less than 1.6 × 10⁻⁸ N — hence the <b>speed of the electron is slightly lower</b> (or its period slightly greater)." }
+      ]
+    },
+    {
+      "topic": "14",
+      "qnum": "Q3",
+      "title": "Specific latent heat — vaporisation vs fusion &amp; ice–water mixture",
+      "marks": 9,
+      "pages": [8],
+      "pdf": "9702_s25_qp_41_Q3_Temperature.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["14.3.2"], "marks": 2,
+          "answer": "The <b>(thermal) energy per unit mass</b> required to <b>change state at constant temperature</b>." },
+        { "label": "(b)", "codes": ["14.3.2"], "marks": 3,
+          "answer": "Vaporisation involves a <b>much larger increase in the separation (or volume) of the molecules</b> than fusion, so <b>much more work has to be done against the intermolecular forces</b> — a much larger increase in molecular potential energy. Since the kinetic energy of the molecules is unchanged in either change of state, more thermal energy is needed to vaporise a substance." },
+        { "label": "(c)", "codes": ["14.3.1", "14.3.2"], "marks": 4,
+          "answer": "Heat lost by the water = heat to melt the ice + heat to warm the melted water. Using Q = mcΔθ and Q = mL:<br>(37.0 × L) + (37.0 × 4.18 × 10.3) = 208 × 4.18 × (26.4 − 10.3)<br>37.0L + 1593 = 14000<br>L = <b>335 J g⁻¹</b>" }
+      ]
+    },
+    {
+      "topic": "16",
+      "qnum": "Q4",
+      "title": "Internal energy &amp; the first law of thermodynamics",
+      "marks": 8,
+      "pages": [9],
+      "pdf": "9702_s25_qp_41_Q4_Thermodynamics.pdf",
+      "parts": [
+        { "label": "(a)(i)", "codes": ["16.1.1"], "marks": 2,
+          "answer": "The <b>sum of the (randomly distributed) kinetic and potential energies</b> of the particles of the system — the total energy of the random motion of its particles." },
+        { "label": "(a)(ii)", "codes": ["16.1.1", "15.3.4"], "marks": 2,
+          "answer": "For an ideal gas there are no intermolecular forces, so the <b>potential energy is zero</b> and the internal energy equals the <b>total kinetic energy of the molecules</b>. The average kinetic energy of the molecules is proportional to the (thermodynamic) temperature, so the internal energy is directly proportional to the thermodynamic temperature." },
+        { "label": "(b)", "codes": ["16.2.2"], "marks": 4,
+          "answer": "<b>Compression</b> (T → 3T): internal energy rises threefold, so ΔU = +2U; work done on the gas = +W. From the first law ΔU = q + W, so thermal energy supplied q = 2U − W.<br><b>Cooling at constant volume</b> (3T → 2T): work done = 0; the internal energy falls from 3U to 2U, so ΔU = −U; hence thermal energy supplied q = ΔU = −U." }
+      ]
+    },
+    {
+      "topic": "17",
+      "qnum": "Q5",
+      "title": "Floating block — simple harmonic motion &amp; energy",
+      "marks": 8,
+      "pages": [10, 11],
+      "pdf": "9702_s25_qp_41_Q5_Oscillations.pdf",
+      "parts": [
+        { "label": "(a)(i)", "codes": ["17.1.1"], "marks": 1,
+          "answer": "The oscillation extends from h = 0.8 m to h = 2.0 m about the equilibrium at h = 1.4 m, so the amplitude = <b>0.60 m</b>." },
+        { "label": "(a)(ii)", "codes": ["17.1.3"], "marks": 1,
+          "answer": "The line is a straight line through the origin, showing a ∝ −(displacement), so the <b>oscillations are simple harmonic</b>." },
+        { "label": "(b)", "codes": ["17.1.3", "17.2.2", "17.1.1"], "marks": 3,
+          "answer": "Any three of: the <b>mean/equilibrium position is at h = 1.4 m</b>; the <b>total energy of the oscillations is 9.0 J</b>; the <b>angular frequency is 1.2 rad s⁻¹</b> (period 5.1 s, or frequency 0.19 Hz); the <b>maximum speed is 0.73 m s⁻¹</b>; the <b>mass of the block is 33 kg</b>." },
+        { "label": "(c)", "codes": ["17.2.1"], "marks": 3,
+          "answer": "A <b>U-shaped curve</b> resting on the h-axis (minimum at E<sub>P</sub> = 0), drawn between h = 0.8 m and h = 2.0 m with the <b>minimum at h = 1.4 m</b> and both end-points at <b>E<sub>P</sub> = 9.0 J</b> (since E<sub>P</sub> = total energy − E<sub>K</sub>)." }
+      ]
+    },
+    {
+      "topic": "21",
+      "qnum": "Q6",
+      "title": "Rectification &amp; smoothing — a.c. to d.c.",
+      "marks": 12,
+      "pages": [12, 13, 14],
+      "pdf": "9702_s25_qp_41_Q6_Alternating_currents.pdf",
+      "parts": [
+        { "label": "(a)(i)", "codes": ["21.2.1"], "marks": 1,
+          "answer": "The <b>conversion of an alternating current (a.c.) into a direct current (d.c.)</b>." },
+        { "label": "(a)(ii)", "codes": ["21.2.4"], "marks": 1,
+          "answer": "To <b>smooth</b> the rectified output (reduce the ripple)." },
+        { "label": "(b)(i)", "codes": ["21.1.2", "21.1.1"], "marks": 2,
+          "answer": "A = 12 V (the peak value), and B = 2π/T = 2π/(20 × 10⁻³)<br>= <b>310 rad s⁻¹</b>" },
+        { "label": "(b)(ii)", "codes": ["21.2.1"], "marks": 1,
+          "answer": "<b>Full-wave</b> rectification (both halves of each cycle are used)." },
+        { "label": "(b)(iii)", "codes": ["21.2.3"], "marks": 2,
+          "answer": "Four diodes connected as a <b>bridge rectifier</b> — a diamond/lattice of four diodes (each with the correct circuit symbol), with the a.c. input connected across one diagonal and the output taken across the other." },
+        { "label": "(b)(iv)", "codes": ["19.3.3", "21.2.4"], "marks": 3,
+          "answer": "During discharge V = V₀e^(−t/τ). From Fig. 6.2 the p.d. falls from 12 V to 8.0 V in 7.3 ms:<br>8.0 = 12e^(−7.3 × 10⁻³/τ)<br>τ = −7.3 × 10⁻³/ln(8.0/12) = <b>0.018 s</b>" },
+        { "label": "(c)", "codes": ["19.3.2"], "marks": 2,
+          "answer": "τ = RC, so R = τ/C = 0.018/(570 × 10⁻⁶)<br>= <b>32 Ω</b>" }
+      ]
+    },
+    {
+      "topic": "20",
+      "qnum": "Q7",
+      "title": "Magnetic fields — flux density, force &amp; velocity selector",
+      "marks": 10,
+      "pages": [14, 15],
+      "pdf": "9702_s25_qp_41_Q7_Magnetic_fields.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["20.2.3"], "marks": 2,
+          "answer": "Magnetic flux density is the <b>force per unit length per unit current</b> acting on a (straight) conductor placed <b>perpendicular to the field</b>." },
+        { "label": "(b)(i)", "codes": ["20.3.2"], "marks": 1,
+          "answer": "F = <b>BQv</b> (with the velocity perpendicular to the magnetic field)." },
+        { "label": "(b)(ii)", "codes": ["20.3.1"], "marks": 1,
+          "answer": "An arrow at Y pointing <b>vertically upwards</b> (from Fleming’s left-hand rule for a positive charge)." },
+        { "label": "(b)(iii)", "codes": ["20.3.5"], "marks": 1,
+          "answer": "A <b>circular path curving upwards</b> through the field (the force is always perpendicular to the velocity, so it acts as a centripetal force)." },
+        { "label": "(c)(i)", "codes": ["20.3.6"], "marks": 3,
+          "answer": "Apply an <b>electric field vertically downwards</b> so that the <b>electric force on the particle is in the opposite direction to the magnetic force</b>. The particle then passes straight through to Z when the <b>magnitudes of the electric and magnetic forces are equal</b>." },
+        { "label": "(c)(ii)", "codes": ["20.3.6"], "marks": 2,
+          "answer": "EQ = BQv, so <b>v = E/B</b>." }
+      ]
+    },
+    {
+      "topic": "22",
+      "qnum": "Q8",
+      "title": "Electron &amp; positron — de Broglie wavelength &amp; annihilation",
+      "marks": 13,
+      "pages": [16, 17],
+      "pdf": "9702_s25_qp_41_Q8_Quantum_physics.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["22.3.3"], "marks": 1,
+          "answer": "The <b>wavelength associated with a moving particle</b>." },
+        { "label": "(b)", "codes": ["22.3.4"], "marks": 2,
+          "answer": "λ = h/p = h/mv = 6.63 × 10⁻³⁴/(9.11 × 10⁻³¹ × 4.9 × 10⁷)<br>= <b>1.5 × 10⁻¹¹ m</b>" },
+        { "label": "(c)", "codes": ["11.1.8"], "marks": 2,
+          "answer": "Similarity: they have the <b>same mass</b> (or the same magnitude of charge, or both are leptons).<br>Difference: the <b>electron has negative charge while the positron has positive charge</b> (the positron is the antiparticle of the electron)." },
+        { "label": "(d)(i)", "codes": ["24.3.3"], "marks": 1,
+          "answer": "<b>Annihilation</b> (a particle–antiparticle reaction)." },
+        { "label": "(d)(ii)", "codes": ["23.1.1", "24.3.3"], "marks": 2,
+          "answer": "The electron and positron disappear — <b>their mass is converted into energy</b>, and this mass–energy becomes the energy of the two gamma-ray photons." },
+        { "label": "(d)(iii)", "codes": ["24.3.4"], "marks": 1,
+          "answer": "Two photons are produced <b>travelling in opposite directions</b> so that <b>momentum is conserved</b> (the initial total momentum is zero)." },
+        { "label": "(d)(iv)", "codes": ["22.1.4"], "marks": 1,
+          "answer": "E<sub>k</sub> = ½mv² = ½ × 9.11 × 10⁻³¹ × (4.9 × 10⁷)²<br>= <b>1.1 × 10⁻¹⁵ J</b>" },
+        { "label": "(d)(v)", "codes": ["23.1.1", "22.1.3"], "marks": 3,
+          "answer": "Each of the two gamma photons carries the rest energy of one particle plus its kinetic energy:<br>E = mc² + E<sub>k</sub> = 9.11 × 10⁻³¹ × (3.00 × 10⁸)² + 1.1 × 10⁻¹⁵ = 8.3 × 10⁻¹⁴ J.<br>Using E = hc/λ:<br>λ = hc/E = (6.63 × 10⁻³⁴ × 3.00 × 10⁸)/(8.3 × 10⁻¹⁴) = <b>2.39 × 10⁻¹² m</b>" }
+      ]
+    },
+    {
+      "topic": "23",
+      "qnum": "Q9",
+      "title": "Radioactive decay — activity, decay constant &amp; half-life",
+      "marks": 10,
+      "pages": [18, 19],
+      "pdf": "9702_s25_qp_41_Q9_Nuclear_physics.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["23.2.3"], "marks": 1,
+          "answer": "The <b>number of nuclear disintegrations per unit time</b>." },
+        { "label": "(b)", "codes": ["23.2.6"], "marks": 3,
+          "answer": "The <b>activity is proportional to the number of undecayed nuclei</b> (A = λN), and the activity equals the rate of decrease of N, so dN/dt = −λN — the number of nuclei falls at a rate proportional to itself, giving an <b>exponential variation</b>." },
+        { "label": "(c)(i)", "codes": ["23.2.6"], "marks": 2,
+          "answer": "A = A₀e^(−λt), so 120 = 180e^(−λ × 8.4)<br>e^(−8.4λ) = 120/180 = 0.667<br>λ = −ln 0.667/8.4 = <b>0.048 min⁻¹</b>" },
+        { "label": "(c)(ii)", "codes": ["23.2.5"], "marks": 1,
+          "answer": "Half-life = ln 2/λ = ln 2/0.048 = <b>14 min</b>" },
+        { "label": "(c)(iii)", "codes": ["23.2.6"], "marks": 3,
+          "answer": "An exponential decay curve starting at (0, 180 Bq), with a <b>negative gradient that decreases in magnitude</b>, passing through (8.4, 120) and (14, 90), and approaching the t-axis by t = 24 min." }
+      ]
+    },
+    {
+      "topic": "25",
+      "qnum": "Q10",
+      "title": "Hubble’s law &amp; redshift — galaxy recession",
+      "marks": 10,
+      "pages": [20, 21],
+      "pdf": "9702_s25_qp_41_Q10_Astronomy_and_cosmology.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["25.3.4"], "marks": 2,
+          "answer": "The <b>speed of recession of a galaxy is (directly) proportional to its distance</b> from the observer (v = H₀d), where the speed is that of the galaxy receding from the observer and d is its distance from the observer." },
+        { "label": "(b)(i)", "codes": ["25.3.2"], "marks": 2,
+          "answer": "The observed wavelength is <b>longer than the emitted wavelength (red-shifted)</b>, so the <b>galaxy is receding from the Earth</b> (the Doppler shift of the light)." },
+        { "label": "(b)(ii)", "codes": ["25.3.2"], "marks": 2,
+          "answer": "Δλ/λ = v/c<br>(4.91 − 4.62)/4.62 = v/(3.00 × 10⁸)<br>v = <b>1.9 × 10⁷ m s⁻¹</b>" },
+        { "label": "(b)(iii)", "codes": ["25.2.1"], "marks": 2,
+          "answer": "The wavelength of maximum intensity is <b>inversely proportional to the temperature</b> (Wien’s law). The observed wavelength is too high (red-shifted), so the <b>determined temperature is too low</b> compared with the true value." },
+        { "label": "(c)", "codes": ["25.3.4"], "marks": 2,
+          "answer": "v = H₀d, so d = v/H₀ = (1.9 × 10⁷)/(2.3 × 10⁻¹⁸)<br>= <b>8.3 × 10²⁴ m</b>" }
+      ]
+    }
+  ]
+}

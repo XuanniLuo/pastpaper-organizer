@@ -1,0 +1,46 @@
+{
+  "paper": "9702/52/M/J/25",
+  "paper_full": "June 2025 · Paper 52",
+  "questions": [
+    {
+      "topic": "3",
+      "qnum": "Q1",
+      "title": "Planning an experiment — falling block &amp; rotating disc",
+      "marks": 15,
+      "pages": [2, 3, 4],
+      "pdf": "9702_s25_qp_52_Q1_Dynamics.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["3.1.1", "5.2.1", "5.2.2"], "marks": 15,
+          "answer": "<b>Diagram:</b> a thin solid disc (radius r, thickness z) on a thin axle, resting on supports (on stands) on a bench; string wrapped around the axle with a block of mass m attached; a <b>light gate (connected to a timer)</b> positioned a distance h below the release point, with h indicated; a vertical metre rule clamped to a stand to measure h.<br><b>Procedure and measurements:</b> vary the mass m (independent variable) and measure the speed v of the block (dependent variable) as it passes the light gate, keeping h constant. Determine v from the interrupt length of the light gate (v = length of block/time recorded by the timer). Measure m with a top-pan balance. Measure r with calipers (r = d/2) and z with a micrometer/calipers.<br><b>Analysis:</b> plot a graph of <b>1/v² against 1/m</b>. The relationship is valid if a <b>straight line</b> is produced with a non-zero y-intercept. From 1/v² = πr²z/(2PQhm) + 1/(hP): y-intercept = 1/(hP), so <b>P = 1/(h × y-intercept)</b>; gradient = πr²z/(2PQh), so <b>Q = πr²z × y-intercept/(2 × gradient)</b>.<br><b>Controls:</b> keep h, r and z constant. Identify a fixed starting position (a clamped pin/rod or a fiducial marker on the rule) so h is the same each time. Ensure the axle rotates freely (lubricate the supports, or leave the axle unfixed). Keep the rule vertical with a set square.<br><b>Safety:</b> the falling block could damage the bench/block — use a cushion or sand tray; clamp the stands to the bench to prevent them falling. Use a long block to reduce the percentage uncertainty in the interrupt time, and repeat each measurement to average v." }
+      ]
+    },
+    {
+      "topic": "19",
+      "qnum": "Q2",
+      "title": "Analysis of data — capacitors in parallel &amp; charge sharing",
+      "marks": 15,
+      "pages": [5, 6, 7, 8],
+      "pdf": "9702_s25_qp_52_Q2_Capacitance.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["19.1.4", "19.1.2"], "marks": 1,
+          "answer": "EA = V(nC + A), so 1/V = nC/(EA) + 1/E.<br>gradient = <b>C/(EA)</b> and y-intercept = <b>1/E</b>" },
+        { "label": "(b)", "codes": ["19.1.4"], "marks": 2,
+          "answer": "V / V = mean of V₁ and V₂ (all ±0.05 V):<br>n = 2: 4.25 → 1/V = 0.235<br>n = 3: 3.70 → 0.270<br>n = 4: 3.25 → 0.308<br>n = 5: 2.90 → 0.345<br>n = 6: 2.60 → 0.385<br>n = 7: 2.35 → 0.426" },
+        { "label": "(c)(i)", "codes": ["19.1.4"], "marks": 2,
+          "answer": "Plot the six points of 1/V against n (within half a small square), each with a vertical error bar." },
+        { "label": "(c)(ii)", "codes": ["19.1.4"], "marks": 2,
+          "answer": "Draw a straight <b>line of best fit</b> and a <b>worst acceptable line</b> (steepest/shallowest line through all the error bars)." },
+        { "label": "(c)(iii)", "codes": ["19.1.4"], "marks": 2,
+          "answer": "gradient ≈ <b>0.038 V⁻¹</b> (from Δy/Δx over more than half the line's length). Absolute uncertainty = gradient of best fit − gradient of worst acceptable line." },
+        { "label": "(c)(iv)", "codes": ["19.1.4"], "marks": 2,
+          "answer": "y-intercept ≈ <b>0.16 V⁻¹</b> (substituting a point into y = mx + c). Uncertainty = difference between the two intercepts." },
+        { "label": "(d)(i)", "codes": ["19.1.4", "19.1.2"], "marks": 2,
+          "answer": "E = 1/y-intercept = 1/0.16 = <b>6.3 V</b><br>C = gradient × E × A = 0.038 × 6.3 × 2.2 × 10⁻³ = <b>0.52 mF</b>" },
+        { "label": "(d)(ii)", "codes": ["19.1.4"], "marks": 1,
+          "answer": "% uncertainty in C = (Δgradient/gradient + ΔE/E + ΔA/A) × 100 ≈ <b>13 %</b>" },
+        { "label": "(e)", "codes": ["19.1.4"], "marks": 1,
+          "answer": "V = EA/(10C + A) = 6.3 × 2.2/(10 × 0.52 + 2.2)<br>= <b>1.9 V</b>" }
+      ]
+    }
+  ]
+}

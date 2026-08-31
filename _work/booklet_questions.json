@@ -1,0 +1,1983 @@
+[
+ {
+  "year": "2024",
+  "topic": "13",
+  "paper": "9702/42/F/M/24",
+  "paper_full": "March 2024 · Paper 42",
+  "qnum": "Q1",
+  "title": "Gravitational potential of a planet — satellite orbit &amp; escape energy",
+  "pdf": "9702_m24_qp_42_Q1_Gravitational_fields.pdf",
+  "marks": 10,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "13.4.1"
+    ],
+    "marks": 2,
+    "answer": "Gravitational potential is defined to be zero at infinity. The gravitational force is attractive, so work must be done <u>on</u> a mass to move it from a point in the field to infinity — the potential therefore rises towards zero from negative values, so near a point mass it is <b>negative</b>."
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "13.4.2"
+    ],
+    "marks": 2,
+    "answer": "φ = −GM/r, so M = −φr/G. From Fig. 1.1, at 1/r = 3.75×10⁻⁸ m⁻¹ the potential is φ = −2.2×10⁸ J kg⁻¹:<br>M = (2.2×10⁸/3.75×10⁻⁸)/6.67×10⁻¹¹ = <b>8.8×10²⁵ kg</b>"
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "13.2.2",
+     "13.2.3"
+    ],
+    "marks": 3,
+    "answer": "GMm/R² = mRω² with ω = 2π/T → R³ = GMT²/4π²<br>T = 0.72×24×3600 = 6.22×10⁴ s<br>R³ = 6.67×10⁻¹¹×8.8×10²⁵×(6.22×10⁴)²/4π² = 5.75×10²³<br>R = <b>8.3×10⁷ m</b>"
+   },
+   {
+    "label": "(b)(iii)",
+    "codes": [
+     "13.4.3"
+    ],
+    "marks": 3,
+    "answer": "Energy required = ΔGPE − KE = GMm/R − ½mv²<br>= 6.67×10⁻¹¹×8.8×10²⁵×1200/(8.3×10⁷) − ½×1200×8400²<br>= 8.49×10¹⁰ − 4.23×10¹⁰ = <b>4.3×10¹⁰ J</b>"
+   }
+  ]
+ },
+ {
+  "year": "2024",
+  "topic": "17",
+  "paper": "9702/42/F/M/24",
+  "paper_full": "March 2024 · Paper 42",
+  "qnum": "Q3",
+  "title": "Object on an oscillating platform — angular frequency &amp; amplitude",
+  "pdf": "9702_m24_qp_42_Q3_Oscillations.pdf",
+  "marks": 7,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "17.2.2",
+     "17.1.1"
+    ],
+    "marks": 3,
+    "answer": "Distance travelled per oscillation = 4x₀ → x₀ = 14×10⁻³/4 = 3.5×10⁻³ m<br>E = ½mω²x₀² → ω² = 2E/(mx₀²) = 2×2.2×10⁻⁴/(0.024×(3.5×10⁻³)²) = 1.50×10³<br>ω = <b>39 rad s⁻¹</b>"
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "17.1.3"
+    ],
+    "marks": 2,
+    "answer": "The object loses contact when the maximum downward acceleration of the platform, ω²x₀, exceeds g:<br>x₀ = g/ω² = 9.81/39² = <b>6.4×10⁻³ m</b>"
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "17.1.3"
+    ],
+    "marks": 2,
+    "answer": "At the <b>top of the oscillation</b> — there the acceleration of the platform is a maximum downwards (a = −ω²x, magnitude ω²x₀). The object's maximum possible downward acceleration is g = 9.81 m s⁻², so it loses contact when ω²x₀ exceeds 9.81 m s⁻², i.e. first at the top of the oscillation."
+   }
+  ]
+ },
+ {
+  "year": "2024",
+  "topic": "13",
+  "paper": "9702/41/M/J/24",
+  "paper_full": "June 2024 · Paper 41",
+  "qnum": "Q1",
+  "title": "Satellite in circular orbit — gravitational field strength &amp; energy",
+  "pdf": "9702_s24_qp_41_Q1_Gravitational_fields.pdf",
+  "marks": 10,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "13.4.1"
+    ],
+    "marks": 2,
+    "answer": "The work done per unit mass<br>in bringing a small test mass from infinity to the point."
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "13.4.1"
+    ],
+    "marks": 2,
+    "answer": "The gravitational potential is defined as zero at infinity. As the two masses move closer together (or as a mass is brought towards the planet), work is done by the gravitational field, so the potential falls below zero — hence it is negative."
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "13.4.2"
+    ],
+    "marks": 2,
+    "answer": "ϕ = −GM/r and, at X, −Φ = −GM/(4R), so GM/R = 4Φ.<br>At Y (radius R): potential = <b>−4Φ</b>"
+   },
+   {
+    "label": "(b)(iii)",
+    "codes": [
+     "13.3.2",
+     "13.4.3"
+    ],
+    "marks": 4,
+    "answer": "Since Φ = GM/(4R), GM = 4ΦR.<br>Field strength: g = GM/r²<br>X: g = GM/(4R)² = <b>Φ/4R</b>; Y: g = GM/R² = <b>4Φ/R</b><br>Potential energy: EP = −GMm/r<br>X: EP = −GM·M/4R = <b>−MΦ</b>; Y: EP = −GM·2M/R = <b>−8MΦ</b>"
+   }
+  ]
+ },
+ {
+  "year": "2024",
+  "topic": "17",
+  "paper": "9702/41/M/J/24",
+  "paper_full": "June 2024 · Paper 41",
+  "qnum": "Q4",
+  "title": "Resonance — damping &amp; forced oscillations of a ball",
+  "pdf": "9702_s24_qp_41_Q4_Oscillations.pdf",
+  "marks": 8,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "17.3.3"
+    ],
+    "marks": 2,
+    "answer": "Resonance is the phenomenon in which an oscillating system has its amplitude a maximum, and this occurs when the driving frequency equals the natural frequency of the system."
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "17.3.2"
+    ],
+    "marks": 1,
+    "answer": "<b>Light damping</b>."
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "17.3.1",
+     "17.3.2"
+    ],
+    "marks": 2,
+    "answer": "The oscillations of the ball lose energy because resistive forces (air resistance / friction in the string) act on the ball and do work against its motion, so the amplitude decreases gradually with time."
+   },
+   {
+    "label": "(b)(iii)",
+    "codes": [
+     "17.1.1"
+    ],
+    "marks": 1,
+    "answer": "Period T = 0.25 s (time between successive maxima of Fig. 4.2).<br>f = 1/T = 1/0.25 = <b>4.0 Hz</b>"
+   },
+   {
+    "label": "(c)",
+    "codes": [
+     "17.3.3"
+    ],
+    "marks": 2,
+    "answer": "A resonance curve: the amplitude rises from zero at f = 0, reaches a single maximum at f = 4.0 Hz (the natural frequency of the ball), and then falls again as f increases towards 10 Hz."
+   }
+  ]
+ },
+ {
+  "year": "2024",
+  "topic": "12",
+  "paper": "9702/42/M/J/24",
+  "paper_full": "June 2024 · Paper 42",
+  "qnum": "Q1",
+  "title": "Disc with modelling clay — angular speed &amp; centripetal acceleration",
+  "pdf": "9702_s24_qp_42_Q1_Motion_in_a_circle.pdf",
+  "marks": 10,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "12.1.1"
+    ],
+    "marks": 1,
+    "answer": "The angle subtended at the centre of a circle by an arc whose length is <b>equal to the radius</b>."
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "12.1.3"
+    ],
+    "marks": 1,
+    "answer": "Draw an arrow labelled V from the modelling clay pointing in the <b>NE direction</b> — the velocity is tangential to the circular path (perpendicular to the radius of the disc)."
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "12.2.1"
+    ],
+    "marks": 1,
+    "answer": "Draw an arrow labelled A from the modelling clay pointing in the <b>NW direction</b>, i.e. towards the centre of the disc (the direction of the centripetal acceleration)."
+   },
+   {
+    "label": "(c)(i)",
+    "codes": [
+     "12.1.3"
+    ],
+    "marks": 2,
+    "answer": "Distance of the clay from the axis: r = 9.3 − 1.2 = 8.1 cm = 8.1×10⁻² m<br>v = rω<br>ω = v/r = 0.68 / 8.1×10⁻² = <b>8.4 rad s⁻¹</b>"
+   },
+   {
+    "label": "(c)(ii)",
+    "codes": [
+     "12.2.3"
+    ],
+    "marks": 2,
+    "answer": "a = v²/r = 0.68² / 8.1×10⁻² = 0.4624 / 8.1×10⁻²<br>= <b>5.7 m s⁻²</b>"
+   },
+   {
+    "label": "(d)",
+    "codes": [
+     "12.1.3",
+     "12.2.3"
+    ],
+    "marks": 3,
+    "answer": "angular speed: <b>same for both pieces</b> — the disc is one rigid body, so every point has the same ω.<br>linear speed: <b>less for the second piece</b> — v = rω and the second piece is nearer the axis.<br>acceleration: <b>less for the second piece</b> — a = rω² and the second piece has the smaller radius."
+   }
+  ]
+ },
+ {
+  "year": "2024",
+  "topic": "17",
+  "paper": "9702/42/M/J/24",
+  "paper_full": "June 2024 · Paper 42",
+  "qnum": "Q4",
+  "title": "Block oscillating on a spring — simple harmonic motion &amp; energy",
+  "pdf": "9702_s24_qp_42_Q4_Oscillations.pdf",
+  "marks": 9,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "17.1.3"
+    ],
+    "marks": 2,
+    "answer": "Fig. 4.2 is a straight line through the origin, showing that <b>a is proportional to x</b>; its negative gradient shows that <b>a and x are always in opposite directions</b>, i.e. a = −ω²x."
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "17.1.3"
+    ],
+    "marks": 1,
+    "answer": "a = −ω²x with x0 = 3Y and a_max = 2A:<br>2A = ω²(3Y)<br>ω = <b>√(2A/3Y)</b>"
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "17.1.4"
+    ],
+    "marks": 2,
+    "answer": "v0 = ωx0 = √(2A/3Y) × 3Y<br>= <b>√(6AY)</b>"
+   },
+   {
+    "label": "(b)(iii)",
+    "codes": [
+     "17.2.2"
+    ],
+    "marks": 2,
+    "answer": "E = ½mω²x0² = ½m × (2A/3Y) × (3Y)²<br>= ½m × 6AY = <b>3mAY</b>"
+   },
+   {
+    "label": "(c)",
+    "codes": [
+     "17.1.1",
+     "17.1.3"
+    ],
+    "marks": 2,
+    "answer": "ω = 2π/T = 2π/0.75 = 8.4 rad s⁻¹; amplitude x0 = 3Y = 1.8 cm<br>x = x0 sin ωt<br>x = <b>1.8 sin (8.4t)</b> (x in cm, t in s)"
+   }
+  ]
+ },
+ {
+  "year": "2024",
+  "topic": "13",
+  "paper": "9702/41/O/N/24",
+  "paper_full": "November 2024 · Paper 41",
+  "qnum": "Q1",
+  "title": "Satellite in circular orbit — Newton's law &amp; orbital period graph",
+  "pdf": "9702_w24_qp_41_Q1_Gravitational_fields.pdf",
+  "marks": 12,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "13.2.2"
+    ],
+    "marks": 2,
+    "answer": "The gravitational force between two point masses is directly proportional to the product of the masses and inversely proportional to the square of the distance between them: <b>F = Gm₁m₂/r²</b>."
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "13.2.3",
+     "12.2.1"
+    ],
+    "marks": 2,
+    "answer": "The gravitational force on the satellite acts towards the centre of the planet, so it is always perpendicular to the direction of motion of the satellite. This force provides the <b>centripetal acceleration</b>, so the satellite moves in a circular path at constant speed."
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "13.2.3",
+     "12.1.3"
+    ],
+    "marks": 3,
+    "answer": "Gravitational force = centripetal force:<br>GMm/(h + B)² = m(h + B)ω², with ω = 2π/T<br>GM/(h + B)² = (h + B)(2π/T)²<br>(h + B)³ = GMT²/4π² = <b>(GA/4π²)T²</b><br>where A = M (the mass of the planet) and B = the radius of the planet."
+   },
+   {
+    "label": "(b)(iii)",
+    "codes": [
+     "13.2.1",
+     "13.2.3"
+    ],
+    "marks": 5,
+    "answer": "From Fig. 1.1, gradient m = (1280 − 360)/(12×10⁶) = 7.7×10⁻⁵ s²/³ m⁻¹.<br>Since T²/³ = m(h + B), the intercept is mB, and m³ = 4π²/GA.<br>A = 4π²/(Gm³) = 4π²/(6.67×10⁻¹¹ × (7.7×10⁻⁵)³) = <b>1.3×10²⁴ kg</b><br>B = intercept/m = 360/(7.7×10⁻⁵) = <b>4.7×10⁶ m</b>"
+   }
+  ]
+ },
+ {
+  "year": "2024",
+  "topic": "17",
+  "paper": "9702/41/O/N/24",
+  "paper_full": "November 2024 · Paper 41",
+  "qnum": "Q4",
+  "title": "Block oscillating on a spring — amplitude, angular frequency &amp; sketch",
+  "pdf": "9702_w24_qp_41_Q4_Oscillations.pdf",
+  "marks": 11,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "17.1.3"
+    ],
+    "marks": 2,
+    "answer": "Motion in which the acceleration is <b>directly proportional to the displacement</b> from a fixed point (the equilibrium position) and is always directed towards that fixed point (opposite in direction to the displacement)."
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "17.1.1"
+    ],
+    "marks": 1,
+    "answer": "From Fig. 4.2, the turning points (v = 0) are at h = 3.5 cm and h = 9.5 cm.<br>amplitude = (9.5 − 3.5)/2 = <b>3.0 cm</b>"
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "17.1.4"
+    ],
+    "marks": 2,
+    "answer": "vmax = v₀ = ωx₀ → ω = v₀/x₀<br>ω = 9.5/3.0 = <b>3.2 rad s⁻¹</b>"
+   },
+   {
+    "label": "(b)(iii)",
+    "codes": [
+     "17.1.1"
+    ],
+    "marks": 2,
+    "answer": "T = 2π/ω = 2π/3.2 = <b>2.0 s</b>"
+   },
+   {
+    "label": "(b)(iv)",
+    "codes": [
+     "17.1.5",
+     "17.2.1"
+    ],
+    "marks": 4,
+    "answer": "A sinusoidal curve starting at a minimum (h = 3.5 cm) at t = 0, since the block is released from rest at its lowest point. Three complete cycles from t = 0 to t = 6.0 s (period 2.0 s), with <b>all peaks at h = 9.5 cm and all troughs at h = 3.5 cm</b>."
+   }
+  ]
+ },
+ {
+  "year": "2024",
+  "topic": "13",
+  "paper": "9702/42/O/N/24",
+  "paper_full": "November 2024 · Paper 42",
+  "qnum": "Q2",
+  "title": "Probe approaching the Sun — field strength, potential &amp; luminosity",
+  "pdf": "9702_w24_qp_42_Q2_Gravitational_fields.pdf",
+  "marks": 12,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "13.1.1"
+    ],
+    "marks": 1,
+    "answer": "Gravitational field (strength) is the <b>force per unit mass</b> acting on a small test mass placed in the field."
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "13.3.2"
+    ],
+    "marks": 2,
+    "answer": "g = GM/x² = (6.67×10⁻¹¹ × 1.99×10³⁰)/(1.47×10¹¹)²<br>= <b>6.14×10⁻³ N kg⁻¹</b>"
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "13.4.3"
+    ],
+    "marks": 2,
+    "answer": "EP = −GMm/x = −(6.67×10⁻¹¹ × 1.99×10³⁰ × 2.63)/(1.47×10¹¹)<br>= <b>−2.37×10⁹ J</b>"
+   },
+   {
+    "label": "(c)(i)",
+    "codes": [
+     "13.3.2",
+     "25.1.2"
+    ],
+    "marks": 3,
+    "answer": "F = L/(4πx²), so x² = L/(4πF), and g = GM/x², so x² = GM/g.<br>Eliminating x²: GM/g = L/(4πF), giving <b>g = 4πGMF/L</b>."
+   },
+   {
+    "label": "(c)(ii)",
+    "codes": [
+     "25.1.2"
+    ],
+    "marks": 2,
+    "answer": "Read from Fig. 2.1 a consistent pair of values, e.g. F = 1.83×10³ W m⁻² when g = 8.0×10⁻³ N kg⁻¹.<br>L = 4πGMF/g = (4π × 6.67×10⁻¹¹ × 1.99×10³⁰ × 1.83×10³)/(8.0×10⁻³)<br>= <b>3.8×10²⁶ W</b>"
+   },
+   {
+    "label": "(c)(iii)",
+    "codes": [
+     "25.2.2"
+    ],
+    "marks": 2,
+    "answer": "L = 4πσr²T⁴ → r = √(L/(4πσT⁴))<br>= √(3.8×10²⁶/(4π × 5.67×10⁻⁸ × 5780⁴)) = √(4.78×10¹⁷)<br>= <b>6.9×10⁸ m</b>"
+   }
+  ]
+ },
+ {
+  "year": "2024",
+  "topic": "17",
+  "paper": "9702/42/O/N/24",
+  "paper_full": "November 2024 · Paper 42",
+  "qnum": "Q5",
+  "title": "Pendulum in simple harmonic motion — energy &amp; EK sketch",
+  "pdf": "9702_w24_qp_42_Q5_Oscillations.pdf",
+  "marks": 9,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "17.1.3"
+    ],
+    "marks": 1,
+    "answer": "An arrow drawn from the centre of the sphere, <b>perpendicular to the string, pointing left and down</b> — the resultant (restoring) force is directed towards the equilibrium position."
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "17.1.1"
+    ],
+    "marks": 1,
+    "answer": "amplitude = <b>0.016 m</b> (maximum displacement, read from Fig. 5.2)"
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "17.1.1"
+    ],
+    "marks": 2,
+    "answer": "T = 0.40 s (from Fig. 5.2)<br>ω = 2π/T = 2π/0.40<br>= <b>16 rad s⁻¹</b>"
+   },
+   {
+    "label": "(b)(iii)",
+    "codes": [
+     "17.2.2"
+    ],
+    "marks": 2,
+    "answer": "E = ½mω²x₀² = ½ × 0.15 × 15.7² × 0.016²<br>= <b>4.7×10⁻³ J</b>"
+   },
+   {
+    "label": "(c)",
+    "codes": [
+     "17.2.1"
+    ],
+    "marks": 3,
+    "answer": "A dome-shaped curve starting and ending on the x-axis at x = ±0.016 m, rising to a maximum of <b>4.7×10⁻³ J at x = 0</b> — kinetic energy is zero at the extremes of the oscillation and maximum at the equilibrium position."
+   }
+  ]
+ },
+ {
+  "year": "2025",
+  "topic": "12",
+  "paper": "9702/42/F/M/25",
+  "paper_full": "March 2025 · Paper 42",
+  "qnum": "Q1",
+  "title": "Steel ball inside a hollow cone — circular motion &amp; angular speed",
+  "pdf": "9702_m25_qp_42_Q1_Motion_in_a_circle.pdf",
+  "marks": 9,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "12.2.1"
+    ],
+    "marks": 1,
+    "answer": "An arrow <b>vertically downwards</b> labelled ‘weight’, and an arrow <b>perpendicular to the cone surface, pointing inwards and upwards</b>, labelled ‘normal contact force’ (the two arrows must be in the correct directions and correctly labelled)."
+   },
+   {
+    "label": "(b)",
+    "codes": [
+     "12.2.1",
+     "12.2.2"
+    ],
+    "marks": 2,
+    "answer": "The <b>vertical component of the contact force equals the weight</b>, so there is no resultant force vertically. The <b>horizontal component of the contact force is the resultant force</b>, and it acts towards the centre of the circle — this provides the centripetal force that keeps the ball moving in a circle."
+   },
+   {
+    "label": "(c)",
+    "codes": [
+     "12.2.3",
+     "12.2.4"
+    ],
+    "marks": 3,
+    "answer": "For a conical-pendulum type of motion the acceleration is <b>a = g tan 52°</b>, and a = v²/r:<br>9.81 × tan 52° = v²/0.15<br>v² = 0.15 × 9.81 × tan 52° = 1.88 m² s⁻²<br>v = <b>1.4 m s⁻¹</b>"
+   },
+   {
+    "label": "(d)",
+    "codes": [
+     "12.1.3"
+    ],
+    "marks": 2,
+    "answer": "v = rω, so ω = v/r = 1.4/0.15<br>= <b>9.3 rad s⁻¹</b><br>(Equivalently ω = √(g tan 52°/0.15) = 9.3 rad s⁻¹.)"
+   },
+   {
+    "label": "(e)",
+    "codes": [
+     "12.2.3"
+    ],
+    "marks": 1,
+    "answer": "The resultant (centripetal) force — hence the acceleration — is unchanged, and a = v²/r, so <b>v² is proportional to r</b>. Therefore increasing the speed requires a larger radius, so the ball moves up the cone to a circle of larger radius."
+   }
+  ]
+ },
+ {
+  "year": "2025",
+  "topic": "13",
+  "paper": "9702/42/F/M/25",
+  "paper_full": "March 2025 · Paper 42",
+  "qnum": "Q2",
+  "title": "Gravitational potential of a planet &amp; electric potential between plates",
+  "pdf": "9702_m25_qp_42_Q2_Gravitational_fields.pdf",
+  "marks": 7,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "13.4.2"
+    ],
+    "marks": 3,
+    "answer": "Sketch φ against x: a curve lying <b>entirely in the negative-φ region</b> for x between R and 4R, starting at (R, −φ) with a <b>continuously decreasing magnitude and continuously decreasing gradient</b> (concave up towards zero), and passing through <b>(2R, −½φ)</b> and <b>(4R, −¼φ)</b>. The potential is φ = −GM/x, so it halves as x doubles."
+   },
+   {
+    "label": "(b)",
+    "codes": [
+     "13.2.4",
+     "13.4.2"
+    ],
+    "marks": 2,
+    "answer": "A geostationary satellite stays at the <b>same point</b> above the Earth, so its gravitational potential is constant: a <b>horizontal straight line from t = 0 to t = 24 hours</b>, starting at (0, −φ)."
+   },
+   {
+    "label": "(c)",
+    "codes": [
+     "18.2.1"
+    ],
+    "marks": 2,
+    "answer": "The field between the plates is uniform, so the potential falls uniformly: a <b>straight line with constant negative gradient from (0, V) to (d, 0)</b>, i.e. the potential decreases linearly from the positive plate to the negative plate."
+   }
+  ]
+ },
+ {
+  "year": "2025",
+  "topic": "17",
+  "paper": "9702/42/F/M/25",
+  "paper_full": "March 2025 · Paper 42",
+  "qnum": "Q4",
+  "title": "Piezoelectric crystal — simple harmonic motion &amp; ultrasound",
+  "pdf": "9702_m25_qp_42_Q4_Oscillations.pdf",
+  "marks": 12,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "17.1.3"
+    ],
+    "marks": 2,
+    "answer": "ω = 2π/T = 2π/(0.15 × 10⁻⁶)<br>= <b>4.2 × 10⁷ rad s⁻¹</b>"
+   },
+   {
+    "label": "(b)",
+    "codes": [
+     "17.1.3"
+    ],
+    "marks": 2,
+    "answer": "a₀ = ω²x₀ = (4.2 × 10⁷)² × 40 × 10⁻⁶<br>= <b>7.1 × 10¹⁰ m s⁻²</b>"
+   },
+   {
+    "label": "(c)",
+    "codes": [
+     "17.2.2"
+    ],
+    "marks": 3,
+    "answer": "E = ½mω²x₀² = ½ × 2.4 × 10⁻⁴ × (4.2 × 10⁷)² × (40 × 10⁻⁶)²<br>= <b>340 J</b>"
+   },
+   {
+    "label": "(d)(i)",
+    "codes": [
+     "24.1.1",
+     "24.1.2"
+    ],
+    "marks": 2,
+    "answer": "Apply an <b>alternating p.d.</b> across the crystal. The p.d. causes the crystal to <b>distort</b> (change shape) at the frequency of the alternating p.d., so the surface vibrates — and conversely an oscillating crystal generates an alternating e.m.f., so it can be used to generate ultrasound."
+   },
+   {
+    "label": "(d)(ii)",
+    "codes": [
+     "24.1.4",
+     "24.1.5"
+    ],
+    "marks": 3,
+    "answer": "Z = ρc, so Z<sub>muscle</sub> = 1100 × 1600 = 1.76 × 10⁶ and Z<sub>bone</sub> = 1900 × 4100 = 7.79 × 10⁶ kg m⁻² s⁻¹.<br>Intensity reflection coefficient = (Z₁ − Z₂)²/(Z₁ + Z₂)²<br>= (7.79 − 1.76)²/(7.79 + 1.76)² = 0.40 (40%)<br>so percentage transmitted = <b>60%</b>"
+   }
+  ]
+ },
+ {
+  "year": "2025",
+  "topic": "13",
+  "paper": "9702/41/M/J/25",
+  "paper_full": "June 2025 · Paper 41",
+  "qnum": "Q1",
+  "title": "Gravitational potential &amp; field of Mars — satellite orbit",
+  "pdf": "9702_s25_qp_41_Q1_Gravitational_fields.pdf",
+  "marks": 9,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "13.4.1"
+    ],
+    "marks": 2,
+    "answer": "The <b>work done per unit mass</b><br>in moving a small test mass <b>from infinity to the point</b>."
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "13.4.3",
+     "13.2.2"
+    ],
+    "marks": 3,
+    "answer": "The satellite moves from r₁ = (3.4 + 1.7) × 10⁶ = 5.1 × 10⁶ m to r₂ = (3.4 + 6.8) × 10⁶ = 10.2 × 10⁶ m from the centre of Mars. Using ΔE<sub>P</sub> = GMm(1/r₁ − 1/r₂):<br>5.1 × 10⁸ = 6.67 × 10⁻¹¹ × M × 122 × [(5.1 × 10⁶)⁻¹ − (10.2 × 10⁶)⁻¹]<br>M = <b>6.4 × 10²³ kg</b>"
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "13.4.2"
+    ],
+    "marks": 2,
+    "answer": "φ = −GM/R = −(6.67 × 10⁻¹¹ × 6.4 × 10²³)/(3.4 × 10⁶)<br>= <b>−1.3 × 10⁷ J kg⁻¹</b>"
+   },
+   {
+    "label": "(c)(i)",
+    "codes": [
+     "13.2.4"
+    ],
+    "marks": 1,
+    "answer": "The satellite stays over the same point of Mars, so its period equals Mars’s rotation period: <b>Mars takes (just under) 25 hours to rotate once on its axis</b>."
+   },
+   {
+    "label": "(c)(ii)",
+    "codes": [
+     "13.2.4"
+    ],
+    "marks": 1,
+    "answer": "The orbit is <b>equatorial</b>, and/or the satellite orbits <b>in the same direction as the rotation of Mars</b>."
+   }
+  ]
+ },
+ {
+  "year": "2025",
+  "topic": "17",
+  "paper": "9702/41/M/J/25",
+  "paper_full": "June 2025 · Paper 41",
+  "qnum": "Q5",
+  "title": "Floating block — simple harmonic motion &amp; energy",
+  "pdf": "9702_s25_qp_41_Q5_Oscillations.pdf",
+  "marks": 8,
+  "parts": [
+   {
+    "label": "(a)(i)",
+    "codes": [
+     "17.1.1"
+    ],
+    "marks": 1,
+    "answer": "The oscillation extends from h = 0.8 m to h = 2.0 m about the equilibrium at h = 1.4 m, so the amplitude = <b>0.60 m</b>."
+   },
+   {
+    "label": "(a)(ii)",
+    "codes": [
+     "17.1.3"
+    ],
+    "marks": 1,
+    "answer": "The line is a straight line through the origin, showing a ∝ −(displacement), so the <b>oscillations are simple harmonic</b>."
+   },
+   {
+    "label": "(b)",
+    "codes": [
+     "17.1.3",
+     "17.2.2",
+     "17.1.1"
+    ],
+    "marks": 3,
+    "answer": "Any three of: the <b>mean/equilibrium position is at h = 1.4 m</b>; the <b>total energy of the oscillations is 9.0 J</b>; the <b>angular frequency is 1.2 rad s⁻¹</b> (period 5.1 s, or frequency 0.19 Hz); the <b>maximum speed is 0.73 m s⁻¹</b>; the <b>mass of the block is 33 kg</b>."
+   },
+   {
+    "label": "(c)",
+    "codes": [
+     "17.2.1"
+    ],
+    "marks": 3,
+    "answer": "A <b>U-shaped curve</b> resting on the h-axis (minimum at E<sub>P</sub> = 0), drawn between h = 0.8 m and h = 2.0 m with the <b>minimum at h = 1.4 m</b> and both end-points at <b>E<sub>P</sub> = 9.0 J</b> (since E<sub>P</sub> = total energy − E<sub>K</sub>)."
+   }
+  ]
+ },
+ {
+  "year": "2025",
+  "topic": "12",
+  "paper": "9702/42/M/J/25",
+  "paper_full": "June 2025 · Paper 42",
+  "qnum": "Q1",
+  "title": "Bicycle chain &amp; cogs — radian, angular speed &amp; period",
+  "pdf": "9702_s25_qp_42_Q1_Motion_in_a_circle.pdf",
+  "marks": 10,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "12.1.1"
+    ],
+    "marks": 1,
+    "answer": "The <b>angle subtended at the centre of a circle by an arc whose length is equal to the radius</b>."
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "12.1.3"
+    ],
+    "marks": 2,
+    "answer": "v = rω, so ω = v/r = 17/0.46<br>= <b>37 rad s⁻¹</b>"
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "12.1.3"
+    ],
+    "marks": 2,
+    "answer": "T = 2πr/v = 2π × 0.46/17 (or T = 2π/ω = 2π/37)<br>= <b>0.17 s</b>"
+   },
+   {
+    "label": "(b)(iii)",
+    "codes": [
+     "12.1.1"
+    ],
+    "marks": 1,
+    "answer": "distance moved = circumference of the small cog = 2πr = 2π × 0.038<br>= <b>0.24 m</b>"
+   },
+   {
+    "label": "(b)(iv)",
+    "codes": [
+     "12.1.1"
+    ],
+    "marks": 2,
+    "answer": "angle = arc length/radius = 0.24/0.15<br>= <b>1.6 rad</b>"
+   },
+   {
+    "label": "(c)",
+    "codes": [
+     "12.1.3"
+    ],
+    "marks": 2,
+    "answer": "The rear wheel still rotates at the same angular speed (the bicycle speed is unchanged), but the rear cog is now smaller, so <b>point X on the chain moves through a smaller distance in the same time</b> — the linear speed of the chain decreases. The large cog (fixed to the pedals) has the same radius, so the <b>angular speed of the pedals decreases</b>."
+   }
+  ]
+ },
+ {
+  "year": "2025",
+  "topic": "17",
+  "paper": "9702/42/M/J/25",
+  "paper_full": "June 2025 · Paper 42",
+  "qnum": "Q5",
+  "title": "Simple harmonic motion — displacement, velocity &amp; phase",
+  "pdf": "9702_s25_qp_42_Q5_Oscillations.pdf",
+  "marks": 9,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "17.1.3"
+    ],
+    "marks": 2,
+    "answer": "Motion in which the <b>acceleration is (directly) proportional to the displacement</b> and is <b>always directed towards a fixed point</b> (in the opposite direction to the displacement)."
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "17.1.1"
+    ],
+    "marks": 1,
+    "answer": "period = 2π/ω = 2π/16<br>= <b>0.39 s</b>"
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "17.1.3",
+     "17.1.4"
+    ],
+    "marks": 2,
+    "answer": "v₀ = ωx₀, so x₀ = v₀/ω = 0.56/16<br>= <b>0.035 m</b>"
+   },
+   {
+    "label": "(b)(iii)",
+    "codes": [
+     "17.1.4"
+    ],
+    "marks": 1,
+    "answer": "v = ±ω√(x₀² − x²) = <b>±16√(0.035² − x²)</b>"
+   },
+   {
+    "label": "(b)(iv)",
+    "codes": [
+     "17.1.5"
+    ],
+    "marks": 3,
+    "answer": "A <b>closed loop (ellipse) surrounding the origin</b>, crossing the x-axis (v = 0) at <b>x = ±3.5 cm</b> and crossing the v-axis (x = 0) at <b>v = ±0.56 m s⁻¹</b>."
+   }
+  ]
+ },
+ {
+  "year": "2025",
+  "topic": "13",
+  "paper": "9702/43/M/J/25",
+  "paper_full": "June 2025 · Paper 43",
+  "qnum": "Q1",
+  "title": "Gravitational potential &amp; field of Mars — satellite orbit",
+  "pdf": "9702_s25_qp_43_Q1_Gravitational_fields.pdf",
+  "marks": 9,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "13.4.1"
+    ],
+    "marks": 2,
+    "answer": "The <b>work done per unit mass</b><br>in moving a small test mass <b>from infinity to the point</b>."
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "13.4.3",
+     "13.2.2"
+    ],
+    "marks": 3,
+    "answer": "The satellite moves from r₁ = (3.4 + 1.7) × 10⁶ = 5.1 × 10⁶ m to r₂ = (3.4 + 6.8) × 10⁶ = 10.2 × 10⁶ m from the centre of Mars. Using ΔE<sub>P</sub> = GMm(1/r₁ − 1/r₂):<br>5.1 × 10⁸ = 6.67 × 10⁻¹¹ × M × 122 × [(5.1 × 10⁶)⁻¹ − (10.2 × 10⁶)⁻¹]<br>M = <b>6.4 × 10²³ kg</b>"
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "13.4.2"
+    ],
+    "marks": 2,
+    "answer": "φ = −GM/R = −(6.67 × 10⁻¹¹ × 6.4 × 10²³)/(3.4 × 10⁶)<br>= <b>−1.3 × 10⁷ J kg⁻¹</b>"
+   },
+   {
+    "label": "(c)(i)",
+    "codes": [
+     "13.2.4"
+    ],
+    "marks": 1,
+    "answer": "The satellite stays over the same point of Mars, so its period equals Mars’s rotation period: <b>Mars takes (just under) 25 hours to rotate once on its axis</b>."
+   },
+   {
+    "label": "(c)(ii)",
+    "codes": [
+     "13.2.4"
+    ],
+    "marks": 1,
+    "answer": "The orbit is <b>equatorial</b>, and/or the satellite orbits <b>in the same direction as the rotation of Mars</b>."
+   }
+  ]
+ },
+ {
+  "year": "2025",
+  "topic": "17",
+  "paper": "9702/43/M/J/25",
+  "paper_full": "June 2025 · Paper 43",
+  "qnum": "Q5",
+  "title": "Floating block — simple harmonic motion &amp; energy",
+  "pdf": "9702_s25_qp_43_Q5_Oscillations.pdf",
+  "marks": 8,
+  "parts": [
+   {
+    "label": "(a)(i)",
+    "codes": [
+     "17.1.1"
+    ],
+    "marks": 1,
+    "answer": "The oscillation extends from h = 0.8 m to h = 2.0 m about the equilibrium at h = 1.4 m, so the amplitude = <b>0.60 m</b>."
+   },
+   {
+    "label": "(a)(ii)",
+    "codes": [
+     "17.1.3"
+    ],
+    "marks": 1,
+    "answer": "The line is a straight line through the origin, showing a ∝ −(displacement), so the <b>oscillations are simple harmonic</b>."
+   },
+   {
+    "label": "(b)",
+    "codes": [
+     "17.1.3",
+     "17.2.2",
+     "17.1.1"
+    ],
+    "marks": 3,
+    "answer": "Any three of: the <b>mean/equilibrium position is at h = 1.4 m</b>; the <b>total energy of the oscillations is 9.0 J</b>; the <b>angular frequency is 1.2 rad s⁻¹</b> (period 5.1 s, or frequency 0.19 Hz); the <b>maximum speed is 0.73 m s⁻¹</b>; the <b>mass of the block is 33 kg</b>."
+   },
+   {
+    "label": "(c)",
+    "codes": [
+     "17.2.1"
+    ],
+    "marks": 3,
+    "answer": "A <b>U-shaped curve</b> resting on the h-axis (minimum at E<sub>P</sub> = 0), drawn between h = 0.8 m and h = 2.0 m with the <b>minimum at h = 1.4 m</b> and both end-points at <b>E<sub>P</sub> = 9.0 J</b> (since E<sub>P</sub> = total energy − E<sub>K</sub>)."
+   }
+  ]
+ },
+ {
+  "year": "2025",
+  "topic": "13",
+  "paper": "9702/44/M/J/25",
+  "paper_full": "June 2025 · Paper 44",
+  "qnum": "Q1",
+  "title": "Gravitational field &amp; potential of the Earth",
+  "pdf": "9702_s25_qp_44_Q1_Gravitational_fields.pdf",
+  "marks": 11,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "13.1.1"
+    ],
+    "marks": 1,
+    "answer": "Gravitational field is the <b>force per unit mass</b> acting on a small test mass placed at the point."
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "13.1.2"
+    ],
+    "marks": 2,
+    "answer": "The field lines are <b>radial</b>, pointing <b>towards the centre of the planet</b>."
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "13.3.3"
+    ],
+    "marks": 2,
+    "answer": "For small changes in height, the change in height is <b>very much smaller than the radius</b> of the planet, so (R + h)² ≈ R² — the field lines are approximately parallel and g is approximately constant."
+   },
+   {
+    "label": "(c)(i)",
+    "codes": [
+     "13.3.2"
+    ],
+    "marks": 2,
+    "answer": "At the surface g = GM/R², so 9.81 = 3.99 × 10¹⁴/R²<br>R = √(3.99 × 10¹⁴/9.81) = <b>6.38 × 10⁶ m</b>"
+   },
+   {
+    "label": "(c)(ii)",
+    "codes": [
+     "13.4.2"
+    ],
+    "marks": 2,
+    "answer": "φ = −GM/R = −3.99 × 10¹⁴/(6.38 × 10⁶)<br>= <b>−6.25 × 10⁷ J kg⁻¹</b>"
+   },
+   {
+    "label": "(d)",
+    "codes": [
+     "13.4.1",
+     "13.4.3"
+    ],
+    "marks": 2,
+    "answer": "The potential energy is <b>zero at infinite separation</b>, and the gravitational force is <b>attractive</b> — work is done by the field as the masses come together, so the potential energy falls below zero and is always negative."
+   }
+  ]
+ },
+ {
+  "year": "2025",
+  "topic": "17",
+  "paper": "9702/44/M/J/25",
+  "paper_full": "June 2025 · Paper 44",
+  "qnum": "Q4",
+  "title": "Simple pendulum — frequency &amp; maximum displacement",
+  "pdf": "9702_s25_qp_44_Q4_Oscillations.pdf",
+  "marks": 8,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "17.1.3"
+    ],
+    "marks": 2,
+    "answer": "Motion in which the <b>acceleration is (directly) proportional to the displacement</b> and is <b>always directed towards a fixed point</b> (in the opposite direction to the displacement)."
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "17.1.1"
+    ],
+    "marks": 1,
+    "answer": "The sphere passes through the equilibrium position in the same direction at <b>t₁ and t₅</b> (or t₃ and t₇)."
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "17.1.1"
+    ],
+    "marks": 2,
+    "answer": "The interval t₁ → t₆ is 1.25 periods, so T = 2.2/1.25 = 1.76 s.<br>f = 1/T = 1.25/2.2 = <b>0.57 Hz</b>"
+   },
+   {
+    "label": "(c)",
+    "codes": [
+     "17.1.3",
+     "17.1.4"
+    ],
+    "marks": 3,
+    "answer": "v₀ = ωx₀ with ω = 2πf, so x₀ = v₀/(2πf) = 0.080/(2π × 0.57)<br>= <b>0.022 m</b>"
+   }
+  ]
+ },
+ {
+  "year": "2025",
+  "topic": "17",
+  "paper": "9702/44/M/J/25",
+  "paper_full": "June 2025 · Paper 44",
+  "qnum": "Q7",
+  "title": "Damped oscillations — magnet in a coil &amp; electromagnetic induction",
+  "pdf": "9702_s25_qp_44_Q7_Oscillations.pdf",
+  "marks": 8,
+  "parts": [
+   {
+    "label": "(a)(i)",
+    "codes": [
+     "17.3.1"
+    ],
+    "marks": 2,
+    "answer": "Damping is the <b>loss of energy from the oscillations</b> due to <b>resistive forces</b>."
+   },
+   {
+    "label": "(a)(ii)",
+    "codes": [
+     "17.3.1"
+    ],
+    "marks": 1,
+    "answer": "The <b>amplitude of the oscillations decreases gradually</b> (the oscillations continue for several periods)."
+   },
+   {
+    "label": "(a)(iii)",
+    "codes": [
+     "20.5.4",
+     "20.5.5"
+    ],
+    "marks": 3,
+    "answer": "The oscillating magnet <b>cuts magnetic flux</b>, inducing an e.m.f. in the coil. This <b>drives a current through the resistor</b>, which <b>dissipates thermal energy</b>. By conservation of energy this thermal energy comes from the energy of the oscillations, so the oscillations are damped."
+   },
+   {
+    "label": "(b)",
+    "codes": [
+     "17.3.1",
+     "20.5.4"
+    ],
+    "marks": 2,
+    "answer": "For a given induced e.m.f. the <b>current is smaller</b>, so thermal energy is dissipated at a lower rate (the resistive force is smaller). The oscillations are therefore <b>less damped</b> — the amplitude decreases more slowly and they continue for longer."
+   }
+  ]
+ },
+ {
+  "year": "2025",
+  "topic": "12",
+  "paper": "9702/41/O/N/25",
+  "paper_full": "November 2025 · Paper 41",
+  "qnum": "Q1",
+  "title": "Circular motion &amp; simple harmonic motion — shadow projection",
+  "pdf": "9702_w25_qp_41_Q1_Motion_in_a_circle.pdf",
+  "marks": 15,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "12.2.1",
+     "12.2.2"
+    ],
+    "marks": 2,
+    "answer": "The velocity and acceleration both have <b>constant magnitude</b>, and the velocity is <b>always perpendicular to the acceleration</b> (the velocity is tangential and the acceleration is directed towards the centre)."
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "12.1.3"
+    ],
+    "marks": 1,
+    "answer": "v = <b>Rω</b>"
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "12.2.3"
+    ],
+    "marks": 2,
+    "answer": "a = Rω² = (Rω)ω = <b>vω</b>"
+   },
+   {
+    "label": "(c)(i)",
+    "codes": [
+     "17.1.3"
+    ],
+    "marks": 1,
+    "answer": "x = <b>R sin θ</b>"
+   },
+   {
+    "label": "(c)(ii)",
+    "codes": [
+     "12.1.3"
+    ],
+    "marks": 1,
+    "answer": "θ = <b>ωt</b>"
+   },
+   {
+    "label": "(c)(iii)",
+    "codes": [
+     "17.1.3"
+    ],
+    "marks": 1,
+    "answer": "Substituting θ = ωt into x = R sin θ gives <b>x = R sin ωt</b>."
+   },
+   {
+    "label": "(c)(iv)",
+    "codes": [
+     "17.1.3"
+    ],
+    "marks": 1,
+    "answer": "The equation is of the form <b>x = x₀ sin ωt</b>, the defining equation of simple harmonic motion (with amplitude x₀ = R), so the shadow's motion is simple harmonic."
+   },
+   {
+    "label": "(d)(i)",
+    "codes": [
+     "17.1.1"
+    ],
+    "marks": 1,
+    "answer": "amplitude = diameter/2 = 0.46/2 = <b>0.23 m</b>"
+   },
+   {
+    "label": "(d)(ii)",
+    "codes": [
+     "17.1.1"
+    ],
+    "marks": 2,
+    "answer": "ω = 2π/T, so T = 2π/ω = 2π/1.9<br>= <b>3.3 s</b>"
+   },
+   {
+    "label": "(d)(iii)",
+    "codes": [
+     "17.1.3"
+    ],
+    "marks": 2,
+    "answer": "a₀ = ω²x₀ = 1.9² × 0.23<br>= <b>0.83 m s⁻²</b>"
+   },
+   {
+    "label": "(e)",
+    "codes": [
+     "17.1.3"
+    ],
+    "marks": 1,
+    "answer": "The shadow is at the extreme of its motion — at the <b>left-hand edge of the circular path</b> (maximum displacement from P), labelled A, where the acceleration is a maximum."
+   }
+  ]
+ },
+ {
+  "year": "2025",
+  "topic": "13",
+  "paper": "9702/41/O/N/25",
+  "paper_full": "November 2025 · Paper 41",
+  "qnum": "Q3",
+  "title": "Gravitational field — point masses &amp; two spheres",
+  "pdf": "9702_w25_qp_41_Q3_Gravitational_fields.pdf",
+  "marks": 9,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "13.1.1"
+    ],
+    "marks": 1,
+    "answer": "The <b>force per unit mass</b> acting on a small test mass placed at the point."
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "13.3.1"
+    ],
+    "marks": 2,
+    "answer": "F = GMm/x² and g = F/m, so g = [GMm/x²]/m = <b>GM/x²</b>, where G is the gravitational constant."
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "13.1.2"
+    ],
+    "marks": 1,
+    "answer": "An arrow at P pointing <b>directly towards the point mass</b>."
+   },
+   {
+    "label": "(b)(iii)",
+    "codes": [
+     "13.3.2"
+    ],
+    "marks": 2,
+    "answer": "The field at Q is in the <b>opposite direction</b> to that at P (towards the mass), and is <b>four times the field strength at P</b> (Q is at distance x/2, and g ∝ 1/x²)."
+   },
+   {
+    "label": "(c)",
+    "codes": [
+     "13.3.2"
+    ],
+    "marks": 3,
+    "answer": "A line starting at (R, −g₀) and ending at (L − R, +g₀), passing through (L/2, 0), becoming shallower from R to L/2 and steeper again from L/2 to L − R."
+   }
+  ]
+ },
+ {
+  "year": "2025",
+  "topic": "12",
+  "paper": "9702/42/O/N/25",
+  "paper_full": "November 2025 · Paper 42",
+  "qnum": "Q1",
+  "title": "Circular motion of a student at latitude 52.2°",
+  "pdf": "9702_w25_qp_42_Q1_Motion_in_a_circle.pdf",
+  "marks": 9,
+  "parts": [
+   {
+    "label": "(a)(i)",
+    "codes": [
+     "12.1.3"
+    ],
+    "marks": 1,
+    "answer": "radius = 6.37 × 10⁶ × cos 52.2°<br>= <b>3.90 × 10⁶ m</b>"
+   },
+   {
+    "label": "(a)(ii)",
+    "codes": [
+     "12.1.3"
+    ],
+    "marks": 3,
+    "answer": "v = 2πr/T = 2π × 3.90 × 10⁶/(24 × 60 × 60)<br>= <b>280 m s⁻¹</b>"
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "12.2.4"
+    ],
+    "marks": 2,
+    "answer": "F = mv²/r = 58.6 × 280²/(3.90 × 10⁶)<br>= <b>1.2 N</b>"
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "12.2.1"
+    ],
+    "marks": 1,
+    "answer": "An arrow pointing <b>horizontally to the left</b> (towards the Earth’s axis of rotation)."
+   },
+   {
+    "label": "(b)(iii)",
+    "codes": [
+     "12.2.1"
+    ],
+    "marks": 2,
+    "answer": "An arrow <b>downwards</b> from the student (towards the centre of the Earth) labelled ‘weight’, and an <b>upwards</b> arrow (the normal contact force) pointing slightly <b>to the left of the normal</b>, labelled ‘contact force’ — their resultant is the horizontal centripetal force."
+   }
+  ]
+ },
+ {
+  "year": "2025",
+  "topic": "17",
+  "paper": "9702/42/O/N/25",
+  "paper_full": "November 2025 · Paper 42",
+  "qnum": "Q5",
+  "title": "Simple harmonic motion &amp; heavy damping — steel ball in oil",
+  "pdf": "9702_w25_qp_42_Q5_Oscillations.pdf",
+  "marks": 10,
+  "parts": [
+   {
+    "label": "(a)(i)",
+    "codes": [
+     "17.1.3"
+    ],
+    "marks": 2,
+    "answer": "The graph is a <b>straight line through the origin</b>, showing a is proportional to x, and its <b>negative gradient</b> shows a is always in the opposite direction to x — so the oscillations are simple harmonic."
+   },
+   {
+    "label": "(a)(ii)",
+    "codes": [
+     "17.1.3"
+    ],
+    "marks": 3,
+    "answer": "a₀ = ω²x₀ and ω = 2π/T, so T = 2π√(x₀/a₀) = 2π√(1.2/13)<br>= <b>1.9 s</b>"
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "17.3.1"
+    ],
+    "marks": 2,
+    "answer": "Damping is the <b>loss of energy from the oscillations</b> due to <b>resistive forces</b>."
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "17.3.2"
+    ],
+    "marks": 3,
+    "answer": "A line starting at x = ±1.2 cm at t = 0 (entirely above or below the t-axis), with both the magnitude of x and the magnitude of the gradient <b>continuously decreasing</b> — heavy damping, so the ball returns to equilibrium without oscillating."
+   }
+  ]
+ },
+ {
+  "year": "2025",
+  "topic": "12",
+  "paper": "9702/43/O/N/25",
+  "paper_full": "November 2025 · Paper 43",
+  "qnum": "Q1",
+  "title": "Circular motion &amp; simple harmonic motion — shadow projection",
+  "pdf": "9702_w25_qp_43_Q1_Motion_in_a_circle.pdf",
+  "marks": 15,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "12.2.1",
+     "12.2.2"
+    ],
+    "marks": 2,
+    "answer": "The velocity and acceleration both have <b>constant magnitude</b>, and the velocity is <b>always perpendicular to the acceleration</b> (the velocity is tangential and the acceleration is directed towards the centre)."
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "12.1.3"
+    ],
+    "marks": 1,
+    "answer": "v = <b>Rω</b>"
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "12.2.3"
+    ],
+    "marks": 2,
+    "answer": "a = Rω² = (Rω)ω = <b>vω</b>"
+   },
+   {
+    "label": "(c)(i)",
+    "codes": [
+     "17.1.3"
+    ],
+    "marks": 1,
+    "answer": "x = <b>R sin θ</b>"
+   },
+   {
+    "label": "(c)(ii)",
+    "codes": [
+     "12.1.3"
+    ],
+    "marks": 1,
+    "answer": "θ = <b>ωt</b>"
+   },
+   {
+    "label": "(c)(iii)",
+    "codes": [
+     "17.1.3"
+    ],
+    "marks": 1,
+    "answer": "Substituting θ = ωt into x = R sin θ gives <b>x = R sin ωt</b>."
+   },
+   {
+    "label": "(c)(iv)",
+    "codes": [
+     "17.1.3"
+    ],
+    "marks": 1,
+    "answer": "The equation is of the form <b>x = x₀ sin ωt</b>, the defining equation of simple harmonic motion (with amplitude x₀ = R), so the shadow's motion is simple harmonic."
+   },
+   {
+    "label": "(d)(i)",
+    "codes": [
+     "17.1.1"
+    ],
+    "marks": 1,
+    "answer": "amplitude = diameter/2 = 0.46/2 = <b>0.23 m</b>"
+   },
+   {
+    "label": "(d)(ii)",
+    "codes": [
+     "17.1.1"
+    ],
+    "marks": 2,
+    "answer": "ω = 2π/T, so T = 2π/ω = 2π/1.9<br>= <b>3.3 s</b>"
+   },
+   {
+    "label": "(d)(iii)",
+    "codes": [
+     "17.1.3"
+    ],
+    "marks": 2,
+    "answer": "a₀ = ω²x₀ = 1.9² × 0.23<br>= <b>0.83 m s⁻²</b>"
+   },
+   {
+    "label": "(e)",
+    "codes": [
+     "17.1.3"
+    ],
+    "marks": 1,
+    "answer": "The shadow is at the extreme of its motion — at the <b>left-hand edge of the circular path</b> (maximum displacement from P), labelled A, where the acceleration is a maximum."
+   }
+  ]
+ },
+ {
+  "year": "2025",
+  "topic": "13",
+  "paper": "9702/43/O/N/25",
+  "paper_full": "November 2025 · Paper 43",
+  "qnum": "Q3",
+  "title": "Gravitational field — point masses &amp; two spheres",
+  "pdf": "9702_w25_qp_43_Q3_Gravitational_fields.pdf",
+  "marks": 9,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "13.1.1"
+    ],
+    "marks": 1,
+    "answer": "The <b>force per unit mass</b> acting on a small test mass placed at the point."
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "13.3.1"
+    ],
+    "marks": 2,
+    "answer": "F = GMm/x² and g = F/m, so g = [GMm/x²]/m = <b>GM/x²</b>, where G is the gravitational constant."
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "13.1.2"
+    ],
+    "marks": 1,
+    "answer": "An arrow at P pointing <b>directly towards the point mass</b>."
+   },
+   {
+    "label": "(b)(iii)",
+    "codes": [
+     "13.3.2"
+    ],
+    "marks": 2,
+    "answer": "The field at Q is in the <b>opposite direction</b> to that at P (towards the mass), and is <b>four times the field strength at P</b> (Q is at distance x/2, and g ∝ 1/x²)."
+   },
+   {
+    "label": "(c)",
+    "codes": [
+     "13.3.2"
+    ],
+    "marks": 3,
+    "answer": "A line starting at (R, −g₀) and ending at (L − R, +g₀), passing through (L/2, 0), becoming shallower from R to L/2 and steeper again from L/2 to L − R."
+   }
+  ]
+ },
+ {
+  "year": "2025",
+  "topic": "13",
+  "paper": "9702/44/O/N/25",
+  "paper_full": "November 2025 · Paper 44",
+  "qnum": "Q1",
+  "title": "Binary star — Newton’s law, orbit &amp; centripetal acceleration",
+  "pdf": "9702_w25_qp_44_Q1_Gravitational_fields.pdf",
+  "marks": 11,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "13.2.2"
+    ],
+    "marks": 2,
+    "answer": "The gravitational force is <b>(directly) proportional to the product of the two masses</b> and <b>inversely proportional to the square of their separation</b>."
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "13.2.2"
+    ],
+    "marks": 2,
+    "answer": "F = Gm₁m₂/r² = 6.67 × 10⁻¹¹ × 4.0 × 10³⁰ × 2.0 × 10³⁰/(3.3 × 10¹²)²<br>= <b>4.9 × 10²⁵ N</b>"
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "13.2.3"
+    ],
+    "marks": 1,
+    "answer": "a = F/m = 4.9 × 10²⁵/4.0 × 10³⁰<br>= <b>1.2 × 10⁻⁵ m s⁻²</b>"
+   },
+   {
+    "label": "(b)(iii)",
+    "codes": [
+     "13.2.3",
+     "12.2.3"
+    ],
+    "marks": 3,
+    "answer": "a = rω² with ω = 2π/T. Since R<sub>B</sub> = 2R<sub>A</sub> and R<sub>A</sub> + R<sub>B</sub> = 3.3 × 10¹² m, R<sub>A</sub> = 3.3 × 10¹²/3 = 1.1 × 10¹² m.<br>T = 2π√(r/a) = 2π√(1.1 × 10¹²/1.2 × 10⁻⁵)<br>= <b>1.9 × 10⁹ s</b>"
+   },
+   {
+    "label": "(b)(iv)",
+    "codes": [
+     "13.2.3",
+     "12.1.3"
+    ],
+    "marks": 3,
+    "answer": "centripetal acceleration: <b>B greater than A</b> (a = F/m, and B has the smaller mass); linear speed: <b>B greater than A</b> (v = rω, and B has the larger radius); period: <b>B equal to A</b> (both orbit X with the same period)."
+   }
+  ]
+ },
+ {
+  "year": "2025",
+  "topic": "17",
+  "paper": "9702/44/O/N/25",
+  "paper_full": "November 2025 · Paper 44",
+  "qnum": "Q4",
+  "title": "Simple harmonic motion — frequency, energy &amp; interchanges",
+  "pdf": "9702_w25_qp_44_Q4_Oscillations.pdf",
+  "marks": 10,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "17.1.1"
+    ],
+    "marks": 1,
+    "answer": "The <b>number of oscillations per unit time</b>."
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "17.1.1"
+    ],
+    "marks": 1,
+    "answer": "The kinetic energy reaches its maximum/minimum/zero <b>twice in a cycle</b>, so one complete cycle takes 0.80 s."
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "17.1.3"
+    ],
+    "marks": 2,
+    "answer": "ω = 2π/T = 2π/0.80<br>= <b>7.9 rad s⁻¹</b> (or ω = √(a₀/x₀) = √(1.0/0.016))"
+   },
+   {
+    "label": "(b)(iii)",
+    "codes": [
+     "17.1.3",
+     "17.2.2",
+     "17.1.1"
+    ],
+    "marks": 3,
+    "answer": "Any three of: the <b>oscillations are simple harmonic</b>; the <b>amplitude = 0.016 m</b>; the <b>maximum speed = 0.13 m s⁻¹</b>; the <b>total energy = 7.0 × 10⁻⁴ J</b>; the <b>mass of the object = 0.087 kg</b>; the <b>maximum momentum = 0.011 kg m s⁻¹</b>."
+   },
+   {
+    "label": "(b)(iv)",
+    "codes": [
+     "17.2.1"
+    ],
+    "marks": 3,
+    "answer": "The kinetic energy is a <b>maximum at zero displacement</b> and <b>zero at maximum displacement</b>, while the potential energy is <b>zero at zero displacement</b> and a <b>maximum at maximum displacement</b>. The <b>sum of the kinetic and potential energies is constant</b> (total energy)."
+   }
+  ]
+ },
+ {
+  "year": "2026",
+  "topic": "13",
+  "paper": "9702/41/M/J/26",
+  "paper_full": "June 2026 · Paper 41",
+  "qnum": "Q1",
+  "title": "Gravitational potential &amp; field strength of a uniform planet",
+  "pdf": "9702_s26_qp_41_Q1_Gravitational_fields.pdf",
+  "marks": 10,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "13.4.1"
+    ],
+    "marks": 2,
+    "answer": "The <b>work done per unit mass</b><br>in bringing a small test mass from <b>infinity to the point</b>."
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "13.4.1",
+     "13.4.3"
+    ],
+    "marks": 2,
+    "answer": "The gravitational potential is defined as zero at infinity. Work is done by the two masses as they move towards each other (equivalently, work must be done on them to move them apart), so the potential decreases below zero — hence φ is <b>negative</b> for all values of x."
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "13.4.2"
+    ],
+    "marks": 2,
+    "answer": "ϕ = −GM/r. At the surface, r = R and ϕ = −Φ, so −Φ = −GM/R.<br>M = <b>ΦR/G</b>, where G is the (universal) gravitational constant."
+   },
+   {
+    "label": "(b)(iii)",
+    "codes": [
+     "13.3.1",
+     "13.3.2"
+    ],
+    "marks": 1,
+    "answer": "g₀ = GM/R² = (ΦR)/R² = <b>Φ/R</b>"
+   },
+   {
+    "label": "(b)(iv)",
+    "codes": [
+     "13.3.2"
+    ],
+    "marks": 3,
+    "answer": "Two curves: one in the <b>top-left quadrant</b> (between x = −3R and x = −R) and one in the <b>bottom-right quadrant</b> (between x = R and x = 3R). The upper curve passes through (−R, g₀) and (−2R, ¼g₀), with a non-zero value of g at x = −3R; the lower curve passes through (R, −g₀) and (2R, −¼g₀), with a non-zero value of g at x = 3R. Between −3R and −R the curve has a gradient and a magnitude of g that increase towards −R; between R and 3R the gradient and the magnitude of g decrease away from R. Nothing is drawn between x = −R and x = R."
+   }
+  ]
+ },
+ {
+  "year": "2026",
+  "topic": "12",
+  "paper": "9702/42/M/J/26",
+  "paper_full": "June 2026 · Paper 42",
+  "qnum": "Q1",
+  "title": "Aircraft in horizontal circle — centripetal acceleration &amp; banking angle",
+  "pdf": "9702_s26_qp_42_Q1_Motion_in_a_circle.pdf",
+  "marks": 10,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "12.2.1",
+     "12.2.2"
+    ],
+    "marks": 2,
+    "answer": "The acceleration is (always) perpendicular to the velocity, directed towards the centre of the circle, and the magnitudes of the velocity (the speed) and of the acceleration are constant — but their <b>directions change continuously</b>."
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "12.2.1",
+     "12.2.4"
+    ],
+    "marks": 2,
+    "answer": "The only other force on the aircraft is its weight, which is vertical and has no horizontal component. The lift must therefore have a horizontal component (the resultant force towards the centre of the circle) to provide the centripetal force — so the lift <b>cannot be vertically upwards</b>."
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "12.2.4"
+    ],
+    "marks": 1,
+    "answer": "Arrow drawn from the aircraft pointing <b>horizontally to the left</b>, i.e. towards the centre of the circle — the resultant force provides the centripetal force."
+   },
+   {
+    "label": "(b)(iii)",
+    "codes": [
+     "12.2.3"
+    ],
+    "marks": 2,
+    "answer": "a = v²/r = 180²/7200<br>= <b>4.5 m s⁻²</b>"
+   },
+   {
+    "label": "(b)(iv)",
+    "codes": [
+     "12.2.4"
+    ],
+    "marks": 3,
+    "answer": "The vertical component of the lift balances the weight (L cos θ = mg) and the horizontal component of the lift causes the centripetal acceleration (L sin θ = ma):<br>tan θ = a/g = 4.5/9.81<br>θ = <b>25°</b>"
+   }
+  ]
+ },
+ {
+  "year": "2026",
+  "topic": "13",
+  "paper": "9702/42/M/J/26",
+  "paper_full": "June 2026 · Paper 42",
+  "qnum": "Q2",
+  "title": "Earth's gravitational field — mass, potential &amp; satellite energy",
+  "pdf": "9702_s26_qp_42_Q2_Gravitational_fields.pdf",
+  "marks": 9,
+  "parts": [
+   {
+    "label": "(a)(i)",
+    "codes": [
+     "13.1.1"
+    ],
+    "marks": 1,
+    "answer": "The gravitational field (strength) at a point is the <b>force per unit mass acting on a small test mass placed at that point</b>."
+   },
+   {
+    "label": "(a)(ii)",
+    "codes": [
+     "13.1.2"
+    ],
+    "marks": 2,
+    "answer": "Draw <b>four straight, parallel field lines perpendicular to the ground</b> (vertical), approximately evenly spaced, with <b>arrows pointing downwards towards the ground</b>."
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "13.3.2"
+    ],
+    "marks": 2,
+    "answer": "g = GM/R² → M = gR²/G = 9.81×(6.37×10⁶)²/(6.67×10⁻¹¹)<br>= <b>5.97×10²⁴ kg</b>"
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "13.4.2"
+    ],
+    "marks": 2,
+    "answer": "φ = −GM/R = −6.67×10⁻¹¹×5.97×10²⁴/(6.37×10⁶)<br>= <b>−6.25×10⁷ J kg⁻¹</b>"
+   },
+   {
+    "label": "(b)(iii)",
+    "codes": [
+     "13.4.3"
+    ],
+    "marks": 2,
+    "answer": "Orbital radius r = (6.37 + 1.93)×10⁶ = 8.30×10⁶ m<br>E_P = −GMm/r = −6.67×10⁻¹¹×5.97×10²⁴×96.0/(8.30×10⁶)<br>= <b>−4.61×10⁹ J</b>"
+   }
+  ]
+ },
+ {
+  "year": "2026",
+  "topic": "17",
+  "paper": "9702/42/M/J/26",
+  "paper_full": "June 2026 · Paper 42",
+  "qnum": "Q5",
+  "title": "Block oscillating on a spring — amplitude &amp; kinetic energy",
+  "pdf": "9702_s26_qp_42_Q5_Oscillations.pdf",
+  "marks": 8,
+  "parts": [
+   {
+    "label": "(a)(i)",
+    "codes": [
+     "17.1.1"
+    ],
+    "marks": 1,
+    "answer": "ω = 2π/T = 2π/1.7<br>= <b>3.7 rad s⁻¹</b>"
+   },
+   {
+    "label": "(a)(ii)",
+    "codes": [
+     "17.1.1"
+    ],
+    "marks": 1,
+    "answer": "The amplitude is the <b>magnitude of the maximum displacement of the block from its equilibrium (mean) position</b>."
+   },
+   {
+    "label": "(a)(iii)",
+    "codes": [
+     "17.2.2"
+    ],
+    "marks": 3,
+    "answer": "E = ½mω²x₀²<br>13×10⁻⁶ = ½×27×10⁻³×3.7²×x₀²<br>x₀² = 2×13×10⁻⁶/(0.027×3.7²) = 7.03×10⁻⁵<br>x₀ = <b>8.4×10⁻³ m</b>"
+   },
+   {
+    "label": "(b)",
+    "codes": [
+     "17.2.1"
+    ],
+    "marks": 3,
+    "answer": "Sketch a dome-shaped curve, symmetrical about the EK-axis, with a single peak of <b>13 μJ at x = 0</b>, falling to EK = 0 at x = ±8.4×10⁻³ m (the amplitude). Add a consistent x-axis scale with at least one marking in each half (e.g. ±8 and ±4, in units of 10⁻³ m), corresponding to the end points."
+   }
+  ]
+ },
+ {
+  "year": "2026",
+  "topic": "13",
+  "paper": "9702/43/M/J/26",
+  "paper_full": "June 2026 · Paper 43",
+  "qnum": "Q1",
+  "title": "Gravitational potential &amp; field strength of a uniform planet",
+  "pdf": "9702_s26_qp_43_Q1_Gravitational_fields.pdf",
+  "marks": 10,
+  "parts": [
+   {
+    "label": "(a)",
+    "codes": [
+     "13.4.1"
+    ],
+    "marks": 2,
+    "answer": "The gravitational potential at a point is the <b>work done per unit mass</b> in bringing a small test mass from <b>infinity</b> to that point."
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "13.4.1"
+    ],
+    "marks": 2,
+    "answer": "The potential is defined as <b>zero at infinity</b>.<br>Work is done <b>by</b> the two masses as they move towards each other from infinity (or work must be done on them to increase their separation), so their gravitational potential energy decreases — hence the potential at any finite point is <b>negative for all values of x</b>."
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "13.4.2"
+    ],
+    "marks": 2,
+    "answer": "At the surface: ϕ = −GM/R = −Φ<br>M = <b>ΦR/G</b>, where G is the universal gravitational constant."
+   },
+   {
+    "label": "(b)(iii)",
+    "codes": [
+     "13.3.2"
+    ],
+    "marks": 1,
+    "answer": "g0 = GM/R² = G(ΦR/G)/R² = <b>Φ/R</b>"
+   },
+   {
+    "label": "(b)(iv)",
+    "codes": [
+     "13.3.2"
+    ],
+    "marks": 3,
+    "answer": "Draw two curves — one in the <b>top-left quadrant</b> and one in the <b>bottom-right quadrant</b> (nothing drawn between x = −R and x = +R).<br>Each curve must pass through (±R, ±g0) and (±2R, ±¼g0), with a <b>non-zero value of g at ±3R</b>.<br>The magnitudes of both g and the gradient <b>decrease</b> as |x| increases (g ∝ 1/x²), so each curve flattens towards the x-axis away from the planet."
+   }
+  ]
+ },
+ {
+  "year": "2026",
+  "topic": "13",
+  "paper": "9702/44/M/J/26",
+  "paper_full": "June 2026 · Paper 44",
+  "qnum": "Q2",
+  "title": "Geostationary satellite — Earth's mass &amp; mean density",
+  "pdf": "9702_s26_qp_44_Q2_Gravitational_fields.pdf",
+  "marks": 10,
+  "parts": [
+   {
+    "label": "(a)(i)",
+    "codes": [
+     "13.2.4"
+    ],
+    "marks": 1,
+    "answer": "A geostationary orbit is one in which the satellite <b>remains above the same point on the Earth's surface</b>."
+   },
+   {
+    "label": "(a)(ii)",
+    "codes": [
+     "13.2.4"
+    ],
+    "marks": 2,
+    "answer": "Any two of: the orbit is <b>equatorial</b> (directly above the Equator); the satellite orbits <b>from west to east</b>; the orbital period is <b>24 hours</b> (equal to the Earth's period of rotation)."
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "13.2.3"
+    ],
+    "marks": 1,
+    "answer": "v = <b>2πR/T</b>"
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "13.2.2",
+     "13.2.3"
+    ],
+    "marks": 2,
+    "answer": "GMm/R² = mRω² and ω = 2π/T:<br>GMm/R² = mR(2π/T)² → M = <b>4π²R³/(GT²)</b>"
+   },
+   {
+    "label": "(c)",
+    "codes": [
+     "13.2.3",
+     "13.2.2"
+    ],
+    "marks": 4,
+    "answer": "Orbit radius R = (6370 + 35 900)×10³ = 4.23×10⁷ m; T = 24×3600 = 8.64×10⁴ s<br>M = 4π²R³/(GT²) = 4π²×(4.23×10⁷)³/(6.67×10⁻¹¹×(8.64×10⁴)²) = 5.99×10²⁴ kg<br>V = (4/3)πr³ = (4/3)π×(6.37×10⁶)³ = 1.08×10²¹ m³<br>density = M/V = 5.99×10²⁴/1.08×10²¹ = <b>5530 kg m⁻³</b>"
+   }
+  ]
+ },
+ {
+  "year": "2026",
+  "topic": "17",
+  "paper": "9702/44/M/J/26",
+  "paper_full": "June 2026 · Paper 44",
+  "qnum": "Q5",
+  "title": "Ball on a spring — velocity–displacement graph &amp; resonance",
+  "pdf": "9702_s26_qp_44_Q5_Oscillations.pdf",
+  "marks": 9,
+  "parts": [
+   {
+    "label": "(a)(i)",
+    "codes": [
+     "17.1.4",
+     "17.1.5"
+    ],
+    "marks": 3,
+    "answer": "Draw a smooth closed loop (ellipse) enclosing the origin, cutting the x-axis at x = <b>±2.5 cm</b> (and nowhere further out) and the v-axis at v = <b>±4.4 cm s⁻¹</b> (and nowhere further out). The v–x graph for s.h.m. is an ellipse, v = ±ω√(x₀²−x²), not straight lines between the intercepts."
+   },
+   {
+    "label": "(a)(ii)",
+    "codes": [
+     "17.1.4",
+     "17.1.1"
+    ],
+    "marks": 2,
+    "answer": "v₀ = ωx₀ and ω = 2πf:<br>f = v₀/(2πx₀) = 4.4/(2π×2.5) = 4.4/15.7<br>= <b>0.28 Hz</b>"
+   },
+   {
+    "label": "(b)(i)",
+    "codes": [
+     "17.3.3"
+    ],
+    "marks": 2,
+    "answer": "Resonance is the oscillation of an object at <b>maximum amplitude</b>, which occurs when the <b>driving frequency equals the natural frequency</b> of the oscillating system."
+   },
+   {
+    "label": "(b)(ii)",
+    "codes": [
+     "17.3.3"
+    ],
+    "marks": 2,
+    "answer": "Draw a curve rising continuously from f = 0 (amplitude never zero when f > 0) to a single peak at f = <b>0.28 Hz</b>, then falling continuously to f = 0.40 Hz."
+   }
+  ]
+ }
+]

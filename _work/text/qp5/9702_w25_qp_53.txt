@@ -1,0 +1,364 @@
+
+===== PDF PAGE 1 =====
+This document has 8 pages.
+ 
+[Turn over
+Cambridge International AS & A Level
+* 5 7 7 5 0 9 4 2 3 6 *
+PHYSICS 
+9702/53
+Paper 5 Planning, Analysis and Evaluation 
+October/November 2025
+ 
+1 hour 15 minutes
+You must answer on the question paper.
+No additional materials are needed.
+INSTRUCTIONS
+ 
+●
+Answer all questions.
+ 
+●
+Use a black or dark blue pen. You may use an HB pencil for any diagrams or graphs.
+ 
+●
+Write your name, centre number and candidate number in the boxes at the top of the page.
+ 
+●
+Write your answer to each question in the space provided.
+ 
+●
+Do not use an erasable pen or correction fluid.
+ 
+●
+Do not write on any bar codes.
+ 
+●
+You may use a calculator.
+ 
+●
+You should show all your working and use appropriate units.
+INFORMATION
+ 
+●
+The total mark for this paper is 30.
+ 
+●
+The number of marks for each question or part question is shown in brackets [ ].
+DC (DE/FC) 342411/3
+© UCLES 2025
+,	,
+* 0000800000001 *
+¬Oz> 4mHuOªE^|5W
+¬DnyX¥£Zvmxy\k
+¥U¥u5euUEUU
+DFD
+
+
+===== PDF PAGE 2 =====
+2
+9702/53/O/N/25
+© UCLES 2025
+1 
+On a bench, a steel ball of radius r is used to compress a spring by a distance x. The ball is held at 
+rest in this position, as shown in Fig. 1.1.
+P
+compressed
+spring
+ball
+bench
+Fig. 1.1
+ 
+The ball is released and rolls along the bench. At a fixed point P, the ball has speed v. The speed 
+of the ball at P is determined using one light gate connected to a timer.
+ 
+Several steel balls of different radii are available.
+ 
+It is suggested that v is related to r by the relationship
+v 2 = Ykx2
+r nρ
+ 
+where k is the spring constant of the spring, ρ is the density of the steel, and Y and n are constants.
+ 
+Plan a laboratory experiment to test the relationship between v and r.
+ 
+Draw a diagram showing the arrangement of your equipment.
+ 
+Explain how the results could be used to determine values for Y and n.
+ 
+In your plan you should include:
+• 
+the procedure to be followed
+• 
+the measurements to be taken
+• 
+the control of variables
+• 
+the analysis of the data
+• 
+any safety precautions to be taken.
+* 0000800000002 *
+,	,
+ĬÍú¾Ġ´íÈõÏĪÅĊßú·þ×
+ĬÄðúÕġćąáċċěÁâě»ĎĂ
+ĥąõĕµÕĥõÅÕąÅÅÕĥĕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 3 =====
+3
+9702/53/O/N/25
+© UCLES 2025
+[Turn over
+Diagram
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+* 0000800000003 *
+,	,
+ĬÏú¾Ġ´íÈõÏĪÅĊßü·þ×
+ĬÄïùÍħċõØíöÎĕÚ¿»ĞĂ
+ĥąąÕõµąĕÕåÕÅÅµąÕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 4 =====
+4
+9702/53/O/N/25
+© UCLES 2025
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+..................................................................................................................................................................
+.......................................................................................................................................................... [15]
+* 0000800000004 *
+,	,
+ĬÍú¾Ġ´íÈõÏĪÅĊÝú·Ā×
+ĬÄïüÍĝùôãóíÕ·öĝëĖĂ
+ĥµÕÕµµąµµąåÅąµåÕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 5 =====
+5
+9702/53/O/N/25
+© UCLES 2025
+[Turn over
+2 
+A student investigates light from different galaxies.
+ 
+Fig. 2.1 shows the lines in the absorption spectrum from a distant galaxy.
+λ
+increasing wavelength
+Fig. 2.1
+ 
+The wavelength of one of the lines in the absorption spectrum is λ. The wavelength of this spectral 
+line in the laboratory is λ0.
+ 
+The observations of the same spectral line are repeated for different galaxies.
+ 
+The student determines the distance d of each galaxy from the Earth.
+ 
+It is suggested that λ and d are related by the equation
+λ – λ0
+λ0
+ = Hd
+c
+ 
+where c is the speed of light in free space and H is the Hubble constant.
+ 
+(a) A graph is plotted of λ on the y-axis against d
+c on the x-axis.
+ 
+ 
+Determine expressions for the gradient and y-intercept.
+ 
+gradient =  ...............................................................
+ 
+y-intercept =  ...............................................................
+ 
+[1]
+* 0000800000005 *
+,	,
+ĬÏú¾Ġ´íÈõÏĪÅĊÝü·Ā×
+ĬÄðûÕīõĄÖąĄĔģþ¹ëĦĂ
+ĥµåĕõÕĥÕåõõÅąÕÅĕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 6 =====
+6
+9702/53/O/N/25
+© UCLES 2025
+ 
+(b) Values of d and λ are given in Table 2.1.
+Table 2.1
+d / 1021 km
+d
+c / 1015 s
+λ / nm
+0.48 ± 0.12
+658.4
+1.04 ± 0.12
+661.2
+1.45 ± 0.12
+664.2
+1.80 ± 0.12
+665.7
+2.85 ± 0.12
+672.4
+3.75 ± 0.12
+678.2
+ 
+ 
+The value of c is 3.00 × 105 km s–1.
+ 
+ 
+Calculate and record values of d
+c / 1015 s in Table 2.1. Include the absolute uncertainties in d
+c .
+ 
+[2]
+ 
+(c) (i) Plot a graph of λ / nm against d
+c / 1015 s. Include error bars for d
+c . 
+[2]
+ 
+ 
+(ii) Draw the straight line of best fit and a worst acceptable straight line on your graph. Label 
+both lines. 
+[2]
+ 
+ 
+(iii) Determine the gradient of the line of best fit. Include the absolute uncertainty in your 
+answer.
+ 
+gradient =  ......................................................... [2]
+* 0000800000006 *
+,	,
+ĬÑú¾Ġ´íÈõÏĪÅĊàü¶þ×
+ĬÄïûÚġčĊÎĂñĩăöÜăĖĂ
+ĥĥąĕõõĥõĥĕÕÅÅÕĥÕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 7 =====
+7
+9702/53/O/N/25
+© UCLES 2025
+[Turn over
+ 
+ 
+658
+0
+2
+4
+10
+12
+14
+6
+8
+660
+662
+664
+666
+668
+670
+678
+680
+672
+674
+676
+/ 1015 s
+d
+c
+   / nm
+λ
+* 0000800000007 *
+,	,
+ĬÓú¾Ġ´íÈõÏĪÅĊàú¶þ×
+ĬÄðüÒħđúëøĀà×þĀăĦĂ
+ĥĥõÕµĕąĕõĥąÅÅµąĕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 8 =====
+8
+9702/53/O/N/25
+© UCLES 2025
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+ 
+ 
+(iv) Determine the y-intercept of the line of best fit. Include the absolute uncertainty in your 
+answer.
+ 
+y-intercept =  ......................................................... [2]
+ 
+(d) Using your answers to (a), (c)(iii) and (c)(iv), determine the values of λ0 and H. Include 
+appropriate units.
+ 
+λ0 =  ...............................................................
+ 
+H =  ...............................................................
+ 
+[2]
+ 
+(e) Hubble’s law suggests that the age T of the universe is related to H by
+T = 1
+H .
+ 
+ 
+Determine a value for T. Include the absolute uncertainty in your answer.
+ 
+T =  ....................................................... s [2]
+ 
+[Total: 15]
+* 0000800000008 *
+,		,
+ĬÑú¾Ġ´íÈõÏĪÅĊÞü¶Ā×
+ĬÄðùÒĝģïÐúćçõâÞēĎĂ
+ĥÕåÕõĕąµĕÅõÅąµåĕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD

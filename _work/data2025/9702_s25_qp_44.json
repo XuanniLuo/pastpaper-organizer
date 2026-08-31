@@ -1,0 +1,212 @@
+{
+  "paper": "9702/44/M/J/25",
+  "paper_full": "June 2025 · Paper 44",
+  "questions": [
+    {
+      "topic": "13",
+      "qnum": "Q1",
+      "title": "Gravitational field &amp; potential of the Earth",
+      "marks": 11,
+      "pages": [4, 5],
+      "pdf": "9702_s25_qp_44_Q1_Gravitational_fields.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["13.1.1"], "marks": 1,
+          "answer": "Gravitational field is the <b>force per unit mass</b> acting on a small test mass placed at the point." },
+        { "label": "(b)(i)", "codes": ["13.1.2"], "marks": 2,
+          "answer": "The field lines are <b>radial</b>, pointing <b>towards the centre of the planet</b>." },
+        { "label": "(b)(ii)", "codes": ["13.3.3"], "marks": 2,
+          "answer": "For small changes in height, the change in height is <b>very much smaller than the radius</b> of the planet, so (R + h)² ≈ R² — the field lines are approximately parallel and g is approximately constant." },
+        { "label": "(c)(i)", "codes": ["13.3.2"], "marks": 2,
+          "answer": "At the surface g = GM/R², so 9.81 = 3.99 × 10¹⁴/R²<br>R = √(3.99 × 10¹⁴/9.81) = <b>6.38 × 10⁶ m</b>" },
+        { "label": "(c)(ii)", "codes": ["13.4.2"], "marks": 2,
+          "answer": "φ = −GM/R = −3.99 × 10¹⁴/(6.38 × 10⁶)<br>= <b>−6.25 × 10⁷ J kg⁻¹</b>" },
+        { "label": "(d)", "codes": ["13.4.1", "13.4.3"], "marks": 2,
+          "answer": "The potential energy is <b>zero at infinite separation</b>, and the gravitational force is <b>attractive</b> — work is done by the field as the masses come together, so the potential energy falls below zero and is always negative." }
+      ]
+    },
+    {
+      "topic": "14",
+      "qnum": "Q2",
+      "title": "Thermal equilibrium — ice melting in water",
+      "marks": 7,
+      "pages": [6],
+      "pdf": "9702_s25_qp_44_Q2_Temperature.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["14.1.2"], "marks": 2,
+          "answer": "The two objects are at the <b>same temperature</b>, so there is <b>no net transfer of thermal energy</b> between them." },
+        { "label": "(b)(i)", "codes": ["14.3.2"], "marks": 1,
+          "answer": "E₁ = <b>XL</b> (the energy to melt the ice at 0 °C)." },
+        { "label": "(b)(ii)", "codes": ["14.3.1"], "marks": 1,
+          "answer": "E₂ = <b>Mc(t − θ)</b> (the energy lost by the water cooling from t to θ)." },
+        { "label": "(b)(iii)", "codes": ["14.3.1"], "marks": 1,
+          "answer": "E₃ = <b>Xcθ</b> (the energy gained by the melted ice warming from 0 °C to θ)." },
+        { "label": "(c)", "codes": ["14.3.1", "14.3.2"], "marks": 2,
+          "answer": "Energy is conserved: E₂ = E₁ + E₃, so Mc(t − θ) = XL + Xcθ.<br>Mct − Mcθ = XL + Xcθ<br>Mct − XL = θ(Mc + Xc) = θc(M + X)<br>θ = <b>(Mct − XL)/c(M + X)</b>" }
+      ]
+    },
+    {
+      "topic": "15",
+      "qnum": "Q3",
+      "title": "Ideal gas — r.m.s. speed, temperature &amp; internal energy",
+      "marks": 10,
+      "pages": [7],
+      "pdf": "9702_s25_qp_44_Q3_Ideal_gases.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["15.2.1"], "marks": 2,
+          "answer": "A gas that obeys <b>pV ∝ T</b> at all values of p, V and T, where T is the thermodynamic temperature." },
+        { "label": "(b)(i)", "codes": ["15.3.2", "15.3.3"], "marks": 3,
+          "answer": "pV = ⅓Nm⟨c²⟩ and Nm/V = ρ, so p = ⅓ρ⟨c²⟩.<br>1.6 × 10⁵ = ⅓ × 1.9 × ⟨c²⟩<br>c<sub>r.m.s.</sub> = √(3 × 1.6 × 10⁵/1.9) = <b>500 m s⁻¹</b>" },
+        { "label": "(b)(ii)", "codes": ["15.3.4"], "marks": 2,
+          "answer": "½m⟨c²⟩ = (3/2)kT, so T = m⟨c²⟩/(3k)<br>= 4.7 × 10⁻²⁶ × 503²/(3 × 1.38 × 10⁻²³)<br>= <b>290 K</b>" },
+        { "label": "(c)", "codes": ["16.1.1", "15.3.4"], "marks": 3,
+          "answer": "For an ideal gas the molecular potential energy is zero, so the internal energy is the total kinetic energy: U = N × (3/2)kT.<br>U = 6.0 × 6.02 × 10²³ × (3/2) × 1.38 × 10⁻²³ × 290<br>= <b>21000 J</b>" }
+      ]
+    },
+    {
+      "topic": "17",
+      "qnum": "Q4",
+      "title": "Simple pendulum — frequency &amp; maximum displacement",
+      "marks": 8,
+      "pages": [8, 9],
+      "pdf": "9702_s25_qp_44_Q4_Oscillations.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["17.1.3"], "marks": 2,
+          "answer": "Motion in which the <b>acceleration is (directly) proportional to the displacement</b> and is <b>always directed towards a fixed point</b> (in the opposite direction to the displacement)." },
+        { "label": "(b)(i)", "codes": ["17.1.1"], "marks": 1,
+          "answer": "The sphere passes through the equilibrium position in the same direction at <b>t₁ and t₅</b> (or t₃ and t₇)." },
+        { "label": "(b)(ii)", "codes": ["17.1.1"], "marks": 2,
+          "answer": "The interval t₁ → t₆ is 1.25 periods, so T = 2.2/1.25 = 1.76 s.<br>f = 1/T = 1.25/2.2 = <b>0.57 Hz</b>" },
+        { "label": "(c)", "codes": ["17.1.3", "17.1.4"], "marks": 3,
+          "answer": "v₀ = ωx₀ with ω = 2πf, so x₀ = v₀/(2πf) = 0.080/(2π × 0.57)<br>= <b>0.022 m</b>" }
+      ]
+    },
+    {
+      "topic": "18",
+      "qnum": "Q5",
+      "title": "Charged sphere — electric potential, field &amp; capacitance",
+      "marks": 10,
+      "pages": [10, 11],
+      "pdf": "9702_s25_qp_44_Q5_Electric_fields.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["18.5.1"], "marks": 2,
+          "answer": "The <b>work done per unit positive charge</b> in moving a small test charge <b>from infinity to the point</b>." },
+        { "label": "(b)(i)", "codes": ["18.4.1"], "marks": 2,
+          "answer": "E ∝ 1/r², so at the surface (radius r) compared with 3r:<br>E = 3² × 2.0 × 10⁵ = <b>1.8 × 10⁶ N C⁻¹</b>" },
+        { "label": "(b)(ii)", "codes": ["18.5.3", "18.4.1"], "marks": 2,
+          "answer": "V = Q/4πε₀r and E = Q/4πε₀r², so E = V/r.<br>r = V/E = 9.0 × 10⁴/1.8 × 10⁶ = <b>0.050 m = 5.0 cm</b>" },
+        { "label": "(b)(iii)", "codes": ["18.5.3"], "marks": 2,
+          "answer": "Q = 4πε₀Vr = 4π × 8.85 × 10⁻¹² × 9.0 × 10⁴ × 0.050<br>= <b>5.0 × 10⁻⁷ C</b>" },
+        { "label": "(b)(iv)", "codes": ["19.1.2"], "marks": 2,
+          "answer": "C = Q/V = 5.0 × 10⁻⁷/9.0 × 10⁴<br>= <b>5.6 × 10⁻¹² F</b>" }
+      ]
+    },
+    {
+      "topic": "20",
+      "qnum": "Q6",
+      "title": "Coil in a magnetic field — force &amp; torque",
+      "marks": 10,
+      "pages": [12, 13],
+      "pdf": "9702_s25_qp_44_Q6_Magnetic_fields.pdf",
+      "parts": [
+        { "label": "(a)(i)", "codes": ["20.2.2"], "marks": 3,
+          "answer": "F = BIL × N = 5.2 × 10⁻³ × 1.2 × 0.054 × 190<br>= <b>0.064 N</b>" },
+        { "label": "(a)(ii)", "codes": ["20.2.2"], "marks": 2,
+          "answer": "torque = force × perpendicular distance between the forces on QR and PS<br>= 0.064 × 0.025 cos θ = <b>1.6 × 10⁻³ cos θ N m</b>" },
+        { "label": "(a)(iii)", "codes": ["20.2.2"], "marks": 3,
+          "answer": "One complete cycle of a <b>sinusoidal curve</b> between 0° and 360°, with the τ axis labelled to show maximum and minimum torque at <b>±1.6 × 10⁻³ N m</b>: maximum at 0° and 360°, minimum at 180°, and torque zero at 90° and 270°." },
+        { "label": "(b)", "codes": ["20.4.2"], "marks": 2,
+          "answer": "The ferrous core <b>increases the magnetic flux density</b>, so the <b>amplitude of the torque increases</b>." }
+      ]
+    },
+    {
+      "topic": "17",
+      "qnum": "Q7",
+      "title": "Damped oscillations — magnet in a coil &amp; electromagnetic induction",
+      "marks": 8,
+      "pages": [14, 15],
+      "pdf": "9702_s25_qp_44_Q7_Oscillations.pdf",
+      "parts": [
+        { "label": "(a)(i)", "codes": ["17.3.1"], "marks": 2,
+          "answer": "Damping is the <b>loss of energy from the oscillations</b> due to <b>resistive forces</b>." },
+        { "label": "(a)(ii)", "codes": ["17.3.1"], "marks": 1,
+          "answer": "The <b>amplitude of the oscillations decreases gradually</b> (the oscillations continue for several periods)." },
+        { "label": "(a)(iii)", "codes": ["20.5.4", "20.5.5"], "marks": 3,
+          "answer": "The oscillating magnet <b>cuts magnetic flux</b>, inducing an e.m.f. in the coil. This <b>drives a current through the resistor</b>, which <b>dissipates thermal energy</b>. By conservation of energy this thermal energy comes from the energy of the oscillations, so the oscillations are damped." },
+        { "label": "(b)", "codes": ["17.3.1", "20.5.4"], "marks": 2,
+          "answer": "For a given induced e.m.f. the <b>current is smaller</b>, so thermal energy is dissipated at a lower rate (the resistive force is smaller). The oscillations are therefore <b>less damped</b> — the amplitude decreases more slowly and they continue for longer." }
+      ]
+    },
+    {
+      "topic": "21",
+      "qnum": "Q8",
+      "title": "Bridge rectifier &amp; smoothing — time constant",
+      "marks": 10,
+      "pages": [16, 17],
+      "pdf": "9702_s25_qp_44_Q8_Alternating_currents.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["21.2.3"], "marks": 2,
+          "answer": "Four diodes (one in each gap of the bridge), each with the correct circuit symbol, all connected in the correct direction (pointing left to right) so that A is at a positive potential with respect to B." },
+        { "label": "(b)(i)", "codes": ["21.2.4"], "marks": 3,
+          "answer": "Three lines showing <b>exponential decay from the peaks</b> at 0.5T, 1.0T and 1.5T, ending where the decay meets the next rising peak, with rising portions following the dotted peaks, and a <b>minimum V of (2/3)V₀</b>." },
+        { "label": "(b)(ii)", "codes": ["19.3.2", "19.3.3"], "marks": 3,
+          "answer": "From the graph the discharge time (from V₀ to (2/3)V₀) is (11/30)T.<br>(2/3)V₀ = V₀ e^(−(11/30)T/τ)<br>ln(2/3) = −11T/30τ<br>τ = <b>0.90 T</b>" },
+        { "label": "(b)(iii)", "codes": ["19.3.2"], "marks": 2,
+          "answer": "The <b>time constant increases</b> (τ = RC increases with R), so the capacitor discharges more slowly: the <b>minimum voltage is larger</b> (a smaller difference between the maximum and minimum voltages)." }
+      ]
+    },
+    {
+      "topic": "22",
+      "qnum": "Q9",
+      "title": "Wave–particle duality &amp; electron diffraction",
+      "marks": 8,
+      "pages": [18, 19],
+      "pdf": "9702_s25_qp_44_Q9_Quantum_physics.pdf",
+      "parts": [
+        { "label": "(a)(i)", "codes": ["22.3.1", "22.3.2"], "marks": 2,
+          "answer": "Wave–particle duality: an <b>electromagnetic wave can behave like a particle</b>, and a <b>moving particle can behave like a wave</b>." },
+        { "label": "(a)(ii)", "codes": ["22.3.4"], "marks": 2,
+          "answer": "λ = <b>h/p</b>, where h is the Planck constant and p is the momentum of the particle." },
+        { "label": "(b)(i)", "codes": ["22.3.2"], "marks": 2,
+          "answer": "The pattern is similar to the <b>diffraction of light</b>, and diffraction is characteristic of wave behaviour — the rings show <b>constructive and destructive interference</b>. This is evidence of a wave nature for the electrons." },
+        { "label": "(b)(ii)", "codes": ["22.3.4"], "marks": 2,
+          "answer": "The de Broglie wavelength <b>decreases</b> (λ = h/p and p increases), so the <b>rings become closer together</b>." }
+      ]
+    },
+    {
+      "topic": "24",
+      "qnum": "Q10",
+      "title": "Ultrasound — piezoelectric transducer, impedance &amp; attenuation",
+      "marks": 9,
+      "pages": [20, 21],
+      "pdf": "9702_s25_qp_44_Q10_Medical_physics.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["24.1.1", "24.1.2"], "marks": 3,
+          "answer": "An <b>alternating p.d.</b> is applied across the crystal, causing it to <b>vibrate</b>. When the frequency of the applied p.d. equals the <b>natural frequency</b> of the crystal it <b>resonates</b>, and this natural frequency is in the <b>ultrasound range</b> — so ultrasound waves are generated." },
+        { "label": "(b)(i)", "codes": ["24.1.4"], "marks": 2,
+          "answer": "Specific acoustic impedance is the <b>product of the density of the medium and the speed of (ultra)sound in the medium</b> (Z = ρc)." },
+        { "label": "(b)(ii)", "codes": ["24.1.5"], "marks": 2,
+          "answer": "The reflected fraction α is <b>close to 0 when Z₁ and Z₂ are equal</b>, and <b>close to 1 when Z₁ and Z₂ are very different</b>." },
+        { "label": "(c)", "codes": ["24.1.6"], "marks": 2,
+          "answer": "I = I₀e^(−μx), so ln(I/I₀) = −μx.<br>ln 0.62 = −μ × 2.1<br>μ = <b>0.23 cm⁻¹</b>" }
+      ]
+    },
+    {
+      "topic": "23",
+      "qnum": "Q11",
+      "title": "Nuclear fusion in a star — energy, luminosity &amp; temperature",
+      "marks": 9,
+      "pages": [22],
+      "pdf": "9702_s25_qp_44_Q11_Nuclear_physics.pdf",
+      "parts": [
+        { "label": "(a)(i)", "codes": ["23.1.2"], "marks": 1,
+          "answer": "<b>Nuclear fusion</b>." },
+        { "label": "(a)(ii)", "codes": ["23.1.1"], "marks": 3,
+          "answer": "Δm = 0.030377 − (3 × 0.002388) = 0.023213 u (the mass difference between the helium-4 and the three deuterium nuclei).<br>E = Δm c² = 0.023213 × 1.66 × 10⁻²⁷ × (3.00 × 10⁸)²<br>= <b>3.47 × 10⁻¹² J</b>" },
+        { "label": "(b)(i)", "codes": ["25.1.1", "23.1.1"], "marks": 3,
+          "answer": "Mass of 1 mol of helium-4 = 4 × 10⁻³ kg. Number of helium-4 nuclei produced per second<br>= (6.02 × 10²³ × 7.34 × 10¹¹)/(4 × 10⁻³) = 1.10 × 10³⁸ s⁻¹.<br>Luminosity = (number per second) × (energy per nucleus) = 1.10 × 10³⁸ × 3.47 × 10⁻¹²<br>= <b>3.83 × 10²⁶ W</b>" },
+        { "label": "(b)(ii)", "codes": ["25.2.2"], "marks": 2,
+          "answer": "L = 4πσr²T⁴<br>3.83 × 10²⁶ = 4π × 5.67 × 10⁻⁸ × (6.96 × 10⁸)² × T⁴<br>T = <b>5770 K</b>" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "paper": "9702/44/O/N/25",
+  "paper_full": "November 2025 · Paper 44",
+  "questions": [
+    {
+      "topic": "13",
+      "qnum": "Q1",
+      "title": "Binary star — Newton’s law, orbit &amp; centripetal acceleration",
+      "marks": 11,
+      "pages": [4, 5],
+      "pdf": "9702_w25_qp_44_Q1_Gravitational_fields.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["13.2.2"], "marks": 2,
+          "answer": "The gravitational force is <b>(directly) proportional to the product of the two masses</b> and <b>inversely proportional to the square of their separation</b>." },
+        { "label": "(b)(i)", "codes": ["13.2.2"], "marks": 2,
+          "answer": "F = Gm₁m₂/r² = 6.67 × 10⁻¹¹ × 4.0 × 10³⁰ × 2.0 × 10³⁰/(3.3 × 10¹²)²<br>= <b>4.9 × 10²⁵ N</b>" },
+        { "label": "(b)(ii)", "codes": ["13.2.3"], "marks": 1,
+          "answer": "a = F/m = 4.9 × 10²⁵/4.0 × 10³⁰<br>= <b>1.2 × 10⁻⁵ m s⁻²</b>" },
+        { "label": "(b)(iii)", "codes": ["13.2.3", "12.2.3"], "marks": 3,
+          "answer": "a = rω² with ω = 2π/T. Since R<sub>B</sub> = 2R<sub>A</sub> and R<sub>A</sub> + R<sub>B</sub> = 3.3 × 10¹² m, R<sub>A</sub> = 3.3 × 10¹²/3 = 1.1 × 10¹² m.<br>T = 2π√(r/a) = 2π√(1.1 × 10¹²/1.2 × 10⁻⁵)<br>= <b>1.9 × 10⁹ s</b>" },
+        { "label": "(b)(iv)", "codes": ["13.2.3", "12.1.3"], "marks": 3,
+          "answer": "centripetal acceleration: <b>B greater than A</b> (a = F/m, and B has the smaller mass); linear speed: <b>B greater than A</b> (v = rω, and B has the larger radius); period: <b>B equal to A</b> (both orbit X with the same period)." }
+      ]
+    },
+    {
+      "topic": "15",
+      "qnum": "Q2",
+      "title": "Ideal gas — equation of state &amp; r.m.s. speed ratio",
+      "marks": 7,
+      "pages": [6, 7],
+      "pdf": "9702_w25_qp_44_Q2_Ideal_gases.pdf",
+      "parts": [
+        { "label": "(a)(i)", "codes": ["15.2.2"], "marks": 3,
+          "answer": "p = the <b>pressure</b> of the gas, V = the <b>volume</b> of the gas, N = the <b>number of molecules</b>, k = the <b>Boltzmann constant</b>, T = the <b>thermodynamic temperature</b>." },
+        { "label": "(a)(ii)", "codes": ["15.3.4"], "marks": 2,
+          "answer": "pV = NkT = ⅓Nm⟨c²⟩, so m⟨c²⟩ = 3kT.<br>E<sub>k</sub> = ½m⟨c²⟩ = ½ × 3kT = <b>(3/2)kT</b>" },
+        { "label": "(b)", "codes": ["15.3.3"], "marks": 2,
+          "answer": "At the same temperature ½m⟨c²⟩ is the same for both gases, so c<sub>r.m.s.</sub> ∝ 1/√m.<br>ratio = √(m<sub>O</sub>/m<sub>H</sub>) = √(32/2) = <b>4.0</b>" }
+      ]
+    },
+    {
+      "topic": "16",
+      "qnum": "Q3",
+      "title": "Internal energy of an ideal gas — changes X and Y",
+      "marks": 9,
+      "pages": [8, 9],
+      "pdf": "9702_w25_qp_44_Q3_Thermodynamics.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["16.1.1"], "marks": 2,
+          "answer": "For an ideal gas the internal energy is the <b>total kinetic energy of the random motion of the molecules</b>, because the <b>potential energy is zero</b> (there are no intermolecular forces)." },
+        { "label": "(b)(i)", "codes": ["16.1.1", "15.2.2"], "marks": 2,
+          "answer": "U = (3/2)NkT = (3/2)pV = (3/2) × 2.0 × 10⁵ × 0.016<br>= <b>4800 J</b>" },
+        { "label": "(b)(ii)", "codes": ["15.2.2"], "marks": 1,
+          "answer": "At constant volume p ∝ T, so doubling the pressure doubles the temperature: T = 400 × 2 = <b>800 K</b>" },
+        { "label": "(b)(iii)", "codes": ["15.2.2"], "marks": 1,
+          "answer": "At constant temperature pV is constant, so halving the pressure doubles the volume: V = 0.016 × 2 = <b>0.032 m³</b>" },
+        { "label": "(b)(iv)", "codes": ["15.2.2"], "marks": 3,
+          "answer": "Change X: a <b>straight vertical line</b> from A to B at (0.016, 4.0 × 10⁵), labelled X (constant volume).<br>Change Y: a <b>curve with a continuously decreasing negative gradient</b> from B to C at (0.032, 2.0 × 10⁵), labelled Y (isothermal)." }
+      ]
+    },
+    {
+      "topic": "17",
+      "qnum": "Q4",
+      "title": "Simple harmonic motion — frequency, energy &amp; interchanges",
+      "marks": 10,
+      "pages": [10, 11],
+      "pdf": "9702_w25_qp_44_Q4_Oscillations.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["17.1.1"], "marks": 1,
+          "answer": "The <b>number of oscillations per unit time</b>." },
+        { "label": "(b)(i)", "codes": ["17.1.1"], "marks": 1,
+          "answer": "The kinetic energy reaches its maximum/minimum/zero <b>twice in a cycle</b>, so one complete cycle takes 0.80 s." },
+        { "label": "(b)(ii)", "codes": ["17.1.3"], "marks": 2,
+          "answer": "ω = 2π/T = 2π/0.80<br>= <b>7.9 rad s⁻¹</b> (or ω = √(a₀/x₀) = √(1.0/0.016))" },
+        { "label": "(b)(iii)", "codes": ["17.1.3", "17.2.2", "17.1.1"], "marks": 3,
+          "answer": "Any three of: the <b>oscillations are simple harmonic</b>; the <b>amplitude = 0.016 m</b>; the <b>maximum speed = 0.13 m s⁻¹</b>; the <b>total energy = 7.0 × 10⁻⁴ J</b>; the <b>mass of the object = 0.087 kg</b>; the <b>maximum momentum = 0.011 kg m s⁻¹</b>." },
+        { "label": "(b)(iv)", "codes": ["17.2.1"], "marks": 3,
+          "answer": "The kinetic energy is a <b>maximum at zero displacement</b> and <b>zero at maximum displacement</b>, while the potential energy is <b>zero at zero displacement</b> and a <b>maximum at maximum displacement</b>. The <b>sum of the kinetic and potential energies is constant</b> (total energy)." }
+      ]
+    },
+    {
+      "topic": "18",
+      "qnum": "Q5",
+      "title": "Electric potential &amp; field — proton &amp; charged sphere",
+      "marks": 9,
+      "pages": [12, 13],
+      "pdf": "9702_w25_qp_44_Q5_Electric_fields.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["18.5.1"], "marks": 3,
+          "answer": "The potential is <b>defined as zero at infinity</b>. The proton has a <b>positive charge</b> and therefore <b>repels another positive charge</b>, so work is done to bring a positive charge in from infinity (or work is done by the charges as they separate) — hence the potential near the proton is positive." },
+        { "label": "(b)(i)", "codes": ["18.1.3"], "marks": 1,
+          "answer": "An arrow through Q pointing <b>directly away from the centre of the sphere</b> (radially outwards)." },
+        { "label": "(b)(ii)", "codes": ["18.4.1"], "marks": 3,
+          "answer": "Two lines — one in the top-right quadrant, the other in the bottom-left — passing through (±R, ±E₀) and (±2R, ±¼E₀), with the curve between −3R and −R increasing in gradient magnitude and the curve between R and 3R decreasing in gradient magnitude (nothing drawn between −R and R)." },
+        { "label": "(c)", "codes": ["18.5.4"], "marks": 2,
+          "answer": "E<sub>P</sub> = −Qq/4πε₀r = −(1.60 × 10⁻¹⁹)²/[4π × 8.85 × 10⁻¹² × 5.3 × 10⁻¹¹]<br>= <b>−4.3 × 10⁻¹⁸ J</b>" }
+      ]
+    },
+    {
+      "topic": 21,
+      "qnum": "Q6",
+      "title": "Bridge rectifier &amp; smoothing — a.c. to d.c.",
+      "marks": 15,
+      "pages": [15, 16, 17],
+      "pdf": "9702_w25_qp_44_Q6_Alternating_currents.pdf",
+      "parts": [
+        { "label": "(a)(i)", "codes": ["21.2.1"], "marks": 1,
+          "answer": "The <b>conversion of an alternating current (a.c.) into a direct current (d.c.)</b>." },
+        { "label": "(a)(ii)", "codes": ["21.2.1"], "marks": 1,
+          "answer": "<b>Full-wave</b> rectification." },
+        { "label": "(a)(iii)", "codes": ["21.2.3"], "marks": 2,
+          "answer": "The three missing diodes with correct symbols: the lower-left diode pointing <b>towards the right</b>, and the upper-left and lower-right diodes both pointing <b>towards the left</b>." },
+        { "label": "(b)(i)", "codes": ["21.1.1"], "marks": 2,
+          "answer": "ω = 18 rad s⁻¹, so T = 2π/ω = 2π/18 = <b>0.35 s</b>" },
+        { "label": "(b)(ii)", "codes": ["21.1.4"], "marks": 1,
+          "answer": "V<sub>r.m.s.</sub> = 34/√2 = <b>24 V</b>" },
+        { "label": "(b)(iii)", "codes": ["21.2.1"], "marks": 3,
+          "answer": "Two sinusoidal 'humps' (full-wave rectified), all the same sign, with <b>peak V<sub>OUT</sub> = 34 V</b> and V<sub>OUT</sub> = 0 at t = 0, 0.175 s and 0.35 s (non-zero in between)." },
+        { "label": "(c)(i)", "codes": ["21.2.4"], "marks": 1,
+          "answer": "A capacitor connected <b>in parallel with the resistor</b>." },
+        { "label": "(c)(ii)", "codes": ["19.3.2"], "marks": 2,
+          "answer": "τ = RC = 56 × 10³ × 12 × 10⁻⁶ = <b>0.67 s</b>" },
+        { "label": "(c)(iii)", "codes": ["19.3.3"], "marks": 2,
+          "answer": "V<sub>min</sub> = 34e^(−0.14/0.67) = <b>28 V</b>" }
+      ]
+    },
+    {
+      "topic": 20,
+      "qnum": "Q7",
+      "title": "Lenz’s law — induced e.m.f. across a helicopter rotor",
+      "marks": 9,
+      "pages": [18, 19],
+      "pdf": "9702_w25_qp_44_Q7_Magnetic_fields.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["20.5.5"], "marks": 2,
+          "answer": "The induced e.m.f. acts in a direction <b>such as to oppose the change that caused it</b>." },
+        { "label": "(b)(i)", "codes": ["20.5.2"], "marks": 3,
+          "answer": "Φ = BA = 0.047 × 10⁻³ × π × 12²<br>= <b>0.021 Wb</b>" },
+        { "label": "(b)(ii)", "codes": ["20.5.5"], "marks": 2,
+          "answer": "e.m.f. = flux cut/time = 0.021/(1/85)<br>= <b>1.8 V</b>" },
+        { "label": "(b)(iii)", "codes": ["20.5.5", "20.2.2"], "marks": 2,
+          "answer": "The force due to the induced current produces an <b>anticlockwise moment</b> (opposing the rotation). From the left-hand rule the current is <b>from O to X</b>, so <b>X is at the higher potential</b>." }
+      ]
+    },
+    {
+      "topic": 23,
+      "qnum": "Q8",
+      "title": "Oxygen-15 — radioactive decay &amp; PET scanning",
+      "marks": 15,
+      "pages": [20, 21],
+      "pdf": "9702_w25_qp_44_Q8_Nuclear_physics.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["24.3.1"], "marks": 2,
+          "answer": "A tracer is a <b>radioactive substance introduced into the body</b> that is <b>absorbed by the tissues being studied</b>." },
+        { "label": "(b)(i)", "codes": ["23.1.2", "11.1.6"], "marks": 2,
+          "answer": "P = <b>15</b>, Q = <b>7</b>, R = <b>0</b>, S = <b>+1</b> (¹⁵₈O → ¹⁵₇N + β⁺ + ν)." },
+        { "label": "(b)(ii)", "codes": ["11.1.9"], "marks": 1,
+          "answer": "An <b>(electron) neutrino</b>." },
+        { "label": "(c)(i)", "codes": ["23.2.3"], "marks": 1,
+          "answer": "The <b>number of nuclear disintegrations per unit time</b>." },
+        { "label": "(c)(ii)", "codes": ["23.2.5"], "marks": 2,
+          "answer": "λ = ln 2/t½ = ln 2/(2.04 × 60)<br>= <b>5.66 × 10⁻³ s⁻¹</b>" },
+        { "label": "(c)(iii)", "codes": ["23.2.3"], "marks": 4,
+          "answer": "N = mass/mass of one atom = 2.85 × 10⁻⁶/(15 × 1.66 × 10⁻²⁷).<br>A = λN = 5.66 × 10⁻³ × 2.85 × 10⁻⁶/(15 × 1.66 × 10⁻²⁷)<br>= <b>6.48 × 10¹⁷ s⁻¹</b>" },
+        { "label": "(d)(i)", "codes": ["24.3.6"], "marks": 1,
+          "answer": "<b>Gamma-ray photons</b>." },
+        { "label": "(d)(ii)", "codes": ["24.3.3"], "marks": 2,
+          "answer": "The positron <b>collides with an electron</b> in the body, and <b>annihilation</b> converts their masses into the energy of the gamma photons." }
+      ]
+    },
+    {
+      "topic": 22,
+      "qnum": "Q9",
+      "title": "Photoelectric effect — threshold frequency &amp; work function",
+      "marks": 8,
+      "pages": [22],
+      "pdf": "9702_w25_qp_44_Q9_Quantum_physics.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["22.2.1"], "marks": 2,
+          "answer": "The <b>emission of electrons from a metal surface</b> when <b>electromagnetic radiation is incident</b> on it." },
+        { "label": "(b)(i)", "codes": ["22.2.2"], "marks": 1,
+          "answer": "threshold frequency of Y = <b>2F</b> (work function 2Φ = h × 2F)." },
+        { "label": "(b)(ii)", "codes": ["22.2.4"], "marks": 1,
+          "answer": "Planck constant = <b>Φ/F</b> (since Φ = hF)." },
+        { "label": "(c)", "codes": ["22.2.4"], "marks": 4,
+          "answer": "Two diagonal straight lines with <b>equal positive gradients</b> (gradient = h) in the positive E<sub>K</sub> region only. Line X passes through (F, 0) and line Y through (2F, 0); X extrapolates back to (0, −Φ) and Y to (0, −2Φ)." }
+      ]
+    },
+    {
+      "topic": 25,
+      "qnum": "Q10",
+      "title": "Redshift &amp; Hubble’s law — the expanding universe",
+      "marks": 7,
+      "pages": [23],
+      "pdf": "9702_w25_qp_44_Q10_Astronomy_and_cosmology.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["25.3.1"], "marks": 2,
+          "answer": "Redshift is the <b>increase in observed wavelength (decrease in observed frequency)</b> of light caused by the <b>recession of the galaxy from the observer</b>." },
+        { "label": "(b)", "codes": ["25.3.3"], "marks": 2,
+          "answer": "Distant galaxies show <b>redshift</b>, so the galaxies are <b>moving apart</b> — which means the universe must be expanding." },
+        { "label": "(c)", "codes": ["25.3.4"], "marks": 3,
+          "answer": "Hubble’s law states that the <b>speed of recession is proportional to distance</b> (more distant galaxies recede faster). More distant galaxies represent <b>further back in time</b>, so long ago <b>all the matter in the universe must have been very close together</b> (and moving apart very fast) — hence the Big Bang." }
+      ]
+    }
+  ]
+}

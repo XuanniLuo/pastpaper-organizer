@@ -1,0 +1,46 @@
+{
+  "paper": "9702/51/M/J/25",
+  "paper_full": "June 2025 · Paper 51",
+  "questions": [
+    {
+      "topic": "20",
+      "qnum": "Q1",
+      "title": "Planning an experiment — coil, induced p.d. &amp; frequency",
+      "marks": 15,
+      "pages": [2, 3, 4],
+      "pdf": "9702_s25_qp_51_Q1_Magnetic_fields.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["20.5.4", "20.5.5"], "marks": 15,
+          "answer": "<b>Diagram:</b> a thin coil (N turns, cross-sectional area A, length l) connected <b>in series with a resistor S</b> and an <b>a.c. supply / signal generator</b>; an <b>oscilloscope connected in parallel with the resistor</b> to display the p.d. V across it.<br><b>Procedure and measurements:</b> vary the frequency f (independent variable) and measure the peak p.d. V across the resistor (dependent variable), keeping the peak supply voltage E constant. Determine V from the oscilloscope by multiplying the amplitude/height of the trace by the y-gain; determine f by measuring the time for one cycle (number of divisions × time-base) and using f = 1/T.<br><b>Analysis:</b> plot a graph of <b>1/V against f</b> (or f against 1/V, or lg V against lg f). The relationship is valid if a <b>straight line through the origin</b> is produced (for lg V against lg f, a straight line of gradient −1). From V = KAN²ES/(lf): gradient = l/(KAN²ES), so <b>K = l/(gradient × AN²ES)</b>.<br><b>Controls:</b> keep E, N, A, l and S constant. Determine A by measuring the coil diameter d with calipers/a micrometer (A = πd²/4), repeating at different positions and averaging. Measure l with a rule. Determine S with an ohmmeter (or a separate circuit with ammeter and voltmeter, S = V/I).<br><b>Safety:</b> the coil/resistor may get hot — switch off the power supply between readings (or wear gloves) to prevent burns; allow the resistor to cool so S (and hence the conditions) stays constant." }
+      ]
+    },
+    {
+      "topic": "10",
+      "qnum": "Q2",
+      "title": "Analysis of data — resistors in parallel &amp; internal e.m.f.",
+      "marks": 15,
+      "pages": [5, 6, 7, 8],
+      "pdf": "9702_s25_qp_51_Q2_DC_circuits.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["10.2.2"], "marks": 1,
+          "answer": "E = I(R/n + Z), so 1/I = R/(En) + Z/E.<br>gradient = <b>R/E</b> and y-intercept = <b>Z/E</b>" },
+        { "label": "(b)", "codes": ["10.2.2"], "marks": 2,
+          "answer": "1/I / 10³ A⁻¹ = 1/(I/μA) × 10³:<br>n = 5: 2.20 ± 0.02<br>n = 6: 1.90 ± 0.02<br>n = 7: 1.72 ± 0.02<br>n = 8: 1.57 ± 0.02<br>n = 9: 1.46 ± 0.01<br>n = 11: 1.31 ± 0.01" },
+        { "label": "(c)(i)", "codes": ["10.2.2"], "marks": 2,
+          "answer": "Plot the six points of 1/I against 1/n (within half a small square), each with a vertical error bar." },
+        { "label": "(c)(ii)", "codes": ["10.2.2"], "marks": 2,
+          "answer": "Draw a straight <b>line of best fit</b> and a <b>worst acceptable line</b> (steepest/shallowest line through all the error bars)." },
+        { "label": "(c)(iii)", "codes": ["10.2.2"], "marks": 2,
+          "answer": "gradient ≈ <b>7.9 × 10³ A⁻¹</b> (from Δy/Δx over more than half the line's length). Absolute uncertainty = gradient of best fit − gradient of worst acceptable line." },
+        { "label": "(c)(iv)", "codes": ["10.2.2"], "marks": 2,
+          "answer": "y-intercept ≈ <b>0.59 × 10³ A⁻¹</b> (substituting a point into y = mx + c). Uncertainty = difference between the two intercepts." },
+        { "label": "(d)(i)", "codes": ["10.2.2"], "marks": 2,
+          "answer": "E = 5.8 V (mean of 5.6 V and 6.0 V).<br>R = gradient × E = 7.9 × 10³ × 5.8 = <b>46 kΩ</b><br>Z = y-intercept × E = 0.59 × 10³ × 5.8 = <b>3.4 kΩ</b>" },
+        { "label": "(d)(ii)", "codes": ["10.2.2"], "marks": 1,
+          "answer": "% uncertainty in R = (Δgradient/gradient + ΔE/E) × 100, with ΔE = 0.2 V:<br>= (Δgradient/gradient + 0.2/5.8) × 100 ≈ <b>5 %</b>" },
+        { "label": "(e)", "codes": ["10.2.2"], "marks": 1,
+          "answer": "I = E/(R/20 + Z) = 5.8/(2.3 × 10³ + 3.4 × 10³)<br>= <b>1.0 mA</b>" }
+      ]
+    }
+  ]
+}

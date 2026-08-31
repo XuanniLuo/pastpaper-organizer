@@ -1,0 +1,1010 @@
+
+===== PDF PAGE 1 =====
+This document has 24 pages. Any blank pages are indicated.
+ 
+[Turn over
+Cambridge International AS & A Level
+DC (KAS) 357183
+© UCLES 2025
+PHYSICS 
+9702/44
+Paper 4 A Level Structured Questions 
+May/June 2025
+ 
+2 hours
+You must answer on the question paper.
+No additional materials are needed.
+INSTRUCTIONS
+ 
+●
+Answer all questions.
+ 
+●
+Use a black or dark blue pen. You may use an HB pencil for any diagrams or graphs.
+ 
+●
+Write your name, centre number and candidate number in the boxes at the top of the page.
+ 
+●
+Write your answer to each question in the space provided.
+ 
+●
+Do not use an erasable pen or correction fluid.
+ 
+●
+Do not write on any bar codes.
+ 
+●
+You may use a calculator.
+ 
+●
+You should show all your working and use appropriate units.
+INFORMATION
+ 
+●
+The total mark for this paper is 100.
+ 
+●
+The number of marks for each question or part question is shown in brackets [ ].
+* 4 9 3 1 9 4 8 6 1 6 *
+,	,
+* 0000800000001 *
+¬O> 4mHuOªE_{5W
+¬¥rN£pjy¥[g{B
+¥5uU5UeuUeuEu¥U
+DFD
+
+
+===== PDF PAGE 2 =====
+2
+9702/44/M/J/25
+© UCLES 2025
+Data
+acceleration of free fall 
+g = 9.81 m s–2
+speed of light in free space  
+c = 3.00 × 108 m s–1
+elementary charge  
+e = 1.60 × 10–19 C
+unified atomic mass unit  
+1 u = 1.66 × 10–27 kg
+rest mass of proton  
+mp = 1.67 × 10–27 kg
+rest mass of electron  
+me = 9.11 × 10–31 kg
+Avogadro constant  
+NA = 6.02 × 1023 mol–1
+molar gas constant  
+R = 8.31 J K–1 mol–1
+Boltzmann constant  
+k = 1.38 × 10–23 J K–1
+gravitational constant  
+G = 6.67 × 10–11 N m2 kg–2
+permittivity of free space  
+ε0 = 8.85 × 10–12 F m–1
+ 
+(4
+1
+0
+rf = 8.99 × 109 m F–1)
+Planck constant  
+h = 6.63 × 10–34 J s
+Stefan–Boltzmann constant  
+σ = 5.67 × 10–8 W m–2 K–4
+Formulae
+uniformly accelerated motion 
+s = ut + 2
+1 at 2
+ 
+v 2 = u 2 + 2as
+hydrostatic pressure 
+∆p = ρg∆h
+upthrust 
+F = ρgV
+Doppler effect for sound waves 
+fo = v
+v
+f v
+s
+s
+!
+electric current 
+I = Anvq
+resistors in series 
+R = R1 + R2 + ...
+resistors in parallel 
+R
+1 =  R
+1
+1
+ + R
+1
+2
+ + ...
+* 0000800000002 *
+,	,
+ĬÍĊ¾Ġ´íÈõÏĪÅĊÞù·þ×
+ĬĥďñÏħĚĚÑùÿĊģÍËúÿĂ
+ĥĥĥÕõµĥĕĥĥåÅÅµąÕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 3 =====
+3
+9702/44/M/J/25
+© UCLES 2025
+[Turn over
+gravitational potential 
+ϕ = –  r
+GM
+gravitational potential energy 
+EP = – 
+r
+GMm
+pressure of an ideal gas 
+p = 
+V
+Nm
+3
+1
+ 〈c2〉
+simple harmonic motion 
+a = – ω 2x
+velocity of particle in s.h.m. 
+v = v0 cos ωt
+ 
+v = ! ω
+(
+)
+x
+x
+0
+2
+2
+-
+electric potential 
+V = 
+r
+Q
+4
+0
+rf
+electrical potential energy 
+EP = 
+r
+Qq
+4
+0
+rf
+capacitors in series 
+C
+1 =  C
+1
+1
+ + C
+1
+2
+ + ...
+capacitors in parallel 
+C = C1 + C2 + ...
+discharge of a capacitor 
+x = 
+e
+x
+RC
+t
+0
+-
+Hall voltage 
+VH = 
+I
+ntq
+B
+alternating current/voltage 
+x = x0 sin ωt
+radioactive decay 
+x = x0e– λt
+decay constant 
+λ = .
+t
+0 693
+2
+1
+intensity reflection coefficient 
+I
+IR
+0
+ = 
+(
+)
+(
+)
+Z
+Z
+Z
+Z
+1
+2
+2
+1
+2
+2
++
+-
+Stefan–Boltzmann law 
+L = 4πσr 2T 4
+Doppler redshift  
+ ∆λ
+λ á f
+f
+D á c
+v
+* 0000800000003 *
+,	,
+ĬÏĊ¾Ġ´íÈõÏĪÅĊÞû·þ×
+ĬĥĐò×ġĖĪèÿò¿·åďúïĂ
+ĥĥĕĕµÕąõõĕõÅÅÕĥĕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 4 =====
+4
+9702/44/M/J/25
+© UCLES 2025
+1 
+(a) Define gravitational field.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+(b) The gravitational field strength g at a distance x from the centre of a uniform spherical planet 
+of mass M is given by the expression
+g  =  GM
+x2
+ 
+ 
+where G is the gravitational constant and distance x is greater than the radius of the planet. 
+ 
+ 
+(i) Describe the pattern of the field lines outside the planet that represent the gravitational 
+field due to the planet. 
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+ 
+(ii) Explain why, for small changes in vertical height near the surface of the planet, g may be 
+assumed to be constant.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+(c) Assume that the Earth is a uniform sphere. For the Earth, the product GM is equal to 
+3.99 × 1014 m3 s–2.
+ 
+ 
+(i) Determine a value, to three significant figures, for the radius R of the Earth.
+ 
+R =  ..................................................... m [2]
+* 0000800000004 *
+,	,
+ĬÍĊ¾Ġ´íÈõÏĪÅĊàù·Ā×
+ĬĥĐó×īĨğÓāùÈĕĉ­ĪćĂ
+ĥÕÅĕõÕąÕĕµąÅąÕÅĕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 5 =====
+5
+9702/44/M/J/25
+© UCLES 2025
+[Turn over
+ 
+ 
+(ii) Calculate the gravitational potential at the Earth’s surface. Give a unit with your answer.
+ 
+gravitational potential = ......................................... unit ................ [2]
+ 
+(d) Explain why the gravitational potential energy of two point masses is always negative.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+[Total: 11]
+* 0000800000005 *
+,	,
+ĬÏĊ¾Ġ´íÈõÏĪÅĊàû·Ā×
+ĬĥďôÏĝĬďæ÷ĈāÁñĩĪ÷Ă
+ĥÕµÕµµĥµąÅÕÅąµåÕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 6 =====
+6
+9702/44/M/J/25
+© UCLES 2025
+2 
+(a) State what is meant by two objects being in thermal equilibrium.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+(b) A mass X of ice at 0 °C is placed in a beaker containing a mass M of water at Celsius 
+temperature t. The beaker is perfectly insulated and has negligible heat capacity. After some 
+time, the ice that was added reaches thermal equilibrium with the original water in the beaker.
+ 
+ 
+The specific latent heat of fusion of water is L. The specific heat capacity of water is c.
+ 
+ 
+The final Celsius temperature of the system is θ.
+ 
+ 
+Give expressions, in terms of some or all of X, M, t, θ, L and c, for the thermal energy:
+ 
+ 
+(i) E1, gained by the ice as it melts to become water at 0 °C
+ 
+E1 =  ......................................................... [1]
+ 
+ 
+(ii) E2, lost by the water as its Celsius temperature decreases from t to θ
+ 
+E2 =  ......................................................... [1]
+ 
+ 
+(iii) E3, gained by the melted ice as its Celsius temperature increases from 0 °C to θ.
+ 
+E3 =  ......................................................... [1]
+ 
+(c) Use your answers in (b) to show that the final Celsius temperature θ of the system is given by
+θ  =  Mct – XL
+c(M + X) .
+ 
+[2]
+ 
+[Total: 7]
+* 0000800000006 *
+,	,
+ĬÑĊ¾Ġ´íÈõÏĪÅĊÝû¶þ×
+ĬĥĐôÔħĄĕÞôõüáĉČÂćĂ
+ĥąĕÕµĕĥĕÅåõÅÅµąĕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 7 =====
+7
+9702/44/M/J/25
+© UCLES 2025
+[Turn over
+3 
+(a) State what is meant by an ideal gas.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2] 
+ 
+(b) An ideal gas at a pressure of 1.6 × 105 Pa has a density of 1.9 kg m–3.
+ 
+ 
+(i) Show that the root-mean-square (r.m.s.) speed of molecules of this gas is approximately 
+500 m s–1.
+ 
+[3]
+ 
+ 
+(ii) One molecule of the gas has a mass of 4.7 × 10–26 kg.
+ 
+ 
+ Determine the thermodynamic temperature of the gas.
+ 
+temperature =  ...................................................... K [2]
+ 
+(c) Calculate the internal energy U of 6.0 mol of the gas in (b). Explain your reasoning.
+ 
+U =  ...................................................... J [3]
+ 
+[Total: 10]
+* 0000800000007 *
+,	,
+ĬÓĊ¾Ġ´íÈõÏĪÅĊÝù¶þ×
+ĬĥďóÜġĀĥÛĆČ­õñÐÂ÷Ă
+ĥąĥĕõõąõÕÕåÅÅÕĥÕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 8 =====
+8
+9702/44/M/J/25
+© UCLES 2025
+4 
+(a) State what is meant by simple harmonic motion.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+(b) A small sphere is suspended from a fixed point P by a string of negligible mass, as shown in 
+Fig. 4.1.
+sphere
+string
+P
+Fig. 4.1
+ 
+ 
+The sphere is given a small horizontal displacement and is then released.
+ 
+ 
+The variation with time of the horizontal velocity v of the sphere is shown in Fig. 4.2.
+–0.12
+–0.08
+–0.04
+0
+0.04
+0.08
+0.12
+v / m s–1
+t1
+t2
+t3
+t4
+t5
+t6
+t7
+time
+Fig. 4.2
+* 0000800000008 *
+,		,
+ĬÑĊ¾Ġ´íÈõÏĪÅĊßû¶Ā×
+ĬĥďòÜīîĤàČă¶×ÍîÒÿĂ
+ĥµµĕµõąÕµõÕÅąÕÅÕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 9 =====
+9
+9702/44/M/J/25
+© UCLES 2025
+[Turn over
+ 
+ 
+(i)  State two times at which the sphere is passing in the same direction through the 
+equilibrium position.
+ 
+time ....................... and time ......................... [1]
+ 
+ 
+(ii) The time interval between t1 and t6 is 2.2 s.
+ 
+ 
+ Calculate the frequency of oscillation of the sphere.
+ 
+frequency =  .................................................... Hz [2]
+ 
+(c) The sphere in (b) is undergoing simple harmonic motion. 
+ 
+ 
+ 
+Use your answer in (b)(ii) and data from Fig. 4.2 to determine the maximum displacement of 
+the sphere from its equilibrium position. 
+ 
+ 
+maximum displacement =  ..................................................... m [3]
+ 
+[Total: 8]
+* 0000800000009 *
+,	
+,
+ĬÓĊ¾Ġ´íÈõÏĪÅĊßù¶Ā×
+ĬĥĐñÔĝòĔÙîîóăåêÒïĂ
+ĥµÅÕõĕĥµåąąÅąµåĕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 10 =====
+10
+9702/44/M/J/25
+© UCLES 2025
+5 
+(a) Define electric potential at a point.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+(b) An isolated solid metal sphere of radius r is given a positive charge.
+ 
+ 
+The potential at the surface of the sphere is 9.0 × 104 V. At a distance of 3r from the centre of 
+the sphere, the electric field strength is 2.0 × 105 N C–1.
+ 
+ 
+(i) Determine the electric field strength at the surface of the sphere.
+ 
+electric field strength =  ............................................... N C–1 [2]
+ 
+ 
+(ii) Show that the radius of the sphere is 5.0 cm.
+ 
+ [2]
+ 
+ 
+(iii) Calculate the charge on the sphere.
+ 
+charge =  ..................................................... C [2]
+* 0000800000010 *
+,	,
+ĬÑĊ¾Ġ´íÈõÏĪÅĊÞû¸þ×
+ĬĥĎòÑĩööâăČĐ»ÏĚĪ÷Ă
+ĥĥÕÕµõåÕĕÅÕąąõÅÕÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 11 =====
+11
+9702/44/M/J/25
+© UCLES 2025
+[Turn over
+ 
+ 
+(iv) Use your answer in (b)(iii) to determine the capacitance of the sphere.
+ 
+capacitance =  ...................................................... F [2]
+ 
+[Total: 10]
+* 0000800000011 *
+,	,
+ĬÓĊ¾Ġ´íÈõÏĪÅĊÞù¸þ×
+ĬĥčñÙğúĆ×õõÙğç¾ĪćĂ
+ĥĥåĕõĕÅµąµąąąĕåĕÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 12 =====
+12
+9702/44/M/J/25
+© UCLES 2025
+6 
+A rectangular coil PQRS of wire is free to rotate about its axis XY, as shown in Fig. 6.1.
+θ
+θ
+θ
+1.2 A
+Q
+Q
+R
+Y
+S
+P
+P
+X
+magnetic
+field
+magnetic
+field
+END VIEW
+force
+on PS
+force
+on QR
+Fig. 6.1 (not to scale)
+ 
+The coil has length QR of 5.4 cm, width PQ of 2.5 cm and has 190 turns of wire. 
+ 
+The plane of the coil is at an angle θ to a uniform magnetic field of flux density 5.2 × 10–3 T.
+ 
+The axis XY of the coil is normal to the field.
+ 
+The current in the coil is 1.2 A.
+ 
+(a) (i) Calculate the magnitude of the force on side QR of the coil.
+ 
+force =  ..................................................... N [3]
+* 0000800000012 *
+,	,
+ĬÑĊ¾Ġ´íÈõÏĪÅĊàû¸Ā×
+ĬĥčôÙĥČăäûîÒ½ċĠúïĂ
+ĥÕõĕµĕÅĕĥĕõąÅĕąĕÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 13 =====
+13
+9702/44/M/J/25
+© UCLES 2025
+[Turn over
+ 
+ 
+(ii) Use your answer in (a)(i) to show that the torque τ on the coil is given by
+τ = 1.6 × 10–3 cos θ N m.
+ 
+[2]
+ 
+ 
+(iii) Using the expression in (a)(ii) sketch, on the axes of Fig. 6.2, a graph to show the 
+variation of the torque τ with angle θ for values of θ between 0 and 360°. Label the τ axis 
+with an appropriate scale.
+0
+0
+90
+180
+270
+360
+θ/ °
+ / 10–3 N m
+τ
+Fig. 6.2
+ 
+[3]
+ 
+(b) The coil is now replaced by an identical coil wound on a ferrous core.
+ 
+ 
+Suggest, with a reason, how the torque on this coil compares with the torque on the original 
+coil.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+[Total: 10]
+* 0000800000013 *
+,	,
+ĬÓĊ¾Ġ´íÈõÏĪÅĊàù¸Ā×
+ĬĥĎóÑģĈóÕýăėęó¼úÿĂ
+ĥÕąÕõõåõõĥåąÅõĥÕÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 14 =====
+14
+9702/44/M/J/25
+© UCLES 2025
+7 
+A bar magnet is suspended from a spring. One pole of the magnet oscillates freely in a coil of wire, 
+as shown in Fig. 7.1.
+bar magnet
+spring
+coil of
+wire
+resistor
+S
+Fig. 7.1
+ 
+The switch S is initially open.
+ 
+(a) The switch S is now closed. As a result, the oscillations of the magnet are lightly damped.
+ 
+ 
+(i) State what is meant by damping.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+ 
+(ii) Describe what is observed to indicate that the damping is light.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(iii) By reference to electromagnetic induction and to conservation of energy, explain why the 
+oscillations are damped.
+ ........................................................................................................................................... 
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [3]
+* 0000800000014 *
+,	,
+ĬÍĊ¾Ġ´íÈõÏĪÅĊßúµĂ×
+ĬĥčñÔĝûċçċĈ¼µê°ÊćĂ
+ĥõąĕµĕĥÕĕõåÅąµÅĕąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 15 =====
+15
+9702/44/M/J/25
+© UCLES 2025
+[Turn over
+ 
+(b) The procedure in (a) is repeated after replacing the resistor with one of greater resistance.
+ 
+ 
+Suggest, with a reason, the effect of this change on the oscillations.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+[Total: 8]
+* 0000800000015 *
+,	,
+ĬÏĊ¾Ġ´íÈõÏĪÅĊßüµĂ×
+ĬĥĎòÜī÷ûÒíùíġÒĬÊ÷Ă
+ĥõõÕõõąµąąõÅąÕåÕĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 16 =====
+16
+9702/44/M/J/25
+© UCLES 2025
+8 
+An incomplete circuit diagram of a bridge rectifier is shown in Fig. 8.1.
+C
+D
+A
+load
+resistor
+B
+Fig. 8.1
+ 
+(a) Complete Fig. 8.1 for the bridge rectifier such that the point A is at a positive potential with 
+respect to point B. 
+ [2]
+ 
+(b) The variation with time t of the potential difference (p.d.) V across the load resistor is shown 
+in Fig. 8.2.
+0
+0
+V0
+V
+0.5T
+1.0T
+1.5T
+2.0T
+t
+Fig. 8.2
+ 
+ 
+A capacitor is now connected between points C and D of the bridge rectifier. This results in 
+smoothing of the p.d. across the load resistor. The difference between the maximum and 
+minimum values of the smoothed p.d. is 33% of the peak p.d. V0.
+ 
+ 
+(i) On Fig. 8.2, draw a line to show the variation of the potential difference V across the load 
+resistor with time t. Your line should extend from t = 0.5T to t = 2.0T. 
+[3]
+* 0000800000016 *
+,	,
+ĬÍĊ¾Ġ´íÈõÏĪÅĊÝúµĄ×
+ĬĥĎóÜġąîåóòöÃîÊÚÿĂ
+ĥÅåÕµõąĕĥåąÅÅÕąÕąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 17 =====
+17
+9702/44/M/J/25
+© UCLES 2025
+[Turn over
+ 
+ 
+(ii) Use your line in (b)(i) to determine, in terms of T, the time constant of the smoothing 
+circuit.
+ 
+time constant =  ...................................................... T [3]
+ 
+ 
+(iii) The resistance of the load resistor is now increased. The capacitance of the capacitor is 
+unchanged.
+ 
+ 
+ State and explain the effect of this change on the smoothed output p.d.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+[Total: 10]
+* 0000800000017 *
+,	,
+ĬÏĊ¾Ġ´íÈõÏĪÅĊÝüµĄ×
+ĬĥčôÔħĉþÔąÿ³ėĆĎÚïĂ
+ĥÅÕĕõĕĥõõÕÕÅÅµĥĕĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 18 =====
+18
+9702/44/M/J/25
+© UCLES 2025
+9 
+(a) (i) Describe what is meant by wave–particle duality.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+ 
+(ii) State the relationship between the de Broglie wavelength λ of a particle and its 
+momentum p. State the meaning of any other symbols that you use.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+(b) A narrow beam of electrons, all with the same speed, is incident normally on a carbon film. 
+The electrons then move on to a fluorescent screen, as illustrated in Fig. 9.1.
+electron
+beam
+carbon film
+screen
+Fig. 9.1
+ 
+ 
+The apparatus is in a vacuum.
+ 
+ 
+The pattern produced on the screen is shown in Fig. 9.2.
+* 0000800000018 *
+,		,
+ĬÍĊ¾Ġ´íÈõÏĪÅĊàú·Ă×
+ĬĥďóÑģýĬëüùÐßðÞĢ÷Ă
+ĥĕÅĕµõåĕÅĕąąÅõąÕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 19 =====
+19
+9702/44/M/J/25
+© UCLES 2025
+[Turn over
+Fig. 9.2 (not to scale)
+ 
+ 
+(i) Explain why the pattern in Fig. 9.2 provides experimental evidence to indicate a wave 
+nature for the electrons.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+ 
+(ii) The speed of the electrons is increased.
+ 
+ 
+ Suggest, with a reason, how this change affects the pattern observed on the screen. 
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+[Total: 8]
+* 0000800000019 *
+,	
+,
+ĬÏĊ¾Ġ´íÈõÏĪÅĊàü·Ă×
+ĬĥĐôÙĥāĜÎþĈęûĈúĢćĂ
+ĥĕµÕõĕÅõÕĥÕąÅĕĥĕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 20 =====
+20
+9702/44/M/J/25
+© UCLES 2025
+10 (a) Describe how the piezoelectric crystal in a transducer generates ultrasound waves for use in 
+medical diagnosis.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3] 
+ 
+(b) A parallel ultrasound beam is incident on the boundary between two media, as illustrated 
+in Fig. 10.1.
+ultrasound
+beam
+specific acoustic
+impedance Z1
+specific acoustic
+impedance Z2
+Fig. 10.1
+  
+ 
+The media have specific acoustic impedances Z1 and Z2.
+ 
+ 
+At the boundary, a fraction α of the incident intensity of the ultrasound beam is reflected. The 
+remainder is transmitted.
+ 
+ 
+(i) State what is meant by specific acoustic impedance.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+ 
+(ii) Describe how α depends on the relative values of Z1 and Z2.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+* 0000800000020 *
+,	,
+ĬÍĊ¾Ġ´íÈõÏĪÅĊÞú·Ą×
+ĬĥĐñÙğóčéĄÿĒÙìÜòïĂ
+ĥåĥÕµĕÅÕµÅåąąĕÅĕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 21 =====
+21
+9702/44/M/J/25
+© UCLES 2025
+[Turn over
+ 
+(c) A parallel ultrasound beam of intensity I0 enters a region of soft tissue. After passing a 
+distance of 2.1 cm through this tissue, the intensity of the ultrasound is 0.62 I0.
+ 
+ 
+Calculate the linear attenuation coefficient μ of ultrasound in the soft tissue. Give a unit with 
+your answer.
+ 
+μ = .......................................... unit ................... [2]
+ 
+[Total: 9]
+* 0000800000021 *
+,	,
+ĬÏĊ¾Ġ´íÈõÏĪÅĊÞü·Ą×
+ĬĥďòÑĩïĝÐöò×ýÔĀòÿĂ
+ĥåĕĕõõåµåµõąąõåÕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+
+===== PDF PAGE 22 =====
+23
+9702/44/M/J/25
+© UCLES 2025
+11 The deuterium nucleus (2
+1H) has a mass defect of 0.002 388 u. The helium-4 nucleus (4
+2He) has a 
+mass defect of 0.030 377 u. Helium-4 is formed from deuterium in a nuclear reaction that can be 
+represented by the equation
+3 2
+1H    
+   4
+2He  +  1
+1p  +  1
+0n.
+ 
+(a) (i) State the name of this type of nuclear reaction.
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Show that the energy released when one nucleus of helium-4 is formed from deuterium 
+is 3.47 × 10–12 J.
+ 
+[3]
+ 
+(b) A star has a radius of 6.96 × 108 m. Helium-4 is produced in this star, from deuterium, at a 
+mass rate of 7.34 × 1011 kg s–1. All the energy released from this process is radiated away 
+from the star. All the energy that is radiated from the star is released by this process.
+ 
+ 
+(i) Calculate the luminosity of the star. 
+ 
+luminosity =  ..................................................... W [3]
+ 
+ 
+(ii) Use your answer in (b)(i) to determine the surface temperature of the star.
+ 
+temperature =  ...................................................... K [2]
+ 
+[Total: 9]
+* 0000800000023 *
+,	,
+ĬÓĊ¾Ġ´íÈõÏĪÅĊßú¶Ă×
+ĬĥďñÖĥěėáćîī¹Ô¹ÚÿĂ
+ĥõÅÕµµÅõõåąąÅĕĥÕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD

@@ -1,0 +1,2940 @@
+
+===== PDF PAGE 1 =====
+This document has 28 pages. Any blank pages are indicated.
+ 
+[Turn over
+Cambridge International AS & A Level
+PHYSICS 
+9702/42
+Paper 4 A Level Structured Questions 
+February/March 2025
+ 
+2 hours
+You must answer on the question paper.
+No additional materials are needed.
+INSTRUCTIONS
+ 
+●
+Answer all questions.
+ 
+●
+Use a black or dark blue pen. You may use an HB pencil for any diagrams or graphs.
+ 
+●
+Write your name, centre number and candidate number in the boxes at the top of the page.
+ 
+●
+Write your answer to each question in the space provided.
+ 
+●
+Do not use an erasable pen or correction fluid.
+ 
+●
+Do not write on any bar codes.
+ 
+●
+You may use a calculator.
+ 
+●
+You should show all your working and use appropriate units.
+INFORMATION
+ 
+●
+The total mark for this paper is 100.
+ 
+●
+The number of marks for each question or part question is shown in brackets [ ].
+DC (PB/SG) 342332/5
+© UCLES 2025
+* 8 9 3 3 6 3 0 5 1 1 *
+,	,
+* 0000800000001 *
+¬W> 4mHuOªE]y5W
+¬BzsU§zm]¡]3
+¥uUUu5e5¥5eu5U
+
+
+===== PDF PAGE 2 =====
+1
+1
+s
+1
+1
+1 + ...
+2
+R
+ + 
+1
+R
+ 
+= 
+ 
+R
+resistors in parallel 
+ + ...
+2
+R
+ + 
+1
+R
+= 
+ 
+R
+resistors in series 
+Anvq
+= 
+ I
+electric current 
+!
+s
+f v
+v
+v
+= 
+ 
+of
+fect for sound waves 
+Doppler ef
+gV
+ρ
+= 
+ 
+F
+upthrust 
+h
+∆
+g
+ρ
+= 
+ 
+p
+∆
+hydrostatic pressure 
+as
+ + 2
+2
+u 
+= 
+ 
+2
+v 
+ 
+2
+at 
+2
+ + 
+ut
+= 
+ s
+uniformly accelerated motion 
+Formulae
+–4
+ K
+–2
+ W m
+–8
+ 10
+×
+5.67 
+= 
+ σ
+Stefan–Boltzmann constant  
+ J s
+–34
+ 10
+×
+6.63 
+= 
+ 
+h
+Planck constant  
+)
+–1
+ m F
+9
+ 10
+×
+8.99 
+= 
+ 
+f
+r 0
+4
+(
+ 
+–1
+ F m
+–12
+ 10
+×
+8.85 
+= 
+ 
+0ε
+permittivity of free space  
+–2
+ kg
+2
+ N m
+11
+–
+ 10
+×
+6.67 
+= 
+ 
+G
+gravitational constant  
+–1
+ J K
+–23
+ 10
+×
+1.38 
+= 
+ k
+Boltzmann constant  
+–1
+ mol
+–1
+8.31 J K
+= 
+ 
+R
+molar gas constant  
+–1
+ mol
+23
+ 10
+×
+6.02 
+= 
+ 
+A
+N
+vogadro constant  
+A
+ kg
+–31
+ 10
+×
+1 
+9.1
+= 
+ 
+e
+m
+rest mass of electron  
+ kg
+–27
+ 10
+×
+1.67 
+= 
+ 
+p
+m
+rest mass of proton  
+ kg
+–27
+ 10
+×
+1.66 
+= 
+1 u 
+unified atomic mass unit  
+ C
+–19
+ 10
+×
+1.60 
+= 
+ 
+e
+elementary charge  
+–1
+ m s
+8
+ 10
+×
+3.00 
+= 
+ c
+speed of light in free space  
+–2
+9.81 m s
+= 
+ 
+g
+acceleration of free fall 
+Data
+© UCLES 2025
+2
+* 0000800000002 *
+,	,
+ĬÕĊ¾Ġ´íÈõÏĪÅĊàû·þ×
+ĬÂüôØģîěÖöùĂÙûčċĦĂ
+ĥåÅÕµÕĥÕÕÅÅÅąõÅµĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+
+===== PDF PAGE 3 =====
+GM
+GMm
+Nm
+1
+(
+)
+x
+x
+0
+2
+2
+-
+Q
+1
+1
+1
+t
+I
+B
+.
+0 693
+1
+R
+1
+2
+f
+D
+v
+c
+ 
+á
+ 
+f
+ 
+á
+ 
+λ
+λ
+∆
+ 
+Doppler redshift  
+4
+T 
+2
+r 
+σ
+π
+4
+= 
+ 
+L
+Stefan–Boltzmann law 
+-
++
+2
+2
+1
+2
+Z
+Z
+Z
+Z
+(
+)
+(
+)
+= 
+ 
+0
+I
+I
+ficient 
+intensity reflection coef
+2t
+= 
+ 
+λ
+decay constant 
+t
+λ 
+–
+e
+0
+x
+= 
+ x
+radioactive decay 
+t
+ω
+ sin 
+0
+x
+= 
+ x
+alternating current/voltage 
+q
+nt
+= 
+ 
+H
+V
+Hall voltage 
+-
+0
+RC
+x e
+= 
+ x
+discharge of a capacitor 
+ + ...
+2
+C
+ + 
+1
+C
+= 
+ 
+C
+capacitors in parallel 
+ + ...
+2
+C
+ + 
+1
+C
+ 
+= 
+ 
+C
+capacitors in series 
+f
+r 0
+4
+Qq
+r
+= 
+ 
+P
+E
+electrical potential energy 
+f
+r 0
+4
+r
+= 
+ 
+V
+electric potential 
+ω
+ 
+!
+= 
+ v
+ 
+t
+ω
+ cos 
+0
+v
+= 
+ v
+velocity of particle in s.h.m. 
+x
+2 ω
+– 
+= 
+ 
+a
+simple harmonic motion 
+〉
+2
+c
+〈 
+3 V
+= 
+ 
+p
+pressure of an ideal gas 
+r
+– 
+= 
+ 
+P
+E
+gravitational potential energy 
+r
+– 
+= 
+ ϕ
+gravitational potential 
+urn over
+[T
+© UCLES 2025
+3
+* 0000800000003 *
+,	,
+Ĭ×Ċ¾Ġ´íÈõÏĪÅĊàù·þ×
+ĬÂûóÐĥòīãĄĈÇýăÉċĖĂ
+ĥåµĕõµąµÅµĕÅąĕåõąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+
+===== PDF PAGE 4 =====
+[2]
+ 
+...................................................................................................
+....................................
+......
+ 
+.........................................................................................................
+....................................
+......
+ 
+.........................................................................................................
+....................................
+......
+ 
+.........................................................................................................
+....................................
+......
+ 
+ause its acceleration to be centripetal.
+Describe how the forces acting on the ball c
+ 
+(b)
+ 
+[1]
+ 
+ forces acting on the ball.
+two
+e 
+On Fig. 1.2, draw labelled arrows to show th
+ 
+ 
+Fig. 1.2
+the steel ball. 
+one and 
+Fig. 1.2 shows a cross‑section through the c
+ 
+(a)
+ 
+the cone.
+ 
+and
+ 
+ball
+ 
+the
+ 
+between
+ 
+friction
+ 
+no
+ 
+is
+ 
+There
+ 
+52°.
+ 
+is
+ l
+horizonta
+ 
+the
+ 
+to
+ 
+cone
+ 
+the
+ 
+of
+ 
+side
+ 
+the
+ 
+of
+ 
+angle
+ 
+The
+ 
+Fig. 1.1
+cone
+steel ball
+steel ball
+path of
+52°
+52°
+1.1.
+ 
+Fig.
+ 
+circle at constant speed, as shown in
+ 
+horizontal
+ 
+a
+ 
+in
+ 
+moves
+ 
+ball
+ 
+The
+ 
+cone.
+ 
+circular
+ 
+hollow
+ 
+a
+ 
+of
+ 
+surface
+ 
+inside
+ 
+the
+ 
+on
+ 
+placed
+ 
+is
+ 
+ball
+ 
+steel
+ 
+A
+ 
+1
+© UCLES 2025
+4
+* 0000800000004 *
+,	,
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+
+===== PDF PAGE 5 =====
+otal: 9]
+[T
+ 
+[1]
+ 
+...................................................................................................
+....................................
+......
+ 
+.........................................................................................................
+....................................
+......
+ 
+.........................................................................................................
+....................................
+......
+ 
+f the ball increases.
+Explain why the radius of the circular path o
+ 
+ 
+The speed of the ball is increased.
+ 
+(e)
+ 
+[2]
+ 
+–1
+s 
+rad
+ 
+..............................................
+ 
+ = 
+ω
+ 
+ of the ball.
+ω
+Calculate the angular speed 
+ 
+(d)
+ 
+[3]
+ 
+.
+–1
+s 
+m
+ 
+Show that the speed of the ball is 1.4
+ 
+ 
+m.
+ 
+The ball moves in a circle of radius 0.15
+ 
+(c)
+ 
+urn over
+[T
+© UCLES 2025
+5
+* 0000800000005 *
+,	,
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+
+===== PDF PAGE 6 =====
+1
+1
+[2]
+ 
+Fig. 2.2
+2φ
+–φ
+–2φ
+φ
+00
+4
+8
+12
+24
+20
+16
+potential
+gravitational
+hours
+ / t
+ = 24 hours.
+t
+ = 0 and 
+t
+between 
+ t
+of the satellite for values of 
+ 
+location
+ 
+the
+ 
+at
+ 
+Earth
+ 
+the
+ 
+to
+ 
+due
+ 
+potential
+ 
+gravitational
+ 
+the
+ 
+of
+ 
+variation
+ 
+the
+ 
+sketch
+ 
+2.2,
+ 
+Fig.
+ 
+On
+ 
+ 
+.φ
+gravitational potential due to the Earth at the location of the satellite is 
+ 
+the
+ 
+of
+ 
+magnitude
+ 
+the
+ 
+0,
+ 
+=
+ t 
+time
+ 
+At
+ 
+Earth.
+ 
+the
+ 
+above
+ 
+orbit
+ 
+geostationary
+ 
+a
+ 
+in
+ 
+is
+ 
+satellite
+ 
+A
+ 
+(b)
+ 
+[3]
+ 
+Fig. 2.1
+2
+x
+φ
+2
+– φ
+–φ
+φ
+00
+R
+R
+2
+R
+3
+R
+4
+potential
+gravitational
+.  
+R
+ and 4
+R
+ between 
+x
+of the planet for values of 
+ 
+centre
+ 
+the
+ 
+from
+ x
+ 
+distance
+ 
+with
+ 
+potential
+ 
+gravitational
+ 
+the
+ 
+of
+ 
+variation
+ 
+the
+ 
+sketch
+ 
+2.1,
+ 
+Fig.
+ 
+On
+ 
+ 
+planet can be considered to be an isolated sphere.
+ 
+The
+. 
+φ
+ 
+is
+ 
+R
+ 
+radius
+ 
+of
+ 
+planet
+ 
+a
+ 
+of
+ 
+surface
+ 
+the
+ 
+on
+ 
+potential
+ 
+gravitational
+ 
+the
+ 
+of
+ 
+magnitude
+ 
+The
+ 
+(a)
+ 
+2
+© UCLES 2025
+6
+* 0000800000006 *
+,	,
+ĬÙĊ¾Ġ´íÈõÏĪÅĊßù¶þ×
+ĬÂûñÛģĨĘéïăôěßÎ³ĞĂ
+ĥÅµÕõõĥÕõąĕÅąõÅõÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+
+===== PDF PAGE 7 =====
+otal: 7]
+[T
+ 
+[2]
+ 
+Fig. 2.4
+V
+00
+d
+potential
+electric
+positive plate
+distance from
+ 
+On Fig. 2.4, sketch the variation of the electric potential with distance from the positive plate. 
+ 
+ 
+The region between the plates is a vacuum.
+. 
+d
+The distance between the plates is 
+ 
+ 
+Fig. 2.3
+V
++
+d
+2.3.
+ 
+Fig.
+ 
+, as shown in
+V
+ference (p.d.) between two parallel plates is 
+The electric potential dif
+ 
+(c)
+ 
+urn over
+[T
+© UCLES 2025
+7
+* 0000800000007 *
+,	,
+ĬÛĊ¾Ġ´íÈõÏĪÅĊßû¶þ×
+ĬÂüòÓĥĬĨÐĉîµ¿×Ċ³ĎĂ
+ĥÅÅĕµĕąµĥõÅÅąĕåµÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+
+===== PDF PAGE 8 =====
+[3]
+ 
+K 
+......................................................
+ 
+ = 
+T
+Δ
+ 
+ of Q.
+T
+Δ
+Determine the change in temperature 
+ 
+ 
+ 
+ and Q are perfectly insulated from the surroundings.
+P
+ 
+ 
+ 
+.
+at the same temperature as each other
+ 
+both
+ 
+again
+ 
+once
+ 
+are
+ 
+Q
+ 
+and
+ 
+P
+ 
+time,
+ 
+some
+ 
+After
+ .
+energy
+ 
+thermal
+ 
+of
+ 
+kJ
+ 
+24
+ 
+with
+ 
+supplied
+ 
+is
+ 
+P
+ 
+ 
+ 
+ and Q are initially both at the same temperature.
+P
+ 
+ 
+ 
+0.37
+0.54
+kg
+ / 
+mass
+910
+390
+–1
+K 
+–1
+kg
+ J / 
+capacity
+ 
+heat
+ 
+specific
+Q
+P
+able 3.1
+T
+able 3.1.
+T
+ and Q are given in 
+Data for P
+
+
+===== PDF PAGE 9 =====
+[2]
+ 
+.........................................................
+ 
+ = 
+N
+ 
+ of molecules of nitrogen gas.
+N
+Determine the number 
+ 
+(ii)
+ 
+ 
+[3]
+ J 
+.......................................................
+ 
+work done = 
+ 
+Determine the work done on the gas.
+ 
+ 
+ 
+°C.
+ 
+°C to 210
+ 
+The temperature of the nitrogen gas is increased from 0
+ 
+(i)
+ 
+ 
+Fig. 3.1
+θ °C
+ /
+0.4
+0.3
+0.2
+0.1
+0
+300
+200
+100
+0
+3
+m
+ / 
+V
+3.1.
+ 
+Fig.
+ 
+in
+ 
+shown
+ 
+is
+ 
+gas
+ 
+the
+ 
+of
+ θ 
+temperature
+ 
+the
+ 
+with
+ 
+gas
+ 
+the
+ 
+of
+ 
+V
+ 
+volume
+ 
+the
+ 
+of
+ 
+variation
+ 
+The
+ 
+ 
+Pa.
+ 
+5
+10
+ 
+×
+ 
+a constant pressure of 1.6
+ 
+at
+ 
+contained
+ 
+is
+ 
+gas
+ 
+nitrogen
+ 
+of
+ 
+amount
+ 
+fixed
+ 
+A
+ 
+gas.
+ 
+ideal
+ 
+an
+ 
+be
+ 
+to
+ 
+assumed
+ 
+be
+ 
+may
+ 
+Nitrogen
+ 
+(b)
+ 
+© UCLES 2025
+10
+* 0000800000010 *
+,	,
+ĬÙĊ¾Ġ´íÈõÏĪÅĊàù¸þ×
+ĬÂùóÚĝĒ÷åĀîĘāùÀěĎĂ
+ĥåõÕõĕåĕåĥµąÅµąµĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+
+===== PDF PAGE 10 =====
+otal: 12]
+[T
+ 
+[2]
+ 
+–1
+s 
+m
+ 
+................................................
+ 
+speed = 
+.m.s. 
+r
+ 
+°C.
+ 
+.m.s.) speed of a nitrogen molecule at 210
+Calculate the root‑mean‑square (r
+ 
+ 
+ 
+kg.
+ 
+–26
+10
+ 
+×
+ 
+The mass of a nitrogen molecule is 4.7
+ 
+(iii)
+ 
+ 
+urn over
+[T
+© UCLES 2025
+11
+* 0000800000011 *
+,	,
+ĬÛĊ¾Ġ´íÈõÏĪÅĊàû¸þ×
+ĬÂúôÒīĎćÔúăÑÕāĜěĞĂ
+ĥåąĕµõÅõµĕĥąÅÕĥõõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+
+===== PDF PAGE 11 =====
+0.1
+0.3
+0.6
+[3]
+ J 
+.......................................................
+ 
+ = 
+E
+ 
+ of the vibrations.
+E
+Calculate the total energy 
+ 
+ 
+4.1. 
+ 
+Fig.
+ 
+in
+ 
+shown
+ 
+as
+ 
+vibrates
+ 
+that
+ 
+kg
+ 
+– 4
+10
+ 
+×
+ 
+2.4
+ 
+of
+ 
+mass
+ 
+single
+ 
+a
+ 
+as
+ 
+modelled
+ 
+be
+ 
+may
+ 
+crystal
+ 
+The
+ 
+(c)
+ 
+[2]
+ 
+–2
+s 
+m
+ 
+................................................
+ 
+ = 
+0
+a
+ 
+ of the vibration of the surface.
+0
+a
+Determine the maximum acceleration 
+ 
+(b)
+ 
+[2]
+ 
+.
+–1
+s 
+rad
+ 
+7
+10
+ 
+×
+ 
+tion of the surface is 4.2
+Show that the angular frequency of the vibra
+ 
+(a)
+ 
+Fig. 4.1
+50
+0
+–50
+0.5
+0.4
+0.2
+0
+s
+ 
+−6
+10
+ / t
+m
+ 
+−6
+10
+ / x
+4.1. 
+ 
+Fig.
+ 
+ of one surface of the crystal from its equilibrium position is shown in
+x
+displacement 
+ 
+the
+ 
+of
+ t 
+time
+ 
+with
+ 
+variation
+ 
+The
+ 
+otion.
+m
+ 
+harmonic
+ 
+simple
+ 
+with
+ 
+vibrate
+ 
+to
+ 
+made
+ 
+is
+ 
+crystal
+ 
+small
+ 
+A
+ 
+4
+© UCLES 2025
+12
+* 0000800000012 *
+,	,
+ĬÙĊ¾Ġ´íÈõÏĪÅĊÞù¸Ā×
+ĬÂúñÒġĠĂçøČÚ÷ÝºċĖĂ
+ĥĕÕĕõõÅÕÕµĕąąÕÅõĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+
+===== PDF PAGE 12 =====
+otal: 12]
+[T
+ 
+[3]
+ 
+%
+ 
+.....................................................
+ 
+mitted = 
+percentage trans
+ 
+.
+this boundary
+ 
+at
+ 
+transmitted
+ 
+is
+ 
+that
+ 
+beam
+ 
+ultrasound
+ 
+the
+ 
+of
+ 
+intensity
+ 
+the
+ 
+of
+ 
+percentage
+ 
+the
+ 
+Calculate
+ 
+ 
+ 
+4100
+1900
+bone
+1600
+100
+1
+muscle
+–1
+s 
+m
+ / 
+sound
+ 
+of
+ 
+speed
+–3
+m
+ 
+kg
+ / 
+density
+material
+able 4.1
+T
+able 4.1.
+T
+muscle and bone are given in 
+ 
+for
+ 
+Data
+ .
+boundary
+ 
+muscle‑bone
+ 
+a
+ 
+on
+ 
+incident
+ 
+is
+ 
+waves
+ 
+ultrasound
+ 
+
+
+===== PDF PAGE 13 =====
+C
+C
+Fig. 5.2
+C
+μ
+ / 
+Q
+V
+ / 
+V
+400
+200
+0
+6
+4
+2
+0
+5.2.
+ 
+Fig.
+ 
+ is shown in
+Y
+and 
+ 
+X
+ 
+terminals
+ 
+the
+ 
+between
+ 
+V
+ 
+(p.d.)
+ 
+ference
+dif
+ 
+potential
+ 
+the
+ 
+with
+ 
+Q
+ 
+charge
+ 
+the
+ 
+of
+ 
+variation
+ 
+The
+ 
+ 
+Fig. 5.1
+Y
+C
+X
+5.1.
+ 
+Fig.
+ 
+in
+ 
+shown
+ 
+as
+ 
+network
+ 
+a
+ 
+in
+ 
+connected
+ 
+are
+ ,
+C
+ 
+tance
+capaci
+ 
+of
+ 
+each
+ 
+capacitors,
+ 
+identical
+ 
+Three
+ 
+(b)
+ 
+[2]
+ 
+.
+2
+C
+1
+ + 
+1
+C
+1
+ = 
+C
+1
+ of the two capacitors is given by
+C
+Show that the combined capacitance 
+ 
+ 
+ 
+
+
+===== PDF PAGE 14 =====
+otal: 9]
+[T
+ 
+[2]
+ s 
+.......................................................
+ 
+time = 
+ 
+current.
+ 
+discharge
+ 
+initial
+ 
+the
+ 
+of
+ 
+15%
+ 
+to
+ 
+reduce
+ 
+to
+ 
+current
+ 
+discharge
+ 
+the
+ 
+for
+ 
+taken
+ 
+time
+ 
+the
+ 
+Determine
+ 
+(ii)
+ 
+ 
+[2]
+ 
+ unit ..................
+...............................
+ 
+ = 
+τ
+ 
+.
+ of the circuit. Give a unit with your answer
+τ
+Determine the time constant 
+ 
+(i)
+ 
+ 
+. 
+The capacitor network discharges through the resistor
+. 
+Ω
+k 
+54
+ 
+resistance
+ 
+of
+ 
+resistor
+ 
+a
+ 
+to
+ 
+connected
+ 
+then
+ 
+and
+ 
+d
+charge
+ 
+is
+ 
+5.1
+ 
+Fig.
+ 
+in
+ 
+network
+ 
+capacitor
+ 
+The
+ 
+(c)
+ 
+ 
+[3]
+ 
+F.
+µ 
+ is equal to 44
+C
+Show that 
+ 
+ 
+urn over
+[T
+© UCLES 2025
+15
+* 0000800000015 *
+,	,
+Ĭ×Ċ¾Ġ´íÈõÏĪÅĊÝúµĂ×
+ĬÂùóÓğēúÕòÿõÛø®»ĎĂ
+ĥµÕÕµĕąõµåĕÅÅĕĥµµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+
+===== PDF PAGE 15 =====
+[3]
+ 
+T
+ 
+......................................................
+ 
+ = 
+B
+ 
+.
+B
+Determine 
+ 
+ 
+m.
+ 
+–2
+10
+ 
+×
+ 
+ is equal to 3.6
+d
+V and 
+ 
+ is equal to 980
+V
+through the velocity selector when 
+ 
+undeviated
+ 
+pass
+ 
+kg
+ 
+–27
+10
+ 
+×
+ 
+3.2
+ 
+mass
+ 
+and
+ J 
+–17
+10
+ 
+×
+ 
+4.1
+ 
+energy
+ 
+kinetic
+ 
+with
+ 
+ions
+ 
+Positive
+ 
+(b)
+ 
+[2]
+ 
+. 
+Bd
+V
+ = 
+u
+ctor is given by
+ of ions that pass undeviated through the velocity sele
+u
+Show that the speed 
+ 
+ 
+.
+B
+ and the magnetic flux density is 
+d
+of the plates is 
+ 
+separation
+ 
+The
+ .
+V
+ 
+is
+ 
+selector
+ 
+velocity
+ 
+the
+
+
+===== PDF PAGE 16 =====
+1]
+otal: 1
+[T
+ 
+[2]
+ 
+On Fig. 6.1, sketch the path of these ions.
+ 
+ 
+.
+ enter the velocity selector with greater kinetic energy
+(b)
+The positive ions in 
+ 
+(e)
+ 
+[3]
+ 
+...................................................................................................
+....................................
+......
+ 
+.........................................................................................................
+....................................
+......
+ 
+.........................................................................................................
+....................................
+......
+ 
+.........................................................................................................
+....................................
+......
+ 
+.........................................................................................................
+....................................
+......
+ 
+.........................................................................................................
+....................................
+......
+ 
+the magnetic field. Explain your reasoning.
+ 
+of
+ 
+direction
+ 
+the
+ 
+determine
+ 
+ion,
+ 
+positive
+ 
+a
+ 
+on
+ 
+acting
+ 
+forces
+ 
+the
+ 
+to
+ 
+and
+ 
+6.1
+ 
+Fig.
+ 
+to
+ 
+reference
+ 
+By
+ 
+(d)
+ 
+[1]
+ 
+...................................................................................................
+....................................
+......
+ 
+.........................................................................................................
+....................................
+......
+ 
+.
+through the velocity selector
+ 
+undeviated
+ 
+passes
+ 
+also
+ 
+particle
+ 
+alpha
+ 
+the
+ 
+that
+ 
+predicts
+ 
+(a)
+ 
+in
+ 
+expression
+ 
+the
+ 
+how
+ 
+State
+ 
+ 
+r at the same speed as the proton.
+An alpha particle enters the velocity selecto
+ 
+ 
+.
+ocity selector
+ proton passes undeviated through the vel
+A
+ 
+(c)
+ 
+urn over
+[T
+© UCLES 2025
+17
+* 0000800000017 *
+,	,
+Ĭ×Ċ¾Ġ´íÈõÏĪÅĊßúµĄ×
+ĬÂúñÛģĝÿ×Ċù»ÝäÌëĖĂ
+ĥąõĕµõĥµÅõµÅąõåõµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+
+===== PDF PAGE 17 =====
+[2]
+ 
+.....................................................................................................................................
+ 
+...........................................................................................................................................
+ 
+...........................................................................................................................................
+ 
+of the rod.
+v 
+ is proportional to the velocity 
+E
+Explain how Fig. 7.2 shows that 
+ 
+(i)
+ 
+ 
+Fig. 7.2
+V
+m
+ / 
+E
+s
+ / t
+0.3
+0.2
+0.1
+0
+2
+1
+0
+7.2.
+ 
+Fig.
+ 
+ is shown in
+E
+e.m.f. 
+ 
+induced
+ 
+the
+ 
+of
+ t 
+time
+ 
+with
+ 
+variation
+ 
+The
+ 
+rod.
+ 
+the
+ 
+in
+ 
+induced
+ 
+is
+ 
+(e.m.f.)
+ 
+force
+ 
+electromotive
+ 
+An
+ 
+ 
+.
+B
+ and the flux density of the magnetic field is 
+l
+The rod has length 
+ 
+ 
+Fig. 7.1
+rod
+into page
+magnetic field
+leration
+direction of acce
+7.1.
+ 
+Fig.
+ 
+in
+ 
+shown
+ 
+as
+ 
+field
+ 
+magnetic
+ 
+uniform
+ 
+a
+ 
+in
+ 
+rest
+ 
+from
+ 
+uniformly
+ 
+accelerated
+ 
+is
+ 
+rod
+ 
+metal
+ 
+A
+ 
+(b)
+ 
+[2]
+ 
+...................................................................................................
+....................................
+......
+ 
+.........................................................................................................
+....................................
+......
+ 
+.........................................................................................................
+....................................
+......
+ 
+ction.
+s law of electromagnetic indu
+State Faraday’
+ 
+(a)
+ 
+7
+© UCLES 2025
+18
+* 0000800000018 *
+,		,
+ĬÕĊ¾Ġ´íÈõÏĪÅĊÞü·Ă×
+ĬÂüòÚħĩĩà÷ÿØĕÚüēĎĂ
+ĥÕĥĕõĕåÕõµĥąąµÅµĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+
+===== PDF PAGE 18 =====
+otal: 9]
+[T
+ 
+[2]
+ 
+T
+ 
+......................................................
+ 
+ = 
+B
+ 
+.
+B
+Determine the value of 
+ 
+ 
+ 
+.
+–2
+s 
+m
+ 
+ of the rod is 7.8
+a
+The acceleration 
+m. 
+ 
+The length of the rod is 0.45
+ 
+(iii)
+ 
+ 
+[3]
+ 
+ is the acceleration of the rod.
+a
+where 
+ 
+ 
+ 
+at
+l
+B
+ = 
+E
+ is given by
+t
+ with time 
+E
+s law to show that the variation of 
+Use Faraday’
+ 
+(ii)
+ 
+ 
+urn over
+[T
+© UCLES 2025
+19
+* 0000800000019 *
+,	
+,
+Ĭ×Ċ¾Ġ´íÈõÏĪÅĊÞú·Ă×
+ĬÂûñÒġĥęÙāòđÁâàēĞĂ
+ĥÕĕÕµõÅµĥÅµąąÕåõąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+
+===== PDF PAGE 19 =====
+otal: 10]
+[T
+ 
+[4]
+ 
+ N
+.....................................................
+ 
+ force = 
+average
+ 
+Determine the average force exerted by the beam of photons on the surface.
+ 
+ 
+ 
+absorbed by the surface, and half are reflected.
+ 
+are
+ 
+photons
+ 
+of
+ 
+number
+ 
+the
+ 
+of
+ 
+Half
+ 
+surface.
+ 
+a
+ 
+on
+ 
+normally
+ 
+incident
+ 
+are
+ 
+photons
+ 
+The
+ 
+(iii)
+ 
+ 
+[1]
+ 
+–1
+ s
+...................................................
+ 
+it time = 
+number per un
+ 
+.
+Calculate the number of photons emitted per unit time by the laser
+ 
+ 
+ 
+W.
+ 
+–2
+10
+ 
+×
+ 
+The power of the beam emitted by the laser is 1.0
+ 
+(ii)
+ 
+ 
+[3]
+ 
+ m
+.....................................................
+ 
+wavelength = 
+ 
+Calculate the wavelength of the light.
+ 
+(i)
+ 
+ 
+.
+eV
+ 
+1.96
+ 
+levels is
+ 
+two
+ 
+the
+ 
+between
+ 
+energy
+ 
+in
+ 
+ference
+dif
+ 
+The
+ 
+level.
+ 
+energy
+ 
+lower
+ 
+a
+ 
+to
+ 
+level
+ 
+energy
+ r
+highe
+ 
+a
+ 
+from
+ 
+move
+ 
+electrons
+ 
+when
+ 
+produced
+ 
+is
+ 
+light
+ 
+The
+ 
+wavelength.
+ 
+single
+ 
+a
+ 
+of
+ 
+light
+ 
+red
+ 
+emits
+ 
+laser
+ 
+A
+ 
+(b)
+ 
+[2]
+ 
+...................................................................................................
+....................................
+......
+ 
+.........................................................................................................
+....................................
+......
+ 
+.........................................................................................................
+....................................
+......
+ 
+State what is meant by a photon.
+ 
+(a)
+ 
+8
+urn over
+[T
+© UCLES 2025
+21
+* 0000800000021 *
+,	,
+Ĭ×Ċ¾Ġ´íÈõÏĪÅĊàú·Ą×
+ĬÂüóÚĝěĠÛùĈÏ·öÚăĦĂ
+ĥĥµĕµĕåõĕĕĕąÅµĥµąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+
+===== PDF PAGE 20 =====
+[2]
+ 
+ eV
+....................................................
+ 
+energy = 
+ 
+of lead‑189.
+ 
+nucleus
+ 
+a
+ 
+into
+ 
+decays
+ 
+polonium‑193
+ 
+of
+ 
+nucleus
+ 
+a
+ 
+when
+ 
+released
+ ,
+eV
+ 
+in
+ ,
+energy
+ 
+the
+ 
+Determine
+ 
+ 
+7.074
+α
+4
+2
+7.826
+Pb
+82
+189
+7.774
+Po
+84
+193
+eV
+ / 
+binding energy per nucleon
+particle
+able 9.1
+T
+able 9.1.
+T
+polonium‑193 are given in 
+ 
+of
+ 
+nucleus
+ 
+a
+ 
+of
+ 
+decay
+ 
+the
+ 
+in
+ 
+involved
+ 
+particles
+ 
+the
+ 
+of
+ 
+nucleon
+ 
+per
+ 
+energy
+ 
+ng
+bindi
+ 
+the
+ 
+for
+
+
+===== PDF PAGE 21 =====
+[2]
+ 
+ ms
+...................................................
+ 
+half‑life = 
+ 
+ms, of polonium‑193.
+ 
+Use Fig. 9.1 to determine the half‑life, in
+ 
+(ii)
+ 
+ 
+[1]
+ 
+.....................................................................................................................................
+ 
+9.1.
+ 
+Fig.
+ 
+line in
+ 
+the
+ 
+of
+ 
+gradient
+ 
+the
+ 
+of
+ 
+magnitude
+ 
+the
+ 
+by
+ 
+represented
+ 
+is
+ 
+that
+ 
+quantity
+ 
+the
+ 
+of
+ 
+name
+ 
+the
+ 
+State
+ 
+(i)
+ 
+ 
+Fig. 9.1
+ms
+ / t
+0
+–1.4
+–1.2
+–1.0
+–0.8
+–0.6
+–0.4
+–0.2
+1.0
+0.8
+0.6
+0.4
+0.2
+0
+)
+0
+N
+ / 
+N
+( 
+In
+9.1.
+ 
+Fig.
+ 
+ is shown in
+t
+) with 
+0
+N
+ / 
+N
+( 
+The variation of ln
+of polonium‑193. 
+ 
+nuclei
+ 
+N
+ 
+contains
+ 
+sample
+ 
+the
+ t 
+time
+ 
+a
+ 
+After
+ 
+nuclei.
+ 
+0
+N
+ 
+contains
+ 
+polonium‑193
+ 
+of
+ 
+sample
+ 
+pure
+ 
+A
+ 
+(d)
+ 
+urn over
+[T
+© UCLES 2025
+23
+* 0000800000023 *
+,	,
+ĬÛĊ¾Ġ´íÈõÏĪÅĊÝü¶Ă×
+ĬÂüôÍġïĖæČČģăöğëĦĂ
+ĥµĥÕõÕÅµÅąĥąąÕåµÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+
+===== PDF PAGE 22 =====
+otal: 10]
+[T
+ 
+[1]
+ 
+.....................................................................................................................................
+ 
+...........................................................................................................................................
+ 
+imately 2 hours is a suitable tracer to use.
+Explain why a tracer with a half‑life of approx
+ 
+(ii)
+ 
+ 
+[1]
+ 
+.....................................................................................................................................
+ 
+...........................................................................................................................................
+ 
+.
+State what happens to the positrons emitted by the tracer
+ 
+(i)
+ 
+ 
+.
+ scanning) uses a radioactive tracer
+Positron emission tomography (PET
+ 
+(e)
+ 
+© UCLES 2025
+24
+* 0000800000024 *
+,	,
+ĬÙĊ¾Ġ´íÈõÏĪÅĊßú¶Ą×
+ĬÂüñÍīýēÑĆăĬáÚ½»ĎĂ
+ĥąµÕµÕÅĕååĕąÅÕąµÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+
+===== PDF PAGE 23 =====
+Z
+Y
+656.2831
+656.2877
+nm
+ / 
+Y
+ 
+from
+observed wavelength 
+nm
+ / 
+X
+ 
+from
+observed wavelength 
+able 10.1
+T
+10.1.
+ 
+able
+T
+ 
+ are observed and recorded in
+Y
+The wavelengths of light from points X and 
+ 
+ 
+Fig. 10.1
+axis of rotation
+direction of rotation
+equator
+Sun
+X
+10.1.
+ 
+Fig.
+ 
+in 
+ 
+shown
+ 
+as
+ 
+Sun
+ 
+the
+ 
+of
+ 
+equator
+ 
+the
+ 
+on
+ 
+are
+ 
+Z
+ 
+and
+ 
+Y
+ 
+X,
+ 
+Points
+ 
+axis.
+ 
+its
+ 
+on
+ 
+rotates
+ 
+Sun
+ 
+The
+ 
+(b)
+ 
+[3]
+ 
+.....................................................................................................................................
+ 
+...........................................................................................................................................
+ 
+...........................................................................................................................................
+ 
+...........................................................................................................................................
+ 
+...........................................................................................................................................
+ 
+...........................................................................................................................................
+ 
+.
+Explain how standard candles are used to determine the distance to a galaxy
+ 
+(ii)
+ 
+ 
+[1]
+
+
+===== PDF PAGE 24 =====
+1]
+otal: 1
+[T
+ 
+[2]
+ 
+ K
+......................................................
+ 
+temperature = 
+ 
+ to calculate the surface temperature of the Sun.
+(b)(i)
+Use the information in 
+ 
+ 
+ 
+W.
+ 
+26
+10
+ 
+×
+ 
+The luminosity of the Sun is 3.8
+ 
+(iii)
+ 
+ 
+[2]
+ 
+.....................................................................................................................................
+ 
+...........................................................................................................................................
+ 
+...........................................................................................................................................
+ 
+with the emitted wavelength.
+ 
+compares
+ 
+Z
+ 
+from
+ 
+observed
+ 
+light
+ 
+the
+ 
+of
+ 
+wavelength
+ 
+pected
+ex
+ 
+the
+ 
+how
+ 
+explain
+ 
+and
+ 
+State
+ 
+(ii)
+ 
+ 
+[3]
+ 
+m.
+ 
+8
+10
+ 
+×
+ 
+Show that the radius of the Sun is 6.93
+ 
+ 
+ 
+s.
+ 
+6
+10
+ 
+×
+ 
+The Sun rotates with a period of 2.07
+ 
+(i)
+ 
+ 
+© UCLES 2025
+27
+* 0000800000027 *
+,	,
+ĬÛĊ¾Ġ´íÈõÏĪÅĊÞü¸Ă×
+ĬÂúòÐğĉõêûõćęäíăĖĂ
+ĥÕåÕõµąõĕĥÅÅÅĕĥõõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN

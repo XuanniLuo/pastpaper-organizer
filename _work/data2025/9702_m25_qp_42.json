@@ -1,0 +1,202 @@
+{
+  "paper": "9702/42/F/M/25",
+  "paper_full": "March 2025 · Paper 42",
+  "questions": [
+    {
+      "topic": "12",
+      "qnum": "Q1",
+      "title": "Steel ball inside a hollow cone — circular motion &amp; angular speed",
+      "marks": 9,
+      "pages": [4, 5],
+      "pdf": "9702_m25_qp_42_Q1_Motion_in_a_circle.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["12.2.1"], "marks": 1,
+          "answer": "An arrow <b>vertically downwards</b> labelled ‘weight’, and an arrow <b>perpendicular to the cone surface, pointing inwards and upwards</b>, labelled ‘normal contact force’ (the two arrows must be in the correct directions and correctly labelled)." },
+        { "label": "(b)", "codes": ["12.2.1", "12.2.2"], "marks": 2,
+          "answer": "The <b>vertical component of the contact force equals the weight</b>, so there is no resultant force vertically. The <b>horizontal component of the contact force is the resultant force</b>, and it acts towards the centre of the circle — this provides the centripetal force that keeps the ball moving in a circle." },
+        { "label": "(c)", "codes": ["12.2.3", "12.2.4"], "marks": 3,
+          "answer": "For a conical-pendulum type of motion the acceleration is <b>a = g tan 52°</b>, and a = v²/r:<br>9.81 × tan 52° = v²/0.15<br>v² = 0.15 × 9.81 × tan 52° = 1.88 m² s⁻²<br>v = <b>1.4 m s⁻¹</b>" },
+        { "label": "(d)", "codes": ["12.1.3"], "marks": 2,
+          "answer": "v = rω, so ω = v/r = 1.4/0.15<br>= <b>9.3 rad s⁻¹</b><br>(Equivalently ω = √(g tan 52°/0.15) = 9.3 rad s⁻¹.)" },
+        { "label": "(e)", "codes": ["12.2.3"], "marks": 1,
+          "answer": "The resultant (centripetal) force — hence the acceleration — is unchanged, and a = v²/r, so <b>v² is proportional to r</b>. Therefore increasing the speed requires a larger radius, so the ball moves up the cone to a circle of larger radius." }
+      ]
+    },
+    {
+      "topic": "13",
+      "qnum": "Q2",
+      "title": "Gravitational potential of a planet &amp; electric potential between plates",
+      "marks": 7,
+      "pages": [6, 7],
+      "pdf": "9702_m25_qp_42_Q2_Gravitational_fields.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["13.4.2"], "marks": 3,
+          "answer": "Sketch φ against x: a curve lying <b>entirely in the negative-φ region</b> for x between R and 4R, starting at (R, −φ) with a <b>continuously decreasing magnitude and continuously decreasing gradient</b> (concave up towards zero), and passing through <b>(2R, −½φ)</b> and <b>(4R, −¼φ)</b>. The potential is φ = −GM/x, so it halves as x doubles." },
+        { "label": "(b)", "codes": ["13.2.4", "13.4.2"], "marks": 2,
+          "answer": "A geostationary satellite stays at the <b>same point</b> above the Earth, so its gravitational potential is constant: a <b>horizontal straight line from t = 0 to t = 24 hours</b>, starting at (0, −φ)." },
+        { "label": "(c)", "codes": ["18.2.1"], "marks": 2,
+          "answer": "The field between the plates is uniform, so the potential falls uniformly: a <b>straight line with constant negative gradient from (0, V) to (d, 0)</b>, i.e. the potential decreases linearly from the positive plate to the negative plate." }
+      ]
+    },
+    {
+      "topic": "15",
+      "qnum": "Q3",
+      "title": "Thermal equilibrium, specific heat capacity &amp; ideal gas",
+      "marks": 12,
+      "pages": [8, 9, 10],
+      "pdf": "9702_m25_qp_42_Q3_Ideal_gases.pdf",
+      "parts": [
+        { "label": "(a)(i)", "codes": ["14.1.2"], "marks": 2,
+          "answer": "P and Q are at the <b>same temperature</b>, so there is <b>no net transfer of thermal energy</b> between them." },
+        { "label": "(a)(ii)", "codes": ["14.3.1"], "marks": 3,
+          "answer": "Energy is shared between P and Q, so Q = (mcΔT)<sub>P</sub> + (mcΔT)<sub>Q</sub>:<br>24 × 10³ = (0.54 × 390 × ΔT) + (0.37 × 910 × ΔT)<br>24 × 10³ = (210.6 + 336.7)ΔT = 547.3ΔT<br>ΔT = <b>44 K</b>" },
+        { "label": "(b)(i)", "codes": ["16.2.1"], "marks": 3,
+          "answer": "Work done = pΔV = (1.6 × 10⁵) × (0.18 − 0.32)<br>= 1.6 × 10⁵ × (−0.14) = <b>−2.2 × 10⁴ J</b><br>(The volume decreases, so work is done <b>on</b> the gas.)" },
+        { "label": "(b)(ii)", "codes": ["15.2.2"], "marks": 2,
+          "answer": "pV = NkT, so N = pV/kT<br>= (1.6 × 10⁵ × 0.18)/(1.38 × 10⁻²³ × 273)<br>= <b>7.6 × 10²⁴</b>" },
+        { "label": "(b)(iii)", "codes": ["15.3.3", "15.3.4"], "marks": 2,
+          "answer": "½m⟨c²⟩ = ½m(c<sub>r.m.s.</sub>)² = (3/2)kT, so<br>c<sub>r.m.s.</sub> = √(3kT/m) = √[3 × 1.38 × 10⁻²³ × (210 + 273)/(4.7 × 10⁻²⁶)]<br>= <b>650 m s⁻¹</b>" }
+      ]
+    },
+    {
+      "topic": "17",
+      "qnum": "Q4",
+      "title": "Piezoelectric crystal — simple harmonic motion &amp; ultrasound",
+      "marks": 12,
+      "pages": [11, 12],
+      "pdf": "9702_m25_qp_42_Q4_Oscillations.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["17.1.3"], "marks": 2,
+          "answer": "ω = 2π/T = 2π/(0.15 × 10⁻⁶)<br>= <b>4.2 × 10⁷ rad s⁻¹</b>" },
+        { "label": "(b)", "codes": ["17.1.3"], "marks": 2,
+          "answer": "a₀ = ω²x₀ = (4.2 × 10⁷)² × 40 × 10⁻⁶<br>= <b>7.1 × 10¹⁰ m s⁻²</b>" },
+        { "label": "(c)", "codes": ["17.2.2"], "marks": 3,
+          "answer": "E = ½mω²x₀² = ½ × 2.4 × 10⁻⁴ × (4.2 × 10⁷)² × (40 × 10⁻⁶)²<br>= <b>340 J</b>" },
+        { "label": "(d)(i)", "codes": ["24.1.1", "24.1.2"], "marks": 2,
+          "answer": "Apply an <b>alternating p.d.</b> across the crystal. The p.d. causes the crystal to <b>distort</b> (change shape) at the frequency of the alternating p.d., so the surface vibrates — and conversely an oscillating crystal generates an alternating e.m.f., so it can be used to generate ultrasound." },
+        { "label": "(d)(ii)", "codes": ["24.1.4", "24.1.5"], "marks": 3,
+          "answer": "Z = ρc, so Z<sub>muscle</sub> = 1100 × 1600 = 1.76 × 10⁶ and Z<sub>bone</sub> = 1900 × 4100 = 7.79 × 10⁶ kg m⁻² s⁻¹.<br>Intensity reflection coefficient = (Z₁ − Z₂)²/(Z₁ + Z₂)²<br>= (7.79 − 1.76)²/(7.79 + 1.76)² = 0.40 (40%)<br>so percentage transmitted = <b>60%</b>" }
+      ]
+    },
+    {
+      "topic": "19",
+      "qnum": "Q5",
+      "title": "Capacitor network — series/parallel &amp; discharge through a resistor",
+      "marks": 9,
+      "pages": [13, 14],
+      "pdf": "9702_m25_qp_42_Q5_Capacitance.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["19.1.3"], "marks": 2,
+          "answer": "For capacitors in series the charge is the same (Q = Q₁ = Q₂) and the p.d.s add (V = V₁ + V₂). Using V = Q/C:<br>Q/C = Q/C₁ + Q/C₂, which gives <b>1/C = 1/C₁ + 1/C₂</b>." },
+        { "label": "(b)", "codes": ["19.1.4"], "marks": 3,
+          "answer": "Two equal capacitors C in series give C/2, so the total capacitance is C + C/2 = <b>3C/2</b>.<br>The total capacitance equals the gradient of the Q–V graph = 400 × 10⁻⁶/6.0.<br>C = (2 × 400 × 10⁻⁶)/(3 × 6.0) = <b>44 μF</b>" },
+        { "label": "(c)(i)", "codes": ["19.3.2"], "marks": 2,
+          "answer": "τ = RC = 54 × 10³ × (3/2) × 44 × 10⁻⁶<br>= <b>3.6 s</b>" },
+        { "label": "(c)(ii)", "codes": ["19.3.3"], "marks": 2,
+          "answer": "I = I₀e^(−t/RC), so 0.15 = e^(−t/3.6)<br>−t/3.6 = ln 0.15 = −1.90<br>t = <b>6.8 s</b>" }
+      ]
+    },
+    {
+      "topic": "20",
+      "qnum": "Q6",
+      "title": "Velocity selector — magnetic field, forces &amp; ion paths",
+      "marks": 11,
+      "pages": [15, 16],
+      "pdf": "9702_m25_qp_42_Q6_Magnetic_fields.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["20.3.6"], "marks": 2,
+          "answer": "For undeviated motion the forces balance: F<sub>B</sub> = F<sub>E</sub>, so Bqu = qE. With E = V/d this gives Bqu = qV/d, so <b>u = V/Bd</b>." },
+        { "label": "(b)", "codes": ["20.3.2", "20.3.6"], "marks": 3,
+          "answer": "Eₖ = ½mu², so u = √(2Eₖ/m) = √(2 × 4.1 × 10⁻¹⁷/3.2 × 10⁻²⁷) = 1.6 × 10⁵ m s⁻¹.<br>B = V/(ud) = 980/(3.6 × 10⁻² × 1.6 × 10⁵)<br>= <b>0.17 T</b>" },
+        { "label": "(c)", "codes": ["20.3.6"], "marks": 1,
+          "answer": "The expression u = V/Bd is <b>independent of mass and charge</b>, so the alpha particle also passes through undeviated at the same speed." },
+        { "label": "(d)", "codes": ["20.3.1", "20.2.2"], "marks": 3,
+          "answer": "There is no resultant force, so the <b>magnetic force is upwards</b> (equal and opposite to the downward electric force). The ions are positive, so the conventional current is from left to right. Using Fleming’s left-hand rule, the magnetic field is <b>into the page</b>." },
+        { "label": "(e)", "codes": ["20.3.5"], "marks": 2,
+          "answer": "A <b>curved path</b> inside the plates with a consistent direction of curvature and no discontinuity at entry or in curvature, deflecting <b>upwards</b> (the magnetic force now exceeds the electric force, so the ions are deflected towards the top plate)." }
+      ]
+    },
+    {
+      "topic": "20",
+      "qnum": "Q7",
+      "title": "Rod in a magnetic field — Faraday’s law &amp; induced e.m.f.",
+      "marks": 9,
+      "pages": [17, 18],
+      "pdf": "9702_m25_qp_42_Q7_Magnetic_fields.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["20.5.5"], "marks": 2,
+          "answer": "The induced e.m.f. is <b>(directly) proportional to the rate of change of (magnetic) flux (linkage)</b>." },
+        { "label": "(b)(i)", "codes": ["20.5.5"], "marks": 2,
+          "answer": "The rod accelerates uniformly, so its <b>velocity is proportional to time</b>. Fig. 7.2 shows the <b>e.m.f. is proportional to time</b>, so E is proportional to v." },
+        { "label": "(b)(ii)", "codes": ["20.5.3", "20.5.5"], "marks": 3,
+          "answer": "With v = at, the distance moved in time Δt is atΔt, so the area swept out is L × atΔt. The flux cut is ΔΦ = B × (area) = BLatΔt, and E = ΔΦ/Δt = <b>BLat</b>." },
+        { "label": "(b)(iii)", "codes": ["20.5.5"], "marks": 2,
+          "answer": "From Fig. 7.2, E = 0.30 × 10⁻³ V at t = 2.0 s, so<br>B = E/(Lat) = (0.30 × 10⁻³)/(0.45 × 7.8 × 2.0)<br>= <b>4.3 × 10⁻⁵ T</b>" }
+      ]
+    },
+    {
+      "topic": "22",
+      "qnum": "Q8",
+      "title": "Laser photons — energy, wavelength &amp; radiation force",
+      "marks": 10,
+      "pages": [19],
+      "pdf": "9702_m25_qp_42_Q8_Quantum_physics.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["22.1.1", "22.1.2"], "marks": 2,
+          "answer": "A photon is a <b>quantum of energy</b> of <b>electromagnetic radiation</b>." },
+        { "label": "(b)(i)", "codes": ["22.1.3"], "marks": 3,
+          "answer": "ΔE = hc/λ, so λ = hc/ΔE<br>= (6.63 × 10⁻³⁴ × 3.00 × 10⁸)/(1.96 × 1.60 × 10⁻¹⁹)<br>= <b>6.3 × 10⁻⁷ m</b>" },
+        { "label": "(b)(ii)", "codes": ["22.1.3"], "marks": 1,
+          "answer": "Number per unit time = power/energy per photon<br>= (1.0 × 10⁻²)/(1.96 × 1.60 × 10⁻¹⁹)<br>= <b>3.2 × 10¹⁶ s⁻¹</b>" },
+        { "label": "(b)(iii)", "codes": ["22.1.5"], "marks": 4,
+          "answer": "Force = rate of change of momentum, and for a photon p = E/c.<br>Half the photons are absorbed (momentum change p) and half are reflected (momentum change 2p), so the average momentum change per photon is (p + 2p)/2 = 3p/2.<br>F = (3/2) × (E/c) × (number per second)<br>= (3/2) × [(1.96 × 1.60 × 10⁻¹⁹)/(3.00 × 10⁸)] × 3.2 × 10¹⁶<br>= <b>5.0 × 10⁻¹¹ N</b>" }
+      ]
+    },
+    {
+      "topic": "23",
+      "qnum": "Q9",
+      "title": "Polonium-193 decay — binding energy, half-life &amp; PET",
+      "marks": 10,
+      "pages": [20, 21, 22],
+      "pdf": "9702_m25_qp_42_Q9_Nuclear_physics.pdf",
+      "parts": [
+        { "label": "(a)(i)", "codes": ["23.2.2"], "marks": 1,
+          "answer": "<b>Random</b> — one cannot predict when a particular nucleus will decay (or which nucleus will decay next)." },
+        { "label": "(a)(ii)", "codes": ["23.2.2"], "marks": 1,
+          "answer": "<b>Spontaneous</b> — the decay is not affected by external or environmental factors." },
+        { "label": "(b)", "codes": ["23.2.4"], "marks": 1,
+          "answer": "The <b>time for the activity (or number of nuclei) to halve</b>." },
+        { "label": "(c)", "codes": ["23.1.1"], "marks": 2,
+          "answer": "Energy released = total binding energy of products − total binding energy of the parent nucleus:<br>= (189 × 7.826) + (4 × 7.074) − (193 × 7.774)<br>= 1479.1 + 28.3 − 1500.4 = <b>7.03 eV</b>" },
+        { "label": "(d)(i)", "codes": ["23.2.3"], "marks": 1,
+          "answer": "The <b>decay constant</b> (the magnitude of the gradient of the ln(N/N₀)–t graph equals λ)." },
+        { "label": "(d)(ii)", "codes": ["23.2.5"], "marks": 2,
+          "answer": "Decay constant λ = magnitude of gradient = 1.4/0.84.<br>Half-life = ln 2/λ = ln 2/(1.4/0.84)<br>= <b>0.42 ms</b>" },
+        { "label": "(e)(i)", "codes": ["24.3.3"], "marks": 1,
+          "answer": "The emitted positrons <b>collide with electrons and annihilate</b>, producing gamma-ray photons." },
+        { "label": "(e)(ii)", "codes": ["24.3.1"], "marks": 1,
+          "answer": "The half-life is <b>long enough</b> to allow the investigation to be carried out, but <b>not so long</b> that the patient is exposed to radiation unnecessarily." }
+      ]
+    },
+    {
+      "topic": "25",
+      "qnum": "Q10",
+      "title": "The Sun — rotation, redshift &amp; luminosity",
+      "marks": 11,
+      "pages": [23, 24],
+      "pdf": "9702_m25_qp_42_Q10_Astronomy_and_cosmology.pdf",
+      "parts": [
+        { "label": "(a)(i)", "codes": ["25.1.1"], "marks": 1,
+          "answer": "The <b>total power of radiation emitted</b> (by the star)." },
+        { "label": "(a)(ii)", "codes": ["25.1.3", "25.1.4"], "marks": 3,
+          "answer": "A standard candle has a <b>known luminosity</b>. Measure the <b>radiant flux intensity</b> F received at the Earth, then use <b>F = L/(4πd²)</b> to calculate the distance d to the galaxy." },
+        { "label": "(b)(i)", "codes": ["25.3.2"], "marks": 3,
+          "answer": "The two limbs of the Sun rotate in opposite directions, so the light from X and Y shows a rotational Doppler shift with Δλ = 656.2877 − 656.2831 nm. Using Δλ/λ = v/c and v = 2πR/T:<br>R = vT/2π = [3.00 × 10⁸ × (656.2877 − 656.2831)/656.2831] × (2.07 × 10⁶)/2π<br>= <b>6.93 × 10⁸ m</b>" },
+        { "label": "(b)(ii)", "codes": ["25.3.2"], "marks": 2,
+          "answer": "Point Z is <b>moving towards the Earth</b>, so its light is blue-shifted: the <b>observed wavelength from Z is less than the emitted wavelength</b>." },
+        { "label": "(b)(iii)", "codes": ["25.2.2"], "marks": 2,
+          "answer": "L = 4πσr²T⁴<br>3.8 × 10²⁶ = 4π × 5.67 × 10⁻⁸ × (6.93 × 10⁸)² × T⁴<br>T = <b>5800 K</b>" }
+      ]
+    }
+  ]
+}

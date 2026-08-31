@@ -1,0 +1,579 @@
+
+===== PDF PAGE 1 =====
+ 
+                                                                    
+  
+ 
+ 
+This document consists of 11 printed pages. 
+ 
+© Cambridge University Press & Assessment 2025 
+ 
+[Turn over
+ 
+Cambridge International AS & A Level 
+ 
+PHYSICS 
+9702/52 
+Paper 5 Planning, Analysis and Evaluation 
+October/November 2025 
+MARK SCHEME 
+Maximum Mark: 30 
+ 
+ 
+Published 
+ 
+ 
+This mark scheme is published as an aid to teachers and candidates, to indicate the requirements of the 
+examination. It shows the basis on which Examiners were instructed to award marks. It does not indicate the 
+details of the discussions that took place at an Examiners’ meeting before marking began, which would have 
+considered the acceptability of alternative answers. 
+ 
+Mark schemes should be read in conjunction with the question paper and the Principal Examiner Report for 
+Teachers. 
+ 
+Cambridge International will not enter into discussions about these mark schemes. 
+ 
+Cambridge International is publishing the mark schemes for the October/November 2025 series for most 
+Cambridge IGCSE, Cambridge International A and AS Level components, and some Cambridge O Level 
+components. 
+ 
+ 
+ 
+
+
+===== PDF PAGE 2 =====
+9702/52 
+Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 2 of 11 
+ 
+Generic Marking Principles 
+ 
+These general marking principles must be applied by all examiners when marking candidate answers. They should be applied alon gside the 
+specific content of the mark scheme or generic level descriptions for a question. Each question paper and mark scheme will also comply with these 
+marking principles. 
+ 
+GENERIC MARKING PRINCIPLE 1: 
+ 
+Marks must be awarded in line with: 
+ 
+• 
+the specific content of the mark scheme or the generic level descriptors for the question 
+• 
+the specific skills defined in the mark scheme or in the generic level descriptors for the question 
+• 
+the standard of response required by a candidate as exemplified by the standardisation scripts. 
+GENERIC MARKING PRINCIPLE 2: 
+ 
+Marks awarded are always whole marks (not half marks, or other fractions). 
+GENERIC MARKING PRINCIPLE 3: 
+ 
+Marks must be awarded positively: 
+ 
+• 
+marks are awarded for correct/valid answers, as defined in the mark scheme. However, credit is given for valid answers which go beyond 
+the scope of the syllabus and mark scheme, referring to your Team Leader as appropriate 
+• 
+marks are awarded when candidates clearly demonstrate what they know and can do 
+• 
+marks are not deducted for errors 
+• 
+marks are not deducted for omissions 
+• 
+answers should only be judged on the quality of spelling, punctuation and grammar when these features are specifically assessed by the 
+question as indicated by the mark scheme. The meaning, however, should be unambiguous. 
+GENERIC MARKING PRINCIPLE 4: 
+ 
+Rules must be applied consistently, e.g. in situations where candidates have not followed instructions or in the application of generic level 
+descriptors. 
+
+
+===== PDF PAGE 3 =====
+9702/52 
+Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 3 of 11 
+ 
+GENERIC MARKING PRINCIPLE 5: 
+ 
+Marks should be awarded using the full range of marks defined in the mark scheme for the question (however; the use of the full mark range may 
+be limited according to the quality of the candidate responses seen). 
+GENERIC MARKING PRINCIPLE 6: 
+ 
+Marks awarded are based solely on the requirements as defined in the mark scheme. Marks should not be awarded with grade thre sholds or 
+grade descriptors in mind. 
+ 
+ 
+Science-Specific Marking Principles 
+ 
+1 
+Examiners should consider the context and scientific use of any keywords when awarding marks. Although keywords may be present, marks 
+should not be awarded if the keywords are used incorrectly.  
+2 
+The examiner should not choose between contradictory statements given in the same question part, and credit should not be awarded for 
+any correct statement that is contradicted within the same question part. Wrong science that is irrelevant to the question should be ignored. 
+3 
+Although spellings do not have to be correct, spellings of syllabus terms must allow for clear and unambiguous separation fro m other 
+syllabus terms with which they may be confused (e.g. ethane / ethene, glucagon / glycogen, refraction / reflection). 
+4 
+The error carried forward (ecf) principle should be applied, where appropriate. If an incorrect answer is subsequently used in a scientifically 
+correct way, the candidate should be awarded these subsequent marking points. Further guidance will be included in the mark scheme 
+where necessary and any exceptions to this general principle will be noted. 
+5 
+‘List rule’ guidance 
+ 
+For questions that require n responses (e.g. State two reasons …): 
+ 
+• 
+The response should be read as continuous prose, even when numbered answer spaces are provided. 
+• 
+Any response marked ignore in the mark scheme should not count towards n. 
+• 
+Incorrect responses should not be awarded credit but will still count towards n. 
+• 
+Read the entire response to check for any responses that contradict those that would otherwise be credited. Credit should not be 
+awarded for any responses that are contradicted within the rest of the response. Where two responses contradict one another, this 
+should be treated as a single incorrect response. 
+• 
+Non-contradictory responses after the first n responses may be ignored even if they include incorrect science. 
+
+
+===== PDF PAGE 4 =====
+9702/52 
+Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 4 of 11 
+ 
+6 
+Calculation specific guidance 
+ 
+Correct answers to calculations should be given full credit even if there is no working or incorrect working, unless the question states ‘show 
+your working’.  
+ 
+For questions in which the number of significant figures required is not stated, credit should be awarded for correct answers when rounded 
+by the examiner to the number of significant figures given in the mark scheme. This may not apply to measured values.  
+ 
+For answers given in standard form (e.g. a  10n) in which the convention of restricting the value of the coefficient (a) to a value between 1 
+and 10 is not followed, credit may still be awarded if the answer can be converted to the answer given in the mark scheme.  
+ 
+Unless a separate mark is given for a unit, a missing or incorrect unit will normally mean that the final calculation mark is not awarded. 
+Exceptions to this general principle will be noted in the mark scheme. 
+7 
+Guidance for chemical equations 
+ 
+Multiples / fractions of coefficients used in chemical equations are acceptable unless stated otherwise in the mark scheme.  
+ 
+State symbols given in an equation should be ignored unless asked for in the question or stated otherwise in the mark scheme. 
+ 
+ 
+ 
+ 
+
+
+===== PDF PAGE 5 =====
+9702/52 
+Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 5 of 11 
+ 
+Annotations guidance for centres 
+ 
+Examiners use a system of annotations as a shorthand for communicating their marking decisions to one another. Examiners are trained during the 
+standardisation process on how and when to use annotations. The purpose of annotations is to inform the standard isation and monitoring 
+processes and guide the supervising examiners when they are checking the work of examiners within their team. The meaning of annotations and 
+how they are used is specific to each component and is understood by all examiners who mark the component.  
+ 
+We publish annotations in our mark schemes to help centres understand the annotations they may see on copies of scripts. Note that there may 
+not be a direct correlation between the number of annotations on a script and the mark awarded. Similarly, the use of an annotation may not be an 
+indication of the quality of the response.  
+ 
+The annotations listed below were available to examiners marking this component in this series.  
+ 
+Annotations 
+ 
+Annotation 
+Meaning 
+benefit of the doubt given 
+ 
+correct awarding one mark from additional detail 1. 
+similar numbered ticks are used for additional detail 2, 3, 4 etc. 
+correct point or mark awarded 
+defining the problem mark 
+error carried forward applied 
+error in number of significant figures 
+incorrect or insufficient point ignored while marking the rest of the response 
+incorrect point or mark not awarded 
+incorrect unit 
+information missing or insufficient for credit 
+
+
+===== PDF PAGE 6 =====
+9702/52 
+Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 6 of 11 
+ 
+Annotation 
+Meaning 
+methods of data collection mark 
+ 
+point has been noted, but no credit has been given 
+or 
+blank page seen 
+repeat of point previously awarded mark 
+ 
+ 
+ 
+
+
+===== PDF PAGE 7 =====
+9702/52 
+Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 7 of 11 
+ 
+Question 
+Answer 
+Marks 
+1 
+Defining the problem 
+ 
+ 
+vary v and measure I or v is the independent variable and I is the dependent variable 
+1 
+ 
+keep A and R constant  
+1 
+ 
+Methods of data collection 
+ 
+ 
+labelled diagram of workable experiment including: 
+• 
+fan positioned in line with the turbine so that blades of both fan and turbine overlap 
+• 
+fan on bench 
+• 
+fan labelled and one other label from bench, turbine, blade(s) (of turbine), terminals, L 
+1 
+ 
+workable circuit diagram showing resistor connected to an ammeter in series with the terminals of the turbine using correct 
+circuit symbols  
+1 
+ 
+method to vary v, e.g. change speed of fan / change distance between fan and blades / vary current in or p.d. across fan 
+1 
+ 
+method to determine temperature T, e.g. use a thermometer  
+1 
+ 
+Method of Analysis 
+ 
+ 
+plot a graph of I2 against v3 or equivalent (e.g. lg I against lg v or 2 ln I against ln v) 
+1 
+ 
+relationship valid if a straight line is produced passing through the origin 
+ 
+(For lg I against lg v: relationship valid if a straight line with gradient = 1.5 is produced) 
+1 
+ 
+2
+gradient
+TR
+Q
+AP
+
+=
+  
+ 
+(For lg I against lg v: 
+2
+-intercept
+2
+10
+y
+TR
+Q
+AP
+
+
+=
+) 
+1 
+
+
+===== PDF PAGE 8 =====
+9702/52 
+Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 8 of 11 
+ 
+Question 
+Answer 
+Marks 
+1 
+Additional detail including safety considerations 
+6 
+ 
+D1 
+precaution with reason linked to (moving) fan blades / turbine blades, e.g. keep away from the fan to avoid (moving) 
+blades or use a screen around the fan / turbine to avoid (moving) blades  
+or 
+precaution with reason linked to prevent air / dust particles in eye, e.g. use goggles to avoid air stream (into eye) 
+ 
+ 
+D2 
+clamp turbine / fan to bench 
+ 
+ 
+D3 
+keep P and T constant 
+ 
+ 
+D4 
+T = t + 273 
+ 
+ 
+D5 
+method to determine A: use a rule(r) / calipers to measure L and A = L2 
+ 
+ 
+D6 
+repeat measurements of L in different positions / different blades and average 
+ 
+ 
+D7 
+method to measure v, e.g. use an anemometer or air speed meter  
+or 
+method to measure P, e.g. use a manometer or barometer or pressure gauge 
+ 
+ 
+D8 
+wait for steady / constant air flow / movement of blades / current 
+ 
+ 
+D9 
+method to determine R, e.g.: 
+separate circuit showing ohmmeter connected to R only 
+or 
+terminals of turbine connected correctly to resistor and ammeter and voltmeter across resistor and R = V / I 
+or 
+separate workable circuit with power supply resistor, ammeter and voltmeter across R and R = V / I 
+ 
+ 
+D10 method to check temperature / pressure is constant, e.g. measure temperature / pressure several times / before and 
+after 
+ 
+
+
+===== PDF PAGE 9 =====
+9702/52 
+Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 9 of 11 
+ 
+Question 
+Answer 
+Marks 
+2(a) 
+gradient = n 
+y-intercept = 
+2
+lg k
+ 
+1 
+2(b) 
+ 
+lg (r / 108 m) 
+lg (T / 103 s) 
+0.152 or 0.1523 
+(1.72 or 1.716)  0.04 
+0.270 or 0.2695 
+(1.91 or 1.908)  0.03 
+0.377 or 0.3766 
+(2.08 or 2.079 or 2.0792)  0.04 
+0.470 or 0.4698 
+(2.23 or 2.230 or 2.2304)  0.03 
+0.576 or 0.5763 
+(2.38 or 2.380 or 2.3802)  0.04 
+0.723 or 0.7226 
+(2.59 or 2.591 or 2.5911)  0.03 
+ 
+Values of lg (r / 108 m) and lg (T / 103 s) correct as shown above. 
+1 
+ 
+Uncertainties in lg (T / 103 s) correct as shown above. 
+1 
+2(c)(i) 
+Six points from (b) plotted correctly. 
+Must be within half a small square. Diameter of points must be less than half a small square. 
+1 
+ 
+Error bars in lg (T / 103 s) plotted correctly. 
+All error bars must be plotted. Total length of bar must be accurate to less than half a small square and symmetrical. 
+1 
+
+
+===== PDF PAGE 10 =====
+9702/52 
+Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 10 of 11 
+ 
+Question 
+Answer 
+Marks 
+2(c)(ii) 
+Straight line of best fit drawn. 
+Thickness of the line must be less than half a small square. 
+Do not accept line from top point to bottom point. 
+Line must pass between (0.19, 1.80) and (0.21, 1.80) and between (0.645, 2.50) and (0.66, 2.50). 
+1 
+ 
+Worst acceptable line drawn (steepest or shallowest possible line that passes through all the error bars). 
+Thickness of the line must be less than half a small square. 
+All error bars must be plotted. 
+1 
+2(c)(iii) 
+Gradient determined with clear substitution of data points into y / x. 
+Distance between data points must be greater than half the length of the drawn line.  
+1 
+ 
+Gradient determined of worst acceptable line with clear substitution of data points into y / x. 
+ 
+uncertainty = (gradient of line of best fit – gradient of worst acceptable line) 
+or 
+uncertainty = ½ (steepest worst line gradient – shallowest worst line gradient) 
+1 
+2(c)(iv) 
+y-intercept determined by substitution of correct point with consistent powers of ten into y = mx + c. 
+1 
+ 
+y-intercept of worst acceptable line determined by substitution into y = mx + c. 
+ 
+uncertainty = y-intercept of line of best fit – y-intercept of worst acceptable line 
+or 
+uncertainty = ½ (steepest worst line y-intercept – shallowest worst line y-intercept) 
+ 
+Do not accept ECF from false origin method. 
+1 
+
+
+===== PDF PAGE 11 =====
+9702/52 
+Cambridge International AS & A Level – Mark Scheme 
+PUBLISHED 
+October/November 2025
+ 
+© Cambridge University Press & Assessment 2025 
+Page 11 of 11 
+ 
+Question 
+Answer 
+Marks 
+2(d) 
+Value of n determined using gradient and n and k given to 2 or 3 significant figures. 
+ 
+gradient
+n =
+= (c)(iii) 
+1 
+ 
+Value of k determined using y-intercept. 
+Correct method must be seen. 
+ 
+-intercept
+2
+2
+10
+10
+y
+k
+
+
+=
+=
+(c)(iv) 
+1 
+ 
+Absolute uncertainties in n and k determined. 
+ 
+Absolute uncertainty in n = absolute uncertainty in gradient 
+ 
+and 
+-intercept
+WAL -intercept
+2
+2
+10
+10
+y
+y
+k
+
+
+=
+−
+ 
+ 
+Correct method must be seen. 
+1 
+2(e) 
+r determined to a minimum of 2 significant figures from (c)(iii) and (c)(iv) or (d) with correct substitution and correct power 
+of ten. 
+ 
+lg1380
+-intercept
+8
+gradient
+10
+10
+y
+r
+−
+=
+
+  
+ 
+or  
+8
+1380
+10
+2π
+n k
+r
+
+=
+
+ 
+1 
+ 

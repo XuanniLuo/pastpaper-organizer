@@ -1,0 +1,208 @@
+{
+  "paper": "9702/41/O/N/25",
+  "paper_full": "November 2025 · Paper 41",
+  "questions": [
+    {
+      "topic": "12",
+      "qnum": "Q1",
+      "title": "Circular motion &amp; simple harmonic motion — shadow projection",
+      "marks": 15,
+      "pages": [4, 5, 6],
+      "pdf": "9702_w25_qp_41_Q1_Motion_in_a_circle.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["12.2.1", "12.2.2"], "marks": 2,
+          "answer": "The velocity and acceleration both have <b>constant magnitude</b>, and the velocity is <b>always perpendicular to the acceleration</b> (the velocity is tangential and the acceleration is directed towards the centre)." },
+        { "label": "(b)(i)", "codes": ["12.1.3"], "marks": 1,
+          "answer": "v = <b>Rω</b>" },
+        { "label": "(b)(ii)", "codes": ["12.2.3"], "marks": 2,
+          "answer": "a = Rω² = (Rω)ω = <b>vω</b>" },
+        { "label": "(c)(i)", "codes": ["17.1.3"], "marks": 1,
+          "answer": "x = <b>R sin θ</b>" },
+        { "label": "(c)(ii)", "codes": ["12.1.3"], "marks": 1,
+          "answer": "θ = <b>ωt</b>" },
+        { "label": "(c)(iii)", "codes": ["17.1.3"], "marks": 1,
+          "answer": "Substituting θ = ωt into x = R sin θ gives <b>x = R sin ωt</b>." },
+        { "label": "(c)(iv)", "codes": ["17.1.3"], "marks": 1,
+          "answer": "The equation is of the form <b>x = x₀ sin ωt</b>, the defining equation of simple harmonic motion (with amplitude x₀ = R), so the shadow's motion is simple harmonic." },
+        { "label": "(d)(i)", "codes": ["17.1.1"], "marks": 1,
+          "answer": "amplitude = diameter/2 = 0.46/2 = <b>0.23 m</b>" },
+        { "label": "(d)(ii)", "codes": ["17.1.1"], "marks": 2,
+          "answer": "ω = 2π/T, so T = 2π/ω = 2π/1.9<br>= <b>3.3 s</b>" },
+        { "label": "(d)(iii)", "codes": ["17.1.3"], "marks": 2,
+          "answer": "a₀ = ω²x₀ = 1.9² × 0.23<br>= <b>0.83 m s⁻²</b>" },
+        { "label": "(e)", "codes": ["17.1.3"], "marks": 1,
+          "answer": "The shadow is at the extreme of its motion — at the <b>left-hand edge of the circular path</b> (maximum displacement from P), labelled A, where the acceleration is a maximum." }
+      ]
+    },
+    {
+      "topic": "16",
+      "qnum": "Q2",
+      "title": "The first law of thermodynamics — pumping, boiling &amp; vaporisation",
+      "marks": 8,
+      "pages": [7],
+      "pdf": "9702_w25_qp_41_Q2_Thermodynamics.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["16.2.2"], "marks": 2,
+          "answer": "The internal energy can be changed by (1) <b>work done on or by the system</b>, and (2) <b>thermal energy supplied to or removed from the system</b>." },
+        { "label": "(b)(i)", "codes": ["16.2.1", "16.2.2"], "marks": 3,
+          "answer": "Pumping quickly gives <b>no time for thermal energy to be transferred</b> to or from the gas, while <b>work is done on the gas to compress it</b> (decrease its volume). From the first law ΔU = q + W (with q = 0), the <b>internal energy increases, so the temperature rises</b>." },
+        { "label": "(b)(ii)", "codes": ["14.3.2", "16.1.2"], "marks": 3,
+          "answer": "During vaporisation the <b>molecular separation increases</b>, so the heating increases the <b>potential energy of the molecules</b> while their <b>kinetic energy is unchanged</b>. Since temperature depends on the kinetic energy, the temperature stays at 100 °C." }
+      ]
+    },
+    {
+      "topic": "13",
+      "qnum": "Q3",
+      "title": "Gravitational field — point masses &amp; two spheres",
+      "marks": 9,
+      "pages": [8, 9],
+      "pdf": "9702_w25_qp_41_Q3_Gravitational_fields.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["13.1.1"], "marks": 1,
+          "answer": "The <b>force per unit mass</b> acting on a small test mass placed at the point." },
+        { "label": "(b)(i)", "codes": ["13.3.1"], "marks": 2,
+          "answer": "F = GMm/x² and g = F/m, so g = [GMm/x²]/m = <b>GM/x²</b>, where G is the gravitational constant." },
+        { "label": "(b)(ii)", "codes": ["13.1.2"], "marks": 1,
+          "answer": "An arrow at P pointing <b>directly towards the point mass</b>." },
+        { "label": "(b)(iii)", "codes": ["13.3.2"], "marks": 2,
+          "answer": "The field at Q is in the <b>opposite direction</b> to that at P (towards the mass), and is <b>four times the field strength at P</b> (Q is at distance x/2, and g ∝ 1/x²)." },
+        { "label": "(c)", "codes": ["13.3.2"], "marks": 3,
+          "answer": "A line starting at (R, −g₀) and ending at (L − R, +g₀), passing through (L/2, 0), becoming shallower from R to L/2 and steeper again from L/2 to L − R." }
+      ]
+    },
+    {
+      "topic": "15",
+      "qnum": "Q4",
+      "title": "Absolute zero &amp; ideal gas — molecules, moles &amp; r.m.s. speed",
+      "marks": 10,
+      "pages": [10, 11],
+      "pdf": "9702_w25_qp_41_Q4_Ideal_gases.pdf",
+      "parts": [
+        { "label": "(a)(i)", "codes": ["14.2.4"], "marks": 1,
+          "answer": "temperature = <b>−273.15 °C</b>" },
+        { "label": "(a)(ii)", "codes": ["14.2.4"], "marks": 1,
+          "answer": "temperature = <b>0 K</b>" },
+        { "label": "(b)(i)", "codes": ["15.2.1"], "marks": 1,
+          "answer": "The graph is a straight line through the origin (pV ∝ kT), so the gas is <b>ideal</b>." },
+        { "label": "(b)(ii)", "codes": ["15.2.2"], "marks": 2,
+          "answer": "pV = NkT, so N = pV/kT = 270/(8.0 × 10⁻²¹)<br>= <b>3.4 × 10²²</b>" },
+        { "label": "(b)(iii)", "codes": ["15.1.2"], "marks": 1,
+          "answer": "n = N/N_A = 3.4 × 10²²/(6.02 × 10²³)<br>= <b>0.056 mol</b>" },
+        { "label": "(c)", "codes": ["15.3.4"], "marks": 4,
+          "answer": "½m⟨c²⟩ = (3/2)kT. When pV = 270 J, kT = 8.0 × 10⁻²¹ J:<br>½ × m × 1900² = 1.5 × 8.0 × 10⁻²¹<br>m = 6.65 × 10⁻²⁷ kg = 6.65 × 10⁻²⁷/(1.66 × 10⁻²⁷) = <b>4.0 u</b>" }
+      ]
+    },
+    {
+      "topic": "18",
+      "qnum": "Q5",
+      "title": "Electric potential — the hydrogen atom dipole",
+      "marks": 10,
+      "pages": [12, 13],
+      "pdf": "9702_w25_qp_41_Q5_Electric_fields.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["18.5.1"], "marks": 2,
+          "answer": "The <b>work done per unit positive charge</b> in moving a small test charge <b>from infinity to the point</b>." },
+        { "label": "(b)(i)", "codes": ["18.5.3"], "marks": 2,
+          "answer": "V = (e/4πε₀)(1/10 pm − 1/110 pm) — the proton contributes +e/4πε₀r and the electron −e/4πε₀r.<br>V = (1.60 × 10⁻¹⁹/4π × 8.85 × 10⁻¹²) × [(10⁻¹ − 110⁻¹) × 10¹²] = <b>130 V</b>" },
+        { "label": "(b)(ii)", "codes": ["18.5.3"], "marks": 2,
+          "answer": "V = (1.60 × 10⁻¹⁹/4π × 8.85 × 10⁻¹²) × [(30⁻¹ − 90⁻¹) × 10¹²]<br>= <b>+32 V</b>" },
+        { "label": "(b)(iii)", "codes": ["18.5.3"], "marks": 1,
+          "answer": "A cross at the <b>midpoint between the electron and the proton</b> (x = 60 pm), where the +e and −e potentials cancel." },
+        { "label": "(b)(iv)", "codes": ["18.5.3"], "marks": 3,
+          "answer": "A curve from (10, +130) to (110, −130), getting shallower until x = 60 pm, crossing V = 0 at (60, 0), then getting steeper, and passing through (30, +32) and (90, −32)." }
+      ]
+    },
+    {
+      "topic": "19",
+      "qnum": "Q6",
+      "title": "Capacitors — series/parallel, charge &amp; stored energy",
+      "marks": 11,
+      "pages": [14, 15],
+      "pdf": "9702_w25_qp_41_Q6_Capacitance.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["19.1.3", "19.1.4"], "marks": 4,
+          "answer": "<b>Series:</b> Q<sub>S</sub> = Q₁ = Q₂ and V<sub>S</sub> = V₁ + V₂.<br><b>Parallel:</b> Q<sub>S</sub> = Q₁ + Q₂ and V<sub>S</sub> = V₁ = V₂." },
+        { "label": "(b)(i)", "codes": ["19.2.2"], "marks": 2,
+          "answer": "E = ½CV², so V = √(2E/C) = √(2 × 19 × 10⁻³/470 × 10⁻⁶)<br>= <b>9.0 V</b>" },
+        { "label": "(b)(ii)", "codes": ["19.1.2"], "marks": 2,
+          "answer": "Q = CV = 470 × 10⁻⁶ × 9.0<br>= <b>4.2 × 10⁻³ C</b>" },
+        { "label": "(b)(iii)", "codes": ["19.2.2"], "marks": 3,
+          "answer": "The total charge is unchanged and the total capacitance is (470 + 180) × 10⁻⁶ F.<br>E = Q²/2C = (4.23 × 10⁻³)²/(2 × 650 × 10⁻⁶)<br>= <b>14 mJ</b>" }
+      ]
+    },
+    {
+      "topic": "20",
+      "qnum": "Q7",
+      "title": "Faraday’s law — induced e.m.f. across an aircraft’s wings",
+      "marks": 11,
+      "pages": [16, 17],
+      "pdf": "9702_w25_qp_41_Q7_Magnetic_fields.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["20.5.5"], "marks": 2,
+          "answer": "The induced e.m.f. is <b>(directly) proportional to the rate of change of magnetic flux (linkage)</b>." },
+        { "label": "(b)(i)", "codes": ["20.5.5", "20.5.2"], "marks": 2,
+          "answer": "e.m.f. = ΔΦ/Δt, so flux = e.m.f. × time = 0.54 × 15<br>= <b>8.1 Wb</b>" },
+        { "label": "(b)(ii)", "codes": ["20.5.2"], "marks": 2,
+          "answer": "Φ = BA, so area = Φ/B = 8.1/(38 × 10⁻⁶)<br>= <b>2.1 × 10⁵ m²</b>" },
+        { "label": "(b)(iii)", "codes": ["20.5.5"], "marks": 2,
+          "answer": "area = speed × time × width, so v = area/(time × width) = 2.1 × 10⁵/(15 × 68)<br>= <b>210 m s⁻¹</b>" },
+        { "label": "(b)(iv)", "codes": ["20.5.5", "20.2.2"], "marks": 3,
+          "answer": "By Lenz’s law the induced current produces an opposing force which must act <b>backwards</b>. From Fleming’s left-hand rule the current in the wings is therefore <b>from Q to P</b>. Inside an e.m.f. source the current flows from − to +, so <b>P is at the higher potential</b>." }
+      ]
+    },
+    {
+      "topic": "23",
+      "qnum": "Q8",
+      "title": "Uranium-238 alpha decay — mass, gamma wavelength &amp; neutrinos",
+      "marks": 11,
+      "pages": [18, 19],
+      "pdf": "9702_w25_qp_41_Q8_Nuclear_physics.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["22.1.1", "22.1.2"], "marks": 2,
+          "answer": "A <b>packet/quantum of energy</b> of <b>electromagnetic radiation</b>." },
+        { "label": "(b)(i)", "codes": ["23.1.1"], "marks": 3,
+          "answer": "E = Δm c², so Δm = E/c² = (4.274 × 10⁶ × 1.60 × 10⁻¹⁹)/(1.66 × 10⁻²⁷ × (3.00 × 10⁸)²) = 0.00458 u.<br>m = 233.915174 + 4.000407 + 0.00458<br>= <b>237.92016 u</b>" },
+        { "label": "(b)(ii)", "codes": ["22.1.3", "23.1.1"], "marks": 3,
+          "answer": "The gamma photon carries the remaining energy: 4.274 − 4.200 = 0.074 MeV.<br>E = hc/λ, so λ = hc/E = (6.63 × 10⁻³⁴ × 3.00 × 10⁸)/(0.074 × 1.60 × 10⁻¹³)<br>= <b>1.7 × 10⁻¹¹ m</b>" },
+        { "label": "(b)(iii)", "codes": ["23.1.1"], "marks": 1,
+          "answer": "The true energy of the gamma photon is <b>smaller</b> (the thorium nucleus carries some kinetic energy), so the <b>true wavelength is larger</b> than the calculated value." },
+        { "label": "(c)", "codes": ["23.2.2", "11.1.9"], "marks": 2,
+          "answer": "Beta decay also emits <b>(anti)neutrinos</b>, and the particles emitted in beta decay carry <b>varying amounts of energy</b>, so the energy of the gamma photon is variable between decays — there is no single wavelength." }
+      ]
+    },
+    {
+      "topic": "25",
+      "qnum": "Q9",
+      "title": "Wien’s law &amp; luminosity — conclusions about star X",
+      "marks": 7,
+      "pages": [20, 21],
+      "pdf": "9702_w25_qp_41_Q9_Astronomy_and_cosmology.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["25.2.1"], "marks": 2,
+          "answer": "The <b>temperature is inversely proportional to the wavelength</b> at which the <b>maximum emission</b> occurs (λ<sub>max</sub> ∝ 1/T), where T is the thermodynamic temperature of the star’s surface." },
+        { "label": "(b)", "codes": ["25.2.1", "25.2.2", "25.1.1"], "marks": 3,
+          "answer": "Any three of: <b>star X has a surface temperature of 7000 K</b> (higher than the Sun’s 5770 K); <b>star X has a higher luminosity than the Sun</b>; <b>the luminosity of star X is 2.7 × 10²⁷ W</b>; <b>the radius of star X is 1.3 × 10⁹ m</b>." },
+        { "label": "(c)", "codes": ["25.3.2"], "marks": 2,
+          "answer": "The light from star X is <b>red-shifted</b> (the galaxy is receding from the Earth), so the <b>wavelength of the peak emission would be greater</b> than its true value." }
+      ]
+    },
+    {
+      "topic": "24",
+      "qnum": "Q10",
+      "title": "Ultrasound — acoustic impedance &amp; reflection coefficient",
+      "marks": 8,
+      "pages": [22],
+      "pdf": "9702_w25_qp_41_Q10_Medical_physics.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["24.1.4"], "marks": 2,
+          "answer": "The <b>product of the density of the medium and the speed of sound in the medium</b> (Z = ρc)." },
+        { "label": "(b)", "codes": ["24.1.2"], "marks": 2,
+          "answer": "The ultrasound waves cause the crystal to <b>vibrate</b>, and these vibrations generate an <b>induced e.m.f.</b> across the crystal, which is then detected." },
+        { "label": "(c)(i)", "codes": ["24.1.5"], "marks": 2,
+          "answer": "Intensity reflection coefficient = (Z₁ − Z₂)²/(Z₁ + Z₂)²<br>= (40.4 − 1.48)²/(40.4 + 1.48)² = <b>0.86</b>" },
+        { "label": "(c)(ii)", "codes": ["24.1.5"], "marks": 2,
+          "answer": "The Z values of body tissue and water are <b>very similar</b>, so <b>almost all the ultrasound is transmitted</b> (almost none is reflected)." }
+      ]
+    }
+  ]
+}

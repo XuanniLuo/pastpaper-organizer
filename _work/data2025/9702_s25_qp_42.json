@@ -1,0 +1,212 @@
+{
+  "paper": "9702/42/M/J/25",
+  "paper_full": "June 2025 · Paper 42",
+  "questions": [
+    {
+      "topic": "12",
+      "qnum": "Q1",
+      "title": "Bicycle chain &amp; cogs — radian, angular speed &amp; period",
+      "marks": 10,
+      "pages": [4, 5],
+      "pdf": "9702_s25_qp_42_Q1_Motion_in_a_circle.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["12.1.1"], "marks": 1,
+          "answer": "The <b>angle subtended at the centre of a circle by an arc whose length is equal to the radius</b>." },
+        { "label": "(b)(i)", "codes": ["12.1.3"], "marks": 2,
+          "answer": "v = rω, so ω = v/r = 17/0.46<br>= <b>37 rad s⁻¹</b>" },
+        { "label": "(b)(ii)", "codes": ["12.1.3"], "marks": 2,
+          "answer": "T = 2πr/v = 2π × 0.46/17 (or T = 2π/ω = 2π/37)<br>= <b>0.17 s</b>" },
+        { "label": "(b)(iii)", "codes": ["12.1.1"], "marks": 1,
+          "answer": "distance moved = circumference of the small cog = 2πr = 2π × 0.038<br>= <b>0.24 m</b>" },
+        { "label": "(b)(iv)", "codes": ["12.1.1"], "marks": 2,
+          "answer": "angle = arc length/radius = 0.24/0.15<br>= <b>1.6 rad</b>" },
+        { "label": "(c)", "codes": ["12.1.3"], "marks": 2,
+          "answer": "The rear wheel still rotates at the same angular speed (the bicycle speed is unchanged), but the rear cog is now smaller, so <b>point X on the chain moves through a smaller distance in the same time</b> — the linear speed of the chain decreases. The large cog (fixed to the pedals) has the same radius, so the <b>angular speed of the pedals decreases</b>." }
+      ]
+    },
+    {
+      "topic": "20",
+      "qnum": "Q2",
+      "title": "Gravitational &amp; magnetic fields of the Earth",
+      "marks": 12,
+      "pages": [6, 7],
+      "pdf": "9702_s25_qp_42_Q2_Magnetic_fields.pdf",
+      "parts": [
+        { "label": "(a)(i)", "codes": ["13.1.1"], "marks": 2,
+          "answer": "A gravitational field line shows the <b>direction of the (gravitational) force</b> that would act on a small <b>test mass</b> placed at that point." },
+        { "label": "(a)(ii)", "codes": ["13.1.2"], "marks": 2,
+          "answer": "At least four <b>radial lines</b> from the Earth’s surface, evenly spaced around it, with arrows pointing <b>towards the centre of the Earth</b>." },
+        { "label": "(b)(i)", "codes": ["20.1.2", "20.4.1"], "marks": 1,
+          "answer": "The <b>top pole is labelled S and the bottom pole is labelled N</b> (the geographic north pole is near the Earth’s magnetic south pole)." },
+        { "label": "(b)(ii)", "codes": ["20.1.2", "20.4.1"], "marks": 2,
+          "answer": "At the poles: at least two field lines on either side of each pole, <b>clustered close together</b>, leaving the surface approximately <b>perpendicular to it</b> and curving away from the pole axis. Above the equator: at least one field line on each side <b>looping from one hemisphere to the other</b>, passing above the surface near the equator approximately <b>parallel to the surface</b>." },
+        { "label": "(c)(i)", "codes": ["13.1.2"], "marks": 2,
+          "answer": "The gravitational field lines are <b>evenly spaced</b> around the surface and all point <b>perpendicular to the surface</b> (towards the centre), so the field has the same magnitude and direction at every point on the surface — it does not vary around the surface." },
+        { "label": "(c)(ii)", "codes": ["20.1.2", "20.2.3"], "marks": 3,
+          "answer": "The magnetic field is <b>strongest at the poles and weakest near the Equator</b>. It is <b>perpendicular to the surface at the poles</b> and <b>parallel to the surface near the Equator</b>, with the angle to the surface increasing from the Equator towards the poles." }
+      ]
+    },
+    {
+      "topic": "14",
+      "qnum": "Q3",
+      "title": "Specific heat capacity &amp; work done — heated aluminium block",
+      "marks": 13,
+      "pages": [8, 9],
+      "pdf": "9702_s25_qp_42_Q3_Temperature.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["14.3.1"], "marks": 2,
+          "answer": "The <b>(thermal) energy per unit mass</b> required to raise the temperature of the substance by <b>unit temperature (1 K or 1 °C)</b>." },
+        { "label": "(b)(i)", "codes": ["14.3.1"], "marks": 2,
+          "answer": "density = mass/volume, so mass = ρV = 2.700 × 10³ × 3.612 × 10⁻³<br>= <b>9.75 kg</b>" },
+        { "label": "(b)(ii)", "codes": ["14.3.1"], "marks": 1,
+          "answer": "The mass is constant, so V = V₀ × (ρ₀/ρ) = 3.612 × 10⁻³ × (2.700/2.620)<br>= <b>3.722 × 10⁻³ m³</b>" },
+        { "label": "(b)(iii)", "codes": ["16.2.1"], "marks": 2,
+          "answer": "W = pΔV = 1.01 × 10⁵ × (3.722 − 3.612) × 10⁻³<br>= <b>11.1 J</b>" },
+        { "label": "(b)(iv)", "codes": ["16.2.1"], "marks": 2,
+          "answer": "The <b>volume of the block increases</b>, so it pushes against the atmosphere and <b>work is done against the atmosphere</b> — the work done on the block is therefore <b>negative</b>." },
+        { "label": "(b)(v)", "codes": ["16.2.2", "14.3.1"], "marks": 3,
+          "answer": "From the first law ΔU = q + W, the thermal energy supplied is q = ΔU − W = 4.38 × 10⁶ + 11.1 J (since W is negative).<br>Specific heat capacity = q/(mΔθ) = 4.38 × 10⁶/(9.75 × 500)<br>= <b>898 J kg⁻¹ °C⁻¹</b>" },
+        { "label": "(c)", "codes": ["16.2.1"], "marks": 1,
+          "answer": "Doubling the pressure would double the work done, but the work done (11.1 J) is <b>negligible compared with the change in internal energy (4.38 MJ)</b>, so the specific heat capacity would be <b>unchanged</b>." }
+      ]
+    },
+    {
+      "topic": "15",
+      "qnum": "Q4",
+      "title": "Ideal gases — kinetic theory &amp; mean kinetic energy",
+      "marks": 8,
+      "pages": [10, 11],
+      "pdf": "9702_s25_qp_42_Q4_Ideal_gases.pdf",
+      "parts": [
+        { "label": "(a)(i)", "codes": ["15.2.2"], "marks": 1,
+          "answer": "T is the <b>thermodynamic temperature</b> (in kelvin)." },
+        { "label": "(a)(ii)", "codes": ["15.2.3"], "marks": 1,
+          "answer": "B is the <b>Boltzmann constant</b> (k)." },
+        { "label": "(b)(i)", "codes": ["15.3.2", "15.3.3"], "marks": 2,
+          "answer": "m is the <b>mass of one molecule</b> of the gas, and ⟨c²⟩ is the <b>mean-square speed</b> of the molecules." },
+        { "label": "(b)(ii)", "codes": ["15.3.4"], "marks": 2,
+          "answer": "Equating pV from the two equations: NBT/A = ⅓Nm⟨c²⟩. The mean kinetic energy is E<sub>k</sub> = ½m⟨c²⟩, so<br>E<sub>k</sub> = <b>3BT/2A</b>" },
+        { "label": "(c)", "codes": ["15.3.3"], "marks": 2,
+          "answer": "A line with a positive gradient passing through the origin, becoming a <b>smooth curve with a decreasing positive gradient</b> (since c<sub>r.m.s.</sub> ∝ √T)." }
+      ]
+    },
+    {
+      "topic": "17",
+      "qnum": "Q5",
+      "title": "Simple harmonic motion — displacement, velocity &amp; phase",
+      "marks": 9,
+      "pages": [12, 13],
+      "pdf": "9702_s25_qp_42_Q5_Oscillations.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["17.1.3"], "marks": 2,
+          "answer": "Motion in which the <b>acceleration is (directly) proportional to the displacement</b> and is <b>always directed towards a fixed point</b> (in the opposite direction to the displacement)." },
+        { "label": "(b)(i)", "codes": ["17.1.1"], "marks": 1,
+          "answer": "period = 2π/ω = 2π/16<br>= <b>0.39 s</b>" },
+        { "label": "(b)(ii)", "codes": ["17.1.3", "17.1.4"], "marks": 2,
+          "answer": "v₀ = ωx₀, so x₀ = v₀/ω = 0.56/16<br>= <b>0.035 m</b>" },
+        { "label": "(b)(iii)", "codes": ["17.1.4"], "marks": 1,
+          "answer": "v = ±ω√(x₀² − x²) = <b>±16√(0.035² − x²)</b>" },
+        { "label": "(b)(iv)", "codes": ["17.1.5"], "marks": 3,
+          "answer": "A <b>closed loop (ellipse) surrounding the origin</b>, crossing the x-axis (v = 0) at <b>x = ±3.5 cm</b> and crossing the v-axis (x = 0) at <b>v = ±0.56 m s⁻¹</b>." }
+      ]
+    },
+    {
+      "topic": "18",
+      "qnum": "Q6",
+      "title": "Electric fields &amp; X-rays — an accelerated electron",
+      "marks": 11,
+      "pages": [14, 15],
+      "pdf": "9702_s25_qp_42_Q6_Electric_fields.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["18.2.1"], "marks": 1,
+          "answer": "Plate X is <b>negative (−)</b> and plate Y is <b>positive (+)</b> (the electron accelerates towards the positive plate)." },
+        { "label": "(b)(i)", "codes": ["18.2.1"], "marks": 2,
+          "answer": "E = V/x = 58 × 10³/0.041<br>= <b>1.4 × 10⁶ N C⁻¹</b> (equivalent to V m⁻¹)" },
+        { "label": "(b)(ii)", "codes": ["18.2.2"], "marks": 2,
+          "answer": "ma = eE, so a = eE/m = (1.60 × 10⁻¹⁹ × 1.41 × 10⁶)/9.11 × 10⁻³¹<br>= <b>2.5 × 10¹⁷ m s⁻²</b>" },
+        { "label": "(c)(i)", "codes": ["24.2.1"], "marks": 3,
+          "answer": "The electron gains kinetic energy eV, which is converted to a photon at the minimum wavelength: eV = hc/λ.<br>λ = hc/eV = (6.63 × 10⁻³⁴ × 3.00 × 10⁸)/(1.60 × 10⁻¹⁹ × 58 × 10³)<br>= 2.1 × 10⁻¹¹ m = <b>21 pm</b>" },
+        { "label": "(c)(ii)", "codes": ["24.2.2"], "marks": 1,
+          "answer": "<b>X-rays</b>." },
+        { "label": "(c)(iii)", "codes": ["24.2.2"], "marks": 2,
+          "answer": "The X-rays are passed into the structure and the <b>transmitted waves are detected</b>. Different parts of the structure <b>absorb different fractions of the energy</b>, and the differences in the detected/transmitted intensities are used to form the image." }
+      ]
+    },
+    {
+      "topic": "19",
+      "qnum": "Q7",
+      "title": "Capacitor discharge — charge, resistance &amp; time constant",
+      "marks": 10,
+      "pages": [16, 17],
+      "pdf": "9702_s25_qp_42_Q7_Capacitance.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["19.1.2"], "marks": 1,
+          "answer": "V<sub>C</sub> = V<sub>R</sub> — the p.d. across the capacitor equals the p.d. across the resistor (they are connected in parallel)." },
+        { "label": "(b)(i)", "codes": ["19.1.2"], "marks": 2,
+          "answer": "C = Q/V = 7.2 × 10⁻³/12 = 6.0 × 10⁻⁴ F<br>= <b>600 μF</b>" },
+        { "label": "(b)(ii)", "codes": ["19.1.2"], "marks": 2,
+          "answer": "R = V/I = 12/(1.5 × 10⁻³) = 8000 Ω<br>= <b>8.0 kΩ</b>" },
+        { "label": "(b)(iii)", "codes": ["19.3.2"], "marks": 2,
+          "answer": "τ = RC = 8000 × 6.0 × 10⁻⁴<br>= <b>4.8 s</b>" },
+        { "label": "(c)", "codes": ["19.3.3"], "marks": 3,
+          "answer": "Fig. 7.2 and Fig. 7.3 show that <b>charge and current are both directly proportional to the p.d.</b> (so Q ∝ I), and the <b>current is the rate of change of charge</b>. Hence dQ/dt ∝ Q — the charge decreases at a rate proportional to itself, giving an <b>exponential variation</b>." }
+      ]
+    },
+    {
+      "topic": "21",
+      "qnum": "Q8",
+      "title": "Alternating current — half-wave rectification &amp; power",
+      "marks": 10,
+      "pages": [18, 19],
+      "pdf": "9702_s25_qp_42_Q8_Alternating_currents.pdf",
+      "parts": [
+        { "label": "(a)(i)", "codes": ["21.2.1"], "marks": 1,
+          "answer": "<b>Half-wave</b> rectification." },
+        { "label": "(a)(ii)", "codes": ["21.1.4"], "marks": 1,
+          "answer": "V₀ = √2 × V<sub>r.m.s.</sub> = √2 × 6.0<br>= <b>8.5 V</b>" },
+        { "label": "(b)(i)", "codes": ["21.1.3"], "marks": 2,
+          "answer": "P = V²/R, so P₀ = V₀²/R = 8.5²/45<br>= <b>1.6 W</b>" },
+        { "label": "(b)(ii)", "codes": ["21.2.1", "21.1.3"], "marks": 3,
+          "answer": "Over two cycles (t = 0 to 2T): <b>two humps of width 0.5T</b> separated by <b>two sections of zero power of width 0.5T</b>, with peaks at P₀, a smooth sinusoidal shape, and the troughs sitting on the t-axis at P = 0." },
+        { "label": "(b)(iii)", "codes": ["21.1.3"], "marks": 2,
+          "answer": "Within each hump the mean power is ½P₀ (the average of a sin² half-cycle), and only half of each cycle carries any power, so the overall mean power is ½ × ½P₀ = <b>¼P₀</b>." },
+        { "label": "(b)(iv)", "codes": ["21.1.4"], "marks": 1,
+          "answer": "⟨P⟩ = V<sub>r.m.s.</sub>²/R, so V<sub>r.m.s.</sub> = √(⟨P⟩R) = √((P₀/4) × 45) = √(1.6 × 45/4)<br>= <b>4.2 V</b>" }
+      ]
+    },
+    {
+      "topic": "22",
+      "qnum": "Q9",
+      "title": "Photoelectric effect — threshold frequency &amp; work function",
+      "marks": 8,
+      "pages": [20, 21],
+      "pdf": "9702_s25_qp_42_Q9_Quantum_physics.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["22.2.1"], "marks": 2,
+          "answer": "The <b>emission of electrons from a metal surface</b> when <b>electromagnetic radiation is incident on it</b>." },
+        { "label": "(b)(i)", "codes": ["22.2.4"], "marks": 3,
+          "answer": "V<sub>S</sub> is the stopping voltage — the current falls to zero when the applied p.d. equals the energy per unit charge of the most energetic electrons. The <b>energy of a photon depends on the frequency</b> (E = hf), so the <b>maximum energy of the emitted electrons depends on the photon energy</b>, and therefore V<sub>S</sub> depends on the frequency." },
+        { "label": "(b)(ii)", "codes": ["22.2.2", "22.2.3", "22.2.4"], "marks": 3,
+          "answer": "Any three of: <b>threshold frequency = 1.5 × 10¹⁵ Hz</b>; <b>threshold wavelength = 2.0 × 10⁻⁷ m</b>; <b>work function = 6.2 eV (9.9 × 10⁻¹⁹ J)</b>; <b>Planck constant = 6.6 × 10⁻³⁴ J s</b>; <b>number of photons/electrons per second = 1.7 × 10¹⁶ s⁻¹</b> (in stage 1); <b>power of the incident radiation = 0.028 W</b>." }
+      ]
+    },
+    {
+      "topic": "23",
+      "qnum": "Q10",
+      "title": "Radioactive decay — half-life, decay constant &amp; activity",
+      "marks": 9,
+      "pages": [22, 23],
+      "pdf": "9702_s25_qp_42_Q10_Nuclear_physics.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["23.2.2"], "marks": 1,
+          "answer": "Decay that is <b>not affected by external/environmental factors</b> — it occurs of its own accord." },
+        { "label": "(b)(i)", "codes": ["23.2.4", "23.2.3", "23.2.5"], "marks": 3,
+          "answer": "From Fig. 10.1, X halves from 4A to 2A at t = 2T and Y halves from A to ½A at t = 3T, so <b>half-life of X = 2T and half-life of Y = 3T</b>.<br>Decay constant λ = ln 2/half-life: λ<sub>X</sub> = ln 2/2T, λ<sub>Y</sub> = ln 2/3T.<br>Initial number N₀ = A₀/λ: N₀(X) = 4A/(ln 2/2T) = <b>8AT/ln 2</b> and N₀(Y) = A/(ln 2/3T) = <b>3AT/ln 2</b>." },
+        { "label": "(b)(ii)", "codes": ["23.2.6"], "marks": 3,
+          "answer": "Equal activities: 4A e^(−λ<sub>X</sub>t) = A e^(−λ<sub>Y</sub>t)<br>4 = e^(t ln 2(1/2T − 1/3T)) = e^(t ln 2/6T)<br>ln 4 = t ln 2/6T → 2 ln 2 = t ln 2/6T<br>t = <b>12T</b>" },
+        { "label": "(c)", "codes": ["23.2.1"], "marks": 2,
+          "answer": "The count rate is less than the activity because the radiation is <b>emitted in all directions</b> (not just towards the detector), some is <b>absorbed by the air/sample/window of the detector</b>, and some radiation may not register even though it reaches the detector." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "paper": "9702/51/O/N/25",
+  "paper_full": "November 2025 · Paper 51",
+  "questions": [
+    {
+      "topic": "5",
+      "qnum": "Q1",
+      "title": "Planning an experiment — ball &amp; compressed spring",
+      "marks": 15,
+      "pages": [2, 3, 4],
+      "pdf": "9702_w25_qp_51_Q1_Work_energy_and_power.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["5.2.2", "6.2.4", "6.1.4"], "marks": 15,
+          "answer": "<b>Diagram:</b> a spring with one end against a block clamped to the bench (G-clamp); a steel ball of radius r held against the spring, compressing it by a distance x; a <b>light gate at a fixed point P</b> (connected to a timer) to measure the speed of the ball.<br><b>Procedure and measurements:</b> vary the radius r (independent variable) and measure the speed v of the ball at P (dependent variable), keeping the compression x constant. Determine r by measuring the diameter d with calipers/a micrometer (r = d/2), repeating in different directions and averaging. Determine v = diameter of ball/time recorded by the light gate at P. Measure x with a rule (x = original length − compressed length).<br><b>Analysis:</b> plot a graph of <b>lg(v²) (or 2 lg v) against lg r</b>. The relationship is valid if a <b>straight line</b> is produced (with a non-zero y-intercept). From v² = Ykx²/(rⁿρ): gradient = −n, so <b>n = −gradient</b>; y-intercept = lg(Ykx²/ρ), so <b>Y = 10^(y-intercept) × ρ/(kx²)</b>.<br><b>Controls:</b> keep k, ρ and x constant. Determine k by hanging a known mass and using k = mg/extension (or a force–extension graph, k = gradient). Determine ρ from the mass (balance) and volume: ρ = 3m/(4πr³). Keep x constant with a pin/rule/card marking the starting position. Adjust the light gate so the diameter of each ball cuts the beam.<br><b>Safety:</b> prevent the ball leaving the bench (screens/cushions). Repeat each measurement for the same r and average v." }
+      ]
+    },
+    {
+      "topic": "25",
+      "qnum": "Q2",
+      "title": "Analysis of data — Hubble’s law &amp; galaxy redshift",
+      "marks": 15,
+      "pages": [5, 6, 7, 8],
+      "pdf": "9702_w25_qp_51_Q2_Astronomy_and_cosmology.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["25.3.2", "25.3.4"], "marks": 1,
+          "answer": "(λ − λ₀)/λ₀ = Hd/c, so λ = λ₀ + (Hλ₀)(d/c).<br>gradient = <b>Hλ₀</b> and y-intercept = <b>λ₀</b>" },
+        { "label": "(b)", "codes": ["25.3.4"], "marks": 2,
+          "answer": "d/c / 10¹⁵ s (all ±0.40):<br>1.60, 3.47, 4.83, 6.00, 9.50, 12.5<br>(d in 10²¹ km divided by c = 3.00 × 10⁵ km s⁻¹.)" },
+        { "label": "(c)(i)", "codes": ["25.3.4"], "marks": 2,
+          "answer": "Plot the six points of λ against d/c (within half a small square), each with a horizontal error bar on d/c." },
+        { "label": "(c)(ii)", "codes": ["25.3.4"], "marks": 2,
+          "answer": "Draw a straight <b>line of best fit</b> and a <b>worst acceptable line</b> (steepest/shallowest line through all the error bars)." },
+        { "label": "(c)(iii)", "codes": ["25.3.4"], "marks": 2,
+          "answer": "gradient ≈ <b>1.8 nm per 10¹⁵ s</b> (from Δy/Δx over more than half the line's length). Absolute uncertainty = gradient of best fit − gradient of worst acceptable line." },
+        { "label": "(c)(iv)", "codes": ["25.3.4"], "marks": 2,
+          "answer": "y-intercept ≈ <b>658 nm</b> (substituting a point into y = mx + c). Uncertainty = difference between the two intercepts." },
+        { "label": "(d)", "codes": ["25.3.4"], "marks": 2,
+          "answer": "λ₀ = y-intercept = <b>658 nm</b>.<br>H = gradient/λ₀ = 1.8 × 10⁻¹⁵/658 × 10⁻⁹ = <b>2.8 × 10⁻¹⁸ s⁻¹</b>" },
+        { "label": "(e)", "codes": ["25.3.4"], "marks": 2,
+          "answer": "T = 1/H = 1/(2.8 × 10⁻¹⁸) = <b>3.6 × 10¹⁷ s</b>.<br>Absolute uncertainty found from the worst acceptable line (using Δλ₀ and Δgradient)." }
+      ]
+    }
+  ]
+}

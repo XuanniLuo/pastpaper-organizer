@@ -1,0 +1,206 @@
+{
+  "paper": "9702/42/O/N/25",
+  "paper_full": "November 2025 · Paper 42",
+  "questions": [
+    {
+      "topic": "12",
+      "qnum": "Q1",
+      "title": "Circular motion of a student at latitude 52.2°",
+      "marks": 9,
+      "pages": [4, 5],
+      "pdf": "9702_w25_qp_42_Q1_Motion_in_a_circle.pdf",
+      "parts": [
+        { "label": "(a)(i)", "codes": ["12.1.3"], "marks": 1,
+          "answer": "radius = 6.37 × 10⁶ × cos 52.2°<br>= <b>3.90 × 10⁶ m</b>" },
+        { "label": "(a)(ii)", "codes": ["12.1.3"], "marks": 3,
+          "answer": "v = 2πr/T = 2π × 3.90 × 10⁶/(24 × 60 × 60)<br>= <b>280 m s⁻¹</b>" },
+        { "label": "(b)(i)", "codes": ["12.2.4"], "marks": 2,
+          "answer": "F = mv²/r = 58.6 × 280²/(3.90 × 10⁶)<br>= <b>1.2 N</b>" },
+        { "label": "(b)(ii)", "codes": ["12.2.1"], "marks": 1,
+          "answer": "An arrow pointing <b>horizontally to the left</b> (towards the Earth’s axis of rotation)." },
+        { "label": "(b)(iii)", "codes": ["12.2.1"], "marks": 2,
+          "answer": "An arrow <b>downwards</b> from the student (towards the centre of the Earth) labelled ‘weight’, and an <b>upwards</b> arrow (the normal contact force) pointing slightly <b>to the left of the normal</b>, labelled ‘contact force’ — their resultant is the horizontal centripetal force." }
+      ]
+    },
+    {
+      "topic": "15",
+      "qnum": "Q2",
+      "title": "Newton’s law &amp; the kinetic theory of gases",
+      "marks": 11,
+      "pages": [6, 7],
+      "pdf": "9702_w25_qp_42_Q2_Ideal_gases.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["13.2.2"], "marks": 2,
+          "answer": "The gravitational force is <b>(directly) proportional to the product of the two masses</b> and <b>inversely proportional to the square of their separation</b>." },
+        { "label": "(b)", "codes": ["15.3.1"], "marks": 2,
+          "answer": "Any two of: the molecules are in <b>continuous random motion</b>; the molecules have <b>negligible volume</b> compared with the volume of the gas; the collisions are <b>(perfectly) elastic</b>; the collisions are <b>instantaneous</b>." },
+        { "label": "(c)(i)", "codes": ["15.2.2"], "marks": 2,
+          "answer": "pV = nRT, so p = nRT/V = 0.0160 × 8.31 × 282/(1.87 × 10⁻⁴)<br>= <b>2.01 × 10⁵ Pa</b>" },
+        { "label": "(c)(ii)", "codes": ["15.3.1"], "marks": 2,
+          "answer": "number of molecules = 0.0160 × 6.02 × 10²³.<br>separation = ³√(V/N) = ³√[1.87 × 10⁻⁴/(0.0160 × 6.02 × 10²³)]<br>= <b>2.7 × 10⁻⁹ m</b>" },
+        { "label": "(d)(i)", "codes": ["13.2.2"], "marks": 2,
+          "answer": "F = Gm²/r² = 6.67 × 10⁻¹¹ × (3.34 × 10⁻²⁷)²/(2.7 × 10⁻⁹)²<br>= <b>1.0 × 10⁻⁴⁶ N</b>" },
+        { "label": "(d)(ii)", "codes": ["13.2.2"], "marks": 1,
+          "answer": "The gravitational force (≈10⁻⁴⁶ N) is enormously smaller than the weight of a molecule (≈mg ≈ 10⁻²⁶ N), so the assumption that there are no forces between the molecules is <b>supported</b>." }
+      ]
+    },
+    {
+      "topic": "14",
+      "qnum": "Q3",
+      "title": "Constant-volume gas thermometer — thermodynamic temperature",
+      "marks": 9,
+      "pages": [8, 9],
+      "pdf": "9702_w25_qp_42_Q3_Temperature.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["14.1.2"], "marks": 2,
+          "answer": "Two objects are in thermal equilibrium when they are at the <b>same temperature</b>, so there is <b>no net transfer of thermal energy</b> between them." },
+        { "label": "(b)(i)", "codes": ["14.2.1"], "marks": 1,
+          "answer": "The <b>density</b> of the liquid (used in p = ρgΔh)." },
+        { "label": "(b)(ii)", "codes": ["14.2.1"], "marks": 2,
+          "answer": "Any two of: a <b>large response time</b> (cannot measure rapidly changing temperatures); reaching equilibrium requires a <b>significant transfer of energy</b> (so it changes the temperature of the environment being measured); it is <b>bulky/difficult to set up</b> and to take readings from." },
+        { "label": "(b)(iii)", "codes": ["14.2.1"], "marks": 1,
+          "answer": "To measure the temperature of a <b>substance with a large mass</b>, or a <b>constant temperature</b>, or to <b>calibrate other thermometers</b>." },
+        { "label": "(b)(iv)", "codes": ["14.2.3"], "marks": 3,
+          "answer": "0 °C = 273 K. The temperature is proportional to the pressure (hence Δh):<br>T = 273 × (7.83 − 2.31)/(8.69 − 2.31) = 236 K<br>θ = 236 − 273 = <b>−37 °C</b>" }
+      ]
+    },
+    {
+      "topic": "16",
+      "qnum": "Q4",
+      "title": "The first law — an ideal gas thermodynamic cycle",
+      "marks": 10,
+      "pages": [10, 11],
+      "pdf": "9702_w25_qp_42_Q4_Thermodynamics.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["16.2.2"], "marks": 2,
+          "answer": "The <b>increase in internal energy = work done on the system + thermal energy transferred to the system by heating</b> (ΔU = q + W)." },
+        { "label": "(b)(i)", "codes": ["16.1.1"], "marks": 1,
+          "answer": "U = <b>(3/2)pV</b>" },
+        { "label": "(b)(ii)", "codes": ["15.2.2", "16.1.1"], "marks": 2,
+          "answer": "pV = NkT (k = the Boltzmann constant), so U = <b>(3/2)NkT</b>" },
+        { "label": "(c)(i)", "codes": ["16.2.1"], "marks": 1,
+          "answer": "W = <b>+8XY</b> (compression — work done on the gas)." },
+        { "label": "(c)(ii)", "codes": ["16.2.1"], "marks": 1,
+          "answer": "W = <b>−20XY</b> (expansion — work done by the gas)." },
+        { "label": "(d)", "codes": ["16.2.2"], "marks": 3,
+          "answer": "The work done during BC and DA is zero (constant volume). Over the complete cycle the change in internal energy is zero (the gas returns to A). From the first law, the net thermal energy supplied Q = −(net work done on the gas) = 20XY − 8XY<br>= <b>+12XY</b>" }
+      ]
+    },
+    {
+      "topic": "17",
+      "qnum": "Q5",
+      "title": "Simple harmonic motion &amp; heavy damping — steel ball in oil",
+      "marks": 10,
+      "pages": [12, 13],
+      "pdf": "9702_w25_qp_42_Q5_Oscillations.pdf",
+      "parts": [
+        { "label": "(a)(i)", "codes": ["17.1.3"], "marks": 2,
+          "answer": "The graph is a <b>straight line through the origin</b>, showing a is proportional to x, and its <b>negative gradient</b> shows a is always in the opposite direction to x — so the oscillations are simple harmonic." },
+        { "label": "(a)(ii)", "codes": ["17.1.3"], "marks": 3,
+          "answer": "a₀ = ω²x₀ and ω = 2π/T, so T = 2π√(x₀/a₀) = 2π√(1.2/13)<br>= <b>1.9 s</b>" },
+        { "label": "(b)(i)", "codes": ["17.3.1"], "marks": 2,
+          "answer": "Damping is the <b>loss of energy from the oscillations</b> due to <b>resistive forces</b>." },
+        { "label": "(b)(ii)", "codes": ["17.3.2"], "marks": 3,
+          "answer": "A line starting at x = ±1.2 cm at t = 0 (entirely above or below the t-axis), with both the magnitude of x and the magnitude of the gradient <b>continuously decreasing</b> — heavy damping, so the ball returns to equilibrium without oscillating." }
+      ]
+    },
+    {
+      "topic": "18",
+      "qnum": "Q6",
+      "title": "Isolated charged sphere — field, potential &amp; discharge",
+      "marks": 11,
+      "pages": [14, 15],
+      "pdf": "9702_w25_qp_42_Q6_Electric_fields.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["18.1.1"], "marks": 1,
+          "answer": "The <b>force per unit positive charge</b> acting on a small test charge placed at the point." },
+        { "label": "(b)(i)", "codes": ["18.1.3"], "marks": 2,
+          "answer": "Radial lines, <b>pointing away from the sphere</b> (the sphere is positively charged)." },
+        { "label": "(b)(ii)", "codes": ["19.1.2"], "marks": 2,
+          "answer": "C = Q/V, so V = Q/C = 83 × 10⁻¹²/(69 × 10⁻¹²)<br>= <b>1.2 V</b>" },
+        { "label": "(b)(iii)", "codes": ["18.5.3"], "marks": 2,
+          "answer": "V = Q/4πε₀r, so r = Q/4πε₀V = 83 × 10⁻¹²/(4π × 8.85 × 10⁻¹² × 1.2)<br>= <b>0.62 m</b>" },
+        { "label": "(b)(iv)", "codes": ["18.4.1"], "marks": 2,
+          "answer": "E = Q/4πε₀r² = 83 × 10⁻¹²/(4π × 8.85 × 10⁻¹² × 0.62²)<br>= <b>1.9 N C⁻¹</b> (or V m⁻¹)" },
+        { "label": "(c)", "codes": ["19.3.3"], "marks": 2,
+          "answer": "Q = Q₀e^(−t/RC), so 26 = 83e^(−t/(120 × 10⁶ × 69 × 10⁻¹²))<br>t = <b>9.6 × 10⁻³ s</b>" }
+      ]
+    },
+    {
+      "topic": "21",
+      "qnum": "Q7",
+      "title": "Alternating voltage — period, r.m.s. &amp; rectification",
+      "marks": 8,
+      "pages": [16, 17],
+      "pdf": "9702_w25_qp_42_Q7_Alternating_currents.pdf",
+      "parts": [
+        { "label": "(a)(i)", "codes": ["21.1.1"], "marks": 1,
+          "answer": "T = 2π/ω = 2π/40π = <b>0.050 s</b>" },
+        { "label": "(a)(ii)", "codes": ["21.1.4"], "marks": 1,
+          "answer": "V<sub>r.m.s.</sub> = 18/√2 = <b>13 V</b>" },
+        { "label": "(b)", "codes": ["21.1.2"], "marks": 3,
+          "answer": "A <b>sinusoidal curve of period 50 ms</b> from t = 0 to t = 100 ms, with V<sub>max</sub> at t = 0, 50, 100 ms and −V<sub>max</sub> at t = 25, 75 ms, and the maxima/minima at <b>±18 V</b>." },
+        { "label": "(c)", "codes": ["21.2.1", "21.1.3", "21.1.4"], "marks": 3,
+          "answer": "Any three of: the <b>rectification is full-wave</b>; the <b>mean power is 14 W</b>; the <b>resistance of R is 12 Ω</b>; the <b>peak current in R is 1.6 A</b> (r.m.s. current 1.1 A); the <b>period of the output is 25 ms</b> (frequency 40 Hz, or angular frequency 250 rad s⁻¹)." }
+      ]
+    },
+    {
+      "topic": "22",
+      "qnum": "Q8",
+      "title": "Hydrogen energy levels — line spectra &amp; photon energies",
+      "marks": 10,
+      "pages": [18, 19],
+      "pdf": "9702_w25_qp_42_Q8_Quantum_physics.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["22.4.2", "22.4.3"], "marks": 3,
+          "answer": "Any three of: an electron moving between levels <b>emits a single photon</b>; the <b>energy of the photon equals the difference between the energy levels</b>; the <b>photon energy depends on frequency</b> (E = hf); the spectrum has <b>discrete frequencies</b>, so the differences between electron energies (and hence the levels themselves) must be <b>discrete</b>." },
+        { "label": "(b)(i)", "codes": ["22.4.3"], "marks": 1,
+          "answer": "E = −13.6 × 1.60 × 10⁻¹⁹ = <b>−2.18 × 10⁻¹⁸ J</b>" },
+        { "label": "(b)(ii)", "codes": ["22.4.3"], "marks": 2,
+          "answer": "ΔE = hf = (6.63 × 10⁻³⁴ × 2.47 × 10¹⁵)/(1.60 × 10⁻¹⁹)<br>= <b>10.2 eV</b>" },
+        { "label": "(b)(iii)", "codes": ["22.4.1"], "marks": 4,
+          "answer": "n = 2 level = −13.6 + 10.2 = <b>−3.4 eV</b>.<br>n = 3 energy difference = 12.1 eV, so n = 3 = −13.6 + 12.1 = <b>−1.5 eV</b>.<br>n = 4 energy difference = 12.8 eV, so n = 4 = −13.6 + 12.8 = <b>−0.8 eV</b>." }
+      ]
+    },
+    {
+      "topic": "23",
+      "qnum": "Q9",
+      "title": "Nuclear fusion &amp; Sirius — mass defect, luminosity &amp; temperature",
+      "marks": 13,
+      "pages": [20, 21],
+      "pdf": "9702_w25_qp_42_Q9_Nuclear_physics.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["23.1.1"], "marks": 2,
+          "answer": "The <b>difference between the mass of the nucleus and the mass of its constituent nucleons</b> (when the nucleons are separated to infinity)." },
+        { "label": "(b)", "codes": ["23.1.1"], "marks": 4,
+          "answer": "Δm = (2 × 2.013553) − 4.001505 = 0.025601 u.<br>Energy per helium-4 nucleus = Δm c² = 0.025601 × 1.66 × 10⁻²⁷ × (3.00 × 10⁸)² = 3.82 × 10⁻¹² J.<br>Energy for 1.00 mol = 3.82 × 10⁻¹² × 6.02 × 10²³ = <b>2.30 × 10¹² J</b>" },
+        { "label": "(c)(i)", "codes": ["25.1.1", "23.1.1"], "marks": 2,
+          "answer": "L = mc² (mass lost per second) = 1.09 × 10¹¹ × (3.00 × 10⁸)²<br>= <b>9.81 × 10²⁷ W</b>" },
+        { "label": "(c)(ii)", "codes": ["25.2.2"], "marks": 2,
+          "answer": "L = 4πσr²T⁴<br>9.81 × 10²⁷ = 4π × 5.67 × 10⁻⁸ × (1.19 × 10⁹)² × T⁴<br>T = <b>9930 K</b>" },
+        { "label": "(d)", "codes": ["25.1.3", "25.1.4"], "marks": 3,
+          "answer": "Standard candles have a <b>known luminosity</b>. Measure the <b>radiant flux intensity</b> from the galaxy on the Earth, then use <b>F = L/(4πd²)</b> to calculate the distance d." }
+      ]
+    },
+    {
+      "topic": "24",
+      "qnum": "Q10",
+      "title": "X-rays — attenuation, contrast &amp; CT scanning",
+      "marks": 9,
+      "pages": [22, 23],
+      "pdf": "9702_w25_qp_42_Q10_Medical_physics.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["24.2.2"], "marks": 1,
+          "answer": "Contrast is the <b>difference in the degrees of blackening</b> between different parts of the image." },
+        { "label": "(b)(i)", "codes": ["24.2.3"], "marks": 1,
+          "answer": "Region B passes through 5.8 cm of P only:<br>I = I₀e^(−μx) = I₀e^(−0.35 × 5.8) = <b>0.13 I₀</b>" },
+        { "label": "(b)(ii)", "codes": ["24.2.3"], "marks": 3,
+          "answer": "Region A passes through (5.8 − 2.1) = 3.7 cm of P and 2.1 cm of Q:<br>0.053I₀ = I₀e^(−(0.35 × 3.7 + 2.1μ))<br>0.35 × 3.7 + 2.1μ = −ln 0.053 = 2.94<br>μ = <b>0.78 cm⁻¹</b>" },
+        { "label": "(b)(iii)", "codes": ["24.2.2"], "marks": 1,
+          "answer": "The two emerging intensities differ by only a factor of <b>about 2.5</b> (0.13 vs 0.053), so the contrast between the regions is <b>poor</b>." },
+        { "label": "(c)", "codes": ["24.2.4"], "marks": 3,
+          "answer": "The structure is <b>scanned in thin sections</b>, with <b>many scans taken from different angles</b> around each section. The scanning is repeated for all sections and the data are <b>compiled to form a 3D image</b>." }
+      ]
+    }
+  ]
+}

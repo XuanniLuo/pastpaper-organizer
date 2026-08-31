@@ -1,0 +1,46 @@
+{
+  "paper": "9702/52/F/M/25",
+  "paper_full": "March 2025 · Paper 52",
+  "questions": [
+    {
+      "topic": "20",
+      "qnum": "Q1",
+      "title": "Planning an experiment — magnetic field of two parallel conductors",
+      "marks": 15,
+      "pages": [2, 3, 4],
+      "pdf": "9702_m25_qp_52_Q1_Magnetic_fields.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["20.4.1", "20.1.2", "20.3.4"], "marks": 15,
+          "answer": "<b>Diagram:</b> two identical cylindrical metal conductors P and Q (each of length L and cross-sectional area A) placed parallel to each other, connected <b>in parallel</b> and, in turn, <b>in series with a (variable) resistor and a power supply</b>; a <b>voltmeter in parallel with the conductors</b> to measure the p.d. V across them; a <b>Hall probe at point X</b>, at perpendicular distances p and q from the midpoints of P and Q.<br><b>Procedure and measurements:</b> vary the perpendicular distance p of P from X (independent variable) and measure the magnetic flux density B at X (dependent variable) with a calibrated Hall probe — rotate/align the probe until the reading is a maximum. Keep V (the p.d. across each conductor), L, A and q constant. Measure L with a metre rule, and the diameter d of a conductor with calipers/a micrometer (repeat at different positions and average), then A = πd²/4. Measure p and q with a rule (measuring to the conductor and adding its radius). Measure B first in one direction of the current/p.d. and then in the opposite direction and average, to cancel the Earth's field.<br><b>Analysis:</b> plot a graph of <b>B against 1/p</b>. If the relationship is valid a <b>straight line</b> is produced with a non-zero y-intercept. From B = YAV/(Lp) + YZAV/(Lq): gradient = YAV/L, so <b>Y = gradient × L/(AV)</b>; y-intercept = YZAV/(Lq), so <b>Z = y-intercept × Lq/(YAV)</b>.<br><b>Controls:</b> keep V constant (adjust the variable resistor/power supply to keep the voltmeter reading constant); keep A, L and q constant; fix Q with tape/adhesive putty (or a clamp and stand) so q does not move; keep P and Q parallel (check the separation at several points).<br><b>Safety:</b> the conductors carry a high current and become hot — wear gloves, switch off the power supply between measurements, and allow the conductors to cool." }
+      ]
+    },
+    {
+      "topic": "14",
+      "qnum": "Q2",
+      "title": "Analysis of data — cooling of water in a beaker",
+      "marks": 15,
+      "pages": [5, 6, 7, 8],
+      "pdf": "9702_m25_qp_52_Q2_Temperature.pdf",
+      "parts": [
+        { "label": "(a)", "codes": ["14.1.1"], "marks": 1,
+          "answer": "Taking natural logs of θ − θ<sub>R</sub> = (θ₀ − θ<sub>R</sub>)e^(−t/K):<br>ln(θ − θ<sub>R</sub>) = ln(θ₀ − θ<sub>R</sub>) − t/K<br>gradient = <b>−1/K</b> and y-intercept = <b>ln(θ₀ − θ<sub>R</sub>)</b>" },
+        { "label": "(b)", "codes": ["14.1.1"], "marks": 2,
+          "answer": "With θ<sub>R</sub> = 18.5 °C, the values of (θ − θ<sub>R</sub>)/°C and ln((θ − θ<sub>R</sub>)/°C) are:<br>t = 6.0 min: 56.5 ± 1.0 → 4.03 ± 0.02<br>t = 12.0 min: 46.0 ± 1.0 → 3.83 ± 0.02<br>t = 18.0 min: 38.5 ± 1.0 → 3.65 ± 0.03<br>t = 24.0 min: 31.5 ± 1.0 → 3.45 ± 0.03<br>t = 30.0 min: 26.0 ± 1.0 → 3.26 ± 0.04<br>t = 36.0 min: 22.5 ± 1.0 → 3.11 ± 0.04<br>(The uncertainty in (θ − θ<sub>R</sub>) is ±1.0 °C and in ln((θ − θ<sub>R</sub>)/°C) is 1.0/(θ − θ<sub>R</sub>).)" },
+        { "label": "(c)(i)", "codes": ["14.1.1"], "marks": 2,
+          "answer": "Plot the six points of ln((θ − θ<sub>R</sub>)/°C) against t/min (points within half a small square), with a vertical error bar on each point." },
+        { "label": "(c)(ii)", "codes": ["14.1.1"], "marks": 2,
+          "answer": "Draw a straight <b>line of best fit</b> through the points, and a <b>worst acceptable line</b> (the steepest or shallowest line that still passes through all the error bars)." },
+        { "label": "(c)(iii)", "codes": ["14.1.1"], "marks": 2,
+          "answer": "The gradient is <b>negative</b>, ≈ <b>−0.031 min⁻¹</b> (from Δy/Δx over more than half the line's length). Its absolute uncertainty = gradient of best fit − gradient of worst acceptable line." },
+        { "label": "(c)(iv)", "codes": ["14.1.1"], "marks": 2,
+          "answer": "The y-intercept ≈ <b>4.21</b> (found by substituting a point into y = mx + c). Uncertainty = y-intercept of best fit − y-intercept of worst acceptable line." },
+        { "label": "(d)(i)", "codes": ["14.1.1"], "marks": 2,
+          "answer": "K = −1/gradient = −1/(−0.031) = <b>32 min</b>.<br>θ₀ = e^(y-intercept) + θ<sub>R</sub> = e^4.21 + 18.5 = <b>86 °C</b>." },
+        { "label": "(d)(ii)", "codes": ["14.1.1"], "marks": 1,
+          "answer": "Δθ₀ = e^(y-intercept max) − e^(y-intercept min) (using the worst acceptable lines), ≈ 2–3 °C." },
+        { "label": "(e)", "codes": ["14.1.1"], "marks": 1,
+          "answer": "25.0 = 18.5 + (θ₀ − 18.5)e^(−t/K), so<br>t = −K ln[(25.0 − 18.5)/(θ₀ − 18.5)] = −32 × ln(6.5/67.2)<br>= <b>75 min</b>" }
+      ]
+    }
+  ]
+}

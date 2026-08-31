@@ -1,0 +1,357 @@
+
+===== PDF PAGE 1 =====
+This document has 8 pages.
+ 
+[Turn over
+Cambridge International AS & A Level
+PHYSICS 
+9702/52
+Paper 5 Planning, Analysis and Evaluation 
+February/March 2025
+ 
+1 hour 15 minutes
+You must answer on the question paper.
+No additional materials are needed.
+INSTRUCTIONS
+ 
+●
+Answer all questions.
+ 
+●
+Use a black or dark blue pen. You may use an HB pencil for any diagrams or graphs.
+ 
+●
+Write your name, centre number and candidate number in the boxes at the top of the page.
+ 
+●
+Write your answer to each question in the space provided.
+ 
+●
+Do not use an erasable pen or correction fluid.
+ 
+●
+Do not write on any bar codes.
+ 
+●
+You may use a calculator.
+ 
+●
+You should show all your working and use appropriate units.
+INFORMATION
+ 
+●
+The total mark for this paper is 30.
+ 
+●
+The number of marks for each question or part question is shown in brackets [ ].
+DC (PB/SG) 342333/2
+© UCLES 2025
+* 3 2 6 0 1 0 9 4 9 2 *
+,	,
+* 0000800000001 *
+¬Oz> 4mHuOªE]z6W
+¬FntV«{¦S~x`;¦
+¥¥u5U5uEUe5UU
+
+
+===== PDF PAGE 2 =====
+2
+9702/52/F/M/25
+© UCLES 2025
+1 
+Fig. 1.1 shows two identical cylindrical metal conductors P and Q, each of length L and 
+cross‑sectional area A.
+L
+X
+Q
+P
+q
+p
+Fig. 1.1
+ 
+The conductors are placed parallel to each other. The perpendicular distance from the midpoint of 
+P to point X is p. The perpendicular distance from the midpoint of Q to point X is q.
+ 
+The two conductors are electrically connected in parallel. This parallel combination is connected 
+in series to a power supply and a resistor. The potential difference V between the ends of P is the 
+same as the potential difference between the ends of Q.
+ 
+The magnetic flux density at X due to the currents in the conductors is B.
+ 
+It is suggested that B is related to p by the relationship
+B = YAV
+Lp + YZAV
+Lq
+ 
+where Y and Z are constants.
+ 
+Plan a laboratory experiment to test the relationship between B and p.
+ 
+Draw a diagram showing the arrangement of your equipment.
+ 
+Explain how the results could be used to determine values for Y and Z.
+ 
+In your plan you should include:
+• 
+the procedure to be followed
+• 
+the measurements to be taken
+• 
+the control of variables
+• 
+the analysis of the data
+• 
+any safety precautions to be taken.
+* 0000800000002 *
+,	,
+ĬÍú¾Ġ´íÈõÏĪÅĊàü¸þ×
+ĬÆðó×ğïĄìóôěìðĐăĞĂ
+ĥµĥĕõµÅõąÕåÅÅĕÅõõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+
+===== PDF PAGE 3 =====
+3
+9702/52/F/M/25
+© UCLES 2025
+[Turn over
+ 
+Diagram
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+* 0000800000003 *
+,	,
+ĬÏú¾Ġ´íÈõÏĪÅĊàú¸þ×
+ĬÆïôÏĩóôÍąýÎðĈÌăĎĂ
+ĥµĕÕµÕåĕĕåõÅÅõåµĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+
+===== PDF PAGE 4 =====
+4
+9702/52/F/M/25
+© UCLES 2025
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ ..........................................................................................................................................................
+ .................................................................................................................................................. [15]
+* 0000800000004 *
+,	,
+ĬÍú¾Ġ´íÈõÏĪÅĊÞü¸Ā×
+ĬÆïñÏģāõêċĆÕÎìĪēĦĂ
+ĥąÅÕõÕåµõąąÅąõąµõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+
+===== PDF PAGE 5 =====
+5
+9702/52/F/M/25
+© UCLES 2025
+[Turn over
+2 
+A student investigates the cooling of a liquid in a beaker.
+ 
+The temperature θR of the laboratory is measured using a thermometer.
+ 
+Hot water is added to an insulated beaker, as shown in Fig. 2.1.
+stand
+thermometer
+beaker
+bench
+insulation
+heat-proof mat
+water
+Fig. 2.1
+ 
+The thermometer measures the temperature of the water. At time t the temperature of the water 
+is θ.
+ 
+A series of readings of t and θ are taken.
+ 
+It is suggested that θ and t are related by the equation
+θ = θR + (θ0 – θR) e–( t
+K)
+ 
+where θ0 is the temperature at t = 0 and K is a constant.
+ 
+(a) A graph is plotted of ln (θ – θR) on the y‑axis against t on the x‑axis.
+ 
+ 
+Determine expressions for the gradient and y‑intercept.
+ 
+gradient =  ...............................................................
+ 
+y‑intercept =  ...............................................................
+[1]
+* 0000800000005 *
+,	,
+ĬÏú¾Ġ´íÈõÏĪÅĊÞú¸Ā×
+ĬÆðò×ĥýąÏíûĔĊÔ®ēĖĂ
+ĥąµĕµµÅÕĥõÕÅąĕĥõĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+
+===== PDF PAGE 6 =====
+6
+9702/52/F/M/25
+© UCLES 2025
+` 
+(b) Values of t and θ are given in Table 2.1.
+Table 2.1
+t / min
+θ / °C
+(θ – θR) / °C
+ln ((θ – θR) / °C)
+ 6.0
+75.0 ± 0.5
+12.0
+64.5 ± 0.5
+18.0
+57.0 ± 0.5
+24.0
+50.0 ± 0.5
+30.0
+44.5 ± 0.5
+36.0
+41.0 ± 0.5
+ 
+ 
+The value of θR is (18.5 ± 0.5) °C.
+ 
+ 
+Calculate and record values of (θ – θR) / °C and ln ((θ – θR) / °C) in Table 2.1. 
+ 
+ 
+Include the absolute uncertainties in (θ – θR) and ln ((θ – θR) / °C). 
+[2]
+ 
+(c) (i) Plot a graph of ln ((θ – θR) / °C) against t / min. Include error bars for ln ((θ – θR) / °C). 
+[2]
+ 
+ 
+(ii) Draw the straight line of best fit and a worst acceptable straight line on your graph. Label 
+both lines. 
+[2]
+ 
+ 
+(iii) Determine the gradient of the line of best fit. Include the absolute uncertainty in 
+your answer.
+ 
+gradient =  ......................................................... [2]
+* 0000800000006 *
+,	,
+ĬÑú¾Ġ´íÈõÏĪÅĊßúµþ×
+ĬÆïòÜğĥÿ×úĊĩĪìÏ»ĦĂ
+ĥÕĕĕµĕÅõåĕõÅÅĕÅµµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+
+===== PDF PAGE 7 =====
+7
+9702/52/F/M/25
+© UCLES 2025
+[Turn over
+ln ((  –  R) / °C)
+θ θ
+4.1
+4.0
+3.9
+3.8
+3.7
+3.6
+3.5
+3.4
+3.3
+3.2
+3.1
+3.0
+5.0
+10.0
+15.0
+20.0
+25.0
+30.0
+35.0
+40.0
+t / min
+* 0000800000007 *
+,	,
+ĬÓú¾Ġ´íÈõÏĪÅĊßüµþ×
+ĬÆðñÔĩĩïâĀ÷à®Ôċ»ĖĂ
+ĥÕĥÕõõåĕµĥåÅÅõåõåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+
+===== PDF PAGE 8 =====
+8
+9702/52/F/M/25
+© UCLES 2025
+ 
+ 
+(iv) Determine the y‑intercept of the line of best fit. Include the absolute uncertainty in 
+your answer.
+ 
+y‑intercept =  ......................................................... [2]
+ 
+(d) (i) Using your answers to (a), (c)(iii) and (c)(iv), determine the values of K and θ0. Include 
+appropriate units.
+ 
+K =  ...............................................................
+ 
+θ0 =  ...............................................................
+[2]
+ 
+ 
+(ii) Determine the absolute uncertainty in your value of θ0.
+ 
+absolute uncertainty =  ......................................................... [1]
+ 
+(e) Determine the time t for the temperature to reach 25.0 °C.
+ 
+t =  ................................................... min [1]
+[Total: 15]
+To avoid the issue of disclosure of answer‑related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+* 0000800000008 *
+,		,
+ĬÑú¾Ġ´íÈõÏĪÅĊÝúµĀ×
+ĬÆðôÔģěúÕĂðçĐðéëĞĂ
+ĥĥµÕµõåµÕÅÕÅąõąõµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN

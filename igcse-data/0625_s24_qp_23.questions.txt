@@ -1,0 +1,828 @@
+===== Q1 (page 1) =====
+1 
+A student measures the volume of a small, irregularly shaped stone. 
+ 
+Which apparatus must be used? 
+A 
+a ruler and a measuring cylinder containing water 
+B 
+a measuring cylinder containing water only 
+C 
+a ruler and an empty measuring cylinder 
+D 
+a ruler only
+
+===== Q2 (page 1) =====
+2 
+Which quantity is a vector? 
+A 
+electric field strength 
+B 
+energy 
+C 
+mass 
+D 
+temperature
+
+===== Q3 (page 1) =====
+3 
+An athlete runs 2.4 km in 12 minutes. 
+ 
+What is the average speed of the athlete? 
+A 
+0.20 m / s 
+B 
+3.3 m / s 
+C 
+29 m / s 
+D 
+200 m / s
+
+===== Q4 (page 2) =====
+4 
+The graph shows how the speed of a car changes during a period of 50 s. 
+ 
+25
+20
+15
+10
+5
+0
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+speed
+m / s
+time / s
+ 
+ 
+Which row gives the car’s greatest acceleration and the car’s greatest deceleration? 
+ 
+ 
+greatest 
+acceleration 
+m / s2 
+greatest 
+deceleration 
+m / s2 
+A 
+0.75 
+1.0 
+B 
+0.75 
+3.0 
+C 
+1.3 
+1.0 
+D 
+1.3 
+3.0
+
+===== Q5 (page 2) =====
+5 
+Which statement about gravitational field strength g is correct? 
+A 
+g = 
+weight
+mass 
+B 
+g = mass  weight 
+C 
+g is defined as the mass per unit force 
+D 
+g is equal to the acceleration of free fall
+
+===== Q6 (page 2) =====
+6 
+Which property of an object cannot be changed by applying forces? 
+A 
+mass 
+B 
+shape 
+C 
+speed 
+D 
+volume
+
+===== Q7 (page 3) =====
+7 
+A small ball of mass 0.10 kg travels horizontally at a speed of 600 m / s. It strikes a stationary 
+wooden block of mass 1.9 kg resting on a frictionless horizontal surface. 
+ 
+The ball stays in the block. 
+ 
+What is the speed of the ball and the block immediately after the impact? 
+A 
+30 m / s 
+B 
+32 m / s 
+C 
+60 m / s 
+D 
+130 m / s
+
+===== Q8 (page 3) =====
+8 
+An object taken underwater will be damaged if the total pressure acting on it is greater than 
+2.1 MPa. 
+ 
+What is the maximum depth that the object can be taken underwater before it breaks? 
+ 
+atmospheric pressure = 101 000 Pa 
+ 
+density of water = 1000 kg / m3 
+A 
+10.3 m 
+B 
+204 m 
+C 
+214 m 
+D 
+225 m
+
+===== Q9 (page 3) =====
+9 
+A piece of solid metal melts to become a liquid. 
+ 
+How do the particles of metal or their behaviour change? 
+A 
+They increase in size. 
+B 
+They move around each other. 
+C 
+They move much further apart. 
+D 
+They vibrate more about their fixed positions.
+
+===== Q10 (page 3) =====
+10 Brownian motion of particles is observed. 
+ 
+Which statements describe the movement of the particles? 
+ 
+1 
+The particles all travel along a curved path. 
+2 
+The particles move randomly. 
+3 
+The particles all travel in the same direction. 
+ 
+A 
+1 and 3 
+B 
+1 only 
+C 
+2 and 3 
+D 
+2 only
+
+===== Q11 (page 4) =====
+11 A fixed mass of air in a cylinder is compressed by a piston so that the volume of the air 
+decreases at constant temperature. 
+ 
+How do the air particles now collide with the cylinder walls? 
+A 
+less often with a greater velocity 
+B 
+less often with the same velocity 
+C 
+more often with a greater velocity 
+D 
+more often with the same velocity
+
+===== Q12 (page 4) =====
+12 The diagram shows a quantity of gas trapped in a cylinder. The piston is pushed in slowly and the 
+gas is compressed. The temperature of the gas does not change. 
+ 
+gas
+piston
+piston pushed in
+ 
+ 
+Which graph shows the relationship between the pressure and the volume of the gas? 
+ 
+A
+pressure
+volume
+0
+0
+B
+pressure
+volume
+0
+0
+C
+pressure
+volume
+0
+0
+D
+pressure
+volume
+0
+0
+
+===== Q13 (page 5) =====
+13 The liquid level in a thermometer rises when the thermometer is placed in hot water. 
+ 
+What causes this? 
+A 
+The liquid contracts. 
+B 
+The liquid evaporates. 
+C 
+The liquid expands. 
+D 
+The liquid freezes.
+
+===== Q14 (page 5) =====
+14 Which statement describes what happens as ice at 0 C melts to become water? 
+A 
+Energy is absorbed and the temperature remains constant. 
+B 
+Energy is absorbed and the temperature rises. 
+C 
+Energy is released and the temperature remains constant. 
+D 
+Energy is released and the temperature rises.
+
+===== Q15 (page 5) =====
+15 Which row explains how increasing the surface area of a fixed volume of liquid water and blowing 
+air over the surface speeds up evaporation? 
+ 
+ 
+increasing the surface area 
+blowing air over the surface 
+A 
+ 
+increases the total number 
+of water molecules present 
+increases the energy in the 
+kinetic store of the liquid water 
+B 
+ 
+increases the total number 
+of water molecules present 
+removes water molecules from 
+above the surface of the water 
+C 
+ 
+increases the number of water 
+molecules close to the surface 
+increases the energy in the 
+kinetic store of the liquid water 
+D 
+ 
+increases the number of water 
+molecules close to the surface 
+removes water molecules from 
+above the surface of the water
+
+===== Q16 (page 6) =====
+16 The table shows the state of materials P, Q, R and S, and whether each one contains free 
+electrons. 
+ 
+ 
+gas 
+liquid 
+solid 
+contains 
+free electrons 
+P 
+ 
+ 
+ 
+ 
+Q 
+ 
+ 
+ 
+ 
+R 
+ 
+ 
+ 
+ 
+S 
+ 
+ 
+ 
+ 
+ 
+Using the information in the table, which comparison of the thermal conduction in the materials is 
+correct? 
+A 
+It is better in P than in Q and S. 
+B 
+It is better in Q than in R and P. 
+C 
+It is better in R than in Q and P. 
+D 
+It is better in S than in R and Q.
+
+===== Q17 (page 6) =====
+17 A seismic wave has a frequency of 5.0 Hz and a speed of 10 km / s. 
+ 
+What is the wavelength of the wave? 
+A 
+0.20 km 
+B 
+0.50 km 
+C 
+2.0 km 
+D 
+50 km
+
+===== Q18 (page 6) =====
+18 Sound waves will diffract when going through a gap or passing the edge of a barrier. 
+ 
+Which size of wavelength gives the most diffraction in each case? 
+ 
+ 
+passing through a gap 
+passing the edge 
+of a barrier 
+A 
+small wavelength 
+small wavelength 
+B 
+small wavelength 
+large wavelength 
+C 
+wavelength similar to gap size 
+small wavelength 
+D 
+wavelength similar to gap size 
+large wavelength
+
+===== Q19 (page 7) =====
+19 A boy is having his eyes tested. A letter is printed on a card placed over his head. He sees the 
+card in a plane mirror placed in front of him. 
+ 
+He sees the letter ‘R’ in the mirror. 
+ 
+How is it printed on the card? 
+ 
+A
+B
+C
+D
+
+===== Q20 (page 7) =====
+20 A ray of light is refracted as it enters air from glass, as shown. 
+ 
+50
+60
+air
+glass
+ 
+ 
+What is the speed of light in the glass? 
+A 
+2.0  108
+ m / s 
+B 
+2.2  108
+ m / s 
+C 
+2.3  108
+ m / s 
+D 
+2.7  108
+ m / s
+
+===== Q21 (page 7) =====
+21 A converging lens is being used as a magnifying glass. 
+ 
+Which statement is correct? 
+A 
+The image is further away from the lens than the object is. 
+B 
+The image is inverted. 
+C 
+The image is real. 
+D 
+The object must be placed at the principal focus of the lens.
+
+===== Q22 (page 7) =====
+22 Which colours of visible light are in the correct order of increasing wavelength? 
+A 
+red  yellow  blue 
+B 
+orange  green  violet 
+C 
+indigo  green  red 
+D 
+blue  green  violet
+
+===== Q23 (page 8) =====
+23 The diagram shows three types of electromagnetic radiation listed in a particular order. The 
+electromagnetic radiation is travelling in a vacuum. 
+ 
+microwaves
+infrared
+X-rays 
+ 
+Which quantities increase in magnitude going from left to right across the list? 
+A 
+both speed and frequency 
+B 
+frequency only 
+C 
+speed only 
+D 
+neither speed nor frequency
+
+===== Q24 (page 8) =====
+24 Which row gives the typical values of the speed of sound at room temperature in the materials 
+stated? 
+ 
+ 
+s
+/
+m
+sound
+ 
+of
+ 
+speed
+ 
+ 
+ 
+air 
+water 
+iron 
+A 
+340 
+1500 
+5100 
+B 
+340 
+5100 
+1500 
+C 
+5100 
+1500 
+340 
+D 
+3.0  108 
+3.0  108 
+3.0  108
+
+===== Q25 (page 8) =====
+25 Two small compasses are placed close to a strong bar magnet. 
+ 
+In which directions do the compass needles point? 
+ 
+N
+A
+S
+N
+B
+S
+N
+C
+S
+N
+D
+S
+
+===== Q26 (page 9) =====
+26 Students are asked for a statement about magnetic fields. 
+ 
+Three statements are listed. 
+ 
+1 
+A magnetic field is described as a region in which a stationary electric charge 
+experiences a force. 
+2 
+The direction of a magnetic field at a point is the direction of the force on an S pole 
+at that point. 
+3 
+The relative strength of a magnetic field is shown by the spacing of the magnetic 
+field lines. 
+ 
+Which statements are correct for magnetic fields? 
+A 
+1, 2 and 3 
+B 
+1 and 2 only 
+C 
+2 and 3 only 
+D 
+3 only
+
+===== Q27 (page 9) =====
+27 A student rubs a plastic rod with a cloth. 
+ 
+The rod becomes electrically charged and is attracted by a negatively charged object. 
+ 
+Which statement about the rod is correct? 
+A 
+It is negatively charged because it has gained electrons. 
+B 
+It is negatively charged because it has lost electrons. 
+C 
+It is positively charged because it has gained electrons. 
+D 
+It is positively charged because it has lost electrons.
+
+===== Q28 (page 9) =====
+28 Which circuit shows the directions of the conventional current I and the flow of electrons? 
+ 
+electrons
+I
+A
+electrons
+I
+B
+electrons
+I
+C
+electrons
+I
+D
+
+===== Q29 (page 10) =====
+29 A cell has an electromotive force (e.m.f.) of 1.5 V. 
+ 
+How much energy is transferred by the cell when it drives 6.0 C of charge round a complete 
+circuit? 
+A 
+4.0 J 
+B 
+4.0 W 
+C 
+9.0 J 
+D 
+9.0 W
+
+===== Q30 (page 10) =====
+30 A metal resistance wire of length l and cross-sectional area A has resistance R. 
+ 
+What is the resistance of a metal wire of the same material that has length 2l and cross-sectional 
+area 2
+A ? 
+A 
+4
+R 
+B 
+R 
+C 
+2R 
+D 
+4R
+
+===== Q31 (page 10) =====
+31 The diagram shows two circuits. 
+ 
+Each relay is normally open when there is no current in the coil. 
+ 
+6 V
+0 V
+circuit 1
+6 V
+0 V
+circuit 2
+ 
+ 
+Which environmental conditions will cause the light-emitting diodes in circuit 1 and circuit 2 both 
+to emit light? 
+ 
+ 
+temperature 
+light intensity 
+A 
+high 
+high 
+B 
+high 
+low 
+C 
+low 
+high 
+D 
+low 
+low
+
+===== Q32 (page 11) =====
+32 A transformer is 100% efficient. 
+ 
+Which pair of equations are both valid for the transformer? 
+A 
+IpVp = IsVs 
+p
+p
+N
+V
+ = 
+s
+s
+N
+V 
+B 
+p
+p
+I
+V
+ = 
+s
+s
+I
+V 
+NpVp = NsVs 
+C 
+p
+p
+I
+V
+ = 
+s
+s
+I
+V 
+p
+p
+N
+V
+ = 
+s
+s
+N
+V 
+D 
+IpVp = IsVs 
+NpVp = NsVs
+
+===== Q33 (page 11) =====
+33 Which diagram shows the structure of a neutral atom? 
+ 
+key
+= neutral subatomic particles
+= positive subatomic particles
+= negative subatomic particles
+n
+n
+n
++
++
++
+–
+–
+A
+n
++
++
+–
+B
+–
+n
+n
++
++
+–
+C
+n
+n
++
+–
+D
+–
+
+===== Q34 (page 11) =====
+34 What is nuclear fission? 
+A 
+the merging of two nuclei to create a heavier nucleus 
+B 
+the process by which electrons are removed from an atom 
+C 
+the process by which stars generate energy 
+D 
+the splitting of a nucleus to create two smaller nuclei
+
+===== Q35 (page 12) =====
+35 The diagram represents the paths of three types of ionising radiation, X, Y and Z, through a 
+magnetic field. 
+ 
+The three types of radiation are alpha, beta and gamma. 
+ 
+X
+Y
+magnetic field
+Z
+ 
+ 
+Which statement about the ionising radiation is correct? 
+A 
+X is positively charged. 
+B 
+Y is negatively charged. 
+C 
+Z is the most strongly ionising. 
+D 
+X has a smaller mass than Y.
+
+===== Q36 (page 12) =====
+36 Which row correctly matches three radioactive sources to their uses? 
+ 
+ 
+emits alpha-particles 
+and has a long half-life 
+emits beta-particles 
+and has a long half-life 
+emits gamma radiation 
+and has a short half-life 
+A 
+ 
+monitoring the thickness 
+of aluminium foil 
+smoke alarm 
+ 
+tracer to be injected 
+to detect cancer 
+B 
+ 
+monitoring the thickness 
+of aluminium foil 
+tracer to be injected 
+to detect cancer 
+smoke alarm 
+ 
+C 
+ 
+smoke alarm 
+ 
+monitoring the thickness 
+of aluminium foil 
+tracer to be injected 
+to detect cancer 
+D 
+ 
+smoke alarm 
+ 
+tracer to be injected 
+to detect cancer 
+monitoring the thickness 
+of aluminium foil
+
+===== Q37 (page 12) =====
+37 Why are some radioactive sources stored in boxes made from lead? 
+A 
+Lead absorbs emissions from the radioactive sources. 
+B 
+Lead decreases the half-life of radioactive sources. 
+C 
+Lead increases the half-life of radioactive sources. 
+D 
+Lead repels all radioactive emissions.
+
+===== Q38 (page 13) =====
+38 The average distance from the Earth to the Sun is 1.5  1011
+ m. 
+ 
+What is the orbital speed of the Earth? 
+A 
+4.0  105
+ km / day 
+B 
+1.3  106
+ km / day 
+C 
+2.6  106
+ km / day 
+D 
+1.9  1014
+ km / day
+
+===== Q39 (page 13) =====
+39 In which order are the objects listed formed during the life cycle of a star? 
+A 
+protostar  red giant  supernova  stable star 
+B 
+protostar  stable star  red giant  supernova 
+C 
+red giant  stable star  protostar  supernova 
+D 
+red giant  supernova  protostar  stable star
+
+===== Q40 (page 13) =====
+40 What is the distance travelled by light in one year? 
+A 
+5.9  1015
+ m 
+B 
+5.9  1015
+ km 
+C 
+9.5  1015
+ m 
+D 
+9.5  1015
+ km

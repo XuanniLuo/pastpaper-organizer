@@ -1,0 +1,286 @@
+{
+  "paper": "0625/22/O/N/25",
+  "paper_full": "November 2025 · Paper 22",
+  "questions": [
+    {
+      "qnum": 1,
+      "code": "1.1",
+      "topic_name": "Physical quantities and measurement techniques",
+      "answer": "A",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q01.pdf"
+    },
+    {
+      "qnum": 2,
+      "code": "1.2",
+      "topic_name": "Motion",
+      "answer": "B",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q02.pdf"
+    },
+    {
+      "qnum": 3,
+      "code": "1.3",
+      "topic_name": "Mass and weight",
+      "answer": "C",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q03.pdf"
+    },
+    {
+      "qnum": 4,
+      "code": "1.4",
+      "topic_name": "Density",
+      "answer": "C",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q04.pdf"
+    },
+    {
+      "qnum": 5,
+      "code": "1.5",
+      "topic_name": "Forces",
+      "answer": "A",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q05.pdf"
+    },
+    {
+      "qnum": 6,
+      "code": "1.6",
+      "topic_name": "Momentum",
+      "answer": "C",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q06.pdf"
+    },
+    {
+      "qnum": 7,
+      "code": "1.7",
+      "topic_name": "Energy, work and power",
+      "answer": "D",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q07.pdf"
+    },
+    {
+      "qnum": 8,
+      "code": "1.7",
+      "topic_name": "Energy, work and power",
+      "answer": "D",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q08.pdf"
+    },
+    {
+      "qnum": 9,
+      "code": "1.8",
+      "topic_name": "Pressure",
+      "answer": "B",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q09.pdf"
+    },
+    {
+      "qnum": 10,
+      "code": "2.1",
+      "topic_name": "Kinetic particle model of matter",
+      "answer": "D",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q10.pdf"
+    },
+    {
+      "qnum": 11,
+      "code": "2.2",
+      "topic_name": "Thermal properties and temperature",
+      "answer": "D",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q11.pdf"
+    },
+    {
+      "qnum": 12,
+      "code": "2.2",
+      "topic_name": "Thermal properties and temperature",
+      "answer": "C",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q12.pdf"
+    },
+    {
+      "qnum": 13,
+      "code": "2.2",
+      "topic_name": "Thermal properties and temperature",
+      "answer": "B",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q13.pdf"
+    },
+    {
+      "qnum": 14,
+      "code": "2.2",
+      "topic_name": "Thermal properties and temperature",
+      "answer": "D",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q14.pdf"
+    },
+    {
+      "qnum": 15,
+      "code": "2.3",
+      "topic_name": "Transfer of thermal energy",
+      "answer": "A",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q15.pdf"
+    },
+    {
+      "qnum": 16,
+      "code": "2.3",
+      "topic_name": "Transfer of thermal energy",
+      "answer": "A",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q16.pdf"
+    },
+    {
+      "qnum": 17,
+      "code": "3.1",
+      "topic_name": "General properties of waves",
+      "answer": "D",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q17.pdf"
+    },
+    {
+      "qnum": 18,
+      "code": "3.1",
+      "topic_name": "General properties of waves",
+      "answer": "B",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q18.pdf"
+    },
+    {
+      "qnum": 19,
+      "code": "3.2",
+      "topic_name": "Light",
+      "answer": "C",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q19.pdf"
+    },
+    {
+      "qnum": 20,
+      "code": "3.2",
+      "topic_name": "Light",
+      "answer": "C",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q20.pdf"
+    },
+    {
+      "qnum": 21,
+      "code": "3.2",
+      "topic_name": "Light",
+      "answer": "A",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q21.pdf"
+    },
+    {
+      "qnum": 22,
+      "code": "3.3",
+      "topic_name": "Electromagnetic spectrum",
+      "answer": "B",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q22.pdf"
+    },
+    {
+      "qnum": 23,
+      "code": "3.4",
+      "topic_name": "Sound",
+      "answer": "C",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q23.pdf"
+    },
+    {
+      "qnum": 24,
+      "code": "4.1",
+      "topic_name": "Simple phenomena of magnetism",
+      "answer": "A",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q24.pdf"
+    },
+    {
+      "qnum": 25,
+      "code": "4.2",
+      "topic_name": "Electrical quantities",
+      "answer": "B",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q25.pdf"
+    },
+    {
+      "qnum": 26,
+      "code": "4.2",
+      "topic_name": "Electrical quantities",
+      "answer": "C",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q26.pdf"
+    },
+    {
+      "qnum": 27,
+      "code": "4.3",
+      "topic_name": "Electric circuits",
+      "answer": "D",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q27.pdf"
+    },
+    {
+      "qnum": 28,
+      "code": "4.3",
+      "topic_name": "Electric circuits",
+      "answer": "B",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q28.pdf"
+    },
+    {
+      "qnum": 29,
+      "code": "4.4",
+      "topic_name": "Electrical safety",
+      "answer": "A",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q29.pdf"
+    },
+    {
+      "qnum": 30,
+      "code": "4.5",
+      "topic_name": "Electromagnetic effects",
+      "answer": "B",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q30.pdf"
+    },
+    {
+      "qnum": 31,
+      "code": "4.5",
+      "topic_name": "Electromagnetic effects",
+      "answer": "C",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q31.pdf"
+    },
+    {
+      "qnum": 32,
+      "code": "4.5",
+      "topic_name": "Electromagnetic effects",
+      "answer": "D",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q32.pdf"
+    },
+    {
+      "qnum": 33,
+      "code": "5.1",
+      "topic_name": "The nuclear model of the atom",
+      "answer": "B",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q33.pdf"
+    },
+    {
+      "qnum": 34,
+      "code": "5.1",
+      "topic_name": "The nuclear model of the atom",
+      "answer": "D",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q34.pdf"
+    },
+    {
+      "qnum": 35,
+      "code": "5.2",
+      "topic_name": "Radioactivity",
+      "answer": "D",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q35.pdf"
+    },
+    {
+      "qnum": 36,
+      "code": "5.2",
+      "topic_name": "Radioactivity",
+      "answer": "A",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q36.pdf"
+    },
+    {
+      "qnum": 37,
+      "code": "5.2",
+      "topic_name": "Radioactivity",
+      "answer": "B",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q37.pdf"
+    },
+    {
+      "qnum": 38,
+      "code": "1.3",
+      "topic_name": "Mass and weight",
+      "answer": "A",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q38.pdf"
+    },
+    {
+      "qnum": 39,
+      "code": "6.2",
+      "topic_name": "Stars and the Universe",
+      "answer": "B",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q39.pdf"
+    },
+    {
+      "qnum": 40,
+      "code": "6.2",
+      "topic_name": "Stars and the Universe",
+      "answer": "A",
+      "pdf": "igcse-slices/0625_w25_qp_22_Q40.pdf"
+    }
+  ]
+}

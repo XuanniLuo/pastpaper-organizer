@@ -1,0 +1,685 @@
+===== Q1 (page 1) =====
+1 
+Which quantity can be measured using a ruler? 
+A 
+the distance travelled by a toy train in one second 
+B 
+the temperature of a toy train 
+C 
+the time taken for a toy train to travel one metre 
+D 
+the volume of a toy train
+
+===== Q2 (page 1) =====
+2 
+A car is driven from one town to another town along a road that is not straight. 
+ 
+The driver of the car divides the total distance travelled by the total time taken. 
+ 
+Which quantity does the driver calculate? 
+A 
+the acceleration of the car 
+B 
+the average speed of the car 
+C 
+the kinetic energy of the car 
+D 
+the velocity of the car
+
+===== Q3 (page 1) =====
+3 
+Which quantity can be determined from the area under a speed–time graph? 
+A 
+acceleration 
+B 
+distance 
+C 
+speed 
+D 
+velocity
+
+===== Q4 (page 1) =====
+4 
+Students are asked for a statement about the weight of an object. 
+ 
+Three of the statements are listed. 
+ 
+1 
+The weight is the quantity of matter in the object. 
+2 
+The weight is the effect of a gravitational field on the object. 
+3 
+The weight is the force of attraction between the object and the Earth. 
+ 
+Which statements describe the weight of the object? 
+A 
+1, 2 and 3 
+B 
+1 and 2 only 
+C 
+1 and 3 only 
+D 
+2 and 3 only
+
+===== Q5 (page 2) =====
+5 
+Samples of three different liquids have equal masses. 
+ 
+The volumes of the samples are 190 cm3, 200 cm3 and 235 cm3. 
+ 
+The liquids are poured into a large measuring cylinder and the liquids form three separate layers 
+because they do not mix. 
+ 
+What are the readings on the measuring cylinder at the two boundaries between the samples? 
+A 
+190 cm3 and 390 cm3 
+B 
+190 cm3 and 425 cm3 
+C 
+235 cm3 and 425 cm3 
+D 
+235 cm3 and 435 cm3
+
+===== Q6 (page 2) =====
+6 
+A car moves along a level road. 
+ 
+The diagram shows all of the horizontal forces acting on the car. 
+ 
+2000 N force
+from engine
+500 N
+friction
+800 N
+air resistance
+ 
+ 
+Which statement is correct? 
+A 
+The car is slowing down. 
+B 
+The car is speeding up. 
+C 
+The car is moving at a constant speed. 
+D 
+The car is moving backwards.
+
+===== Q7 (page 3) =====
+7 
+A car is travelling around a circular track at a constant speed, as shown. 
+ 
+In which direction is the resultant force on the car? 
+ 
+D
+B
+A
+C
+direction of
+movement
+car
+
+===== Q8 (page 3) =====
+8 
+A railway truck of mass 8000 kg moves with a velocity of 1.0 m / s to the right. 
+ 
+It collides with a railway truck of mass 12 000 kg moving at 2.0 m / s to the left. 
+ 
+The two trucks become joined to each other when they collide and move off together. 
+ 
+What is the velocity of the two trucks after the collision? 
+A 
+1.6 m / s to the left 
+B 
+0.80 m / s to the left 
+C 
+0.80 m / s to the right 
+D 
+1.6 m / s to the right
+
+===== Q9 (page 3) =====
+9 
+A stone is dropped from a bridge which is 22 m above a river. 
+ 
+What is the speed of the stone when it hits the water? 
+A 
+15 m / s 
+B 
+21 m / s 
+C 
+220 m / s 
+D 
+430 m / s
+
+===== Q10 (page 4) =====
+10 Which row describes the particle structure of a gas? 
+ 
+ 
+distance between 
+the particles 
+motion of 
+the particles 
+A 
+close together 
+vibrating 
+B 
+close together 
+random 
+C 
+far apart 
+vibrating 
+D 
+far apart 
+random
+
+===== Q11 (page 4) =====
+11 The particles of a gas in a container of fixed volume gain energy in the kinetic store. 
+ 
+Which effect does this have on the gas? 
+A 
+Both the pressure and the temperature of the gas increase. 
+B 
+Only the temperature of the gas increases. 
+C 
+Neither the pressure nor the temperature of the gas increases. 
+D 
+Only the pressure of the gas increases.
+
+===== Q12 (page 4) =====
+12 Gas particles exert a pressure when they collide with the walls of a container. 
+ 
+Which statement about the gas particles is correct? 
+A 
+They experience a change in force, which results in a pressure equal to momentum  area. 
+B 
+They experience a change in force, which results in a pressure equal to 
+area
+momentum . 
+C 
+They experience a change in momentum, which results in a pressure equal to force  area. 
+D 
+They experience a change in momentum, which results in a pressure equal to area
+force .
+
+===== Q13 (page 4) =====
+13 A solid changes into a liquid. 
+ 
+Which term describes this change in state? 
+A 
+boiling 
+B 
+condensation 
+C 
+freezing 
+D 
+melting
+
+===== Q14 (page 5) =====
+14 The diagram shows some of the apparatus used to determine the specific heat capacity of a 
+metal block. 
+ 
+A
+metal block
+thermometer
+ 
+ 
+Which additional pieces of apparatus are required to find the specific heat capacity? 
+A 
+stop-watch, voltmeter and balance 
+B 
+resistor, stop-watch and ruler 
+C 
+ruler, balance and force meter 
+D 
+voltmeter, thermistor and insulation
+
+===== Q15 (page 5) =====
+15 Four different surfaces are at the same high temperature. 
+ 
+Which surface emits thermal radiation at the slowest rate? 
+ 
+ 
+colour of 
+surface 
+texture of 
+surface 
+surface area / cm2 
+A 
+black 
+dull 
+10 
+B 
+black 
+dull 
+100 
+C 
+white 
+shiny 
+10 
+D 
+white 
+shiny 
+100
+
+===== Q16 (page 5) =====
+16 An object has a constant temperature. 
+ 
+Which statement is correct? 
+A 
+There is no energy transfer to or from the object. 
+B 
+The rate at which the object receives energy is the same as the rate at which it transfers 
+energy away. 
+C 
+The rate at which the object receives energy is smaller than the rate at which it transfers 
+energy away. 
+D 
+The rate at which the object receives energy is greater than the rate at which it transfers 
+energy away.
+
+===== Q17 (page 6) =====
+17 Which row correctly describes light waves? 
+ 
+ 
+wave type 
+direction of vibration 
+A 
+longitudinal 
+parallel to direction of wave travel 
+B 
+longitudinal 
+perpendicular to direction of wave travel 
+C 
+transverse 
+parallel to direction of wave travel 
+D 
+transverse 
+perpendicular to direction of wave travel
+
+===== Q18 (page 6) =====
+18 A narrow beam of light consists of two waves of different wavelengths. 
+ 
+The beam of light hits a sharp edge. 
+ 
+Which effect will be seen beyond the sharp edge? 
+A 
+Both waves continue along the same straight line as before. 
+B 
+Both waves bend sharply and continue along a new straight line. 
+C 
+The wave of longer wavelength bends round the sharp edge more than the wave of shorter 
+wavelength. 
+D 
+The wave of shorter wavelength bends round the sharp edge more than the wave of longer 
+wavelength.
+
+===== Q19 (page 6) =====
+19 An object is placed 30 cm in front of a plane mirror. 
+ 
+Which statement describes the image of the object? 
+A 
+The image is the same size as the object and 30 cm from the object. 
+B 
+The image is the same size as the object and 60 cm from the object. 
+C 
+The image is smaller than the object and 30 cm from the object. 
+D 
+The image is smaller than the object and 60 cm from the object.
+
+===== Q20 (page 6) =====
+20 Which statement about total internal reflection at a glass–air boundary is correct? 
+A 
+The angle of incidence inside the glass must be equal to the critical angle. 
+B 
+The angle of incidence inside the glass must be less than the critical angle. 
+C 
+The critical angle is proportional to the refractive index of the glass. 
+D 
+The speed of light in glass must be less than the speed of light in air.
+
+===== Q21 (page 7) =====
+21 What is the speed of radio waves in a vacuum and what is the speed of gamma rays in a 
+vacuum? 
+ 
+ 
+speed of radio waves 
+speed of gamma rays 
+A 
+less than 3.0  108
+ m / s 
+less than 3.0  108
+ m / s 
+B 
+less than 3.0  108
+ m / s 
+more than 3.0  108
+ m / s 
+C 
+3.0  108
+ m / s 
+3.0  108
+ m / s 
+D 
+more than 3.0  108
+ m / s 
+more than 3.0  108
+ m / s
+
+===== Q22 (page 7) =====
+22 A student makes a sound in front of a large wall. 
+ 
+She hears an echo at time t after making the sound. 
+ 
+The speed of sound in air is v. 
+ 
+Which expression is used to calculate the distance between the student and the wall? 
+A 
+v  t 
+B 
+v  t 
+C 
+(v  t )  2 
+D 
+(v  t )  2
+
+===== Q23 (page 7) =====
+23 What is a compression? 
+A 
+a point in a longitudinal wave where the particles of the medium are close together 
+B 
+a point in a longitudinal wave where the particles of the medium are far apart 
+C 
+a point in a transverse wave where the particles of the medium are close together 
+D 
+a point in a transverse wave where the particles of the medium are far apart
+
+===== Q24 (page 7) =====
+24 Which row describes the magnetic field around a weak magnet? 
+ 
+ 
+direction of field 
+spacing of field lines 
+A 
+north pole to south pole 
+close together 
+B 
+north pole to south pole 
+far apart 
+C 
+south pole to north pole 
+close together 
+D 
+south pole to north pole 
+far apart
+
+===== Q25 (page 7) =====
+25 A 0.60 m length of resistance wire with a diameter of 0.25 mm has a resistance of 6.0 . 
+ 
+A second piece of resistance wire of the same material with a diameter of 0.50 mm also has a 
+resistance of 6.0 . 
+ 
+What is the length of the second piece of wire? 
+A 
+0.15 m 
+B 
+0.30 m 
+C 
+1.20 m 
+D 
+2.40 m
+
+===== Q26 (page 8) =====
+26 A circuit contains a cell with an electromotive force (e.m.f.) of 2.0 V. The current in the circuit is 
+2.0 A. 
+ 
+How much energy is transferred by the cell in 2.0 minutes? 
+A 
+2.0 J 
+B 
+4.0 J 
+C 
+8.0 J 
+D 
+480 J
+
+===== Q27 (page 8) =====
+27 What is the electromotive force (e.m.f.) of a cell? 
+A 
+the charge that passes through the cell per unit time 
+B 
+the energy supplied per unit charge as charge passes through the cell 
+C 
+the total charge flowing through the cell 
+D 
+the total energy stored in the cell
+
+===== Q28 (page 8) =====
+28 Four lamps and four switches are connected to a power supply, as shown. 
+ 
+When all the switches are closed, all the lamps are lit. 
+ 
+When one of the switches is then opened, only one lamp goes out. 
+ 
+Which switch is opened? 
+ 
+A
+B
+power
+supply
+C
+D
+
+===== Q29 (page 8) =====
+29 In which mains electric wires are the fuse and the switch placed? 
+ 
+ 
+fuse 
+switch 
+A 
+earth 
+live 
+B 
+live 
+live 
+C 
+live 
+neutral 
+D 
+neutral 
+neutral
+
+===== Q30 (page 9) =====
+30 The diagram shows a wire moving downwards in a magnetic field between two magnetic poles. 
+ 
+There is an induced current in the wire because of the movement. 
+ 
+The induced current produces a force on the wire. 
+ 
+In which direction is this force? 
+ 
+N
+S
+wire
+C
+A
+B
+D
+movement of
+wire downwards
+
+===== Q31 (page 10) =====
+31 When the generator shown rotates, there is an a.c. electromotive force (e.m.f.) across the resistor 
+between points P and Q. 
+ 
+Diagram 1 shows the position of the coil at time t = 0. 
+ 
+The coil rotates clockwise. At time t1, the coil position is horizontal, as shown in diagram 2. 
+ 
+N
+S
+rotation
+V
+P
+Q
+diagram 2
+N
+S
+V
+P
+Q
+diagram 1
+ 
+ 
+The graph shows the output e.m.f. between points P and Q plotted against time. 
+ 
+Which point shows the e.m.f. at time t1? 
+ 
+output e.m.f.
+between P and Q
+time
+0
+0
+A
+C
+B
+D
+
+===== Q32 (page 10) =====
+32 What is the purpose of the split-ring commutator in an electric motor? 
+A 
+to ensure that the magnetic field in the motor changes direction every half rotation 
+B 
+to ensure that the magnetic field in the motor stays in the same direction at all times 
+C 
+to ensure that the turning effect on the motor changes direction every half rotation 
+D 
+to ensure that the turning effect on the motor stays in the same direction at all times
+
+===== Q33 (page 11) =====
+33 A beta particle has less mass than an alpha particle, but the speed of a beta particle emitted 
+during radioactive decay is approximately 20 times greater than the speed of an alpha particle. 
+ 
+Which statement correctly compares properties of these two particles? 
+A 
+Alpha particles are less penetrating because they have less kinetic energy than 
+beta particles. 
+B 
+Alpha particles are more penetrating because they have less kinetic energy than 
+beta particles. 
+C 
+Alpha particles are less ionising because they have more kinetic energy than beta particles. 
+D 
+Alpha particles are more ionising because they have more kinetic energy than beta particles.
+
+===== Q34 (page 11) =====
+34 Which observation provides evidence for the nuclear atom? 
+A 
+attraction of opposite charges 
+B 
+emission of -rays during the decay of a radioactive nuclide 
+C 
+scattering of -particles by a thin metal foil 
+D 
+scattering of -rays by a thin metal foil
+
+===== Q35 (page 11) =====
+35 Which effect on living things is not caused by ionising radiation? 
+A 
+cancer 
+B 
+cell death 
+C 
+infection 
+D 
+mutation
+
+===== Q36 (page 11) =====
+36 Isotope X is radioactive. 
+ 
+Which statement about X must be correct? 
+A 
+A nucleus of X is unstable. 
+B 
+X emits -particles. 
+C 
+X emits -particles. 
+D 
+X emits -radiation.
+
+===== Q37 (page 12) =====
+37 An experiment is done to measure the radiation from a radioactive source. The source has a  
+half-life of 10 minutes. 
+ 
+The source is placed close to a detector that is connected to a counter, as shown. 
+ 
+radioactive
+source
+detector
+counter
+ 
+ 
+The average background count rate is 20 counts / minute. 
+ 
+At the start of the experiment, the count rate recorded by the counter is 1000 counts / minute. 
+ 
+What is the count rate 10 minutes later? 
+A 
+490 counts / minute 
+B 
+500 counts / minute 
+C 
+510 counts / minute 
+D 
+530 counts / minute
+
+===== Q38 (page 12) =====
+38 In which direction does the Sun appear to move every day, when viewed from the Earth? 
+A 
+east to west 
+B 
+north to south 
+C 
+south to north 
+D 
+west to east
+
+===== Q39 (page 12) =====
+39 A distant galaxy is moving away from the Milky Way at 4 400 000 m / s. 
+ 
+What is the approximate distance between the Milky Way and this distant galaxy? 
+A 
+2  1012
+ m 
+B 
+5  1011
+ m 
+C 
+2  1024
+ m 
+D 
+5  1023
+ m
+
+===== Q40 (page 13) =====
+40 The orbit of Mercury is closer to the Sun than the orbit of the Earth is to the Sun. 
+ 
+How do the values of the gravitational field strength of the Sun near Mercury and the orbital 
+speed of Mercury compare to those values for the Earth? 
+ 
+ 
+gravitational field 
+strength of the Sun 
+near Mercury 
+orbital speed 
+of Mercury 
+A 
+greater 
+faster 
+B 
+greater 
+slower 
+C 
+smaller 
+faster 
+D 
+smaller 
+slower

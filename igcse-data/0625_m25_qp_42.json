@@ -1,0 +1,466 @@
+{
+  "paper": "0625/42/F/M/25",
+  "paper_full": "March 2025 · Paper 42",
+  "questions": [
+    {
+      "qnum": 1,
+      "topic": "1",
+      "title": "Spring — spring constant and the limit of proportionality",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_m25_qp_42_Q01.pdf",
+      "parts": [
+        {
+          "label": "1(a)",
+          "marks": 3,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "50 000 N / m OR 5.0  104 N / m (k =) F  x OR k is (determined from) the gradient (of the line in Fig. 1.1)"
+        },
+        {
+          "label": "1(b)",
+          "marks": 1,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "Any one from: • The graph is a straight line (through the origin) • The slope / gradient is constant • The graph / line does not curve"
+        },
+        {
+          "label": "1(c)",
+          "marks": 2,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "1300 N any negative number OR indication that force is in opposite direction"
+        },
+        {
+          "label": "1(d)",
+          "marks": 1,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "(Force is a) vector quantity. Forces have (both magnitude / size and) direction"
+        }
+      ],
+      "code": "1.5"
+    },
+    {
+      "qnum": 2,
+      "topic": "1",
+      "title": "Trolley collision — conservation of momentum",
+      "marks": 10,
+      "pdf": "igcse-slices/0625_m25_qp_42_Q02.pdf",
+      "parts": [
+        {
+          "label": "2(a)",
+          "marks": 1,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "(statement momentum is) zero / 0 AND (explanation) momentum is mass  velocity OR the velocity (of B) is zero"
+        },
+        {
+          "label": "2(b)",
+          "marks": 5,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "1.1 kg Conservation of momentum OR momentum after (collision) = momentum before (collision) OR {0.75  0.44} = {0.75 + m}  0.18 momentum before collision = 0.75 × 0.44 (+ m 0  = 0.33) OR momentum after collision = (0.75 + m)  0.18"
+        },
+        {
+          "label": "2(c)(i)",
+          "marks": 2,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "0.13 N (F =) ∆p  (∆)t OR (0.75 + 1.1)  0.18  2.6 OR (F =) 0.33  2.6 ( )  0.75 0.18 2.6 F = +  "
+        },
+        {
+          "label": "2(b)",
+          "marks": 1,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2025 © Cambridge University Press & Assessment 2025 Page 7 of 14"
+        },
+        {
+          "label": "2(c)(ii)",
+          "marks": 1,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "(time taken) Increases AND use of F(∆)t = ∆{mv} OR F 1 / (∆)t OR same momentum change required"
+        }
+      ],
+      "code": "1.6"
+    },
+    {
+      "qnum": 3,
+      "topic": "4",
+      "title": "Electric heater — radiation, earthing and electrical power",
+      "marks": 15,
+      "pdf": "igcse-slices/0625_m25_qp_42_Q03.pdf",
+      "parts": [
+        {
+          "label": "3(a)",
+          "marks": 1,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "infrared"
+        },
+        {
+          "label": "3(b)",
+          "marks": 3,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "shiny surface / it is a good reflector of radiation Any one from: • it is a good reflector • it reflects radiation"
+        },
+        {
+          "label": "3(c)",
+          "marks": 1,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "Any one from: • prevents (electric) shock (if live wire touches the metal casing) owtte • if live wire touches the metal casing the current goes to earth"
+        },
+        {
+          "label": "3(d)(i)",
+          "marks": 3,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "2.6 A R = V / I OR (I=) V/R OR (I=) 230 / 89"
+        },
+        {
+          "label": "3(d)(ii)",
+          "marks": 2,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "P = IV (I =) 5.2 (A) OR (P =) 2  power of one element OR"
+        },
+        {
+          "label": "3(d)(iii)",
+          "marks": 5,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "68 000 J OR 68 kJ E = Pt OR (E =) Pt OR (E =) 1200  60 efficiency = useful energy out / total energy (in) OR 95 100 E   (power output of heater =) 95%  1200 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2025 © Cambridge University Press & Assessment 2025 Page 8 of 14"
+        }
+      ],
+      "code": "4.2"
+    },
+    {
+      "qnum": 4,
+      "topic": "1",
+      "title": "Train — acceleration, time and force",
+      "marks": 10,
+      "pdf": "igcse-slices/0625_m25_qp_42_Q04.pdf",
+      "parts": [
+        {
+          "label": "4(a)(i)",
+          "marks": 1,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "(acceleration is) rate of change in velocity OR (acceleration is) change in velocity per unit time OR (acceleration is) change in velocity per second"
+        },
+        {
+          "label": "4(a)(ii)",
+          "marks": 2,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "200 km = 200 000 m OR  1000 seen division by {60  60} seen OR division by 3600 seen"
+        },
+        {
+          "label": "4(a)(iii)",
+          "marks": 3,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "80 s OR 79 s (t =) ∆v / a OR 56 / 0.7(0)"
+        },
+        {
+          "label": "4(b)(i)",
+          "marks": 3,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "310 000 N OR 5 3.1 1 0 N  F = ma OR ( ) 440 000 0.7 0 "
+        },
+        {
+          "label": "4(b)(ii)",
+          "marks": 1,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "(statement:) reduces acceleration OR lower (maximum) velocity AND (explanation:) resultant/net force decreases"
+        }
+      ],
+      "code": "1.2"
+    },
+    {
+      "qnum": 5,
+      "topic": "4",
+      "title": "Light-dependent resistor — resistance and a light circuit",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_m25_qp_42_Q05.pdf",
+      "parts": [
+        {
+          "label": "5(a)",
+          "marks": 2,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "y-axis labelled resistance AND x-axis labelled light intensity Straight line / smooth curve with negative gradient"
+        },
+        {
+          "label": "5(b)(i)",
+          "marks": 1,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "Correct symbol drawn to complete circuit. 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2025 © Cambridge University Press & Assessment 2025 Page 9 of 14"
+        },
+        {
+          "label": "5(b)(ii)",
+          "marks": 4,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "in the dark, VLDR is a bigger proportion of e.m.f OR when RLDR is high VLDR is a bigger proportion of e.m.f. OR when VLDR is high VLDR is a bigger proportion of e.m.f. In the dark, VLDR is high OR when RLDR high, VLDR is high Any one from: • emf shared (between fixed resistor and LDR) OR emf is constant • VLDR = VLAMP OR p.d. is the same across components in parallel"
+        }
+      ],
+      "code": "4.3"
+    },
+    {
+      "qnum": 6,
+      "topic": "3",
+      "title": "Converging lens — ray diagram and image characteristics",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_m25_qp_42_Q06.pdf",
+      "parts": [
+        {
+          "label": "6(a)(i)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "Horizontal axis labelled P"
+        },
+        {
+          "label": "6(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "X on horizontal axis 3.0 cm to the left of centre of L OR X on horizontal axis 3.0 cm to the right of centre of L"
+        },
+        {
+          "label": "6(a)(iii)",
+          "marks": 2,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "Any two from: • Straight line from a point on O, passing through centre of L (and beyond) • Horizontal line from same point on O to L, refracted through F (on RH side of L) • Straight line from same point on O through F (on LH side of L) to L, refracted parallel to principal axis both rays extended until they intersect 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2025 © Cambridge University Press & Assessment 2025 Page 10 of 14"
+        },
+        {
+          "label": "6(a)(iv)",
+          "marks": 3,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "diminished enlarged inverted real same size upright virtual"
+        },
+        {
+          "label": "6(b)",
+          "marks": 2,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "(image is now) virtual (image is now) upright"
+        }
+      ],
+      "code": "3.2"
+    },
+    {
+      "qnum": 7,
+      "topic": "3",
+      "title": "Diffraction and wave speed",
+      "marks": 12,
+      "pdf": "igcse-slices/0625_m25_qp_42_Q07.pdf",
+      "parts": [
+        {
+          "label": "7(a)(i)",
+          "marks": 1,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "diffraction"
+        },
+        {
+          "label": "7(a)(ii)",
+          "marks": 3,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "4.8  10–7 m OR 480 nm One wavelength marked on Fig. 6.1 OR 1.2 seen"
+        },
+        {
+          "label": "7(a)(iii)",
+          "marks": 3,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "at least two curved wavefronts three semi-circular wavefronts centred on (centre of) gap wavelength is unchanged 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2025 © Cambridge University Press & Assessment 2025 Page 11 of 14"
+        },
+        {
+          "label": "7(b)(i)",
+          "marks": 2,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "v = f ( =) 330 / 380 OR ( =) 0.87 (m)"
+        },
+        {
+          "label": "7(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "7.6 s v = s / t OR (t = ) s / v OR (t =) 2500 / 330"
+        }
+      ],
+      "code": "3.1"
+    },
+    {
+      "qnum": 8,
+      "topic": "4",
+      "title": "Motor effect and the electric motor",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_m25_qp_42_Q08.pdf",
+      "parts": [
+        {
+          "label": "8(a)",
+          "marks": 3,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "(direction of force) down(wards) magnetic field direction, current direction and force are mutually perpendicular magnetic field is from N to S / left to right AND current flows from positive to negative / anticlockwise / into paper"
+        },
+        {
+          "label": "8(b)",
+          "marks": 1,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "(direction of force) reverses / changes by 180° 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2025 © Cambridge University Press & Assessment 2025 Page 12 of 14"
+        },
+        {
+          "label": "8(c)",
+          "marks": 4,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "(J carbon brushes) Any one from: • connect cell / circuit to coil / wire / split ring(s) / commutator • maintains (continuous) connection • prevent wires from tangling (as motor rotates) (K coil) Any one from: • rotates / turns • conducts / has a current in it (L axle) Any one from: • allows the coil to rotate / turn • allows motor to turn / spin (M split ring commutator) Any one from: • keeps motor turning in the same direction owtte • reverses the connections to the coil (every half-turn) owtte • prevents wires from tangling (as the motor rotates)"
+        }
+      ],
+      "code": "4.5"
+    },
+    {
+      "qnum": 9,
+      "topic": "5",
+      "title": "Strontium-90 — isotopes, beta decay and half-life",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_m25_qp_42_Q09.pdf",
+      "parts": [
+        {
+          "label": "9(a)(i)",
+          "marks": 1,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "(isotopes are) forms of an element with the same number of protons but a different number of neutrons (in the nucleus) OR (isotopes are) the same element with a different number of neutrons 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2025 © Cambridge University Press & Assessment 2025 Page 13 of 14"
+        },
+        {
+          "label": "9(a)(ii)",
+          "marks": 2,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "particle number in each atom of strontium location electron 38 outside nucleus neutron proton 38 Inside nucleus particle number in each atom of strontium location 38 outside nucleus neutron 52 Inside nucleus 38 Inside nucleus"
+        },
+        {
+          "label": "9(b)(i)",
+          "marks": 3,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "(there is a) different count rate with different thicknesses of metal OR number of -particles detected varies with thickness (beta () particles) can penetrate thin / 0.75mm metal OR (beta () particles) are stopped by thick metal"
+        },
+        {
+          "label": "9(b)(ii)",
+          "marks": 2,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "(approximate) percentage of source remaining (after 15 years) stated AND in range 63–70% (approximate) percentage of sample lost (after 15 years) stated AND in range 30–37% Any one from: • count rate / activity (too) low (to detect differences in thickness) owtte • detector needs high activity (to detect differences in thickness) owtte • count rate / activity too close to background owtte • less difference in activity for different thicknesses owtte 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2025 © Cambridge University Press & Assessment 2025 Page 14 of 14"
+        }
+      ],
+      "code": "5.2"
+    },
+    {
+      "qnum": 10,
+      "topic": "6",
+      "title": "Earth's orbit — days, seasons and orbital speed",
+      "marks": 10,
+      "pdf": "igcse-slices/0625_m25_qp_42_Q10.pdf",
+      "parts": [
+        {
+          "label": "10(a)",
+          "marks": 2,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "(number of days =) 91 (statement F to G) is ¼ of (a complete) orbit OR a whole year is 365 days"
+        },
+        {
+          "label": "10(b)(i)",
+          "marks": 1,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "F"
+        },
+        {
+          "label": "10(b)(ii)",
+          "marks": 1,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "H"
+        },
+        {
+          "label": "10(c)",
+          "marks": 5,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "1.5  1011 m v = 2r/T OR (r =) vT/(2) OR ( ) 4 3.0 1 0 365 24 60 60 / 2 r  =      (T =) 365  24  60  60 OR (T =) 31 536 000 OR (r =) 3.0  104  T / (2) OR correct rearrangement of and substitution into formula using candidate’s value of T"
+        },
+        {
+          "label": "10(d)",
+          "marks": 1,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "Any one from: • minor planets • asteroids OR meteoroids • moons (that orbit planets) • comets • natural satellites"
+        }
+      ],
+      "code": "6.1"
+    }
+  ]
+}

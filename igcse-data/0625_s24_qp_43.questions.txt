@@ -1,0 +1,524 @@
+===== Q1 =====
+2
+0625/43/M/J/24
+© UCLES 2024
+1 
+A ball of mass 130 g is launched from the ground at an initial velocity of 14 m / s vertically upwards. 
+It decelerates until it is at rest momentarily at a height h above the ground.
+ 
+(a) Define deceleration.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+(b) The acceleration of free fall is 9.8 m / s2.
+ 
+ 
+Show that the time taken for the ball to reach height h is 1.4 s. Ignore the effect of air resistance.
+ 
+[1]
+ 
+(c) Calculate h. Ignore the effect of air resistance.
+ 
+h =  ......................................................... [3]
+ 
+(d) The ball is dropped from the top of a tall building.
+ 
+ 
+Describe and explain the motion of the ball as it falls. Consider the effect of air resistance in 
+your answer.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+ 
+[Total: 9]
+
+===== Q2 =====
+3
+0625/43/M/J/24
+© UCLES 2024
+[Turn over
+2 
+Fig. 2.1 shows solar-powered traffic warning lights.
+solar cell
+lights
+Fig. 2.1
+ 
+The energy from the solar cell is stored in a battery.
+ 
+(a) Name the energy store in the battery.
+ ............................................................................................................................................. [1]
+ 
+(b) The two lights in Fig. 2.1 are connected in parallel.
+ 
+ 
+State one advantage of a parallel connection in a lighting circuit.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+(c) The efficiency of the solar cell is 22%. The power supplied to the lights by the cell is 15 W.
+ 
+ 
+(i) State what is meant by 22% efficiency.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Calculate the solar power input to the solar cell.
+ 
+power =  ......................................................... [2]
+ 
+(d) Suggest two advantages of using a solar cell to power the traffic warning lights in Fig. 2.1 
+compared to using mains electricity.
+1  ................................................................................................................................................
+2  ................................................................................................................................................
+ 
+[2]
+ 
+[Total: 7]
+
+===== Q3 =====
+4
+0625/43/M/J/24
+© UCLES 2024
+3 
+Fig. 3.1 shows two children balanced on a seesaw. A seesaw is a length of wood which rotates 
+about a central pivot.
+450 N
+900 N
+child B
+child A
+pivot (fulcrum)
+1.60 m
+0.80 m
+Fig. 3.1
+ 
+(a) Child B moves 0.050 m further away from the pivot.
+ 
+ 
+(i) Explain why the seesaw rotates clockwise.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Child A puts on a backpack and the seesaw now balances.
+ 
+ 
+ Calculate the mass of the backpack.
+ 
+mass =  .................................................... kg [3]
+5
+0625/43/M/J/24
+© UCLES 2024
+[Turn over
+ 
+(b) The concrete floor under the seesaw is replaced with a rubber floor. A child falls from the 
+seesaw and experiences an impulse when they hit the floor.
+ 
+ 
+(i) Define impulse.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Explain how the rubber floor reduces injury to the child.
+ 
+ 
+ Use ideas about impulse, force, momentum and time in your answer.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [3]
+ 
+[Total: 8]
+
+===== Q4 =====
+6
+0625/43/M/J/24
+© UCLES 2024
+4 
+Fig. 4.1 shows a stainless-steel saucepan being heated on an electric cooker. The saucepan 
+contains water.
+Fig. 4.1
+ 
+(a) State what happens to the water particles as the water temperature increases.
+ ............................................................................................................................................. [1]
+ 
+(b) The saucepan contains 250 cm3 of water. The specific heat capacity of water is 4200 J / (kg °C). 
+The density of water is 1000 kg / m3.
+ 
+ 
+(i) Show that the mass of the water in the saucepan is 0.25 kg.
+ 
+ [2]
+ 
+ 
+(ii) Calculate the energy required to increase the water temperature from 20 °C to 65 °C.
+ 
+energy =  ......................................................... [3]
+7
+0625/43/M/J/24
+© UCLES 2024
+[Turn over
+ 
+ 
+(iii) The heater supplies enough power to heat the water in 39 s.
+ 
+ 
+ A student measures the time taken to heat the water as 115 s.
+ 
+ 
+ Suggest why the actual time taken to heat the water is longer. Assume that the student 
+takes accurate measurements.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+(c) The stainless-steel saucepan is replaced with an aluminium saucepan of the same mass. 
+It contains the same volume of water.
+ 
+ 
+The specific heat capacity of stainless steel is 500 J / (kg °C).
+ 
+ 
+The specific heat capacity of aluminium is 890 J / (kg °C).
+ 
+ 
+Explain how using an aluminium saucepan will affect the time taken to heat the water.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+[Total: 9]
+
+===== Q5 =====
+8
+0625/43/M/J/24
+© UCLES 2024
+5 
+Fig. 5.1 shows two containers, each filled with hot water.
+metal
+water
+non-metal
+water
+Fig. 5.1
+ 
+The outer surface of the metal container is hot.
+ 
+(a) Explain how electrons transfer thermal energy through the metal of the container.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+ 
+(b) The outer surface of the non-metal container is much cooler than the outer surface of the 
+metal container.
+ 
+ 
+Explain why a non-metal conducts thermal energy less well than a metal.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+(c) Explain, in terms of particles, why gases are poor thermal conductors compared to 
+non-metal solids.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+[Total: 6]
+
+===== Q6 =====
+9
+0625/43/M/J/24
+© UCLES 2024
+[Turn over
+6 
+Fig. 6.1 shows a thin converging lens used to produce a magnified image of an object AB.
+F1 A
+B
+F2
+principal axis
+Fig. 6.1
+ 
+(a) Explain the meaning of the terms principal focus and focal length.
+principal focus  ...........................................................................................................................
+ ...................................................................................................................................................
+focal length  ...............................................................................................................................
+ ...................................................................................................................................................
+ 
+[2]
+ 
+(b) On Fig. 6.1, draw the magnified image of AB. Show your working. 
+[4]
+ 
+[Total: 6]
+
+===== Q7 =====
+10
+0625/43/M/J/24
+© UCLES 2024
+7 
+Fig. 7.1 shows two charged metal plates. X marks the position of the centre of the space between 
+the plates.
++
++
++
++
++
+X
++
++
++
++
+–
+–
+–
+–
+–
+–
+–
+–
+–
+positively charged
+plate
+negatively charged
+plate
+Fig. 7.1
+ 
+(a) (i) On Fig. 7.1, draw at least four field lines to show the pattern and the direction of the 
+electric field between the two charged plates. 
+[2]
+ 
+ 
+(ii) Describe the effect on a negatively charged particle placed at X.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+(b) During a thunderstorm, an electric field is set up between a cloud and the ground. Charges on 
+the cloud and on the ground are shown in Fig. 7.2.
+_
+_ _ _
+_
++
++
++
++
++
++
+path of
+lightning
+cloud
+ground
+Fig. 7.2
+ 
+ 
+The lightning shown in Fig. 7.2 discharges a current of 28 000 A for 0.0012 s.
+ 
+ 
+(i) Calculate the charge that flows from the cloud to the ground.
+ 
+charge =  ......................................................... [2]
+11
+0625/43/M/J/24
+© UCLES 2024
+[Turn over
+ 
+ 
+(ii) The lightning transfers 1.2 × 108 J of energy.
+ 
+ 
+ Calculate the potential difference between the base of the cloud and the ground.
+ 
+potential difference =  ......................................................... [2]
+ 
+[Total: 7]
+
+===== Q8 =====
+12
+0625/43/M/J/24
+© UCLES 2024
+8 
+Fig. 8.1 shows images produced during two different medical scanning procedures.
+ultrasound scan of a fetus
+X-ray scan of a hand
+Fig. 8.1
+ 
+(a) (i) Define ultrasound.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) State how the speed of sound in liquid compares to the speed of sound in air.
+ ..................................................................................................................................... [1]
+ 
+ 
+(iii) X-rays are part of the electromagnetic spectrum.
+ 
+ 
+ State the speed of X-rays in a vacuum.
+ ..................................................................................................................................... [1]
+ 
+(b) Describe three similarities or differences between the use of ultrasound and X-rays in medical 
+scanning procedures.
+1  ................................................................................................................................................
+ ...................................................................................................................................................
+2  ................................................................................................................................................
+ ...................................................................................................................................................
+3  ................................................................................................................................................
+ ...................................................................................................................................................
+ 
+[3]
+ 
+[Total: 6]
+
+===== Q9 =====
+13
+0625/43/ M/J/24
+© UCLES 2024
+[Turn over
+9 
+Fig. 9.1 shows a mobile phone (cell phone) being charged on a wireless charging plate.
+primary coil in
+charging plate
+secondary coil in
+mobile phone
+Fig. 9.1
+ 
+(a) When the charging plate is switched on, there is an alternating current (a.c.) in the primary coil. 
+A secondary coil is in the mobile phone.
+ 
+ 
+Explain how a current is produced in the secondary coil.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+ 
+(b) The maximum energy stored in the battery of the mobile phone is 0.012 kW h.
+ 
+ 
+(i) Show that this maximum energy is 4.3 × 104 J.
+ 
+[1]
+ 
+ 
+(ii) The charging plate in Fig. 9.1 has a useful output power of 15 W.
+ 
+ 
+ The phone manufacturer claims that the battery can be charged to 50% capacity in less 
+than 30 minutes.
+ 
+ 
+ Show that this claim is true.
+ 
+[3]
+ 
+[Total: 7]
+
+===== Q10 =====
+14
+0625/43/M/J/24
+© UCLES 2024
+10 Leaks in underground water pipes are detected using radioactive tracers. Fig. 10.1 shows a 
+radiation detector above a water pipe.
+382
+counter
+detector
+leak
+pipe
+ground
+Fig. 10.1
+ 
+(a) Before the radioactive tracer is added to the water, the detector measures the background 
+radiation above the pipe. The average background radiation is 26 counts / minute.
+ 
+ 
+(i) Define background radiation.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Suggest one source of radiation that may make a significant contribution to the 
+background count rate.
+ ..................................................................................................................................... [1]
+ 
+ 
+(iii) A radioactive tracer is added to the water. The counter in Fig. 10.1 shows the count rate 
+in counts / minute above the leak in the water pipe.
+ 
+ 
+ Determine the count rate due to the tracer.
+ 
+count rate =  ......................................................... [2]
+15
+0625/43/M/J/24
+© UCLES 2024
+[Turn over
+ 
+(b) Suggest which radioactive emission, alpha, beta or gamma, is suitable for detecting the leak 
+in the water pipe.
+ 
+ 
+Explain your answer.
+emission  ...................................................................................................................................
+explanation  ...............................................................................................................................
+ ...................................................................................................................................................
+ 
+[3]
+ 
+(c) (i) Explain why the radioactive isotope must not have a very short half-life.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Explain why the radioactive isotope must not have a very long half-life.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+[Total: 9]
+
+===== Q11 =====
+16
+0625/43/M/J/24
+© UCLES 2024
+11 A galaxy is approximately 1.2 × 1026 m from the Earth.
+ 
+(a) Scientists observe light from the distant galaxy.
+ 
+ 
+The wavelength of the observed light is longer than the wavelength of the light emitted from 
+the galaxy.
+ 
+ 
+State the name of this effect.
+ ............................................................................................................................................. [1]
+ 
+(b) (i) State the current estimate for the Hubble constant H0.
+ 
+H0 =  ......................................................... [1]
+ 
+ 
+(ii) Calculate the speed at which the galaxy is moving away from the Earth.
+ 
+speed =  ......................................................... [2]
+ 
+ 
+(iii) Scientists have measured the speeds at which distant galaxies are moving away from 
+the Earth and their distances from the Earth.
+ 
+ 
+ These measurements suggest that all the Universe was once at a single point.
+ 
+ 
+ Explain why.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+[Total: 6]
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every 
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the 
+publisher will be pleased to make amends at the earliest possible opportunity.
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+Cambridge Assessment International Education is part of Cambridge Assessment. Cambridge Assessment is the brand name of the University of Cambridge 
+Local Examinations Syndicate (UCLES), which is a department of the University of Cambridge.

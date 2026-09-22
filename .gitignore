@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# backup / scratch
+main.html.bak2
+main.html.bak
+
+# raw source past papers (large; kept locally only)
+igcse-2024/
+igcse-2025/
+igcse-2026/

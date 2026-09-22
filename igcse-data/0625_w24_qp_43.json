@@ -1,0 +1,442 @@
+{
+  "paper": "0625/43/O/N/24",
+  "paper_full": "November 2024 · Paper 43",
+  "questions": [
+    {
+      "qnum": 1,
+      "topic": "1",
+      "title": "Crash test — momentum, force and speed–time graph",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_w24_qp_43_Q01.pdf",
+      "parts": [
+        {
+          "label": "1(a)(i)",
+          "marks": 1,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "(scalar) does not have direction or vector has direction"
+        },
+        {
+          "label": "1(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "(momentum =) mass  velocity"
+        },
+        {
+          "label": "1(b)(i)",
+          "marks": 5,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "43 m / s Ft = (mv) OR F = (mv) / t OR F = ma OR a = ∆v / ∆t (u=) Ft / m OR (u =) (27 000  1.5) / 950"
+        },
+        {
+          "label": "1(b)(ii)",
+          "marks": 2,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "straight horizontal line from y axis extending to t = 4.0 s straight line from t = 4.0 s with negative gradient meeting the x axis (less than half-way between 4.0 and the end of the time axis) 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2024 © Cambridge University Press & Assessment 2024 Page 11 of 18"
+        }
+      ],
+      "code": "1.6"
+    },
+    {
+      "qnum": 2,
+      "topic": "1",
+      "title": "Determining the spring constant",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_w24_qp_43_Q02.pdf",
+      "parts": [
+        {
+          "label": "2(a)",
+          "marks": 4,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "hang mass / weight on the bottom of the spring use a ruler / metre rule AND measure / calculate extension use of k = F / x to calculate the spring constant OR k is the gradient of load-extension graph any one of: • repeat measurements using different masses / weights and plot a load against extension graph • measure final length and initial length of spring and subtract to obtain (magnitude of) extension / change in length • use a pointer on the bottom of spring to obtain more accurate measurements on ruler"
+        },
+        {
+          "label": "2(b)(i)",
+          "marks": 1,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "maximum load that can be applied when the extension is proportional to load OR the maximum force up to which the extension is proportional to the load"
+        },
+        {
+          "label": "2(b)(ii)",
+          "marks": 1,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "(extension of spring Q =) 15 cm or 0.15 m AND (extension of spring R =) 110 cm or 1.1 m"
+        },
+        {
+          "label": "2(b)(iii)",
+          "marks": 1,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "Q AND extension produced by Q is the right length to allow baby to just reach the floor with feet OR Q AND extension produced by R is too big (for gentle bounces in the space provided) OR R would make the baby collapse on floor (so unsafe) OR bouncer would have to be hung higher if R was used 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2024 © Cambridge University Press & Assessment 2024 Page 12 of 18"
+        }
+      ],
+      "code": "1.5"
+    },
+    {
+      "qnum": 3,
+      "topic": "2",
+      "title": "Portable shower — infrared radiation, black surfaces and specific heat",
+      "marks": 11,
+      "pdf": "igcse-slices/0625_w24_qp_43_Q03.pdf",
+      "parts": [
+        {
+          "label": "3(a)(i)",
+          "marks": 1,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "good/better absorber (of radiation) OR bad / poor / worse reflector (of radiation)"
+        },
+        {
+          "label": "3(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "doesn’t work at night / in cloud cover / when there is no sun OR (sun has) variable output"
+        },
+        {
+          "label": "3(b)",
+          "marks": 2,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "any two from: • hydroelectric • tidal • wave • wind • geothermal • biofuels"
+        },
+        {
+          "label": "3(c)",
+          "marks": 7,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "9.2  106 J OR 9 200 000 J (temperature rise =) 33 (°C) OR 43 – 10 c = ∆E / m∆ OR (E =) m  c   OR (E =) 40  4200  (43 – 10) OR 5.5  106 (J) 5.5  106  (100 / 60) OR 5.5  106  1.667 OR 5.5  106 / 0.6 OR useful energy output efficiency = 100% total energy input  0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2024 © Cambridge University Press & Assessment 2024 Page 13 of 18"
+        }
+      ],
+      "code": "2.3"
+    },
+    {
+      "qnum": 4,
+      "topic": "3",
+      "title": "Refraction into a plastic block",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_w24_qp_43_Q04.pdf",
+      "parts": [
+        {
+          "label": "4(a)(i)",
+          "marks": 2,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "any two correct = 1 mark all three correct = 2 marks • speed decreases / gets less / slower • wavelength decreases / gets smaller / shorter • frequency unchanged / stays the same / no effect"
+        },
+        {
+          "label": "4(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "(n =) sin 45 / sin 30"
+        },
+        {
+          "label": "4(a)(iii)",
+          "marks": 2,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "46° OR 45° n = 1 / sin c OR (c =) sin–1 (1 / n) OR (c =) sin–1 (1 / 1.4) OR sin c = 1 / n"
+        },
+        {
+          "label": "4(b)(i)",
+          "marks": 2,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "total internal reflection AND i = r for initial reflection ray reaches end of fibre after a total of 2 or 3 reflections only"
+        },
+        {
+          "label": "4(b)(ii)",
+          "marks": 2,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "any two from: • internet transmission / (highspeed) broadband • telephone networks • cable TV • endoscope • lasers in surgery • microscopy • military aircraft wiring • imaging (cameras) in industry • inspection of pipes or other hard to reach places OR telecommunications 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2024 © Cambridge University Press & Assessment 2024 Page 14 of 18"
+        }
+      ],
+      "code": "3.2"
+    },
+    {
+      "qnum": 5,
+      "topic": "4",
+      "title": "Charged metal sphere — electric field",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_w24_qp_43_Q05.pdf",
+      "parts": [
+        {
+          "label": "5(a)(i)",
+          "marks": 3,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "four evenly spaced radial lines touching S AND no lines inside S at least one arrow pointing towards S and none incorrect 5 (a)(ii) to the left OR away from the sphere / S"
+        },
+        {
+          "label": "5(a)(iii)",
+          "marks": 2,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "accelerates (due to a resultant force) (moves) away from the (centre of the) sphere"
+        },
+        {
+          "label": "5(b)(i)",
+          "marks": 1,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "like charges repel"
+        },
+        {
+          "label": "5(b)(ii)",
+          "marks": 2,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "advantage: more even coat or less chance of paint particles clumping together or less chance of creating thicker patches explain: positive / paint particles are attracted (by the same amount) to all parts of the negative sphere so they spread out or paint creates a fine mist so spreads out (over the surface) OR advantage: more durable or better adhesion or cheaper or high transfer efficiency or less paint wasted or fewer drips or less paint sag or less overspray on floor / walls explain: the positive/paint is attracted to the negative sphere / charges and forms a strong(er) bond OR advantage: quicker to paint explain: all surface is painted at the same time without having to turn the sphere / go around the other side owtte 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2024 © Cambridge University Press & Assessment 2024 Page 15 of 18"
+        }
+      ],
+      "code": "4.2"
+    },
+    {
+      "qnum": 6,
+      "topic": "4",
+      "title": "Windscreen heater — circuits, current and energy",
+      "marks": 16,
+      "pdf": "igcse-slices/0625_w24_qp_43_Q06.pdf",
+      "parts": [
+        {
+          "label": "6(a)(i)",
+          "marks": 2,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "any two from: • if one resistor fails / breaks the others will still work • each resistor gets the full voltage / 12 V or lower (total) resistance or higher current • higher power"
+        },
+        {
+          "label": "6(a)(ii)",
+          "marks": 2,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "any two from: • evaporation / water evaporates • energy (from heater) transfers to particles OR particles gain energy (from the heater) • more energetic particles escape (from water / droplet) • particles leave from the surface (of the water / droplet)"
+        },
+        {
+          "label": "6(b)(i)",
+          "marks": 3,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "0.17 A R = V / I OR (I =) V / R OR (I =) 12 / 70"
+        },
+        {
+          "label": "6(b)(ii)",
+          "marks": 5,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "610 J OR 620 J E = I  V  t OR (E =) V  I  t OR (E =) 12  0.17  300 300 (s) OR 5  60"
+        },
+        {
+          "label": "6(b)(iii)",
+          "marks": 1,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "chemical"
+        },
+        {
+          "label": "6(b)(iv)",
+          "marks": 3,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "39  1 / RT = 1 / R1 + 1 / R2 OR 1 / RT = 1 / 90 + 1 / 70 OR (RT =) 1 / (1 / R1 + 1 / R2) OR (RT =) 1 / (1 / 90 + 1 / 70) 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2024 © Cambridge University Press & Assessment 2024 Page 16 of 18"
+        }
+      ],
+      "code": "4.3"
+    },
+    {
+      "qnum": 7,
+      "topic": "1",
+      "title": "Car park barrier — moment and centre of gravity",
+      "marks": 13,
+      "pdf": "igcse-slices/0625_w24_qp_43_Q07.pdf",
+      "parts": [
+        {
+          "label": "7(a)(i)",
+          "marks": 1,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "100 (Nm)"
+        },
+        {
+          "label": "7(a)(ii)",
+          "marks": 5,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "0.44 m OR 0.45 m total clockwise moment = total anticlockwise moment (d =) 100 / 225 OR (d =) 100 / (23  9.8) OR 100 / (23  g  d)"
+        },
+        {
+          "label": "7(b)(i)",
+          "marks": 3,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "(barrier arm) rotates anticlockwise OR (RHS of barrier arm) moves upwards (when the switch is closed) coil produces a magnetic field OR coil / core becomes an (electro)magnet (coil/core/electromagnet) attracts (iron) bar (downwards)"
+        },
+        {
+          "label": "7(b)(ii)",
+          "marks": 2,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "statement: (barrier arm) moves slower / goes up (more) slowly explanation: decreases strength of (magnetic) field / smaller force / smaller moment"
+        },
+        {
+          "label": "7(b)(iii)",
+          "marks": 2,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "steel would become permanently magnetised (so when switch is opened) barrier would stay up or bar A will stay attracted (to soft iron core) 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2024 © Cambridge University Press & Assessment 2024 Page 17 of 18"
+        }
+      ],
+      "code": "1.5"
+    },
+    {
+      "qnum": 8,
+      "topic": "5",
+      "title": "Boron fission — nuclide equation and cancer treatment",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_w24_qp_43_Q08.pdf",
+      "parts": [
+        {
+          "label": "8(a)(i)",
+          "marks": 1,
+          "codes": [
+            "5.1"
+          ],
+          "answer": "fission is splitting of nuclei OR fusion is the joining of nuclei"
+        },
+        {
+          "label": "8(a)(ii)",
+          "marks": 3,
+          "codes": [
+            "5.1"
+          ],
+          "answer": "𝐵+ 𝑛 0 1 5 10 → 𝐿𝑖 3 7 + 𝛼 2 4 B: proton number 5 and nucleon number 10 Li: proton number 3 and nucleon number 7 : proton number 2 and nucleon number 4"
+        },
+        {
+          "label": "8(b)",
+          "marks": 2,
+          "codes": [
+            "5.1"
+          ],
+          "answer": "alpha is less penetrating / has shorter range (than gamma) alpha more easily absorbed / stopped by cancer / tumour cells or won’t travel beyond cancer cells or so won’t damage other / healthy cells OR alpha highly ionising (than gamma) will destroy / damage cancer cells more easily"
+        },
+        {
+          "label": "8(c)",
+          "marks": 1,
+          "codes": [
+            "5.1"
+          ],
+          "answer": "any one from: • reduce exposure time • increase distance between source and living tissue or stand in another room whilst radiation is emitted • use shielding or wear a lead apron or stand behind a glass partition / lead barrier 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2024 © Cambridge University Press & Assessment 2024 Page 18 of 18"
+        }
+      ],
+      "code": "5.1"
+    },
+    {
+      "qnum": 9,
+      "topic": "6",
+      "title": "Transverse waves and redshift from galaxies",
+      "marks": 5,
+      "pdf": "igcse-slices/0625_w24_qp_43_Q09.pdf",
+      "parts": [
+        {
+          "label": "9(a)",
+          "marks": 1,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "Q and V"
+        },
+        {
+          "label": "9(b)",
+          "marks": 2,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "red shift (galaxy) moving away / receding (from Earth/us)"
+        },
+        {
+          "label": "9(c)",
+          "marks": 2,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "galaxies further away (are receding) with higher speed OR galaxies further away have greater redshift Universe is expanding"
+        }
+      ],
+      "code": "6.2"
+    },
+    {
+      "qnum": 10,
+      "topic": "6",
+      "title": "Black holes and light-years",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_w24_qp_43_Q10.pdf",
+      "parts": [
+        {
+          "label": "10(a)",
+          "marks": 3,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "any two from: • (most of the) hydrogen has been converted to helium or hydrogen begins to run out • (star expands and) forms a red supergiant • (red supergiant) explodes as a supernova (forming a nebula) core (of red supergiant collapses and) forms black hole OR a black hole forms at the centre (of the supernova/nebula)"
+        },
+        {
+          "label": "10(b)(i)",
+          "marks": 1,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "the distance travelled (in the vacuum of space) by light in one year"
+        },
+        {
+          "label": "10(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "7.4  1016 km 9.5  1015 (m) or 9.5  1012 (km)"
+        }
+      ],
+      "code": "6.2"
+    }
+  ]
+}

@@ -1,0 +1,534 @@
+===== Q1 =====
+3
+0625/41/O/N/25
+© UCLES 2025
+[Turn over
+1 
+A train travels with a constant velocity of 56 m / s on a horizontal track. The mass of the train 
+is 440 000 kg.
+ 
+(a) State the difference between the velocity of the train and its speed.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+(b) Calculate the kinetic energy stored in the moving train.
+ 
+kinetic energy =  ......................................................... [2]
+ 
+(c) (i) The train has a uniform deceleration of 1.2 m / s2. 
+ 
+ 
+ Calculate the constant braking force which brings the train to rest.
+ 
+force =  ......................................................... [2]
+ 
+ 
+(ii) Calculate the distance travelled by the train as it comes to rest.
+ 
+distance =  ......................................................... [3]
+ 
+[Total: 8]
+* 0000800000003 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊÝü¸þ×
+ĬåĔúÚĤĉĂÙĊô÷´ĝ³áęĂ
+ĥÅµĕõõąÕÅĥÕÅÅĕåµÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q2 =====
+4
+0625/41/O/N/25
+© UCLES 2025
+2 
+Table 2.1 contains information about the planet Mars.
+Table 2.1
+mass
+6.4 × 1023 kg
+gravitational field strength 
+at surface
+3.7 N / kg
+average density
+3900 kg / m3
+ 
+(a) Define gravitational field strength.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+(b) (i) An object has a weight of 42 N at the surface of the Earth. 
+ 
+ 
+ Calculate the weight of the object at the surface of Mars.
+ 
+weight =  ......................................................... [2]
+ 
+ 
+(ii) Calculate the volume of Mars.
+ 
+volume =  ......................................................... [2]
+* 0000800000004 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊßú¸Ā×
+ĬåĔûÚĪûćÞĈûðĒÁđ±ġĂ
+ĥõĥĕµõąõåÅåÅąĕąµÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+5
+0625/41/ O/N/25
+© UCLES 2025
+[Turn over
+ 
+(c) Fig. 2.1 shows a space buggy that is tested on Earth. The buggy is travelling at a constant 
+speed in a straight line. The driving force on the buggy is 30 N.
+30N
+Fig. 2.1
+ 
+ 
+(i) Draw and label one arrow on Fig. 2.1 to show the size and direction of the resistive 
+forces on the buggy. 
+[2]
+ 
+ 
+(ii) Air resistance on Mars is less than air resistance on Earth.
+ 
+ 
+ The same driving force, 30 N, is exerted on the buggy on Mars.
+ 
+ 
+ 1. State the effect this has on the resultant force on the buggy on Mars. 
+ ...........................................................................................................................................
+ 
+ 
+ 2. State the relationship between resistive forces, driving force and resultant force.
+ ...........................................................................................................................................
+ 
+[1]
+ 
+[Total: 8]
+* 0000800000005 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊßü¸Ā×
+ĬåēüÒĠ÷÷ÛòĆ¹Æ¹Å±đĂ
+ĥõĕÕõĕĥĕµµõÅąõĥõÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q3 =====
+6
+0625/41/O/N/25
+© UCLES 2025
+3 
+Fig. 3.1 shows a simplified diagram of a solar cell.
+conducting material
+in solar cell
+light
+black coating
+positive contact
+negative contact
+V
+Fig. 3.1
+ 
+(a) Describe the energy transfer in the solar cell.
+ ............................................................................................................................................. [2]
+ 
+(b) Suggest how the black coating allows the solar cell to transfer more energy.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+(c) 0.72 kW of light is incident on the solar cell in Fig. 3.1. The cell has an efficiency of 75%.
+ 
+ 
+(i) Calculate the output power of the cell.
+ 
+output power =  ......................................................... [2]
+ 
+ 
+(ii) State the meaning of the term kilowatt-hour (kWh).
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+* 0000800000006 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊÞüµþ×
+ĬåĔüÍĦďíÓõ÷ÄæÁèęġĂ
+ĥåµÕõµĥµõÕÕÅÅõÅµąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+7
+0625/41/O/N/25
+© UCLES 2025
+[Turn over
+ 
+ 
+(iii) Energy is produced by each solar cell for an average of 6 hours per day. A household 
+uses approximately 7400 kWh of electrical energy per year.
+ 
+ 
+ Calculate the number of solar cells needed to produce energy for one household. Give 
+your answer as a whole number of solar cells.
+ 
+number of solar cells =  ......................................................... [3]
+ 
+[Total: 9]
+* 0000800000007 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊÞúµþ×
+ĬåēûÕĤēýæăĊąò¹ôęđĂ
+ĥåÅĕµÕąÕĥåąÅÅĕåõĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q4 =====
+8
+0625/41/O/N/25
+© UCLES 2025
+4 
+(a) A 12 V, 50 W immersion heater is used to heat 0.15 kg of water in a beaker. The water is 
+initially at a room temperature of 20 °C. The specific heat capacity of water is 4200 J / (kg °C).
+ 
+ 
+Calculate the energy supplied to raise the temperature of the water from 20 °C to 58 °C.
+ 
+energy =  ......................................................... [3]
+ 
+(b) The immersion heater is removed from the beaker.
+ 
+ 
+One metal rod and one plastic rod are placed in the beaker of hot water as shown in Fig. 4.1. 
+The rods are at room temperature (20 °C) before they are placed into the beaker.
+X
+X
+metal rod
+beaker
+plastic rod
+point X is
+2 cm from
+the end of
+the rod
+hot water
+Fig. 4.1
+ 
+ 
+Describe how the temperature of point X on each rod changes after the rods are placed in the 
+beaker. Explain your answer.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [4]
+ 
+[Total: 7]
+* 0000800000008 *
+,		,
+ĬÑĊ®Ġ´íÈõÏĪÅĊàüµĀ×
+ĬåēúÕĪġČÑýāþÔĕÒĉĩĂ
+ĥĕĕĕõÕąõąąõÅąĕąõąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q5 =====
+9
+0625/41/O/N/25
+© UCLES 2025
+[Turn over
+5 
+A dolphin communicates with other dolphins underwater by emitting sounds in the range 7–15 kHz. 
+ 
+(a) State the value of the speed of sound in air and state how the speed of sound in water differs 
+from the speed of sound in air.
+ 
+speed of sound in air  ........................................................ m / s
+ 
+speed of sound in water  ...............................................................
+ 
+[1]
+ 
+(b) State and explain if humans with normal hearing can hear all the sounds emitted by 
+the dolphin.
+statement  .................................................................
+explanation  ...............................................................................................................................
+ ...................................................................................................................................................
+ 
+[2]
+ 
+(c) Complete Table 5.1 to describe differences in loudness and pitch of two different 
+dolphin sounds.
+Table 5.1
+Frequency 
+/ kHz
+amplitude
+loudness
+pitch
+14
+large
+  8
+small
+ 
+[2]
+ 
+(d) Complete the sentences to describe how sound is transmitted through water.
+ 
+ 
+Sound waves are made of vibrating .................................................. which produce  
+ 
+compressions and rarefactions. A compression is a region of .................................................. 
+ 
+and a rarefaction is a region of .................................................. . The sound waves travel  
+ 
+.................................................. to the direction of the vibrations.
+ 
+[3]
+ 
+[Total: 8]
+* 0000800000009 *
+,	
+,
+ĬÓĊ®Ġ´íÈõÏĪÅĊàúµĀ×
+ĬåĔùÍĠĝüèûðËĈĝĆĉęĂ
+ĥĕĥÕµµĥĕĕõåÅąõĥµĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q6 =====
+10
+0625/41/O/N/25
+© UCLES 2025
+6 
+Fig. 6.1 shows part of an optical fibre used in high-speed broadband communication.
+ray of light
+optical fibre
+Fig. 6.1
+ 
+(a) State two advantages of using optical fibres in high-speed data transmission compared to 
+electrical signals sent on copper wires.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+(b) (i) The optical fibre is made of glass with a refractive index of 1.4.
+ 
+ 
+ Calculate the critical angle c.
+ 
+c =  ......................................................... [3]
+ 
+ 
+(ii) State the meaning of critical angle.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(iii) On Fig. 6.1, label the angle of incidence of the ray of light as it hits the wall of the glass 
+fibre. Draw the continuation of the ray until it leaves the glass fibre. 
+[2]
+ 
+[Total: 8]
+* 0000800000010 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊÝü·þ×
+ĬåĒúÐĬĩĎÏĆĊè°ė¶±đĂ
+ĥÅõÕõÕåõåµõąąµąõµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q7 =====
+11
+0625/41/O/N/25
+© UCLES 2025
+[Turn over
+7 
+Fig. 7.1 shows a circuit containing a 6.0 V battery of cells and three identical resistors.
+A
+R1
+6.0 V
+R3
+R2
+S1
+S2
+Fig. 7.1
+ 
+(a) S1 is closed and S2 is open. The current in the ammeter is 0.080 A.
+ 
+ 
+Calculate the resistance of R1.
+ 
+resistance =  ......................................................... [2]
+ 
+(b) S1 and S2 are both closed. 
+ 
+ 
+(i) Determine the reading on the ammeter. Show your working.
+ 
+ammeter reading =  ......................................................... [3]
+ 
+ 
+(ii) Explain in terms of work done and potential difference why there is a larger heating effect 
+in R3 than in R1.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+[Total: 7]
+* 0000800000011 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊÝú·þ×
+ĬåđùØĞĥĞêô÷ġĬğĢ±ġĂ
+ĥÅąĕµµÅĕµÅåąąÕĥµåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q8 =====
+12
+0625/41/O/N/25
+© UCLES 2025
+8 
+Fig. 8.1 shows a solenoid.
+Fig. 8.1
+ 
+(a) (i) Draw on Fig. 8.1 four complete magnetic field lines that show the pattern and direction 
+of the magnetic field inside and outside the solenoid. 
+[4]
+ 
+ 
+(ii) Mark a point inside the box in Fig. 8.1 where the magnetic field is strong. Label this 
+point B.
+ 
+ 
+ Explain how the diagram shows that the magnetic field is strong at B.
+explanation  ........................................................................................................................
+ ..................................................................................................................................... [1]
+* 0000800000012 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊßü·Ā×
+ĬåđüØĨėīÍîðĪÊÃÄáęĂ
+ĥõÕĕõµÅµÕĥÕąÅÕÅµµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+13
+0625/41/O/N/25
+© UCLES 2025
+[Turn over
+ 
+(b) Fig. 8.2 shows a solenoid in an electric circuit for a bell.
+solenoid
+soft iron arm
+contacts
+springy metal
+bell
+striker
+Fig. 8.2
+ 
+ 
+(i) Complete the circuit in Fig. 8.2 with the symbol for a direct current (d.c.) power supply.
+ 
+[1]
+ 
+ 
+(ii) Explain why the soft iron arm pivots, making the striker hit the bell when the switch 
+is closed.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+ 
+(iii) Explain why the arm pivots back to its original position after the striker hits the bell.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+[Total: 10]
+* 0000800000013 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊßú·Ā×
+ĬåĒûÐĢěěìČāßĎ»ĘáĩĂ
+ĥõåÕµÕåÕÅĕąąÅµåõåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q9 =====
+14
+0625/41/O/N/25
+© UCLES 2025
+9 
+(a) Describe the structure of an atom of helium-4, 2
+4He.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+ 
+(b) The Sun is a medium-sized star powered by nuclear fusion reactions which release energy.
+ 
+ 
+(i) State what happens during nuclear fusion reactions which form helium.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+ 
+(ii) State two regions of the electromagnetic spectrum by which the Sun radiates most of 
+its energy.
+ ..................................................................................................................................... [2]
+ 
+(c) Describe what happens to a star when most of the fuel in its centre has been converted 
+to helium.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+[Total: 9]
+* 0000800000014 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊàù¶Ă×
+ĬåđùÍĠĨģÚþĆĄ²ĢĔđġĂ
+ĥÕåĕõµĥõåąąÅąõąµõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q10 =====
+15
+0625/41/O/N/25
+© UCLES 2025
+10 Fig. 10.1 shows the orbit of the Earth and the orbit of a comet around the Sun.
+A
+B
+Sun
+Fig. 10.1
+ 
+(a) State which orbit, A or B, is the orbit of the comet.
+ 
+ 
+Explain your answer.
+ 
+ 
+orbit of comet is ..................
+explanation  ...............................................................................................................................
+ ...................................................................................................................................................
+ 
+[1]
+ 
+(b) Describe and explain how the motion of the comet changes as it orbits the Sun.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+(c) At one position in its orbit, the comet is 6.6 × 10–6 light-years away from the Earth.
+ 
+ 
+(i) State the meaning of light-year.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Determine the distance in metres between the comet and the Earth.
+ 
+distance =  ...................................................... m [2]
+ 
+[Total: 6]
+* 0000800000015 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊàû¶Ă×
+ĬåĒúÕĪĬēßüûÅĦĚÈđđĂ
+ĥÕÕÕµÕąĕµõÕÅąĕĥõĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD

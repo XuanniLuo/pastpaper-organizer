@@ -1,0 +1,418 @@
+{
+  "paper": "0625/42/O/N/25",
+  "paper_full": "November 2025 · Paper 42",
+  "questions": [
+    {
+      "qnum": 1,
+      "topic": "1",
+      "title": "Tennis ball — scalars, vectors and momentum",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_w25_qp_42_Q01.pdf",
+      "parts": [
+        {
+          "label": "1(a)(i)",
+          "marks": 1,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "scalar has magnitude (size) only OR vector has (magnitude and) direction"
+        },
+        {
+          "label": "1(a)(ii)",
+          "marks": 2,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "mass, energy and temperature all correct and no additional quantities 2 marks 2 correct and no additional quantities 1 mark"
+        },
+        {
+          "label": "1(b)(i)",
+          "marks": 3,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "decrease in kinetic energy = increase in gravitational (potential) energy OR ½ mv2 = mg()h v2 = 2gh OR v2 = 2  9.8  5.0 OR v2 =98 v = √98 OR 9.899"
+        },
+        {
+          "label": "1(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "0.57 kg m / s (upwards) OR 0.57 Ns (upwards) (momentum = ) mv OR 5.8  10-2  9.9 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2025 © Cambridge University Press & Assessment 2025 Page 12 of 20"
+        }
+      ],
+      "code": "1.6"
+    },
+    {
+      "qnum": 2,
+      "topic": "1",
+      "title": "Truck — resultant force and circular motion",
+      "marks": 10,
+      "pdf": "igcse-slices/0625_w25_qp_42_Q02.pdf",
+      "parts": [
+        {
+          "label": "2(a)(i)",
+          "marks": 5,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "7400 N a = ∆v / ∆t OR a = {22 – 13} / 4.5 OR 2.0 (m / s2) SEEN (F =) ma OR 3700  2.0"
+        },
+        {
+          "label": "2(a)(ii)",
+          "marks": 2,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "air resistance OR drag friction (between tyres and road)"
+        },
+        {
+          "label": "2(b)(i)",
+          "marks": 1,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "arrow from car pointing towards the centre of the circle"
+        },
+        {
+          "label": "2(b)(ii)",
+          "marks": 2,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "any two from: • car has higher speed • less friction (between car and track) OR not enough friction • larger mass 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2025 © Cambridge University Press & Assessment 2025 Page 13 of 20"
+        }
+      ],
+      "code": "1.5"
+    },
+    {
+      "qnum": 3,
+      "topic": "1",
+      "title": "Solar panels — efficiency, a.c. and d.c.",
+      "marks": 14,
+      "pdf": "igcse-slices/0625_w25_qp_42_Q03.pdf",
+      "parts": [
+        {
+          "label": "3(a)",
+          "marks": 2,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "more electricity generated OR makes solar panels more efficient black is a good absorber OR black is a poor reflector owtte"
+        },
+        {
+          "label": "3(b)",
+          "marks": 5,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "22 kW OR 22 000 W (total power input =) {useful power output ( 100%)} / (%) efficiency OR (total power input =) {3.5  100} / 16 OR (total power input =) 3.5 / 0.16 (total power input =) 3.5 / 0.16 OR (total power input =) {3.5  100} / 16"
+        },
+        {
+          "label": "3(c)",
+          "marks": 1,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "alternating current reverses direction OR direct current is only in one direction"
+        },
+        {
+          "label": "3(d)",
+          "marks": 1,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "electricity can be used when there is no Sun OR when it is dark or cloudy OR at night"
+        },
+        {
+          "label": "3(e)",
+          "marks": 5,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "29 000 C (Q =) I t OR (Q =) 4.0  2.0  60  60 correct conversion from h to s SEEN 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2025 © Cambridge University Press & Assessment 2025 Page 14 of 20"
+        }
+      ],
+      "code": "1.7"
+    },
+    {
+      "qnum": 4,
+      "topic": "2",
+      "title": "Gas in a cylinder — pressure, volume and work",
+      "marks": 11,
+      "pdf": "igcse-slices/0625_w25_qp_42_Q04.pdf",
+      "parts": [
+        {
+          "label": "4(a)(i)",
+          "marks": 5,
+          "codes": [
+            "2.1"
+          ],
+          "answer": "170 (cm3) pV = constant OR 1.0  105  240 = 1.4  105  V2 (V2 =) {1.0  105  240} / 1.4  105 OR 1.7  10N"
+        },
+        {
+          "label": "4(a)(ii)",
+          "marks": 3,
+          "codes": [
+            "2.1"
+          ],
+          "answer": "270 N (F =) pA OR (F =) 1.4  105  1.9  10-3"
+        },
+        {
+          "label": "4(a)(iii)",
+          "marks": 2,
+          "codes": [
+            "2.1"
+          ],
+          "answer": "(W =) Fd in words or symbols 7.9 J"
+        },
+        {
+          "label": "4(b)",
+          "marks": 1,
+          "codes": [
+            "2.1"
+          ],
+          "answer": "distance between gas particles is much larger (than distance between liquid particles) OR particles in liquid are touching AND particles in gas are far apart owtte 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2025 © Cambridge University Press & Assessment 2025 Page 15 of 20"
+        }
+      ],
+      "code": "2.1"
+    },
+    {
+      "qnum": 5,
+      "topic": "2",
+      "title": "Evaporation and braking distance",
+      "marks": 5,
+      "pdf": "igcse-slices/0625_w25_qp_42_Q05.pdf",
+      "parts": [
+        {
+          "label": "5(a)(i)",
+          "marks": 2,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "particles with more (kinetic) energy escape OR fast(er) particles escape (particles) escape from the surface"
+        },
+        {
+          "label": "5(a)(ii)",
+          "marks": 2,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "windy OR (air) temperature higher / Sun shining particles that escape from surface blown away (and unable to return) OR more energy given to the particles (to escape)"
+        },
+        {
+          "label": "5(b)",
+          "marks": 1,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "braking distance increases AND friction (between tyres and road) decreases 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2025 © Cambridge University Press & Assessment 2025 Page 16 of 20"
+        }
+      ],
+      "code": "2.2"
+    },
+    {
+      "qnum": 6,
+      "topic": "3",
+      "title": "Water waves, refraction and total internal reflection",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_w25_qp_42_Q06.pdf",
+      "parts": [
+        {
+          "label": "6(a)(i)",
+          "marks": 3,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "wavefronts joined at the boundary angle with the surface in region B smaller than angle with surface in region A AND slanting in correct direction refracted wavefronts all parallel slanting in the correct direction AND wavelength less than incident waves"
+        },
+        {
+          "label": "6(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "refraction"
+        },
+        {
+          "label": "6(b)(i)",
+          "marks": 2,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "speed of light in first region is less than speed of light in second region owtte angle of incidence must be greater than the critical angle"
+        },
+        {
+          "label": "6(b)(ii)",
+          "marks": 2,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "any two from: • high rates of data (transmission) • carry large amounts of data / information • secure • little data / signal loss • glass is transparent to visible light and (some) infrared 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2025 © Cambridge University Press & Assessment 2025 Page 17 of 20"
+        }
+      ],
+      "code": "3.1"
+    },
+    {
+      "qnum": 7,
+      "topic": "4",
+      "title": "Parallel lamps — current, energy and combined resistance",
+      "marks": 13,
+      "pdf": "igcse-slices/0625_w25_qp_42_Q07.pdf",
+      "parts": [
+        {
+          "label": "7(a)",
+          "marks": 2,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "correct symbols for a.c supply and lamps components all connected in parallel"
+        },
+        {
+          "label": "7(b)(i)",
+          "marks": 3,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "0.29 A (I =)V / R OR (I =)230 / 800"
+        },
+        {
+          "label": "7(b)(ii)",
+          "marks": 5,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "0.33 (kWh) (E =)VIt OR (E =) {230  0.29  5(.0)} / 1000 conversion from W to kW seen i.e. division by 1000"
+        },
+        {
+          "label": "7(b)(iii)",
+          "marks": 3,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "480  1 / R = 1 / R1 + 1 / R2 OR 1 / R = 1 / 800 + 1 / 1200 OR (R =) R1R2 / {R1 + R2} OR (R =) {800  1200} / {800 + 1200} 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2025 © Cambridge University Press & Assessment 2025 Page 18 of 20"
+        }
+      ],
+      "code": "4.3"
+    },
+    {
+      "qnum": 8,
+      "topic": "4",
+      "title": "Magnetic field and electromagnetic induction",
+      "marks": 5,
+      "pdf": "igcse-slices/0625_w25_qp_42_Q08.pdf",
+      "parts": [
+        {
+          "label": "8(a)",
+          "marks": 1,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "region in which a (magnetic) pole experiences a force"
+        },
+        {
+          "label": "8(b)(i)",
+          "marks": 1,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "friction between trolley and track OR the (induced) current produces a magnetic field which opposes the (magnetic) field that causes the (induced) current"
+        },
+        {
+          "label": "8(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "any three from: • direction will (still) be left OR there is no change of direction • induced current / emf / voltage does not change direction • smaller deflection • smaller (rate of) change of magnetic field • smaller current / emf / voltage induced (in coil) 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2025 © Cambridge University Press & Assessment 2025 Page 19 of 20"
+        }
+      ],
+      "code": "4.5"
+    },
+    {
+      "qnum": 9,
+      "topic": "5",
+      "title": "Radiation in a magnetic field and choosing a radioactive source",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_w25_qp_42_Q09.pdf",
+      "parts": [
+        {
+          "label": "9(a)(i)",
+          "marks": 1,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "curve bending upwards while in magnetic field and labelled "
+        },
+        {
+          "label": "9(a)(ii)",
+          "marks": 2,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "curve bending downwards while in magnetic field and labelled  smaller radius of curvature for β than for α"
+        },
+        {
+          "label": "9(a)(iii)",
+          "marks": 1,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "line passing straight through the magnetic field and labelled "
+        },
+        {
+          "label": "9(b)(i)",
+          "marks": 1,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "time taken for half the nuclei of a sample to decay"
+        },
+        {
+          "label": "9(b)(ii)",
+          "marks": 4,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "R half-life not too short OR half-life is suitable so that source does not need to be replaced often so count rate changes with thickness γ- rays would not be stopped at all AND α-particles would be absorbed by any thickness of aluminium 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2025 © Cambridge University Press & Assessment 2025 Page 20 of 20"
+        }
+      ],
+      "code": "5.2"
+    },
+    {
+      "qnum": 10,
+      "topic": "6",
+      "title": "Solar System formation and the Whirlpool galaxy",
+      "marks": 14,
+      "pdf": "igcse-slices/0625_w25_qp_42_Q10.pdf",
+      "parts": [
+        {
+          "label": "10(a)",
+          "marks": 4,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "rocky gaseous gravitational force accretion disc"
+        },
+        {
+          "label": "10(b)",
+          "marks": 5,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "3.9  108 (m) (speed of light =) 3.0  108 (s =) vt OR (s =) 3.0  108  1.3"
+        },
+        {
+          "label": "10(c)",
+          "marks": 5,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "4.8  105 m / s OR 4.8  102 km / s (1 light-year =) 9.5  1015 (m) OR 9.5  1012 (km) OR 4.8  10N (v =) H0 d OR (v =) 2.2  10-18  2.3  107  9.5  1015"
+        }
+      ],
+      "code": "6.1"
+    }
+  ]
+}

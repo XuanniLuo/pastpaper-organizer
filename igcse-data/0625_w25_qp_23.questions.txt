@@ -1,0 +1,809 @@
+===== Q1 (page 1) =====
+1 
+When a pendulum passes a marker, a timer displays 1 minute 30 seconds. 
+ 
+The pendulum passes the marker 12 more times from the same direction. 
+ 
+On the final pass, the timer displays a time of 2 minutes 18 seconds. 
+ 
+What is the time period of oscillation of the pendulum? 
+A 
+4.0 s 
+B 
+4.4 s 
+C 
+7.5 s 
+D 
+12 s
+
+===== Q2 (page 1) =====
+2 
+A car driver applies the brakes to bring a car to rest with a constant deceleration of 4.0 m / s2 in a 
+time of 8.0 s. 
+ 
+What is the average speed of the car during this time? 
+A 
+4.0 m / s 
+B 
+8.0 m / s 
+C 
+16 m / s 
+D 
+32 m / s
+
+===== Q3 (page 1) =====
+3 
+An object is falling in a uniform gravitational field. 
+ 
+After a certain time, it reaches terminal velocity. 
+ 
+Which row is correct? 
+ 
+ 
+velocity of object 
+acceleration of object 
+A 
+increases then decreases 
+positive then negative 
+B 
+increases then decreases 
+positive then zero 
+C 
+increases then constant 
+positive then negative 
+D 
+increases then constant 
+positive then zero
+
+===== Q4 (page 1) =====
+4 
+Which measuring instrument is used to compare masses? 
+A 
+balance 
+B 
+protractor 
+C 
+stop-watch 
+D 
+voltmeter
+
+===== Q5 (page 2) =====
+5 
+Three different liquids are poured into a tall beaker. The liquids do not mix. 
+ 
+The liquid densities are shown in the table. 
+ 
+liquid 
+3
+ 
+ cm
+/
+g
+density 
+P 
+1.8 
+Q 
+2.4 
+R 
+1.2 
+ 
+What is the correct order of the liquids from the top of the beaker to the bottom? 
+A 
+P  Q  R 
+B 
+Q  P  R 
+C 
+Q  R  P 
+D 
+R  P  Q
+
+===== Q6 (page 2) =====
+6 
+A car is moving in a straight line on a level road. Its engine provides a forward force on the car.  
+A second force of equal size acts on the car in the opposite direction. 
+ 
+Which statement describes what happens? 
+A 
+The car changes direction. 
+B 
+The car moves at a constant speed. 
+C 
+The car slows down. 
+D 
+The car speeds up.
+
+===== Q7 (page 2) =====
+7 
+Which beam is balanced? (Ignore the weight of the beam.) 
+ 
+A
+pivot
+1.0 m
+1.0 m
+1.0 m
+B
+pivot
+1.0 m
+1.0 m
+1.0 m
+C
+9.0 N
+3.0 N
+6.0 N
+pivot
+1.0 m
+1.0 m
+1.0 m
+3.0 N
+3.0 N
+6.0 N
+pivot
+1.0 m
+1.0 m
+1.0 m
+D
+3.0 N
+3.0 N
+3.0 N
+9.0 N
+3.0 N
+3.0 N
+
+===== Q8 (page 3) =====
+8 
+A ball is at rest on the ground. A boy kicks the ball. The boy’s boot is in contact with the ball for a 
+time of 0.040 s. 
+ 
+The average force on the ball is 200 N. The ball leaves the boy’s boot with a speed of 20 m / s. 
+ 
+Which row gives the impulse of the boot on the ball and the average acceleration of the ball 
+during the time of 0.040 s? 
+ 
+ 
+s
+N
+ball
+ 
+on
+ 
+impulse
+ 
+ 
+2
+ 
+ s
+/
+m
+ball
+ 
+of
+ 
+on
+accelerati
+ 
+average
+A 
+8 
+0.8 
+B 
+8 
+500 
+C 
+5000 
+0.8 
+D 
+5000 
+500
+
+===== Q9 (page 3) =====
+9 
+Which device transfers energy from a chemical energy store to a kinetic energy store? 
+A 
+an a.c. generator 
+B 
+a battery-powered torch 
+C 
+a car engine 
+D 
+a wind-up mechanical clock
+
+===== Q10 (page 3) =====
+10 For which energy resource is the Sun the main source? 
+A 
+geothermal 
+B 
+nuclear 
+C 
+tidal 
+D 
+wind
+
+===== Q11 (page 3) =====
+11 A football is inflated in a warm room and then taken outside where the temperature is much 
+lower. The pressure and temperature inside the ball both decrease. The volume of the ball is 
+unchanged. 
+ 
+Which row explains the decrease in pressure in terms of the movement of air particles? 
+ 
+ 
+kinetic energy 
+of air particles 
+frequency of collisions 
+between air particles and
+inside surface of ball 
+A 
+decreased 
+decreased 
+B 
+decreased 
+unchanged 
+C 
+unchanged 
+decreased 
+D 
+unchanged 
+unchanged
+
+===== Q12 (page 4) =====
+12 A fixed mass of gas has a volume of 25 cm3. The pressure of the gas is 100 kPa. 
+ 
+The volume of the gas is slowly decreased by 15 cm3 at constant temperature. 
+ 
+What is the change in pressure of the gas? 
+A 
+67 kPa 
+B 
+150 kPa 
+C 
+170 kPa 
+D 
+250 kPa
+
+===== Q13 (page 4) =====
+13 The specific heat capacity of ice is 2000 J / kg °C. 
+ 
+Which thermal energy is required to raise the temperature of 100 g of ice by 5 °C? 
+A 
+40 J 
+B 
+100 J 
+C 
+1000 J 
+D 
+4000 J
+
+===== Q14 (page 4) =====
+14 The diagram shows four labelled changes of state, P, Q, R and S, between solid, liquid and gas. 
+ 
+solid
+liquid
+gas
+P
+S
+Q
+R
+ 
+ 
+Which changes need an energy input? 
+A 
+P and Q 
+B 
+Q and R 
+C 
+R and S 
+D 
+S and P
+
+===== Q15 (page 4) =====
+15 Which row about the movement of electrons and ions during conduction of thermal energy 
+through a metal is correct? 
+ 
+ 
+electrons 
+ions 
+A 
+move through metal 
+vibrate about fixed points 
+B 
+vibrate about fixed points 
+move through metal 
+C 
+vibrate about fixed points 
+vibrate about fixed points 
+D 
+move through metal 
+move through metal
+
+===== Q16 (page 5) =====
+16 A scientist measures the air temperature at different heights from the floor in a cave. The results 
+are recorded in the table. 
+ 
+height / m 
+temperature / °C 
+0 
+10 
+10 
+11 
+20 
+13 
+30 
+14 
+40 
+16 
+ 
+Why does altering the height affect the temperature of the air? 
+A 
+The particles in warm air have less energy than the particles in cool air. 
+B 
+The particles in cool air are further apart than the particles in warm air. 
+C 
+Warm air is less dense than cool air. 
+D 
+Cool air rises above warm air.
+
+===== Q17 (page 5) =====
+17 Star X has a larger diameter than star Y but they both emit radiation with the same power. 
+ 
+Which statement is correct? 
+A 
+The surface temperature of X is less than the surface temperature of Y. 
+B 
+The surface temperatures of X and Y are the same. 
+C 
+The surface temperature of X is greater than the surface temperature of Y. 
+D 
+The surface areas of X and Y are the same.
+
+===== Q18 (page 5) =====
+18 When water waves pass through a gap, they diffract. 
+ 
+The diagrams show wavefronts approaching a gap. 
+ 
+In which diagram will the diffraction be least? 
+ 
+A
+B
+C
+D
+
+===== Q19 (page 6) =====
+19 The diagram shows a scale drawing of the formation of an image by the reflection of light from a 
+plane mirror. 
+ 
+1
+2
+3
+4
+object
+image
+mirror
+ 
+ 
+What are the relationships between the labelled angles? 
+A 
+angle 1 = angle 2, and angle 3 = angle 4 
+B 
+angle 1 = angle 3, and angle 2 = angle 4 
+C 
+angle 1 = angle 4, and angle 3 = angle 2 
+D 
+angle 1 = angle 2 = angle 3 = angle 4
+
+===== Q20 (page 6) =====
+20 The speed of light in a vacuum is 3.0  108
+ m / s. 
+ 
+The speed of light in glass is 2.2  108
+ m / s. 
+ 
+A light ray in a vacuum enters glass with an angle of incidence of 40°. 
+ 
+What is the angle of refraction within the glass? 
+A 
+28° 
+B 
+29° 
+C 
+55° 
+D 
+61°
+
+===== Q21 (page 7) =====
+21 The diagram shows a human eye that correctly focuses the light on the retina. 
+ 
+lens of eye
+retina
+ 
+ 
+Which row shows a short-sighted eye and use of the correct lens to focus the image? 
+ 
+lens
+lens
+lens
+lens
+A
+B
+C
+D
+ray diagram for
+short-sighted eye
+corrected vision
+
+===== Q22 (page 7) =====
+22 Visible light, X-rays and microwaves are all components of the electromagnetic spectrum. 
+ 
+Which statement about the waves is correct? 
+A 
+In a vacuum, microwaves travel faster than visible light and have a shorter wavelength than 
+visible light. 
+B 
+In a vacuum, microwaves travel at the same speed as visible light and have a shorter 
+wavelength than visible light. 
+C 
+In a vacuum, X-rays travel faster than visible light and have a shorter wavelength than visible 
+light. 
+D 
+In a vacuum, X-rays travel at the same speed as visible light and have a shorter wavelength 
+than visible light.
+
+===== Q23 (page 8) =====
+23 Both the amplitude and the frequency of a sound wave decrease. 
+ 
+What happens to the sound that is heard? 
+A 
+The sound is louder and has a higher pitch. 
+B 
+The sound is louder and has a lower pitch. 
+C 
+The sound is quieter and has a higher pitch. 
+D 
+The sound is quieter and has a lower pitch.
+
+===== Q24 (page 8) =====
+24 The diagram shows the magnetic field due to a current in a solenoid. 
+ 
+current
+direction
+X
+Y
+Z
+ 
+ 
+Which graph represents the strength of the magnetic field at positions X, Y and Z? 
+ 
+strength of
+magnetic field
+position
+A
+X
+Y
+Z
+strength of
+magnetic field
+position
+C
+strength of
+magnetic field
+position
+B
+X
+Y
+Z
+strength of
+magnetic field
+position
+D
+X
+Y
+Z
+X
+Y
+Z
+
+===== Q25 (page 9) =====
+25 Why does a plastic rod become negatively charged when it is rubbed with a cloth? 
+A 
+The rod gains electrons. 
+B 
+The rod gains protons. 
+C 
+The rod loses electrons. 
+D 
+The rod loses protons.
+
+===== Q26 (page 9) =====
+26 There is an electric current in a circuit with a battery. This question refers to the positive and 
+negative terminals of the battery. 
+ 
+Which row correctly describes the directions of the conventional current and the electron flow in 
+the circuit? 
+ 
+ 
+direction of 
+conventional current 
+direction of 
+electron flow 
+A 
+ 
+from the negative to 
+the positive terminal 
+from the negative to 
+the positive terminal 
+B 
+ 
+from the negative to 
+the positive terminal 
+from the positive to 
+the negative terminal 
+C 
+ 
+from the positive to 
+the negative terminal 
+from the negative to 
+the positive terminal 
+D 
+ 
+from the positive to 
+the negative terminal 
+from the positive to 
+the negative terminal
+
+===== Q27 (page 9) =====
+27 Which electrical quantity is defined in terms of the energy supplied by a source in driving charge 
+round a complete circuit? 
+A 
+current 
+B 
+electromotive force 
+C 
+potential difference 
+D 
+power
+
+===== Q28 (page 9) =====
+28 A torch has a simple circuit with a 3.0 V battery and a lamp. There is a 20 mA current in the lamp. 
+ 
+How much energy is transferred to the lamp in 5.0 minutes? 
+A 
+0.30 J 
+B 
+18 J 
+C 
+60 J 
+D 
+0.30 kJ
+
+===== Q29 (page 10) =====
+29 In which circuit does the lamp light? 
+ 
+A
+B
+C
+D
+
+===== Q30 (page 10) =====
+30 Which circuit shows possible correct values for the currents? 
+ 
+A
+4.0 A
+8.0 A
+4.0 A
+4.0 A
+B
+1.0 A
+4.0 A
+2.0 A
+3.0 A
+C
+2.0 A
+2.0 A
+1.0 A
+3.0 A
+D
+4.0 A
+4.0 A
+3.0 A
+1.0 A
+
+===== Q31 (page 11) =====
+31 The circuit diagrams show circuits that can control the potential difference (p.d.) across a lamp. 
+ 
+Which circuit allows the p.d. across the lamp to be varied from 0 V to 6.0 V? 
+ 
+6.0 V
+A
+6.0 V
+B
+6.0 V
+C
+6.0 V
+D
+
+===== Q32 (page 11) =====
+32 The diagram shows a wire between two magnetic poles. The wire is connected in a circuit with an 
+ammeter. 
+ 
+N
+S
+A
+wire
+ 
+ 
+The wire is moved downwards, towards the bottom of the page. A current is induced in the wire. 
+ 
+In which direction is the force on the wire caused by this current? 
+A 
+towards the bottom of the page 
+B 
+towards the left of the page 
+C 
+towards the right of the page 
+D 
+towards the top of the page
+
+===== Q33 (page 12) =====
+33 Some students set up an experiment to measure the count rate for a radioactive source. 
+ 
+First, they measure the radioactive background count rate in the laboratory by taking three 
+measurements. Each measurement is taken over a 10-minute period. 
+ 
+The table shows their results. 
+ 
+number of counts in 10 minutes 
+first 
+measurement 
+second 
+measurement 
+third 
+measurement 
+170 
+164 
+185 
+ 
+Next, the students measure the counts near the radioactive source. This count rate is measured 
+as 949 counts per minute. 
+ 
+What is the corrected count rate for the source? 
+A 
+932 counts per minute 
+B 
+776 counts per minute 
+C 
+430 counts per minute 
+D 
+78 counts per minute
+
+===== Q34 (page 13) =====
+34 A radioactive source emits -particles, -particles and -rays into a vacuum where there is a 
+magnetic field. 
+ 
+The magnetic field acts perpendicularly into the plane of the paper. 
+ 
+The paths J, K and L of the three types of radiation through the magnetic field are shown. 
+ 
+J
+K
+L
+radioactive
+source
+magnetic field
+into paper
+ 
+ 
+Which radiation follows path J, path K and path L? 
+ 
+ 
+J 
+K 
+L 
+A 
+-particles 
+-particles 
+-rays 
+B 
+-particles 
+-rays 
+-particles 
+C 
+-particles 
+-particles 
+-rays 
+D 
+-particles 
+-rays 
+-particles
+
+===== Q35 (page 13) =====
+35 Radioactive decay is a change in an unstable nucleus which may result in emission of  
+alpha-particles or beta-particles. 
+ 
+Which statement describes how these emissions happen? 
+A 
+Alpha emission is a spontaneous and random process but beta emission is not. 
+B 
+Alpha emission and beta emission are both spontaneous and random processes. 
+C 
+Beta emission is a spontaneous and random process but alpha emission is not. 
+D 
+Neither alpha emission nor beta emission are spontaneous and random processes.
+
+===== Q36 (page 14) =====
+36 Which change occurs in the nucleus of a radioactive atom when a beta-particle is emitted? 
+A 
+neutron  alpha-particle 
+B 
+neutron  proton + electron 
+C 
+proton  neutron 
+D 
+proton  neutron + electron
+
+===== Q37 (page 14) =====
+37 A radioactive source that emits -particles, -particles and -radiation is stored safely in a 
+container. 
+ 
+From which material should the container be made? 
+A 
+alumimium 
+B 
+copper 
+C 
+paper 
+D 
+lead
+
+===== Q38 (page 14) =====
+38 An artificial satellite orbits planet X at a distance r = 7.0  106
+ m from the centre of planet X. 
+ 
+The average orbital speed v of the satellite is 3500 m / s. 
+ 
+What is the orbital period? 
+A 
+21 minutes 
+B 
+52 minutes 
+C 
+1 hour and 45 minutes 
+D 
+3 hours and 29 minutes
+
+===== Q39 (page 14) =====
+39 The table lists data about four different stars. 
+ 
+Which star is the Sun? 
+ 
+ 
+main elements in the star 
+regions of electromagnetic 
+spectrum where most 
+energy is radiated by the star 
+A 
+ 
+helium, hydrogen, carbon, 
+nitrogen, oxygen 
+blue, ultraviolet, X-ray 
+ 
+B 
+ 
+helium, hydrogen, carbon, 
+nitrogen, magnesium 
+red, infrared 
+ 
+C 
+helium, hydrogen 
+infrared, ultraviolet, visible 
+D 
+helium, hydrogen 
+red, infrared
+
+===== Q40 (page 15) =====
+40 What can be formed directly following a supernova? 
+A 
+a nebula and a neutron star 
+B 
+a nebula and a white dwarf 
+C 
+a red supergiant and a neutron star 
+D 
+a red supergiant and a protostar

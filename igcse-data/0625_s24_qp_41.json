@@ -1,0 +1,392 @@
+{
+  "paper": "0625/41/M/J/24",
+  "paper_full": "June 2024 · Paper 41",
+  "questions": [
+    {
+      "qnum": 1,
+      "topic": "1",
+      "title": "Ball falling through oil — acceleration and speed–time graph",
+      "marks": 12,
+      "pdf": "igcse-slices/0625_s24_qp_41_Q01.pdf",
+      "parts": [
+        {
+          "label": "1(a)",
+          "marks": 1,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "(acceleration is) rate of change in velocity OR change in velocity per unit time OR (a =) ∆v / ∆t"
+        },
+        {
+          "label": "1(b)",
+          "marks": 3,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "0.021 N F = ma OR (F =) ma OR 0.0075  2.8"
+        },
+        {
+          "label": "1(c)(i)",
+          "marks": 4,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "any four from:  (acceleration) decreases  (acceleration decreases) to zero (at approximately 0.03 s)  resistive force increases / resistance increases (as speed / velocity increases)  resultant force (downwards) decreases  (until) terminal velocity / constant speed (is reached)  (when) resistive force = weight OR resultant force is zero OR forces are balanced"
+        },
+        {
+          "label": "1(c)(ii)",
+          "marks": 4,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "tangent drawn at t = 0.010 s 1.2 m / s2 ⩽ acceleration ⩽ 1.8 m / s2 (a =) gradient of tangent OR (a =) {y / x} 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2024 © Cambridge University Press & Assessment 2024 Page 7 of 12"
+        }
+      ],
+      "code": "1.2"
+    },
+    {
+      "qnum": 2,
+      "topic": "1",
+      "title": "Trolleys and a spring — momentum, speed and kinetic energy",
+      "marks": 12,
+      "pdf": "igcse-slices/0625_s24_qp_41_Q02.pdf",
+      "parts": [
+        {
+          "label": "2(a)(i)",
+          "marks": 5,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "0.16 m / s conservation of momentum OR mP vP = mQvQ OR 2.7  vP = 1.2  0.36 OR (mQvQ =) 0.432 seen (vP =) mQvQ / mP OR 1.2  0.36 / 2.7"
+        },
+        {
+          "label": "2(a)(ii)",
+          "marks": 5,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "0.078 J (k.e. =) ½mv2 OR (k.e. =) ½  1.2  0.362 (k.e. =) ½  1.2  0.362"
+        },
+        {
+          "label": "2(b)",
+          "marks": 2,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "(from) elastic (energy store in the compressed spring) to kinetic (as final energy store of trolleys)"
+        }
+      ],
+      "code": "1.6"
+    },
+    {
+      "qnum": 3,
+      "topic": "2",
+      "title": "Ice in warm water — thermal transfer, convection and specific heat",
+      "marks": 11,
+      "pdf": "igcse-slices/0625_s24_qp_41_Q03.pdf",
+      "parts": [
+        {
+          "label": "3(a)",
+          "marks": 1,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "(they / particles in ice) vibrate (about a fixed position) OR particles in water move throughout the liquid"
+        },
+        {
+          "label": "3(b)(i)",
+          "marks": 1,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "conduction"
+        },
+        {
+          "label": "3(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "2.6  104 J c = (E / m OR (E =) mcOR 0.34  4200  18 OR 2.6  10N (J)"
+        },
+        {
+          "label": "3(b)(iii)",
+          "marks": 3,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "density (of water next to the ice) increases cold(er) water sinks warm(er) water replaces cold water OR warm(er) water rises OR making a convection current 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2024 © Cambridge University Press & Assessment 2024 Page 8 of 12"
+        },
+        {
+          "label": "3(b)(iv)",
+          "marks": 3,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "internal energy decreases AND (average) kinetic energy (of particles) decreases kinetic energy decreases"
+        }
+      ],
+      "code": "2.3"
+    },
+    {
+      "qnum": 4,
+      "topic": "3",
+      "title": "Converging lens — focal point, refractive index and correcting vision",
+      "marks": 11,
+      "pdf": "igcse-slices/0625_s24_qp_41_Q04.pdf",
+      "parts": [
+        {
+          "label": "4(a)(i)",
+          "marks": 2,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "(point on principal axis) where rays of light parallel (to the principal axis, incident on converging lens) (rays) meet / converge after passing through lens / refraction"
+        },
+        {
+          "label": "4(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "X marked between one of the focal points and the lens AND E marked on other side of lens"
+        },
+        {
+          "label": "4(a)(iii)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "virtual AND upright"
+        },
+        {
+          "label": "4(b)(i)",
+          "marks": 3,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "2.0  108 m / s n = c / vg OR (vg =) c / n OR (vg =) 3(.0)  108 / 1.5"
+        },
+        {
+          "label": "4(b)(ii)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "(wavelength) decreases"
+        },
+        {
+          "label": "4(c)",
+          "marks": 3,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "long-sightedness it moves the image towards the lens / back of the eye / retina OR reduces / shortens focal length of (combined lens) (converging lens) focuses image on back of eye / retina 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2024 © Cambridge University Press & Assessment 2024 Page 9 of 12"
+        }
+      ],
+      "code": "3.2"
+    },
+    {
+      "qnum": 5,
+      "topic": "3",
+      "title": "Longitudinal and transverse waves — seismic waves",
+      "marks": 10,
+      "pdf": "igcse-slices/0625_s24_qp_41_Q05.pdf",
+      "parts": [
+        {
+          "label": "5(a)",
+          "marks": 2,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "any two from:  (longitudinal) vibration / oscillation in wave parallel to propagation direction / direction of travel  transverse wave vibrates / oscillates perpendicular to propagation direction / direction of travel  (longitudinal) consists of compressions and rarefactions  transverse wave consists of crests / peaks and troughs  (longitudinal) needs a medium (to travel)"
+        },
+        {
+          "label": "5(b)(i)",
+          "marks": 1,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "P-wave AND it is longitudinal"
+        },
+        {
+          "label": "5(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "1.8  104 m OR 18 km 1.5OR 1.5  1.2  104 OR 1.8  10N"
+        },
+        {
+          "label": "5(b)(iii)",
+          "marks": 4,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "v = f OR v=  / t OR (t =)  / v OR f = 4 4600 / 1.2 10  OR (t / 5 =) 1.2  104 / 4600 OR (t =) 6(.0)  104 / 4600 13 s t = 1 / f OR (time for one wave = ) 2.6 (s)"
+        }
+      ],
+      "code": "3.1"
+    },
+    {
+      "qnum": 6,
+      "topic": "4",
+      "title": "Charged sphere — electric field and discharge current",
+      "marks": 12,
+      "pdf": "igcse-slices/0625_s24_qp_41_Q06.pdf",
+      "parts": [
+        {
+          "label": "6(a)(i)",
+          "marks": 1,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "(region) where (an electric) charge experiences a force OR (region) where a force acts on a (an electric) charge"
+        },
+        {
+          "label": "6(a)(ii)",
+          "marks": 3,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "at least four straight radial lines AND evenly spaced (by eye) surrounding sphere four lines touching sphere AND no lines inside sphere at least one arrowhead towards sphere AND no incorrect arrowheads 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2024 © Cambridge University Press & Assessment 2024 Page 10 of 12"
+        },
+        {
+          "label": "6(b)(i)",
+          "marks": 3,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "electrons move (through the wire) from the sphere OR electrons move (through the wire) to(wards) the Earth electrons move (in the wire)"
+        },
+        {
+          "label": "6(b)(ii)",
+          "marks": 5,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "2.5 A I = Q / t OR (I =) Q / t OR 3.5  10–10 / 1.4  10–10 2.5  10N"
+        }
+      ],
+      "code": "4.2"
+    },
+    {
+      "qnum": 7,
+      "topic": "4",
+      "title": "Electromotive force and a series circuit",
+      "marks": 12,
+      "pdf": "igcse-slices/0625_s24_qp_41_Q07.pdf",
+      "parts": [
+        {
+          "label": "7(a)",
+          "marks": 3,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "(electrical) work done moving a unit charge around a (complete) circuit work done AND moving a charge (in a circuit)"
+        },
+        {
+          "label": "7(b)(i)",
+          "marks": 3,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "correct symbols for five cells in series correct symbols for variable resistor AND fixed resistor cells, variable resistor and fixed resistor connected in series"
+        },
+        {
+          "label": "7(b)(ii)",
+          "marks": 6,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "curve with negative gradient of decreasing magnitude from 0  to 150 AND does not reach the x-axis curve / line with negative gradient from 0  to 150  y-axis labelled 0.25 where candidate’s line meets the y-axis OR the mark on the y-axis labelled 0.25 R = V / I OR (Imax =) V / R OR 7.5 / 30 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2024 © Cambridge University Press & Assessment 2024 Page 11 of 12"
+        }
+      ],
+      "code": "4.2"
+    },
+    {
+      "qnum": 8,
+      "topic": "5",
+      "title": "Beta-decay of thallium-208 and deflection in a magnetic field",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_s24_qp_41_Q08.pdf",
+      "parts": [
+        {
+          "label": "8(a)(i)",
+          "marks": 3,
+          "codes": [
+            "5.2"
+          ],
+          "answer": " –1 0 Pb ….. 208 Pb 82 ….."
+        },
+        {
+          "label": "8(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "-emission / it consists of waves / rays OR -emission has no mass / charge"
+        },
+        {
+          "label": "8(a)(iii)",
+          "marks": 1,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "(it contains) too many / excess of neutrons OR (nucleus is) too heavy"
+        },
+        {
+          "label": "8(b)",
+          "marks": 3,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "smooth curve (through magnetic field) AND labelled  path towards bottom of page AND no upward component AND labelled  (continuation of beam along) horizontal line through magnetic field AND labelled "
+        }
+      ],
+      "code": "5.2"
+    },
+    {
+      "qnum": 9,
+      "topic": "6",
+      "title": "The Sun — electromagnetic radiation and star formation",
+      "marks": 11,
+      "pdf": "igcse-slices/0625_s24_qp_41_Q09.pdf",
+      "parts": [
+        {
+          "label": "9(a)",
+          "marks": 3,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "ultraviolet AND visible light AND infrared only any two from: ultraviolet; visible light; infrared and no more than one incorrect addition"
+        },
+        {
+          "label": "9(b)",
+          "marks": 3,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "1.5  1011 m v = s / t OR (s =) vt OR 3.0  108  500 OR 1.5  10N"
+        },
+        {
+          "label": "9(c)(i)",
+          "marks": 2,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "any two from:  cloud / nebula / it collapses  due to (internal) gravitational attraction  (internal) temperature increases 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2024 © Cambridge University Press & Assessment 2024 Page 12 of 12"
+        },
+        {
+          "label": "9(c)(ii)",
+          "marks": 3,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "any three from:  (nuclear) fusion / nuclear reactions (in the star)  forces are balanced  gravitational force is inwards  outwards force is due to high temperature"
+        }
+      ],
+      "code": "6.2"
+    }
+  ]
+}

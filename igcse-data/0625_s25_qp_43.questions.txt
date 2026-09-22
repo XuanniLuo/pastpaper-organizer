@@ -1,0 +1,655 @@
+===== Q1 =====
+3
+0625/43/M/J/25
+© UCLES 2025
+[Turn over
+1 
+A car travels at a speed of 20 m / s. The driver applies the brakes when he sees a red traffic light.
+ 
+Fig. 1.1 shows the speed–time graph for the car.
+0
+1
+2
+time / s
+speed
+m / s
+3
+4
+5
+0
+5
+10
+15
+20
+25
+Fig. 1.1
+ 
+(a) Determine the speed of the car at time = 2.0 s.
+ 
+speed of the car =  ......................................................... [1]
+ 
+(b) Calculate the distance travelled by the car between time = 0 and time = 4.0 s.
+ 
+distance travelled =  ......................................................... [3]
+ 
+(c) Calculate the deceleration of the car between time = 0.5 s and time = 4.0 s.
+ 
+deceleration =  ......................................................... [3]
+ 
+[Total: 7]
+* 0000800000003 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊßû·þ×
+ĬĂÆùÐīõāÔČăÓÆĂĘĤĈĂ
+ĥĥÅÕµµąµõåÅÅÅĕąõåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q2 =====
+4
+0625/43/M/J/25
+© UCLES 2025
+2 
+Fig. 2.1 shows a space vehicle which consists of a capsule and a nose cone.
+ 
+The space vehicle is moving at a velocity of 7800 m / s. The mass of the space vehicle is 840 kg.
+capsule
+nose cone 
+7800 m / s
+Fig. 2.1
+ 
+(a) Show that the momentum of the space vehicle is approximately 6.55 × 106 kg m / s.
+ 
+[1]
+ 
+(b) The capsule ejects the nose cone, as shown in Fig. 2.2.
+v
+7850 m / s
+mass = 720 kg
+mass = 120 kg
+Fig. 2.2 (not to scale)
+ 
+ 
+Determine the velocity v of the capsule after the nose cone is ejected. Give your answer to 
+3 significant figures.
+ 
+velocity v of the capsule =  ......................................................... [3]
+* 0000800000004 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊÝù·Ā×
+ĬĂÆüÐġćĈçĆČÜĨÞ¶ôðĂ
+ĥÕĕÕõµąĕĕąµÅąĕåõµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+5
+0625/43/M/J/25
+© UCLES 2025
+[Turn over
+ 
+(c) A different space capsule returns to Earth.
+ 
+ 
+Fig. 2.3 shows this capsule just before it lands in the sea. 
+ 
+ 
+The capsule travels at terminal velocity.
+parachute
+capsule
+sea
+Fig. 2.3
+ 
+ 
+The upward vertical force acting on the capsule is 120 kN.
+ 
+ 
+Calculate the mass of the capsule.
+ 
+mass of the capsule =  ......................................................... [2]
+ 
+[Total: 6]
+* 0000800000005 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊÝû·Ā×
+ĬĂÅûØħċøÒôõč´ÖĢôĀĂ
+ĥÕĥĕµÕĥõąõĥÅąõÅµåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q3 =====
+6
+0625/43/M/J/25
+© UCLES 2025
+3 
+Fig. 3.1 shows an archer aiming an arrow at a target.
+bow string
+arrow
+bow
+archer
+target
+Fig. 3.1
+ 
+(a) The archer pulls back on the bow string, doing a total of 110 J of work. Her hand moves a 
+distance of 0.45 m. The bow is bent and stores energy.
+ 
+ 
+Show that the average force applied by the archer in pulling the string back is approximately 
+240 N.
+ 
+[2]
+ 
+(b) The archer releases the bow string. All the energy in (a) is transferred to the arrow.
+ 
+ 
+The arrow moves off at an initial speed v. The mass of the arrow is 0.030 kg.
+ 
+ 
+(i) Calculate the initial speed v of the arrow.
+ 
+initial speed v =  ......................................................... [3]
+ 
+ 
+(ii) Explain why the speed of the arrow as it hits the target is less than the value in (b)(i).
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+[Total: 7]
+* 0000800000006 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊàû¶þ×
+ĬĂÆûÛĝģîÚ÷ĈĨÔÞăÜðĂ
+ĥąÅĕµõĥÕÅĕÅÅÅõĥõõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q4 =====
+7
+0625/43/M/J/25
+© UCLES 2025
+[Turn over
+4 
+Fig. 4.1 shows a pan with a copper base on a hotplate. The hotplate heats the pan and the water.
+water
+copper base
+pan
+hotplate
+Fig. 4.1
+ 
+(a) Explain how thermal energy is conducted through the copper base.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+ 
+(b) (i) Define, in words, specific heat capacity.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+ 
+(ii) A student heats a metal object to 100 °C. The student places the metal object in an 
+insulated cup containing water at 22 °C. The final temperature of the water and the metal 
+object is 31 °C.
+ 
+ 
+ The specific heat capacity of water is 4.2 J / (g °C).
+ 
+ 
+ The mass of the water in the insulated cup is 50 g.
+ 
+ 
+ The mass of the metal object is 54 g.
+ 
+ 
+ Calculate the specific heat capacity of the metal.
+ 
+specific heat capacity =  ......................................................... [3]
+ 
+[Total: 8]
+* 0000800000007 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊàù¶þ×
+ĬĂÅüÓīğþßāùáĈÖ×ÜĀĂ
+ĥąµÕõĕąµÕĥĕÅÅĕąµĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q5 =====
+8
+0625/43/M/J/25
+© UCLES 2025
+5 
+Fig. 5.1 shows four rays of red light, P, Q, R and S, coming from a spotlight in a swimming pool.
+P
+Q
+R
+S
+S
+R
+air
+water
+spotlight
+Fig. 5.1
+ 
+(a) Define, in words, refractive index for a ray of light travelling from air to water.
+ ............................................................................................................................................. [1]
+ 
+(b) On Fig. 5.1, draw the path of rays P and Q at the water–air boundary. 
+[2]
+ 
+(c) The angle of incidence for ray R is 49°.
+ 
+ 
+Calculate the refractive index of the water.
+ 
+refractive index =  ......................................................... [2]
+ 
+(d) Explain why ray S is totally internally reflected at the water surface.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+[Total: 7]
+* 0000800000008 *
+,		,
+ĬÑĊ®Ġ´íÈõÏĪÅĊÞû¶Ā×
+ĬĂÅùÓġčċÜÿòêæúõÌøĂ
+ĥµĥÕµĕąĕµÅĥÅąĕåµõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q6 =====
+9
+0625/43/M/J/25
+© UCLES 2025
+[Turn over
+6 
+Ultrasound is an example of a longitudinal wave.
+ 
+(a) Define the term ultrasound.
+ ............................................................................................................................................. [1]
+ 
+(b) Describe what is meant by a longitudinal wave.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+(c) Ultrasound is used to locate objects below the surface of the sea.
+ 
+ 
+(i) Describe how ultrasound is used to locate an object below the surface of the sea.
+ 
+ 
+ You may draw a labelled diagram as part of your answer.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ 
+[3]
+ 
+ 
+(ii) State one other use of ultrasound.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+[Total: 6]
+* 0000800000009 *
+,	
+,
+ĬÓĊ®Ġ´íÈõÏĪÅĊÞù¶Ā×
+ĬĂÆúÛħđûÝùÿğòĂáÌĈĂ
+ĥµĕĕõõĥõåµµÅąõÅõĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q7 =====
+10
+0625/43/M/J/25
+© UCLES 2025
+7 
+A student sets up the circuit shown in Fig. 7.1.
+A
+0.50 A
+6.0 Ω
+20 Ω
+R
+I2
+I1
+12 V
+Fig. 7.1
+ 
+(a) Determine the value of the current measured by the ammeter.
+ 
+current =  ......................................................... [1]
+ 
+(b) Calculate the potential difference (p.d.) across the 6.0 Ω resistor.
+ 
+p.d. =  ......................................................... [2]
+ 
+(c) Show that the p.d. across the 20 Ω resistor is 9.0 V.
+ 
+[1]
+ 
+(d) Calculate the resistance of resistor R.
+ 
+resistance =  ......................................................... [3]
+ 
+[Total: 7]
+* 0000800000010 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊßû¸þ×
+ĬĂÈùÚģĕčÖĈùĄÊüđôĀĂ
+ĥĥąĕµĕåĕĕõĥąąµåµÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q8 =====
+11
+0625/43/M/J/25
+© UCLES 2025
+[Turn over
+8 
+(a) (i) State what is meant by an electric field.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Fig. 8.1 shows a negative point charge.
+ 
+ 
+ 
+ 
+negative point charge
+−
+Fig. 8.1
+ 
+ 
+ On Fig. 8.1, draw four field lines to show the pattern and the direction of the electric field 
+due to the negative point charge. 
+[2]
+ 
+(b) The potential difference (p.d.) of a lightning strike is 2.9 × 108 V. The energy transferred by the 
+lightning strike is 4.5 × 105 MJ.
+ 
+ 
+Calculate the charge that flows.
+ 
+charge =  ......................................................... [3]
+ 
+(c) The current in a lamp is 2.0 A. The lamp is switched on for a time of 120 s.
+ 
+ 
+Calculate the charge that flows.
+ 
+charge =  ......................................................... [2]
+ 
+[Total: 8]
+* 0000800000011 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊßù¸þ×
+ĬĂÇúÒĥęĝãòĈÅĎĄÅôðĂ
+ĥĥõÕõõÅõąąµąąÕÅõÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q9 =====
+Calculate the voltage across the secondary coil.
+ 
+ 
+ 
+.
+V 
+12
+ 
+is
+ 
+coil
+ 
+primary
+ 
+the
+ 
+across
+ 
+voltage
+ 
+The
+ 
+20.
+ : 
+1
+ 
+of
+ 
+ratio
+ 
+turns
+ 
+a
+ 
+has
+ 
+transformer
+ 
+step-up
+ 
+A
+ 
+current = ......................................................... [2]
+Calculate the current in the cable.
+voltage across secondary coil = ......................................................... [2]
+(b) The power lost in a cable is 1.25 × 10–3W. The resistance of the cable is 0.050Ω.
+(ii)
+ 
+ 
+[3]
+ 
+.....................................................................................................................................
+ 
+...........................................................................................................................................
+ 
+...........................................................................................................................................
+ 
+...........................................................................................................................................
+ 
+Describe how an alternating current is produced in the secondary coil.
+ 
+ 
+ 
+There is an alternating current in the primary coil.
+ 
+(i)
+ 
+ 
+Fig. 9.1
+soft-iron core
+coil
+secondary
+coil
+primary
+.
+Fig. 9.1 shows a transformer
+ 
+(a)
+ 
+9
+© UCLES 2025
+12
+* 0000800000012 *
+,	,
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+1 ................................................................................................................................................
+...................................................................................................................................................
+2 ................................................................................................................................................
+[2]
+[Total: 9]
+...................................................................................................................................................
+(c)
+State two advantages of high-voltage transmission.
+
+===== Q10 =====
+best-fit line
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Hubble constant = ......................................................... [3]
+Fig. 10.1
+A scientist draws a best-fit line on the scatter graph.
+Use this best-fit line to determine a value for the Hubble constant.
+3
+2
+1
+0
+120
+100
+80
+60
+s
+ / 
+km
+ 4
+10
+speed of galaxy
+km
+ 
+20
+10
+ / 
+distance of galaxy from Earth
+40
+20
+0
+varies with their distances from the Earth.
+ 
+Earth
+ 
+the
+ 
+from
+ 
+away
+ 
+moving
+ 
+galaxies
+ 
+of
+ 
+speed
+ 
+the
+ 
+how
+ 
+showing
+ 
+graph
+ 
+scatter
+ 
+a
+ 
+is
+ 
+10.1
+ 
+Fig.
+ 
+(c)
+ 
+[2]
+ 
+.........................................................
+ 
+distance = 
+ 
+arth.
+Calculate the distance from the Sun to the E
+ 
+ 
+he Earth.
+s to travel from the Sun to t
+ 
+It takes light 490
+ 
+(b)
+ 
+[1]
+ 
+...................................................................................................
+....................................
+......
+ 
+Define a light-year in words.
+ 
+(a)
+ 
+10
+© UCLES 2025
+14
+* 0000800000014 *
+,	,
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+Describe what is meant by redshift.
+...................................................................................................................................................
+...................................................................................................................................................
+............................................................................................................................................. [2]
+[Total: 8]
+...................................................................................................................................................
+(d) The speed of a receding galaxy can be estimated using redshift.
+
+===== Q11 =====
+16
+0625/43/M/J/25
+© UCLES 2025
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every 
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the 
+publisher will be pleased to make amends at the earliest possible opportunity.
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+Cambridge Assessment International Education is part of Cambridge Assessment. Cambridge Assessment is the brand name of the University of Cambridge 
+Local Examinations Syndicate (UCLES), which is a department of the University of Cambridge.
+11 (a) Define the half-life of a radioactive source.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+(b) A protactinium (Pa) nucleus decays into a uranium (U) nucleus by the emission of a beta 
+particle (β-particle).
+ 
+ 
+(i) Complete the nuclear equation for the decay.
+23
+9
+4
+1Pa 
+ 
+[3]
+ 
+ 
+(ii) State the change that occurs in the nucleus during the decay.
+ ..................................................................................................................................... [1]
+ 
+(c) A different element decays by the emission of an alpha particle (α-particle).
+ 
+ 
+Give two reasons why α-particles are more strongly ionising than β-particles.
+1  ................................................................................................................................................
+ ...................................................................................................................................................
+2  ................................................................................................................................................
+ ...................................................................................................................................................
+ 
+[2]
+ 
+[Total: 7]
+* 0000800000016 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊàúµĄ×
+ĬĂÈüÓīĦĕÑøăĪ²ÙÁÄøĂ
+ĥÅõĕµĕąÕĥĕµÅÅĕĥµąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD

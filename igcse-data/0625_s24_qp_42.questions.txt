@@ -1,0 +1,605 @@
+===== Q1 =====
+2
+0625/42/M/J/24
+© UCLES 2024
+1 
+A load is suspended from a thread. The vertical force on the thread due to the load is 0.75 N.
+ 
+(a) Calculate the mass of the load.
+ 
+mass = .......................................................... [2]
+ 
+(b) Fig. 1.1 shows the load suspended from the thread.
+thread
+load
+X
+Fig. 1.1
+ 
+ 
+A wire is attached to the load at point X and pulled horizontally to the right.
+ 
+ 
+The tension in the horizontal wire is 1.2 N.
+ 
+ 
+By drawing a scale diagram or by calculation, determine:
+• 
+the magnitude of the resultant of the force at X due to the load and due to the tension in 
+the wire
+• 
+the direction of the resultant relative to the vertical direction.
+ 
+ 
+Show your working.
+ 
+magnitude of resultant force = ............................................................. N
+ 
+direction of resultant relative to vertical = .............................................................. °
+ 
+[4]
+* 0019655392602 *
+,
+
+,
+ĬÕĊ®Ġ³íÇõÛđµĞÓďÇĎ×
+Ĭµ·ã¿ĪÁħâüÿ¹ĖÑûòñĂ
+ĥõµĕµõąõąõõĕµĥÅõąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+3
+0625/42/M/J/24
+© UCLES 2024
+[Turn over
+ 
+(c) Forces may produce changes in the size and the shape of an object.
+ 
+ 
+State two other changes that forces may produce.
+1  ................................................................................................................................................
+2  ................................................................................................................................................
+ 
+[2]
+ 
+[Total: 8]
+* 0019655392603 *
+,
+
+,
+Ĭ×Ċ®Ġ³íÇõÛđµĞÓčÇĎ×
+Ĭµ¸äÇĠ½ė×þòðÂéßòāĂ
+ĥõÅÕõĕĥĕĕąåĕµąåµĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q2 =====
+4
+0625/42/M/J/24
+© UCLES 2024
+2 
+(a) Define acceleration.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+(b) A train has a total mass of 520 000 kg. The train accelerates at 1.1 m / s2.
+ 
+ 
+(i) Calculate the time taken for the train to increase its speed from 15 m / s to 28 m / s.
+ 
+time =  ......................................................... [2]
+ 
+ 
+(ii) Calculate the force required to produce an acceleration of 1.1 m / s2 for this train.
+ 
+force =  ......................................................... [2]
+ 
+ 
+(iii) The train uses electric motors.
+ 
+ 
+ Explain why the force on the train due to the motors is greater than the value calculated 
+in (ii).
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+[Total: 6]
+* 0019655392604 *
+,
+
+,
+ĬÕĊ®Ġ³íÇõÛđµĞÑďÇĐ×
+Ĭµ¸áÇĦ¯ĒäĄù÷ĤąýĢùĂ
+ĥÅĕÕµĕĥµõåÕĕõąąµąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q3 =====
+5
+0625/42/M/J/24
+© UCLES 2024
+[Turn over
+3 
+A student drops a heavy ball from a vertical height of 1.8 m above the ground. The ball then falls to 
+the ground. It does not bounce after hitting the ground.
+ 
+(a) Describe the transfers of energy of the ball between stores from when the ball begins to fall to 
+when it reaches the ground.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+ 
+(b) Calculate the maximum speed of the ball. Ignore air resistance.
+ 
+ 
+Show your working.
+ 
+maximum speed = .......................................................... [3]
+ 
+[Total: 6]
+* 0019655392605 *
+,
+
+,
+Ĭ×Ċ®Ġ³íÇõÛđµĞÑčÇĐ×
+Ĭµ·â¿Ĥ³ĢÕöĈ²¸íÙĢĉĂ
+ĥÅĥĕõõąÕĥÕąĕõĥĥõĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q4 =====
+6
+0625/42/M/J/24
+© UCLES 2024
+4 
+(a) State two ways that evaporation differs from boiling.
+1  ................................................................................................................................................
+2  ................................................................................................................................................
+ 
+[2]
+ 
+(b) Fig. 4.1 shows part of a container used to store a mixture of liquid and gaseous oxygen.
+steel walls of
+container
+vacuum
+Fig. 4.1
+ 
+ 
+The temperature of the liquid oxygen is –160 °C.
+ 
+ 
+(i) Determine the temperature of the liquid oxygen in K.
+ 
+temperature = ....................................................... K [1]
+ 
+ 
+(ii) The container is made of steel and there is a vacuum between the inner and outer walls. 
+The outer wall of the container is at room temperature.
+ 
+ 
+ State two methods of thermal energy transfer that a vacuum prevents.
+1  .........................................................................................................................................
+2  .........................................................................................................................................
+ 
+[2]
+* 0019655392606 *
+,
+
+,
+ĬÙĊ®Ġ³íÇõÛđµĞÔčÆĎ×
+Ĭµ¸âÄĪÛĬÍñõËØą¼ÊùĂ
+ĥĕÅĕõÕąõåµåĕµĥÅµÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+7
+0625/42/M/J/24
+© UCLES 2024
+[Turn over
+ 
+(c) Describe, in terms of particles, how a gas exerts a pressure on the walls of its container.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+ 
+[Total: 8]
+* 0019655392607 *
+,
+
+,
+ĬÛĊ®Ġ³íÇõÛđµĞÔďÆĎ×
+Ĭµ·áÌĠ×ĜìćČþĄíĠÊĉĂ
+ĥĕµÕµµĥĕµÅõĕµąåõÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q5 =====
+9
+0625/42/M/J/24
+© UCLES 2024
+[Turn over
+5 
+Fig. 5.1 shows a ray of yellow light incident on a glass prism ABC. 
+yellow
+light
+B
+A
+C
+Fig. 5.1
+ 
+(a) Explain why the ray does not change direction when it enters the prism at face AB.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+(b) The critical angle for the glass is 42°.
+ 
+ 
+(i) Calculate the refractive index of the glass.
+ 
+ 
+ Show your working.
+ 
+refractive index =  ......................................................... [2]
+ 
+ 
+(ii) On Fig. 5.1, continue the path of the light through the prism and after it leaves the prism.
+ 
+[3]
+ 
+(c) Internet data can be transferred using infrared waves in optical fibres.
+ 
+ 
+State two advantages of using optical fibres to transmit data.
+1  ................................................................................................................................................
+2  ................................................................................................................................................
+ [2]
+ 
+[Total: 8]
+* 0019655392609 *
+,
+
+
+,
+ĬÛĊ®Ġ³íÇõÛđµĞÒďÆĐ×
+Ĭµ¸ãÄĤéĝêïîÄöéĚÚāĂ
+ĥåĕĕµÕąÕÅĕÕĕõĥĥµÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q6 =====
+10
+0625/42/M/J/24
+© UCLES 2024
+6 
+(a) A sound wave travels through air. Fig. 6.1 shows a pressure–time graph for the air at 
+one place.
+time
+pressure
+atmospheric
+pressure
+Fig. 6.1
+ 
+ 
+(i) On Fig. 6.1:
+• 
+label one point C to indicate a compression
+• 
+label one point R to indicate a rarefaction.
+ 
+[2]
+ 
+ 
+(ii) Explain why this graph cannot be used to find the wavelength of the sound wave.
+ ...........................................................................................................................................
+… .................................................................................................................................. [1]
+ 
+ 
+(iii) The sound becomes louder and of lower pitch.
+ 
+ 
+ State what happens to:
+ 
+ 
+ the amplitude of the sound
+ ...........................................................................................................................................
+ 
+ 
+ the frequency of the sound.
+ ...........................................................................................................................................
+ 
+[1]
+* 0019655392610 *
+,
+
+,
+ĬÙĊ®Ġ³íÇõÛđµĞÓčÈĎ×
+Ĭµ¶äÁĨÝċÑĂČß¾ÓêĢĉĂ
+ĥõąĕõµÅµõÕąÕõåąõõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+11
+0625/42/M/J/24
+© UCLES 2024
+[Turn over
+ 
+(b) A sound of frequency 13 kHz is transmitted through water.
+ 
+ 
+The speed of sound in water is 1500 m / s.
+ 
+ 
+Calculate the wavelength of this sound in water.
+ 
+wavelength =  ......................................................... [3]
+ 
+(c) State the approximate speed of sound in air.
+ 
+speed =  ......................................................... [1]
+ 
+[Total: 8]
+* 0019655392711 *
+,
+
+,
+ĬÛĉ¯Ġ³íÇõÛđµĞÔčÈĎ×
+Ĭµ¶â¾īÎĝâăøĜõēêÒñĂ
+ĥÅåÕõĕĥÕĕÕåÕµĥąµÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q7 =====
+12
+0625/42/M/J/24
+© UCLES 2024
+7 
+(a) Fig. 7.1 shows three bars of steel, A, B and C.
+A
+B
+C
+Fig. 7.1
+ 
+ 
+A student is given the three pieces of steel. Two of the pieces are magnetised and one piece 
+is unmagnetised.
+ 
+ 
+Describe and explain how the student determines which piece is unmagnetised using only 
+the three pieces of steel.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [4]
+ 
+(b) Fig. 7.2 shows a circuit diagram of a step‑down transformer.
+output
+Fig. 7.2
+* 0019655392712 *
+,
+
+,
+ĬÙĉ¯Ġ³íÇõÛđµĞÒďÈĐ×
+Ĭµ¶ã¾ġàĬÕýïē×¯ČÂĉĂ
+ĥõõÕµĕĥõõõÕÕõĥåµÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+13
+0625/42/M/J/24
+© UCLES 2024
+[Turn over
+ 
+ 
+(i) The mains voltage supplied to the transformer is 240 V. The output power of the 
+transformer is 45 W. The transformer is 100% efficient.
+ 
+ 
+ Calculate the input current to the transformer.
+ 
+input current = .......................................................... [3]
+ 
+ 
+(ii) Draw a labelled diagram of a step‑down transformer. On the labels, state a suitable 
+material for each of the components.
+ 
+[3]
+ 
+[Total: 10]
+* 0019655392713 *
+,
+
+,
+ĬÛĉ¯Ġ³íÇõÛđµĞÒčÈĐ×
+ĬµµäÆħäĜäûĂÖăÇÐÂùĂ
+ĥõąĕõõąĕĥąąÕõąÅõÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q8 =====
+14
+0625/42/M/J/24
+© UCLES 2024
+8 
+(a) Fig. 8.1 shows a circuit. The circuit is designed to switch on a night light when the surroundings 
+are dark.
+Fig. 8.1
+ 
+ 
+(i) On Fig. 8.1, draw the circuit symbol for a voltmeter used to measure the potential 
+difference (p.d.) across the light‑dependent resistor (LDR). 
+[1]
+ 
+ 
+(ii) The surroundings change from light to dark.
+ 
+ 
+ 1. State the effect of this change on the resistance of the LDR.
+ ................................................................................................................................ [1]
+ 
+ 
+ 2.  State and explain the effect of this change on the p.d. across the light‑emitting diode 
+(LED).
+ ......................................................................................................................................
+ ......................................................................................................................................
+ ................................................................................................................................ [2]
+* 0019655392714 *
+,
+
+,
+ĬÕĉ¯Ġ³íÇõÛđµĞÑĎÅĒ×
+Ĭµ¶âÇĩÏĤÒíąùßĎÜòñĂ
+ĥÕąÕµĕÅµąĕąĕµÅĥµĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+15
+0625/42/M/J/24
+© UCLES 2024
+[Turn over
+ 
+(b) Fig. 8.2 shows another circuit. Lamps A and B are identical filament lamps.
+240 V
+A
+B
+Fig. 8.2
+ 
+ 
+The current supplied by the power supply is 0.50 A.
+ 
+ 
+Calculate the resistance of lamp A.
+ 
+resistance =  ......................................................... [3]
+ 
+[Total: 7]
+* 0019655392715 *
+,
+
+,
+Ĭ×ĉ¯Ġ³íÇõÛđµĞÑĐÅĒ×
+Ĭµµá¿ğÓĔçċü°ûĦĀòāĂ
+ĥÕõĕõõåÕĕĥÕĕµåąõąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q9 =====
+17
+0625/42/M/J/24
+© UCLES 2024
+[Turn over
+9 
+(a) Radioactive isotopes that emit ionising radiation are used in hospitals.
+ 
+ 
+(i) State and explain two safety precautions necessary for the use of these isotopes in 
+medical procedures.
+safety procedure 1  ............................................................................................................
+explanation  ........................................................................................................................
+ ...........................................................................................................................................
+safety procedure 2  ............................................................................................................
+explanation  ........................................................................................................................
+ ...........................................................................................................................................
+ 
+[2]
+ 
+ 
+(ii) Give two reasons why alpha‑emitters are not used as radioactive tracers inside the body.
+1  ........................................................................................................................................
+ ...........................................................................................................................................
+2  ........................................................................................................................................
+ ...........................................................................................................................................
+ 
+[2]
+ 
+(b) Sodium‑24 is an isotope of sodium (Na) that has a proton number of 11 and a nucleon number 
+of 24.
+ 
+ 
+Sodium‑24 decays by emission of a beta‑particle to form an isotope of magnesium (Mg).
+ 
+ 
+Use nuclide notation to write down the nuclide equation for this decay.
+ 
+[3]
+ 
+[Total: 7]
+* 0019655392717 *
+,
+
+,
+Ĭ×ĉ¯Ġ³íÇõÛđµĞÓĐÅĔ×
+Ĭµ¶ãÇģÝĥåóþòý²úĢĉĂ
+ĥĥÕÕõĕÅĕĥµõĕõÅÅµąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q10 =====
+18
+0625/42/M/J/24
+© UCLES 2024
+10 (a) The Solar System includes the Sun and planets.
+ 
+ 
+State two other types of natural object that orbit the Sun.
+1  ................................................................................................................................................
+2  ................................................................................................................................................
+ 
+[2]
+ 
+(b) State the shape of the orbits of the planets.
+ ............................................................................................................................................. [1]
+ 
+(c) Fig. 10.1 shows the orbit of an object around the Sun. At point A, the object is closest to the 
+Sun. At point B, the object is furthest away from the Sun.
+Sun
+A
+B
+Fig. 10.1
+ 
+ 
+State and explain the energy transfer as the object travels from point A to point B.
+statement  ..................................................................................................................................
+ ...................................................................................................................................................
+explanation  ................................................................................................................................
+ ...................................................................................................................................................
+ 
+[2]
+ 
+(d) Jupiter is 7.8 × 1011 m from the Sun. The speed of light in a vacuum is 3.0 × 108 m / s.
+ 
+ 
+Calculate the time taken for light from the Sun to reach Jupiter.
+ 
+time =  ......................................................... [2]
+ 
+[Total: 7]
+* 0019655392718 *
+,
+
+	,
+ĬÕĉ¯Ġ³íÇõÛđµĞÒĎÇĒ×
+Ĭµ¸äÆħéăÎþüčµÌÊÚāĂ
+ĥµÅÕµõąõÕõåÕõąåõåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q11 =====
+19
+0625/42/M/J/24
+© UCLES 2024
+11 (a) Name the galaxy that contains the Sun.
+ ............................................................................................................................................. [1]
+ 
+(b) Light observed from distant galaxies is redshifted.
+ 
+ 
+State the theory of the Universe that this observation supports.
+ ............................................................................................................................................. [1]
+ 
+(c) Cosmic microwave background radiation (CMBR) is observed at all points in space.
+ 
+ 
+(i) State when this radiation was produced.
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Explain why this radiation is now in the microwave region of the electromagnetic spectrum.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+[Total: 5]
+* 0019655392719 *
+,
+
+
+,
+Ĭ×ĉ¯Ġ³íÇõÛđµĞÒĐÇĒ×
+Ĭµ·ã¾ġåóëüąÜġ´ĎÚñĂ
+ĥµµĕõĕĥĕÅąõÕõĥÅµµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN

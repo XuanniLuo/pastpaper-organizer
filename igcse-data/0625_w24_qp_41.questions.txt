@@ -1,0 +1,661 @@
+===== Q1 =====
+2
+0625/41/O/N/24
+© UCLES 2024
+1 
+A spring is suspended from a clamp. Fig. 1.1 shows a pointer attached to the lower end of the 
+spring.
+10
+20
+30
+40
+50
+60
+70
+80
+90
+metre ruler
+cm
+pointer
+spring
+loads
+Fig. 1.1
+ 
+A student suspends loads of different weights from the spring and records the readings on the 
+metre ruler.
+* 0000800000002 *
+,	,
+ĬÕĊ®Ġ´íÈõÏĪÅĊàú¸þ×
+ĬÝ¿üÍĦħÿèøĆ·ċâċùęĂ
+ĥÕåĕµõĥµĥąÅąÅÕąµµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+3
+0625/41/O/N/24
+© UCLES 2024
+[Turn over
+ 
+Fig. 1.2 is the reading–weight graph that the student obtains.
+0
+1.0
+2.0
+3.0
+4.0
+5.0
+weight / N
+reading / cm
+6.0
+7.0
+0
+10
+20
+30
+40
+50
+60
+70
+80
+Fig. 1.2
+ 
+(a) (i) Using Fig. 1.2, determine the reading on the metre ruler when
+1. no weight is attached to the spring  ................................................................................
+2. a weight of 5.6 N is attached to the spring  .....................................................................
+ 
+[1]
+ 
+ 
+(ii) Calculate the extension of the spring when the weight attached is 5.6 N.
+ 
+extension =  ......................................................... [1]
+ 
+(b) Using the values found in (a), calculate the spring constant of the spring.
+ 
+spring constant =  ......................................................... [2]
+* 0000800000003 *
+,	,
+Ĭ×Ċ®Ġ´íÈõÏĪÅĊàü¸þ×
+ĬÝÀûÕĤīïÑĂûòÏÚÏùĩĂ
+ĥÕÕÕõĕąÕõõĕąÅµĥõåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+4
+0625/41/O/N/24
+© UCLES 2024
+ 
+(c) An object of mass 0.50 kg is attached to the spring.
+ 
+ 
+(i) Calculate the weight of the object.
+ 
+weight =  ......................................................... [1]
+ 
+ 
+(ii) The object is pulled downwards until the tension in the spring is 6.5 N.
+ 
+ 
+ The object is released.
+ 
+ 
+ Calculate the acceleration of the object immediately after it is released.
+ 
+acceleration =  ......................................................... [3]
+ 
+[Total: 8]
+* 0000800000004 *
+,	,
+ĬÕĊ®Ġ´íÈõÏĪÅĊÞú¸Ā×
+ĬÝÀúÕĪęúæĀôùíöíĩđĂ
+ĥĥąÕµĕąõĕÕĥąąµÅõµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q2 =====
+6
+0625/41/O/N/24
+© UCLES 2024
+2 
+A drag car is a racing car that is powered by a rocket engine.
+ 
+A drag car accelerates uniformly from rest until it reaches the finishing line. The engine is then 
+switched off and a parachute opens. The car decelerates until it stops.
+ 
+Fig. 2.1 shows a drag car decelerating after a race.
+drag car
+parachute
+Fig. 2.1
+ 
+This drag car has a mass of 1400 kg.
+ 
+Fig. 2.2 is the speed–time graph for the car during a race on a straight horizontal track.
+0
+4
+8
+12
+16
+20
+24
+0
+20
+40
+60
+80
+100
+120
+140
+160
+speed
+m / s
+time / s
+Fig. 2.2
+ 
+The car reaches its maximum speed of 130 m / s at a time of 6.5 s.
+* 0000800000006 *
+,	,
+ĬÙĊ®Ġ´íÈõÏĪÅĊßüµþ×
+ĬÝÀùÒĦíĄÛíðÅÉöÌÁđĂ
+ĥµÕĕõÕĥµÅÅĕąÅÕąõõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+7
+0625/41/O/N/24
+© UCLES 2024
+[Turn over
+ 
+(a) (i) Calculate the maximum momentum of the car during the race.
+ 
+maximum momentum =  ......................................................... [2]
+ 
+ 
+(ii) State the feature of Fig. 2.2 that represents the distance travelled by the car.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(iii) Determine the distance travelled by the car in the first 6.5 s.
+ 
+distance =  ......................................................... [2]
+ 
+(b) The parachute opens at 6.5 s and the car decelerates.
+ 
+ 
+Describe how Fig. 2.2 shows that, after 6.5 s:
+ 
+ 
+(i) the car decelerates
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) the deceleration of the car is not constant.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+(c) Describe the energy transfer that takes place as the car slows down.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+[Total: 9]
+* 0000800000007 *
+,	,
+ĬÛĊ®Ġ´íÈõÏĪÅĊßúµþ×
+ĬÝ¿úÚĤñôÞċāĄčþĐÁġĂ
+ĥµåÕµµąÕÕµÅąÅµĥµĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q3 =====
+8
+0625/41/O/N/24
+© UCLES 2024
+3 
+(a) Define the moment of a force and describe the effect that it measures.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+ 
+(b) A large rectangular block of stone has a square base of side 3.4 m. Fig. 3.1 shows the block 
+at rest on a horizontal surface.
+3.4 m
+G
+X
+horizontal surface
+Fig. 3.1
+ 
+ 
+The block is of uniform density and the centre of gravity G is at its centre.
+ 
+ 
+(i) Explain what is meant by centre of gravity.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) The weight of the block is 1.3 × 107 N.
+ 
+ 
+ Calculate the moment of the weight of the block about corner X.
+ 
+moment of weight =  ......................................................... [2]
+* 0000800000008 *
+,		,
+ĬÙĊ®Ġ´íÈõÏĪÅĊÝüµĀ×
+ĬÝ¿ûÚĪăõÙąĊċ¯â®ÑęĂ
+ĥąõÕõµąõµĕµąąµÅµõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+9
+0625/41/O/N/24
+© UCLES 2024
+[Turn over
+ 
+(c) The block shown in Fig. 3.1 is in equilibrium.
+ 
+ 
+State the two different conditions that apply when an object is in equilibrium.
+1  ................................................................................................................................................
+2  ................................................................................................................................................
+ 
+[2]
+ 
+[Total: 8]
+* 0000800000009 *
+,	
+,
+ĬÛĊ®Ġ´íÈõÏĪÅĊÝúµĀ×
+ĬÝÀüÒĠÿąàó÷¾īÚĪÑĩĂ
+ĥąąĕµÕĥĕåĥĥąąÕåõĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q4 =====
+10
+0625/41/ O/N/24
+© UCLES 2024
+4 
+(a) Describe an experiment to determine the specific heat capacity of aluminium. You may draw 
+a diagram.
+ 
+ 
+Include in your answer:
+• 
+the measurements made
+• 
+any equations needed.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [4]
+ 
+(b) An aluminium dish is initially at room temperature. Boiling water is poured into the aluminium 
+dish as shown in Fig. 4.1.
+boiling water
+aluminium dish
+table surface
+Fig. 4.1
+* 0000800000010 *
+,	,
+ĬÙĊ®Ġ´íÈõÏĪÅĊàü·þ×
+ĬÝ¾ûÓĬċģ×þāáÓäÚĩġĂ
+ĥÕĕĕõµåõĕåµÅąĕÅµÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+11
+0625/41/O/N/24
+© UCLES 2024
+[Turn over
+ 
+ 
+(i) Explain why, after a short time, the dish and the water are the same temperature.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [3]
+ 
+ 
+(ii) Explain, in terms of its particles, why the aluminium expands as the boiling water is 
+poured into the dish.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+ 
+(iii) The water in the dish evaporates.
+ 
+ 
+ Explain, in terms of the water molecules, what is meant by evaporation.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+[Total: 11]
+* 0000800000011 *
+,	,
+ĬÛĊ®Ġ´íÈõÏĪÅĊàú·þ×
+ĬÝ½üÛĞćēâüðĨćÜþĩđĂ
+ĥÕĥÕµÕÅĕąÕĥÅąõåõÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q5 =====
+12
+0625/41/O/N/24
+© UCLES 2024
+5 
+A loudspeaker produces a sound wave in air. The distance between the centre of a compression 
+and the centre of a neighbouring rarefaction is 0.10 m.
+ 
+(a) Calculate the wavelength of the sound wave.
+ 
+wavelength =  ......................................................... [1]
+ 
+(b) State a typical value for the speed of sound in air.
+ ............................................................................................................................................. [1]
+ 
+(c) (i) Calculate the frequency of the sound from the loudspeaker.
+ 
+frequency =  ......................................................... [2]
+ 
+ 
+(ii) Explain whether the sound from the loudspeaker is audible to a human with normal 
+hearing.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+* 0000800000012 *
+,	,
+ĬÙĊ®Ġ´íÈõÏĪÅĊÞü·Ā×
+ĬÝ½ùÛĨõĖÕö÷ğåøàùĩĂ
+ĥĥµÕõÕÅµĥõĕÅÅõąõÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+13
+0625/41/O/N/24
+© UCLES 2024
+[Turn over
+ 
+(d) Another loudspeaker produces a sound of wavelength 0.40 m. Sound from the loudspeaker 
+reaches a sound absorbing surface with a gap of width 0.80 m at the centre.
+ 
+ 
+Fig. 5.1 shows the arrangement.
+0.80 m
+K
+gap
+loudspeaker
+sound absorbing surface
+J
+Fig. 5.1
+ 
+ 
+Explain whether it is possible to detect sound from the loudspeaker at either point J or at 
+point K.
+point J  .......................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+point K  ......................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+[4]
+ 
+[Total: 9]
+* 0000800000013 *
+,	,
+ĬÛĊ®Ġ´íÈõÏĪÅĊÞú·Ā×
+ĬÝ¾úÓĢùĦäĄĊêñĀüùęĂ
+ĥĥÅĕµµåÕõąÅÅÅĕĥµÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q6 =====
+14
+0625/41/O/N/24
+© UCLES 2024
+6 
+A potential divider is made by connecting a light-dependent resistor (LDR) and a thermistor in 
+series. Fig. 6.1 shows the potential divider, a voltmeter and a direct current (d.c.) power supply 
+connected into a circuit.
+V
++
+–
+Fig. 6.1
+ 
+The voltmeter measures the potential difference (p.d.) across the LDR.
+ 
+(a) Define potential difference (p.d.).
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+(b) The electromotive force (e.m.f.) of the supply is E.
+ 
+ 
+Describe how the p.d. across the thermistor can be determined using the reading on the 
+voltmeter.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+* 0000800000014 *
+,	,
+ĬÕĊ®Ġ´íÈõÏĪÅĊÝù¶Ă×
+ĬÝ½üÒĠĆĎÒĆýąÍÕðÉđĂ
+ĥÅÅÕõÕĥõĕĕÅąąÕÅõąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+15
+0625/41/O/N/24
+© UCLES 2024
+[Turn over
+ 
+(c) The resistance of the LDR decreases and the resistance of the thermistor increases.
+ 
+ 
+(i) State what has happened to the light intensity incident on the LDR and the temperature 
+of the thermistor.
+intensity of incident light on LDR:  ......................................................................................
+temperature of thermistor:  .................................................................................................
+ 
+[1]
+ 
+ 
+(ii) Explain what happens to the reading on the voltmeter.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [3]
+ 
+[Total: 7]
+* 0000800000015 *
+,	,
+Ĭ×Ċ®Ġ´íÈõÏĪÅĊÝû¶Ă×
+ĬÝ¾ûÚĪĊĞçôôÄĉÝìÉġĂ
+ĥÅµĕµµąĕąĥĕąąµåµĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q7 =====
+16
+0625/41/O/N/24
+© UCLES 2024
+7 
+A solid bar is inside a copper solenoid. Fig. 7.1 shows that the copper solenoid is connected in 
+series with a battery and a variable resistor.
+copper solenoid
+bar
+Fig. 7.1
+ 
+The device shown in Fig. 7.1 is an electromagnet.
+ 
+(a) Suggest a suitable material for the bar.
+ ............................................................................................................................................. [1]
+ 
+(b) The right-hand end of the bar is the S pole.
+ 
+ 
+(i) Fig. 7.2 shows the bar viewed from above.
+ 
+ 
+ On Fig. 7.2, draw at least six field lines to show the pattern and direction of the magnetic 
+field surrounding the bar.
+S
+Fig. 7.2
+ 
+[3]
+* 0000800000016 *
+,	,
+ĬÕĊ®Ġ´íÈõÏĪÅĊßù¶Ą×
+ĬÝ¾úÚĤüīÔîûËëāĊÙęĂ
+ĥõĥĕõµąµĥÅĥąÅµąµąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+17
+0625/41/O/N/24
+© UCLES 2024
+[Turn over
+ 
+ 
+(ii) The resistance of the variable resistor increases.
+ 
+ 
+ Explain what happens to the magnetic field surrounding the bar and state how the pattern 
+of field lines that represents the field changes.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [3]
+ 
+(c) A square coil of many turns is placed close to the bar. Fig. 7.3 shows the plane of the square 
+coil parallel to the flat circular surface at the right-hand end of the bar.
+copper solenoid
+terminals
+square coil
+bar
+Fig. 7.3
+ 
+ 
+The resistance of the variable resistor is alternately increased and decreased.
+ 
+ 
+Explain what happens in the wires of the square coil.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+ 
+[Total: 10]
+* 0000800000017 *
+,	,
+Ĭ×Ċ®Ġ´íÈõÏĪÅĊßû¶Ą×
+ĬÝ½ùÒĦøěåČĆþïùÎÙĩĂ
+ĥõĕÕµÕĥÕõµµąÅÕĥõĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q8 =====
+18
+0625/41/O/N/24
+© UCLES 2024
+8 
+The nuclide notation for the radioactive isotope carbon-14 is 14
+6C.
+ 
+(a) Using the symbols shown in Fig. 8.1, draw a diagram to show the number of electrons, 
+neutrons and protons in a neutral atom of carbon-14 and how they are arranged.
+symbols:
+electron
+neutron
+proton
+Fig. 8.1
+ 
+[3]
+ 
+(b) Describe how the composition of a neutral atom of carbon-14 is different from the composition 
+of a neutral atom of nitrogen-14 (14
+7N).
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+* 0000800000018 *
+,		,
+ĬÕĊ®Ġ´íÈõÏĪÅĊÞù¸Ă×
+ĬÝ¿úÓĢôíÎõôġÇăĞġġĂ
+ĥåąÕõµåµÅõĥÅÅĕąµµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+19
+0625/41/O/N/24
+© UCLES 2024
+[Turn over
+ 
+(c) Carbon-14 decays by beta (β) emission.
+ 
+ 
+(i) State the name of a particle that is identical to a beta-particle.
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Describe the change that takes place in carbon-14 as a beta-particle is emitted.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+(d) The half-life of carbon-14 is 5700 years.
+ 
+ 
+A very old object is made of wood. It contains 1.2 × 1011 atoms of carbon-14. When it was 
+manufactured, it contained 9.6 × 1011 atoms of carbon-14.
+ 
+ 
+Determine the time that has passed since it was manufactured.
+ 
+time passed =  ......................................................... [3]
+ 
+[Total: 10]
+* 0000800000019 *
+,	
+,
+Ĭ×Ċ®Ġ´íÈõÏĪÅĊÞû¸Ă×
+ĬÝÀùÛĨðýëăýèēûºġđĂ
+ĥåõĕµÕÅÕÕąµÅÅõĥõåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q9 =====
+20
+0625/41/O/N/24
+© UCLES 2024
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every 
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the 
+publisher will be pleased to make amends at the earliest possible opportunity.
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+Cambridge Assessment International Education is part of Cambridge Assessment. Cambridge Assessment is the brand name of the University of Cambridge 
+Local Examinations Syndicate (UCLES), which is a department of the University of Cambridge.
+9 
+The Milky Way is the galaxy in which the Solar System is located.
+ 
+(a) State what a galaxy is.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+(b) The Milky Way has a diameter that is approximately equal to 100 000 light-years.
+ 
+ 
+Determine this distance in kilometres (km).
+ 
+distance =  ................................................... km [2]
+ 
+(c) Astronomers determine the speed and distance from the Earth of a far galaxy that is moving 
+away from the Earth.
+ 
+ 
+(i) State one observation that allows the speed at which a galaxy is moving away to be 
+determined.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) State one different observation that is used to determine the distance to a far galaxy.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(iii) State how the speeds of galaxies and their distances from the Earth are related.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(iv) The best estimate for the Hubble constant H0 is 2.2 × 10–18 per second.
+ 
+ 
+ Use this value to calculate an estimate for the age of the Universe.
+ 
+age of the Universe =  ...................................................... s [2]
+ 
+[Total: 8]
+* 0000800000020 *
+,	,
+ĬÕĊ®Ġ´íÈõÏĪÅĊàù¸Ą×
+ĬÝÀüÛĞþČÐýĆß±×ĜñĩĂ
+ĥĕåĕõÕÅõµåÅÅąõÅõµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN

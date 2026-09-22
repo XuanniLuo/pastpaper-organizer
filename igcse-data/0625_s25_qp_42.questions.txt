@@ -1,0 +1,700 @@
+===== Q1 =====
+2
+0625/42/M/J/25
+© UCLES 2025
+1 
+Fig. 1.1 is a speed–time graph for an ice skater.
+0
+0
+2
+4
+6
+time t / s
+speed
+m / s
+8
+10
+12
+2
+4
+6
+8
+10
+12
+Fig. 1.1
+ 
+(a) Describe the motion of the skater between t = 0 and t = 3.0 s.
+ ............................................................................................................................................. [1]
+ 
+(b) Calculate the distance travelled by the skater between t = 0 and t = 3.0 s.
+ 
+distance =  ......................................................... [2]
+* 0000800000002 *
+,	,
+ĬÕĊ®Ġ´íÈõÏĪÅĊÞû¸þ×
+Ĭ¿ĊñÚğõĦÒċûħħĒàÙėĂ
+ĥÕõĕõÕąĕåõĕąÅÕĥĕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+3
+0625/42/M/J/25
+© UCLES 2025
+[Turn over
+ 
+(c) (i) State what is meant by deceleration.
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Draw a tangent to the graph at t = 9.0 s.
+ 
+ 
+ Use the tangent to calculate the deceleration of the skater at t = 9.0 s.
+ 
+deceleration =  ......................................................... [3]
+ 
+[Total: 7]
+* 0000800000003 *
+,	,
+Ĭ×Ċ®Ġ´íÈõÏĪÅĊÞù¸þ×
+Ĭ¿ĉòÒĩùĖçíĆâ³ĪüÙħĂ
+ĥÕąÕµµĥõµąÅąÅµąÕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q2 =====
+4
+0625/42/M/J/25
+© UCLES 2025
+2 
+Fig. 2.1 shows a balanced, uniform metre ruler made of wood.
+metre ruler 
+80 cm
+42 cm
+10 cm
+0.12 N
+pivot
+100 cm
+0 cm
+6.0 × 10–3 m
+2.6 × 10–2 m
+0.34 N
+Fig. 2.1
+ 
+The width of the metre ruler is 2.6 × 10–2 m and the thickness of the ruler is 6.0 × 10–3 m.
+ 
+(a) Define the ‘moment’ of a force in words.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+(b) On Fig. 2.1, mark the position of the centre of gravity of the metre ruler with a point labelled X. 
+Label the distance of X from the 0 cm end of the ruler. 
+[1]
+ 
+(c) (i) Show that the mass of the metre ruler is 0.081 kg.
+ 
+[3]
+ 
+ 
+(ii) Calculate the density of the wood of the metre ruler.
+ 
+density =  ......................................................... [2]
+ 
+[Total: 7]
+* 0000800000004 *
+,	,
+ĬÕĊ®Ġ´íÈõÏĪÅĊàû¸Ā×
+Ĭ¿ĉóÒģċēÔóýéđÆÚÉďĂ
+ĥĥÕÕõµĥÕÕåµąąµåÕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q3 =====
+6
+0625/42/M/J/25
+© UCLES 2025
+3 
+(a) Define momentum.
+ ............................................................................................................................................. [1]
+ 
+(b) Fig. 3.1 shows two toy trains, A and B, on a track.
+train A
+train B
+Fig. 3.1
+ 
+ 
+The mass of train A is 0.45 kg and the mass of train B is 0.21 kg. The trains do not have 
+motors.
+ 
+ 
+Train A travels towards train B and they collide.
+ 
+ 
+Immediately before the collision:
+• 
+the velocity of train A is 0.34 m / s to the right
+• 
+the velocity of train B is 0.12 m / s to the left.
+ 
+ 
+The trains stick together when they collide.
+ 
+ 
+Calculate the velocity of the trains immediately after the collision.
+ 
+velocity =  ...............................................................
+ 
+direction  ...............................................................
+ 
+[4]
+* 0000800000006 *
+,	,
+ĬÙĊ®Ġ´íÈõÏĪÅĊÝùµþ×
+Ĭ¿ĉôÕğğĩÝĂāĕåÆğġďĂ
+ĥµąĕµõąĕąµÅąÅÕĥÕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+7
+0625/42/M/J/25
+© UCLES 2025
+[Turn over
+ 
+(c) A different train is travelling with a momentum of 0.26 kg m / s.
+ 
+ 
+The train slows down and stops after 2.1 s.
+ 
+ 
+Calculate the average force acting on the train during this time.
+ 
+average force =  ......................................................... [2]
+ 
+[Total: 7]
+* 0000800000007 *
+,	,
+ĬÛĊ®Ġ´íÈõÏĪÅĊÝûµþ×
+Ĭ¿ĊóÍĩģęÜøðÔñ®»ġğĂ
+ĥµõÕõĕĥõĕÅĕąÅµąĕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q4 =====
+8
+0625/42/M/J/25
+© UCLES 2025
+4 
+(a) Fig. 4.1 shows two metal containers, A and B.
+water
+lid
+container A
+container B
+shiny white
+outer surface
+dull black
+outer surface
+lid
+Fig. 4.1
+ 
+ 
+Container A has a dull black outer surface and container B has a shiny white outer surface. A 
+and B both contain very hot water at time = 0. The temperature of the water in each container 
+is recorded every minute.
+ 
+ 
+(i) State which container has the larger temperature change over the first 5 minutes. Explain 
+your answer.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+ 
+(ii) After 30 minutes, the temperature of the water in container A remains constant.
+ 
+ 
+ State, in terms of energy transfers, why the temperature remains constant.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(iii) The experiment is repeated without the lids on the containers.
+ 
+ 
+ State the name of the additional method of energy transfer that occurs.
+ ..................................................................................................................................... [1]
+* 0000800000008 *
+,		,
+ĬÙĊ®Ġ´íÈõÏĪÅĊßùµĀ×
+Ĭ¿ĊòÍģđĐßú÷ÛÓĒęñėĂ
+ĥąåÕµĕĥÕõĥĥąąµåĕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+9
+0625/42/M/J/25
+© UCLES 2025
+[Turn over
+ 
+(b) Fig. 4.2 shows a metal pan with a wooden handle.
+Fig. 4.2
+ 
+ 
+Explain why there is a much greater rate of transfer of energy through the metal than through 
+the wood.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+ 
+[Total: 7]
+* 0000800000009 *
+,	
+,
+ĬÛĊ®Ġ´íÈõÏĪÅĊßûµĀ×
+Ĭ¿ĉñÕĥčĠÚĀĊĎćĪ½ñħĂ
+ĥąÕĕõõąµĥĕµąąÕÅÕµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q5 =====
+10
+0625/42/M/J/25
+© UCLES 2025
+5 
+(a) Describe an experiment to determine the speed of sound in air.
+ 
+ 
+State the apparatus required, the measurements taken and how to calculate the speed of 
+sound in air from the measurements.
+ 
+ 
+You may draw a labelled diagram as part of your answer.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ 
+[4]
+ 
+(b) Bluetooth is used to connect a mobile (cell) phone to headphones.
+ 
+ 
+(i) State the name of the region of the electromagnetic spectrum used by Bluetooth.
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) State the speed of electromagnetic waves in air.
+ 
+speed =  ......................................................... [1]
+* 0000800000010 *
+,	,
+ĬÙĊ®Ġ´íÈõÏĪÅĊÞù·þ×
+Ĭ¿ċòØġęĊáñðñ¯ĔíÉğĂ
+ĥÕÅĕµĕÅÕÕÕĥÅąĕåĕĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+11
+0625/42/M/J/25
+© UCLES 2025
+[Turn over
+ 
+ 
+(iii) The frequency of a Bluetooth network is 2.48 GHz.
+ 
+ 
+ Calculate the wavelength of the waves used in the Bluetooth network.
+ 
+wavelength =  ......................................................... [3]
+ 
+[Total: 9]
+* 0000800000011 *
+,	,
+ĬÛĊ®Ġ´íÈõÏĪÅĊÞû·þ×
+Ĭ¿ČñÐħĕúØćā¸īĬéÉďĂ
+ĥÕµÕõõåµÅåµÅąõÅÕąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q6 =====
+12
+0625/42/M/J/25
+© UCLES 2025
+6 
+(a) Fig. 6.1 is a full-size diagram of a lens and an image I of an object.
+lens
+I
+Fig. 6.1
+ 
+ 
+The focal length of the lens is 3.0 cm.
+ 
+ 
+(i) On Fig. 6.1, mark two points with labels F, to show the positions of the principal focuses 
+(focal points) of the lens. 
+[1]
+ 
+ 
+(ii) On Fig. 6.1, draw two rays from the image I to locate the object. Draw the object and 
+label it O. 
+[3]
+ 
+ 
+(iii) The object is moved so that it is 6 cm to the left of the lens.
+ 
+ 
+ State one characteristic of the image formed when the object is in this position.
+ ..................................................................................................................................... [1]
+* 0000800000012 *
+,	,
+ĬÙĊ®Ġ´íÈõÏĪÅĊàù·Ā×
+Ĭ¿ČôÐĝħïãĉĊ¯ÉÈċÙħĂ
+ĥĥĥÕµõåĕåąÅÅÅõĥÕĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+13
+0625/42/M/J/25
+© UCLES 2025
+[Turn over
+ 
+(b) Fig. 6.2 shows a simplified diagram of an eye with rays from a near object. The eye needs 
+correction for long-sightedness.
+lens
+retina
+cornea
+Fig. 6.2
+ 
+ 
+(i) On Fig. 6.2, draw the path of the rays inside the eye to show the effect of long-sightedness.
+ 
+[1]
+ 
+ 
+(ii) A lens is used to correct the long-sightedness.
+ 
+ 
+ Draw a lens suitable for this correction.
+ 
+ 
+ 
+lens to correct long-sightedness
+ 
+[1]
+ 
+[Total: 7]
+* 0000800000013 *
+,	,
+ĬÛĊ®Ġ´íÈõÏĪÅĊàû·Ā×
+Ĭ¿ċóØīīÿÖï÷úč°ÏÙėĂ
+ĥĥĕĕõĕÅõµõĕÅÅĕąĕąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q7 =====
+14
+0625/42/M/J/25
+© UCLES 2025
+7 
+(a) State what is meant by an electric field.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+(b) A plastic rod is rubbed with a cloth. The plastic rod becomes negatively charged and the cloth 
+becomes positively charged.
+ 
+ 
+(i) Explain why.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+ 
+(ii) The negatively charged plastic rod is suspended by an insulating thread. Another 
+negatively charged plastic rod is brought close to the suspended rod.
+ 
+ 
+ State what happens to the suspended plastic rod.
+ ..................................................................................................................................... [2]
+ 
+(c) (i) Define the kilowatt-hour (kW h) in words.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) A small lamp illuminates an electric oven. The lamp has an output power of 25 W and 
+operates for 220 hours in one year. The p.d. across the lamp is 230 V.
+ 
+ 
+ 1. Calculate the energy transferred by the lamp in one year. Give your answer in kW h.
+ 
+energy =  ................................................. kW h [2]
+ 
+ 
+ 2. Calculate the current in the lamp.
+ 
+current =  ......................................................... [2]
+ 
+[Total: 10]
+* 0000800000014 *
+,	,
+ĬÕĊ®Ġ´íÈõÏĪÅĊßü¶Ă×
+Ĭ¿ČñÕĥĘ÷èùôÕ±ĥÛĩďĂ
+ĥÅĕÕµõąÕÕĥĕąąÕåÕÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q8 =====
+15
+0625/42/M/J/25
+© UCLES 2025
+[Turn over
+8 
+(a) Fig. 8.1 shows a simplified diagram of an a.c. generator.
+coil
+output
+P
+Q
+X
+Y
+N
+S
+rotation
+of coil
+Fig. 8.1
+ 
+ 
+(i) State the names of components:
+P and Q  .............................................................................................................................
+X and Y.  .............................................................................................................................
+ 
+[2]
+ 
+ 
+(ii) Explain why an electromotive force (e.m.f.) is only induced when the coil is turning.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(iii) State one possible change that causes a larger e.m.f. to be induced.
+ ..................................................................................................................................... [1]
+* 0000800000015 *
+,	,
+Ĭ×Ċ®Ġ´íÈõÏĪÅĊßú¶Ă×
+Ĭ¿ċòÍģĜćÑÿýĔĥčÿĩğĂ
+ĥÅĥĕõĕĥµÅĕÅąąµÅĕÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+16
+0625/42/M/J/25
+© UCLES 2025
+ 
+(b) Fig. 8.2 shows a circuit diagram.
+D
+A
+C
+B
+V
+I
+Fig. 8.2
+ 
+ 
+Resistors A, B, C and D are identical. The current in resistor A is 2.4 A.
+ 
+ 
+(i) State the value of the current in resistor B. Explain your answer.
+current in resistor B  ...........................................................................................................
+explanation  ........................................................................................................................
+ ...........................................................................................................................................
+ 
+[2]
+ 
+ 
+(ii) Calculate the value of the current I.
+ 
+current I =  ......................................................... [1]
+* 0000800000016 *
+,	,
+ĬÕĊ®Ġ´íÈõÏĪÅĊÝü¶Ą×
+Ĭ¿ċóÍĩĪĂæāĆěÇ±ÝùėĂ
+ĥõµĕµĕĥĕåµµąÅµĥĕÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+17
+0625/42/M/J/25
+© UCLES 2025
+[Turn over
+ 
+ 
+(iii) The reading on the voltmeter is 5.0 V.
+ 
+ 
+ Calculate the resistance of resistor A.
+ 
+resistance =  ......................................................... [2]
+ 
+[Total: 9]
+* 0000800000017 *
+,	,
+Ĭ×Ċ®Ġ´íÈõÏĪÅĊÝú¶Ą×
+Ĭ¿ČôÕğĦòÓ÷ûÎēÉùùħĂ
+ĥõÅÕõõąõµÅĥąÅÕąÕÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q9 =====
+18
+0625/42/M/J/25
+© UCLES 2025
+9 
+(a) (i) State what is meant by background radiation.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) State one source that makes a significant contribution to background radiation.
+ ..................................................................................................................................... [1]
+ 
+(b) Radioactive isotopes are used in some medical treatments.
+ 
+ 
+Radium-223 (223
+88Ra) is an isotope of radium. Radium-223 decays by the emission of alpha (α) 
+particles to an isotope of radon (Rn).
+ 
+ 
+(i) Complete the nuclide equation for this decay.
+223
+88Ra  
+  
+........
+........ Rn  +  
+........
+........ α
+ 
+[2]
+ 
+ 
+(ii) Radium-223 is injected into the body to treat a specific organ.
+ 
+ 
+ Explain why the source must be inside the body.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+(c) An isotope of technetium is injected into the body to detect cancer in one of the organs. The 
+half-life of this isotope is 6 hours and it decays by emitting gamma (γ) radiation. The radiation 
+is detected outside the body.
+ 
+ 
+(i) Explain why a source of gamma radiation is used.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Explain why a source with a short half-life must be used.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+[Total: 7]
+* 0000800000018 *
+,		,
+ĬÕĊ®Ġ´íÈõÏĪÅĊàü¸Ă×
+Ĭ¿ĊóØīĢĘìĊý±ë³ÉÁğĂ
+ĥåÕÕµĕÅĕąąµÅÅĕĥĕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q10 =====
+19
+0625/42/M/J/25
+© UCLES 2025
+[Turn over
+10 (a) Table 10.1 shows data for planets A, B, C and D.
+Table 10.1
+planet
+surface temperature
+/ K
+diameter
+/ km
+gravitational field strength
+N / kg
+A
+153
+143 000
+23.0
+B
+623
+  4 800
+ 3.7
+C
+ 53
+ 50 000
+11.0
+D
+ 93
+120 000
+ 9.0
+ 
+ 
+(i) State and explain which one of these planets is closest to the Sun.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+ 
+(ii) Calculate the surface temperature of planet D in °C.
+ 
+surface temperature =  ..................................................... °C [1]
+ 
+ 
+(iii) An object falls through a height of 2 m on each of the planets in Table 10.1.
+ 
+ 
+ State and explain on which planet the object falls 2 m in the shortest time. Ignore any 
+effect due to the atmosphere.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+* 0000800000019 *
+,	
+,
+Ĭ×Ċ®Ġ´íÈõÏĪÅĊàú¸Ă×
+Ĭ¿ĉôÐĝĞĨÍðôøïËčÁďĂ
+ĥååĕõõåõĕõĥÅÅõąÕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+20
+0625/42/M/J/25
+© UCLES 2025
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every 
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the 
+publisher will be pleased to make amends at the earliest possible opportunity.
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+Cambridge Assessment International Education is part of Cambridge Assessment. Cambridge Assessment is the brand name of the University of Cambridge 
+Local Examinations Syndicate (UCLES), which is a department of the University of Cambridge.
+ 
+(b) Fig. 10.1 shows some of the stages in the life cycle of a massive star.
+massive star expands
+........................................
+supernova
+nebula which contains ........................................
+leaves behind
+........................................ or ........................................
+Fig. 10.1
+ 
+ 
+(i) Complete Fig. 10.1 by adding the correct terms. 
+[4]
+ 
+ 
+(ii) State the quantity that the brightness of a supernova in a galaxy can be used to 
+determine.
+ ..................................................................................................................................... [1]
+ 
+[Total: 10]
+* 0000800000020 *
+,	,
+ĬÕĊ®Ġ´íÈõÏĪÅĊÞü¸Ą×
+Ĭ¿ĉñÐħĐġêòûïÍħ¯ÑħĂ
+ĥĕõĕµõåÕõÕĕÅąõåÕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD

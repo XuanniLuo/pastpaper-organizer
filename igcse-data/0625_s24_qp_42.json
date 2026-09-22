@@ -1,0 +1,420 @@
+{
+  "paper": "0625/42/M/J/24",
+  "paper_full": "June 2024 · Paper 42",
+  "questions": [
+    {
+      "qnum": 1,
+      "topic": "1",
+      "title": "Forces on a load — mass, resultant force and effects of forces",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_s24_qp_42_Q01.pdf",
+      "parts": [
+        {
+          "label": "1(a)",
+          "marks": 3,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "0.077 kg OR 77 g g = W / m OR (m =) W / g OR 0.75 / 9.8"
+        },
+        {
+          "label": "1(b)",
+          "marks": 2,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "2 vectors at right angles OR use of Pythagoras’ theorem e.g. a2 + b2 = c2 OR (force =) √(1.22 + 0.752) 1.4 (N)"
+        },
+        {
+          "label": "1(c)",
+          "marks": 2,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "any two from:  velocity  speed  direction  acceleration / deceleration  moment 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2024 © Cambridge University Press & Assessment 2024 Page 7 of 12"
+        }
+      ],
+      "code": "1.5"
+    },
+    {
+      "qnum": 2,
+      "topic": "1",
+      "title": "Train acceleration — time and force",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_s24_qp_42_Q02.pdf",
+      "parts": [
+        {
+          "label": "2(a)",
+          "marks": 1,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "change in velocity per unit time OR rate of change of velocity OR (a =) v / t"
+        },
+        {
+          "label": "2(b)(i)",
+          "marks": 3,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "12 s (t =) v / a OR 13 / 1.1"
+        },
+        {
+          "label": "2(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "570 000 N F = ma OR (F =) ma OR (F =) 520 000  1.1"
+        },
+        {
+          "label": "2(b)(iii)",
+          "marks": 1,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "(additional force is needed to overcome) friction OR air resistance OR drag"
+        }
+      ],
+      "code": "1.2"
+    },
+    {
+      "qnum": 3,
+      "topic": "1",
+      "title": "Falling ball — energy transfers and maximum speed",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_s24_qp_42_Q03.pdf",
+      "parts": [
+        {
+          "label": "3(a)",
+          "marks": 3,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "gravitational (potential) energy (store before / as the ball falls) kinetic energy (store) increases (as the ball falls) OR energy transferred to kinetic energy (store as the ball falls) (energy transferred from) kinetic energy (store) to internal / thermal energy (store)"
+        },
+        {
+          "label": "3(b)",
+          "marks": 5,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "5.9 m / s ()Ep = ()Ek OR Ep lost = Ek gained OR gravitational potential energy lost = kinetic energy gained OR mg()h = ½mv2 v2 = 2g()h OR v2 = 2  9.8  1.8 OR v2 = 35(.28) 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2024 © Cambridge University Press & Assessment 2024 Page 8 of 12"
+        }
+      ],
+      "code": "1.7"
+    },
+    {
+      "qnum": 4,
+      "topic": "2",
+      "title": "Evaporation, boiling, gas pressure and temperature",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_s24_qp_42_Q04.pdf",
+      "parts": [
+        {
+          "label": "4(a)",
+          "marks": 2,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "(evaporation:) (only) at the surface OR boiling: happens throughout the liquid (evaporation:) takes place at any temperature OR boiling: takes place at a specific temperature / boiling point"
+        },
+        {
+          "label": "4(b)(i)",
+          "marks": 1,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "113 (K)"
+        },
+        {
+          "label": "4(b)(ii)",
+          "marks": 2,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "conduction convection"
+        },
+        {
+          "label": "4(c)",
+          "marks": 3,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "particles collide with the walls / container (particles) exert a force on the walls OR collision with walls produces a change in momentum (of particles) pressure is force per unit area OR p = F / A OR pressure is rate of change of momentum per unit area"
+        }
+      ],
+      "code": "2.2"
+    },
+    {
+      "qnum": 5,
+      "topic": "3",
+      "title": "Light through a prism — refractive index, critical angle and optical fibres",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_s24_qp_42_Q05.pdf",
+      "parts": [
+        {
+          "label": "5(a)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "ray travels along the normal OR angle of incidence = 0(°)"
+        },
+        {
+          "label": "5(b)(i)",
+          "marks": 2,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "n = 1 / sin c OR (n =) 1 / sin c OR (n =) 1 / sin 42 (°) 1.5"
+        },
+        {
+          "label": "5(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "ray reflected at BC AND no refracted ray ray hits AC with angle of incidence = 0 ° correct refraction of candidate’s ray into air at AC 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2024 © Cambridge University Press & Assessment 2024 Page 9 of 12"
+        },
+        {
+          "label": "5(c)",
+          "marks": 2,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "any two from:  high rates (of data transmission) / fast (data transmission)  carry large amounts (of data / information)  secure  little signal / data loss  glass is transparent to (some) infrared"
+        }
+      ],
+      "code": "3.2"
+    },
+    {
+      "qnum": 6,
+      "topic": "3",
+      "title": "Sound waves — compressions, rarefactions and wavelength",
+      "marks": 10,
+      "pdf": "igcse-slices/0625_s24_qp_42_Q06.pdf",
+      "parts": [
+        {
+          "label": "6(a)(i)",
+          "marks": 2,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "C marked and labelled at a peak of the sine wave R marked and labelled at a trough of the sine wave"
+        },
+        {
+          "label": "6(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "graph / it does not show (variation with) displacement"
+        },
+        {
+          "label": "6(a)(iii)",
+          "marks": 1,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "(amplitude) increases AND (frequency) decreases"
+        },
+        {
+          "label": "6(b)",
+          "marks": 5,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "0.12 m v = f  OR ( =) v / f OR () = 1500 / 13 000 1500 / 13 000 OR 1.2  10N"
+        },
+        {
+          "label": "6(c)",
+          "marks": 1,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "330 m / s ⩽ speed ⩽ 350 m / s 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2024 © Cambridge University Press & Assessment 2024 Page 10 of 12"
+        }
+      ],
+      "code": "3.4"
+    },
+    {
+      "qnum": 7,
+      "topic": "4",
+      "title": "Magnetised steel and a step-down transformer",
+      "marks": 12,
+      "pdf": "igcse-slices/0625_s24_qp_42_Q07.pdf",
+      "parts": [
+        {
+          "label": "7(a)",
+          "marks": 4,
+          "codes": [
+            "4.1"
+          ],
+          "answer": "(end of) one piece of steel brought close to (the end of) another piece owtte look to see if there is repulsion/attraction AND test between different ends/poles owtte any two from:  repeat a valid test between the other pieces  only magnets repel each other OR the pieces that repel are magnets  attractions at both ends indicates one of them is unmagnetised OR the piece that only attracts is unmagnetised OR the piece that does not repel (at both ends) is unmagnetised"
+        },
+        {
+          "label": "7(b)(i)",
+          "marks": 5,
+          "codes": [
+            "4.1"
+          ],
+          "answer": "0.19 A Ip Vp = Is Vs OR (Ip =) Is Vs / Vp OR (Ip =) 45 / 240 OR Ip Vp = 45 OR power in primary = power in secondary (Ip= ) 45 / 240"
+        },
+        {
+          "label": "7(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "4.1"
+          ],
+          "answer": "labelled diagram showing:  (soft) iron core  copper (coils)  primary and secondary (coils) labelled AND fewer coils on secondary than on primary"
+        }
+      ],
+      "code": "4.1"
+    },
+    {
+      "qnum": 8,
+      "topic": "4",
+      "title": "LDR night-light circuit and lamp resistance",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_s24_qp_42_Q08.pdf",
+      "parts": [
+        {
+          "label": "8(a)(i)",
+          "marks": 4,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "correct voltmeter symbol connected across LDR 8(a)(ii)1 (resistance) increases 8(a)(ii)2 (p.d.) increases because resistance of parallel combination of LDR and LED increases greater proportion of (total) p.d. across LDR / LED / parallel combination of LDR and LED 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2024 © Cambridge University Press & Assessment 2024 Page 11 of 12"
+        },
+        {
+          "label": "8(b)",
+          "marks": 5,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "960  current in each bulb = 0.25 OR R = V / I OR (R =) V / I resistance = 240 / 0.25 OR 1 / 480 = 1 / R + 1 / R"
+        }
+      ],
+      "code": "4.3"
+    },
+    {
+      "qnum": 9,
+      "topic": "5",
+      "title": "Radioactive isotopes in medicine — safety and beta-decay equation",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_s24_qp_42_Q09.pdf",
+      "parts": [
+        {
+          "label": "9(a)(i)",
+          "marks": 2,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "any two from:  reduce exposure time AND low(er) amount of radiation absorbed  increase distance between source and hospital staff AND lower amount of radiation reaches staff  use of shielding (e.g. walls, lead etc.) AND radiation absorbed by shielding / cannot penetrate through shielding  use isotopes with short half-life AND lower amount of radiation emitted from patient / radiation (above background) emitted for a shorter period of time  use of film badge / dosimeter AND manage individuals exposure owtte  restrict pregnant staff / patient in hospital AND radiation may harm foetus owtte"
+        },
+        {
+          "label": "9(a)(ii)",
+          "marks": 2,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "high ionisation (within body) radiation would not reach detector (outside body)"
+        },
+        {
+          "label": "9(b)",
+          "marks": 3,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "Na 11 24 → Mg 12 24 +  -1 0 Na 11 24 on LHS  -1 0 on RHS Mg 12 24 on RHS 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2024 © Cambridge University Press & Assessment 2024 Page 12 of 12"
+        }
+      ],
+      "code": "5.2"
+    },
+    {
+      "qnum": 10,
+      "topic": "6",
+      "title": "The Solar System — orbits and light from the Sun",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_s24_qp_42_Q10.pdf",
+      "parts": [
+        {
+          "label": "10(a)",
+          "marks": 2,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "any two from:  minor planets OR dwarf planets  comets  asteroids"
+        },
+        {
+          "label": "10(b)",
+          "marks": 1,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "elliptical"
+        },
+        {
+          "label": "10(c)",
+          "marks": 2,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "kinetic energy (store) decreases AND potential energy (store) increases (as object moves from A to B) energy is conserved"
+        },
+        {
+          "label": "10(d)",
+          "marks": 3,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "2.6  103 s v = s / t OR (t =) s / v OR 7.8  1011 / 3.0  108"
+        }
+      ],
+      "code": "6.1"
+    },
+    {
+      "qnum": 11,
+      "topic": "6",
+      "title": "Galaxies, redshift and cosmic microwave background radiation",
+      "marks": 5,
+      "pdf": "igcse-slices/0625_s24_qp_42_Q11.pdf",
+      "parts": [
+        {
+          "label": "11(a)",
+          "marks": 1,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "Milky Way"
+        },
+        {
+          "label": "11(b)",
+          "marks": 1,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "Big Bang (Theory)"
+        },
+        {
+          "label": "11(c)(i)",
+          "marks": 1,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "shortly after the Universe was formed"
+        },
+        {
+          "label": "11(c)(ii)",
+          "marks": 2,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "Universe has expanded (radiation) has been redshifted (to the microwave region of the electromagnetic spectrum)"
+        }
+      ],
+      "code": "6.2"
+    }
+  ]
+}

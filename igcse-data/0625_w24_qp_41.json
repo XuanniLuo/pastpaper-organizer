@@ -1,0 +1,440 @@
+{
+  "paper": "0625/41/O/N/24",
+  "paper_full": "November 2024 · Paper 41",
+  "questions": [
+    {
+      "qnum": 1,
+      "topic": "1",
+      "title": "Spring — extension, spring constant and acceleration",
+      "marks": 11,
+      "pdf": "igcse-slices/0625_w24_qp_41_Q01.pdf",
+      "parts": [
+        {
+          "label": "1(a)(i)",
+          "marks": 1,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "43 cm AND 63 cm"
+        },
+        {
+          "label": "1(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "20 cm"
+        },
+        {
+          "label": "1(b)",
+          "marks": 3,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "0.28 N / cm k = F / x OR (k =) F / x OR 5.6 / 20"
+        },
+        {
+          "label": "1(c)(i)",
+          "marks": 1,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "4.9 N"
+        },
+        {
+          "label": "1(c)(ii)",
+          "marks": 5,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "3.2(0) m / s2 F = ma OR (a =) F / m OR (6.5 – 4.9) / 0.50 (resultant force =) 6.5 – 4.9 OR 1.6"
+        }
+      ],
+      "code": "1.5"
+    },
+    {
+      "qnum": 2,
+      "topic": "1",
+      "title": "Drag car — momentum, speed–time graph and energy transfer",
+      "marks": 11,
+      "pdf": "igcse-slices/0625_w24_qp_41_Q02.pdf",
+      "parts": [
+        {
+          "label": "2(a)(i)",
+          "marks": 3,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "1.8  105 kg m / s OR 1.8  105 N s p = mv OR (p =) mv OR 1400  130"
+        },
+        {
+          "label": "2(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "(scaled) area under the (graph) line"
+        },
+        {
+          "label": "2(a)(iii)",
+          "marks": 3,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "420 m ½vmaxt OR ½  130  6.5 OR ½bh"
+        },
+        {
+          "label": "2(b)(i)",
+          "marks": 1,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "gradient is negative OR speed decreases"
+        },
+        {
+          "label": "2(b)(ii)",
+          "marks": 1,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "gradient is changing OR line / graph / it is a curve / curved"
+        },
+        {
+          "label": "2(c)",
+          "marks": 2,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "(from) kinetic (energy store) to internal / thermal (energy store as final store) 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2024 © Cambridge University Press & Assessment 2024 Page 10 of 16"
+        }
+      ],
+      "code": "1.2"
+    },
+    {
+      "qnum": 3,
+      "topic": "1",
+      "title": "Moment of a force, centre of gravity and equilibrium",
+      "marks": 10,
+      "pdf": "igcse-slices/0625_w24_qp_41_Q03.pdf",
+      "parts": [
+        {
+          "label": "3(a)",
+          "marks": 4,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "force  perpendicular distance (from pivot) Any one from: • force  distance from pivot • reference to perpendicular distance (from pivot) • reference to perpendicular force (it measures the) turning effect (of a force)"
+        },
+        {
+          "label": "3(b)(i)",
+          "marks": 1,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "point where (all) the weight (of an object) seems to act"
+        },
+        {
+          "label": "3(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "2.2  107 N m 1.7 (m) OR 3.4 / 2 seen"
+        },
+        {
+          "label": "3(c)",
+          "marks": 2,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "resultant force = 0 OR (all) forces cancel out owtte resultant moment = 0 OR moments balance owtte 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2024 © Cambridge University Press & Assessment 2024 Page 11 of 16"
+        }
+      ],
+      "code": "1.5"
+    },
+    {
+      "qnum": 4,
+      "topic": "2",
+      "title": "Specific heat capacity, thermal expansion and evaporation",
+      "marks": 12,
+      "pdf": "igcse-slices/0625_w24_qp_41_Q04.pdf",
+      "parts": [
+        {
+          "label": "4(a)",
+          "marks": 4,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "1 Any one method to transfer measurable amount of thermal energy for ∆: (a) to aluminium block (with electrical heater) (b) from aluminium block to known liquid (c) from known liquid to insulated aluminium (d) to known liquid and aluminium 2 Determination of energy transferred for ∆, to match workable method in 1: (a) Use of E = Pt OR E= IVt (b) Use of E = mc with s.h.c. of known liquid (c) Use of E = mc with s.h.c. of known liquid (d) Use of E = Pt OR E = IVt AND E = mc (with known s.h.c. of liquid) 3 Any one measurement from: • initial and final temperature / temperature change • time (of heating) • mass of aluminium 4 c = E / m OR (c =) E / m"
+        },
+        {
+          "label": "4(b)(i)",
+          "marks": 3,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "Any three from: 1 (net) transfer of energy from higher temperature to lower temperature OR (net) transfer of energy from water / to dish 2 (energy transfer) by conduction OR aluminium is a good conductor (of thermal energy) 3 temperature of water decreases AND temperature of dish increases 4 no (net) transfer of energy when temperature of dish = temperature of water"
+        },
+        {
+          "label": "4(b)(ii)",
+          "marks": 2,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "(particles) gain energy in kinetic store (as temperature of aluminium increases) (average) separation of (aluminium) particles increases OR (aluminium) particles move further apart owtte"
+        },
+        {
+          "label": "4(b)(iii)",
+          "marks": 3,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "(water) molecules with more/enough energy escape from the surface escape of more energetic molecules (from water) OR (molecules) leave from the surface 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2024 © Cambridge University Press & Assessment 2024 Page 12 of 16"
+        }
+      ],
+      "code": "2.2"
+    },
+    {
+      "qnum": 5,
+      "topic": "3",
+      "title": "Sound waves — wavelength, frequency and diffraction",
+      "marks": 10,
+      "pdf": "igcse-slices/0625_w24_qp_41_Q05.pdf",
+      "parts": [
+        {
+          "label": "5(a)",
+          "marks": 1,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "0.20 m"
+        },
+        {
+          "label": "5(b)",
+          "marks": 1,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "any value in range from 330 m / s ⩽ value ⩽ 350 m / s"
+        },
+        {
+          "label": "5(c)(i)",
+          "marks": 3,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "(b)  (a) evaluated AND Hz f = v /  OR (f = ) v /  OR (b)  (a)"
+        },
+        {
+          "label": "5(c)(ii)",
+          "marks": 1,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "audible/yes/it is OR inaudible / no / it isn’t consistent with value in 5(c)(i) AND consistent explanation with reference to 20 (Hz) ⩽ normal range of human hearing ⩽ 20 000 (Hz)"
+        },
+        {
+          "label": "5(d)",
+          "marks": 4,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "1 (explanation mentions) diffraction 2 Only a little diffraction owtte 3 (because) gap width large (compared to wavelength) owtte 4 Little / no sound heard at J AND (some) sound heard at K 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2024 © Cambridge University Press & Assessment 2024 Page 13 of 16"
+        }
+      ],
+      "code": "3.4"
+    },
+    {
+      "qnum": 6,
+      "topic": "4",
+      "title": "Potential divider with LDR and thermistor",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_w24_qp_41_Q06.pdf",
+      "parts": [
+        {
+          "label": "6(a)",
+          "marks": 3,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "work done / Energy transfer per unit charge passing through a component (electrical) work done AND moving charge"
+        },
+        {
+          "label": "6(b)",
+          "marks": 1,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "(p.d. =) E – reading on voltmeter OR subtract reading on voltmeter from E"
+        },
+        {
+          "label": "6(c)(i)",
+          "marks": 1,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "(intensity of light on LDR) increased AND (temperature of thermistor) decreased"
+        },
+        {
+          "label": "6(c)(ii)",
+          "marks": 3,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "reading on voltmeter / it decreases Any two from: 1 e.m.f. is constant 2 RLDR / Rthermistor decreases OR RLDR is a smaller proportion of the total resistance 3 VLDR / Vthermistor decreases OR VLDR is a smaller proportion of e.m.f. 4 R R 2 1 = V V 2 1 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2024 © Cambridge University Press & Assessment 2024 Page 14 of 16"
+        }
+      ],
+      "code": "4.3"
+    },
+    {
+      "qnum": 7,
+      "topic": "4",
+      "title": "Electromagnet and a solenoid — magnetic field and induction",
+      "marks": 10,
+      "pdf": "igcse-slices/0625_w24_qp_41_Q07.pdf",
+      "parts": [
+        {
+          "label": "7(a)",
+          "marks": 1,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "(soft) iron"
+        },
+        {
+          "label": "7(b)(i)",
+          "marks": 3,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "(at least) one complete field line between the poles of the bar (either above or below the bar) no crossing AND attempt at correct shape AND at least six lines from / to poles at least one arrowhead towards S pole"
+        },
+        {
+          "label": "7(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "current (in the coil) decreases (current decreases so magnetic field) strength decreases (field strength decreases so) fewer field lines (in same area) OR (field strength decreases so) field lines further apart"
+        },
+        {
+          "label": "7(c)",
+          "marks": 3,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "Any two from: 1 (changing resistance causes) changing current (through solenoid) 2 (changing current causes) changing magnetic field (around solenoid) 3 (square) coil cuts (changing) magnetic field OR coil in changing magnetic field e.m.f. induced (between terminals) 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2024 © Cambridge University Press & Assessment 2024 Page 15 of 16"
+        }
+      ],
+      "code": "4.5"
+    },
+    {
+      "qnum": 8,
+      "topic": "5",
+      "title": "Carbon-14 — atomic structure, beta decay and half-life",
+      "marks": 12,
+      "pdf": "igcse-slices/0625_w24_qp_41_Q08.pdf",
+      "parts": [
+        {
+          "label": "8(a)",
+          "marks": 3,
+          "codes": [
+            "5.1"
+          ],
+          "answer": "6 electrons AND 6 protons (i.e. 6  AND 6 ) 8 neutrons (i.e. 8 ) protons and neutrons in nucleus AND electrons orbiting nucleus"
+        },
+        {
+          "label": "8(b)",
+          "marks": 2,
+          "codes": [
+            "5.1"
+          ],
+          "answer": "(carbon) has one more neutron OR nitrogen has one fewer neutron (carbon) has one fewer proton / electron OR nitrogen has one more proton / electron"
+        },
+        {
+          "label": "8(c)(i)",
+          "marks": 1,
+          "codes": [
+            "5.1"
+          ],
+          "answer": "electron"
+        },
+        {
+          "label": "8(c)(ii)",
+          "marks": 1,
+          "codes": [
+            "5.1"
+          ],
+          "answer": "a neutron changes into a proton (and electron)"
+        },
+        {
+          "label": "8(d)",
+          "marks": 5,
+          "codes": [
+            "5.1"
+          ],
+          "answer": "17 000 years 1.2  1011 / 9.6  1011 OR 1 / 8 OR one halving seen e.g. 9.6  1011  2 3 (half-lives) OR 1 / 8  9.6  1011 = 1.2  1011 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2024 © Cambridge University Press & Assessment 2024 Page 16 of 16"
+        }
+      ],
+      "code": "5.1"
+    },
+    {
+      "qnum": 9,
+      "topic": "6",
+      "title": "The Milky Way — galaxies, light-years and the Hubble constant",
+      "marks": 10,
+      "pdf": "igcse-slices/0625_w24_qp_41_Q09.pdf",
+      "parts": [
+        {
+          "label": "9(a)",
+          "marks": 1,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "group / collection of (billions of) stars"
+        },
+        {
+          "label": "9(b)",
+          "marks": 3,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "9.5  1017 (km) (1 light-year =) 9.5  1015 (m) OR (1 light-year =) 3  108  365  24  3600"
+        },
+        {
+          "label": "9(c)(i)",
+          "marks": 1,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "increase in wavelength (of light from far galaxy) OR (amount of) redshift"
+        },
+        {
+          "label": "9(c)(ii)",
+          "marks": 1,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "brightness of a supernova"
+        },
+        {
+          "label": "9(c)(iii)",
+          "marks": 1,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "(their) speeds are (directly) proportional to distances (from Earth) OR H0= v / d"
+        },
+        {
+          "label": "9(c)(iv)",
+          "marks": 3,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "4.5  1017 (s) (age of Universe =) 1 / H0 OR 1 / (2.2  10–18)"
+        }
+      ],
+      "code": "6.2"
+    }
+  ]
+}

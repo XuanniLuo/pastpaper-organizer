@@ -1,0 +1,777 @@
+===== Q1 =====
+2
+0625/43/O/N/25
+© UCLES 2025
+1 
+(a) A hard ball is dropped vertically downwards.
+ 
+ 
+Fig. 1.1 shows the speed–time graph for the ball from when it is dropped until it hits the 
+ground.
+ 
+ 
+Air resistance is ignored.
+0
+0
+0.2
+0.4
+0.6
+0.8
+1.0
+2
+4
+6
+speed
+m / s
+time / s
+8
+Fig. 1.1
+ 
+ 
+(i) Describe the motion of the ball in Fig. 1.1.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Show that the distance travelled by the ball is 1.8 m.
+ 
+[2]
+ 
+ 
+(iii) The mass of the ball is 0.54 kg. Calculate the gravitational potential energy stored in the 
+ball immediately before it is dropped.
+ 
+gravitational potential energy =  ......................................................... [2]
+* 0000800000002 *
+,	,
+ĬÕĊ®Ġ´íÈõÏĪÅĊÞù¸þ×
+ĬĀ½ûÒĤġĀÓñûĪòĢ³ĪïĂ
+ĥąÕĕµÕąõÕõÕąÅµåµĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+3
+0625/43/O/N/25
+© UCLES 2025
+[Turn over
+ 
+ 
+(iv) Determine the kinetic energy of the ball when it has fallen half way to the ground.
+ 
+kinetic energy =  ......................................................... [1]
+ 
+(b) The same ball is dropped from an aeroplane. Air resistance acts on the ball.
+ 
+ 
+Explain how the vertical motion of the ball changes, from when it is dropped to just before it 
+hits the ground.
+ 
+ 
+Use the idea of forces in your answer.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+ 
+(c) A soft ball is dropped by a student so that it bounces on the ground.
+ 
+ 
+Fig. 1.2 shows the height–time graph for the ball. The height is measured from the ground.
+ 
+ 
+The ball bounces four times.
+height
+m
+time / s
+A
+B
+C
+Fig. 1.2
+ 
+ 
+Explain why the change in height of the ball between B and C is less than the change in 
+height between A and B.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+[Total: 11]
+* 0000800000003 *
+,	,
+Ĭ×Ċ®Ġ´íÈõÏĪÅĊÞû¸þ×
+ĬĀ¾üÚĦĝðæćĆßæĚħĪÿĂ
+ĥąåÕõµĥĕÅąąąÅÕÅõąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q2 =====
+4
+0625/43/O/N/25
+© UCLES 2025
+2 
+A cricket ball is travelling at a speed of 25 m / s horizontally through the air. The mass of the ball is 
+0.14 kg.
+ 
+A player catches the ball and the ball comes to rest.
+ 
+(a) Calculate the change in momentum of the ball during the catch.
+ 
+change in momentum =  ......................................................... [2]
+ 
+(b) The player’s hands are in contact with the moving ball for 9.7 ms.
+ 
+ 
+Calculate the horizontal force exerted by her hands to bring the ball to rest.
+ 
+force =  ......................................................... [3]
+ 
+[Total: 5]
+* 0000800000004 *
+,	,
+ĬÕĊ®Ġ´íÈõÏĪÅĊàù¸Ā×
+ĬĀ¾ùÚĠďùÑĉýèĈ¶Åú÷Ă
+ĥµõÕµµĥµååõąąÕĥõĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q3 =====
+5
+0625/43/O/N/25
+© UCLES 2025
+[Turn over
+3 
+(a) Fig. 3.1 shows a Sankey diagram for the power transfer in a coal‑fired power station.
+power input
+from fuel
+= 3400 MW
+power wasted
+in power
+station due to
+thermal
+energy
+transfers
+= 2200 MW
+power
+used in
+power
+station
+= 40 MW
+power used
+in
+transmission
+= 25 MW
+useful
+power
+output
+Fig. 3.1
+ 
+ 
+(i) Show that the useful power output from the power station is approximately 1100 MW.
+ 
+ [2]
+ 
+ 
+(ii) Calculate the efficiency of the power station.
+ 
+efficiency =  ......................................................... [2]
+ 
+(b) Describe how useful energy may be obtained from geothermal resources.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+[Total: 6]
+* 0000800000005 *
+,	,
+Ĭ×Ċ®Ġ´íÈõÏĪÅĊàû¸Ā×
+ĬĀ½úÒĪēĉèïôġÔ¾đúćĂ
+ĥµąĕõÕąÕµÕåąąµąµąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q4 =====
+6
+0625/43/O/N/25
+© UCLES 2025
+4 
+(a) (i) A rectangular glass tank contains 3.0 m3 of liquid. The mass of the liquid is 2800 kg.
+ 
+ 
+ Calculate the density of the liquid.
+ 
+density =  ......................................................... [1]
+ 
+ 
+(ii) A metal block is placed in the tank and it sinks to the bottom. The top surface of the block 
+is 1.1 m below the surface of the liquid.
+ 
+ 
+ Fig. 4.1 shows the block on the bottom of the tank.
+liquid
+metal block
+0.45 m
+0.30 m
+1.1 m
+Fig. 4.1
+ 
+ 
+ Calculate the force exerted by the liquid on the top of the block.
+ 
+force on top of the block =  ......................................................... [4]
+* 0000800000006 *
+,	,
+ĬÙĊ®Ġ´íÈõÏĪÅĊÝûµþ×
+ĬĀ¾úÍĤûăàüāĜ´¶ôÒ÷Ă
+ĥĥåĕõõąõõµąąÅµåõÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+7
+0625/43/O/N/25
+© UCLES 2025
+[Turn over
+ 
+(b) Fig. 4.2 shows part of a steel railway track. There are small gaps between sections of the rail.
+small gap
+section of rail
+Fig. 4.2
+ 
+ 
+State why gaps are needed between the sections of rail. Explain your answer in terms of 
+particles.
+statement  ..................................................................................................................................
+explanation  ...............................................................................................................................
+ ...................................................................................................................................................
+ 
+[2]
+ 
+(c) Fig. 4.3 shows a saucepan of boiling water on the heating ring of an electric cooker.
+plastic handle
+heating ring
+boiling water
+metal pan
+Fig. 4.3
+ 
+ 
+The handle is made from plastic.
+ 
+ 
+Explain why this material is suitable.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+[Total: 9]
+* 0000800000007 *
+,	,
+ĬÛĊ®Ġ´íÈõÏĪÅĊÝùµþ×
+ĬĀ½ùÕĦ÷óÙþðÍĨ¾èÒćĂ
+ĥĥÕÕµĕĥĕĥÅÕąÅÕÅµÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q5 =====
+8
+0625/43/O/N/25
+© UCLES 2025
+5 
+(a) (i) Electromagnetic waves have many uses.
+ 
+ 
+ On Fig. 5.1 draw one line from each use to the region of the electromagnetic (e‑m) 
+spectrum it uses.
+Use
+Region of e‑m spectrum
+security marking
+gamma rays
+Bluetooth
+ultraviolet 
+optical fibres
+infrared 
+detection of cancer
+radio waves
+Fig. 5.1
+ 
+[2]
+ 
+ 
+(ii) State one advantage of using microwaves compared with radio waves to transmit mobile 
+(cell) phone signals.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+(b) Describe the difference between transverse waves and longitudinal waves.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+* 0000800000008 *
+,		,
+ĬÙĊ®Ġ´íÈõÏĪÅĊßûµĀ×
+ĬĀ½üÕĠąöÞĄ÷ÖÆĢĆÂïĂ
+ĥÕąÕõĕĥµąĥåąąÕĥµÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+9
+0625/43/O/N/25
+© UCLES 2025
+[Turn over
+ 
+(c) Fig. 5.2 shows a simplified diagram of seismic P‑waves travelling through the Earth. The 
+paths of the waves are curved.
+ 
+ 
+Seismic waves are produced by rock movements in earthquakes.
+P-waves
+liquid outer core
+inner core
+(mostly) solid mantle
+earthquake occurs here
+X
+Fig. 5.2 (not to scale)
+ 
+ 
+(i) State the type of wave that P‑waves can be modelled as.
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) At point X, the P‑wave travels from the solid mantle to the liquid core. There is a sudden 
+change in direction of the path of the wave.
+ 
+ 
+ Explain the change in direction of the P‑wave at point X.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+(d) The Earth’s surface absorbs incoming radiation from the Sun and also emits thermal radiation 
+from its surface.
+ 
+ 
+Over the past 50 years, scientists estimate that the average temperature of the Earth’s 
+surface has increased by approximately 0.75 °C.
+ 
+ 
+Explain what is causing this average temperature rise.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+[Total: 10]
+* 0000800000009 *
+,	
+,
+ĬÛĊ®Ġ´íÈõÏĪÅĊßùµĀ×
+ĬĀ¾ûÍĪĉĆÛöĊēĒĚÒÂÿĂ
+ĥÕõĕµõąÕĕĕõąąµąõÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q6 =====
+10
+0625/43/O/N/25
+© UCLES 2025
+6 
+(a) Fig. 6.1 shows a circuit which includes an LDR (light‑dependent resistor). 
++
++5.0 V 
+400 Ω
+ı 
+V
+Fig. 6.1
+ 
+ 
+The LDR is in a brightly lit room. The voltmeter reads 1.8 V.
+ 
+ 
+(i) Calculate the current in the 400 Ω resistor.
+ 
+current =  ......................................................... [3]
+ 
+ 
+(ii) The light level in the room changes from bright to dark.
+ 
+ 
+ State and explain the effect on the voltmeter reading.
+statement  ..........................................................................................................................
+explanation  ........................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ 
+[3]
+* 0000800000010 *
+,	,
+ĬÙĊ®Ġ´íÈõÏĪÅĊÞû·þ×
+ĬĀÀüÐĞýĤäċððêĤĢúćĂ
+ĥąĥĕõĕÅµåÕåÅąõĥµĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+11
+0625/43/O/N/25
+© UCLES 2025
+[Turn over
+ 
+(b) Fig. 6.2 shows two light‑emitting diodes (LEDs) connected in parallel in a circuit. R is a red 
+LED and G is a green LED.
+ 
+ 
+The voltmeter across the LEDs shows a potential difference (p.d.) of 2.0 V.
+A
+R
++
++5.0 V 
+2.0 V 
+ı 
+G
+V
+Fig. 6.2
+ 
+ 
+(i) Fig. 6.3 shows a current‑p.d. graph for the LEDs.
+0
+1.0
+ 0
+20
+40
+current
+mA
+ 60
+ 80
+ R
+ G
+2.0
+3.0
+p.d./ V
+4.0
+Fig. 6.3
+ 
+ 
+ Use Fig. 6.3 to determine the current in the ammeter.
+ 
+current =  ......................................................... [2]
+ 
+ 
+(ii) The connections to the power supply are reversed. State the reading on the ammeter.
+ 
+current =  ......................................................... [1]
+ 
+[Total: 9]
+* 0000800000011 *
+,	,
+ĬÛĊ®Ġ´íÈõÏĪÅĊÞù·þ×
+ĬĀ¿ûØĬāĔÕíā¹îĜ¶ú÷Ă
+ĥąĕÕµõåÕµåõÅąĕąõõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q7 =====
+13
+0625/43/O/N/25
+© UCLES 2025
+[Turn over
+7 
+Fig. 7.1 shows a simple a.c. generator.
+N
+coil
+slip rings
+handle
+S
+coil
+brush
+front
+Fig. 7.1
+ 
+(a) (i) Explain the function of the slip rings and brushes.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Describe how an alternating current is generated in the lamp.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [3]
+ 
+ 
+(iii) State two possible changes that cause a larger maximum current in the lamp.
+1  ........................................................................................................................................
+2  ........................................................................................................................................
+ 
+[2]
+* 0000800000013 *
+,	,
+ĬÛĊ®Ġ´íÈõÏĪÅĊàù·Ā×
+ĬĀÀùÐĨïĥ×ą÷÷ČÀÄĪïĂ
+ĥµµĕµĕÅĕÅõÕÅÅõÅµõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+14
+0625/43/O/N/25
+© UCLES 2025
+ 
+(b) Fig. 7.2 is a graph to show how the electromotive force (e.m.f.) varies with time for the coil.
+e.m.f.
+0
+A
+B
+time
+C
+D
+E
+0
+Fig. 7.2
+ 
+ 
+(i) Determine how many revolutions the coil has made, from time = 0 to E.
+ 
+number of revolutions =  ......................................................... [1]
+* 0000800000014 *
+,	,
+ĬÕĊ®Ġ´íÈõÏĪÅĊßú¶Ă×
+ĬĀ¿ûÍĪĄčåăôÜèĕÈÚ÷Ă
+ĥĕµÕõõąµåĥÕąąµĥõåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+15
+0625/43/O/N/25
+© UCLES 2025
+[Turn over
+ 
+ 
+(ii) Fig. 7.3 shows the end view of the position of the plane of the coil at time = 0. The coil is 
+rotating anti‑clockwise.
+N
+S
+coil
+axis of rotation
+slip rings
+Fig. 7.3
+ 
+ 
+ On Fig. 7.4, draw four lines to match the coil position to the times A, B, C and D. The coil 
+is viewed from the front.
+ 
+ 
+ Each coil position may be used once, more than once or not at all.
+time label
+from graph
+coil position
+A
+B
+C
+D
+N
+S
+N
+S
+N
+S
+N
+S
+Fig. 7.4
+ 
+[3]
+ 
+[Total: 10]
+* 0000800000015 *
+,	,
+Ĭ×Ċ®Ġ´íÈõÏĪÅĊßü¶Ă×
+ĬĀÀüÕĠĀĝÔõýčôĝĔÚćĂ
+ĥĕÅĕµĕĥÕµĕąąąÕąµµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q8 =====
+16
+0625/43/O/N/25
+© UCLES 2025
+8 
+(a) Alpha (α) particles are directed at a very thin sheet of gold foil.
+ 
+ 
+The following observations provide evidence for the nuclear model of the atom.
+ 
+ 
+State what conclusions may be made about the model of the atom from these observations.
+ 
+ 
+(i) Observation: most of the particles pass straight through the foil.
+conclusion  .........................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Observation: a few particles bounce back or are deflected through large angles.
+conclusion  .........................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+(b) Fig. 8.1 shows three beams of ionising radiation, alpha, beta and gamma, passing between 
+two parallel plates. The plates are charged and there is a uniform electric field between them.
+charged plate
+charged plate
+P
+Q
+R
+Fig. 8.1
+ 
+ 
+(i) State and explain which path P, Q or R shows a beam of alpha particles.
+path  ...................................................................................................................................
+explanation  ........................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ 
+[2]
+* 0000800000016 *
+,	,
+ĬÕĊ®Ġ´íÈõÏĪÅĊÝú¶Ą×
+ĬĀÀùÕĦîĬçûĆĖÒÁ²ÊïĂ
+ĥåĕĕõĕĥõÕµõąÅÕåµåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+17
+0625/43/O/N/25
+© UCLES 2025
+[Turn over
+ 
+ 
+(ii) State and explain the direction of the electric field between the plates.
+direction  .............................................................................................................................
+explanation  ........................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ 
+[1]
+ 
+(c) Curium‑242 is a radioactive isotope. It emits alpha particles. It has a half‑life of 160 days.
+ 
+ 
+After 480 days, the mass of curium‑242 in a sample is 2.4 × 10–3 g.
+ 
+ 
+Calculate the initial mass of curium‑242 in the sample.
+ 
+initial mass of curium‑242 =  ......................................................... [2]
+ 
+[Total: 7]
+* 0000800000017 *
+,	,
+Ĭ×Ċ®Ġ´íÈõÏĪÅĊÝü¶Ą×
+ĬĀ¿úÍĤòĜÒýûÓĆ¹ĦÊÿĂ
+ĥåĥÕµõąĕÅÅåąÅµÅõµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q9 =====
+18
+0625/43/O/N/25
+© UCLES 2025
+9 
+(a) Cosmic microwave background radiation (CMBR) can be observed in every direction in space 
+around us.
+ 
+ 
+(i) State when CMBR was produced.
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) State and explain how the wavelength of this radiation has changed since it was formed.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+(b) Table 9.1 shows data about planets in our solar system.
+Table 9.1
+planet
+average radius of 
+orbit around the Sun /
+106 km
+time for one orbit /
+Earth years
+average surface 
+temperature /
+°C
+Venus
+ 108
+ 0.62
+ 460
+Earth
+ 150
+ 1.00
+  15
+Mars
+ 228
+ 1.90
+  – 65
+Jupiter
+ 778
+12.00
+–110
+Saturn
+1430
+29.00
+–140
+ 
+ 
+(i) The orbit of Venus is approximately circular.
+ 
+ 
+ Calculate the average orbital speed v of Venus. Give your answer in km / h.
+ 
+orbital speed =  ................................................ km / h [3]
+ 
+ 
+(ii) State how the average surface temperature of a planet changes as its distance from the 
+Sun increases.
+ ..................................................................................................................................... [1]
+ 
+[Total: 7]
+* 0000800000018 *
+,		,
+ĬÕĊ®Ġ´íÈõÏĪÅĊàú¸Ă×
+ĬĀ½ùÐĨöîéôý°®ÃÖòćĂ
+ĥõõÕõĕÅõõąõÅÅõåµĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q10 =====
+19
+0625/43/O/N/25
+© UCLES 2025
+10 (a) Sketch a diagram to show the orbital path of a comet around the Sun.
+ 
+ 
+Mark the position of the Sun on your diagram using an S.
+ 
+[2]
+ 
+(b) Draw a cross on your diagram to show where the comet is travelling with the slowest speed. 
+Label the cross L. 
+[1]
+ 
+(c) Explain why the speed of a comet changes as it travels around its orbit.
+ 
+ 
+Use the conservation of energy in your explanation.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+ 
+[Total: 6]
+* 0000800000019 *
+,	
+,
+Ĭ×Ċ®Ġ´íÈõÏĪÅĊàü¸Ă×
+ĬĀ¾úØĢúþÐĆôùĪ»Ăò÷Ă
+ĥõąĕµõåĕĥõåÅÅĕÅõąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD

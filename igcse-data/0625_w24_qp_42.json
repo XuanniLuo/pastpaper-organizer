@@ -1,0 +1,460 @@
+{
+  "paper": "0625/42/O/N/24",
+  "paper_full": "November 2024 · Paper 42",
+  "questions": [
+    {
+      "qnum": 1,
+      "topic": "1",
+      "title": "Rocket launch — weight, acceleration and terminal velocity",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_w24_qp_42_Q01.pdf",
+      "parts": [
+        {
+          "label": "1(a)(i)",
+          "marks": 1,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "7.3  107 N"
+        },
+        {
+          "label": "1(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "(weight is) the gravitational force on a mass / an object (with mass) OR (weight is) the effect of a gravitational field on a mass"
+        },
+        {
+          "label": "1(b)(i)",
+          "marks": 2,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "(from O to A) increasing acceleration (from A to B) constant / uniform acceleration"
+        },
+        {
+          "label": "1(b)(ii)",
+          "marks": 2,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "tangent drawn at time = 400 s ∆y / ∆x from candidate’s tangent seen AND 17 m / s2 ⩽ acceleration ⩽ 23 m / s2"
+        },
+        {
+          "label": "1(c)",
+          "marks": 2,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "resistive force / air resistance / drag increases as velocity increases until gravitational force is balanced by air resistance (at terminal velocity) OR until resultant / net force is zero (at terminal velocity)"
+        }
+      ],
+      "code": "1.2"
+    },
+    {
+      "qnum": 2,
+      "topic": "1",
+      "title": "Golf ball — momentum, impulse and force",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_w24_qp_42_Q02.pdf",
+      "parts": [
+        {
+          "label": "2(a)",
+          "marks": 1,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "(momentum is) mass  velocity"
+        },
+        {
+          "label": "2(b)(i)",
+          "marks": 3,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "1.9 N s OR 1.9 kg m / s impulse = F∆t = ∆{mv}OR (impulse =F∆t =) ∆{mv} OR (impulse =) 0.046  41"
+        },
+        {
+          "label": "2(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "3800 N F=∆p / ∆t OR (F=) ∆p / (∆)t OR (F=) ∆(mv) / (∆)t OR (F =) impulse / (∆)t OR 1.9 / 0.0005 OR 3.8  10N N 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2024 © Cambridge University Press & Assessment 2024 Page 10 of 16"
+        }
+      ],
+      "code": "1.6"
+    },
+    {
+      "qnum": 3,
+      "topic": "1",
+      "title": "Wind turbine — energy resources and efficiency",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_w24_qp_42_Q03.pdf",
+      "parts": [
+        {
+          "label": "3(a)",
+          "marks": 2,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "any two from: • • • • • • fossil fuels biofuels / biomass wave(s) wind (turbines) Hydroelectric solar panels / solar cells"
+        },
+        {
+          "label": "3(b)(i)",
+          "marks": 2,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "Ek = ½ mv2 (m =)   11 000 2 6.3 2  OR (m =)   11 000 2 39.69  OR 554 (kg) SEEN"
+        },
+        {
+          "label": "3(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "55 (%) efficiency = useful energy out(put) / (total) energy in(put)  100 % OR   6000 11 000 100 ) ("
+        },
+        {
+          "label": "3(c)",
+          "marks": 1,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "(tides) are reliable 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2024 © Cambridge University Press & Assessment 2024 Page 11 of 16"
+        }
+      ],
+      "code": "1.7"
+    },
+    {
+      "qnum": 4,
+      "topic": "2",
+      "title": "Pressure cooker — evaporation, boiling and gas pressure",
+      "marks": 6,
+      "pdf": "igcse-slices/0625_w24_qp_42_Q04.pdf",
+      "parts": [
+        {
+          "label": "4(a)",
+          "marks": 2,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "boiling happens at a specific temperature OR evaporation happens at a range of temperatures OR evaporation happens at any temperature (below the boiling point) evaporation happens at the surface of the water OR boiling happens throughout the water"
+        },
+        {
+          "label": "4(b)",
+          "marks": 4,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "any four from: 1 (as the water is heated) the number of gas particles increases 2 (particles) gain internal / kinetic energy 3 (there are) more frequent collisions between particles and surface / wall / lid of the cooker 4 (each) collision (of particles) is harder / exerts more force (on cooker surface) OR greater change of momentum when particles collide (on cooker surface) 5 pressure  (total) force (of collisions) OR pressure = force / area 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2024 © Cambridge University Press & Assessment 2024 Page 12 of 16"
+        }
+      ],
+      "code": "2.2"
+    },
+    {
+      "qnum": 5,
+      "topic": "2",
+      "title": "Tarmac in sunlight — thermal energy transfer",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_w24_qp_42_Q05.pdf",
+      "parts": [
+        {
+          "label": "5(a)",
+          "marks": 3,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "(tarmac / it) absorbs infrared radiation (emitted from the Sun) (tarmac / it) absorbs radiation / infrared (emitted from the Sun)"
+        },
+        {
+          "label": "5(b)",
+          "marks": 1,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "conduction"
+        },
+        {
+          "label": "5(c)",
+          "marks": 1,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "convection"
+        },
+        {
+          "label": "5(d)",
+          "marks": 2,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "any two from: 1 black / tarmac is a better absorber (of radiation) than air 2 tarmac is a poor emitter (at low / this temperature) 3 thin layer of tarmac / very large volume / column of air above road"
+        }
+      ],
+      "code": "2.3"
+    },
+    {
+      "qnum": 6,
+      "topic": "3",
+      "title": "Diffraction around a doorway and a plane mirror",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_w24_qp_42_Q06.pdf",
+      "parts": [
+        {
+          "label": "6(a)(i)",
+          "marks": 1,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "diffraction"
+        },
+        {
+          "label": "6(a)(ii)",
+          "marks": 3,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "450 Hz v = f  OR (f = ) v /  OR 340 / 0.75"
+        },
+        {
+          "label": "6(a)(iii)",
+          "marks": 2,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "large diffraction when gap size / doorway is similar to wavelength high frequency / 3500 Hz has (much) shorter wavelength AND there is less diffraction (with shorter wavelengths)"
+        },
+        {
+          "label": "6(b)",
+          "marks": 3,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "ray drawn from the violin to point X AND from point X to the teacher mirror drawn at point X and labelled AND angle of incidence = angle of reflection correct arrow on incident ray OR correct arrow on reflected ray 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2024 © Cambridge University Press & Assessment 2024 Page 13 of 16"
+        }
+      ],
+      "code": "3.1"
+    },
+    {
+      "qnum": 7,
+      "topic": "4",
+      "title": "Washing machine — e.m.f., current and p.d.",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_w24_qp_42_Q07.pdf",
+      "parts": [
+        {
+          "label": "7(a)",
+          "marks": 3,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "work done/electrical Energy transfer by a source per unit charge moving around a (complete) circuit (electrical) work done moving a charge"
+        },
+        {
+          "label": "7(b)",
+          "marks": 1,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "230 V"
+        },
+        {
+          "label": "7(c)",
+          "marks": 3,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "9.2 A R = V / I OR ( I =) V / R OR 230 / 25"
+        },
+        {
+          "label": "7(d)",
+          "marks": 2,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "(ammeter reading =) {1.6 + candidate’s answer to 7(c)} A Sum of currents into a junction = sum of currents out of junction OR total current is sum of the current in the branches owtte"
+        }
+      ],
+      "code": "4.2"
+    },
+    {
+      "qnum": 8,
+      "topic": "3",
+      "title": "Ultrasound — locating fish and the seabed",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_w24_qp_42_Q08.pdf",
+      "parts": [
+        {
+          "label": "8(a)",
+          "marks": 1,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "ultrasound"
+        },
+        {
+          "label": "8(b)",
+          "marks": 5,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "0.029 s (distance travelled =) 22  2 OR 44 SEEN v = s / t OR (t =) s / v OR 44 / 1500"
+        },
+        {
+          "label": "8(c)",
+          "marks": 2,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "reflected wave is weaker / has smaller amplitude fish is small(er) OR only small part of wave reflects off fish OR most of sound goes to seabed 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2024 © Cambridge University Press & Assessment 2024 Page 14 of 16"
+        }
+      ],
+      "code": "3.4"
+    },
+    {
+      "qnum": 9,
+      "topic": "4",
+      "title": "Wireless charging — transformer and induction",
+      "marks": 11,
+      "pdf": "igcse-slices/0625_w24_qp_42_Q09.pdf",
+      "parts": [
+        {
+          "label": "9(a)",
+          "marks": 2,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "any two from: 1 (magnitude is) constantly changing owtte 2 (magnetic field is) stronger closer to the coil of wire ORA 3 (the magnetic field is) perpendicular to the a.c. current (producing it) 4 (the magnetic field) changes direction owtte"
+        },
+        {
+          "label": "9(b)(i)",
+          "marks": 2,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "any one from: • secondary coil is in changing / varying magnetic field • secondary coil is in the magnetic field of primary coil voltage is induced (in the secondary coil)"
+        },
+        {
+          "label": "9(b)(ii)",
+          "marks": 1,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "any one from: • There is no iron core (to strengthen field) • transformer usually has an iron core to connect the two coils • some energy transferred to thermal energy (in phone / surroundings)"
+        },
+        {
+          "label": "9(c)(i)",
+          "marks": 3,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "6000 s E = VIt OR (t =) E / IV OR 4.5  104 / [12  0.63]"
+        },
+        {
+          "label": "9(c)(ii)",
+          "marks": 3,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "(Q =) 38 C I = Q / t OR (Q=) It OR 0.63  60 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2024 © Cambridge University Press & Assessment 2024 Page 15 of 16"
+        }
+      ],
+      "code": "4.5"
+    },
+    {
+      "qnum": 10,
+      "topic": "5",
+      "title": "Carbon-14 dating — half-life",
+      "marks": 12,
+      "pdf": "igcse-slices/0625_w24_qp_42_Q10.pdf",
+      "parts": [
+        {
+          "label": "10(a)",
+          "marks": 2,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "(nucleus of carbon-14 contains) more neutrons OR (nucleus of) carbon-12 has fewer neutrons any one from: • (atom / nucleus of carbon-14) is heavier • (atom / nucleus of carbon-14 is) not stable • (nucleus of carbon-14 contains) two more neutrons"
+        },
+        {
+          "label": "10(b)(i)",
+          "marks": 3,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "Every 5700 years the (remaining) carbon-14 decreases by half OR amount of C-14 halved every half life amount of carbon-14 halves in 5700 years OR amount of carbon-14 decreases at a decreasing rate (with time)"
+        },
+        {
+          "label": "10(b)(ii)",
+          "marks": 5,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "11 000 (years ago) 2  half-life have elapsed 25% of C-14 at time of death is still present in tree OR 75% of C-14 has decayed."
+        },
+        {
+          "label": "10(c)",
+          "marks": 2,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "medical tracers OR medical imaging OR medical diagnosis any one from: • keep dose low • doesn’t stay in body too long • less damage (to body) OR less harmful (to humans) 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2024 © Cambridge University Press & Assessment 2024 Page 16 of 16"
+        }
+      ],
+      "code": "5.2"
+    },
+    {
+      "qnum": 11,
+      "topic": "6",
+      "title": "Venus and comets — orbital speed and energy",
+      "marks": 11,
+      "pdf": "igcse-slices/0625_w24_qp_42_Q11.pdf",
+      "parts": [
+        {
+          "label": "11(a)(i)",
+          "marks": 1,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "Earth / Mars / Jupiter / Saturn / Uranus / Neptune"
+        },
+        {
+          "label": "11(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "Mercury"
+        },
+        {
+          "label": "11(b)",
+          "marks": 5,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "3.6  104 (m / s) (T =) 220  24  60  60 OR (T =) 1.9  107 (s) (v =) 2 r T  OR (v =) 11 2 1.1 10 220 24 60 60     "
+        },
+        {
+          "label": "11(c)",
+          "marks": 1,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "The further away from the Sun the slower the orbital speed / ORA"
+        },
+        {
+          "label": "11(d)",
+          "marks": 3,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "1 any one from: • comet has an elliptical orbit • speed of comet is faster when it closer to the Sun • speed of comet is slower when it is further away from the Sun 2 any one from: • (conservation of energy requires that) transfers between kinetic and gravitational stores (as comet changes speed) • total energy remains constant • energy cannot be created or destroyed 3 as radius of orbit decreases, gravitational energy decreases and kinetic energy increases ORA"
+        }
+      ],
+      "code": "6.1"
+    }
+  ]
+}

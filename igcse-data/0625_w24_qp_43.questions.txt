@@ -1,0 +1,758 @@
+===== Q1 =====
+2
+0625/43/O/N/24
+© UCLES 2024
+1 
+(a) (i) State the difference between a scalar quantity and a vector quantity.
+ ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
+ ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­ [1]
+ 
+ 
+(ii) Define momentum.
+ ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
+ ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­ [1]
+ 
+(b) A test car crashes into a barrier to test the safety features. The test car has a total mass of 
+950 kg. It is moving with constant velocity from time t = 0 for 4.0 s. At t = 4.0 s, the car hits the 
+barrier.
+ 
+ 
+Fig. 1.1 shows the car as it hits the barrier.
+barrier
+Fig. 1.1
+ 
+ 
+(i) During the test crash, the resultant force acting on the car is 27 000 N. The car takes 
+1.5 s to come to rest. The deceleration is uniform.
+ 
+ 
+ Calculate the initial velocity of the car.
+ 
+initial velocity =  ......................................................... [3]
+* 0000800000002 *
+,	,
+ĭÖċ¯ġµîÉöÐīÆċàý¸ÿØ
+ĭæÒûÜĞčĈÐöĆÍþÞāĄģă
+Ħ¶öĖööÆĖĆÆ¶ÆĆÖÆööÖ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+3
+0625/43/O/N/24
+© UCLES 2024
+[Turn over
+ 
+ 
+(ii) On Fig. 1.2, sketch a speed–time graph to show the motion of the car from time t = 0 until 
+the car becomes stationary.
+0
+4.0
+time / s
+speed
+m/s
+0
+Fig. 1.2
+ 
+[2]
+ 
+[Total: 7]
+* 0000800000003 *
+,	,
+ĭØċ¯ġµîÉöÐīÆċàû¸ÿØ
+ĭæÓúÔĬĉøëĄýþÚÖÝĄēă
+Ħ¶ĆÖ¶ĖæöĖ¶ĦÆĆ¶æ¶ĦÖ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q2 =====
+4
+0625/43/O/N/24
+© UCLES 2024
+2 
+(a) Describe an experiment to determine the spring constant of a spring.
+ 
+ 
+State:
+• 
+the apparatus you need
+• 
+details of how to take measurements
+• 
+how to calculate the spring constant
+ 
+ 
+You may use the space below to draw a labelled diagram as part of your answer.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [4]
+* 0000800000004 *
+,	,
+ĭÖċ¯ġµîÉöÐīÆċÞý¸āØ
+ĭæÓýÔĢ÷óÎþôćüúûĔīă
+ĦĆÖÖöĖæÖöĖĖÆÆ¶Ć¶öÖ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+5
+0625/43/O/N/24
+© UCLES 2024
+[Turn over
+ 
+(b) Fig. 2.1 shows a baby in a baby bouncer. The baby bouncer consists of a holder suspended 
+from a spring. The baby pushes his feet on the ground and bounces gently up and down.
+100 cm
+140 cm
+baby in
+holder
+spring
+hook
+Fig. 2.1
+ 
+ 
+(i) Two springs Q and R are tested to determine their spring constants.
+ 
+ 
+ Each spring is tested up to its limit of proportionality.
+ 
+ 
+ Define ‘limit of proportionality’.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Table 2.1 shows the results of the tests.
+spring
+spring constant
+N / cm
+Q
+7.8
+R
+1.1
+Table 2.1
+ 
+ 
+ The total weight of the baby and the holder is 120 N.
+ 
+ 
+ Calculate the extension of each spring for this weight.
+ 
+extension of spring Q =  ............................................................... 
+ 
+extension of spring R =  ...............................................................
+ 
+[1]
+* 0000800000005 *
+,	,
+ĭØċ¯ġµîÉöÐīÆċÞû¸āØ
+ĭæÒüÜĨûăíüÿÄàĂßĔěă
+ĦĆæĖ¶öÆ¶ĦĦÆÆÆÖĦöĦÖ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+6
+0625/43/O/N/24
+© UCLES 2024
+ 
+ 
+(iii) The unstretched length of each spring is 25 cm.
+ 
+ 
+ State and explain which spring would be more suitable for the baby bouncer in Fig. 2.1.
+ 
+ 
+ spring ................................
+explanation  ........................................................................................................................
+ ...........................................................................................................................................
+ 
+[1]
+ 
+[Total: 7]
+* 0000800000006 *
+,	,
+ĭÚċ¯ġµîÉöÐīÆċáû·ÿØ
+ĭæÓüÙĞēčåñð»ÀúÀ¼īă
+ĦÖĆĖ¶ÖÆĖæĆĦÆĆÖÆ¶¶Ö
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q3 =====
+7
+0625/43/O/N/24
+© UCLES 2024
+[Turn over
+3 
+Fig. 3.1 shows a portable shower used on a campsite. The bag is filled with water. The water is 
+heated using infrared radiation from the Sun.
+showerhead
+shower bag
+painted black
+Fig. 3.1
+ 
+(a) (i) Explain why the shower bag is painted black.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Explain a disadvantage of radiation from the Sun being the only source to heat the 
+water.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+(b) Solar energy is a renewable energy resource.
+ 
+ 
+State two other renewable energy resources.
+1  ................................................................................................................................................
+2  ................................................................................................................................................
+ 
+[2]
+* 0000800000007 *
+,	,
+ĭÜċ¯ġµîÉöÐīÆċáý·ÿØ
+ĭæÒýÑĬďýÖċăðĜĂĜ¼ěă
+ĦÖöÖö¶æö¶ö¶ÆĆ¶æöæÖ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+8
+0625/43/O/N/24
+© UCLES 2024
+ 
+(c) During the day, the Sun shines on the shower bag and some of the energy in the infrared 
+radiation from the Sun transfers to the thermal energy stores of the water.
+ 
+ 
+The water absorbs 60% of the energy incident on the bag. The temperature of the water rises 
+from 10 °C to 43 °C.
+ 
+ 
+The mass of the water in the bag is 40 kg. The specific heat capacity of water is 4200 J / (kg °C).
+ 
+ 
+Calculate the energy incident on the shower bag during the day.
+ 
+ 
+Show your working.
+ 
+energy =  ......................................................... [4]
+ 
+[Total: 8]
+* 0000800000008 *
+,		,
+ĭÚċ¯ġµîÉöÐīÆċßû·āØ
+ĭæÒúÑĢġîãĉĊùºÞºìģă
+ĦĦæÖ¶¶æÖÖÖÆÆÆ¶Ćö¶Ö
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q4 =====
+9
+0625/43/O/N/24
+© UCLES 2024
+[Turn over
+4 
+(a) Fig. 4.1 shows a ray of light as it enters the side of a plastic block. The ray of light passes 
+from air into the plastic.
+normal
+air
+plastic block
+ray of light
+i = 45°
+r = 30°
+Fig. 4.1
+ 
+ 
+(i) State how the speed, wavelength and frequency of the wave in the plastic block compare 
+with their values in the air.
+speed:  ...............................................................................................................................
+wavelength:  .......................................................................................................................
+frequency:  .........................................................................................................................
+ 
+[2]
+ 
+ 
+(ii) Show that the refractive index of the plastic is 1.4.
+ 
+ 
+ Show your working.
+ 
+[1]
+ 
+ 
+(iii) Calculate the critical angle for the plastic.
+ 
+critical angle =  ......................................................... [2]
+* 0000800000009 *
+,	
+,
+ĭÜċ¯ġµîÉöÐīÆċßý·āØ
+ĭæÓûÙĨĥþØóù²ĞÖĞìēă
+ĦĦÖĖöÖÆ¶ÆæĖÆÆÖĦ¶æÖ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+10
+0625/43/O/N/24
+© UCLES 2024
+ 
+(b) Fig. 4.2 shows the same plastic as in (a) used to make an optical fibre. A ray of light is passing 
+along the fibre.
+P
+Fig. 4.2
+ 
+ 
+(i) Carefully continue the ray of light P until it reaches the other end of the fibre. 
+[2]
+ 
+ 
+(ii) State two uses for optical fibres.
+1  ........................................................................................................................................
+2  ........................................................................................................................................
+ 
+[2]
+ 
+[Total: 9]
+* 0000800000010 *
+,	,
+ĭÚċ¯ġµîÉöÐīÆċàû¹ÿØ
+ĭæÕúÖĤĩĬáĀăÏÖàÎĔěă
+Ħ¶ÆĖ¶¶ĆÖöĦÆĆÆĖĆöĆÖ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q5 =====
+11
+0625/43/O/N/24
+© UCLES 2024
+[Turn over
+5 
+Fig. 5.1 shows a metal sphere S. The sphere has been charged with a negative charge.
+S
+Fig. 5.1
+ 
+(a) (i) There is an electric field around sphere S.
+ 
+ 
+ On Fig. 5.1, draw four field lines to show the pattern of the field and indicate the direction 
+of the field with arrows on the lines. 
+[2]
+ 
+ 
+(ii) Fig. 5.2 shows a position X next to sphere S.
+ 
+ 
+ A small negatively charged particle is placed at position X.
+S
+X
+Fig. 5.2
+ 
+ 
+ State the direction of the force on the negatively charged particle at X due to the electric 
+field around sphere S.
+ ..................................................................................................................................... [1]
+ 
+ 
+(iii) The negatively charged particle at X is released from rest.
+ 
+ 
+ Describe the motion of the small negatively charged particle due to the electric field 
+around sphere S.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+* 0000800000011 *
+,	,
+ĭÜċ¯ġµîÉöÐīÆċàý¹ÿØ
+ĭæÔûÎĦĭĜÚúðĜĂØĊĔīă
+Ħ¶¶ÖöÖĦ¶ĦĖĖĆÆöĦ¶ĖÖ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+12
+0625/43/O/N/24
+© UCLES 2024
+ 
+(b) Fig. 5.3 shows sphere S being spray painted. Sphere S is negatively charged. As the paint 
+particles exit the wide nozzle of the paint sprayer, they become charged with a positive 
+charge.
+S
+positively
+charged nozzle
+paint sprayer
+paint particles
+Fig. 5.3
+ 
+ 
+(i) Explain why the paint particles spread out when they leave the nozzle.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) The sphere can be painted by hand using a paintbrush.
+ 
+ 
+ Suggest and explain one advantage to using charged paint from a spray gun to paint 
+sphere S.
+advantage  .........................................................................................................................
+explanation  ........................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+[2]
+ 
+[Total: 8]
+* 0000800000012 *
+,	,
+ĭÚċ¯ġµîÉöÐīÆċÞû¹āØ
+ĭæÔüÎĠěďßøùĕäüìĄēă
+ĦĆĦÖ¶ÖĦĖĆ¶ĦĆĆöÆ¶ĆÖ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q6 =====
+13
+0625/43/O/N/24
+© UCLES 2024
+[Turn over
+6 
+(a) A car windscreen is covered in condensation (small droplets of water). Thermal energy is 
+used to remove the droplets of water. The thermal energy is provided by three resistors on 
+the windscreen.
+ 
+ 
+Fig. 6.1 shows two possible circuits for the three resistors. 
+ 
+ 
+The three resistors are identical.
+Circuit A
+Circuit B
+12 V car
+battery
+12 V car
+battery
+Fig. 6.1
+ 
+ 
+(i) Describe two advantages of using Circuit B.
+1 ......................................................................................................................................... 
+ ...........................................................................................................................................
+2 .........................................................................................................................................
+ ...........................................................................................................................................
+ 
+[2]
+ 
+ 
+(ii) Describe, in terms of the water particles, the process by which the water droplets are 
+removed from the car windscreen using the heater.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+* 0000800000013 *
+,	,
+ĭÜċ¯ġµîÉöÐīÆċÞý¹āØ
+ĭæÕýÖĪėğÜĂĊÖøĄðĄģă
+ĦĆĖĖö¶ĆöĖÆ¶ĆĆĖæöĖÖ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+14
+0625/43/O/N/24
+© UCLES 2024
+ 
+(b) Fig. 6.2 shows a circuit containing two resistors, P and Q. The circuit is powered by a 12 V 
+battery.
+12 V
+90 Ω
+P
+70 Ω
+Q
+Fig. 6.2
+ 
+ 
+(i) Calculate the current in resistor Q.
+ 
+current =  ......................................................... [2]
+ 
+ 
+(ii) Calculate the energy transferred electrically when the current calculated in (b)(i) is 
+present in resistor Q for 5 minutes.
+ 
+energy =  ......................................................... [3]
+ 
+ 
+(iii) Energy is transferred from the battery by the electrical current. 
+ 
+ 
+ State the energy store in the battery.
+ ..................................................................................................................................... [1]
+ 
+ 
+(iv) Calculate the total resistance of the circuit.
+ 
+total resistance =  ......................................................... [2]
+ 
+[Total: 12]
+* 0000800000014 *
+,	,
+ĭÖċ¯ġµîÉöÐīÆċßü¶ăØ
+ĭæÔûÙĨĪėêĈÿûÜÛü´īă
+ĦæĖÖ¶ÖÆÖöÖ¶ÆÆÖĆ¶ÆÖ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q7 =====
+15
+0625/43/O/N/24
+© UCLES 2024
+[Turn over
+7 
+Fig. 7.1 shows a barrier at the entrance to a car park. The wooden barrier arm has a weight of 
+60 N which acts through the centre of gravity at the position shown on Fig. 7.1.
+joint
+soft iron bar A
+pivot
+d
+1.7 m
+centre of gravity
+wooden barrier arm
+weight of wooden barrier arm
+= 60 N
+Fig. 7.1
+ 
+(a) Initially the wooden barrier arm is horizontal.
+ 
+ 
+(i) Using Fig. 7.1, calculate the clockwise moment of the weight of the wooden arm about 
+the pivot.
+ 
+clockwise moment =  ................................................... Nm [1]
+ 
+ 
+(ii) The wooden barrier arm is in equilibrium. The mass of the soft iron bar A is 23 kg.
+ 
+ 
+ Calculate the distance d between the pivot and the joint holding the soft iron bar A.
+ 
+distance d =  ......................................................... [3]
+* 0000800000015 *
+,	,
+ĭØċ¯ġµîÉöÐīÆċßú¶ăØ
+ĭæÕúÑĢĦħÑòô°Āãà´ěă
+ĦæĦĖö¶æ¶ĦæĦÆÆ¶ĦöÖÖ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+16
+0625/43/O/N/24
+© UCLES 2024
+ 
+(b) Fig. 7.2 shows a coil attached to a power supply placed below the soft iron bar A.
+joint
+power
+supply
++
+−
+soft iron bar A
+soft iron core
+coil
+pivot
+d
+1.7 m
+weight
+= 60 N
+Fig. 7.2
+ 
+ 
+(i) State and explain what happens to the wooden barrier arm when the switch in the coil 
+circuit is closed.
+statement  ..........................................................................................................................
+explanation  ........................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ 
+[3]
+ 
+ 
+(ii) The switch is opened. An operator decreases the potential difference across the coil and 
+the switch is closed.
+ 
+ 
+ State and explain how the effect on the wooden barrier arm compares with the effect in 
+(b)(i).
+statement  ..........................................................................................................................
+explanation  ........................................................................................................................
+ ...........................................................................................................................................
+ 
+[2]
+ 
+ 
+(iii) A student suggests that the soft iron bar A is replaced by a steel bar. Explain why a steel 
+bar is less effective than a soft iron bar in the barrier.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+[Total: 11]
+* 0000800000016 *
+,	,
+ĭÖċ¯ġµîÉöÐīÆċáü¶ąØ
+ĭæÕýÑĬĘĤìðý¹Þÿþäģă
+ĦĖ¶Ė¶¶æĖĆĆĖÆĆ¶ÆöÆÖ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q8 =====
+17
+0625/43/O/N/24
+© UCLES 2024
+[Turn over
+8 
+An isotope of boron is used in the treatment of cancer in the brain.
+ 
+Boron sticks to cancer cells in the brain. 
+ 
+(a) The isotope of boron is bombarded with neutrons then undergoes fission to form lithium and 
+alpha‑particles.
+ 
+ 
+(i) Describe one difference between fission and fusion.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) A nucleus of boron (B) contains 5 protons and 5 neutrons. Complete the nuclide equation 
+for this fission reaction.
+.........
+......... B  +  1
+0n  
+  .........
+......... Li  +  .........
+......... α
+ 
+[3]
+ 
+(b) The alpha‑particles destroy the cancer cells. Suggest and explain one reason why alpha 
+particles are more suitable than gamma radiation for use in this treatment of brain cancer.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+(c) Other cancers are treated with gamma radiation. Describe one safety precaution a nurse or 
+radiologist takes during this treatment.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+[Total: 7]
+* 0000800000017 *
+,	,
+ĭØċ¯ġµîÉöÐīÆċáú¶ąØ
+ĭæÔüÙĞĜĔÏĊĆòú÷Úäēă
+ĦĖÆÖöÖÆöĖöÆÆĆÖæ¶ÖÖ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q9 =====
+18
+0625/43/O/N/24
+© UCLES 2024
+9 
+(a) Fig. 9.1 shows a diagram of a transverse wave.
+Q
+R
+P
+T
+U
+S
+wave
+V
+Fig. 9.1
+ 
+ 
+From Fig. 9.1, identify all the lengths which represent one wavelength.
+ ............................................................................................................................................. [1]
+ 
+(b) Hydrogen in a very distant galaxy emits electromagnetic radiation which is observed on the 
+Earth. 
+ 
+ 
+Scientists on the Earth measure the wavelength of the radiation from the very distant galaxy. 
+The wavelength is 918 nm.
+ 
+ 
+On the Earth, hydrogen in the laboratory emits electromagnetic radiation of wavelength 656 nm. 
+ 
+ 
+Name the effect that the scientists observe and state what this shows about the very distant 
+galaxy.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+* 0000800000018 *
+,		,
+ĭÖċ¯ġµîÉöÐīÆċÞü¸ăØ
+ĭæÒýÖĪĐöæùôďÂāĪĜěă
+ĦÆÖÖ¶¶ĆĖæ¶ĖĆĆĖÆööÖ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+19
+0625/43/O/N/24
+© UCLES 2024
+[Turn over
+ 
+(c) Table 9.1 shows a wavelength of electromagnetic radiation from hydrogen observed in the 
+laboratory and from three galaxies.
+ 
+ 
+The galaxies are at different distances from the Earth.
+Table 9.1
+object
+wavelength of hydrogen from object, 
+observed on the Earth / nm
+gas tube in laboratory
+656
+nearby galaxy
+667
+distant galaxy
+750
+very distant galaxy
+918
+ 
+ 
+Describe what Table 9.1 shows about the motions of the galaxies and state what this suggests 
+is happening to the Universe.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+[Total: 5]
+* 0000800000019 *
+,	
+,
+ĭØċ¯ġµîÉöÐīÆċÞú¸ăØ
+ĭæÓüÎĠĔĆÕăÿÜĖù®Ĝīă
+ĦÆæĖöÖĦö¶ÆÆĆĆöæ¶ĦÖ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q10 =====
+20
+0625/43/O/N/24
+© UCLES 2024
+Permission to reproduce items where third‑party owned material protected by copyright is included has been sought and cleared where possible. Every 
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the 
+publisher will be pleased to make amends at the earliest possible opportunity.
+To avoid the issue of disclosure of answer‑related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+Cambridge Assessment International Education is part of Cambridge Assessment. Cambridge Assessment is the brand name of the University of Cambridge 
+Local Examinations Syndicate (UCLES), which is a department of the University of Cambridge.
+10 (a) Stars more massive than the Sun can eventually form black holes.
+ 
+ 
+Describe how a black hole can be formed from a more massive star.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+ 
+(b) The star system V404 Cygni contains a black hole. The system is approximately 
+7800 light‑years from the Earth.
+ 
+ 
+(i) Describe what is meant by a light‑year.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Calculate the approximate distance from V404 Cygni to the Earth in km.
+ 
+distance =  ................................................... km [2]
+ 
+[Total: 6]
+* 0000800000020 *
+,	,
+ĭÖċ¯ġµîÉöÐīÆċàü¸ąØ
+ĭæÓûÎĦĢąèāĆÕ¸ÝĐČēă
+ĦööĖ¶ÖĦÖÖĦ¶ĆÆöĆ¶öÖ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN

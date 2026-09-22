@@ -1,0 +1,474 @@
+{
+  "paper": "0625/42/M/J/25",
+  "paper_full": "June 2025 · Paper 42",
+  "questions": [
+    {
+      "qnum": 1,
+      "topic": "1",
+      "title": "Ice skater — speed–time graph and deceleration",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_s25_qp_42_Q01.pdf",
+      "parts": [
+        {
+          "label": "1(a)",
+          "marks": 1,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "constant speed OR uniform speed"
+        },
+        {
+          "label": "1(b)",
+          "marks": 3,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "33 m (distance =) area under graph OR bh OR speed  time OR 11  3"
+        },
+        {
+          "label": "1(c)(i)",
+          "marks": 1,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "(rate of) decrease of velocity OR decrease in velocity (per unit time) OR negative acceleration"
+        },
+        {
+          "label": "1(c)(ii)",
+          "marks": 3,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "tangent drawn at 9.0 s on graph 0.50–0.70 m / s2 correct method of gradient calculation using any two correct pairs of co-ordinates (± ½ a small square) from their tangent 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2025 © Cambridge University Press & Assessment 2025 Page 10 of 19"
+        }
+      ],
+      "code": "1.2"
+    },
+    {
+      "qnum": 2,
+      "topic": "1",
+      "title": "Balanced ruler — moment, centre of gravity and density",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_s25_qp_42_Q02.pdf",
+      "parts": [
+        {
+          "label": "2(a)",
+          "marks": 1,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "(moment =) force  perpendicular distance (from the pivot)"
+        },
+        {
+          "label": "2(b)",
+          "marks": 1,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "X AND 50 cm labelled to the right of the pivot AND left of 80 cm"
+        },
+        {
+          "label": "2(c)(i)",
+          "marks": 3,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "sum of clockwise moments = sum of anticlockwise moments {mg  8} + {0.12  38} = {0.34  32} any one from: • mg = [{0.34  32} – {0.12  38}] ÷ 8 • mg = {10.88 – 4.56} ÷ 8 • mg = 6.32 ÷ 8 • mg = 0.79 • (mass =) 0.79 ÷ 9.8"
+        },
+        {
+          "label": "2(c)(ii)",
+          "marks": 3,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "520 kg / m3 (density =) mass ÷ volume OR 0.081 ÷ {1(.0)  2.6  10–2  6(.0)  10–3} 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2025 © Cambridge University Press & Assessment 2025 Page 11 of 19"
+        }
+      ],
+      "code": "1.5"
+    },
+    {
+      "qnum": 3,
+      "topic": "1",
+      "title": "Toy train collision — momentum and force",
+      "marks": 11,
+      "pdf": "igcse-slices/0625_s25_qp_42_Q03.pdf",
+      "parts": [
+        {
+          "label": "3(a)",
+          "marks": 1,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "(momentum =) mass  velocity OR (p =) mv"
+        },
+        {
+          "label": "3(b)",
+          "marks": 7,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "(velocity =) 0.19 m / s AND (direction) to the right (momentum before collision) = {0.45  0.34} – {0.21  0.12} OR 0.1278 (momentum after collision) = 0.66  v momentum before collision = momentum after collision OR {0.45  0.34} – {0.21  0.12} = 0.66  v OR 0.153 – 0.0252 = 0.66  v"
+        },
+        {
+          "label": "3(c)",
+          "marks": 3,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "(–) 0.12 N F∆t = ∆{mv} OR (F =) ∆p ÷ (∆)t OR (F =) ∆{mv} ÷ (∆)t OR (F =) 0.26 ÷ 2.1 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2025 © Cambridge University Press & Assessment 2025 Page 12 of 19"
+        }
+      ],
+      "code": "1.6"
+    },
+    {
+      "qnum": 4,
+      "topic": "2",
+      "title": "Cooling containers — radiation, conduction and evaporation",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_s25_qp_42_Q04.pdf",
+      "parts": [
+        {
+          "label": "4(a)(i)",
+          "marks": 3,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "container A or container with (dull) black (surface) AND (dull) black (surfaces) are better emitters of infrared / radiation (than shiny white surfaces) container A or container with (dull) black (surface) AND (dull) black (surfaces) are better emitters (than shiny white surfaces)"
+        },
+        {
+          "label": "4(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "rate of transfer of energy from the container is equal to rate of transfer of energy to the container"
+        },
+        {
+          "label": "4(a)(iii)",
+          "marks": 1,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "convection"
+        },
+        {
+          "label": "4(b)",
+          "marks": 3,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "any three from: • metal is a good / better (thermal) conductor OR wood is a poor conductor OR wood is a (thermal) insulator • metal contains free / delocalised electrons OR wood does not contain free / delocalised electrons • electrons carry (thermal) energy through metal OR electrons collide with (distant) ions • wood only transfers (thermal) energy by lattice vibrations 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2025 © Cambridge University Press & Assessment 2025 Page 13 of 19"
+        }
+      ],
+      "code": "2.3"
+    },
+    {
+      "qnum": 5,
+      "topic": "3",
+      "title": "Speed of sound and Bluetooth microwaves",
+      "marks": 19,
+      "pdf": "igcse-slices/0625_s25_qp_42_Q05.pdf",
+      "parts": [
+        {
+          "label": "5(a)",
+          "marks": 12,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "echo method (outside): 1 method of producing short, loud sound (e.g. clap / shout / cry out / bang 2 pieces of wood together) 2 measuring tape or trundle wheel, stopwatch and wall 3 (person) starts stopwatch when clap etc heard and stops it when echo heard 4 speed = 2  measured distance ÷ time OR direct method outside: 1 method of producing short, loud sound (e.g. fire gun) 2 measuring tape or trundle wheel, stopwatch 3 (student at one end) starts stopwatch when smoke seen from gun and stops it when sound heard 4 speed = distance ÷ time OR direct method (using digital): 1 method of producing short sound e.g. clap or hammer striking block 2 measuring tape or metre ruler, digital timer and microphones 3 digital timer starts when sound reaches first microphone and stops when sound reaches second microphone. Time difference is recorded on digital timer owtte 4 speed = distance ÷ time for direct method 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2025 © Cambridge University Press & Assessment 2025 Page 14 of 19"
+        },
+        {
+          "label": "5(b)(i)",
+          "marks": 1,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "radio waves"
+        },
+        {
+          "label": "5(b)(ii)",
+          "marks": 1,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "3(.0)  108 m / s"
+        },
+        {
+          "label": "5(b)(iii)",
+          "marks": 5,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "0.12 m v = f OR ( =) v ÷ f OR ( =) {3(.0)  108} ÷ {2.48  109} ( =) {3(.0)  108} ÷ {2.48  109} OR ( =) 1.2  10N 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2025 © Cambridge University Press & Assessment 2025 Page 15 of 19"
+        }
+      ],
+      "code": "3.4"
+    },
+    {
+      "qnum": 6,
+      "topic": "3",
+      "title": "Converging lens and correcting long-sightedness",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_s25_qp_42_Q06.pdf",
+      "parts": [
+        {
+          "label": "6(a)(i)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "two points labelled F on principal axis, both 3.0 cm from the centre of the lens"
+        },
+        {
+          "label": "6(a)(ii)",
+          "marks": 5,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "method 1 two correct rays from: • ray from top of I through the centre of the lens • ray from top of I parallel to principal axis to the left of the lens, to centre of lens and then through RH focus • ray from top of I through LH focus to lens, to centre of lens and then parallel to principal axis on the right of the lens OR method 2 two correct rays from: • ray from top of I through the centre of the lens • ray from top of I through RH focus of lens and extended back, from centre of lens, parallel to principal axis on the left of the lens • ray from top of I parallel to principal axis to the left of the lens, and extended back, from the centre of the lens, through the LH focus object, labelled O, at the intersection of rays to the RH of the lens for method 1 object, labelled O, at the intersection of rays to the LH of the lens for method 2"
+        },
+        {
+          "label": "6(a)(iii)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "real OR inverted"
+        },
+        {
+          "label": "6(b)(i)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "rays meeting behind the retina OR would meet behind retina if extended"
+        },
+        {
+          "label": "6(b)(ii)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "any converging lens 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2025 © Cambridge University Press & Assessment 2025 Page 16 of 19"
+        }
+      ],
+      "code": "3.2"
+    },
+    {
+      "qnum": 7,
+      "topic": "4",
+      "title": "Electric field, charging by friction and electrical energy",
+      "marks": 13,
+      "pdf": "igcse-slices/0625_s25_qp_42_Q07.pdf",
+      "parts": [
+        {
+          "label": "7(a)",
+          "marks": 1,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "(region) where a(n electric) charge experiences a force OR (region) where a force acts on a(n electric) charge"
+        },
+        {
+          "label": "7(b)(i)",
+          "marks": 2,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "any two from: • friction (between cloth and rod causes electrons to gain energy) • electrons move • (electrons move) from cloth / to plastic (making plastic negative and cloth positive)"
+        },
+        {
+          "label": "7(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "moves away (from the charged plastic rod) moves / experiences a force / repels"
+        },
+        {
+          "label": "7(c)(i)",
+          "marks": 1,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "energy transferred in one hour at a rate of transfer of 1 kW"
+        },
+        {
+          "label": "7(c)(ii)",
+          "marks": 6,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "1 5.5 (kW h) P = (∆)E ÷ t OR (∆E =) Pt OR (∆E =) 0.025  220 OR 25  220 2 0.11  A P = V I OR (I =) P ÷ V OR (I =) 25 ÷ 230 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2025 © Cambridge University Press & Assessment 2025 Page 17 of 19"
+        }
+      ],
+      "code": "4.2"
+    },
+    {
+      "qnum": 8,
+      "topic": "4",
+      "title": "a.c. generator and a resistor circuit",
+      "marks": 10,
+      "pdf": "igcse-slices/0625_s25_qp_42_Q08.pdf",
+      "parts": [
+        {
+          "label": "8(a)(i)",
+          "marks": 2,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "P and Q: slip rings X and Y: brushes"
+        },
+        {
+          "label": "8(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "coil cuts magnetic field"
+        },
+        {
+          "label": "8(a)(iii)",
+          "marks": 1,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "any one from: • increase strength of magnetic field • increase speed of rotation of coil • increase number of turns (of coil)"
+        },
+        {
+          "label": "8(b)(i)",
+          "marks": 2,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "1.2 A (total) resistance of two (identical) resistors in series is added / doubled"
+        },
+        {
+          "label": "8(b)(ii)",
+          "marks": 1,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "6(.0) A"
+        },
+        {
+          "label": "8(b)(iii)",
+          "marks": 3,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "2.1  V = I R OR (R =) V ÷ I OR (R =) 5(.0) ÷ 2.4 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2025 © Cambridge University Press & Assessment 2025 Page 18 of 19"
+        }
+      ],
+      "code": "4.5"
+    },
+    {
+      "qnum": 9,
+      "topic": "5",
+      "title": "Radium and technetium — medical radioactive isotopes",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_s25_qp_42_Q09.pdf",
+      "parts": [
+        {
+          "label": "9(a)(i)",
+          "marks": 1,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "radiation (always) present in the environment OR radiation from natural sources"
+        },
+        {
+          "label": "9(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "any one from: • radon gas • rocks OR buildings • food OR drink • cosmic rays"
+        },
+        {
+          "label": "9(b)(i)",
+          "marks": 2,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "Rn 86 219  2 4"
+        },
+        {
+          "label": "9(b)(ii)",
+          "marks": 1,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "alpha (particles) would be absorbed / stopped by the skin owtte"
+        },
+        {
+          "label": "9(c)(i)",
+          "marks": 1,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "gamma / radiation needs to pass out of the body (to detector)"
+        },
+        {
+          "label": "9(c)(ii)",
+          "marks": 1,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "after a few days / some time, little radiation is emitted owtte 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2025 © Cambridge University Press & Assessment 2025 Page 19 of 19"
+        }
+      ],
+      "code": "5.2"
+    },
+    {
+      "qnum": 10,
+      "topic": "6",
+      "title": "Planets — temperature, gravity and the life cycle of a star",
+      "marks": 10,
+      "pdf": "igcse-slices/0625_s25_qp_42_Q10.pdf",
+      "parts": [
+        {
+          "label": "10(a)(i)",
+          "marks": 2,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "planet B high(est) (surface) temperature"
+        },
+        {
+          "label": "10(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "–180 (°C)"
+        },
+        {
+          "label": "10(a)(iii)",
+          "marks": 2,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "planet A gravitational field strength is highest so acceleration (due to gravity) is greater OR gravitational field strength is highest so greater (downward) force on the object"
+        },
+        {
+          "label": "10(b)(i)",
+          "marks": 4,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "red supergiant (new) heavier elements OR hydrogen any two from: • neutron star • black hole • new stars (with orbiting planets)"
+        },
+        {
+          "label": "10(b)(ii)",
+          "marks": 1,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "distance (from Earth) to galaxy"
+        }
+      ],
+      "code": "6.1"
+    }
+  ]
+}

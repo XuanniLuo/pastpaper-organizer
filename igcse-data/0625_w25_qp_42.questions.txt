@@ -1,0 +1,655 @@
+===== Q1 =====
+3
+0625/42/O/N/25
+© UCLES 2025
+[Turn over
+1 
+(a) (i) State the difference between a scalar quantity and a vector quantity.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) In the list below, draw a line under each of the quantities that is a scalar quantity.
+acceleration   mass   momentum   electric field strength
+energy   temperature
+ 
+[2]
+ 
+(b) A tennis player throws a tennis ball into the air. The mass of the tennis ball is 5.8 × 10–2 kg. 
+The tennis ball leaves the tennis player’s hand and reaches a maximum height of 5.0 m above 
+the point of release.
+ 
+ 
+(i) Show that the initial velocity of the tennis ball is 9.9 m / s upwards.
+ 
+[3]
+ 
+ 
+(ii) Calculate the momentum of the tennis ball as it leaves the tennis player’s hand.
+ 
+momentum =  ......................................................... [2]
+ 
+[Total: 8]
+* 0000800000003 *
+,	,
+Ĭ×Ċ®Ġ´íÈõÏĪÅĊÝú·þ×
+ĬČ¼ùÏġħĕåýČĒĆ­ÃâćĂ
+ĥąąĕµµåÕąåÅÅąõĥµĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q2 =====
+4
+0625/42/O/N/25
+© UCLES 2025
+2 
+(a) A truck moves with a constant acceleration. The speed of the truck increases from 13 m / s to 
+22 m / s. The time taken for this increase in speed is 4.5 s. The mass of the truck is 3700 kg.
+ 
+ 
+(i) Calculate the resultant force acting on the truck.
+ 
+resultant force =  ......................................................... [3]
+ 
+ 
+(ii) The engine of the truck provides the forward force on the truck. State two forces acting 
+on the truck in the opposite direction to the forward force.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+* 0000800000004 *
+,	,
+ĬÕĊ®Ġ´íÈõÏĪÅĊßü·Ā×
+ĬČ¼üÏīĕĔÒăăęèđġ²ïĂ
+ĥµÕĕõµåõĥąµÅÅõÅµąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+5
+0625/42/O/N/25
+© UCLES 2025
+[Turn over
+ 
+(b) Fig. 2.1 shows a car as it travels round a circular racing track.
+circular
+racing track
+direction of
+movement
+car
+P
+Fig. 2.1
+ 
+ 
+(i) The car travels at constant speed.
+ 
+ 
+ On Fig. 2.1, draw an arrow to show the direction of the force acting on the car. 
+[1]
+ 
+ 
+(ii) A different car travels around the same track and slides off the track at point P.
+ 
+ 
+ State two possible reasons that cause the car to slide off the track.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+[Total: 8]
+* 0000800000005 *
+,	,
+Ĭ×Ċ®Ġ´íÈõÏĪÅĊßú·Ā×
+ĬČ»û×ĝęĤçõîÐôĩµ²ÿĂ
+ĥµåÕµÕÅĕõõĥÅÅĕåõĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q3 =====
+6
+0625/42/O/N/25
+© UCLES 2025
+3 
+Fig. 3.1 shows black solar panels installed on the roof of a house and a large rechargeable battery.
+large
+rechargeable
+battery
+electric cable
+solar panels
+Fig. 3.1 (not to scale)
+ 
+The solar panels produce electricity and give a maximum power output of 3.5 kW. The efficiency of 
+the solar panels is 16%.
+ 
+(a) State and explain one advantage of using black solar panels.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+(b) Calculate the power received by the solar panels from the Sun.
+ 
+power =  ......................................................... [3]
+* 0000800000006 *
+,	,
+ĬÙĊ®Ġ´íÈõÏĪÅĊÞú¶þ×
+ĬČ¼ûÜħñĪßòÿåĔđØĚïĂ
+ĥĥąÕµõÅµµĕÅÅąĕąµÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+7
+0625/42/O/N/25
+© UCLES 2025
+[Turn over
+ 
+(c) The solar panels produce direct current (d.c.) and household appliances use alternating 
+current (a.c.).
+ 
+ 
+State the difference between alternating current and direct current.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+(d) Suggest one advantage of storing energy in the large rechargeable battery.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+(e) Calculate the charge that flows into the battery when there is a current of 4.0 A for 2.0 hours.
+ 
+charge =  ......................................................... [3]
+ 
+[Total: 10]
+* 0000800000007 *
+,	,
+ĬÛĊ®Ġ´íÈõÏĪÅĊÞü¶þ×
+ĬČ»üÔġíĚÚĈòĤÈĩĄĚÿĂ
+ĥĥõĕõĕåÕåĥĕÅąõĥõÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q4 =====
+8
+0625/42/O/N/25
+© UCLES 2025
+4 
+Fig. 4.1 shows gas trapped in a cylinder by a piston.
+piston
+gas
+cylinder
+Fig. 4.1
+ 
+(a) The volume of gas is 240 cm3.
+ 
+ 
+The piston is pushed to the left and is held in its new position.
+ 
+ 
+(i) The pressure of the gas increases from 1.0 × 105 Pa to 1.4 × 105 Pa.
+ 
+ 
+ The temperature of the gas remains constant.
+ 
+ 
+ Calculate the volume of the gas when the piston is in its new position.
+ 
+volume =  .................................................. cm3 [3]
+ 
+ 
+(ii) The area of the piston in contact with the gas is 1.9 × 10–3 m2.
+ 
+ 
+ Calculate the force exerted on the piston by the gas when the piston is held in its new 
+position.
+ 
+force =  ......................................................... [2]
+* 0000800000008 *
+,		,
+ĬÙĊ®Ġ´íÈõÏĪÅĊàú¶Ā×
+ĬČ»ùÔīÿďÝĊùīĦÅâĊ÷Ă
+ĥÕåĕµĕåõÅÅĥÅÅõÅõÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+9
+0625/42/O/N/25
+© UCLES 2025
+[Turn over
+ 
+ 
+(iii) The distance moved by the piston is 0.036 m. The average force exerted by the piston as 
+it moves is 220 N.
+ 
+ 
+ Calculate the mechanical work done by the piston. State the equation you use.
+ 
+work done =  ......................................................... [2]
+ 
+(b) Explain, in terms of particles, why gases can be compressed but liquids cannot.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+[Total: 8]
+* 0000800000009 *
+,	
+,
+ĬÛĊ®Ġ´íÈõÏĪÅĊàü¶Ā×
+ĬČ¼úÜĝăğÜðĈÞ²­öĊćĂ
+ĥÕÕÕõõÅĕÕµµÅÅĕåµÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q5 =====
+10
+0625/42/O/N/25
+© UCLES 2025
+5 
+(a) There is a large puddle of water on a road. The water in the puddle evaporates.
+ 
+ 
+(i) Describe how evaporation from the puddle occurs. Use ideas about particles in your 
+answer.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+ 
+(ii) State and explain one change in the weather that causes a faster rate of evaporation.
+Statement  ..........................................................................................................................
+Explanation  .......................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ 
+[2]
+ 
+(b) A car travels on a dry road. The driver presses the brakes. The car travels a distance before it 
+comes to rest. This distance is called the braking distance.
+ 
+ 
+State and explain how the braking distance changes when the road is wet.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+[Total: 5]
+* 0000800000010 *
+,	,
+ĬÙĊ®Ġ´íÈõÏĪÅĊÝú¸þ×
+ĬČºùÙĩćĉãāòÁĊÇÆ²ÿĂ
+ĥąÅÕµĕąõĥõĥąÅÕÅõõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q6 =====
+11
+0625/42/O/N/25
+© UCLES 2025
+[Turn over
+6 
+(a) Fig. 6.1 shows successive crests of a water wave approaching a boundary.
+direction of
+travel of wave
+boundary
+region A
+region B
+Fig. 6.1
+ 
+ 
+(i) The speed of the waves in region B is lower than the speed of the waves in region A.
+ 
+ 
+ On Fig. 6.1, draw the crests of the waves in region B. 
+[3]
+ 
+ 
+(ii) State the wave effect that occurs as the wave crosses the boundary between region A 
+and region B.
+ ..................................................................................................................................... [1]
+ 
+(b) (i) Light can be totally internally reflected when striking the boundary between two different 
+regions.
+ 
+ 
+ State two conditions that are necessary for total internal reflection to occur.
+1  ........................................................................................................................................
+ ...........................................................................................................................................
+2  ........................................................................................................................................
+ ...........................................................................................................................................
+ 
+[2]
+ 
+ 
+(ii) State two advantages of using optical fibres for transmitting high speed broadband.
+1  ........................................................................................................................................
+2  ........................................................................................................................................
+ 
+[2]
+ 
+[Total: 8]
+* 0000800000011 *
+,	,
+ĬÛĊ®Ġ´íÈõÏĪÅĊÝü¸þ×
+ĬČ¹úÑğċùÖ÷ÿĈÎ¯Ē²ïĂ
+ĥąµĕõõĥĕõąµąÅµåµĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q7 =====
+energy = ................................................. kWh [3]
+ Calculate the energy used by the 800Ω lamp in 5.0 hours.
+Give your answer in kWh.
+(ii)
+ 
+ 
+[2]
+ 
+.........................................................
+ 
+current = 
+ 
+ lamp.
+Ω
+ 
+Calculate the current in the 800
+ 
+(i)
+ 
+ 
+.
+Ω
+ 
+ and the resistance of the other lamp is 800
+Ω
+ 
+, the resistance of one lamp is 1200
+supply
+ 
+V 
+230
+ 
+the
+ 
+to
+ 
+connected
+ 
+When
+ .
+V 
+230
+ 
+is
+ 
+supply
+ 
+a.c.
+ 
+the
+ 
+of
+ 
+(e.m.f.)
+ 
+force
+ 
+e
+electromotiv
+ 
+The
+ 
+(b)
+ 
+[2]
+ 
+Draw the circuit diagram.
+ 
+(a)
+ 
+The lamps are connected in parallel.
+. 
+ circuit consists of an a.c. supply and two lamps
+A
+ 
+7
+© UCLES 2025
+O/N/25
+0625/42/
+12
+* 0000800000012 *
+,	,
+ĬÙĊ®Ġ´íÈõÏĪÅĊßú¸Ā×
+ĬČ¹ûÑĥùðáùĈÿðē´âćĂ
+ĥµĥĕµõĥµĕåÅąąµąµõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+resistance = ......................................................... [2]
+[Total: 9]
+Calculate the combined resistance of the two lamps in this circuit.
+(iii)
+
+===== Q8 =====
+14
+0625/42/O/N/25
+© UCLES 2025
+8 
+(a) State what is meant by a magnetic field.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+(b) Fig. 8.1 shows an ammeter connected to a coil wound on a thin plastic cylinder. A small 
+trolley is placed on a curved track which passes through the cylinder.
+A
+N
+S
+cylinder
+trolley
+track
+Fig. 8.1
+ 
+ 
+The trolley is released from the position shown in Fig. 8.1. It travels through the coil from right 
+to left. The trolley travels back from left to right. It has a lower maximum speed when it travels 
+from left to right.
+ 
+ 
+The plastic cylinder does not affect any magnetic field. A magnet is fixed to the trolley.
+ 
+ 
+(i) State why there is a lower maximum speed when the trolley travels back from left to 
+right.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+* 0000800000014 *
+,	,
+ĬÕĊ®Ġ´íÈõÏĪÅĊàûµĂ×
+ĬČ¹úÜĝĊøæĉîĥĈ²ĤĒïĂ
+ĥĕĕĕµõÅõĥÅĕÅÅĕÅµµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+15
+0625/42/O/N/25
+© UCLES 2025
+[Turn over
+ 
+ 
+(ii) Fig. 8.2 shows a close‑up view of the ammeter.
+0
+Fig. 8.2
+ 
+ 
+ As the trolley enters the coil moving from right to left, the ammeter needle deflects to the 
+left and then returns to zero.
+ 
+ 
+ State and explain any changes to the deflection on the ammeter as the trolley enters the 
+coil when moving back from left to right.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [3]
+ 
+[Total: 5]
+* 0000800000015 *
+,	,
+Ĭ×Ċ®Ġ´íÈõÏĪÅĊàùµĂ×
+ĬČºùÔīĆĈÓïăäÔÊ¸ĒÿĂ
+ĥĕĥÕõĕåĕõµÅÅÅõåõåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q9 =====
+16
+0625/42/O/N/25
+© UCLES 2025
+9 
+(a) Fig. 9.1 shows a beam of radiation in a vacuum. The beam contains α‑particles, β‑particles 
+and γ‑radiation.
+beam of
+radiation
+containing
+α-particles,
+β-particles
+and γ-radiation
+region of uniform
+magnetic field into the page
+Fig. 9.1
+ 
+ 
+The beam enters a region where there is a strong, uniform magnetic field. The direction of the 
+magnetic field is into the page.
+ 
+ 
+On Fig. 9.1 draw and label the paths within the magnetic field of:
+ 
+ 
+(i) α‑particles (label this path α) 
+[1]
+ 
+ 
+(ii) β‑particles (label this path β) 
+[2]
+ 
+ 
+(iii) γ‑radiation (label this path γ) 
+[1]
+ 
+(b) Table 9.1 shows five radioactive sources, the main type of radiation emitted by each source 
+and the half‑life of each source.
+Table 9.1
+radioactive
+source
+type of radiation
+emitted
+half‑life
+P
+alpha
+460 years
+Q
+alpha
+10 days
+R
+beta
+29 years
+S
+beta 
+14 days
+T
+gamma
+30 years
+ 
+ 
+(i) Define half‑life of a radioactive isotope.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+* 0000800000016 *
+,	,
+ĬÕĊ®Ġ´íÈõÏĪÅĊÞûµĄ×
+ĬČºüÔġøāèñČëòĦĖĂ÷Ă
+ĥåµÕµĕåµĕĕµÅąõąõµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+17
+0625/42/O/N/25
+© UCLES 2025
+[Turn over
+ 
+ 
+(ii) Fig. 9.2 shows a simplified diagram of a machine that produces thin sheets of aluminium 
+of constant thickness.
+machinery
+to control
+roller
+radiation
+detector
+radioactive
+source
+aluminium sheet
+rollers
+Fig. 9.2
+ 
+ 
+ The radiation detector is used to measure the thickness of the aluminium sheets and 
+control the gap between the rollers.
+ 
+ 
+ State the most suitable radioactive source in Table 9.1 for the machine in Fig. 9.2.
+ 
+ 
+ Explain why this radioactive source is the most suitable and why the other sources are 
+unsuitable.
+most suitable source  .........................................................................................................
+explanation  ........................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ 
+[4]
+ 
+[Total: 9]
+* 0000800000017 *
+,	,
+Ĭ×Ċ®Ġ´íÈõÏĪÅĊÞùµĄ×
+ĬČ¹ûÜħüñÑćõĞæĎÂĂćĂ
+ĥåÅĕõõÅÕąĥĥÅąĕĥµåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q10 =====
+18
+0625/42/O/N/25
+© UCLES 2025
+10 (a) Fill in the gaps in the description of how an accretion model explains the formation of the 
+Solar System.
+The planets nearest the Sun are small and ........................................
+The planets furthest from the Sun are large and ........................................
+All the planets were formed when a cloud of gas and dust collapsed due to
+..............................................................................
+The rotation of material in the cloud forms an ....................................................................
+ 
+[4]
+ 
+(b) The time taken for light to travel from the Moon to the Earth is 1.3 s.
+ 
+ 
+Calculate the distance of the Moon from the Earth. Give your answer in m.
+ 
+distance =  ...................................................... m [3]
+ 
+(c) The Whirlpool galaxy is 2.3 × 107 light‑years from the Earth. The current value of the Hubble 
+constant is 2.2 × 10–18 per second.
+ 
+ 
+Calculate the speed at which the Whirlpool galaxy is moving away from the Earth.
+ 
+speed =  ......................................................... [3]
+ 
+[Total: 10]
+* 0000800000018 *
+,		,
+ĬÕĊ®Ġ´íÈõÏĪÅĊßû·Ă×
+ĬČ»üÙģðėêúăāĎĨòºÿĂ
+ĥõÕĕµĕąµµåµąąÕąõąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD

@@ -1,0 +1,436 @@
+{
+  "paper": "0625/43/M/J/25",
+  "paper_full": "June 2025 · Paper 43",
+  "questions": [
+    {
+      "qnum": 1,
+      "topic": "1",
+      "title": "Car braking — speed–time graph and deceleration",
+      "marks": 11,
+      "pdf": "igcse-slices/0625_s25_qp_43_Q01.pdf",
+      "parts": [
+        {
+          "label": "1(a)",
+          "marks": 1,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "11.5 m / s"
+        },
+        {
+          "label": "1(b)",
+          "marks": 5,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "45 m (distance =) area under graph OR ½ bh (+ bh) {0.5  20} + ½ {20  3.5} OR {10 + 35} OR [{0.5 + 4} ÷ 2]  20"
+        },
+        {
+          "label": "1(c)",
+          "marks": 5,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "5.7 m / s2 (deceleration =) ()v ÷ t OR deceleration = gradient (0 –) 20 ÷ {4(.0) - 0.5} OR 20 ÷ 3.5"
+        }
+      ],
+      "code": "1.2"
+    },
+    {
+      "qnum": 2,
+      "topic": "1",
+      "title": "Space vehicle — momentum and terminal velocity",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_s25_qp_43_Q02.pdf",
+      "parts": [
+        {
+          "label": "2(a)",
+          "marks": 1,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "(p =) mv OR mass  velocity"
+        },
+        {
+          "label": "2(b)",
+          "marks": 5,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "7790 m / s momentum before (collision) = momentum after (collision) OR mcvc + mnvn = 6.55  106 OR (momentum of cone =) 120  7850 OR 9.42  105 720v + {120  7850} = 6.55  106 OR (momentum after collision =) 6.55  106 – 9.42  105 OR 5.6  106"
+        },
+        {
+          "label": "2(c)",
+          "marks": 3,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "12 000 kg 120 000 (N) OR (m =) W ÷ g OR (m =) 1.2  10N ÷ 9.8 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2025 © Cambridge University Press & Assessment 2025 Page 9 of 13"
+        }
+      ],
+      "code": "1.6"
+    },
+    {
+      "qnum": 3,
+      "topic": "1",
+      "title": "Archer's bow — work, elastic energy and arrow speed",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_s25_qp_43_Q03.pdf",
+      "parts": [
+        {
+          "label": "3(a)",
+          "marks": 2,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "(F =) W ÷ d OR W = Fd 110 ÷ 0.45 OR 244 (N)"
+        },
+        {
+          "label": "3(b)(i)",
+          "marks": 5,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "86 m / s Ek = ½ mv2 OR 110 = ½ mv2 OR 110 = ½  0.03  v2 (v =) √ [{2  110} ÷ 0.03] OR v2 = {2  110} ÷ 0.03 OR v2 = 7333"
+        },
+        {
+          "label": "3(b)(ii)",
+          "marks": 2,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "air resistance / drag / friction energy lost to surroundings / energy transferred to thermal / internal energy"
+        }
+      ],
+      "code": "1.7"
+    },
+    {
+      "qnum": 4,
+      "topic": "2",
+      "title": "Copper pan — conduction and specific heat capacity",
+      "marks": 11,
+      "pdf": "igcse-slices/0625_s25_qp_43_Q04.pdf",
+      "parts": [
+        {
+          "label": "4(a)",
+          "marks": 3,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "any three from: • (copper / metal contains) free / delocalised electrons • electrons carry (thermal) energy through metal • electrons collide with (distant) ions • lattice vibrations transfer energy (to neighbouring ions) OR ions vibrate and cause (nearby / adjacent) ions to vibrate"
+        },
+        {
+          "label": "4(b)(i)",
+          "marks": 3,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "energy transferred per unit mass per unit temperature change (thermal) energy (transferred) per unit temperature change"
+        },
+        {
+          "label": "4(b)(ii)",
+          "marks": 5,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "0.51 J / (g C) (energy lost by metal =) 54  c  69 OR (energy gained by water =) 50  4.2  9 OR 1890 energy lost by metal = energy gained by water OR 54  c  69 = 50  4.2  9 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2025 © Cambridge University Press & Assessment 2025 Page 10 of 13"
+        }
+      ],
+      "code": "2.2"
+    },
+    {
+      "qnum": 5,
+      "topic": "3",
+      "title": "Light in a swimming pool — refraction and total internal reflection",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_s25_qp_43_Q05.pdf",
+      "parts": [
+        {
+          "label": "5(a)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "(refractive index is) the ratio of the speed of light in two different mediums OR (refractive index =) speed of light in air speed of light in water OR (refractive index =) sine of angle of incidence sine of angle of refraction"
+        },
+        {
+          "label": "5(b)",
+          "marks": 2,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "P continues vertical Q refracted away from normal in the correct direction"
+        },
+        {
+          "label": "5(c)",
+          "marks": 3,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "1.3 (n =) 1 ÷ sin 49 OR (n =) 1 ÷ sin c"
+        },
+        {
+          "label": "5(d)",
+          "marks": 2,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "any two from: • (ray travelling from) dense to less dense medium OR water is more dense than air • critical angle = 49° • angle of incidence exceeds critical angle / 49°"
+        }
+      ],
+      "code": "3.2"
+    },
+    {
+      "qnum": 6,
+      "topic": "3",
+      "title": "Ultrasound — longitudinal waves and locating objects",
+      "marks": 6,
+      "pdf": "igcse-slices/0625_s25_qp_43_Q06.pdf",
+      "parts": [
+        {
+          "label": "6(a)",
+          "marks": 1,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "sound with a frequency higher than 20 kHz"
+        },
+        {
+          "label": "6(b)",
+          "marks": 1,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "vibrations (of the wave / particles) are parallel to the direction of propagation"
+        },
+        {
+          "label": "6(c)(i)",
+          "marks": 3,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "(pulse of) ultrasound / sound / wave (sent into water) reflects from object time to travel to object and back measured depth = speed  time 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2025 © Cambridge University Press & Assessment 2025 Page 11 of 13"
+        },
+        {
+          "label": "6(c)(ii)",
+          "marks": 1,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "any one from: • non-destructive testing of materials • medical scanning (of soft tissue)"
+        }
+      ],
+      "code": "3.4"
+    },
+    {
+      "qnum": 7,
+      "topic": "4",
+      "title": "Circuit calculations — current, p.d. and resistance",
+      "marks": 10,
+      "pdf": "igcse-slices/0625_s25_qp_43_Q07.pdf",
+      "parts": [
+        {
+          "label": "7(a)",
+          "marks": 1,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "0.5(0) A"
+        },
+        {
+          "label": "7(b)",
+          "marks": 3,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "3(.0) V (V =) IR OR 0.5(0)  6(.0)"
+        },
+        {
+          "label": "7(c)",
+          "marks": 1,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "12 – 3(.0)"
+        },
+        {
+          "label": "7(d)",
+          "marks": 5,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "180  I2 = 9.0 ÷ 20 OR I2 = 0.45 (A) OR I1 = 0.05 (A) (R =) 9 ÷ 0.05"
+        }
+      ],
+      "code": "4.3"
+    },
+    {
+      "qnum": 8,
+      "topic": "4",
+      "title": "Electric field and charge calculations",
+      "marks": 11,
+      "pdf": "igcse-slices/0625_s25_qp_43_Q08.pdf",
+      "parts": [
+        {
+          "label": "8(a)(i)",
+          "marks": 1,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "(region) where (an electric) charge experiences a force OR (region) where a force acts on a (an electric) charge"
+        },
+        {
+          "label": "8(a)(ii)",
+          "marks": 2,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "four radial straight field lines starting at charge at least one arrow on a field line towards the charge 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2025 © Cambridge University Press & Assessment 2025 Page 12 of 13"
+        },
+        {
+          "label": "8(b)",
+          "marks": 5,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "1600 C V = W / Q OR (Q =) W / V (Q =) 4.5  10N ÷ 2.9  108 OR 1.6  10N"
+        },
+        {
+          "label": "8(c)",
+          "marks": 3,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "240 C (Q =) It OR 2(.0)  120"
+        }
+      ],
+      "code": "4.2"
+    },
+    {
+      "qnum": 9,
+      "topic": "4",
+      "title": "Transformer — alternating current and high-voltage transmission",
+      "marks": 11,
+      "pdf": "igcse-slices/0625_s25_qp_43_Q09.pdf",
+      "parts": [
+        {
+          "label": "9(a)(i)",
+          "marks": 3,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "any three from: • (current in the primary coil generates a) changing magnetic field (in primary coil) • (iron) core transfers the magnetic field (to the secondary coil) • secondary coil cuts the magnetic field / secondary coil is in (changing) magnetic field • an e.m.f. is induced (in the secondary coil) • (induced) current changes direction because the magnetic field changes direction"
+        },
+        {
+          "label": "9(a)(ii)",
+          "marks": 3,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "240 V Vs ÷ Vp = Ns ÷ Np OR (Vs =) 12  20( ÷ 1)"
+        },
+        {
+          "label": "9(b)",
+          "marks": 3,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "0.16 A P = I2R OR I2 = P ÷ R OR I2 = 1.25  10–3 ÷ 0.05(0) OR I2 = 0.025"
+        },
+        {
+          "label": "9(c)",
+          "marks": 2,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "any two from: • less power / heating / energy losses • thinner / cheaper cables • pylons further apart / fewer pylons • transfer energy over long(er) distance 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2025 © Cambridge University Press & Assessment 2025 Page 13 of 13"
+        }
+      ],
+      "code": "4.5"
+    },
+    {
+      "qnum": 10,
+      "topic": "6",
+      "title": "Light-years, the Hubble constant and redshift",
+      "marks": 11,
+      "pdf": "igcse-slices/0625_s25_qp_43_Q10.pdf",
+      "parts": [
+        {
+          "label": "10(a)",
+          "marks": 1,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "distance travelled (in the vacuum of space) by light in one year"
+        },
+        {
+          "label": "10(b)",
+          "marks": 3,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "1.5  1011 m 9.5  1015 (m) OR (c =) 3(.0)  108 (m / s) OR 3(.0)  10N  490"
+        },
+        {
+          "label": "10(c)",
+          "marks": 5,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "2.5  10–18 per second (Hubble’s constant =) gradient OR (H0 =) v ÷ d 2.5  104(– 0) ÷ {100  1020 (– 0)}"
+        },
+        {
+          "label": "10(d)",
+          "marks": 2,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "electromagnetic radiation / light from (distant) galaxies (observed) increase in wavelength (compared to wavelength measured on the Earth)"
+        }
+      ],
+      "code": "6.2"
+    },
+    {
+      "qnum": 11,
+      "topic": "5",
+      "title": "Half-life, beta decay and alpha ionisation",
+      "marks": 4,
+      "pdf": "igcse-slices/0625_s25_qp_43_Q11.pdf",
+      "parts": [
+        {
+          "label": "11(a)",
+          "marks": 1,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "time taken for half the nuclei (in any sample) to decay"
+        },
+        {
+          "label": "11(b)(i)",
+          "marks": 0,
+          "codes": [
+            "5.2"
+          ],
+          "answer": ""
+        },
+        {
+          "label": "11(b)(ii)",
+          "marks": 1,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "neutron changes to a proton (plus an electron)"
+        },
+        {
+          "label": "11(c)",
+          "marks": 2,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "( particles have) greater kinetic energy (than  particles) ( particles have) greater charge (than  particles)"
+        }
+      ],
+      "code": "5.2"
+    }
+  ]
+}

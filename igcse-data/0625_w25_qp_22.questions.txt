@@ -1,0 +1,876 @@
+===== Q1 (page 1) =====
+1 
+Which quantities are both vectors? 
+A 
+acceleration and force 
+B 
+acceleration and pressure 
+C 
+density and force 
+D 
+density and pressure
+
+===== Q2 (page 1) =====
+2 
+How is the deceleration of an object calculated from a speed–time graph? 
+A 
+It is the area under the graph. 
+B 
+It is the gradient of the graph. 
+C 
+It is the difference between two readings on the horizontal (x) axis. 
+D 
+It is the difference between two readings on the vertical (y) axis.
+
+===== Q3 (page 1) =====
+3 
+A space probe that has a mass of 600 kg is on the planet Mars. 
+ 
+The acceleration of free fall on Mars is 4.0 m / s2. 
+ 
+What is the weight of the space probe on Mars? 
+A 
+60 N 
+B 
+150 N 
+C 
+2400 N 
+D 
+6000 N
+
+===== Q4 (page 2) =====
+4 
+Students are asked to predict the order in which three liquids, P, Q and R, will float on each other. 
+They are told that the liquids will not mix. 
+ 
+The diagrams show how the density of liquid P is determined. 
+ 
+45.00 g
+69.00 g
+measuring
+cylinder
+liquid P
+electric
+balance
+20 cm3
+ 
+ 
+The table shows the densities of Q and R. 
+ 
+liquid 
+3
+cm
+/
+g
+density
+ 
+ 
+ 
+Q 
+0.75 
+R 
+1.1 
+ 
+The liquids are poured gently into a tall beaker and allowed to settle. 
+ 
+Which diagram shows the liquids settled in the correct order? 
+ 
+A
+P
+R
+Q
+B
+Q
+P
+R
+C
+Q
+R
+P
+D
+R
+P
+Q
+
+===== Q5 (page 3) =====
+5 
+A force F is applied to a spanner, as shown. 
+ 
+F
+nut
+spanner handle
+ 
+ 
+Which action increases the moment of F about the centre of the nut? 
+A 
+applying the force F to the right-hand end of the spanner handle 
+B 
+applying the force F parallel to the spanner handle 
+C 
+spraying oil on the nut 
+D 
+using a shorter spanner
+
+===== Q6 (page 3) =====
+6 
+Diagram 1 shows a ball X of mass 0.15 kg travelling horizontally with a velocity of 2.1 m / s 
+towards ball Y travelling at 0.4 m / s in the opposite direction. 
+ 
+Diagram 2 shows the velocities of the balls immediately after they collide. 
+ 
+2.1 m / s
+0.4 m / s
+X
+diagram 1
+Y
+1.4 m / s
+1.1 m / s
+X
+diagram 2
+Y
+ 
+ 
+What is the mass of ball Y? 
+A 
+0.15 kg 
+B 
+0.19 kg 
+C 
+0.35 kg 
+D 
+0.79 kg
+
+===== Q7 (page 3) =====
+7 
+A mass is suspended from a vertical spring. The mass is pulled downwards causing the spring to 
+extend further. The mass is held in this position and then released. 
+ 
+Which energy changes occur during the initial movement of the mass when the mass is 
+released? 
+ 
+ 
+gravitational 
+potential energy 
+store 
+kinetic 
+energy store 
+elastic 
+potential energy 
+store 
+A 
+decreases 
+decreases 
+increases 
+B 
+decreases 
+increases 
+increases 
+C 
+increases 
+decreases 
+decreases 
+D 
+increases 
+increases 
+decreases
+
+===== Q8 (page 4) =====
+8 
+Which energy resource stores kinetic energy? 
+A 
+coal 
+B 
+nuclear fission 
+C 
+solar 
+D 
+wind
+
+===== Q9 (page 4) =====
+9 
+Two beakers are filled to the same depth, one with water and one with oil. 
+ 
+The density of water is 1000 kg / m3. The density of oil is 920 kg / m3. 
+ 
+In which position is the pressure the greatest? 
+ 
+A
+B
+A
+B
+C
+D
+water
+oil
+
+===== Q10 (page 4) =====
+10 The pressure of the air in a car tyre rises after a long journey. This is caused by a change in the 
+average speed of the air particles and a change in the temperature of the air in the tyre. 
+ 
+Which row describes the changes that have caused the air pressure in the tyre to rise? 
+ 
+ 
+average speed of 
+the air particles 
+temperature 
+of the air 
+A 
+decreases 
+decreases 
+B 
+decreases 
+increases 
+C 
+increases 
+decreases 
+D 
+increases 
+increases
+
+===== Q11 (page 4) =====
+11 In which range of temperatures is water a liquid? 
+A 
+0 K to 100 K 
+B 
+0 K to 273 K 
+C 
+100 K to 373 K 
+D 
+273 K to 373 K
+
+===== Q12 (page 5) =====
+12 The diagram represents the particle arrangements in samples of three different substances, P, Q 
+and R. 
+ 
+substance Q
+substance R
+substance P
+ 
+ 
+The samples have equal volumes and the same temperature. 
+ 
+The samples are heated. The temperature increase of each sample is the same and no changes 
+of state take place. 
+ 
+Which row shows possible percentage increases in volume for the three samples? 
+ 
+ 
+sample of 
+substance P 
+/ % 
+sample of 
+substance Q 
+/ % 
+sample of 
+substance R 
+/ % 
+A 
+0.066 
+1.9 
+7.2 
+B 
+0.066 
+7.2 
+1.9 
+C 
+1.9 
+0.066 
+7.2 
+D 
+1.9 
+7.2 
+0.066
+
+===== Q13 (page 5) =====
+13 A cup contains 0.25 kg of water at 60 °C. Some time later, the water has cooled to 20 °C. 
+ 
+How much energy has been transferred from the water to the surroundings? 
+ 
+(The specific heat capacity of water is 4200 J / (kg °C).) 
+A 
+21 000 J 
+B 
+42 000 J 
+C 
+63 000 J 
+D 
+84 000 J
+
+===== Q14 (page 5) =====
+14 A pure substance is heated slowly. The temperature of the substance is measured as it starts to 
+melt and when it finishes melting. 
+ 
+Which statement is correct? 
+A 
+The temperature decreases slightly as the substance melts. 
+B 
+The temperature fluctuates as the substance melts. 
+C 
+The temperature increases as the substance melts. 
+D 
+The temperature stays the same as the substance melts.
+
+===== Q15 (page 6) =====
+15 A lamp has a metal filament that glows when heated by an electric current. 
+ 
+The middle of the filament has a very high temperature. The ends of the filament are connected 
+to the base of the lamp and are cooler. 
+ 
+Which statement is correct? 
+A 
+Some thermal energy is conducted to the base of the lamp. 
+B 
+The filament radiates energy equally at all points along its length. 
+C 
+The lamp transfers all of the input energy as visible light. 
+D 
+When the potential difference (p.d.) across the filament is halved, the power output is halved.
+
+===== Q16 (page 6) =====
+16 A liquid passes through pipes inside a refrigerator. The liquid warms as the inside of the 
+refrigerator cools. The warm liquid is then passed through pipes on the outside of the refrigerator 
+to cool it before it goes back through the refrigerator. 
+ 
+The diagrams show two designs for the outside cooling pipes. One design has copper rods, 
+called fins, attached to the pipes. 
+ 
+warm
+liquid
+cool
+liquid
+outside
+pipes
+warm
+liquid
+cool
+liquid
+outside
+pipes
+fins
+ 
+ 
+The outside pipes and fins can be painted silver or black. 
+ 
+Which design of outside pipes will cool the liquid most quickly? 
+A 
+painted black with fins 
+B 
+painted black without fins 
+C 
+painted silver with fins 
+D 
+painted silver without fins
+
+===== Q17 (page 6) =====
+17 An earthquake-monitoring station records the arrival of 16 complete wavelengths of an 
+earthquake wave in a time of 20 s. 
+ 
+The speed of the earthquake wave is 6.0 km / s. 
+ 
+What is the wavelength of the earthquake wave? 
+A 
+1.3  10–
+ 4
+ m 
+B 
+2.1  10–
+ 4
+ m 
+C 
+4.8  103
+ m 
+D 
+7.5  103
+ m
+
+===== Q18 (page 7) =====
+18 Which statement is correct? 
+A 
+Seismic S-waves are longitudinal. 
+B 
+Sound waves are longitudinal. 
+C 
+The amplitude is always greater than the wavelength in a longitudinal wave. 
+D 
+The vibration is at right-angles to the direction of propagation in a longitudinal wave.
+
+===== Q19 (page 7) =====
+19 A water droplet is falling towards a horizontal plane mirror. 
+ 
+At one moment, the droplet is a distance of 1.5 m above the mirror and falling at a speed of 
+2.0 m / s. 
+ 
+What is the distance between the droplet and its image and what is the speed of the image at this 
+moment? 
+ 
+ 
+distance between 
+water droplet and 
+its image / m 
+s
+/
+m
+image
+ 
+of
+ 
+speed
+ 
+ 
+ 
+A 
+1.5 
+2.0 
+B 
+1.5 
+4.0 
+C 
+3.0 
+2.0 
+D 
+3.0 
+4.0
+
+===== Q20 (page 7) =====
+20 Total internal reflection may occur when light reaches an air–glass boundary. 
+ 
+Under which conditions is light totally internally reflected? 
+ 
+ 
+medium in which 
+light travels towards 
+the boundary 
+angle of incidence 
+A 
+air 
+greater than the critical angle 
+B 
+air 
+less than the critical angle 
+C 
+glass 
+greater than the critical angle 
+D 
+glass 
+less than the critical angle
+
+===== Q21 (page 8) =====
+21 A long-sighted person cannot see objects clearly that are a short distance away because the 
+image is blurred. 
+ 
+Where is the image formed relative to the retina and which type of lens is used to correct  
+long-sightedness? 
+ 
+ 
+position of image 
+lens used 
+for correction 
+A 
+behind retina 
+converging 
+B 
+behind retina 
+diverging 
+C 
+in front of retina 
+converging 
+D 
+in front of retina 
+diverging
+
+===== Q22 (page 8) =====
+22 What is the speed of infrared radiation in glass with a refractive index of 1.5? 
+A 
+340 m / s 
+B 
+2.0  108
+ m / s  
+C 
+3.0  108
+ m / s 
+D 
+4.5  108
+ m / s
+
+===== Q23 (page 8) =====
+23 Sound travels through air as a series of compressions and rarefactions. 
+ 
+Which statement correctly compares a compression with a rarefaction? 
+A 
+In a compression, the wavelength is longer than in a rarefaction. 
+B 
+In a compression, the wavelength is shorter than in a rarefaction. 
+C 
+In a compression, the density of the air is greater than in a rarefaction. 
+D 
+In a compression, the density of the air is lower than in a rarefaction.
+
+===== Q24 (page 8) =====
+24 Which statements about magnets are correct? 
+ 
+1 
+Permanent magnets are made of steel. 
+2 
+Electromagnets are temporary magnets. 
+3 
+A magnet can be used to induce magnetism in an iron bar. 
+ 
+A 
+1, 2 and 3 
+B 
+1 and 2 only 
+C 
+1 and 3 only 
+D 
+2 and 3 only
+
+===== Q25 (page 9) =====
+25 In a circuit, two identical lamps are in parallel. The parallel pair of lamps is in series with a resistor 
+and a battery. 
+ 
+The battery does 120 J of work moving 50 C of charge around the circuit in time t. 
+ 
+In each lamp, 40 J of work is done by the charge that passes through it in time t. 
+ 
+The electromotive force (e.m.f.) of the battery is E and the potential difference (p.d.) across one 
+lamp is V. 
+ 
+Which statement about E and V is correct? 
+A 
+E is 2.4 V and V is 0.80 V. 
+B 
+E is 2.4 V and V is 1.6 V. 
+C 
+E is 4.8 V and V is 2.4 V. 
+D 
+E is 4.8 V and V is 4.8 V.
+
+===== Q26 (page 9) =====
+26 Two wires, X and Y, are made from the same metal and have the same resistance. 
+ 
+Which row identifies a possible pair of values for X and for Y? 
+ 
+ 
+length of X 
+/ cm 
+diameter of X 
+/ mm 
+length of Y 
+/ cm 
+diameter of Y 
+/ mm 
+A 
+50 
+0.40 
+200 
+0.10 
+B 
+50 
+0.40 
+200 
+0.20 
+C 
+50 
+0.40 
+200 
+0.80 
+D 
+50 
+0.40 
+200 
+1.60
+
+===== Q27 (page 9) =====
+27 Which circuit contains a light-dependent resistor (LDR)? 
+ 
+A
+B
+C
+D
+
+===== Q28 (page 10) =====
+28 A teacher asks three students to write down an equation to determine the combined resistance 
+RC of resistors with resistances RY and RZ. 
+ 
+RY
+RZ
+ 
+ 
+Which students are correct? 
+ 
+student 1 
+C
+1
+R
+ = 
+Y
+1
+R
+ + 
+Z
+1
+R 
+student 2 
+C
+1
+R
+ = 
+Z
+Y +
+1
+R
+ 
+R
+ 
+student 3 
+RC = 
+Y
+1
+R
+ + 
+Z
+1
+R 
+ 
+A 
+1 and 2 
+B 
+1 only 
+C 
+2 and 3 
+D 
+3 only
+
+===== Q29 (page 10) =====
+29 An electrical appliance has a symbol on it to indicate it is double-insulated. 
+ 
+Which statement is correct? 
+A 
+A two-core, flexible cable with no earth wire is used to connect it to the mains supply. 
+B 
+It needs an earth wire that is connected to a fuse. 
+C 
+No fuse or circuit breaker is needed. 
+D 
+The cable should be connected to the live and earth connectors of the plug but not the 
+neutral.
+
+===== Q30 (page 10) =====
+30 A length of wire moves across the space between the poles of a magnet. A voltmeter measures 
+the electromotive force (e.m.f.) generated between the two ends of the wire. 
+ 
+What gives the highest reading on the voltmeter? 
+ 
+ 
+speed 
+of wire 
+strength 
+of magnet 
+A 
+fast 
+weak 
+B 
+fast 
+strong 
+C 
+slow 
+weak 
+D 
+slow 
+strong
+
+===== Q31 (page 11) =====
+31 The diagram shows a simple a.c. generator. 
+ 
+G
+H
+N
+S
+ 
+ 
+What is connected to G and H so that alternating current can be provided to an external circuit? 
+A 
+cell 
+B 
+commutator 
+C 
+slip rings 
+D 
+soft iron core
+
+===== Q32 (page 11) =====
+32 The diagrams show the coil in a d.c. electric motor in two positions. As the coil rotates through 
+180°, the direction of the current in the coil reverses from PQRS to SRQP. 
+ 
+P
+Q
+S
+R
+S
+R
+P
+Q
+ 
+ 
+Which part of the motor is responsible for reversing the current? 
+A 
+the brushes 
+B 
+the coil 
+C 
+the magnets 
+D 
+the split-ring commutator
+
+===== Q33 (page 11) =====
+33 The arrow shows the path of an -particle travelling towards the centre of a gold nucleus. 
+ 
+gold nucleus
+ 
+ 
+Which description of the path of the -particle after striking the gold nucleus is correct? 
+A 
+The -particle is deflected through a very small angle towards the top of the page. 
+B 
+The -particle is deflected back along its initial path. 
+C 
+The -particle carries on in a straight line with no deflection. 
+D 
+The -particle is captured by the nucleus and goes into orbit around it.
+
+===== Q34 (page 12) =====
+34 A teacher writes the nuclide equation for a fusion reaction. 
+ 
+2H  +
+1
+4Q  +
+2
+1n
+0
+XH  
+1
+ 
+ 
+What is the missing number X and the missing element Q? 
+ 
+ 
+X 
+Q 
+A 
+2 
+H 
+B 
+2 
+He 
+C 
+3 
+H 
+D 
+3 
+He
+
+===== Q35 (page 12) =====
+35 Radon gas is a source of radiation that contributes to background radiation. 
+ 
+What does not contribute to background radiation? 
+A 
+electromagnetic rays 
+B 
+food and drink 
+C 
+rocks 
+D 
+seismic waves
+
+===== Q36 (page 12) =====
+36 Two beams of radiation, P and S, enter an electric field, as shown. 
+ 
++
++
++
++
++
++
++
++
+–
+–
+–
+–
+–
+–
+–
+–
+P
+S
+ 
+ 
+Which types of radiation are P and S? 
+ 
+ 
+P 
+S 
+A 
+beta () 
+alpha () 
+B 
+beta () 
+gamma () 
+C 
+gamma () 
+alpha () 
+D 
+gamma () 
+gamma ()
+
+===== Q37 (page 13) =====
+37 Which change takes place in the nucleus when it decays by beta () emission? 
+A 
+neutron + electron  proton 
+B 
+neutron  proton + electron 
+C 
+proton + electron  neutron 
+D 
+proton  neutron + electron
+
+===== Q38 (page 13) =====
+38 A space probe measures the gravitational field strength at four different distances from a planet. 
+ 
+The point furthest from the planet is measured first and the point nearest the planet is measured 
+last. 
+ 
+In which order were the measurements taken? 
+A 
+6.3 N / kg, 10 N / kg, 14 N / kg, 20 N / kg 
+B 
+10 N / kg, 14 N / kg, 6.3 N / kg, 20 N / kg 
+C 
+20 N / kg, 14 N / kg, 6.3 N / kg, 10 N / kg 
+D 
+20 N / kg, 14 N / kg, 10 N / kg, 6.3 N / kg
+
+===== Q39 (page 13) =====
+39 The galaxy Draco II is a distance of 6.6  1020
+ m from Earth. 
+ 
+What is this distance in light-years? 
+A 
+1.4  104 light-years 
+B 
+6.9  104 light-years 
+C 
+1.4  106 light-years 
+D 
+6.9  106 light-years
+
+===== Q40 (page 13) =====
+40 What is a possible result of a supernova explosion? 
+A 
+a neutron star 
+B 
+a red giant star 
+C 
+a red supergiant star 
+D 
+a white dwarf star

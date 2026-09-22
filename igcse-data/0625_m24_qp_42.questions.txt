@@ -1,0 +1,461 @@
+===== Q1 =====
+2
+0625/42/F/M/24
+© UCLES 2024
+1 
+(a) Fig. 1.1. is a speed–time graph for the first 5 minutes of a bus journey.
+0
+0
+2.5
+5.0
+7.5
+10.0
+1.0
+2.0
+3.0
+4.0
+t / min
+5.0
+speed
+m / s
+Fig. 1.1
+ 
+ 
+Describe the motion between:
+ 
+ 
+1. t = 0.90 min and t = 2.9 min  
+.....................................................................
+ 
+ 
+2. t = 2.9 min and t = 3.5 min  
+.....................................................................
+ 
+ 
+3. t = 3.5 min and t = 4.5 min  
+.....................................................................
+ 
+[3]
+3
+0625/42/F/M/24
+© UCLES 2024
+[Turn over
+ 
+(b) Another bus travels at a speed of 8.9 m / s. The brakes apply a constant force and the bus 
+stops in a distance of 23 m. This bus has a mass of 18 000 kg.
+ 
+ 
+(i) Calculate the kinetic energy of the bus before the brakes are applied.
+ 
+kinetic energy =  ......................................................... [2]
+ 
+ 
+(ii) Calculate the force applied to stop the bus.
+ 
+force =  ......................................................... [3]
+ 
+[Total: 8]
+
+===== Q2 =====
+4
+0625/42/F/M/24
+© UCLES 2024
+2 
+(a) Define impulse.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+(b) Fig. 2.1 shows a rocket and its exhaust gases.
+rocket
+exhaust gases
+Fig. 2.1
+ 
+ 
+The exhaust gases are emitted from the rocket with a velocity of 1400 m / s and at a rate 
+of 2800 kg / s.
+ 
+ 
+(i) Show that the force exerted on the rocket by the exhaust gases is 3900 kN.
+ 
+ 
+ State the equation you use.
+ 
+[2]
+ 
+ 
+(ii) Calculate the maximum mass that this force can lift from the ground. Ignore air resistance.
+ 
+maximum mass =  ......................................................... [3]
+ 
+[Total: 6]
+
+===== Q3 =====
+5
+0625/42/F/M/24
+© UCLES 2024
+[Turn over
+3 
+(a) A car has a weight of 13 000 N. The car is supported by 4 tyres. The area of each tyre in 
+contact with the road is 0.016 m2.
+ 
+ 
+(i) Calculate the pressure on the road due to the weight of the car.
+ 
+pressure =  ......................................................... [2]
+ 
+ 
+(ii) Explain, in terms of particles, why the air pressure in the tyres increases when the car 
+travels along the road.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [4]
+ 
+(b) A gas cylinder contains helium gas at a pressure of 2.0 × 106 Pa. A volume of 0.026 m3 of the 
+compressed gas is released from the cylinder into balloons. Each balloon contains 0.015 m3 
+of helium at atmospheric pressure (1.0 × 105 Pa). The temperature remains constant.
+ 
+ 
+Calculate the maximum number of balloons that can be filled.
+ 
+maximum number of balloons =  ......................................................... [3]
+ 
+[Total: 9]
+
+===== Q4 =====
+6
+0625/42/F/M/24
+© UCLES 2024
+4 
+(a) Define specific heat capacity.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+(b) A volume of 0.0024 m3 of oil is heated in a pan for 7.0 min. The temperature of the oil increases 
+from 20 °C to 180 °C.
+ 
+ 
+The density of the oil is 910 kg / m3. The specific heat capacity of the oil is 2000 J / (kg °C).
+ 
+ 
+ 
+ 
+(i) Calculate the mass of oil in the pan.
+ 
+mass =  ......................................................... [2]
+ 
+ 
+(ii) Calculate the energy required to increase the temperature of the oil.
+ 
+energy =  ......................................................... [2]
+ 
+ 
+(iii) Calculate the power required to supply the energy calculated in (b)(ii).
+ 
+power =  ......................................................... [2]
+ 
+[Total: 8]
+
+===== Q5 =====
+8
+0625/42/F/M/24
+© UCLES 2024
+5 
+(a) (i) Table 5.1 shows applications of regions of the electromagnetic spectrum.
+ 
+ 
+ Complete the second column of the table with the region of the electromagnetic spectrum 
+used for each application.
+ 
+ 
+ Choose from the regions in this list:
+gamma rays           infrared           microwaves           radio waves           ultraviolet
+ 
+ 
+ Each region may be used once, more than once or not at all.
+Table 5.1
+application
+region of electromagnetic spectrum
+cancer treatment
+gamma rays
+Bluetooth data connection
+optical fibres
+security marking
+sterilising food
+wireless internet
+ 
+[3]
+  
+ 
+(ii) State the approximate speed of radio waves in air.
+ 
+speed =  .................................................. m / s [1]
+ 
+(b) Fig. 5.1 shows successive crests of a wave after a plane wave has passed through a gap.
+ 
+Fig. 5.1
+ 
+ 
+(i) On Fig. 5.1 draw three successive crests before the wave reaches the gap. 
+[2]
+9
+0625/42/F/M/24
+© UCLES 2024
+[Turn over
+ 
+ 
+(ii) Fig. 5.2 shows a much wider gap. A plane wave of the same wavelength as in (b)(i) is 
+incident on the gap from the left side of the barrier.
+Fig. 5.2
+ 
+ 
+ On Fig. 5.2, draw three successive crests of the wave after the wave has passed through 
+the gap. 
+[2]
+ 
+[Total: 8]
+
+===== Q6 =====
+10
+0625/42/F/M/24
+© UCLES 2024
+6 
+Fig. 6.1 shows a full‑scale diagram of an object O and its image I produced by a converging lens. 
+The lens and its position on the principal axis are not shown.
+O
+I
+principal axis
+Fig. 6.1
+ 
+(a) On Fig. 6.1, draw:
+• 
+a single ray to locate the position of the centre of the converging lens
+• 
+a line to represent the position of the lens and label the line L. 
+ 
+ [2]
+ 
+(b) Determine the focal length of the lens by drawing another ray on Fig. 6.1.
+ 
+focal length =  ......................................................... [2]
+ 
+(c) The object is moved 2.0 cm closer to the lens.
+ 
+ 
+State two changes to the characteristics of the image.
+1  ................................................................................................................................................
+2  ................................................................................................................................................
+[2]
+ 
+[Total: 6]
+
+===== Q7 =====
+11
+0625/42/F/M/24
+© UCLES 2024
+[Turn over
+7 
+(a)  Draw the circuit symbol for a potential divider.
+ 
+[1]
+ 
+(b) Fig. 7.1 shows a circuit.
+Vout
+6.0 V
+Rout
+R
+1.0 kΩ
+Fig. 7.1
+ 
+ 
+(i) Calculate the value of Vout when the value of R is 3.0 kΩ.
+ 
+Vout =  ......................................................... [2]
+ 
+ 
+(ii) The value of R is adjusted until the current in the circuit is 1.7 mA.
+ 
+ 
+ Calculate the charge that flows through the circuit in 300 s.
+ 
+charge =  ......................................................... [2]
+ 
+[Total: 5]
+
+===== Q8 =====
+12
+0625/42/F/M/24
+© UCLES 2024
+8 
+(a) Fig. 8.1 shows a wire carrying a large current.
+large
+current
+square card
+Fig. 8.1
+ 
+ 
+(i) Fig. 8.2 shows the square card viewed from above.
+card
+Fig. 8.2
+ 
+ 
+ On Fig. 8.2, draw three magnetic field lines that indicate the direction of the magnetic 
+field and how its strength varies with distance from the wire. 
+[3]
+ 
+ 
+(ii) The current in the wire increases and the direction of the current is reversed.
+ 
+ 
+ State how these changes affect the magnetic field.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+13
+0625/42/F/M/24
+© UCLES 2024
+[Turn over
+ 
+(b) Electricity is transmitted at high voltage.
+ 
+ 
+Explain why a high voltage increases the efficiency of transmission even with thinner wires.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+ 
+[Total: 8]
+
+===== Q9 =====
+14
+0625/42/F/M/24
+© UCLES 2024
+9 
+(a) An experiment directs alpha particles at a very thin sheet of gold foil.
+ 
+ 
+(i) Most of the alpha particles pass through the thin foil in a straight line.
+ 
+ 
+ State the conclusion about atoms from this observation.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Some of the alpha particles are deflected through angles less than 90° and a few are 
+deflected through 180°.
+ 
+ 
+ State and explain two conclusions about the nuclei of atoms from this observation.
+conclusion 1  ......................................................................................................................
+explanation 1  .....................................................................................................................
+ ...........................................................................................................................................
+conclusion 2  ......................................................................................................................
+explanation 2  .....................................................................................................................
+ ...........................................................................................................................................
+ 
+[4]
+ 
+(b) A source contains a radioactive isotope of strontium. This isotope decays by emission of 
+β‑particles. The half‑life of this isotope is 29 years.
+ 
+ 
+(i) State the change in the nucleus which occurs when a β‑particle is emitted.
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) The initial mass of this isotope of strontium in the source is 25 µg.
+ 
+ 
+ Calculate the mass of the strontium isotope that decays in 87 years.
+ 
+mass =  ..................................................... µg [3]
+ 
+[Total: 9]
+
+===== Q10 =====
+16
+0625/42/F/M/24
+© UCLES 2024
+10 (a) Fig. 10.1 represents different positions A–H of the Moon as it rotates around the Earth.
+light from
+the Sun
+Earth
+A
+E
+D
+B
+H
+F
+C
+G
+Fig. 10.1
+ 
+ 
+(i) State a position of the Moon where an observer on Earth sees:
+ 
+ 
+ 1. there is a quarter Moon 
+ 
+............................................
+ 
+ 
+ 2. there is a full Moon 
+ 
+............................................
+ 
+[2]
+ 
+ 
+(ii) State the approximate time taken for the Moon to orbit the Earth.
+ 
+time =  ......................................................... [1]
+17
+0625/42/F/M/24
+© UCLES 2024
+[Turn over
+ 
+(b) The average distance of the Earth from the Sun is 1.5 × 108 km.
+ 
+ 
+(i) Calculate the average orbital speed of the Earth in km / h.
+ 
+average orbital speed =  ................................................ km / h [3]
+ 
+ 
+(ii) The speed of light in a vacuum is 3.0 × 108 m / s. Calculate the time taken for light from 
+the Sun to reach the Earth.
+ 
+time =  ......................................................... [2]
+ 
+[Total: 8]
+
+===== Q11 =====
+18
+0625/42/F/M/24
+© UCLES 2024
+11 (a) State the condition required for a protostar to become a stable star.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+(b) (i) Define the Hubble constant.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+ 
+(ii) The current estimate for the Hubble constant is 2.2 × 10–18 per second.
+ 
+ 
+ State the equation which gives an estimate for the age of the Universe.
+ ..................................................................................................................................... [1]
+ 
+ 
+(iii) Calculate an estimate for the age of the Universe.
+ 
+estimate of age =  ....................................................... s [1]
+ 
+[Total: 5]

@@ -1,0 +1,468 @@
+{
+  "paper": "0625/43/M/J/24",
+  "paper_full": "June 2024 · Paper 43",
+  "questions": [
+    {
+      "qnum": 1,
+      "topic": "1",
+      "title": "Ball launched vertically — deceleration, height and free fall",
+      "marks": 12,
+      "pdf": "igcse-slices/0625_s24_qp_43_Q01.pdf",
+      "parts": [
+        {
+          "label": "1(a)",
+          "marks": 3,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "(deceleration is) decrease in velocity per unit time OR rate of decrease in velocity OR negative rate of change of velocity OR –v / t negative acceleration OR change in velocity per unit time OR rate of change of velocity"
+        },
+        {
+          "label": "1(b)",
+          "marks": 1,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "a = v / ()t AND (t =) 14 / 9.8 OR (t =) ∆v / a = 14 / 9.8"
+        },
+        {
+          "label": "1(c)",
+          "marks": 5,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "10 m (initial) Ek of ball = (maximum) Ep gained OR ½ mv2 = mgh (h =) Ep / mg OR (h =) ½ v2 / g OR (h =) 12.74 / (0.13  9.8) (= 10 m) OR (h =) (½  196) / 9.8"
+        },
+        {
+          "label": "1(d)",
+          "marks": 3,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "any three from:  (ball) accelerates  (accelerates) at 9.8 m / s2 initially OR (accelerates) due to force of gravity  air resistance / resistive force increases (with speed / velocity)  resultant force (downwards) decreases  acceleration decreases  terminal velocity is reached when acceleration is zero OR terminal velocity is reached when resultant force is zero 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2024 © Cambridge University Press & Assessment 2024 Page 7 of 12"
+        }
+      ],
+      "code": "1.2"
+    },
+    {
+      "qnum": 2,
+      "topic": "1",
+      "title": "Solar-powered traffic lights — energy stores and efficiency",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_s24_qp_43_Q02.pdf",
+      "parts": [
+        {
+          "label": "2(a)",
+          "marks": 1,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "chemical (energy store)"
+        },
+        {
+          "label": "2(b)",
+          "marks": 1,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "if one lamp breaks, the other one will remain lit"
+        },
+        {
+          "label": "2(c)(i)",
+          "marks": 1,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "the useful energy / power output from the solar panel is 22% of the total energy / power input owtte"
+        },
+        {
+          "label": "2(c)(ii)",
+          "marks": 3,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "68 W (%) efficiency = {useful power output} / {total power input} ( 100%) OR 15 / 0.22"
+        },
+        {
+          "label": "2(d)",
+          "marks": 2,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "any two from:  no need for cables (to connect to mains) / good for locations remote from mains supply  less power loss than mains (electricity) that must be transmitted  not affected by mains power cuts"
+        }
+      ],
+      "code": "1.7"
+    },
+    {
+      "qnum": 3,
+      "topic": "1",
+      "title": "Seesaw — moments, balance and impulse on a rubber floor",
+      "marks": 10,
+      "pdf": "igcse-slices/0625_s24_qp_43_Q03.pdf",
+      "parts": [
+        {
+          "label": "3(a)(i)",
+          "marks": 1,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "clockwise moment has increased (and no change to anti-clockwise moment)"
+        },
+        {
+          "label": "3(a)(ii)",
+          "marks": 5,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "(mass of backpack =) 45 / (1.6  9.8)) 2.9 (kg) (at balance) sum of clockwise moments = sum of anti-clockwise moments OR (900  0.85) = 1.6  (450 + W) (clockwise moment =) 765 (N m) OR (moment due to backpack =) 45 (N m) OR (W =) [{900  0.85} – {450  1.6}] / 1.6"
+        },
+        {
+          "label": "3(b)(i)",
+          "marks": 1,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "(impulse is the) force × time (for which the force acts) OR I = F × t OR (impulse =) change in momentum OR ∆{mv}"
+        },
+        {
+          "label": "3(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "any three from:  change in momentum/impulse is the same (on both floors)  (change in momentum/Impulse) is over longer time  force = rate of change of momentum OR F = {mv} / t  less force on child (so less injury) 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2024 © Cambridge University Press & Assessment 2024 Page 8 of 12"
+        }
+      ],
+      "code": "1.5"
+    },
+    {
+      "qnum": 4,
+      "topic": "2",
+      "title": "Heating water — specific heat capacity",
+      "marks": 11,
+      "pdf": "igcse-slices/0625_s24_qp_43_Q04.pdf",
+      "parts": [
+        {
+          "label": "4(a)",
+          "marks": 1,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "(average) KE of particles increases / particles move faster"
+        },
+        {
+          "label": "4(b)(i)",
+          "marks": 2,
+          "codes": [
+            "2.2"
+          ],
+          "answer": " = m / v OR (m =) v 1 cm3 = 1  10–6 m3 OR 250 cm3 = 2.5  10–4 m3 OR 1000  2.5  10–4 (= 0.25 kg)"
+        },
+        {
+          "label": "4(b)(ii)",
+          "marks": 5,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "47000 J ( =) 65 – 20 °C OR ( =) 45 °C E = mc OR (E =) mc OR (E =) 0.25  4200  45"
+        },
+        {
+          "label": "4(b)(iii)",
+          "marks": 1,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "thermal energy also transferred to the pan / surroundings OR thermal energy escapes from the water (as it is being heated)"
+        },
+        {
+          "label": "4(c)",
+          "marks": 2,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "any two from:  (aluminium saucepan) takes longer to heat the water  more (thermal) energy is needed (with aluminium pan for the same increase in temperature)  (because aluminium) has a higher specific heat capacity"
+        }
+      ],
+      "code": "2.2"
+    },
+    {
+      "qnum": 5,
+      "topic": "2",
+      "title": "Thermal conduction in metals, non-metals and gases",
+      "marks": 6,
+      "pdf": "igcse-slices/0625_s24_qp_43_Q05.pdf",
+      "parts": [
+        {
+          "label": "5(a)",
+          "marks": 3,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "any three from:  (metals contain) delocalised / free / mobile electrons  (delocalised electrons) gain energy (from lattice vibrations of the atoms nearest to the hot water)  (delocalised) electrons move through the metal (lattice)  collisions between the (delocalised) electrons and (remote) ions / atoms (transfers thermal energy to all parts of the metal container)"
+        },
+        {
+          "label": "5(b)",
+          "marks": 1,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "no delocalised / free electrons"
+        },
+        {
+          "label": "5(c)",
+          "marks": 2,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "particles are further / far apart fewer particle collisions (to transfer energy) OR no lattice vibrations (to transfer energy) 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2024 © Cambridge University Press & Assessment 2024 Page 9 of 12"
+        }
+      ],
+      "code": "2.3"
+    },
+    {
+      "qnum": 6,
+      "topic": "3",
+      "title": "Converging lens — principal focus and focal length",
+      "marks": 6,
+      "pdf": "igcse-slices/0625_s24_qp_43_Q06.pdf",
+      "parts": [
+        {
+          "label": "6(a)",
+          "marks": 2,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "where rays of light parallel (to the principal axis) converge after passing through lens (focal length is) the distance between (centre of) the lens and principal focus"
+        },
+        {
+          "label": "6(b)",
+          "marks": 4,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "any two from:  ray from top of object to lens, parallel to principal axis, refracted to F2  ray from top of object through centre of lens, undeviated  ray from F1, through top of object and on to lens, then parallel to principal axis rays extrapolated back to converge to the left of F1 image drawn from principal axis to intersection with arrow (to show orientation)"
+        }
+      ],
+      "code": "3.2"
+    },
+    {
+      "qnum": 7,
+      "topic": "4",
+      "title": "Electric fields and lightning — charge and potential difference",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_s24_qp_43_Q07.pdf",
+      "parts": [
+        {
+          "label": "7(a)(i)",
+          "marks": 2,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "evenly spaced straight vertical lines from one plate to the other arrows on lines pointing towards negatively charged plate"
+        },
+        {
+          "label": "7(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "(negatively charged particle has) force / attraction towards positively charged / positive (plate)"
+        },
+        {
+          "label": "7(b)(i)",
+          "marks": 3,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "34 C I = Q / t OR (Q =) It OR 28 000  0.0012"
+        },
+        {
+          "label": "7(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "(p.d. =) 3.6 MV OR 3.6  106 V E = ItV OR (V =) E / It OR (V =) E / Q OR (V =) 1.2  108 / 34 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2024 © Cambridge University Press & Assessment 2024 Page 10 of 12"
+        }
+      ],
+      "code": "4.2"
+    },
+    {
+      "qnum": 8,
+      "topic": "3",
+      "title": "Ultrasound and X-rays in medical scanning",
+      "marks": 6,
+      "pdf": "igcse-slices/0625_s24_qp_43_Q08.pdf",
+      "parts": [
+        {
+          "label": "8(a)(i)",
+          "marks": 1,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "(ultrasound is) sound with a frequency higher than 20 kHz"
+        },
+        {
+          "label": "8(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "(sound travels) faster (in a liquid than in air) / ORA"
+        },
+        {
+          "label": "8(a)(iii)",
+          "marks": 1,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "3.0  108 m / s"
+        },
+        {
+          "label": "8(b)",
+          "marks": 3,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "any three from:  X-rays and ultrasound show internal body parts (without the need to cut open the body)  X-rays and ultrasound both travel through (some parts of) the body  images are formed by ultrasound (partially) reflecting (from boundaries between body matter)  images are formed by X-rays which (travel in straight lines and) pass through soft tissue and are absorbed by bone  X-rays show parts of the skeleton / X-rays show bones OR ultrasound shows image of soft tissues  an X-ray detector forms image from X-rays that travel through patient OR ultrasound detector forms image from sound waves reflected back (from body parts)  X-rays expose you to radiation (which can be harmful to humans)"
+        }
+      ],
+      "code": "3.4"
+    },
+    {
+      "qnum": 9,
+      "topic": "4",
+      "title": "Wireless charging — electromagnetic induction",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_s24_qp_43_Q09.pdf",
+      "parts": [
+        {
+          "label": "9(a)",
+          "marks": 3,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "(alternating current / a.c. in primary coil / plate produces) changing magnetic field (in primary coil) secondary / phone coil cuts (this) magnetic field OR secondary / phone coil is in this / changing magnetic field (changing magnetic field) causes induced current (in secondary coil)"
+        },
+        {
+          "label": "9(b)(i)",
+          "marks": 1,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "1 kW h = 1000  60  60 J AND 0.012  3.6  106 (= 4.3  104 J)"
+        },
+        {
+          "label": "9(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "50% charged = (4.3  104 / 2 =) 2.15  104 (J) OR 63% charged in 30 min OR (50% charged in t =) 24 min P = E / t OR (t =) E / P OR 2.15  104 / 15 (s) OR energy provided in 30 min = (15  30 x 60=) 2.7  104 (J) 2.7  104  2.15  104 OR 63%  50% OR 30 min  24 min 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2024 © Cambridge University Press & Assessment 2024 Page 11 of 12"
+        }
+      ],
+      "code": "4.5"
+    },
+    {
+      "qnum": 10,
+      "topic": "5",
+      "title": "Radioactive tracers for leak detection",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_s24_qp_43_Q10.pdf",
+      "parts": [
+        {
+          "label": "10(a)(i)",
+          "marks": 1,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "radiation (always) present in the environment OR radiation from natural sources"
+        },
+        {
+          "label": "10(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "radon gas OR rocks / buildings OR cosmic rays OR food / drink"
+        },
+        {
+          "label": "10(a)(iii)",
+          "marks": 3,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "356 counts / min (corrected count rate =) count rate – background count OR 382–26"
+        },
+        {
+          "label": "10(b)",
+          "marks": 3,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "beta OR gamma alpha would be stopped by soil and not reach detector OR beta has sufficient range to be detected above ground OR alpha and beta stopped by soil before reaching detector gamma would pass through intact pipe as well cracked pipe so no difference detected OR beta stopped by intact pipe so variation between piped water and escaped water can be detected OR gamma is only radiation that will reach detector through soil OR less gamma reaches detector through solid pipe"
+        },
+        {
+          "label": "10(c)(i)",
+          "marks": 0,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "(very short half-life) doesn’t allow time for detection before activity has dropped to too low a level OR doesn’t allow for sufficient build up at the leak to detect difference in rate"
+        },
+        {
+          "label": "10(c)(ii)",
+          "marks": 0,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "(very long half-life) contaminates water supply 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2024 © Cambridge University Press & Assessment 2024 Page 12 of 12"
+        }
+      ],
+      "code": "5.2"
+    },
+    {
+      "qnum": 11,
+      "topic": "6",
+      "title": "Redshift, the Hubble constant and the Big Bang",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_s24_qp_43_Q11.pdf",
+      "parts": [
+        {
+          "label": "11(a)",
+          "marks": 1,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "redshift"
+        },
+        {
+          "label": "11(b)(i)",
+          "marks": 1,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "(H0 =) 2.2  10–18 per second"
+        },
+        {
+          "label": "11(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "2.6  108 m / s H0 = v / d OR (v =) H0d OR (v =) 1.2  1026  2.2  10–18"
+        },
+        {
+          "label": "11(b)(iii)",
+          "marks": 2,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "any two from:  more distant galaxies are moving away faster  universe is expanding  (if galaxies are moving away from each other now, then) in the past galaxies were closer together"
+        }
+      ],
+      "code": "6.2"
+    }
+  ]
+}

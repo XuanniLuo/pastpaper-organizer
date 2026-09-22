@@ -1,0 +1,636 @@
+===== Q1 =====
+2
+0625/42/F/M/25
+© UCLES 2025
+1 
+Fig. 1.1 shows a force–extension graph for a spring.
+–0.04
+1000
+2000
+3000
+4000
+5000
+0.02
+0.04
+0.06
+0.08
+0.10
+–0.02
+force / N
+extension / m
+Fig. 1.1
+ 
+(a) Calculate the spring constant k of the spring.
+ 
+k =  ......................................................... [2]
+ 
+(b) A student states that the spring has not reached the limit of proportionality when a force of 
+4500 N is applied to it.
+ 
+ 
+State how the graph shows that this statement is true.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+* 0000800000002 *
+,	,
+ĬÕĊ®Ġ´íÈõÏĪÅĊßú·þ×
+ĬìėñÍĥąĠìöÿħóÞûăďĂ
+ĥĕĥÕµÕÅĕÅąÅÅąĕĥõĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+3
+0625/42/F/M/25
+© UCLES 2025
+[Turn over
+ 
+(c) Springs can be compressed by forces. The spring described by Fig. 1.1 is compressed by a 
+force F and has an extension of –0.025 m.
+ 
+ 
+Determine F.
+ 
+F =  ......................................................... [2]
+ 
+(d) State whether force is a scalar quantity or a vector quantity. Explain your answer.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+[Total: 6]
+* 0000800000003 *
+,	,
+Ĭ×Ċ®Ġ´íÈõÏĪÅĊßü·þ×
+ĬìĘòÕģĉĐÍĄòâçÖßăğĂ
+ĥĕĕĕõµåõÕõĕÅąõąµõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q2 =====
+4
+0625/42/F/M/25
+© UCLES 2025
+2 
+Trolley A and trolley B are on a horizontal, frictionless bench. Trolley A moves to the right with a 
+constant velocity u = 0.44 m / s. Trolley B is stationary.
+ 
+Fig. 2.1 shows trolley A before it collides with trolley B.
+A
+B
+direction of  motion
+bench
+Fig. 2.1 (not drawn to scale)
+ 
+(a) State the momentum of trolley B before the collision. Explain your answer.
+statement  ..................................................................................................................................
+explanation  ...............................................................................................................................
+ ...................................................................................................................................................
+ 
+[1]
+ 
+(b) After the collision, the two trolleys are joined together and travel with a constant velocity 
+v = 0.18 m / s to the right. The mass of trolley A is 0.75 kg.
+ 
+ 
+Calculate the mass of trolley B.
+ 
+mass of trolley B =  ......................................................... [3]
+* 0000800000004 *
+,	,
+ĬÕĊ®Ġ´íÈõÏĪÅĊÝú·Ā×
+ĬìĘóÕĩûęêþùéąúýēėĂ
+ĥåÅĕµµåÕµÕĥÅÅõåµĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+5
+0625/42/F/M/25
+© UCLES 2025
+[Turn over
+ 
+(c) (i) The trolleys move onto a rough surface which exerts a constant force F on the trolleys 
+and brings them to rest in 2.6 s.
+ 
+ 
+ Calculate F.
+ 
+F =  ......................................................... [2]
+ 
+ 
+(ii) A different rough surface exerts a smaller resistive force on the trolleys. State how this 
+affects the time taken to bring the trolleys to rest. Explain your answer.
+statement  ..........................................................................................................................
+explanation  ........................................................................................................................
+ ...........................................................................................................................................
+ 
+[1]
+ 
+[Total: 7]
+* 0000800000005 *
+,	,
+Ĭ×Ċ®Ġ´íÈõÏĪÅĊÝü·Ā×
+ĬìėôÍğ÷ĩÏüĈĠÑĂÙēħĂ
+ĥåµÕõÕÅµååµÅÅĕÅõõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q3 =====
+6
+0625/42/F/M/25
+© UCLES 2025
+3 
+Fig. 3.1 shows a mains electric heater used to heat a small room.
+heating elements
+shiny metal surface
+Fig. 3.1
+ 
+(a) State the region of the electromagnetic spectrum which radiates thermal energy from the 
+heater.
+ ............................................................................................................................................. [1]
+ 
+(b) Explain why the shiny metal surface behind the heating elements increases the thermal 
+energy radiated into the room.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+(c) The metal outer casing of the heater is earthed. State why this is an important safety feature.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+* 0000800000006 *
+,	,
+ĬÙĊ®Ġ´íÈõÏĪÅĊàü¶þ×
+ĬìĘôÒĥďģ×ïõĕ±ú¼»ėĂ
+ĥõĕÕõõÅĕĥÅĕÅąĕĥµåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+7
+0625/42/F/M/25
+© UCLES 2025
+[Turn over
+ 
+(d) The mains voltage is 230 V. The two identical heating elements are connected in parallel. 
+Each heating element has a resistance of 89 Ω.
+ 
+ 
+(i) Calculate the current in one heating element.
+ 
+current =  ......................................................... [2]
+ 
+ 
+(ii) Show that the electrical power of the heater is approximately 1200 W. State any equation 
+you use in words or symbols.
+ 
+[2]
+ 
+ 
+(iii) The heater is 95% efficient at converting electrical work done to thermal energy.
+ 
+ 
+ Calculate the thermal energy emitted by the heater in (d)(ii) in 60 s. Give your answer to 
+two significant figures.
+ 
+thermal energy =  ......................................................... [3]
+ 
+[Total: 11]
+* 0000800000007 *
+,	,
+ĬÛĊ®Ġ´íÈõÏĪÅĊàú¶þ×
+ĬìėóÚģēēâĉČÔĥĂĠ»ħĂ
+ĥõĥĕµĕåõõµÅÅąõąõµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q4 =====
+8
+0625/42/F/M/25
+© UCLES 2025
+4 
+A train has a maximum speed of 200 km / h. It accelerates from rest with constant acceleration of 
+0.70 m / s2.
+ 
+(a) (i) Define acceleration.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Show that the maximum speed of the train is approximately 56 m / s.
+ 
+[2]
+ 
+ 
+(iii) Calculate the time taken for the train to reach its maximum speed.
+ 
+time =  ......................................................... [2]
+ 
+(b) (i) The train has a total mass of 440 000 kg. Calculate the force which causes the 
+acceleration of the train.
+ 
+force =  ......................................................... [2]
+ 
+ 
+(ii) The train travels into a headwind. The force of this headwind opposes the motion of the 
+train. State and explain the effect of this force on the motion of the train.
+statement  ..........................................................................................................................
+explanation  ........................................................................................................................
+ ...........................................................................................................................................
+ 
+[1]
+ 
+[Total: 8]
+* 0000800000008 *
+,		,
+ĬÙĊ®Ġ´íÈõÏĪÅĊÞü¶Ā×
+ĬìėòÚĩġĖÕćăÛÇÞ¾ëďĂ
+ĥÅµĕõĕåÕĕĕµÅÅõåõåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q5 =====
+9
+0625/42/F/M/25
+© UCLES 2025
+[Turn over
+5 
+A light-dependent resistor (LDR) has a low resistance in high light intensity and a high resistance 
+in the dark.
+ 
+(a) Sketch a graph of resistance (y-axis) against light intensity (x-axis) for an LDR.
+ 
+[2]
+ 
+(b) Fig. 5.1 shows part of the electric circuit used to turn on a light when it is dark.
+fixed resistor
+Fig. 5.1
+ 
+ 
+(i) Complete the circuit in Fig. 5.1 with the symbol for a light-dependent resistor (LDR). [1]
+ 
+ 
+(ii) Explain why the lamp is off in the light and the lamp is on in the dark. Use ideas about 
+potential difference (p.d.) in your answer.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [3]
+ 
+[Total: 6]
+* 0000800000009 *
+,	
+,
+ĬÛĊ®Ġ´íÈõÏĪÅĊÞú¶Ā×
+ĬìĘñÒğĝĦäñîĎēÖĚëğĂ
+ĥÅÅÕµõÅµąĥĥÅÅĕÅµµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q6 =====
+10
+0625/42/F/M/25
+© UCLES 2025
+6 
+Fig. 6.1 shows an object O which is 5.0 cm away from the centre of a thin, converging lens L. The 
+focal length of L is 3.0 cm. Fig. 6.1 is drawn to full scale.
+L
+O
+Fig. 6.1
+ 
+(a) (i) On Fig. 6.1, label the principal axis with a P. 
+[1]
+ 
+ 
+(ii) On Fig. 6.1, place a letter X at a focal point. 
+[1]
+ 
+ 
+(iii) On Fig. 6.1, draw two rays from O to locate the tip of the image produced by the lens. [2]
+* 0000800000010 *
+,	,
+ĬÙĊ®Ġ´íÈõÏĪÅĊßü¸þ×
+ĬìĖòÓīĩĄÛĀČñëàêēħĂ
+ĥĕÕÕõĕąÕµåµąÅÕåõĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+11
+0625/42/F/M/25
+© UCLES 2025
+[Turn over
+ 
+ 
+(iv) In Table 6.1, place a tick in the right-hand column next to all the terms that describe the 
+image in (a)(iii).
+Table 6.1
+diminished
+enlarged
+inverted
+real
+same size
+upright
+virtual
+ 
+[3]
+ 
+(b) The object moves closer to L. The new distance between L and the object is less than the 
+focal length of L.
+ 
+ 
+Describe how the new image is different from the image in (a)(iv).
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+[Total: 9]
+* 0000800000011 *
+,	,
+ĬÛĊ®Ġ´íÈõÏĪÅĊßú¸þ×
+ĬìĕñÛĝĥôÞúõ¸ïØîēėĂ
+ĥĕåĕµõĥµåÕĥąÅµÅµąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q7 =====
+12
+0625/42/F/M/25
+© UCLES 2025
+7 
+(a) Fig. 7.1 is a scale drawing of light waves approaching a narrow slit.
+barrier with
+narrow slit
+crests of
+3 successive
+wavefronts
+direction of
+propagation
+of light
+SCALE  1.0 cm : 4.0 × 10–7m
+Fig. 7.1
+ 
+ 
+(i) Name the wave effect produced by the narrow slit.
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Using Fig. 7.1, determine the wavelength of the light. Give your answer to two significant 
+figures.
+ 
+wavelength =  ......................................................... [2]
+ 
+ 
+(iii) On Fig. 7.1, draw three wavefronts that have passed through the narrow slit. 
+[3]
+* 0000800000012 *
+,	,
+ĬÙĊ®Ġ´íÈõÏĪÅĊÝü¸Ā×
+ĬìĕôÛħėõÙøî¯ÍüÐăğĂ
+ĥåõĕõõĥĕÅõĕąąµĥµĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+13
+0625/42/F/M/25
+© UCLES 2025
+[Turn over
+ 
+(b) A foghorn emits a sound with frequency 380 Hz. The sound is heard by a ship 2.5 km away 
+from the foghorn. The speed of sound in air is 330 m / s.
+ 
+ 
+(i) Show that the wavelength of the sound is approximately 0.9 m.
+ 
+ 
+ State any equation you use in words or symbols.
+ 
+[2]
+ 
+ 
+(ii) Calculate the time it takes for sound to travel to the ship from the foghorn.
+ 
+time =  ......................................................... [2]
+ 
+[Total: 10]
+* 0000800000013 *
+,	,
+ĬÛĊ®Ġ´íÈõÏĪÅĊÝú¸Ā×
+ĬìĖóÓġěąàĂăúĉĄČăďĂ
+ĥåąÕµĕąõÕąÅąąÕąõąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q8 =====
+14
+0625/42/F/M/25
+© UCLES 2025
+8 
+Fig. 8.1 shows a metal rod suspended in the magnetic field produced by a pair of permanent 
+magnets. The metal rod is connected to a cell and there is a current in the metal rod.
+N
+S
+metal rod
+Fig. 8.1
+ 
+(a) State the direction of the force on the metal rod due to the current.
+ 
+ 
+Explain your answer.
+direction of force  .......................................................................................................................
+explanation  ...............................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ 
+[3]
+ 
+(b) The connections to the cell are reversed.
+ 
+ 
+State how this change affects the force on the metal rod.
+ ............................................................................................................................................. [1]
+* 0000800000014 *
+,	,
+ĬÕĊ®Ġ´íÈõÏĪÅĊÞùµĂ×
+ĬìĕñÒğĨíÎĈĈÕåÙĀ³ėĂ
+ĥąąĕõõÅÕµĕÅÅÅĕåµÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+15
+0625/42/F/M/25
+© UCLES 2025
+[Turn over
+ 
+(c) Two magnets and a cell are used to make a simple electric motor as shown in Fig. 8.2.
+magnets
+cell
+L
+M
+S
+N
+K
+J
+Fig. 8.2
+ 
+ 
+Describe the function of parts J, K, L and M.
+J  ................................................................................................................................................
+ ...................................................................................................................................................
+K  ...............................................................................................................................................
+ ...................................................................................................................................................
+L  ................................................................................................................................................
+ ...................................................................................................................................................
+M  ...............................................................................................................................................
+ ...................................................................................................................................................
+ 
+[4]
+ 
+[Total: 8]
+* 0000800000015 *
+,	,
+Ĭ×Ċ®Ġ´íÈõÏĪÅĊÞûµĂ×
+ĬìĖòÚĩĬýëòùĔñáÜ³ħĂ
+ĥąõÕµĕåµåĥĕÅÅõÅõÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q9 =====
+16
+0625/42/F/M/25
+© UCLES 2025
+9 
+Strontium-90 is a radioactive isotope of strontium. The nuclide notation for strontium-90 is:
+9
+3
+0
+8Sr
+ 
+(a) (i) Explain what isotopes are.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Complete Table 9.1 for strontium-90.
+Table 9.1
+particle
+number in one atom
+location
+38
+outside nucleus
+neutron
+38
+inside nucleus
+ 
+[2]
+* 0000800000016 *
+,	,
+ĬÕĊ®Ġ´íÈõÏĪÅĊàùµĄ×
+ĬìĖóÚģĚČÐðòěÓýúãďĂ
+ĥµåÕõĕåĕÅÅĥÅąõĥõÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+17
+0625/42/F/M/25
+© UCLES 2025
+[Turn over
+ 
+(b) Strontium-90 is used to measure the thickness of metal sheets in industry.
+ 
+ 
+Strontium-90 decays by emitting beta (β) particles which pass through a metal sheet to a 
+detector.
+ 
+ 
+(i) One metal sheet is 0.75 mm thick. Suggest why strontium-90 is a suitable radioactive 
+source to measure the thickness of the metal sheets.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+ 
+(ii) The half-life of strontium-90 is approximately 27 years. Fig. 9.1 shows the shape of a 
+decay curve.
+0
+0
+25
+0
+50
+75
+100
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+55
+60
+percentage of
+strontium-90
+remaining
+age of sample / years
+Fig. 9.1
+ 
+ 
+ The strontium-90 source is replaced with a new source after 15 years. Using Fig. 9.1, 
+suggest why a strontium-90 source that is more than 15 years old needs to be replaced 
+with a new source.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+[Total: 7]
+* 0000800000017 *
+,	,
+Ĭ×Ċ®Ġ´íÈõÏĪÅĊàûµĄ×
+ĬìĕôÒĥĖüéĊÿÎćõÞãğĂ
+ĥµÕĕµõÅõÕµµÅąĕąµÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+
+===== Q10 =====
+18
+0625/42/F/M/25
+© UCLES 2025
+10 Fig. 10.1 shows the path of the Earth as it orbits the Sun. X is a position on the Earth where 
+scientists observe the apparent motion of the Sun throughout the year.
+E
+F
+G
+H
+North Pole
+Earth’s orbit
+Equator
+Sun
+X
+X
+X
+X
+Fig. 10.1
+ 
+(a) Determine how many days it takes the Earth to move around its orbit from F to G.
+ 
+ 
+Explain your answer.
+number of days = ..............................
+explanation  ...............................................................................................................................
+ ...................................................................................................................................................
+ 
+[2]
+ 
+(b) Fig. 10.1 shows four positions E, F, G and H of the Earth in its orbit of the Sun.
+ 
+ 
+(i) Identify the position of the Earth when it is summer at X. .............................. 
+[1]
+ 
+ 
+(ii) Identify the position of the Earth when it is winter at X. .............................. 
+[1]
+* 0000800000018 *
+,		,
+ĬÕĊ®Ġ´íÈõÏĪÅĊÝù·Ă×
+ĬìėóÓġĒĎÒ÷ù±¯ÿĎěħĂ
+ĥĥÅĕõĕąĕĥõĥąąÕĥõĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+19
+0625/42/F/M/25
+© UCLES 2025
+ 
+(c) The orbital speed of the Earth around the Sun is approximately 3.0 × 104 m / s.
+ 
+ 
+Calculate the average radius of the Earth’s orbit.
+ 
+radius =  ......................................................... [3]
+ 
+(d) Earth is a planet in the Solar System. State one other type of naturally occurring object that 
+is present in the Solar System.
+ ............................................................................................................................................. [1]
+ 
+[Total: 8]
+* 0000800000019 *
+,	
+,
+Ĭ×Ċ®Ġ´íÈõÏĪÅĊÝû·Ă×
+ĬìĘôÛħĎĞçāĈøī÷ÊěėĂ
+ĥĥµÕµõĥõõąµąąµąµõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN

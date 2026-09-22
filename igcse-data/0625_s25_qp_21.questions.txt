@@ -1,0 +1,803 @@
+===== Q1 (page 1) =====
+1 
+The speed–time graph for a racing car is divided into four sections, P, Q, R and S. The car starts 
+the race but soon crashes into a wall of tyres. 
+ 
+0
+0
+speed
+time
+P
+Q
+R
+S
+ 
+ 
+Which sections of the graph show that there is an acceleration that is changing? 
+A 
+P, Q, R and S 
+B 
+Q, R and S only 
+C 
+Q and R only 
+D 
+R and S only
+
+===== Q2 (page 1) =====
+2 
+The diagram shows the four forces acting on an aircraft in flight. 
+ 
+120 kN
+60 kN
+60 kN
+40 kN
+ 
+ 
+Which arrow shows the direction of the resultant of the four forces? 
+ 
+A
+B
+C
+D
+
+===== Q3 (page 2) =====
+3 
+The diagrams show two metal blocks, X and Y, suspended from identical force meters. X and Y 
+have identical dimensions. 
+ 
+0
+1
+2
+3
+4
+6
+5
+N
+0
+1
+2
+3
+4
+6
+5
+N
+Y
+X
+ 
+ 
+Which statement about X and Y is correct? 
+A 
+They have different volumes and different weights. 
+B 
+They have different volumes and equal weights. 
+C 
+They have equal volumes and equal weights. 
+D 
+They have equal volumes and different weights.
+
+===== Q4 (page 2) =====
+4 
+A girl has a gold necklace. 
+ 
+Which apparatus does she need to find the density of the gold? 
+ 
+ 
+balance 
+measuring 
+cylinder 
+thermometer 
+ruler 
+ 
+A 
+ 
+ 
+ 
+ 
+key 
+B 
+ 
+ 
+ 
+ 
+ = needed 
+C 
+ 
+ 
+ 
+ 
+ = not needed 
+D 
+ 
+ 
+ 
+
+
+===== Q5 (page 2) =====
+5 
+A spring has a length of 25 cm when a load of 2.0 N is suspended from it. 
+ 
+The spring has a length of 35 cm when a 7.0 N load is used. 
+ 
+What is the spring constant of the spring? 
+A 
+0.20 N / cm 
+B 
+0.50 N / cm 
+C 
+2.0 N / cm 
+D 
+5.0 N / cm
+
+===== Q6 (page 3) =====
+6 
+The diagrams E–H show a block of wood on a frictionless surface. In each diagram, the block has 
+two forces acting on its sides. 
+ 
+E
+2 N
+2 N
+F
+2 N
+2 N
+2 N
+2 N
+G
+2 N
+2 N
+H
+ 
+ 
+Which diagrams show the block in equilibrium? 
+A 
+E, F, G and H 
+B 
+E, G and H only 
+C 
+E and F only 
+D 
+G and H only
+
+===== Q7 (page 3) =====
+7 
+Which statement is not correct? 
+A 
+the momentum of a system is conserved in all interactions 
+B 
+impulse = change of momentum 
+C 
+force acting = change of momentum  time 
+D 
+momentum = mass  velocity
+
+===== Q8 (page 3) =====
+8 
+A force acting on a moving ball causes its motion to change. This force stays constant. 
+ 
+What makes the force produce a greater change in the motion of the ball? 
+A 
+decreasing the total mass of the ball 
+B 
+increasing the temperature of the ball 
+C 
+using a ball with a hollow centre but the same mass 
+D 
+using a different material for the ball so that it has a lower density but the same mass
+
+===== Q9 (page 4) =====
+9 
+A farmer has two carts. The carts have the same weight, but one has four narrow wheels and the 
+other has four wide wheels. 
+ 
+narrow wheel
+wide wheel
+ 
+ 
+Which cart wheels sink less into soft ground and what is the reason? 
+ 
+ 
+cart wheels 
+reason 
+A 
+narrow 
+greater pressure on the ground 
+B 
+narrow 
+less pressure on the ground 
+C 
+wide 
+greater pressure on the ground 
+D 
+wide 
+less pressure on the ground
+
+===== Q10 (page 4) =====
+10 A hot gas and a cool liquid are at the same pressure. 
+ 
+Which row describes the separation and the motion of the particles of a hot gas compared to 
+those of a cool liquid? 
+ 
+ 
+separation of gas particles 
+motion of gas particles 
+A 
+greater than a cool liquid 
+faster than a cool liquid 
+B 
+greater than a cool liquid 
+slower than a cool liquid 
+C 
+less than a cool liquid 
+faster than a cool liquid 
+D 
+less than a cool liquid 
+slower than a cool liquid
+
+===== Q11 (page 4) =====
+11 A fixed mass of gas has a volume of 1.2 m3 and is at a pressure of 200 kPa. The gas expands at 
+constant temperature to a volume of 1.8 m3. 
+ 
+What is the new pressure of the gas? 
+A 
+120 kPa 
+B 
+130 kPa 
+C 
+300 kPa 
+D 
+600 kPa
+
+===== Q12 (page 5) =====
+12 The specific heat capacity of solid P is greater than that of solid Q. 
+ 
+What does this statement mean? 
+A 
+Less energy is needed to raise the temperature by 1 °C of unit mass of solid P than unit mass 
+of solid Q. 
+B 
+Less energy is needed to melt unit mass of solid P than unit mass of solid Q. 
+C 
+More energy is needed to raise the temperature by 1 °C of unit mass of solid P than unit 
+mass of solid Q. 
+D 
+More energy is needed to melt unit mass of solid P than unit mass of solid Q.
+
+===== Q13 (page 5) =====
+13 When water evaporates, what escapes from the surface of the water? 
+A 
+individual atoms 
+B 
+individual molecules  
+C 
+individual protons 
+D 
+tiny drops of water
+
+===== Q14 (page 5) =====
+14 A sealed container of gas is heated. The pressure of the gas increases. 
+ 
+Which statement explains this increase in pressure? 
+A 
+The forces of the gas particles striking the walls of the container increase. 
+B 
+The forces of attraction between the gas particles and the walls of the container increase. 
+C 
+The gas particles collide with each other more frequently. 
+D 
+The gas particles lose more energy when they strike the walls of the container.
+
+===== Q15 (page 5) =====
+15 A student has a copper rod and a wooden rod. Both rods have the same dimensions. 
+ 
+The student puts one end of each rod into a beaker of crushed ice. 
+ 
+After a few minutes, the student picks up the rods by the ends not in the ice. 
+ 
+Which statement is correct? 
+A 
+The copper rod feels colder than the wooden rod because copper is a better conductor than 
+wood. 
+B 
+The copper rod feels warmer than the wooden rod because copper is a better conductor than 
+wood. 
+C 
+The wooden rod feels colder than the copper rod because wood is a better conductor than 
+copper. 
+D 
+The wooden rod feels warmer than the copper rod because wood is a better conductor than 
+copper.
+
+===== Q16 (page 6) =====
+16 The diagram shows a black object X at constant temperature. 
+ 
+The arrows represent the absorption and emission of thermal radiation at the surface. 
+ 
+ 
+ 
+Object Y is at the same constant temperature as X and is identical except that it has a white 
+surface. 
+ 
+Which row correctly compares object X with object Y? 
+ 
+ 
+rate of 
+absorption for X 
+rate of 
+emission for X 
+A 
+higher 
+higher 
+B 
+lower 
+higher 
+C 
+higher 
+lower 
+D 
+lower 
+lower
+
+===== Q17 (page 7) =====
+17 The diagram shows a cork with a weight attached so that the cork floats upright in water. 
+ 
+X
+Y
+cork
+water surface
+weight
+ 
+ 
+Transverse waves travel across the water from X to Y. 
+ 
+In which direction do the waves make the cork move? 
+A 
+  right and left 
+B 
+ up and down 
+C 
+ only to the right 
+D 
+ only to the left
+
+===== Q18 (page 7) =====
+18 A thin converging lens is used as a magnifying glass. 
+ 
+How does the image compare with the object? 
+A 
+real and inverted 
+B 
+real and upright 
+C 
+virtual and inverted 
+D 
+virtual and upright
+
+===== Q19 (page 8) =====
+19 The diagram shows two plane mirrors at 90° to each other. A ray of light is incident on one of the 
+mirrors. The ray reflects off both mirrors before reaching a screen. 
+ 
+At which labelled point does the ray reach the screen? 
+ 
+ray of
+light
+screen
+A
+B
+C
+D
+
+===== Q20 (page 8) =====
+20 The speed of light in a material is 50% of the speed of light in air. 
+ 
+What is the refractive index of the material? 
+A 
+0.5 
+B 
+2.0 
+C 
+6.0  108 
+D 
+1.5  108
+
+===== Q21 (page 8) =====
+21 A beam of white light is split into a spectrum of seven colours. 
+ 
+Which name is given to this process? 
+A 
+diffraction 
+B 
+dispersion 
+C 
+reflection 
+D 
+refraction
+
+===== Q22 (page 8) =====
+22 Satellites are sometimes used to receive and re-transmit television signals. 
+ 
+Which row shows the type of satellite and the electromagnetic waves used? 
+ 
+ 
+type of satellite 
+electromagnetic 
+waves used 
+A 
+low orbit 
+infrared 
+B 
+low orbit 
+microwaves 
+C 
+geostationary 
+infrared 
+D 
+geostationary 
+microwaves
+
+===== Q23 (page 9) =====
+23 A sound wave travels through the air and strikes a solid block of steel. 
+ 
+Some of the sound is reflected from the steel, and some is transmitted through the steel. 
+ 
+How does the speed and the wavelength of the sound in steel compare to the speed and the 
+wavelength of the sound in air? 
+ 
+ 
+speed in steel 
+wavelength in steel 
+A 
+less than in air 
+less than in air 
+B 
+less than in air 
+greater than in air 
+C 
+greater than in air 
+less than in air 
+D 
+greater than in air 
+greater than in air
+
+===== Q24 (page 9) =====
+24 The diagram shows a bracelet containing two magnets. The arrows represent the pattern and the 
+direction of the magnetic field due to the magnets. 
+ 
+J
+K
+X
+Y
+ 
+ 
+Which row identifies the magnetic pole at J, the magnetic pole at K and where the magnetic field 
+is the strongest? 
+ 
+ 
+magnetic 
+pole at J 
+magnetic 
+pole at K 
+where the magnetic 
+field is the strongest 
+A 
+N 
+N 
+X 
+B 
+N 
+N 
+Y 
+C 
+S 
+S 
+X 
+D 
+S 
+S 
+Y
+
+===== Q25 (page 10) =====
+25 Which row describes an electric field and its direction? 
+ 
+ 
+description of electric field 
+direction of electric field 
+A 
+ 
+region in which an electric 
+charge experiences a force 
+direction of the force 
+on a positive charge 
+B 
+ 
+region in which an electric 
+charge experiences a force 
+direction of the force 
+on a negative charge 
+C 
+ 
+region in which an electric 
+charge produces a current 
+direction of the force 
+on a positive charge 
+D 
+ 
+region in which an electric 
+charge produces a current 
+direction of the force 
+on a negative charge
+
+===== Q26 (page 10) =====
+26 Copper wire is available in fixed lengths but in various diameters d. Each wire has a different 
+resistance R. 
+ 
+Which relationship between R and d is correct? 
+A 
+R is directly proportional to d. 
+B 
+R is directly proportional to d 2. 
+C 
+R is inversely proportional to d. 
+D 
+R is inversely proportional to d 2.
+
+===== Q27 (page 10) =====
+27 The diagram shows three 20  resistors, R1, R2 and R3, and a switch S connected to a d.c. power 
+supply. 
+ 
+R1
+R2
+S
+R3
+ 
+ 
+Switch S is open. 
+ 
+The potential difference (p.d.) across R3 is 9.0 V. 
+ 
+What is the p.d. across R3 when switch S is closed? 
+A 
+3.0 V 
+B 
+6.0 V 
+C 
+12 V 
+D 
+27 V
+
+===== Q28 (page 11) =====
+28 The circuits shown all include a d.c. power supply, one diode and two light-emitting diodes 
+(LEDs). 
+ 
+In which circuit will both LEDs be turned on? 
+ 
+A
+B
++
+–
++
+–
+C
+D
++
+–
++
+–
+
+===== Q29 (page 11) =====
+29 A wire connected to a resistor R is moved in a magnetic field. A current is induced in the direction 
+shown. 
+ 
+In which direction is the wire moved? 
+ 
+N
+S
+D
+A
+B
+C
+B
+R
+wire
+induced
+current
+
+===== Q30 (page 11) =====
+30 Which component is not found in an a.c. generator? 
+A 
+coil of wire 
+B 
+split-ring commutator 
+C 
+magnetic poles 
+D 
+slip rings
+
+===== Q31 (page 12) =====
+31 There is a current in a straight metal wire in the direction shown. 
+ 
+direction of current
+ 
+ 
+Which row describes the direction and the pattern of the magnetic field due to the wire when 
+looking from vertically above the wire? 
+ 
+ 
+direction 
+pattern 
+A 
+anticlockwise 
+circular 
+B 
+left to right 
+parallel lines 
+C 
+clockwise 
+circular 
+D 
+right to left 
+parallel lines
+
+===== Q32 (page 12) =====
+32 A simple transformer contains an iron core. 
+ 
+What is the function of the iron core in the transformer? 
+A 
+to conduct current from the primary coil to the secondary coil 
+B 
+to enable the secondary coil to act as an electromagnet 
+C 
+to ensure there is a high voltage between the primary coil and the secondary coil 
+D 
+to link the magnetic field in the primary coil to the secondary coil
+
+===== Q33 (page 12) =====
+33 In an alpha particle scattering experiment, a beam of alpha particles is fired at a very thin piece of 
+gold foil. 
+ 
+In which direction do most of the alpha particles travel after hitting the foil? 
+ 
+gold foil
+beam of
+alpha particles
+A
+B
+C
+D
+
+===== Q34 (page 13) =====
+34 An atom of boron contains 5 protons and 5 electrons. The nucleon number of the atom is 11. 
+ 
+How many neutrons are there in the atom? 
+A 
+5 
+B 
+6 
+C 
+11 
+D 
+16
+
+===== Q35 (page 13) =====
+35 A detector placed near a radioactive isotope gives a measured count rate of 800 counts / minute. 
+The half-life of the isotope is three hours. 
+ 
+The background count rate is 32 counts / minute. 
+ 
+What is the count rate on the detector after six hours? 
+A 
+192 counts / minute 
+B 
+200 counts / minute 
+C 
+224 counts / minute 
+D 
+232 counts / minute
+
+===== Q36 (page 13) =====
+36 Sodium-24 is a radioactive isotope that emits beta radiation. 
+ 
+Which nuclear equation shows how sodium-24 decays? 
+ 
+24Na
+A
+
+11
+24Mg +
+12
+0
+–1
+24Na
+B
+
+11
+24Ne +
+10
+0
+–1
+24Na
+C
+
+11
+20F +
+9
+4
+2
+4
+2
+24Na
+D
+
+11
+20Al +
+13
+
+===== Q37 (page 13) =====
+37 Which safety precautions must be taken when using a source of gamma radiation? 
+ 
+1 
+Reduce the distance between the source and the person. 
+2 
+Reduce the time of exposure to the radiation. 
+3 
+Use a suitable shielding material between the source and the person. 
+ 
+A 
+1, 2 and 3 
+B 
+1 and 2 only 
+C 
+1 and 3 only 
+D 
+2 and 3 only
+
+===== Q38 (page 14) =====
+38 A student defines three periods of time: 
+ 
+● 
+the time TS taken for the Earth to orbit the Sun 
+● 
+the time TR taken for the Earth to rotate once on its axis 
+● 
+the time TM taken for the Moon to orbit the Earth. 
+ 
+Which row shows the shortest period of time and the longest period of time? 
+ 
+ 
+shortest 
+period of time 
+longest 
+period of time 
+A 
+TS 
+TR 
+B 
+TR 
+TS 
+C 
+TR 
+TM 
+D 
+TM 
+TS
+
+===== Q39 (page 14) =====
+39 Which statement about the Universe is correct? 
+A 
+The Universe consists of 100 000 galaxies. 
+B 
+Redshift is a decrease in the observed wavelength of electromagnetic radiation emitted from 
+receding galaxies. 
+C 
+Light emitted from distant galaxies appears redshifted. 
+D 
+Redshift of the light from distant galaxies gives evidence that the Universe is contracting.
+
+===== Q40 (page 14) =====
+40 Which statement about the cosmic microwave background radiation (CMBR) is correct? 
+A 
+CMBR now has a frequency higher than that of infrared radiation. 
+B 
+CMBR has always had exactly the same frequency. 
+C 
+CMBR had a shorter wavelength in the past. 
+D 
+CMBR was produced a long time after the Universe was formed.

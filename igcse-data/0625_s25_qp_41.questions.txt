@@ -1,0 +1,659 @@
+===== Q1 =====
+2
+0625/41/M/J/25
+© UCLES 2025
+1 
+(a) Circle the vector quantities in the list.
+acceleration    mass    speed    time    velocity
+ 
+[1]
+ 
+(b) Fig. 1.1 shows the speed–time graph for a train travelling from station A to station B.
+0
+0
+100
+200
+300
+400
+500
+600
+time / s
+10
+20
+speed
+m / s
+30
+40
+50
+60
+Fig. 1.1
+ 
+ 
+(i) State the maximum speed of the train.
+ 
+maximum speed =  ......................................................... [1]
+ 
+ 
+(ii) Describe the motion of the train between station A and station B.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+* 0000800000002 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊÝú¸þ×
+ĬËûûÎĠĦþêïĈħğöĄéďĂ
+ĥÅåÕõõąÕĥąĕÅąĕĥõĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+3
+0625/41/M/J/25
+© UCLES 2025
+[Turn over
+ 
+ 
+(iii) Calculate the distance between station A and station B.
+ 
+distance =  ......................................................... [3]
+ 
+ 
+(iv) On a different day, the train takes 650 s to travel between station A and station B.
+ 
+ 
+ Suggest one change to the motion of the train that leads to this longer journey time.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+[Total: 8]
+* 0000800000003 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊÝü¸þ×
+ĬËüüÖĪĪîÏĉùâ»þØéğĂ
+ĥÅÕĕµĕĥµõõÅÅąõąµõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q2 =====
+4
+0625/41/M/J/25
+© UCLES 2025
+2 
+(a) A resultant force is applied to an object moving with a velocity v in a straight line.
+ 
+ 
+(i) State two different changes to the motion that the resultant force may cause.
+1  ........................................................................................................................................
+2  ........................................................................................................................................
+ 
+[2]
+ 
+ 
+(ii) State one other way that forces may change a stationary object.
+ ..................................................................................................................................... [1]
+ 
+(b) Describe how a uniform metre ruler, a pivot and a selection of masses can be used to 
+demonstrate that there is no resultant moment on an object in equilibrium.
+ 
+ 
+You may include a labelled diagram in your answer.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [4]
+ 
+[Total: 7]
+* 0000800000004 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊßú¸Ā×
+ĬËüùÖĤĜûìćòéęâö¹ėĂ
+ĥõąĕõĕĥĕĕÕµÅÅõåµĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q3 =====
+5
+0625/41/M/J/25
+© UCLES 2025
+[Turn over
+3 
+Fig. 3.1 shows a side view of part of a concrete track at a skateboard park.
+B
+side view
+C
+A
+Fig. 3.1
+ 
+(a) A skateboarder is initially at rest at point A. The skateboarder then travels through point B and 
+comes to rest at point C. 
+ 
+ Describe the transfer of energy as the skateboarder travels from A to B to C along the concrete 
+track.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+(b) (i) B is at ground level and C is at 2.8 m above ground level. The mass of the skateboarder 
+is 65 kg.
+ 
+ 
+ Calculate the work done on the skateboarder as she travels from B to C.
+ 
+work done =  ......................................................... [2]
+ 
+ 
+(ii) The skateboarder falls off the skateboard at B. She hits the track and comes to rest after 
+a few milliseconds.
+ 
+ 
+ State the equation that defines the force F with which the skateboarder hits the track. 
+State the meaning of any symbols you use.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+[Total: 6]
+* 0000800000005 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊßü¸Ā×
+ĬËûúÎĦĘċÍñÿĠ½Úâ¹ħĂ
+ĥõõÕµõąõąåĥÅÅĕÅõõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q4 =====
+6
+0625/41/M/J/25
+© UCLES 2025
+4 
+Fig. 4.1 shows a heater used to warm the air in a room.
+Fig. 4.1
+ 
+(a) (i) State the main method of thermal energy transfer throughout the air in the room.
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Explain how the heater warms all the air in the room.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [3]
+ 
+(b) The power of the heater is 2.0 kW when it is connected to the mains supply with an e.m.f. of 230 V.
+ 
+ 
+(i) Show that the current in the heater is approximately 8.7 A.
+ 
+[2]
+ 
+ 
+(ii) The plug connecting the heater to the mains supply is fitted with a fuse.
+ 
+ 
+ Fuse ratings of 3 A, 5 A, 10 A and 13 A are available.
+ 
+ 
+ State which fuse is used. Explain your answer.
+fuse ....................
+explanation  ........................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+[Total: 8]
+* 0000800000006 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊÞüµþ×
+ĬËüúÑĠðāÕöîĕÝâÃđėĂ
+ĥåÕÕµÕąÕÅÅÅÅąĕĥµåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q5 =====
+7
+0625/41/M/J/25
+© UCLES 2025
+[Turn over
+5 
+A ray of light is incident on a soap film. Fig. 5.1 shows a magnified image of a small part of the 
+soap film. The ray of light is refracted as it enters the soap film.
+soap film
+air
+air
+30°
+Fig. 5.1
+ 
+The refractive index of the soap film is 1.28.
+ 
+(a) Define refractive index in terms of the speed of light.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+(b) (i) Show that the angle of refraction as the light enters the soap film is approximately 43°.
+ [2]
+ 
+ 
+(ii) On Fig. 5.1, carefully draw the refracted light ray in the soap film and label the angle of 
+refraction. 
+[2]
+ 
+(c) The ray of light is monochromatic red light with a wavelength of 680 nm in air.
+ 
+ 
+(i) Define monochromatic.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Calculate the frequency of the light.
+ 
+frequency =  ......................................................... [3]
+ 
+[Total: 9]
+* 0000800000007 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊÞúµþ×
+ĬËûùÙĪôñäĄăÔùÚėđħĂ
+ĥååĕõµĥµÕµĕÅąõąõµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q6 =====
+8
+0625/41/ M/J/25
+© UCLES 2025
+6 
+Fig. 6.1 shows a person using a magnetic window cleaner. The part on the outside of the window 
+is attracted to the inside part through the glass window.
+Fig. 6.1
+Each part of the window cleaner contains two magnets. Fig. 6.2 shows the magnetic field between 
+the parts of the window cleaner.
+inside
+window
+outside
+window
+handle
+bar magnets
+bar magnets
+Fig. 6.2
+* 0000800000008 *
+,		,
+ĬÑĊ®Ġ´íÈõÏĪÅĊàüµĀ×
+ĬËûüÙĤĂø×þČÛÛöµāďĂ
+ĥĕõĕµµĥĕµĕĥÅÅõåõåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+9
+0625/41/M/J/25
+© UCLES 2025
+[Turn over
+ 
+(a) Glass is not a magnetic material.
+ 
+ 
+State the difference between magnetic and non-magnetic materials.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+(b) Suggest a suitable material for the magnets in the window cleaner. Explain your answer.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+(c) Label the poles of the magnets in Fig. 6.2. 
+[1]
+ 
+(d) State how the field lines in Fig. 6.2 show different strengths of the magnetic field between the 
+magnets.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+[Total: 4]
+* 0000800000009 *
+,	
+,
+ĬÓĊ®Ġ´íÈõÏĪÅĊàúµĀ×
+ĬËüûÑĦþĈâüõĎÿþġāğĂ
+ĥĕąÕõÕąõåĥµÅÅĕÅµµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q7 =====
+10
+0625/41/M/J/25
+© UCLES 2025
+7 
+(a) Fig. 7.1 shows a sketch of the current–voltage graph for an electrical component.
+current
+voltage
+0
+0
+Fig. 7.1
+ 
+ 
+(i) Name the electrical component.
+ 
+ 
+ Explain how you identified the component from the graph in Fig. 7.1.
+name  .................................................................................................................................
+explanation  ........................................................................................................................
+ ...........................................................................................................................................
+ 
+[2]
+ 
+ 
+(ii) Draw the circuit symbol for this component.
+ 
+[1]
+ 
+(b) Fig. 7.2 shows an electric circuit for two identical electric heaters, A and B, connected to a 
+mains supply of 230 V.
+A
+S1
+S2
+A
+B
+230 V
+Fig. 7.2
+ 
+ 
+S1 is closed. S2 is open. The reading on the ammeter is 3.9 A.
+* 0000800000010 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊÝü·þ×
+ĬËúüÔĢĊĢÙąăñ·øÑ¹ħĂ
+ĥÅĕÕµµÅĕĕåĥąÅÕåõĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+11
+0625/41/M/J/25
+© UCLES 2025
+[Turn over
+ 
+ 
+(i) Calculate the resistance of heater A.
+ 
+resistance =  ......................................................... [2]
+ 
+ 
+(ii) Calculate the energy transferred by heater A in 5.0 minutes.
+ 
+energy =  ......................................................... [3]
+ 
+ 
+(iii) S1 remains closed and S2 is closed.
+ 
+ 
+ Determine the reading on the ammeter. Show your working.
+ 
+ammeter reading =  ......................................................... [2]
+ 
+[Total: 10]
+* 0000800000011 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊÝú·þ×
+ĬËùûÜĨĆĒàóî¸ģĀą¹ėĂ
+ĥÅĥĕõÕåõąÕµąÅµÅµąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q8 =====
+12
+0625/41/M/J/25
+© UCLES 2025
+8 
+Fig. 8.1 shows a diagram of part of a simple a.c. generator.
+A
+B
+C
+axle
+magnet
+coil of wire
+external circuit
+Fig. 8.1
+ 
+(a) (i) Identify components A and B in Fig. 8.1.
+A  ........................................................................................................................................
+B  ........................................................................................................................................
+ 
+[2]
+ 
+ 
+(ii) Component C is made of soft iron.
+ 
+ 
+ Describe the effect of this component on the generator.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+* 0000800000012 *
+,	,
+ĬÑĊ®Ġ´íÈõÏĪÅĊßü·Ā×
+ĬËùúÜĞøėÛíõ¯ÁäçéğĂ
+ĥõµĕµÕåÕĥõÅąąµĥµĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+13
+0625/41/M/J/25
+© UCLES 2025
+[Turn over
+ 
+(b) The coil of the generator rotates at a constant speed of two complete revolutions per second. 
+Sketch a graph of the e.m.f. generated against time on the axes in Fig. 8.2. The coil is in the 
+position shown in Fig. 8.1 at time = 0.
+e.m.f. / V
+time / s
+0.00
+0.25
+0.50
+0.75
+1.00
+Fig. 8.2
+ 
+[3]
+ 
+(c) In power stations, transformers are used to step up the voltage of electricity generated before 
+it is transmitted through cables over long distances.
+ 
+ 
+(i) Explain the advantages of transmitting electricity at high voltages.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+ 
+(ii) A power station generates electricity at 25 000 V. A transformer steps up the voltage to 
+300 000 V. The primary coil of the step-up transformer has 450 turns.
+ 
+ 
+ Calculate the number of turns Ns on the secondary coil of the transformer.
+ 
+Ns =  ......................................................... [2]
+ 
+[Total: 10]
+* 0000800000013 *
+,	,
+ĬÓĊ®Ġ´íÈõÏĪÅĊßú·Ā×
+ĬËúùÔĬüħÞċČúĕÜóéďĂ
+ĥõÅÕõµÅµõąĕąąÕąõąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q9 =====
+14
+0625/41/M/J/25
+© UCLES 2025
+9 
+Strontium-90 (90
+38Sr) is a radioactive isotope that contains 38 protons and 52 neutrons. Strontium-90 
+decays to form an isotope of yttrium (Y) by emitting beta (β) particles.
+ 
+(a) (i) Suggest how the nucleus of a stable isotope of strontium differs from a nucleus of 
+strontium-90. Explain your answer.
+suggestion  .........................................................................................................................
+explanation  ........................................................................................................................
+ ...........................................................................................................................................
+ 
+[2]
+ 
+ 
+(ii) Complete the nuclide equation for the decay of strontium-90 to yttrium.
+90
+38Sr  
+  
+........
+........Y +  
+........
+........β
+ 
+[2]
+ 
+ 
+(iii) Explain why scientists limit the amount of time they are exposed to radioactive strontium.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+(b) Yttrium is also unstable. A scientist places a sample of yttrium near a radiation detector.
+ 
+ 
+Table 9.1 shows the count rate recorded by the detector as the sample decays.
+Table 9.1
+time / h
+recorded count rate
+counts / min
+  0
+68
+ 50
+49
+100
+38
+150
+32
+200
+26
+250
+24
+300
+20
+350
+21
+400
+20
+* 0000800000014 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊàù¶Ă×
+ĬËùûÑĦćďÐýÿÕ¹ā÷ęėĂ
+ĥÕÅĕµÕąĕĕĕĕÅÅĕåµÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+15
+0625/41/M/J/25
+© UCLES 2025
+[Turn over
+ 
+ 
+Fig. 9.1 shows a graph of the count rate due to yttrium against time.
+0
+4
+8
+12
+16
+20
+24
+28
+32
+36
+40
+44
+48
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+200
+220
+240
+260
+280
+300
+320
+time / h
+count rate
+due to yttrium
+counts / min
+Fig. 9.1
+ 
+ 
+(i) Use Fig. 9.1 to determine the half-life of yttrium. Show your working.
+ 
+half-life =  ....................................................... h [3]
+ 
+ 
+(ii) Explain the difference between the count rate in Table 9.1 and the count rate due to 
+yttrium plotted on the graph in Fig. 9.1.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+[Total: 10]
+* 0000800000015 *
+,	,
+ĬÏĊ®Ġ´íÈõÏĪÅĊàû¶Ă×
+ĬËúüÙĤċğéûòĔĝùãęħĂ
+ĥÕµÕõµĥõąĥÅÅÅõÅõÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+===== Q10 =====
+16
+0625/41/M/J/25
+© UCLES 2025
+10 Jupiter and the Earth are planets in our Solar System.
+ 
+(a) Describe the composition of Jupiter and the Earth.
+Jupiter  .......................................................................................................................................
+the Earth  ...................................................................................................................................
+ 
+[2]
+ 
+(b) The gravitational field strength at the surface of the Earth is approximately 9.8 N / kg. The 
+gravitational field strength at the surface of Jupiter is approximately 23 N / kg.
+ 
+ 
+(i) Define gravitational field strength.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+ 
+(ii) State one factor which causes the difference between the gravitational field strength at 
+the surface of Jupiter and the gravitational field strength at the surface of the Earth.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+(c) State and explain the difference between the orbital speed of Jupiter and the orbital speed of 
+the Earth.
+statement  ..................................................................................................................................
+explanation  ...............................................................................................................................
+ ...................................................................................................................................................
+ 
+[3]
+ 
+[Total: 8]
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every 
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the 
+publisher will be pleased to make amends at the earliest possible opportunity.
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+Cambridge Assessment International Education is part of Cambridge Assessment. Cambridge Assessment is the brand name of the University of Cambridge 
+Local Examinations Syndicate (UCLES), which is a department of the University of Cambridge.
+* 0000800000016 *
+,	,
+ĬÍĊ®Ġ´íÈõÏĪÅĊÞù¶Ą×
+ĬËúùÙĪùĪÎõùě¿ÕāĉďĂ
+ĥĥĥÕµµĥÕĥÅµÅąõĥõÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD

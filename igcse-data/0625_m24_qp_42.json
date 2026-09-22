@@ -1,0 +1,420 @@
+{
+  "paper": "0625/42/F/M/24",
+  "paper_full": "March 2024 · Paper 42",
+  "questions": [
+    {
+      "qnum": 1,
+      "topic": "1",
+      "title": "Bus journey — speed–time graph, kinetic energy and braking force",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_m24_qp_42_Q01.pdf",
+      "parts": [
+        {
+          "label": "1(a)",
+          "marks": 3,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "constant speed constant / uniform deceleration stationary"
+        },
+        {
+          "label": "1(b)(i)",
+          "marks": 2,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "7.1  105 J OR 710 000 J OR 710 kJ EK= ½mv2 OR (EK= ) ½mv2 OR ½  18 000  (8.9)2"
+        },
+        {
+          "label": "1(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "31 000 N OR 31 kN W = Fd OR (F =) W / d OR 710 000 / 23 F = 710 000 / 23"
+        }
+      ],
+      "code": "1.2"
+    },
+    {
+      "qnum": 2,
+      "topic": "1",
+      "title": "Impulse and rocket thrust",
+      "marks": 6,
+      "pdf": "igcse-slices/0625_m24_qp_42_Q02.pdf",
+      "parts": [
+        {
+          "label": "2(a)",
+          "marks": 1,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "(Impulse =) force  time (for which force acts)"
+        },
+        {
+          "label": "2(b)(i)",
+          "marks": 2,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "F∆t = ∆{mv} OR (F =) ∆{mv} / ∆t OR (F =) ∆p / t {2800  1400} (/ 1) = 3 920 000 N OR {2800  1400} (/ 1) = 3920 kN"
+        },
+        {
+          "label": "2(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "4.0  105 kg OR 400 000 kg (at maximum mass) force = weight of rocket OR F = mg (m=) F / g OR 3.9  106 / 9.8 OR 4(.0)  10N (kg) 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2024 © Cambridge University Press & Assessment 2024 Page 7 of 12"
+        }
+      ],
+      "code": "1.6"
+    },
+    {
+      "qnum": 3,
+      "topic": "1",
+      "title": "Pressure on the road, tyre pressure and filling balloons",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_m24_qp_42_Q03.pdf",
+      "parts": [
+        {
+          "label": "3(a)(i)",
+          "marks": 2,
+          "codes": [
+            "1.8"
+          ],
+          "answer": "2.0  105 Pa OR 200 000 Pa OR 200 kPa (P =) F / A OR 13 000 / (0.016  4)"
+        },
+        {
+          "label": "3(a)(ii)",
+          "marks": 4,
+          "codes": [
+            "1.8"
+          ],
+          "answer": "Any four from: • friction between road and tyre • temperature of air / tyre increases • particles (of air in tyre) move faster • particles (of air) collide harder with the walls (of the tyre) OR particles (of air) collide more frequently with the walls (of the tyre) • force (on the tyre wall) increases, AND area (of tyre) is constant (so tyre pressure increases)"
+        },
+        {
+          "label": "3(b)",
+          "marks": 3,
+          "codes": [
+            "1.8"
+          ],
+          "answer": "(maximum number = ) 34 pV = constant OR {2.0  106  0.026} = 1.0  105  V2 V2 = 0.52 (m3) OR (V2 =) {2.0  106  0.026} / 1.0  105 OR (number of balloons =) {2.0  106  0.026} / {1.0  105  0.015}"
+        }
+      ],
+      "code": "1.8"
+    },
+    {
+      "qnum": 4,
+      "topic": "2",
+      "title": "Specific heat capacity of oil",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_m24_qp_42_Q04.pdf",
+      "parts": [
+        {
+          "label": "4(a)",
+          "marks": 2,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "energy transferred per unit mass per unit temperature change (thermal) energy (transferred) per unit temperature change"
+        },
+        {
+          "label": "4(b)(i)",
+          "marks": 2,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "(m =) 2.2 kg m = V in any form OR 910  0.0024"
+        },
+        {
+          "label": "4(b)(ii)",
+          "marks": 2,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "7.0  105 J OR 700 000 J c = ∆E / { m∆ } OR (∆E =) mc∆ OR 2.2  2000  160 OR 2.184  2000  160 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2024 © Cambridge University Press & Assessment 2024 Page 8 of 12"
+        },
+        {
+          "label": "4(b)(iii)",
+          "marks": 2,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "1700 W (P =) E / t OR 700 000 / 7  60 OR 704 000 / 7  60 OR 698 880 / 7  60"
+        }
+      ],
+      "code": "2.2"
+    },
+    {
+      "qnum": 5,
+      "topic": "3",
+      "title": "Electromagnetic spectrum applications and wave diffraction",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_m24_qp_42_Q05.pdf",
+      "parts": [
+        {
+          "label": "5(a)(i)",
+          "marks": 3,
+          "codes": [
+            "3.3"
+          ],
+          "answer": "application region of electromagnetic spectrum cancer treatment gamma rays bluetooth radio waves optical fibres infrared security marking ultraviolet sterilising food gamma rays wireless internet Microwaves"
+        },
+        {
+          "label": "5(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "3.3"
+          ],
+          "answer": "3.0  108 (m / s) OR 300 000 000 (m / s)"
+        },
+        {
+          "label": "5(b)(i)",
+          "marks": 2,
+          "codes": [
+            "3.3"
+          ],
+          "answer": "three crests parallel to the barrier same wavelength as wave after the gap"
+        },
+        {
+          "label": "5(b)(ii)",
+          "marks": 2,
+          "codes": [
+            "3.3"
+          ],
+          "answer": "central part of crest (parallel to the (gap in the) barrier) is straight crests have curved ends 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2024 © Cambridge University Press & Assessment 2024 Page 9 of 12"
+        }
+      ],
+      "code": "3.3"
+    },
+    {
+      "qnum": 6,
+      "topic": "3",
+      "title": "Converging lens — ray diagram and focal length",
+      "marks": 6,
+      "pdf": "igcse-slices/0625_m24_qp_42_Q06.pdf",
+      "parts": [
+        {
+          "label": "6(a)",
+          "marks": 2,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "ray from top of object to tip of image line labelled L drawn perpendicular to principal axis at its intersection with previous ray"
+        },
+        {
+          "label": "6(b)",
+          "marks": 2,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "ray from top of O parallel to principal axis to lens AND ray from lens to tip of I OR ray from tip of I parallel to principal axis to lens AND ray from lens to top of O 2.1 cm"
+        },
+        {
+          "label": "6(c)",
+          "marks": 2,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "virtual upright"
+        }
+      ],
+      "code": "3.2"
+    },
+    {
+      "qnum": 7,
+      "topic": "4",
+      "title": "Potential divider circuit",
+      "marks": 5,
+      "pdf": "igcse-slices/0625_m24_qp_42_Q07.pdf",
+      "parts": [
+        {
+          "label": "7(a)",
+          "marks": 1,
+          "codes": [
+            "4.3"
+          ],
+          "answer": ""
+        },
+        {
+          "label": "7(b)(i)",
+          "marks": 2,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "1.5 V Vout / VR = Rout / R OR VR = 3 Vout"
+        },
+        {
+          "label": "7(b)(ii)",
+          "marks": 2,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "0.51 C I = Q / t OR (Q =) It OR 1.7  10–3  300 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2024 © Cambridge University Press & Assessment 2024 Page 10 of 12"
+        }
+      ],
+      "code": "4.3"
+    },
+    {
+      "qnum": 8,
+      "topic": "4",
+      "title": "Magnetic field around a wire and power transmission",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_m24_qp_42_Q08.pdf",
+      "parts": [
+        {
+          "label": "8(a)(i)",
+          "marks": 3,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "three concentric circles centred on X second and third circles further apart than first and second circles direction of arrows clockwise"
+        },
+        {
+          "label": "8(a)(ii)",
+          "marks": 2,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "strength of magnetic field increases its direction reverses"
+        },
+        {
+          "label": "8(b)",
+          "marks": 3,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "any three from: • P = I 2R OR power (loss) = I 2R • (high voltage allows) low current (so at same power output, less power / energy lost) • thin wires have high resistance (so more power / energy lost) • (low) current has a greater effect (on efficiency) than (high) resistance (of the thin wires)"
+        }
+      ],
+      "code": "4.5"
+    },
+    {
+      "qnum": 9,
+      "topic": "5",
+      "title": "Alpha scattering and beta-decay half-life",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_m24_qp_42_Q09.pdf",
+      "parts": [
+        {
+          "label": "9(a)(i)",
+          "marks": 1,
+          "codes": [
+            "5.1"
+          ],
+          "answer": "most of the atom is empty space"
+        },
+        {
+          "label": "9(a)(ii)",
+          "marks": 4,
+          "codes": [
+            "5.1"
+          ],
+          "answer": "any two from: 1 the nucleus is very small 2 mass of gold nucleus is much greater than mass of alpha particle 3 the nucleus is positively charged corresponding explanation to conclusion: 1 not many alpha particles pass close to the nucleus / owtte 2 large force between alpha and nucleus (has bigger effect on small mass of alpha) 3 alpha particles are positively charged, AND force is repulsive"
+        },
+        {
+          "label": "9(b)(i)",
+          "marks": 1,
+          "codes": [
+            "5.1"
+          ],
+          "answer": "(in the nucleus a) neutron is changed into a proton (and an electron which is the emitted -particle) 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2024 © Cambridge University Press & Assessment 2024 Page 11 of 12"
+        },
+        {
+          "label": "9(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "5.1"
+          ],
+          "answer": "22 g (87 years is) three half-lives OR 25 / 8 OR 87 / 29 = 3 (half lives) 1 / 8th (of the strontium remains) OR 25 / 8 (decays) OR 3.125 seen"
+        }
+      ],
+      "code": "5.1"
+    },
+    {
+      "qnum": 10,
+      "topic": "6",
+      "title": "Moon phases, Earth's orbital speed and light from the Sun",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_m24_qp_42_Q10.pdf",
+      "parts": [
+        {
+          "label": "10(a)(i)",
+          "marks": 2,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "position A and / or E position G"
+        },
+        {
+          "label": "10(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "1 month"
+        },
+        {
+          "label": "10(b)(i)",
+          "marks": 3,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "110 000 (km / h) (v = )2r / T T = 365  24h OR 2  1.5  108 / 365  24"
+        },
+        {
+          "label": "10(b)(ii)",
+          "marks": 2,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "500 s v = s / t OR (t =) s / v OR 1.5  1011 / 3.0  108"
+        }
+      ],
+      "code": "6.1"
+    },
+    {
+      "qnum": 11,
+      "topic": "6",
+      "title": "Protostars, the Hubble constant and the age of the Universe",
+      "marks": 5,
+      "pdf": "igcse-slices/0625_m24_qp_42_Q11.pdf",
+      "parts": [
+        {
+          "label": "11(a)",
+          "marks": 1,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "inward force / force of gravitational attraction, is balanced by an outward force / force due to fusion reactions"
+        },
+        {
+          "label": "11(b)(i)",
+          "marks": 2,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "ratio of the speed at which the galaxy is moving away from the Earth/observer to its distance (from the Earth/observer) ratio of speed (of a galaxy) to distance (away from observer) 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2024 © Cambridge University Press & Assessment 2024 Page 12 of 12"
+        },
+        {
+          "label": "11(b)(ii)",
+          "marks": 1,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "(age of universe =) d / v = 1 / H0 OR age (of universe) = 1 / H0"
+        },
+        {
+          "label": "11(b)(iii)",
+          "marks": 1,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "4.5  1017 (s)"
+        }
+      ],
+      "code": "6.2"
+    }
+  ]
+}

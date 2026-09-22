@@ -1,0 +1,952 @@
+===== Q1 (page 1) =====
+1 
+Two forces with magnitudes F1 and F2 act on an object at right angles to each other. 
+ 
+What is the magnitude of the resultant force? 
+A 
+2
+2
+2
+1
+F
+F 
+ 
+B 
+1
+F
+ + 
+2
+F 
+C 
+2
+1
+F
+ + 
+2
+2
+F
+ 
+D 
+2
+1
+ F
+ 
+F 
+
+===== Q2 (page 1) =====
+2 
+A boy takes 30 minutes to cycle a distance of 8.0 km. He then walks a further distance of 2.0 km 
+in 15 minutes. 
+ 
+What is his average speed? 
+A 
+4.5 km / h 
+B 
+5.6 km / h 
+C 
+12 km / h 
+D 
+13 km / h
+
+===== Q3 (page 1) =====
+3 
+A small, light ball is dropped from the top of a tall building. 
+ 
+Which graph shows how the speed of the ball changes with time? 
+ 
+speed
+time
+0
+A
+0
+speed
+time
+0
+B
+0
+speed
+time
+0
+C
+0
+speed
+time
+0
+D
+0
+
+===== Q4 (page 1) =====
+4 
+Which statement about gravitational field strength is not correct? 
+A 
+It changes the mass of an object. 
+B 
+It is equivalent to the acceleration of free fall. 
+C 
+It is measured in N / kg. 
+D 
+Its magnitude is different on other planets in our Solar system.
+
+===== Q5 (page 2) =====
+5 
+Three liquids P, Q and R have different densities and do not mix. The liquids are placed in a 
+measuring cylinder and allowed to settle. A small block is then dropped into the measuring 
+cylinder and comes to rest, as shown. 
+ 
+block
+R
+Q
+P
+ 
+ 
+Which statement about the density of the block is correct? 
+A 
+It is equal to the density of Q. 
+B 
+It is greater than the density of P. 
+C 
+It is greater than the density of R. 
+D 
+It is less than the density of Q.
+
+===== Q6 (page 2) =====
+6 
+The diagram shows a uniform beam pivoted at its centre. 
+ 
+A student applies two forces, F1 and F2, as shown. 
+ 
+pivot
+F1
+d3
+F2
+d1
+d2
+d4
+ 
+ 
+Which row is correct? 
+ 
+ 
+clockwise 
+moment about 
+the pivot 
+anticlockwise 
+moment about 
+the pivot 
+A 
+F2d2 
+F1d1 
+B 
+F2d2 
+F1d3 
+C 
+F2d4 
+F1d1 
+D 
+F2d4 
+F1d3
+
+===== Q7 (page 3) =====
+7 
+Which expression can be used to determine the impulse on a tennis ball? 
+A 
+force  time 
+B 
+time
+momentum 
+C 
+mass  initial velocity 
+D 
+mass  acceleration
+
+===== Q8 (page 3) =====
+8 
+Which row shows the process by which energy in the Sun is released, the process by which it is 
+transferred to the Earth and a way in which it is stored once it reaches the Earth? 
+ 
+ 
+process by which 
+energy is released 
+in the Sun 
+process by which the 
+energy is transferred from 
+the Sun to the Earth 
+a method by which 
+the energy is stored 
+on the Earth 
+A 
+fission 
+convection 
+biofuel 
+B 
+fusion 
+radiation 
+nuclear fuel 
+C 
+fusion 
+convection 
+nuclear fuel 
+D 
+fusion 
+radiation 
+biofuel
+
+===== Q9 (page 3) =====
+9 
+An object has a mass of 20 kg. 
+ 
+It is taken up stairs through a height of 4.0 m. 
+ 
+What is the increase in the store of gravitational potential energy? 
+A 
+5.0 J 
+B 
+49 J 
+C 
+80 J 
+D 
+780 J
+
+===== Q10 (page 4) =====
+10 An electrician uses a lifting machine, as shown. The lifting machine takes 4.5 s to lift the 
+electrician a vertical height of 3.2 m. 
+ 
+lifting machine
+electrician
+2.0 kW electric motor
+3.2 m
+moveable platform
+ground
+street light
+ 
+ 
+The mass of the electrician is 72 kg. 
+ 
+The energy for the lifting machine is supplied by a 2.0 kW electric motor. 
+ 
+What is the efficiency of the lifting machine? 
+A 
+0.026 
+B 
+0.25 
+C 
+0.50 
+D 
+0.75
+
+===== Q11 (page 4) =====
+11 Some altimeters use the change in air pressure to measure height. 
+ 
+If the pressure is 100 kPa at sea level on a particular day, what will the pressure be at the top of 
+an 830 m hill? 
+ 
+(Take the density of air to be constant at 1.3 kg / m3.) 
+A 
+1.1 kPa 
+B 
+11 kPa 
+C 
+89 kPa 
+D 
+110 kPa
+
+===== Q12 (page 4) =====
+12 Water can exist in three states: solid (ice), liquid (liquid water) and gas (steam). 
+ 
+In which states is the motion of the water particles only vibrational? 
+A 
+liquid water and ice 
+B 
+liquid water only 
+C 
+ice only 
+D 
+steam only
+
+===== Q13 (page 5) =====
+13 A cube has sides 2.0 m long. The cube contains a gas at a pressure of 8000 N / m2. 
+ 
+2.0 m
+gas
+ 
+ 
+A second cube has sides 4.0 m long. This cube contains the same mass of the same gas as the 
+first cube, at the same temperature. 
+ 
+gas
+4.0 m
+ 
+ 
+What is the pressure of the gas in the second cube? 
+A 
+1000 N / m2 
+B 
+4000 N / m2 
+C 
+16 000 N / m2 
+D 
+64 000 N / m2
+
+===== Q14 (page 5) =====
+14 Which row gives the correct name for each change of state shown? 
+ 
+ 
+gas to liquid 
+liquid to solid 
+solid to liquid 
+A 
+condensation 
+melting 
+solidification 
+B 
+condensation 
+solidification 
+melting 
+C 
+evaporation 
+melting 
+solidification 
+D 
+evaporation 
+solidification 
+melting
+
+===== Q15 (page 5) =====
+15 In an experiment to measure specific heat capacity, a block of aluminium is heated and its rise in 
+temperature is measured. 
+ 
+The internal energy gained by the block is E. The mass of the block is m. The rise in 
+temperature of the block is T. 
+ 
+Which expression gives the specific heat capacity of aluminium? 
+A 
+T
+E
+m
+
+
+ 
+B 
+E
+T
+m 
+
+
+ 
+C 
+T
+m
+E
+
+
+ 
+ 
+D 
+m
+T
+E
+
+
+===== Q16 (page 6) =====
+16 Which statement about the transfer of thermal energy is correct? 
+A 
+All metals conduct thermal energy equally well. 
+B 
+Convection can only occur in solids or liquids. 
+C 
+Convection occurs in liquids because hot liquid is more dense than cold liquid. 
+D 
+The radiation that transfers thermal energy is a type of electromagnetic radiation.
+
+===== Q17 (page 6) =====
+17 What is the number of wavefronts per second that pass a fixed point? 
+A 
+the amplitude of the wave 
+B 
+the frequency of the wave 
+C 
+the speed of the wave 
+D 
+the wavelength of the wave
+
+===== Q18 (page 6) =====
+18 An earthquake under the ocean can produce a dangerous water wave called a tsunami. 
+ 
+The table gives typical data for a tsunami. 
+ 
+m
+depth
+ 
+ocean
+ 
+h
+/
+km
+velocity
+  
+  
+ 
+km
+wavelength 
+7000 
+948 
+285 
+2000 
+504 
+151 
+ 
+A student suggests three conclusions about the data. 
+ 
+1 
+The deeper the ocean, the faster the wave. 
+2 
+The longer the wavelength, the faster the wave. 
+3 
+The faster the wave, the higher the frequency. 
+ 
+Which conclusions are correct? 
+A 
+1, 2 and 3 
+B 
+1 and 2 only 
+C 
+1 and 3 only 
+D 
+2 and 3 only
+
+===== Q19 (page 7) =====
+19 The diagram shows what happens to wavefronts at sea when they enter a harbour. 
+ 
+harbour
+sea
+harbour wall
+direction of
+movement of
+wavefronts
+ 
+ 
+What causes the change in the shape of the wavefronts? 
+A 
+diffraction 
+B 
+dispersion 
+C 
+reflection 
+D 
+refraction
+
+===== Q20 (page 7) =====
+20 A ray of light passes from air into glass. 
+ 
+normal
+air
+glass
+25
+50
+ 
+ 
+What are the angles of incidence and refraction of the ray? 
+ 
+ 
+angle of incidence /  
+angle of refraction /  
+A 
+40 
+25 
+B 
+40 
+65 
+C 
+50 
+25 
+D 
+50 
+65
+
+===== Q21 (page 8) =====
+21 An object is placed in front of a converging lens. The lens has a focal length f. 
+ 
+The lens produces a real, enlarged image of the object. 
+ 
+In which labelled position is the object placed? 
+ 
+A
+B
+C
+D
+2f
+f
+lens
+
+===== Q22 (page 8) =====
+22 What is the speed of electromagnetic waves in a vacuum? 
+A 
+300 m / s 
+B 
+300 km / s 
+C 
+300 000 km / s 
+D 
+300 000 000 km / s
+
+===== Q23 (page 8) =====
+23 The starter in an athletics race fires the starting pistol. There is a wall 60 m from the starter. 
+ 
+Take the speed of sound as 330 m / s. 
+ 
+starter
+NOT TO
+SCALE
+60 m
+wall
+athletes
+athletics track
+ 
+ 
+How long after firing the pistol does the starter hear the echo of the sound from the wall? 
+A 
+0.18 s 
+B 
+0.36 s 
+C 
+2.8 s 
+D 
+5.5 s
+
+===== Q24 (page 9) =====
+24 The diagram shows the magnetic field around a conductor which is carrying a current. 
+ 
+Where is the strength of the field greatest? 
+ 
+A
+B
+C
+D
+conductor carrying a
+current into the paper
+
+===== Q25 (page 10) =====
+25 A positive ion in a vacuum moves at a steady speed in a straight line. 
+ 
+There is a potential difference between the two parallel metal plates P and Q so that they are 
+oppositely charged. 
+ 
+When the positive ion enters the region between plates P and Q, it changes direction as shown. 
+ 
+The diagram shows the view from above the ion. 
+ 
+plate P
+positive ion
+plate Q
++
+ 
+ 
+Which diagram shows the direction of the electric field between the plates? 
+ 
+P
+A
+Q
+P
+C
+Q
+P
+B
+Q
+P
+D
+Q
+
+===== Q26 (page 10) =====
+26 In the circuit shown, the voltmeter reads 2.0 V. A charge of 5.0 C passes through the resistor in a 
+certain time. 
+ 
+V
+ 
+ 
+How much energy is supplied to the resistor in this time? 
+A 
+0.40 J 
+B 
+2.5 J 
+C 
+10 J 
+D 
+20 J
+
+===== Q27 (page 11) =====
+27 Which diagram shows the current–voltage (I–V) graph for a filament lamp? 
+ 
+V
+A
+I
+0
+0
+V
+B
+I
+0
+0
+V
+C
+I
+0
+0
+V
+D
+I
+0
+0
+
+===== Q28 (page 11) =====
+28 The diagram shows an electrical circuit. 
+ 
+A
+A
+A
+A1
+A2
+A3
+4 Ω
+3 Ω
+2 Ω
+ 
+ 
+Which statement is correct? 
+A 
+The current reading on ammeter A1 is the highest. 
+B 
+The current reading on ammeter A2 is the highest. 
+C 
+The current reading on ammeter A3 is the highest. 
+D 
+The current readings on all three ammeters A1, A2 and A3 are the same.
+
+===== Q29 (page 12) =====
+29 The diagram shows an arrangement of resistors in series and parallel. 
+ 
+R1
+R2
+R3
+ 
+ 
+Which equation is used to calculate the combined resistance of the resistors? 
+A 
+R1 + 
+3
+2
+3
+2
+ 
+ R
+R
+R
+R
+
+
+ 
+B 
+R1 + 
+3
+2
+3
+2
+ 
+ R
+R
+R
+R
+
+
+ 
+C 
+R1 + 
+3
+2
+1
+R
+R
+ 
+ 
+ 
+D 
+R1  
+3
+2
+3
+2
+ 
+ R
+R
+R
+R
+
+
+
+===== Q30 (page 12) =====
+30 An electrical engineer has made a pair of components P and Q. 
+ 
+The resistance of P decreases as the temperature rises. The resistance of Q increases as the 
+temperature rises. 
+ 
+The total resistance of P and Q in series remains constant when the temperature changes. The 
+two components are connected in series with a power source supplying a constant current. 
+ 
+Which statement is correct? 
+A 
+If a temperature change causes the potential difference (p.d.) across P to double, the p.d. 
+across Q will always halve. 
+B 
+The difference between the p.d. across P and the p.d. across Q does not change with 
+temperature. 
+C 
+The p.d. across component P increases as the temperature rises. 
+D 
+The sum of the p.d. across P and the p.d. across Q does not change with temperature.
+
+===== Q31 (page 13) =====
+31 The diagram shows a wire XY moving upwards in a magnetic field. 
+ 
+N
+S
+X
+Y
+ 
+ 
+A current is induced in the wire. 
+ 
+The current-carrying wire XY experiences a force because of its interaction with the magnetic 
+field. 
+ 
+Which row gives the direction of the induced current and the direction of the force experienced by 
+the wire XY? 
+ 
+ 
+direction of 
+induced current 
+direction of 
+the force 
+A 
+from X to Y 
+downwards 
+B 
+from X to Y 
+upwards 
+C 
+from Y to X 
+downwards 
+D 
+from Y to X 
+upwards
+
+===== Q32 (page 14) =====
+32 Diagram 1 shows a magnet being pushed into a coil that is connected to a centre-zero sensitive 
+voltmeter. 
+ 
+N
+S
+diagram 1
+0
+N
+S
+diagram 2
+0
+N
+S
+diagram 3
+0
+stationary
+magnet
+centre-zero
+sensitive
+voltmeter
+ 
+ 
+Which row shows the directions of the pointer on the voltmeter when the magnet is as shown in 
+diagrams 2 and 3? 
+ 
+ 
+diagram 2 
+diagram 3 
+A 
+ 
+ 
+B 
+ 
+ 
+C 
+ 
+ 
+D
+
+===== Q33 (page 14) =====
+33 What is the purpose of the brushes and the split-ring commutator in a d.c. motor? 
+A 
+to change the size of the current 
+B 
+to keep the coil turning in the same direction 
+C 
+to keep the speed of rotation constant 
+D 
+to make the output an alternating voltage
+
+===== Q34 (page 15) =====
+34 The diagram shows -particles being directed between the poles of a magnet. 
+ 
+N
+S
+-particles
+ 
+ 
+In which direction will the particles be deflected? 
+A 
+into the page 
+B 
+out of the page 
+C 
+towards the bottom of the page 
+D 
+towards the top of the page
+
+===== Q35 (page 15) =====
+35 An -particle and a -particle have the same kinetic energy. 
+ 
+Why does the -particle have a larger ionising effect than the -particle as it passes through air? 
+A 
+The -particle has a larger charge and a larger velocity so is closer to an air particle for a 
+shorter time. 
+B 
+The -particle has a larger charge and a smaller velocity so is closer to an air particle for a 
+longer time. 
+C 
+The -particle has a smaller charge and a larger velocity so is closer to an air particle for a 
+shorter time. 
+D 
+The -particle has a smaller charge and a smaller velocity so is closer to an air particle for a 
+longer time.
+
+===== Q36 (page 16) =====
+36 A student is carrying out an experiment to measure the radiation from a radioactive source. 
+ 
+He uses a radiation detector and records the total counts in 5-minute intervals. He does this three 
+times with the source present and three times with the source absent. Here are his results. 
+ 
+total counts in 
+5 minutes 
+with source present 
+total counts in 
+5 minutes 
+with source absent 
+68 
+25 
+73 
+28 
+69 
+22 
+ 
+What is the average corrected count rate for the source? 
+A 
+5 counts / minute 
+B 
+9 counts / minute 
+C 
+25 counts / minute 
+D 
+45 counts / minute
+
+===== Q37 (page 16) =====
+37 The count rate measured near a radioactive source drops from 542 counts per minute to 
+94 counts per minute in 12 hours. The background count remains constant at 30 counts per 
+minute. 
+ 
+What is the half-life of the source? 
+A 
+2 hours 
+B 
+3 hours 
+C 
+4 hours 
+D 
+8 hours
+
+===== Q38 (page 16) =====
+38 What happens when a protostar becomes a stable star? 
+A 
+Most of the hydrogen is converted to helium and the protostar expands. 
+B 
+The inward force due to gravity is balanced by an outward force due to the high temperature. 
+C 
+The protostar collapses due to gravity and the temperature increases. 
+D 
+The protostar runs out of hydrogen as fuel for the nuclear reaction.
+
+===== Q39 (page 17) =====
+39 The table gives information about some of the planets in our Solar System. 
+ 
+planet 
+mass compared 
+with the Earth 
+3
+ cm
+/
+g
+density
+ 
+average
+ 
+ 
+kg
+/
+N
+surface
+ 
+at
+ 
+strength
+ 
+field
+ 
+nal
+gravitatio
+  
+  
+ 
+Earth 
+1.0 
+5.5 
+9.8 
+Jupiter 
+320 
+1.3 
+25 
+Mercury 
+0.060 
+5.4 
+3.8 
+Uranus 
+15 
+1.3 
+10 
+ 
+Which statement about these planets is correct? 
+A 
+As the mass compared with the Earth increases, the average density increases. 
+B 
+As the mass compared with the Earth increases, the gravitational field strength increases. 
+C 
+As the average density increases, the gravitational field strength decreases. 
+D 
+The average density is directly proportional to the gravitational field strength.
+
+===== Q40 (page 17) =====
+40 Which quantity is an estimate of the age of the Universe? 
+A 
+H0 
+B 
+d  H0 
+C 
+0
+1
+H
+ 
+D 
+v  H0

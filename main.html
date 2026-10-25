@@ -248,6 +248,7 @@ body {
 .q-tag.paper { background: #dde6ea; color: #5c7a8a; }
 .q-tag.qnum { background: #dfe6d3; color: #63764c; }
 .q-tag.multi { background: #e9dfc6; color: #93743f; }
+.q-tag.ans { background: #d5ead5; color: #2f6b2f; }
 .diff-badge {
   font-size: 11px;
   font-weight: 700;
@@ -1201,6 +1202,7 @@ body.dark .q-meta { color: #8d877b; }
 body.dark .q-tag.paper { background: #333a3e; color: #9db6c4; }
 body.dark .q-tag.qnum { background: #2f3329; color: #a9bd93; }
 body.dark .q-tag.multi { background: #353127; color: #cfae7a; }
+body.dark .q-tag.ans { background: #2a352a; color: #9cd09c; }
 body.dark .q-paper-full { color: #8d877b; }
 body.dark .answer-btn { background: #35322c; border-color: #423e36; color: #cfc9bc; }
 body.dark .answer-btn:hover { background: #333a3e; border-color: #56626b; color: #9fb0ba; }
@@ -4630,10 +4632,11 @@ function renderPaper1Panel(containerId, data, codeMap) {
             var multiBadge = isMulti ? '<span class="q-tag multi">&#11088; ' + totalCodes + ' topics</span>' : '';
             var diffBadge = difficultyBadgeHtml(q.paper, q.qnum);
             var ans = getAnswer(q.paper, q.qnum);
+            var ansTag = ans ? '<span class="q-tag ans" title="Correct answer">&#10003; ' + ans + '</span>' : '<span class="q-tag ans" title="No answer data">?</span>';
             var answerRevealHtml = ans
               ? '<span class="answer-letter">' + ans + '</span><span>Correct answer</span>'
               : '<span class="answer-na">No answer data</span>';
-            qCard.innerHTML = '<div class="q-meta"><span class="q-tag paper">' + q.paper + '</span><span class="q-tag qnum">' + q.qnum + '</span>' + multiBadge + diffBadge + '</div>' +
+            qCard.innerHTML = '<div class="q-meta"><span class="q-tag paper">' + q.paper + '</span><span class="q-tag qnum">' + q.qnum + '</span>' + multiBadge + diffBadge + ansTag + '</div>' +
               '<div class="q-paper-full">' + q.paper_full + '</div>' +
               otherHtml +
               '<div class="answer-row"><button type="button" class="answer-btn">&#128065; View Answer</button>' +

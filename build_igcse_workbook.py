@@ -278,8 +278,8 @@ def filter_syllabus(topics):
     return [(t, title, subs) for t, title, subs in SYLLABUS if int(t) in topics]
 
 
-HEADER_H = 38    # header strip (pt) added above every question for Date / Score
-BOTTOM_MARGIN = 30  # blank space below every question for the page number
+HEADER_H = 22    # header strip (pt) added above every question for Date / Score
+BOTTOM_MARGIN = 14  # blank space below every question for the page number
 
 def question_with_header(src_path):
     """Return a temp PDF path: the question with a Date/Score header on top and
@@ -290,10 +290,10 @@ def question_with_header(src_path):
     for page in src:
         w, h = page.rect.width, page.rect.height
         np = new.new_page(width=w, height=h + HEADER_H + BOTTOM_MARGIN)
-        np.insert_text((36, HEADER_H - 11),
-                       "Date: _____________________   Score: ____________",
-                       fontsize=9.5, fontname="helv", color=(0.30, 0.30, 0.30))
-        np.draw_rect(pymupdf.Rect(36, HEADER_H - 3, w - 36, HEADER_H - 2.4),
+        np.insert_text((36, HEADER_H - 10),
+                       "Date: ______________   Score: ____________",
+                       fontsize=8.5, fontname="helv", color=(0.30, 0.30, 0.30))
+        np.draw_rect(pymupdf.Rect(36, HEADER_H - 3, w - 36, HEADER_H - 2.2),
                      color=None, fill=(0.72, 0.72, 0.72))
         np.show_pdf_page(pymupdf.Rect(0, HEADER_H, w, HEADER_H + h), src, page.number)
     new.save(out)
@@ -362,51 +362,69 @@ def _render_mcq(q, idx):
     return out, w, h
 
 
-def mcq_page_fns(mcq_qs, code):
+def mcq_page_fns(mcq_qs, code, banner=None):
     """Pack several MCQs per page (each with note lines below).
-    Returns a list of reportlab canvas draw functions, one per page."""
+    Returns a list of reportlab canvas draw functions, one per page.
+    If `banner` is given (a 2-tuple of strings), it is drawn as a compact
+    subtopic header on the first page instead of a separate divider page."""
     items = []
     for i, q in enumerate(mcq_qs):
         png, w, h = _render_mcq(q, i)
         scaled_h = h * (500.0 / w)   # fit to 500pt content width
         items.append({'q': q, 'png': png, 'h': scaled_h})
 
+    usable_first = (H - 140) if banner else (H - 102)
+    usable_rest = H - 102
     pages, cur, cur_h = [], [], 0
-    usable = H - 78  # top margin (date line) and bottom margin (page number)
+    usable = usable_first
     for it in items:
-        block_h = it['h'] + 92   # image + label(19) + note lines(5*13) + gap(8)
+        block_h = it['h'] + 58   # image + label(12) + note lines(3*12) + gaps
         if cur and cur_h + block_h > usable:
             pages.append(cur)
             cur, cur_h = [], 0
+            usable = usable_rest
         cur.append(it)
         cur_h += block_h
     if cur:
         pages.append(cur)
 
+    def _date_line(c, y):
+        c.setFont('Helvetica', 9); c.setFillColor(HexColor('#5a6470'))
+        c.drawString(47, y, 'Date: _________________   Score: ____________')
+
     fns = []
-    for pg in pages:
-        def draw(c, pg=pg):
+    for pi, pg in enumerate(pages):
+        def draw(c, pg=pg, pi=pi):
             c.setFillColor(HexColor('#ffffff')); c.rect(0, 0, W, H, fill=1, stroke=0)
-            c.setFont('Helvetica', 9.5); c.setFillColor(HexColor('#5a6470'))
-            c.drawString(47, H - 34, 'Date: _________________   Score: ____________')
-            y = H - 50
+            if pi == 0 and banner:
+                c.setFillColor(NAVY); c.setFont('Helvetica-Bold', 14)
+                c.drawString(47, H - 34, banner[0])
+                c.setFont('Helvetica', 9); c.setFillColor(GREY)
+                c.drawString(47, H - 50, banner[1])
+                c.setStrokeColor(GOLD); c.setLineWidth(2)
+                c.line(47, H - 58, 98, H - 58)
+                _date_line(c, H - 72)
+                y = H - 88
+            else:
+                _date_line(c, H - 34)
+                y = H - 48
             for it in pg:
                 c.drawImage(it['png'], 47, y - it['h'], width=500, height=it['h'])
-                y -= it['h'] + 5
+                y -= it['h'] + 4
                 c.setFont('Helvetica', 8); c.setFillColor(GREY)
                 c.drawString(47, y, '%s  Q%s' % (it['q']['paper'], it['q']['qnum']))
-                y -= 14
+                y -= 12
                 c.setStrokeColor(HexColor('#d3d7dd')); c.setLineWidth(0.6)
-                for k in range(5):
-                    c.line(47, y - k * 13, 547, y - k * 13)
-                y -= 5 * 13 + 8
+                for k in range(3):
+                    c.line(47, y - k * 12, 547, y - k * 12)
+                y -= 3 * 12 + 6
             c.showPage()
         fns.append(draw)
     return fns
 
 
 # ---------------------------------------------------------------- drawing
-def cover(c, title, subtitle):
+def cover(c, title, subtitle, year='25'):
     # medium-tone cover with a navy title band + name/class blanks
     c.setFillColor(HexColor('#c6d1de')); c.rect(0, 0, W, H, fill=1, stroke=0)
     c.setFillColor(NAVY); c.rect(0, H - 150, W, 150, fill=1, stroke=0)
@@ -428,7 +446,7 @@ def cover(c, title, subtitle):
     c.line(130, H - 250, 520, H - 250)
     # footer
     c.setFont('Helvetica', 10); c.setFillColor(HexColor('#4a5560'))
-    c.drawString(55, 70, 'Cambridge IGCSE Physics 0625 — 2025 (Feb/Mar, May/Jun, Oct/Nov)')
+    c.drawString(55, 70, 'Cambridge IGCSE Physics 0625 — 20%s (Feb/Mar, May/Jun, Oct/Nov)' % year)
     c.setFont(CN, 13); c.setFillColor(HexColor('#4a5560'))
     c.drawString(55, 46, '练习册')
 
@@ -506,15 +524,15 @@ def vocab_page(c, topic, title, vocab):
     c.drawString(55, H - 88, '词汇表（中英对照）')
     half = (len(vocab) + 1) // 2
     cols = [vocab[:half], vocab[half:]]
-    col_x = [55, 315]
+    col_x = [52, 312]
     for ci, col in enumerate(cols):
-        y = H - 118
+        y = H - 120
         for en, zh in col:
-            c.setFont('Helvetica-Bold', 9.5); c.setFillColor(INK)
+            c.setFont('Helvetica-Bold', 11.5); c.setFillColor(INK)
             c.drawString(col_x[ci], y, en)
-            c.setFont(CN, 9.5); c.setFillColor(GREY)
-            c.drawString(col_x[ci] + 128, y, zh)
-            y -= 16
+            c.setFont(CN, 11.5); c.setFillColor(GREY)
+            c.drawString(col_x[ci] + 184, y, zh)
+            y -= 19
     c.showPage()
 
 
@@ -639,8 +657,8 @@ class Builder:
             self.pages += 1
 
 
-def build(out_path, with_answers, topics, cover_title, cover_subtitle, with_schedule=False, compact=False):
-    mcq, theory = load_year('25')
+def build(out_path, with_answers, topics, cover_title, cover_subtitle, with_schedule=False, compact=False, year='25'):
+    mcq, theory = load_year(year)
     syl = filter_syllabus(topics)
     weeks = None
     if with_schedule:
@@ -677,10 +695,11 @@ def build(out_path, with_answers, topics, cover_title, cover_subtitle, with_sche
                 if not mcq_qs and not th_qs:
                     continue
                 pages_by_code[code] = body.pages + 1
-                body.add_canvas(lambda c, code=code, sub=sub, mcq_qs=mcq_qs, th_qs=th_qs:
-                                sub_head(c, code, sub, mcq_qs, th_qs))
-                for draw in mcq_page_fns(mcq_qs, code):
-                    body.add_canvas(draw)
+                banner = ('%s  %s' % (code, sub),
+                          '%d MCQ + %d theory · Paper 2 & Paper 4' % (len(mcq_qs), len(th_qs)))
+                if mcq_qs:
+                    for draw in mcq_page_fns(mcq_qs, code, banner=banner):
+                        body.add_canvas(draw)
                 for q in th_qs:
                     body.add_pdf(question_with_header(q['pdf']))
 
@@ -710,7 +729,7 @@ def build(out_path, with_answers, topics, cover_title, cover_subtitle, with_sche
 
     # front matter
     front = Builder()
-    front.add_canvas(lambda c: cover(c, cover_title, cover_subtitle))
+    front.add_canvas(lambda c: cover(c, cover_title, cover_subtitle, year))
     if with_schedule:
         front.add_canvas(lambda c: schedule_page(c, weeks, mcq, theory))
 
@@ -793,10 +812,10 @@ if __name__ == '__main__':
     build('IGCSE_0625_2025_Workbook.pdf', with_answers=False,
           topics=(1, 2, 3, 4),
           cover_title='IGCSE Physics Workbook Topic 1-4',
-          cover_subtitle='2025 · Paper 2 (Multiple Choice) + Paper 4 (Theory) mixed by topic',
-          with_schedule=False)
+          cover_subtitle='2024 · Paper 2 (Multiple Choice) + Paper 4 (Theory) mixed by topic',
+          with_schedule=False, year='24')
     build('IGCSE_0625_2025_Workbook_Answers.pdf', with_answers=True,
           topics=(1, 2, 3, 4),
           cover_title='IGCSE Physics Workbook Topic 1-4',
-          cover_subtitle='2025 · Paper 2 (Multiple Choice) + Paper 4 (Theory) mixed by topic',
-          with_schedule=False)
+          cover_subtitle='2024 · Paper 2 (Multiple Choice) + Paper 4 (Theory) mixed by topic',
+          with_schedule=False, year='24')

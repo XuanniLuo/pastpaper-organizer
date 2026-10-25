@@ -1,0 +1,804 @@
+===== 9702_s24_qp_11 Q1 =====
+1 
+Which unit is an SI base unit? 
+A 
+ampere 
+B 
+coulomb 
+C 
+degree Celsius 
+D 
+gram
+
+===== 9702_s24_qp_11 Q2 =====
+2 
+Which of the following could have the same units as force? 
+A 
+distance
+energy 
+B 
+time
+energy 
+C 
+momentum  distance 
+D 
+momentum  time
+
+===== 9702_s24_qp_11 Q3 =====
+3 
+The velocity of an object changes from an initial velocity u to a final velocity v. The vectors 
+represent these velocities. 
+ 
+u
+v
+ 
+ 
+Which single vector represents the change in velocity of the object? 
+ 
+A
+B
+C
+D
+
+===== 9702_s24_qp_11 Q4 =====
+4 
+An object is moving with initial velocity u. The object then moves with uniform acceleration a for 
+time t until it reaches final velocity v. 
+ 
+Which equation describes the motion of the object? 
+A 
+u = v – 2at 
+B 
+u = v – at 
+C 
+v = u + at 2 
+D 
+v = u + 2at 2
+
+===== 9702_s24_qp_11 Q5 =====
+5 
+Which calculation produces a vector quantity? 
+A 
+current  time 
+B 
+final displacement – initial displacement 
+C 
+time
+done
+ 
+work
+ 
+D 
+2
+1  mass  (speed)2
+
+===== 9702_s24_qp_11 Q6 =====
+6 
+A thermometer can be read to an accuracy of ± 0.5 C. This thermometer is used to measure a 
+temperature rise from 40 C to 100 C. 
+ 
+What is the percentage uncertainty in the measurement of the temperature rise? 
+A 
+0.5% 
+B 
+0.8% 
+C 
+1.3% 
+D 
+1.7%
+
+===== 9702_s24_qp_11 Q7 =====
+7 
+The diagram shows the path of a golf ball. 
+ 
+ 
+ 
+Which row describes changes in the horizontal and vertical components of the golf ball’s velocity 
+when air resistance is ignored? 
+ 
+ 
+horizontal 
+vertical 
+A 
+constant deceleration 
+constant acceleration downwards 
+B 
+ 
+constant deceleration 
+ 
+acceleration decreases upwards 
+then increases downwards 
+C 
+constant velocity 
+constant acceleration downwards 
+D 
+ 
+constant velocity 
+ 
+acceleration decreases upwards 
+then increases downwards
+
+===== 9702_s24_qp_11 Q8 =====
+8 
+An aircraft flies from London to Sydney in a time of 21 hours 40 minutes. 
+ 
+The distance travelled is 17 000 km. 
+ 
+What is the average speed of the aircraft? 
+A 
+2.2 m s–1 
+B 
+2.2  107
+ m s–1 
+C 
+2.2  1011
+ nm s–1 
+D 
+2.2  106
+ mm s–1
+
+===== 9702_s24_qp_11 Q9 =====
+9 
+A golf club hits a golf ball. The graph shows how the force F on the ball varies with time t. 
+ 
+F
+t
+0
+0
+ 
+ 
+Which graph shows how the velocity v of the ball varies with time t ? 
+ 
+v
+t
+A
+v
+t
+B
+v
+t
+C
+0
+v
+t
+D
+0
+0
+0
+0
+0
+0
+0
+
+===== 9702_s24_qp_11 Q10 =====
+10 What is meant by the mass and by the weight of an object on the Earth? 
+ 
+ 
+mass 
+weight 
+A 
+its momentum divided by its velocity 
+the work done in lifting it one metre 
+B 
+the gravitational force on it 
+the property that resists its acceleration 
+C 
+the pull of the Earth on it 
+its mass divided by the acceleration of free fall 
+D 
+the property that resists its acceleration 
+the pull of the Earth on it
+
+===== 9702_s24_qp_11 Q11 =====
+11 A thin horizontal plate of area 0.036 m2 is beneath the surface of a liquid of density 930 kg m–3. 
+The force on one side of the plate due to the pressure of the liquid is 290 N. 
+ 
+What is the depth of the plate beneath the surface of the liquid? 
+A 
+0.88 m 
+B 
+1.1 m 
+C 
+1.8 m 
+D 
+8.7 m
+
+===== 9702_s24_qp_11 Q12 =====
+12 Spheres X and Y form an isolated system. The mass of Y is greater than the mass of X. 
+ 
+Sphere Y is initially stationary. 
+ 
+Sphere X collides elastically with sphere Y. 
+ 
+The speed of sphere X before the collision is u. 
+ 
+Which statement must be correct? 
+A 
+Sphere X rebounds with a speed that is greater than u, and sphere Y moves off with a speed 
+that is less than u. 
+B 
+Sphere X rebounds with a speed that is less than u, and sphere Y moves off with a speed 
+that is also less than u. 
+C 
+Sphere X rebounds with speed u, and sphere Y remains stationary. 
+D 
+Sphere X remains stationary, and sphere Y moves off with a speed that is less than u.
+
+===== 9702_s24_qp_11 Q13 =====
+13 A ball of mass 0.10 kg is thrown towards a stationary vertical bat. The ball hits the bat with a 
+horizontal velocity of 20 m s–1. 
+ 
+bat
+ball
+20 m s–1
+ 
+ 
+The ball rebounds and leaves the bat with a horizontal velocity of 15 m s–1. 
+ 
+What is the change in momentum of the ball? 
+A 
+0.20 N s 
+B 
+0.50 N s 
+C 
+1.5 N s 
+D 
+3.5 N s
+
+===== 9702_s24_qp_11 Q14 =====
+14 An isolated object of negligible weight is acted on by two coplanar forces of the same magnitude. 
+ 
+In which diagram is the object in equilibrium? 
+ 
+A
+B
+C
+D
+
+===== 9702_s24_qp_11 Q15 =====
+15 A uniform beam PQ rests horizontally on a support at point S. 
+ 
+0.30 m
+2.5 m
+beam
+support
+Q
+P
+F
+60
+rope
+S
+ 
+ 
+A rope is attached at one end of the beam. The rope is at an angle of 60 to the vertical and 
+exerts a force F, in newtons, on the beam. 
+ 
+What is the moment, in N m, of the force F about the point S? 
+A 
+1.1F 
+B 
+1.3F 
+C 
+1.9F 
+D 
+2.2F
+
+===== 9702_s24_qp_11 Q16 =====
+16 The diagram shows the dimensions of an elastic cord used to project a stone. The tension in the 
+cord is T when the cord is pulled into the shape shown. 
+ 
+6 cm
+10 cm
+16 cm
+stone
+T
+T
+ 
+ 
+Which force does the elastic cord exert on the stone? 
+A 
+T
+5
+3
+ 
+B 
+T
+5
+6
+ 
+C 
+T
+5
+8
+ 
+D 
+2T
+
+===== 9702_s24_qp_11 Q17 =====
+17 A box of weight 40 N is pushed with a horizontal force of 20 N along level ground for a distance of 
+2.4 m. 
+ 
+The box is then lifted at constant velocity through a height of 1.6 m by a vertical force. 
+ 
+What is the total work done on the box by the two forces? 
+A 
+80 J 
+B 
+110 J 
+C 
+120 J 
+D 
+160 J
+
+===== 9702_s24_qp_11 Q18 =====
+18 Which statement about efficiency is correct? 
+A 
+Efficiency does not have a unit. 
+B 
+The joule is a unit of efficiency. 
+C 
+The metre is a unit of efficiency. 
+D 
+The watt is a unit of efficiency.
+
+===== 9702_s24_qp_11 Q19 =====
+19 A plane wave of amplitude A is incident on a surface of area S placed so that it is perpendicular 
+to the direction of travel of the wave. The energy per unit time reaching the surface is E. 
+ 
+The amplitude of the wave is increased to 2A and the area of the surface is reduced to 
+S.
+2
+1
+ 
+ 
+How much energy per unit time reaches this smaller surface? 
+A 
+4E 
+B 
+2E 
+C 
+E 
+D 
+E
+2
+1
+
+===== 9702_s24_qp_11 Q20 =====
+20 A steel ball is falling at constant speed in oil. 
+ 
+Which graph shows the variation with time of the gravitational potential energy Ep and the kinetic 
+energy Ek of the ball? 
+ 
+0
+A
+C
+B
+D
+energy
+energy
+energy
+energy
+time
+time
+time
+time
+Ek
+Ek
+Ek
+Ek
+Ep
+Ep
+Ep
+Ep
+0
+0
+0
+
+===== 9702_s24_qp_11 Q21 =====
+21 When a force of 0.80 N is applied to a spring, the length of the spring is 90 mm. 
+ 
+When a force of 1.30 N is applied to the same spring, its length is 115 mm. 
+ 
+The spring obeys Hooke’s law. 
+ 
+What is the spring constant of the spring? 
+A 
+8.9 N m–1 
+B 
+10 N m–1 
+C 
+11 N m–1 
+D 
+20 N m–1
+
+===== 9702_s24_qp_11 Q22 =====
+22 An experiment is carried out using a metal wire to investigate how it responds to a varying tensile 
+force. The cross-sectional area of the wire is constant. 
+ 
+Which graph has a gradient that is equal to the Young modulus of the metal? 
+ 
+extension
+force
+0
+A
+0
+force
+extension
+0
+B
+0
+stress
+strain
+0
+C
+0
+strain
+stress
+0
+D
+0
+
+===== 9702_s24_qp_11 Q23 =====
+23 For a wire, Hooke’s law is obeyed for a tension F and extension x. The Young modulus for the 
+material of the wire is E. 
+ 
+Which expression represents the elastic potential energy stored in the wire? 
+A 
+Ex
+2
+1
+ 
+B 
+Ex 
+C 
+Fx
+2
+1
+ 
+D 
+Fx
+
+===== 9702_s24_qp_11 Q24 =====
+24 A plane polarised wave has amplitude A. The wave is incident normally on a polarising filter. 
+ 
+The transmission axis of the filter is at angle   to the plane of polarisation of the incident wave. 
+ 
+What is the amplitude of the wave that emerges from the filter? 
+A 
+A cos 
+B 
+A cos2 
+C 
+A2
+ cos 
+D 
+A2
+ cos2
+
+===== 9702_s24_qp_11 Q25 =====
+25 An electromagnetic wave is travelling through a vacuum. 
+ 
+What could be the wavelength and period of the electromagnetic wave? 
+ 
+ 
+wavelength 
+period 
+A 
+1.2  10–10
+ Tm 
+2.5 Ms 
+B 
+1.2 pm 
+2.5  1011
+ Gs 
+C 
+1.2  102
+ pm 
+4.0  10–10
+ ns 
+D 
+1.2  103
+ m 
+4.0 ns
+
+===== 9702_s24_qp_11 Q26 =====
+26 Light of frequency 6.7  1014
+ Hz in a vacuum is incident normally on a diffraction grating that 
+contains 4.0  105 lines m–1. 
+ 
+What is the angle between the adjacent second and third order intensity maxima? 
+A 
+12 
+B 
+21 
+C 
+33 
+D 
+54
+
+===== 9702_s24_qp_11 Q27 =====
+27 The siren of a moving police car emits a sound wave with a frequency of 440 Hz. A stationary 
+observer hears sound of frequency 494 Hz. The speed of sound in the air is 340 m s–1. 
+ 
+What could be the speed and the direction of movement of the car? 
+A 
+37 m s–1 directly away from the observer 
+B 
+37 m s–1 directly towards the observer 
+C 
+42 m s–1 directly away from the observer 
+D 
+42 m s–1 directly towards the observer
+
+===== 9702_s24_qp_11 Q28 =====
+28 The diagram shows the shape at one instant in time of part of a stretched string as a wave travels 
+along it from left to right. 
+ 
+1
+2
+3
+ 
+ 
+What are the directions of the velocities of the points 1, 2 and 3 on the string at this instant in 
+time? 
+ 
+ 
+point 1 
+point 2 
+point 3 
+A 
+ 
+ 
+ 
+B 
+ 
+ 
+ 
+C 
+ 
+ 
+ 
+D 
+ 
+ 
+
+
+===== 9702_s24_qp_11 Q29 =====
+29 Which wave cannot be a longitudinal wave? 
+A 
+a diffracted wave 
+B 
+a polarised wave 
+C 
+a reflected wave 
+D 
+a stationary wave
+
+===== 9702_s24_qp_11 Q30 =====
+30 Microwaves are emitted from two sources at points X and Y. The two waves meet at point Z. The 
+diagram shows the paths of the two waves. 
+ 
+X
+Y
+Z
+ 
+ 
+The waves emitted from points X and Y are coherent. 
+ 
+What is a direct consequence of the two waves being coherent? 
+A 
+There is a constant difference in the path lengths YZ and XZ. 
+B 
+There is a constant difference in phase between the two waves at Z. 
+C 
+There is a constant non-zero difference in frequency of the two waves at Z. 
+D 
+There is a constant non-zero difference in amplitude of the two waves at Z.
+
+===== 9702_s24_qp_11 Q31 =====
+31 What is the unit of resistivity? 
+A 
+ m–2 
+B 
+ m–1 
+C 
+ 
+D 
+ m
+
+===== 9702_s24_qp_11 Q32 =====
+32 A kettle is connected to a 250 V mains supply. 
+ 
+What are possible values for the power of the kettle and the current in the kettle? 
+ 
+ 
+power / W 
+current / A 
+A 
+  500 
+0.5 
+B 
+  500 
+5.0 
+C 
+2500 
+0.1 
+D 
+2500 
+10
+
+===== 9702_s24_qp_11 Q33 =====
+33 Which circuit results in output voltage Vout increasing with increasing temperature? 
+ 
+Vout
+A
+Vout
+B
+C
+Vout
+D
+Vout
+
+===== 9702_s24_qp_11 Q34 =====
+34 Four resistors, each of resistance R, are connected as shown. 
+ 
+R
+R
+R
+R
+X
+Y
+ 
+ 
+The total resistance between point X and point Y is 120 . 
+ 
+What is the magnitude of the resistance R ? 
+A 
+30  
+B 
+90  
+C 
+160  
+D 
+480 
+
+===== 9702_s24_qp_11 Q35 =====
+35 A cell with internal resistance is connected to a variable resistor R as shown. 
+ 
+R
+cell
+I
+ 
+ 
+The resistance of R is gradually decreased. 
+ 
+How do the current I and the terminal potential difference (p.d.) across the cell change? 
+ 
+ 
+current I 
+terminal p.d. 
+across cell 
+A 
+decreases 
+decreases 
+B 
+decreases 
+increases 
+C 
+increases 
+decreases 
+D 
+increases 
+increases
+
+===== 9702_s24_qp_11 Q36 =====
+36 The diagram shows a circuit with a cell and three resistors with resistances R1, R2 and R3. 
+ 
+The cell has negligible internal resistance. 
+ 
+R3
+R1
+R2
+ 
+ 
+The total resistance of the circuit is RT. 
+ 
+Which equation for RT is correct? 
+ 
+RT = R1 + R2 + R3
+A
+RT =
++
+B
+1
+R1 + R2
+=
+C
+1
+R1 + R2 + R3
+1
+R3
++
+D
+1
+R1 + R2
+1
+R3
+1
+RT
+=
+1
+RT
+
+===== 9702_s24_qp_11 Q37 =====
+37 Hydrogen and deuterium can be represented by the nuclide symbols H
+1
+1
+ and H
+2
+1
+ respectively. 
+ 
+What is a difference between hydrogen and deuterium? 
+A 
+The deuterium atom has twice the number of electrons as the hydrogen atom. 
+B 
+The deuterium nucleus has a charge, but the hydrogen nucleus has no charge. 
+C 
+The deuterium nucleus has less mass than the hydrogen nucleus. 
+D 
+The deuterium nucleus has half the charge per unit mass of the hydrogen nucleus.
+
+===== 9702_s24_qp_11 Q38 =====
+38 A radioactive sample decays by emitting – particles. 
+ 
+The energy released in the decay process is the same for each nucleus that decays, but the  
+– particles emitted have a continuous range of kinetic energies. 
+ 
+Which statement explains why the – particles are emitted with a continuous range of kinetic 
+energies? 
+A 
+Some of the energy released is given to the remaining nucleons in the nucleus. 
+B 
+Some of the energy released is taken by an emitted antineutrino. 
+C 
+Some of the energy released is used to create the – particle. 
+D 
+Some of the energy released is used to create a new nucleon.
+
+===== 9702_s24_qp_11 Q39 =====
+39 Which particle is not a fundamental particle? 
+A 
+electron 
+B 
+neutrino 
+C 
+neutron 
+D 
+top quark
+
+===== 9702_s24_qp_11 Q40 =====
+40 What is the charge of an anti-top quark? 
+A 
+–
+e
+3
+2
+ 
+B 
+–
+e
+3
+1
+ 
+C 
++
+e
+3
+1
+ 
+D 
++
+e
+3
+2

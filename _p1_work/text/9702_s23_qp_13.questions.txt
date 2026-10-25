@@ -1,0 +1,884 @@
+===== 9702_s23_qp_13 Q1 =====
+1 
+What must be included in a record of a physical quantity? 
+A 
+an integer value for the quantity 
+B 
+an SI unit 
+C 
+a numerical value for the quantity 
+D 
+a unit expressed in base units
+
+===== 9702_s23_qp_13 Q2 =====
+2 
+What is the ohm expressed in SI base units? 
+A 
+kg m2
+ s–3
+ A–2 
+B 
+kg–1
+ m–2
+ s3
+ A2 
+C 
+J C–1
+ A–1 
+D 
+W A–2
+
+===== 9702_s23_qp_13 Q3 =====
+3 
+A desk has a true width of 50.0 cm. 
+ 
+Two students, X and Y, measure the width of the desk. 
+ 
+Student X uses a tape measure and records a width of (49.5  0.5) cm. 
+ 
+Student Y uses a metre rule and records a width of (51.4  0.1) cm. 
+ 
+Which statement about the measurement of student X is correct? 
+A 
+It is less accurate and less precise than the measurement of student Y. 
+B 
+It is less accurate but more precise than the measurement of student Y. 
+C 
+It is more accurate and more precise than the measurement of student Y. 
+D 
+It is more accurate but less precise than the measurement of student Y.
+
+===== 9702_s23_qp_13 Q4 =====
+4 
+The diagram shows two vectors, X and Y, drawn to scale. 
+ 
+X
+Y
+ 
+ 
+If X = Y – Z, which diagram represents the vector Z? 
+ 
+C
+D
+A
+B
+
+===== 9702_s23_qp_13 Q5 =====
+5 
+Which equation, representing uniformly accelerated motion in a straight line, can be determined 
+using only the definition of acceleration? 
+A 
+s = ut + 
+2
+2
+1 at 
+B 
+s = 
+t
+v
+u
+)
+( +
+2
+1
+ 
+C 
+v = u + at 
+D 
+v 2 = u 2 + 2as
+
+===== 9702_s23_qp_13 Q6 =====
+6 
+An object moves from rest with uniform velocity horizontally and uniform acceleration vertically. 
+ 
+Which graph showing the variation with time of the displacement of the object from its initial 
+position is correct? 
+ 
+0
+A
+0
+time
+horizontal
+displacement
+0
+B
+0
+time
+vertical
+displacement
+0
+C
+0
+time
+horizontal
+displacement
+0
+D
+0
+time
+vertical
+displacement
+
+===== 9702_s23_qp_13 Q7 =====
+7 
+A device for spraying paint consists of a box with its faces horizontal and vertical. One of its 
+vertical faces contains small holes. Paint is fed into the box under pressure via a vertical tube and 
+exits through the holes as fine streams moving horizontally. 
+ 
+paint in
+paint out through holes
+(only a few holes are shown)
+ 
+ 
+The paint is ejected at a speed of 2.5 m s–1 through 400 holes, each of area 0.4 mm2. The density 
+of the paint is 900 kg m–3. 
+ 
+What is the horizontal force required to hold the device stationary as it ejects the paint? 
+A 
+0.36 N 
+B 
+0.90 N 
+C 
+2.3 N 
+D 
+900 N
+
+===== 9702_s23_qp_13 Q8 =====
+8 
+Each diagram illustrates a pair of forces of equal magnitude. 
+ 
+Which diagram gives an example of a pair of forces that is described by Newton’s third law of 
+motion? 
+ 
+A
+B
+C
+D
+total
+resistive
+forces
+driving
+force
+Earth
+Moon
+gravitational
+force
+gravitational
+force
+support force
+weight
+weight
+lift
+
+===== 9702_s23_qp_13 Q9 =====
+9 
+Two balls of identical shape and size but different masses are falling through the same liquid. 
+ 
+The sum of the drag force and upthrust acting on each ball is equal to its weight. 
+ 
+Which statement about the two balls is correct? 
+A 
+The heavier ball has a larger acceleration than the lighter ball. 
+B 
+The heavier ball has a smaller deceleration than the lighter ball. 
+C 
+The heavier ball is falling at the same speed as the lighter ball. 
+D 
+The heavier ball is falling at a larger speed than the lighter ball.
+
+===== 9702_s23_qp_13 Q10 =====
+10 A perfectly elastic collision occurs between two objects X and Y. The mass of X is m and the 
+mass of Y is 4m. Object X travels at speed v before the collision and speed 
+5
+3v in the opposite 
+direction after the collision. Object Y is stationary before the collision. 
+ 
+X
+m
+before
+Y
+4m
+v
+X
+m
+after
+Y
+4m
+3v
+5
+ 
+ 
+What is the kinetic energy of Y after the collision? 
+A 
+10
+8 mv 2 
+B 
+50
+34 mv 2 
+C 
+50
+16 mv 2 
+D 
+5
+1 mv 2
+
+===== 9702_s23_qp_13 Q11 =====
+11 What is not a requirement for two forces to act as a couple? 
+A 
+The two forces act in opposite directions. 
+B 
+The two forces act through the same point. 
+C 
+The two forces combine to produce zero resultant force. 
+D 
+The two forces have equal magnitude.
+
+===== 9702_s23_qp_13 Q12 =====
+12 A uniform metre rule is pivoted at the 34.0 cm mark, as shown. 
+ 
+10
+0
+20
+30
+40
+50
+60
+70
+80
+90 100
+metre rule
+34.0 cm
+4.0 cm
+64 g
+ 
+ 
+The rule balances when a 64 g mass is hung from the 4.0 cm mark. 
+ 
+What is the mass of the metre rule? 
+A 
+38 g 
+B 
+44 g 
+C 
+120 g 
+D 
+136 g
+
+===== 9702_s23_qp_13 Q13 =====
+13 A volume of 1.5 m3 of water is mixed with 0.50 m3 of alcohol. The density of water is 1000 kg m–3 
+and the density of alcohol is 800 kg m–3. 
+ 
+The volume of the mixture is 2.0 m3. 
+What is the density of the mixture? 
+A 
+850 kg m–3 
+B 
+900 kg m–3 
+C 
+940 kg m–3 
+D 
+950 kg m–3
+
+===== 9702_s23_qp_13 Q14 =====
+14 An object is falling at a constant speed through a viscous liquid. FU is the upthrust on the object 
+due to the liquid. WL is the weight of the liquid displaced by the object. WO is the weight of the 
+object. 
+ 
+Which equation must be correct? 
+A 
+FU = WL 
+B 
+FU = WO – WL 
+C 
+FU = WO 
+D 
+FU = WO + WL
+
+===== 9702_s23_qp_13 Q15 =====
+15 An airport has a mechanical system for moving luggage. The system uses a horizontal conveyor 
+belt, a sloping conveyor belt, a lift and a frictionless slide. A suitcase is moved around the airport 
+using this system. 
+ 
+8 m
+16 m
+10 m
+12 m
+ 
+ 
+Resistive forces opposing the motion of the suitcase are negligible. 
+ 
+For which movement of the suitcase is the net work done on the suitcase greatest? 
+A 
+moving the suitcase a distance of 8 m at a constant speed up the sloping conveyor belt 
+B 
+moving the suitcase a distance of 16 m at a constant speed along the horizontal conveyor 
+belt 
+C 
+moving the suitcase a distance of 10 m at a constant speed vertically upwards on the lift 
+D 
+moving the suitcase a distance of 12 m at increasing speed downwards on the slide
+
+===== 9702_s23_qp_13 Q16 =====
+16 A car moves along a horizontal road with a constant velocity v against a resistive force F. 
+ 
+The engine of the car has an efficiency of 25%. 
+ 
+What is the input power to the engine? 
+A 
+4.0
+Fv 
+B 
+Fv
+4.0 
+C 
+4.0Fv 
+D 
+v
+F
+4.0
+
+===== 9702_s23_qp_13 Q17 =====
+17 An object of mass 0.40 kg is projected into the air and follows a curved path above horizontal 
+ground. 
+ 
+path of object
+ground
+18 m
+object,
+mass 0.40 kg
+ 
+ 
+The object takes a time of 1.5 s to move along its path. The object lands a horizontal distance of 
+18 m from its initial position. Air resistance is negligible. 
+ 
+What is the kinetic energy of the object at its maximum height? 
+A 
+0 J 
+B 
+2.4 J 
+C 
+11 J 
+D 
+29 J
+
+===== 9702_s23_qp_13 Q18 =====
+18 A metal wire has length 5.2 m and diameter 1.0 mm. The metal has Young modulus 360 GPa. 
+ 
+The wire is fixed at one end and a force is applied to the other end. The force extends the wire by 
+7.2 mm. The wire obeys Hooke’s law. 
+ 
+What is the force applied to the wire? 
+A 
+1.2  102
+ N 
+B 
+3.9  102
+ N 
+C 
+5.0  102
+ N 
+D 
+1.6  103
+ N
+
+===== 9702_s23_qp_13 Q19 =====
+19 The graph shows how the length of a spring varies with the force applied to it. 
+ 
+force
+0
+0
+length
+F
+L0
+L1
+ 
+ 
+The spring has unstretched length L0. When a force F is applied, the spring has length L1. 
+ 
+What is the work done in stretching the spring to length L1? 
+A 
+1
+2 FL1 
+B 
+1
+2 F(L1 – L0) 
+C 
+FL1 
+D 
+F(L1 – L0)
+
+===== 9702_s23_qp_13 Q20 =====
+20 A progressive wave of frequency 1.5 kHz travels in a medium at a speed of 340 m s–1. 
+ 
+What is the minimum distance between two points on the wave that have a phase difference of 
+70? 
+A 
+4.4 cm 
+B 
+8.8 cm 
+C 
+18 cm 
+D 
+23 cm
+
+===== 9702_s23_qp_13 Q21 =====
+21 Graph 1 shows the variation with time of displacement at a fixed distance along a progressive 
+wave. 
+ 
+Graph 2 represents the same wave and shows the variation with distance of displacement at an 
+instant in time. 
+ 
+2.0
+1.0
+0
+–1.0
+–2.0
+0
+0.10
+0.20
+0.30
+0.40
+graph 1
+displacement / cm
+time / s
+2.0
+1.0
+0
+–1.0
+–2.0
+0
+30
+60
+90
+120
+graph 2
+displacement / cm
+distance / cm
+ 
+ 
+What is the speed of the wave? 
+A 
+5.0 cm s–1 
+B 
+48 cm s–1 
+C 
+150 cm s–1 
+D 
+300 cm s–1
+
+===== 9702_s23_qp_13 Q22 =====
+22 A vehicle moves with constant velocity along a road directly towards an observer. The observed 
+frequency of the sound from the vehicle changes as the vehicle moves past the observer. 
+ 
+Which phenomenon explains the change in frequency? 
+A 
+diffraction 
+B 
+interference 
+C 
+polarisation 
+D 
+the Doppler effect
+
+===== 9702_s23_qp_13 Q23 =====
+23 An electromagnetic wave has a wavelength of 2.1 cm in a vacuum. 
+ 
+Which region of the electromagnetic spectrum contains this wave? 
+A 
+infrared 
+B 
+microwave 
+C 
+radio wave 
+D 
+visible light
+
+===== 9702_s23_qp_13 Q24 =====
+24 A source of plane polarised light is observed through two polarising filters. 
+ 
+source of
+polarised light
+rotated
+anticlockwise
+rotated
+clockwise
+polarising filters
+observer 
+ 
+The filters are positioned so that the source appears at its brightest. One of the filters is then 
+rotated clockwise and the other filter is rotated anticlockwise through the same angle. 
+ 
+How does the source appear when both filters have been rotated 90 and 180 from their initial 
+positions? 
+ 
+ 
+90 
+180 
+A 
+brightest 
+brightest 
+B 
+brightest 
+darkest 
+C 
+darkest 
+brightest 
+D 
+darkest 
+darkest
+
+===== 9702_s23_qp_13 Q25 =====
+25 The diagram shows a string stretched between fixed points X and Y. There is a stationary wave 
+on the string. 
+ 
+X
+Y
+R
+Q
+T
+S
+P
+ 
+ 
+The solid curve shows the string at a position of maximum displacement at time t0. The dashed 
+curve shows the other position of maximum displacement. The straight central dashed line shows 
+the mean position of the string. 
+ 
+Point S on the string is directly above point P. Point T on the string is directly below point Q. 
+ 
+Which statement is correct? 
+A 
+A short time after t0, point R on the string will be displaced. 
+B 
+A short time after t0, points S and T on the string move in opposite directions. 
+C 
+The distance between P and Q is one wavelength. 
+D 
+Two moving points on the string that are equal distances from point R vibrate in phase.
+
+===== 9702_s23_qp_13 Q26 =====
+26 The variation with distance x of the intensity I along a stationary sound wave in air is shown. 
+ 
+I
+0
+0
+5.0
+10.0
+15.0
+x / cm
+ 
+ 
+The speed of sound in air is 340 m s–1. 
+ 
+What is the frequency of the sound wave? 
+A 
+1700 Hz 
+B 
+2300 Hz 
+C 
+3400 Hz 
+D 
+6800 Hz
+
+===== 9702_s23_qp_13 Q27 =====
+27 An experiment is set up to demonstrate the diffraction of water waves in a ripple tank. 
+ 
+The waves pass through a gap of width w and some diffraction of the waves is observed. 
+ 
+The wavelength of the waves is now doubled. 
+ 
+What is the new gap width needed to cause the same amount of diffraction as before? 
+A 
+0.5w 
+B 
+w 
+C 
+2w 
+D 
+4w
+
+===== 9702_s23_qp_13 Q28 =====
+28 Two coherent electromagnetic waves are travelling in a vacuum. The two waves meet at a point. 
+At this point, the two waves have different intensities. 
+ 
+Which statement about the waves is not correct? 
+A 
+They have a constant phase difference at the point. 
+B 
+They have the same amplitude at the point. 
+C 
+They have the same frequency. 
+D 
+They travel at the same speed.
+
+===== 9702_s23_qp_13 Q29 =====
+29 A parallel beam of light of wavelength 600 nm is incident normally on a diffraction grating. 
+ 
+The distance between adjacent slits in the grating is 2.0  10–6
+ m. A screen is placed parallel to 
+the grating, at a distance of 1.50 m from the grating. Third-order diffraction maxima are observed 
+at the two ends of the screen, as shown. 
+ 
+third-order maxima
+screen
+diffraction
+grating
+beam of light of
+wavelength 600 nm
+NOT TO
+SCALE
+1.50 m
+ 
+ 
+What is the distance between the two ends of the screen? 
+A 
+1.4 m 
+B 
+2.7 m 
+C 
+3.1 m 
+D 
+6.2 m
+
+===== 9702_s23_qp_13 Q30 =====
+30 A metal wire is connected between the terminals of a cell so that there is a current in the wire. 
+ 
+Which statement is correct? 
+A 
+Negatively charged electrons in the wire move from the negative terminal to the positive 
+terminal. 
+B 
+Negatively charged nuclei in the wire move from the negative terminal to the positive 
+terminal. 
+C 
+Positively charged electrons in the wire move from the positive terminal to the negative 
+terminal. 
+D 
+Positively charged nuclei in the wire move from the positive terminal to the negative terminal.
+
+===== 9702_s23_qp_13 Q31 =====
+31 Two resistors of resistances R and 2R are connected in parallel with a battery of electromotive 
+force (e.m.f.) 12 V and negligible internal resistance. 
+ 
+2R
+12 V
+R
+ 
+ 
+The total power dissipated by the two resistors is 36 W. 
+ 
+What is the value of R? 
+A 
+0.50  
+B 
+2.7  
+C 
+4.0  
+D 
+6.0 
+
+===== 9702_s23_qp_13 Q32 =====
+32 A wire has a length of 3.0 m and is made of metal of resistivity 4.9  10–7
+  m. 
+ 
+A potential difference (p.d.) of 12 V is applied across the wire so that it has a current of 1.4 A. 
+ 
+What is the cross-sectional area of the wire? 
+A 
+1.2  10–7
+ m2 
+B 
+1.7  10–7
+ m2 
+C 
+1.1  10–6
+ m2 
+D 
+1.3  10–5
+ m2
+
+===== 9702_s23_qp_13 Q33 =====
+33 A cell of negligible internal resistance is connected in series with a thermistor, a fixed resistor and 
+an ammeter. 
+ 
+The thermistor is placed in a beaker of water and the temperature of the water is slowly 
+increased. 
+ 
+A graph of current I against the temperature T of the thermistor is plotted. 
+ 
+Which graph could show the variation of I with T ? 
+ 
+T
+A
+I
+T
+B
+I
+T
+C
+I
+T
+D
+I
+
+===== 9702_s23_qp_13 Q34 =====
+34 A battery with internal resistance is connected to a parallel arrangement of two resistors and a 
+switch S, as shown. 
+ 
+V
+A
+switch
+S
+ 
+ 
+Initially, switch S is open. 
+ 
+What happens to the voltmeter and ammeter readings when switch S is closed? 
+ 
+ 
+voltmeter 
+reading 
+ammeter 
+reading 
+A 
+decreases 
+increases 
+B 
+decreases 
+decreases 
+C 
+increases 
+increases 
+D 
+increases 
+decreases
+
+===== 9702_s23_qp_13 Q35 =====
+35 Kirchhoff’s first law states that the sum of the currents entering a junction in a circuit is equal to 
+the sum of the currents leaving it. 
+ 
+The law is based on the conservation of a physical quantity. 
+ 
+What is this physical quantity? 
+A 
+charge 
+B 
+energy 
+C 
+mass 
+D 
+momentum
+
+===== 9702_s23_qp_13 Q36 =====
+36 Two resistors have a combined resistance of 34  when connected in series. The same resistors 
+have a combined resistance of 7.4  when connected in parallel. 
+ 
+What is the resistance of one of the resistors? 
+A 
+15  
+B 
+17  
+C 
+23  
+D 
+27 
+
+===== 9702_s23_qp_13 Q37 =====
+37 A potentiometer circuit is used to investigate the electromotive force (e.m.f.) of a cell X. 
+ 
+X
+driver cell
+2.0 V
+Q
+R
+P
+sliding contact
+resistance wire
+ 
+ 
+The e.m.f. of cell X is known to be approximately 0.50 V. 
+ 
+The driver cell has negligible internal resistance and an e.m.f. of 2.0 V. The sliding contact is 
+moved along the uniform resistance wire between ends Q and R to a point P where the reading 
+on the galvanometer is zero. 
+ 
+What is an expression for the approximate length QP? 
+A 
+4
+QR 
+B 
+3
+QR 
+C 
+3
+2QR 
+D 
+4
+3QR
+
+===== 9702_s23_qp_13 Q38 =====
+38 The table contains data for four different nuclei P, Q, R and S. 
+ 
+nucleus 
+number 
+of neutrons 
+nucleon 
+number 
+P 
+5 
+10 
+Q 
+6 
+10 
+R 
+6 
+14 
+S 
+8 
+16 
+ 
+Which two nuclei are isotopes of the same element? 
+A 
+P and Q 
+B 
+P and S 
+C 
+Q and R 
+D 
+R and S
+
+===== 9702_s23_qp_13 Q39 =====
+39 Which statement about – decay is correct? 
+A 
+A neutron changes to a proton in the nucleus and an electron and an antineutrino are 
+emitted. 
+B 
+A neutron changes to a proton in the nucleus and an electron and a neutrino are emitted. 
+C 
+A proton changes to a neutron in the nucleus and an electron and an antineutrino are 
+emitted. 
+D 
+A proton changes to a neutron in the nucleus and an electron and a neutrino are emitted.
+
+===== 9702_s23_qp_13 Q40 =====
+40 What is the quark composition of a hydrogen-3 nucleus, H?
+3
+1
+ 
+ 
+ 
+number of quarks 
+up 
+down 
+A 
+4 
+5 
+B 
+5 
+4 
+C 
+5 
+7 
+D 
+7 
+5

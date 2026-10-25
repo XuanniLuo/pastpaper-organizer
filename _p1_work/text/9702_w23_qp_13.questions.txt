@@ -1,0 +1,912 @@
+===== 9702_w23_qp_13 Q1 =====
+1 
+What is the best estimate of the wavelength of green light? 
+A 
+260 nm 
+B 
+540 nm 
+C 
+780 nm 
+D 
+920 nm
+
+===== 9702_w23_qp_13 Q2 =====
+2 
+In an electric circuit, an ammeter reads 2 A. 
+ 
+In a second circuit, the ammeter reads 1 mA. 
+ 
+How many times larger is the current in the second circuit compared with the current in the first 
+circuit? 
+A 
+500 
+B 
+5000 
+C 
+500 000 
+D 
+5 000 000
+
+===== 9702_w23_qp_13 Q3 =====
+3 
+A set of repeated measurements is made of a fixed quantity. An average of these measurements 
+is calculated. 
+ 
+What is the effect of averaging on the random error and the systematic error in the 
+measurements? 
+A 
+Random error and systematic error are both reduced. 
+B 
+Random error and systematic error are both unaffected. 
+C 
+Random error is reduced but systematic error is unaffected. 
+D 
+Random error is unaffected but systematic error is reduced.
+
+===== 9702_w23_qp_13 Q4 =====
+4 
+A boat is crossing a river in which the water is moving at a speed of 4.0 m s–1 from left to right. 
+ 
+river bank
+river bank
+velocity of
+water, 4.0 m s–1
+velocity of boat in
+still water, 6.0 m s–1
+resultant velocity, v
+
+NOT TO
+SCALE
+ 
+ 
+In still water, the speed of the boat is 6.0 m s–1. The boat is directed at an angle   to a line 
+perpendicular to the river banks. The resultant velocity v of the boat is in a direction perpendicular 
+to the river banks. 
+ 
+What are the values of   and v? 
+ 
+ 
+  /  
+v / m s–1 
+A 
+42 
+4.5 
+B 
+42 
+7.2 
+C 
+48 
+4.5 
+D 
+48 
+7.2
+
+===== 9702_w23_qp_13 Q5 =====
+5 
+A student walks at a constant speed for a distance of 50 m in a time of 40 s. The student rests for 
+a time of 10 s and then walks back to the starting point at a constant speed in a time of 30 s. 
+ 
+What is the distance–time graph for the motion of the student? 
+ 
+100
+50
+0
+0
+20
+40
+A
+60
+80
+distance / m
+time / s
+100
+50
+0
+0
+20
+40
+B
+60
+80
+distance / m
+time / s
+100
+50
+0
+0
+20
+40
+C
+60
+80
+distance / m
+time / s
+100
+50
+0
+0
+20
+40
+D
+60
+80
+distance / m
+time / s
+
+===== 9702_w23_qp_13 Q6 =====
+6 
+The time taken for an object to fall from rest through a certain distance on Mars is TM. The time 
+taken for the same object to fall from rest through the same distance on Earth is TE. The 
+acceleration of free fall on Mars is 3.71 m s–2. 
+ 
+Assume that air resistance is negligible on both Earth and Mars. 
+What is the ratio 
+M
+E
+?
+T
+T
+ 
+A 
+0.378 
+B 
+0.615 
+C 
+1.63 
+D 
+2.64
+
+===== 9702_w23_qp_13 Q7 =====
+7 
+Which statement about mass is correct? 
+A 
+Mass has a magnitude and a direction. 
+B 
+Mass resists changes in motion. 
+C 
+The greater the mass of an object, the greater its acceleration when falling in a vacuum. 
+D 
+The mass of an object depends on its location.
+
+===== 9702_w23_qp_13 Q8 =====
+8 
+A snooker ball has a mass of 200 g. It hits the cushion of a snooker table and rebounds along its 
+original path. 
+ 
+The ball arrives at the cushion with a speed of 14.0 m s–1 and then leaves it with a speed of 
+7.0 m s–1. The ball and the cushion are in contact for a time of 0.60 s. 
+ 
+What is the average force exerted on the ball by the cushion? 
+A 
+1.4 N 
+B 
+2.3 N 
+C 
+4.2 N 
+D 
+7.0 N
+
+===== 9702_w23_qp_13 Q9 =====
+9 
+A ball falls from rest through air and eventually reaches a constant velocity. 
+ 
+For this fall, forces X and Y vary with time as shown. 
+ 
+time
+force Y
+time
+force X
+0
+0
+0
+0
+ 
+ 
+What could be forces X and Y ? 
+ 
+ 
+force X 
+force Y 
+A 
+air resistance 
+resultant force 
+B 
+air resistance 
+weight 
+C 
+upthrust 
+resultant force 
+D 
+upthrust 
+weight
+
+===== 9702_w23_qp_13 Q10 =====
+10 An object X of mass 0.30 kg is travelling in a straight line at a constant velocity of 3.0 m s–1 on a 
+horizontal frictionless surface. Object X collides with a stationary object Y of mass 0.50 kg. 
+ 
+After the collision, X moves with a velocity of 2.0 m s–1 at an angle of 60 to its direction before the 
+collision. Object Y moves with a velocity v at an angle of 41 to the direction of X before the 
+collision, as shown. 
+ 
+3.0 m s–1
+2.0 m s–1
+0.30 kg
+X
+X
+0.50 kg
+before collision
+after collision
+Y
+Y
+v
+41
+60
+ 
+ 
+What is the value of v? 
+A 
+0.80 m s–1 
+B 
+1.2 m s–1 
+C 
+1.6 m s–1 
+D 
+1.8 m s–1
+
+===== 9702_w23_qp_13 Q11 =====
+11 A uniform rigid beam of length 3.2 m is pivoted at its centre. Two children sit at the opposite ends 
+of the beam, as shown. 
+ 
+pivot
+20
+3.2 m
+child
+mass 36 kg
+child
+mass 24 kg
+ 
+ 
+One child has a mass of 24 kg. The other child has a mass of 36 kg. The heavier child causes one 
+end of the beam to permanently rest on the ground, so that the beam makes an angle of 20 to 
+the horizontal ground. 
+ 
+What is the moment of the weight of the 24 kg child about the pivot? 
+A 
+72 N m 
+B 
+130 N m 
+C 
+350 N m 
+D 
+380 N m
+
+===== 9702_w23_qp_13 Q12 =====
+12 Two parts of a sailing boat are the mast and the boom. The mast is a vertical rigid beam and the 
+boom is a horizontal rigid beam. One end of the boom is attached to the mast by a pivot. The 
+other end of the boom is connected to the mast by a rope, as shown. 
+ 
+40
+200 N
+boom
+rope
+mast
+pivot
+T
+ 
+ 
+The rope is at an angle of 40 to the horizontal and exerts a tension force T on the boom. The 
+weight of the boom is 200 N. The mass of the boom is uniformly distributed along its length. The 
+boom is in equilibrium. 
+ 
+What is the magnitude of T ? 
+A 
+130 N 
+B 
+160 N 
+C 
+260 N 
+D 
+310 N
+
+===== 9702_w23_qp_13 Q13 =====
+13 Full-fat milk is made up of fat-free milk mixed with fat. 
+ 
+A volume of 1.000  10–3
+ m3 of full-fat milk has a mass of 1.035 kg. It contains 4.00% fat by 
+volume. 
+ 
+The density of fat-free milk is 1.040  103
+ kg m–3. 
+ 
+What is the density of fat? 
+A 
+1.25  102
+ kg m–3 
+B 
+9.15  102
+ kg m–3 
+C 
+9.28  102
+ kg m–3 
+D 
+1.16  103
+ kg m–3
+
+===== 9702_w23_qp_13 Q14 =====
+14 Which expression for pressure is correct? 
+A 
+force per unit area 
+B 
+mass per unit area 
+C 
+mass per unit volume 
+D 
+weight per unit volume
+
+===== 9702_w23_qp_13 Q15 =====
+15 A wooden cylinder floats partially submerged in a bath of water. A force F is applied to the 
+cylinder until it is just fully submerged. 
+ 
+water
+wooden cylinder
+F
+ 
+ 
+Which statement is not correct? 
+A 
+Some of the water gains gravitational potential energy. 
+B 
+The cylinder loses gravitational potential energy. 
+C 
+Work is done by force F on the cylinder. 
+D 
+Work is done by the upthrust on the cylinder.
+
+===== 9702_w23_qp_13 Q16 =====
+16 A system has a useful power output of 4.0 W and a wasted power of 16 W. 
+ 
+What is the efficiency of the system? 
+A 
+5.0% 
+B 
+20% 
+C 
+25% 
+D 
+80%
+
+===== 9702_w23_qp_13 Q17 =====
+17 A parachutist is falling towards the ground at a constant speed v. The rate at which she is losing 
+gravitational potential energy is R. 
+ 
+The acceleration of free fall is g. 
+ 
+What is the mass of the parachutist? 
+A 
+R
+gv 
+B 
+gv
+R 
+C 
+2
+2
+v
+R 
+D 
+R
+v
+2
+2
+
+===== 9702_w23_qp_13 Q18 =====
+18 A copper wire of diameter 1.6 mm is stretched within its limit of proportionality by a tensile force of 
+430 N. 
+ 
+The Young modulus of copper is 130 GPa. 
+ 
+What is the strain in the wire? 
+A 
+4.1  10–4 
+B 
+1.3  10–3 
+C 
+1.6  10–3 
+D 
+5.2  10–3
+
+===== 9702_w23_qp_13 Q19 =====
+19 Compressive forces are applied normally to the end faces of a cylinder of initial length L. The 
+cylinder is compressed by the forces so that its length decreases to 0.6L. After the compressive 
+forces are removed, the cylinder’s length increases to 0.8L. 
+ 
+L
+cylinder
+before compressive
+forces applied
+0.6L
+compressive
+forces applied
+0.8L
+after compressive
+forces removed 
+ 
+What describes the deformation of the cylinder when its length was 0.6L? 
+A 
+both elastic and plastic 
+B 
+elastic only 
+C 
+plastic only 
+D 
+neither elastic nor plastic
+
+===== 9702_w23_qp_13 Q20 =====
+20 When sound travels through air, the air particles vibrate. A graph of displacement against time for 
+a single air particle is shown. 
+ 
+T
+2T
+displacement
+time
+0
+0
+ 
+ 
+Which graph shows how the kinetic energy of the air particle varies with time? 
+ 
+0
+0
+T
+A
+2T
+0
+0
+0
+kinetic
+energy
+time
+0
+T
+B
+2T
+kinetic
+energy
+time
+0
+T
+C
+2T
+kinetic
+energy
+time
+0
+T
+D
+2T
+kinetic
+energy
+time
+
+===== 9702_w23_qp_13 Q21 =====
+21 A wave travels on the surface of water. P, Q, R and S are four particles of water on the surface. 
+ 
+The diagram shows the positions of the particles at one instant. The direction of travel of the 
+wave is from left to right. 
+ 
+P
+Q
+R
+S
+direction of wave travel
+ 
+ 
+Which two particles are about to move upwards? 
+A 
+P and R 
+B 
+P and S 
+C 
+R and S 
+D 
+Q and S
+
+===== 9702_w23_qp_13 Q22 =====
+22 A loudspeaker emits sound of frequency fs. The loudspeaker is attached to a car that moves with 
+increasing speed directly towards a stationary observer.  
+ 
+Which statement describes the frequency of the sound heard by the observer? 
+A 
+a frequency greater than fs and increasing 
+B 
+a frequency greater than fs but decreasing 
+C 
+a frequency less than fs and decreasing 
+D 
+a frequency less than fs but increasing
+
+===== 9702_w23_qp_13 Q23 =====
+23 Which statement about electromagnetic waves in a vacuum is correct? 
+A 
+Amplitude is inversely proportional to velocity. 
+B 
+Frequency is inversely proportional to wavelength. 
+C 
+Intensity is proportional to amplitude. 
+D 
+Velocity is proportional to wavelength.
+
+===== 9702_w23_qp_13 Q24 =====
+24 A vertically polarised electromagnetic wave of intensity I0 is incident normally on a polarising 
+filter. The transmission axis of the filter is at an angle of 30 to the vertical. 
+ 
+The transmitted wave from the first filter is then incident normally on a second polarising filter. 
+The transmission axis of this filter is at an angle of 90 to the vertical. 
+ 
+30
+polarising
+filters
+transmission axis
+transmission axis
+vertically polarised
+electromagnetic wave
+ 
+ 
+What is the intensity of the wave after passing through the second filter? 
+A 
+0 
+B 
+0.063 I0 
+C 
+0.19 I0 
+D 
+0.56 I0
+
+===== 9702_w23_qp_13 Q25 =====
+25 Which statement concerning a stationary wave is correct? 
+A 
+All the particles between two adjacent nodes oscillate in phase. 
+B 
+The amplitude of the stationary wave is equal to the amplitude of one of the waves creating it. 
+C 
+The wavelength of the stationary wave is equal to the separation of two adjacent nodes. 
+D 
+There is no displacement of a particle at an antinode at any time.
+
+===== 9702_w23_qp_13 Q26 =====
+26 Stationary sound waves can be formed in the air columns of pipes. One type of pipe is closed at 
+one end and open at the other end. Another type of pipe is open at both ends. 
+ 
+Which pipe can form a stationary sound wave with the lowest frequency? 
+ 
+2L
+B
+2L
+A
+L
+D
+L
+C
+
+===== 9702_w23_qp_13 Q27 =====
+27 Water waves in a ripple tank are made to pass through a small gap, as shown. 
+ 
+Which diagram shows the waves after they have passed through the gap? 
+ 
+A
+B
+C
+D
+
+===== 9702_w23_qp_13 Q28 =====
+28 Light of a single wavelength is incident normally on a double slit. The slit separation can be 
+varied. 
+ 
+A screen is placed a fixed distance away from the double slit. The screen and double slit are 
+parallel. A pattern of bright interference fringes is observed on a screen. 
+ 
+a
+light
+double
+slit
+screen
+NOT TO
+SCALE
+ 
+ 
+Which graph best shows the variation of the separation x of the bright interference fringes with 
+the slit separation a? 
+ 
+0
+A
+a
+0
+x
+0
+B
+a
+0
+x
+0
+C
+a
+0
+x
+0
+D
+a
+0
+x
+
+===== 9702_w23_qp_13 Q29 =====
+29 A diffraction grating is used to measure the wavelength of light. 
+ 
+The spacing of the slits in the grating is 1.15  10–6
+ m. The angle between the first-order 
+diffraction maxima is 60.0, as shown. 
+ 
+60.0
+light
+grating
+ 
+ 
+What is the wavelength of the light? 
+A 
+288 nm 
+B 
+498 nm 
+C 
+575 nm 
+D 
+996 nm
+
+===== 9702_w23_qp_13 Q30 =====
+30 What could not be used to create an electric current? 
+A 
+alpha-particles 
+B 
+beta-particles 
+C 
+neutrons 
+D 
+protons
+
+===== 9702_w23_qp_13 Q31 =====
+31 What is the definition of the potential difference (p.d.) across a component? 
+A 
+the energy transferred per unit charge 
+B 
+the energy transferred per unit current 
+C 
+the power transferred per unit charge 
+D 
+the power transferred per unit current
+
+===== 9702_w23_qp_13 Q32 =====
+32 The resistance of a filament lamp increases as the current in it increases. 
+ 
+What is the reason for this? 
+A 
+The charge of each charge carrier increases. 
+B 
+The potential difference across the filament decreases. 
+C 
+The power dissipated by the filament decreases. 
+D 
+The temperature of the filament increases.
+
+===== 9702_w23_qp_13 Q33 =====
+33 A battery of electromotive force (e.m.f.) 12 V and negligible internal resistance is connected to a 
+fixed resistor of resistance 40  and a thermistor of resistance RT, as shown. 
+ 
+12 V
+40 
+RT
+ 
+ 
+Initially, the temperature of the thermistor is 15 C and the current in the circuit is 0.10 A. 
+ 
+The temperature of the thermistor then changes, which causes the current to increase to 0.12 A. 
+ 
+How does the temperature of the thermistor change and what is RT at the new temperature? 
+ 
+ 
+temperature 
+of thermistor 
+RT at new 
+temperature /  
+A 
+increases 
+60 
+B 
+decreases 
+60 
+C 
+increases 
+100 
+D 
+decreases 
+100
+
+===== 9702_w23_qp_13 Q34 =====
+34 A cell of electromotive force (e.m.f.) 3.0 V and internal resistance 0.50  is connected to a 
+variable resistor, a voltmeter and an ammeter, as shown. The resistance of the variable resistor is 
+varied. 
+ 
+The reading on the ammeter I and the reading on the voltmeter V are recorded. 
+ 
+0.50 
+3.0 V
+A
+V
+ 
+ 
+Which graph shows how V varies with I ? 
+ 
+0
+6.0
+A
+0
+0.50
+I / A
+V / V
+0
+0.5
+B
+0
+3.0
+I / A
+V / V
+0
+6.0
+C
+0
+3.0
+I / A
+V / V
+0
+3.0
+D
+0
+6.0
+I / A
+V / V
+
+===== 9702_w23_qp_13 Q35 =====
+35 Three resistors, R1, R2 and R3, are connected in parallel to a cell. The currents in the resistors are 
+I1, I2 and I3. The potential differences across the resistors are V1, V2 and V3. The current in the 
+cell is I0. The potential difference across the cell is V0, as shown. 
+ 
+R3
+I3
+V3
+R2
+I2
+V2
+R1
+I1
+I0
+V1
+V0
+ 
+ 
+Which equation can be obtained by applying Kirchhoff’s second law to the circuit? 
+A 
+I0 = I1 = I2 = I3 
+B 
+I0 = I1 + I2 + I3 
+C 
+V0 = V1 = V2 = V3 
+D 
+V0 = V1 + V2 + V3
+
+===== 9702_w23_qp_13 Q36 =====
+36 Three resistors, each of resistance R, are connected in a network, as shown. 
+ 
+X
+Y
+R
+R
+R
+ 
+ 
+The total resistance between points X and Y is 8.0 . 
+ 
+What is the value of R ? 
+A 
+2.7  
+B 
+4.0  
+C 
+5.3  
+D 
+12 
+
+===== 9702_w23_qp_13 Q37 =====
+37 A potentiometer and a driver cell of electromotive force (e.m.f.) E are used to measure the e.m.f. 
+of a new cell. 
+ 
+A sliding contact at P is moved along a resistance wire QR until the reading on the galvanometer 
+is zero. 
+ 
+Q
+R
+P
+driver cell
+E
+new cell
+ 
+ 
+What is an essential requirement for the e.m.f. of the new cell to be measured accurately? 
+A 
+The e.m.f. of the driver cell must be less than the e.m.f. of the new cell. 
+B 
+The galvanometer must have a large resistance. 
+C 
+The internal resistance of the new cell must be zero. 
+D 
+The resistance per unit length of the wire QR must be constant.
+
+===== 9702_w23_qp_13 Q38 =====
+38 The table shows the number of nucleons and the total number of particles (protons, neutrons and 
+electrons) in neutral atoms of four nuclides W, X, Y and Z. 
+ 
+ 
+number of 
+nucleons 
+total number 
+of particles 
+W 
+19 
+30 
+X 
+19 
+31 
+Y 
+21 
+32 
+Z 
+22 
+31 
+ 
+Which two nuclides are isotopes of each other? 
+A 
+W and X 
+B 
+W and Y 
+C 
+X and Z 
+D 
+Y and Z
+
+===== 9702_w23_qp_13 Q39 =====
+39 When a sample of a radioactive isotope decays by -particle emission, the -particles emitted 
+have a single discrete energy. 
+ 
+When a sample of a radioactive isotope decays by – particle emission, the – particles emitted 
+have a continuous range of energies. 
+ 
+What is the explanation for this? 
+A 
+An antineutrino is emitted with a – particle but not with an -particle. 
+B 
+An antineutrino is emitted with an -particle but not with a – particle. 
+C 
+The -particles have much more energy than the – particles. 
+D 
+The – particles have much more energy than the -particles.
+
+===== 9702_w23_qp_13 Q40 =====
+40 Some particles are a combination of three quarks. 
+ 
+Which combination of quarks does not result in a particle with a charge of either +1.6  10–19
+ C or 
+zero? 
+A 
+up, down, down 
+B 
+up, strange, strange 
+C 
+up, up, down 
+D 
+up, up, up

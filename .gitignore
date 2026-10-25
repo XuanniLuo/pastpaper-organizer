@@ -6,8 +6,9 @@ __pycache__/
 *.pyc
 
 # backup / scratch
-main.html.bak2
 main.html.bak
+main.html.bak2
+main.html.bak3
 
 # raw source past papers (large; kept locally only)
 igcse-2024/

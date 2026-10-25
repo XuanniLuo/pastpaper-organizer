@@ -1,0 +1,885 @@
+===== 9702_w22_qp_12 Q1 =====
+1 
+Which quantity is a physical quantity? 
+A 
+flavour 
+B 
+kelvin 
+C 
+minute 
+D 
+potential difference
+
+===== 9702_w22_qp_12 Q2 =====
+2 
+What is a power of 3.7 MW when expressed in kilowatts? 
+A 
+3.7  10–3
+ kW 
+B 
+3.7  10–3
+ KW 
+C 
+3.7  103
+ kW 
+D 
+3.7  103
+ KW
+
+===== 9702_w22_qp_12 Q3 =====
+3 
+A spring is suspended from a fixed point and a force is applied. The position of a pointer attached 
+to the bottom of the spring against a vertical ruler is recorded. 
+ 
+Before the force is applied, the position of the pointer is (225  2) mm. 
+ 
+After the force is applied, the position of the pointer is (250  2) mm. 
+ 
+The extension of the spring is determined. 
+ 
+What is the percentage uncertainty in the extension? 
+A 
+1.6% 
+B 
+1.8% 
+C 
+8.0% 
+D 
+16%
+
+===== 9702_w22_qp_12 Q4 =====
+4 
+What is the difference between a scalar quantity and a vector quantity? 
+A 
+A scalar quantity has direction but a vector quantity does not. 
+B 
+A scalar quantity has magnitude but a vector quantity does not. 
+C 
+A vector quantity has direction but a scalar quantity does not. 
+D 
+A vector quantity has magnitude but a scalar quantity does not.
+
+===== 9702_w22_qp_12 Q5 =====
+5 
+A toy car travels on a circular track at a constant speed of 0.50 m s–1. It passes a point on the 
+track at time t = 0 and takes a time of 40 s to travel once around the track. 
+ 
+The magnitude of the average velocity of the car between t = 0 and t = 20 s is v20. 
+ 
+The magnitude of the average velocity of the car between t = 0 and t = 40 s is v40. 
+ 
+What are v20 and v40? 
+ 
+ 
+v20 / m s–1 
+v40 / m s–1 
+A 
+0.32 
+0 
+B 
+0.32 
+0.32 
+C 
+0.50 
+0 
+D 
+0.50 
+0.50
+
+===== 9702_w22_qp_12 Q6 =====
+6 
+The graph shows how the velocity v of an object moving in a straight line varies with time t from 
+t = 0 to t = T. 
+ 
+0
+0
+v
+T
+t
+ 
+ 
+Which graph could represent the displacement s of the object from time t = 0 to t = T ? 
+ 
+s
+t
+A
+s
+t
+B
+s
+C
+s
+D
+T
+T
+T
+t
+T
+t
+0
+0
+0
+0
+0
+0
+0
+0
+
+===== 9702_w22_qp_12 Q7 =====
+7 
+A goods train passes through a station at a steady speed of 10 m s–1 at time t = 0. An express 
+train is at rest at the station. The express train leaves the station with a uniform acceleration of 
+0.5 m s–2 just as the goods train goes past. Both trains move in the same direction on straight, 
+parallel tracks. 
+ 
+At which time t does the express train overtake the goods train? 
+A 
+6 s 
+B 
+10 s 
+C 
+20 s 
+D 
+40 s
+
+===== 9702_w22_qp_12 Q8 =====
+8 
+A constant resultant force F acts on an object of mass m for time t. 
+ 
+What is the change in momentum of the object? 
+A 
+t
+F 
+B 
+m
+Ft 
+C 
+Ft 
+D 
+mt
+F
+
+===== 9702_w22_qp_12 Q9 =====
+9 
+The acceleration of free fall on the surface of planet P is one-tenth of that on the surface of 
+planet Q. 
+ 
+On the surface of P, an object has a mass of 1.0 kg and a weight of 1.0 N. 
+ 
+What are the mass and the weight of the same object on the surface of planet Q? 
+ 
+ 
+mass on Q / kg 
+weight on Q / N 
+A 
+1.0 
+0.1 
+B 
+1.0 
+10 
+C 
+10 
+10 
+D 
+10 
+100
+
+===== 9702_w22_qp_12 Q10 =====
+10 A parachutist falls from rest from a balloon. The variation with time of the vertical velocity of the 
+parachutist is shown. 
+ 
+In which region is the force due to air resistance much greater than the weight of the parachutist? 
+ 
+vertical
+velocity
+time
+0
+0
+A
+B
+C
+D
+
+===== 9702_w22_qp_12 Q11 =====
+11 Two solid spheres form an isolated system. Sphere X moves with speed 6 cm s–1 in a straight line 
+directly towards a stationary sphere Y, as shown. 
+ 
+sphere X
+sphere Y
+6 cm s–1
+ 
+ 
+The spheres have a perfectly elastic collision. After the collision, sphere X moves with speed 
+2 cm s–1 in the same direction as before the collision. 
+ 
+What is the speed of sphere Y? 
+A 
+2 cm s–1 
+B 
+4 cm s–1 
+C 
+6 cm s–1 
+D 
+8 cm s–1
+
+===== 9702_w22_qp_12 Q12 =====
+12 What is not a necessary requirement of the forces in a couple? 
+A 
+They act in opposite directions. 
+B 
+They act along different lines. 
+C 
+They have the same magnitude. 
+D 
+They produce a resultant force.
+
+===== 9702_w22_qp_12 Q13 =====
+13 A box of length 12 cm and weight 0.43 N is placed on a horizontal table, with the greater part of its 
+length overhanging the edge of the table. The edge of the table acts as a pivot. The centre of 
+gravity of the box is at its geometric centre. 
+ 
+To balance the box, a uniform sphere of diameter 2.4 cm is placed inside the box, touching one 
+end, as shown. 
+ 
+box
+table
+edge of table (pivot)
+sphere
+2.4 cm
+12 cm
+ 
+ 
+Assume that the forces acting on the box are in the plane of the diagram. 
+ 
+What is the minimum mass of the sphere that is needed to maintain the system in equilibrium? 
+A 
+0.066 kg 
+B 
+0.13 kg 
+C 
+0.22 kg 
+D 
+1.3 kg
+
+===== 9702_w22_qp_12 Q14 =====
+14 An object is suspended by two ropes. One rope has a tension of 410 N at an angle of 60 to the 
+horizontal. The other rope has a tension of 210 N at an angle of 10 to the horizontal. 
+ 
+ropes
+10
+60
+410 N
+210 N
+object
+ 
+ 
+The object is in equilibrium. 
+ 
+What is the mass of the object? 
+A 
+40 kg 
+B 
+42 kg 
+C 
+390 kg 
+D 
+410 kg
+
+===== 9702_w22_qp_12 Q15 =====
+15 A solid cube is floating in equilibrium in liquid mercury. The cube is made of iron of density 
+7900 kg m–3. 
+ 
+The cube floats with 42% of its volume above the surface of the mercury. 
+ 
+What is the density of the mercury? 
+A 
+3300 kg m–3 
+B 
+4600 kg m–3 
+C 
+14 000 kg m–3 
+D 
+19 000 kg m–3
+
+===== 9702_w22_qp_12 Q16 =====
+16 The diagram shows two vessels, P and Q, both with sides inclined at 45 to the horizontal. 
+ 
+vessel P
+vessel Q
+ 
+ 
+Vessel P tapers outwards and vessel Q tapers inwards, as shown. 
+ 
+Both vessels contain a liquid. The depth of the liquid in the vessels is the same. The liquid in 
+vessel P is twice as dense as the liquid in vessel Q. 
+ 
+What is the ratio 
+Q
+ 
+of
+ 
+base
+ 
+the
+ 
+on
+ 
+liquid
+ 
+the
+ 
+to
+ 
+due
+ 
+pressure
+P
+ 
+of
+ 
+base
+ 
+the
+ 
+on
+ 
+liquid
+ 
+the
+ 
+to
+ 
+due
+ 
+pressure
+? 
+A 
+1
+2 
+B 
+1
+2 
+C 
+2
+1 
+D 
+2
+1
+
+===== 9702_w22_qp_12 Q17 =====
+17 A motor is used to lift a load vertically upwards. 
+ 
+The load has weight W. 
+ 
+The motor produces useful power output P. 
+ 
+The load is lifted at constant velocity v. 
+ 
+Which expression gives the time taken for the motor to lift the load vertically upwards through a 
+distance d ? 
+A 
+Wd
+P 
+B 
+P
+Wv 
+C 
+P
+Wd 
+D 
+W
+Pv
+
+===== 9702_w22_qp_12 Q18 =====
+18 A lamp is switched on for 2.0 hours. The power input to the lamp is 1.0 W. The energy given out 
+by the lamp as light is 7.0  103
+ J. 
+ 
+How much energy is converted to other forms by the lamp? 
+A 
+120 J 
+B 
+200 J 
+C 
+3400 J 
+D 
+7200 J
+
+===== 9702_w22_qp_12 Q19 =====
+19 An object of mass m is dropped onto the surface of two planets, X and Y, which have no 
+atmosphere. 
+ 
+The height from which the object is dropped and the change in gravitational potential energy of 
+the object, for each planet, are given in the table. 
+ 
+ 
+height / m 
+change in gravitational 
+potential energy 
+planet X 
+3 
+∆E 
+planet Y 
+4 
+4∆E 
+ 
+The acceleration of free fall near the surface of planet X is gX. 
+ 
+What is the acceleration of free fall near the surface of planet Y? 
+A 
+X
+4
+3 g 
+B 
+X
+3
+4 g 
+C 
+3gX 
+D 
+4gX
+
+===== 9702_w22_qp_12 Q20 =====
+20 A known tensile force acts on a metal wire. The wire does not exceed its limit of proportionality. 
+ 
+Which two measurements enable the strain of the wire to be calculated? 
+A 
+the unstretched length of the wire and the cross-sectional area of the wire 
+B 
+the unstretched length of the wire and the extension of the wire 
+C 
+the Young modulus of the metal and the extension of the wire 
+D 
+the Young modulus of the metal and the unstretched length of the wire
+
+===== 9702_w22_qp_12 Q21 =====
+21 A wire is extended by different forces. The wire obeys Hooke’s law. 
+ 
+A graph is plotted to show the variation of a quantity y with a quantity x. 
+ 
+0
+0
+y
+x
+ 
+ 
+What could x and y represent? 
+ 
+ 
+x 
+y 
+A 
+elastic potential energy 
+extension 
+B 
+extension 
+force 
+C 
+force 
+extension 
+D 
+extension 
+elastic potential energy
+
+===== 9702_w22_qp_12 Q22 =====
+22 A wave pulse moves along a stretched rope in the direction shown. 
+ 
+P
+ 
+ 
+Which diagram shows the variation with time t of the displacement s of the particle P in the rope? 
+ 
+A
+s
+t
+B
+s
+t
+C
+s
+t
+D
+s
+t
+0
+0
+0
+0
+0
+0
+0
+0
+
+===== 9702_w22_qp_12 Q23 =====
+23 Which statement about progressive transverse and longitudinal waves is correct? 
+A 
+Particles in a transverse wave have fixed equilibrium positions but those in longitudinal 
+waves do not. 
+B 
+Transverse waves can be polarised but longitudinal waves cannot. 
+C 
+Transverse waves transfer energy but longitudinal waves do not. 
+D 
+Two-source interference can be demonstrated with transverse waves but not with 
+longitudinal waves.
+
+===== 9702_w22_qp_12 Q24 =====
+24 A miniature loudspeaker, initially at rest, falls vertically from a window in a high building. When 
+the speaker has fallen a distance of 10.0 m, it emits a very short pulse of sound of constant 
+frequency 256 Hz in all directions. The pulse of sound, travelling at a speed of 330 m s–1, is heard 
+by a person leaning out of the window. 
+ 
+Air resistance is negligible. 
+ 
+What is the frequency of the pulse of sound heard by the person? 
+A 
+246 Hz 
+B 
+249 Hz 
+C 
+267 Hz 
+D 
+313 Hz
+
+===== 9702_w22_qp_12 Q25 =====
+25 Two electromagnetic waves have wavelengths of 5.0  10–7
+ m and 5.0  10–2
+ m in a vacuum. 
+ 
+Which row identifies the regions of the electromagnetic spectrum to which the waves belong? 
+ 
+ 
+wavelength 
+5.0  10–7
+ m 
+wavelength 
+5.0  10–2
+ m 
+A 
+ultraviolet 
+infrared 
+B 
+visible 
+microwave 
+C 
+ultraviolet 
+microwave 
+D 
+visible 
+infrared
+
+===== 9702_w22_qp_12 Q26 =====
+26 The wavelength of sound in air may be determined by using stationary waves. 
+ 
+In one experiment, a loudspeaker produces a sound wave of constant frequency which is 
+reflected directly back along its original path by a metal plate approximately 1 m away. A 
+microphone connected to a cathode-ray oscilloscope (CRO) is moved between the loudspeaker 
+and plate to identify regions of high sound intensity (‘loud’ spots) and low sound intensity (‘quiet’ 
+spots). 
+ 
+The wavelength of the sound is determined using the least possible number of measured 
+quantities. 
+ 
+Which row shows the quantities that are needed? 
+ 
+ 
+frequency 
+of sound 
+mean separation 
+of ‘quiet’ spots 
+speed of sound 
+in air 
+ 
+A 
+ 
+ 
+ 
+key 
+B 
+ 
+ 
+ 
+ = needed 
+C 
+ 
+ 
+ 
+ = not needed 
+D 
+ 
+ 
+
+
+===== 9702_w22_qp_12 Q27 =====
+27 Two progressive waves meet at a fixed point P. The variation with time of the displacement of 
+each wave at point P is shown. 
+ 
+2
+1
+0
+–1
+–2
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+displacement
+/ cm
+time / s
+ 
+ 
+The two waves superpose at point P. 
+ 
+What is the resultant displacement at time 0.38 s? 
+A 
++1.0 cm 
+B 
+–1.0 cm 
+C 
++1.8 cm 
+D 
+–1.8 cm
+
+===== 9702_w22_qp_12 Q28 =====
+28 In which situation does diffraction occur? 
+A 
+A wave bounces back from a surface. 
+B 
+A wave passes from one medium into another. 
+C 
+A wave passes through a gap in a barrier. 
+D 
+Waves from two identical sources are superposed.
+
+===== 9702_w22_qp_12 Q29 =====
+29 Light of a single frequency is incident on a pair of narrow slits that are a distance of 0.10 mm 
+apart. A series of bright and dark fringes is observed on a screen a distance of 2.0 m away. The 
+distance between adjacent bright fringes is 8.0 mm. 
+ 
+light
+screen
+second-order dark fringe
+slits
+zero-order bright fringe
+distance between
+bright fringes = 8.0 mm
+2.0 m
+NOT TO SCALE
+ 
+ 
+What is the path difference of the light waves from the two slits that meet at the second-order 
+dark fringe? 
+A 
+2.0  10–7
+ m 
+B 
+4.0  10–7
+ m 
+C 
+6.0  10–7
+ m 
+D 
+8.0  10–7
+ m
+
+===== 9702_w22_qp_12 Q30 =====
+30 Red light of a single wavelength passes through a diffraction grating. Bright dots are formed on a 
+screen, as shown. 
+ 
+bright dot
+screen
+ 
+ 
+The red light is replaced with white light. 
+ 
+Which diagram, drawn to the same scale, shows a possible pattern of bright light on the screen? 
+ 
+A
+B
+C
+D
+
+===== 9702_w22_qp_12 Q31 =====
+31 A nichrome wire has a resistance of 15  and a diameter of 3.0 mm. The number density of the 
+free electrons in nichrome is 9.0  1028
+ m–3. 
+ 
+A potential difference (p.d.) of 6.0 V is applied between the ends of the wire. 
+ 
+What is the average drift speed of the free electrons in the wire? 
+A 
+9.8  10–7
+ m s–1 
+B 
+3.9  10–6
+ m s–1 
+C 
+6.1  10–6
+ m s–1 
+D 
+2.5  10–5
+ m s–1
+
+===== 9702_w22_qp_12 Q32 =====
+32 The diagrams show two different circuits. 
+ 
+R
+R
+R
+ 
+ 
+The cells in each circuit have the same electromotive force (e.m.f.) and negligible internal 
+resistance. The three resistors each have the same resistance R. 
+ 
+In the circuit on the left, the power dissipated in the resistor is P. 
+ 
+What is the total power dissipated in the circuit on the right? 
+A 
+4
+P 
+B 
+2
+P 
+C 
+P 
+D 
+2P
+
+===== 9702_w22_qp_12 Q33 =====
+33 The potential difference (p.d.) across a filament lamp is increased. 
+ 
+Which statement is correct? 
+A 
+The resistance of the lamp decreases because the temperature decreases. 
+B 
+The resistance of the lamp decreases because the temperature increases. 
+C 
+The resistance of the lamp increases because the temperature decreases. 
+D 
+The resistance of the lamp increases because the temperature increases.
+
+===== 9702_w22_qp_12 Q34 =====
+34 A metal wire has resistance R. 
+ 
+The wire is stretched so that its diameter decreases to 94.0% of the original diameter. 
+ 
+The volume of the wire is unchanged. 
+ 
+What is the resistance of the stretched wire? 
+A 
+1.06R 
+B 
+1.13R 
+C 
+1.20R 
+D 
+1.28R
+
+===== 9702_w22_qp_12 Q35 =====
+35 The diagram shows a cell of electromotive force (e.m.f.) 3.0 V and internal resistance 4.7  
+connected across a lamp. The lamp has a resistance of 9.3 . 
+ 
+4.7 
+9.3 
+3.0 V
+ 
+ 
+What is the power dissipated by the internal resistance of the cell? 
+A 
+0.22 W 
+B 
+0.43 W 
+C 
+0.64 W 
+D 
+1.0 W
+
+===== 9702_w22_qp_12 Q36 =====
+36 A circuit consists of a battery, a high-resistance voltmeter and four fixed resistors, as shown. The 
+battery has an electromotive force (e.m.f.) of 15.0 V and negligible internal resistance. 
+ 
+V
+24.0 
+6.0 
+6.0 
+9.0 
+15.0 V
+ 
+ 
+What is the reading on the voltmeter? 
+A 
+3.0 V 
+B 
+6.0 V 
+C 
+9.0 V 
+D 
+12.0 V
+
+===== 9702_w22_qp_12 Q37 =====
+37 A potential divider circuit is designed to detect the difference in temperature between two different 
+places. 
+ 
+V
+X
+Y
+20 mV
+ 
+ 
+The cell has electromotive force (e.m.f.) 20 mV and negligible internal resistance. 
+ 
+Initially, thermistors X and Y are at the same temperature and have the same resistance. The 
+voltmeter reads 10 mV. X is then placed in a cold environment and its resistance doubles. Y is 
+placed in a warm environment and its resistance halves. 
+ 
+What is the new reading on the voltmeter? 
+A 
+4 mV 
+B 
+5 mV 
+C 
+15 mV 
+D 
+16 mV
+
+===== 9702_w22_qp_12 Q38 =====
+38 In the -particle scattering experiment, a beam of -particles is aimed at a thin gold foil. Most of 
+the -particles go straight through or are deflected by a small angle. A very small proportion are 
+deflected by more than 90, effectively rebounding towards the source of the -particles. 
+ 
+Which conclusion about the structure of atoms cannot be drawn from this experiment alone? 
+A 
+Most of the atom is empty space. 
+B 
+Most of the mass of an atom is concentrated in the nucleus. 
+C 
+The nucleus contains both protons and neutrons. 
+D 
+The nucleus is charged.
+
+===== 9702_w22_qp_12 Q39 =====
+39 Which two particles have opposite charges? 
+A 
+alpha-particle and helium nucleus 
+B 
+antiproton and beta-plus particle 
+C 
+beta-minus particle and electron 
+D 
+positron and proton
+
+===== 9702_w22_qp_12 Q40 =====
+40 Which particle is a lepton? 
+A 
+meson 
+B 
+positron 
+C 
+proton 
+D 
+quark

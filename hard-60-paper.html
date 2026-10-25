@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hard Practice Paper 60 — 9702 Paper 2</title>
+<style>
+  :root {
+    --ink: #1d1a16;
+    --muted: #6b655c;
+    --rule: #d8d3ca;
+    --accent: #8a6d4f;
+    --paper: #fdfcfa;
+    --panel: #f4f1eb;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+    color: var(--ink);
+    background: #e9e5dd;
+    line-height: 1.5;
+  }
+  .sheet {
+    max-width: 820px; margin: 28px auto; padding: 56px 64px;
+    background: var(--paper);
+    box-shadow: 0 2px 18px rgba(0,0,0,.12);
+  }
+  header { border-bottom: 3px double var(--ink); padding-bottom: 16px; margin-bottom: 8px; }
+  h1 { font-size: 25px; margin: 0 0 2px; letter-spacing: .5px; }
+  .sub { color: var(--muted); font-size: 13.5px; font-style: italic; }
+  .meta {
+    display: flex; justify-content: space-between; align-items: baseline;
+    font-size: 13px; color: var(--muted); margin: 10px 0 2px;
+  }
+  .instruct {
+    background: var(--panel); border: 1px solid var(--rule);
+    padding: 14px 16px; margin: 14px 0 22px; font-size: 13.5px;
+  }
+  .instruct p { margin: 4px 0; }
+  .q { margin: 26px 0 10px; }
+  .qhead { font-weight: 700; font-size: 16px; border-bottom: 1px solid var(--rule); padding-bottom: 4px; }
+  .qhead .topic { float: right; font-weight: 400; font-size: 11.5px; color: var(--accent); letter-spacing: .4px; text-transform: uppercase; }
+  .q p { margin: 8px 0; }
+  .q .stem { margin: 6px 0; }
+  .q .part { margin: 10px 0 6px; }
+  .fig { text-align: center; margin: 14px 0; }
+  .fig svg { max-width: 100%; height: auto; }
+  .figcap { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  .marks { float: right; color: var(--muted); font-size: 12.5px; }
+  .blank { display: inline-block; border-bottom: 1px dotted var(--ink); min-width: 120px; height: 1.2em; }
+  .ansline { margin: 10px 0 4px; }
+  .total { text-align: right; font-weight: 700; margin: 10px 0 0; }
+  .eq { font-family: 'Times New Roman', serif; }
+  .sr { font-size: 11px; color: var(--muted); letter-spacing: .3px; text-transform: uppercase; }
+  .footnote { font-size: 11.5px; color: var(--muted); margin-top: 34px; border-top: 1px solid var(--rule); padding-top: 10px; }
+  sub, sup { line-height: 0; font-size: 70%; }
+  @media print { body { background: #fff; } .sheet { box-shadow: none; margin: 0; max-width: none; } }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <header>
+    <h1>Physics 9702 &mdash; AS Level Structured Questions</h1>
+    <div class="sub">Hard Practice Paper &middot; total 60 marks &middot; questions adapted from the hardest Paper&nbsp;2 items</div>
+  </header>
+
+  <div class="meta">
+    <span>Time allowed: 1 hour 15 minutes</span>
+    <span>Total: <b>60 marks</b></span>
+  </div>
+
+  <div class="instruct">
+    <p><b>Answer all questions.</b></p>
+    <p>Write your answers in the spaces provided. Numerical answers should be quoted to an appropriate number of significant figures.</p>
+    <p>The acceleration of free fall may be taken as g = 9.81 m s<sup>&minus;2</sup>.</p>
+    <p>You may use a scientific calculator.</p>
+  </div>
+
+  <!-- ============ Q1 KINEMATICS ============ -->
+  <section class="q">
+    <div class="qhead"><span class="topic">Kinematics</span>1</div>
+
+    <div class="part"><b>(a)</b> Define displacement. <span class="marks">[1]</span></div>
+    <div class="ansline"><span class="blank"></span></div>
+
+    <p class="stem">An object is projected horizontally at a speed of 8.0&nbsp;m&nbsp;s<sup>&minus;1</sup> from a slope, as shown in Fig.&nbsp;1.1. The slope is at an angle &theta; to the horizontal. Air resistance is negligible.</p>
+
+    <div class="fig">
+      <svg viewBox="0 0 340 190" width="340" role="img" aria-label="object projected horizontally from a slope">
+        <line x1="40" y1="46" x2="300" y2="180" stroke="#1d1a16" stroke-width="1.6"/>
+        <line x1="40" y1="46" x2="300" y2="46" stroke="#1d1a16" stroke-width="1" stroke-dasharray="4 4"/>
+        <path d="M 96 58 Q 150 60 196 150" fill="none" stroke="#1d1a16" stroke-width="1.4" stroke-dasharray="3 3"/>
+        <circle cx="96" cy="58" r="4.5" fill="#1d1a16"/>
+        <path d="M 96 58 h 26" stroke="#8a6d4f" stroke-width="1.3" marker-end="url(#a1)"/>
+        <defs><marker id="a1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#8a6d4f"/></marker></defs>
+        <path d="M 40 80 A 40 40 0 0 0 70 46" fill="none" stroke="#1d1a16" stroke-width="1"/>
+        <text x="52" y="86" font-size="12">&theta;</text>
+        <text x="104" y="42" font-size="12">8.0 m s<sup>-1</sup></text>
+        <text x="78" y="72" font-size="11.5">object</text>
+        <text x="238" y="176" font-size="12">slope</text>
+        <text x="282" y="38" font-size="12">horizontal</text>
+      </svg>
+      <div class="figcap">Fig. 1.1 (not to scale)</div>
+    </div>
+
+    <p class="stem">The object lands on the slope a time of 0.60&nbsp;s later and stops without rolling or bouncing.</p>
+
+    <div class="part"><b>(b)(i)</b> Determine the horizontal distance travelled by the object. <span class="marks">[1]</span></div>
+    <div class="ansline">distance = <span class="blank"></span> m</div>
+
+    <div class="part"><b>(b)(ii)</b> Determine the vertical distance travelled by the object. <span class="marks">[2]</span></div>
+    <div class="ansline">distance = <span class="blank"></span> m</div>
+
+    <div class="part"><b>(b)(iii)</b> Use your answers in <b>(b)(i)</b> and <b>(b)(ii)</b> to calculate &theta;. <span class="marks">[2]</span></div>
+    <div class="ansline">&theta; = <span class="blank"></span> &deg;</div>
+
+    <div class="part"><b>(b)(iv)</b> Determine the magnitude of the displacement of the object from its original position. <span class="marks">[2]</span></div>
+    <div class="ansline">displacement = <span class="blank"></span> m</div>
+
+    <div class="part"><b>(b)(v)</b> By considering energy, calculate the speed of the object just before it lands. <span class="marks">[2]</span></div>
+    <div class="ansline">speed = <span class="blank"></span> m s<sup>&minus;1</sup></div>
+
+    <div class="total">[Total: 10]</div>
+  </section>
+
+  <!-- ============ Q2 DYNAMICS ============ -->
+  <section class="q">
+    <div class="qhead"><span class="topic">Dynamics</span>2</div>
+
+    <p class="stem">An object of constant mass moves in a straight line. The variation with time <i>t</i> of the momentum <i>p</i> of the object is shown in Fig.&nbsp;2.1.</p>
+
+    <div class="fig">
+      <svg viewBox="0 0 360 230" width="360" role="img" aria-label="momentum-time graph">
+        <!-- axes -->
+        <line x1="46" y1="14" x2="46" y2="196" stroke="#1d1a16" stroke-width="1.4"/>
+        <line x1="46" y1="196" x2="330" y2="196" stroke="#1d1a16" stroke-width="1.4"/>
+        <polygon points="330,196 322,193 322,199" fill="#1d1a16"/>
+        <polygon points="46,14 43,22 49,22" fill="#1d1a16"/>
+        <!-- gridlines (p) -->
+        <g stroke="#d9d4ca" stroke-width="0.7">
+          <line x1="46" y1="156" x2="330" y2="156"/>
+          <line x1="46" y1="116" x2="330" y2="116"/>
+          <line x1="46" y1="76" x2="330" y2="76"/>
+          <line x1="46" y1="36" x2="330" y2="36"/>
+        </g>
+        <!-- p labels -->
+        <text x="30" y="200" font-size="11" text-anchor="end">&minus;2</text>
+        <text x="30" y="160" font-size="11" text-anchor="end">&minus;1</text>
+        <text x="30" y="120" font-size="11" text-anchor="end">0</text>
+        <text x="30" y="80" font-size="11" text-anchor="end">1</text>
+        <text x="30" y="40" font-size="11" text-anchor="end">2</text>
+        <text x="30" y="20" font-size="11" text-anchor="end">3</text>
+        <!-- plot: (0,0)->(6,3)->(10,-1) -->
+        <polyline points="46,116 214,36 326,156" fill="none" stroke="#1d1a16" stroke-width="2"/>
+        <circle cx="46" cy="116" r="2.6" fill="#1d1a16"/>
+        <circle cx="214" cy="36" r="2.6" fill="#1d1a16"/>
+        <circle cx="326" cy="156" r="2.6" fill="#1d1a16"/>
+        <!-- t ticks -->
+        <g stroke="#1d1a16" stroke-width="1">
+          <line x1="46" y1="196" x2="46" y2="201"/>
+          <line x1="102" y1="196" x2="102" y2="201"/>
+          <line x1="158" y1="196" x2="158" y2="201"/>
+          <line x1="214" y1="196" x2="214" y2="201"/>
+          <line x1="270" y1="196" x2="270" y2="201"/>
+          <line x1="326" y1="196" x2="326" y2="201"/>
+        </g>
+        <text x="46" y="214" font-size="11" text-anchor="middle">0</text>
+        <text x="102" y="214" font-size="11" text-anchor="middle">2</text>
+        <text x="158" y="214" font-size="11" text-anchor="middle">4</text>
+        <text x="214" y="214" font-size="11" text-anchor="middle">6</text>
+        <text x="270" y="214" font-size="11" text-anchor="middle">8</text>
+        <text x="326" y="214" font-size="11" text-anchor="middle">10</text>
+        <!-- axis titles -->
+        <text x="332" y="206" font-size="12">t / s</text>
+        <text x="22" y="8" font-size="12" transform="rotate(-90 22 8)" style="transform-origin:22px 8px;">p / kg m s&minus;1</text>
+      </svg>
+      <div class="figcap">Fig. 2.1</div>
+    </div>
+
+    <div class="part"><b>(a)</b> Define momentum. <span class="marks">[1]</span></div>
+    <div class="ansline"><span class="blank"></span></div>
+
+    <div class="part"><b>(b)</b> Calculate the change in momentum of the object from time <i>t</i> = 0 to <i>t</i> = 10&nbsp;s. <span class="marks">[1]</span></div>
+    <div class="ansline">change in momentum = <span class="blank"></span> kg m s<sup>&minus;1</sup></div>
+
+    <div class="part"><b>(c)</b> Calculate the magnitude of the resultant force acting on the object during the first 6.0&nbsp;s of its motion. <span class="marks">[2]</span></div>
+    <div class="ansline">force = <span class="blank"></span> N</div>
+
+    <div class="part"><b>(d)</b> Describe the variation of the speed of the object from time <i>t</i> = 0 to <i>t</i> = 6.0&nbsp;s. <span class="marks">[1]</span></div>
+    <div class="ansline"><span class="blank"></span></div>
+
+    <div class="part"><b>(e)</b> By reference to Fig.&nbsp;2.1, explain why the resultant force acting on the object during the first 6.0&nbsp;s of its motion cannot be due to air resistance. <span class="marks">[2]</span></div>
+    <div class="ansline"><span class="blank"></span></div>
+    <div class="ansline"><span class="blank"></span></div>
+
+    <div class="part"><b>(f)</b> At time <i>t</i> = 0 the displacement <i>d</i> of the object is zero. On the axes of Fig.&nbsp;2.2, sketch the variation of <i>d</i> with time <i>t</i> from <i>t</i> = 0 to <i>t</i> = 10&nbsp;s. Numerical values of <i>d</i> are not required. <span class="marks">[3]</span></div>
+    <div class="fig">
+      <svg viewBox="0 0 340 190" width="340" role="img" aria-label="blank displacement-time axes">
+        <line x1="46" y1="16" x2="46" y2="170" stroke="#1d1a16" stroke-width="1.3"/>
+        <line x1="46" y1="170" x2="318" y2="170" stroke="#1d1a16" stroke-width="1.3"/>
+        <polygon points="318,170 310,167 310,173" fill="#1d1a16"/>
+        <polygon points="46,16 43,24 49,24" fill="#1d1a16"/>
+        <g stroke="#1d1a16" stroke-width="1">
+          <line x1="46" y1="170" x2="46" y2="175"/><line x1="92" y1="170" x2="92" y2="175"/>
+          <line x1="138" y1="170" x2="138" y2="175"/><line x1="184" y1="170" x2="184" y2="175"/>
+          <line x1="230" y1="170" x2="230" y2="175"/><line x1="276" y1="170" x2="276" y2="175"/>
+        </g>
+        <text x="46" y="188" font-size="11" text-anchor="middle">0</text>
+        <text x="138" y="188" font-size="11" text-anchor="middle">4</text>
+        <text x="230" y="188" font-size="11" text-anchor="middle">8</text>
+        <text x="320" y="178" font-size="12">t / s</text>
+        <text x="26" y="10" font-size="12">d</text>
+        <text x="46" y="160" font-size="11" text-anchor="end">0</text>
+      </svg>
+      <div class="figcap">Fig. 2.2</div>
+    </div>
+
+    <div class="total">[Total: 10]</div>
+  </section>
+
+  <!-- ============ Q3 DEFORMATION ============ -->
+  <section class="q">
+    <div class="qhead"><span class="topic">Deformation of solids</span>3</div>
+
+    <p class="stem">The lower end of a vertical spring is fixed to a horizontal surface, as shown in Fig.&nbsp;3.1. The spring has negligible mass and obeys Hooke&rsquo;s law. A block of mass 5.0&nbsp;kg drops vertically onto the spring and is brought to rest as the spring is compressed.</p>
+
+    <div class="fig">
+      <svg viewBox="0 0 200 190" width="200" role="img" aria-label="block on a vertical spring">
+        <line x1="40" y1="176" x2="160" y2="176" stroke="#1d1a16" stroke-width="1.6"/>
+        <g stroke="#1d1a16" stroke-width="1.4" fill="none">
+          <path d="M 100 172 L 84 158 L 116 146 L 84 134 L 116 122 L 84 110 L 116 98 L 84 86 L 116 74 L 100 60"/>
+        </g>
+        <rect x="78" y="30" width="44" height="28" fill="#f4f1eb" stroke="#1d1a16" stroke-width="1.4"/>
+        <text x="100" y="48" font-size="11" text-anchor="middle">block</text>
+        <text x="150" y="60" font-size="11">5.0 kg</text>
+        <text x="100" y="152" font-size="11" text-anchor="middle">spring</text>
+        <text x="120" y="186" font-size="11">horizontal surface</text>
+      </svg>
+      <div class="figcap">Fig. 3.1 (not to scale)</div>
+    </div>
+
+    <div class="part"><b>(a)</b> The block has kinetic energy 40&nbsp;J as it makes contact with the spring. Calculate the speed of the block as it makes contact with the spring. <span class="marks">[2]</span></div>
+    <div class="ansline">speed = <span class="blank"></span> m s<sup>&minus;1</sup></div>
+
+    <div class="part"><b>(b)</b> The gravitational potential energy of the block decreases by 9.8&nbsp;J as the spring is compressed to its maximum compression <i>x</i><sub>0</sub>. Show that <i>x</i><sub>0</sub> is 0.20&nbsp;m. <span class="marks">[2]</span></div>
+
+    <div class="part"><b>(c)</b> Assume that, as the spring compresses, all of the energy lost by the block is converted into the elastic potential energy of the spring. Determine the maximum elastic potential energy of the spring. <span class="marks">[1]</span></div>
+    <div class="ansline">maximum elastic potential energy = <span class="blank"></span> J</div>
+
+    <div class="part"><b>(d)</b> The variation of the force <i>F</i> acting on the spring with the compression <i>x</i> of the spring is shown in Fig.&nbsp;3.2. Use the information in <b>(b)</b> and your answer in <b>(c)</b> to show that the maximum force <i>F</i><sub>0</sub> exerted on the spring by the block is 500&nbsp;N. <span class="marks">[2]</span></div>
+
+    <div class="fig">
+      <svg viewBox="0 0 320 220" width="320" role="img" aria-label="force-extension graph">
+        <line x1="50" y1="18" x2="50" y2="190" stroke="#1d1a16" stroke-width="1.4"/>
+        <line x1="50" y1="190" x2="300" y2="190" stroke="#1d1a16" stroke-width="1.4"/>
+        <polygon points="300,190 292,187 292,193" fill="#1d1a16"/>
+        <polygon points="50,18 47,26 53,26" fill="#1d1a16"/>
+        <g stroke="#d9d4ca" stroke-width="0.7">
+          <line x1="50" y1="150" x2="300" y2="150"/><line x1="50" y1="110" x2="300" y2="110"/>
+          <line x1="50" y1="70" x2="300" y2="70"/><line x1="50" y1="30" x2="300" y2="30"/>
+        </g>
+        <line x1="50" y1="190" x2="266" y2="54" stroke="#1d1a16" stroke-width="2"/>
+        <circle cx="266" cy="54" r="2.6" fill="#1d1a16"/>
+        <!-- F labels -->
+        <text x="38" y="194" font-size="11" text-anchor="end">0</text>
+        <text x="38" y="154" font-size="11" text-anchor="end">100</text>
+        <text x="38" y="114" font-size="11" text-anchor="end">200</text>
+        <text x="38" y="74" font-size="11" text-anchor="end">300</text>
+        <text x="38" y="34" font-size="11" text-anchor="end">400</text>
+        <!-- x labels -->
+        <g stroke="#1d1a16" stroke-width="1">
+          <line x1="50" y1="190" x2="50" y2="195"/><line x1="104" y1="190" x2="104" y2="195"/>
+          <line x1="158" y1="190" x2="158" y2="195"/><line x1="212" y1="190" x2="212" y2="195"/>
+          <line x1="266" y1="190" x2="266" y2="195"/>
+        </g>
+        <text x="50" y="210" font-size="11" text-anchor="middle">0</text>
+        <text x="158" y="210" font-size="11" text-anchor="middle">0.10</text>
+        <text x="266" y="210" font-size="11" text-anchor="middle">0.20</text>
+        <text x="302" y="198" font-size="12">x / m</text>
+        <text x="30" y="10" font-size="12">F / N</text>
+        <text x="270" y="46" font-size="11" font-style="italic">F<sub>0</sub></text>
+        <text x="60" y="200" font-size="11" font-style="italic">x<sub>0</sub></text>
+      </svg>
+      <div class="figcap">Fig. 3.2</div>
+    </div>
+
+    <div class="part"><b>(e)</b> Use the information in <b>(d)</b> to determine, for the instant that the block is first brought to rest by the spring, the magnitude of:</div>
+    <div class="part" style="padding-left:20px;"><b>(i)</b> the resultant force acting on the block, <span class="marks">[2]</span></div>
+    <div class="ansline" style="padding-left:20px;">resultant force = <span class="blank"></span> N</div>
+    <div class="part" style="padding-left:20px;"><b>(ii)</b> the acceleration of the block. <span class="marks">[1]</span></div>
+    <div class="ansline" style="padding-left:20px;">acceleration = <span class="blank"></span> m s<sup>&minus;2</sup></div>
+
+    <div class="total">[Total: 10]</div>
+  </section>
+
+  <!-- ============ Q4 SUPERPOSITION ============ -->
+  <section class="q">
+    <div class="qhead"><span class="topic">Superposition</span>4</div>
+
+    <div class="part"><b>(a)</b> State what is meant by diffraction. <span class="marks">[1]</span></div>
+    <div class="ansline"><span class="blank"></span></div>
+
+    <p class="stem">Light of wavelength 680&nbsp;nm in a vacuum is incident normally on a diffraction grating, as shown in Fig.&nbsp;4.1. A screen is parallel to the grating and an interference pattern is seen on the screen. The angle between the two second-order maxima is 58&deg;.</p>
+
+    <div class="fig">
+      <svg viewBox="0 0 380 190" width="380" role="img" aria-label="diffraction grating and screen">
+        <rect x="40" y="50" width="12" height="90" fill="#1d1a16"/>
+        <g stroke="#d9d4ca" stroke-width="1">
+          <line x1="44" y1="50" x2="44" y2="140"/><line x1="48" y1="50" x2="48" y2="140"/>
+        </g>
+        <line x1="320" y1="40" x2="320" y2="150" stroke="#1d1a16" stroke-width="1.4"/>
+        <line x1="52" y1="95" x2="320" y2="95" stroke="#8a6d4f" stroke-width="1.4"/>
+        <line x1="52" y1="95" x2="320" y2="62" stroke="#8a6d4f" stroke-width="1.2"/>
+        <line x1="52" y1="95" x2="320" y2="128" stroke="#8a6d4f" stroke-width="1.2"/>
+        <circle cx="320" cy="95" r="3" fill="#1d1a16"/>
+        <circle cx="320" cy="62" r="3" fill="#1d1a16"/>
+        <circle cx="320" cy="128" r="3" fill="#1d1a16"/>
+        <path d="M 52 95 A 70 70 0 0 0 116 65" fill="none" stroke="#1d1a16" stroke-width="1"/>
+        <text x="100" y="70" font-size="12">29&deg;</text>
+        <text x="78" y="120" font-size="11.5">light</text>
+        <text x="24" y="148" font-size="11.5">grating</text>
+        <text x="316" y="166" font-size="11.5">screen</text>
+        <text x="140" y="150" font-size="11" fill="#6b655c">second-order maxima</text>
+      </svg>
+      <div class="figcap">Fig. 4.1 (not to scale)</div>
+    </div>
+
+    <div class="part"><b>(b)(i)</b> Calculate the frequency of the light. <span class="marks">[2]</span></div>
+    <div class="ansline">frequency = <span class="blank"></span> Hz</div>
+
+    <div class="part"><b>(b)(ii)</b> Calculate the number of lines per unit length in the diffraction grating. <span class="marks">[3]</span></div>
+    <div class="ansline">number per unit length = <span class="blank"></span> m<sup>&minus;1</sup></div>
+
+    <div class="part"><b>(b)(iii)</b> The light is now replaced with light of a different wavelength &lambda;. It is observed that the third-order maxima of this light are at the same positions as the second-order maxima of the light in Fig.&nbsp;4.1. Calculate, in nm, the wavelength &lambda;. <span class="marks">[2]</span></div>
+    <div class="ansline">&lambda; = <span class="blank"></span> nm</div>
+
+    <div class="part"><b>(b)(iv)</b> State and explain the effect on the positions of the maxima of using light of a longer wavelength. <span class="marks">[2]</span></div>
+    <div class="ansline"><span class="blank"></span></div>
+    <div class="ansline"><span class="blank"></span></div>
+
+    <div class="total">[Total: 10]</div>
+  </section>
+
+  <!-- ============ Q5 DC CIRCUITS ============ -->
+  <section class="q">
+    <div class="qhead"><span class="topic">D.C. circuits</span>5</div>
+
+    <div class="part"><b>(a)</b> Define electric potential difference across a component. <span class="marks">[1]</span></div>
+    <div class="ansline"><span class="blank"></span></div>
+
+    <p class="stem">A circuit contains four resistors and a battery of electromotive force (e.m.f.) 6.0&nbsp;V with negligible internal resistance, as shown in Fig.&nbsp;5.1. When the variable resistor has resistance <i>R</i>, the current in the battery is 0.060&nbsp;A and the currents in the two branches are <i>I</i><sub>1</sub> and <i>I</i><sub>2</sub>.</p>
+
+    <div class="fig">
+      <svg viewBox="0 0 380 230" width="380" role="img" aria-label="resistor network circuit">
+        <!-- rails -->
+        <line x1="90" y1="40" x2="270" y2="40" stroke="#1d1a16" stroke-width="1.6"/>
+        <line x1="90" y1="200" x2="270" y2="200" stroke="#1d1a16" stroke-width="1.6"/>
+        <!-- battery on left -->
+        <line x1="90" y1="40" x2="90" y2="100" stroke="#1d1a16" stroke-width="1.6"/>
+        <line x1="90" y1="140" x2="90" y2="200" stroke="#1d1a16" stroke-width="1.6"/>
+        <line x1="80" y1="100" x2="100" y2="100" stroke="#1d1a16" stroke-width="2.4"/>
+        <line x1="84" y1="140" x2="96" y2="140" stroke="#1d1a16" stroke-width="1.4"/>
+        <text x="70" y="95" font-size="11" text-anchor="end">6.0 V</text>
+        <!-- left branch: 120 top, 80 bottom -->
+        <line x1="150" y1="40" x2="150" y2="78" stroke="#1d1a16" stroke-width="1.4"/>
+        <rect x="140" y="78" width="20" height="42" fill="#f4f1eb" stroke="#1d1a16" stroke-width="1.3"/>
+        <line x1="150" y1="120" x2="150" y2="158" stroke="#1d1a16" stroke-width="1.4"/>
+        <rect x="140" y="158" width="20" height="42" fill="#f4f1eb" stroke="#1d1a16" stroke-width="1.3"/>
+        <line x1="150" y1="200" x2="150" y2="200" stroke="#1d1a16" stroke-width="1.4"/>
+        <text x="120" y="103" font-size="12">120 &Omega;</text>
+        <text x="122" y="183" font-size="12">80 &Omega;</text>
+        <!-- right branch: 100 top, R bottom -->
+        <line x1="230" y1="40" x2="230" y2="78" stroke="#1d1a16" stroke-width="1.4"/>
+        <rect x="220" y="78" width="20" height="42" fill="#f4f1eb" stroke="#1d1a16" stroke-width="1.3"/>
+        <line x1="230" y1="120" x2="230" y2="158" stroke="#1d1a16" stroke-width="1.4"/>
+        <rect x="220" y="158" width="20" height="42" fill="#f4f1eb" stroke="#1d1a16" stroke-width="1.3"/>
+        <text x="248" y="103" font-size="12">100 &Omega;</text>
+        <text x="254" y="183" font-size="12" font-style="italic">R</text>
+        <!-- currents -->
+        <text x="158" y="120" font-size="12" font-style="italic">I<sub>1</sub></text>
+        <text x="238" y="120" font-size="12" font-style="italic">I<sub>2</sub></text>
+        <text x="60" y="200" font-size="12" font-style="italic">0.060 A</text>
+      </svg>
+      <div class="figcap">Fig. 5.1</div>
+    </div>
+
+    <div class="part"><b>(b)(i)</b> Determine the charge passing through the battery in a time of 4.0&nbsp;minutes. <span class="marks">[2]</span></div>
+    <div class="ansline">charge = <span class="blank"></span> C</div>
+
+    <div class="part"><b>(b)(ii)</b> Calculate <i>I</i><sub>1</sub>. <span class="marks">[2]</span></div>
+    <div class="ansline"><i>I</i><sub>1</sub> = <span class="blank"></span> A</div>
+
+    <div class="part"><b>(b)(iii)</b> Calculate <i>I</i><sub>2</sub>. <span class="marks">[1]</span></div>
+    <div class="ansline"><i>I</i><sub>2</sub> = <span class="blank"></span> A</div>
+
+    <div class="part"><b>(b)(iv)</b> Determine <i>R</i>. <span class="marks">[2]</span></div>
+    <div class="ansline"><i>R</i> = <span class="blank"></span> &Omega;</div>
+
+    <p class="stem">The resistor of resistance 100&nbsp;&Omega; is now replaced by a resistor X of unknown resistance. A galvanometer is connected between the two junctions of the circuit, as shown in Fig.&nbsp;5.2.</p>
+
+    <div class="part"><b>(c)</b> With reference to ratios of resistances, explain how this circuit can be used to determine the resistance of X. <span class="marks">[2]</span></div>
+    <div class="ansline"><span class="blank"></span></div>
+    <div class="ansline"><span class="blank"></span></div>
+
+    <div class="total">[Total: 10]</div>
+  </section>
+
+  <!-- ============ Q6 PARTICLE PHYSICS ============ -->
+  <section class="q">
+    <div class="qhead"><span class="topic">Particle physics</span>6</div>
+
+    <div class="part"><b>(a)</b> Nitrogen-13 (<sup>13</sup><sub>7</sub>N) is an unstable isotope of nitrogen that decays by the emission of a &beta;<sup>+</sup> particle to carbon-13 (<sup>13</sup><sub>6</sub>C). Complete the full nuclear equation for this decay, including all the particles involved. <span class="marks">[3]</span></div>
+    <div class="ansline" style="text-align:center;font-size:16px;"><sup>13</sup><sub>7</sub>N &rarr; <span class="blank" style="min-width:44px;"></span> + <span class="blank" style="min-width:44px;"></span> + <span class="blank" style="min-width:40px;"></span></div>
+
+    <p class="stem">A positron emitted in this decay meets an electron and the two particles annihilate, producing gamma-ray photons.</p>
+
+    <div class="part"><b>(b)(i)</b> State the charge on the positron in terms of the elementary charge <i>e</i>. <span class="marks">[1]</span></div>
+    <div class="ansline">charge = <span class="blank"></span> e</div>
+
+    <div class="part"><b>(b)(ii)</b> State the group (class) of fundamental particle to which the positron belongs. <span class="marks">[1]</span></div>
+    <div class="ansline"><span class="blank"></span></div>
+
+    <div class="part"><b>(b)(iii)</b> State the number of photons produced in the annihilation and explain why this number is produced. <span class="marks">[2]</span></div>
+    <div class="ansline"><span class="blank"></span></div>
+    <div class="ansline"><span class="blank"></span></div>
+
+    <p class="stem">An antiproton is the antiparticle of a proton. The antiproton comprises the antiquarks of the quarks in a proton.</p>
+
+    <div class="part"><b>(c)</b> State the flavour and the charge, in terms of <i>e</i>, of each of the three antiquarks that comprise the antiproton. <span class="marks">[3]</span></div>
+    <div class="ansline">flavour: <span class="blank"></span> <span class="blank"></span> <span class="blank"></span></div>
+    <div class="ansline">charge: <span class="blank"></span> <span class="blank"></span> <span class="blank"></span></div>
+
+    <div class="total">[Total: 10]</div>
+  </section>
+
+  <div class="footnote">
+    <span class="sr">End of paper.</span> Questions adapted from Cambridge 9702 Paper&nbsp;2 structured questions (2024&ndash;2025), modified in value and wording. All topics are within the AS syllabus.
+  </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,835 @@
+===== 9702_s25_qp_13 Q1 =====
+1 
+What represents a vector quantity? 
+A 
+1 N upwards 
+B 
+2 kg decrease 
+C 
+3 K cooler 
+D 
+4 s later
+
+===== 9702_s25_qp_13 Q2 =====
+2 
+What is a reasonable estimate of the current in an electric kettle that is in use? 
+A 
+8 A 
+B 
+8 mA 
+C 
+8 A 
+D 
+8 kA
+
+===== 9702_s25_qp_13 Q3 =====
+3 
+Which statement about errors in measurements is correct? 
+A 
+An accurate set of measurements always has a small random error. 
+B 
+A precise set of measurements always has a small systematic error. 
+C 
+A random error can be reduced by taking an average of several measurements. 
+D 
+A systematic error creates a random set of measurements spread out about the true value.
+
+===== 9702_s25_qp_13 Q4 =====
+4 
+A sample of material has cross-sectional area A and length L. The temperatures at the two sides 
+of the sample are T1 and T2. Thermal energy Q is transferred through the sample in time t. 
+ 
+These quantities are related by 
+ 
+t
+Q = 
+L
+T
+T
+A
+k
+)
+(
+2
+  
+1 –
+
+
+ 
+ 
+where k is a constant. 
+ 
+What are the SI base units of k ? 
+A 
+kg m s–3
+ °C–1 
+B 
+kg m s–3
+ K–1 
+C 
+kg m s–1
+ °C–1 
+D 
+kg m s–1
+ K–1
+
+===== 9702_s25_qp_13 Q5 =====
+5 
+The graph shows the variation of velocity with time t of an object moving in a straight line. 
+ 
+4
+3
+2
+1
+0
+–1
+–2
+–3
+–4
+velocity / m s–1
+t / s
+0
+4
+8
+12
+16
+20
+24
+28
+32
+ 
+ 
+At t = 0, the displacement of the object is zero. 
+ 
+What is the displacement of the object at t = 20 s? 
+A 
+–3 m 
+B 
+21 m 
+C 
+24 m 
+D 
+27 m
+
+===== 9702_s25_qp_13 Q6 =====
+6 
+A science museum designs an experiment to show the fall of a feather in a vertical glass vacuum 
+tube. 
+ 
+The time of fall from rest in the vacuum is to be close to 0.5 s. 
+ 
+Which length of tube is required? 
+A 
+1.2 m 
+B 
+2.5 m 
+C 
+4.9 m 
+D 
+9.8 m
+
+===== 9702_s25_qp_13 Q7 =====
+7 
+Two coins are projected from a horizontal table at the same initial speed u. 
+ 
+Coin X is projected horizontally. 
+ 
+Coin Y is projected upwards at an angle of 30° to the horizontal. 
+ 
+u
+u
+coin X
+coin Y
+30°
+ 
+ 
+Both coins hit the horizontal ground without bouncing. 
+ 
+Assume the air resistance on each coin is negligible. 
+ 
+Which statement about the motion of the coins is correct? 
+A 
+Both coins hit the ground with the same speed. 
+B 
+Both coins travel the same vertical distance. 
+C 
+Coin Y hits the ground before coin X. 
+D 
+Coin Y has a smaller vertical acceleration.
+
+===== 9702_s25_qp_13 Q8 =====
+8 
+Two spheres are released from rest at equal heights above the ground. 
+ 
+Both spheres reach terminal velocity. 
+ 
+One sphere has a larger density than the other sphere. 
+ 
+Both spheres have equal volumes. 
+ 
+Which statement is correct while both spheres are at terminal velocity? 
+A 
+The drag forces on the spheres are equal. 
+B 
+The resultant forces on the spheres are equal. 
+C 
+The velocities of the spheres are equal. 
+D 
+The weights of the spheres are equal.
+
+===== 9702_s25_qp_13 Q9 =====
+9 
+Which statement defines force? 
+A 
+When a force acts on a body that is free to move, the force is the product of the mass of the 
+body and its acceleration. 
+B 
+When a force acts on a body that is free to move, the force is the rate of change of 
+momentum of the body. 
+C 
+When a force acts on a body that is free to move, the force is the work done by the force 
+divided by the distance moved by the body. 
+D 
+When a force acts on a lever and causes a moment, the force is the moment divided by the 
+perpendicular distance of the force from the pivot.
+
+===== 9702_s25_qp_13 Q10 =====
+10 Four forces, all in the same plane, act on an object. 
+ 
+12 N
+12 N
+20 N
+20 N
+ 
+ 
+What could describe the motion of the object? 
+A 
+It is accelerating. 
+B 
+It is moving in a straight line. 
+C 
+It is moving with decreasing speed. 
+D 
+It is moving with increasing momentum.
+
+===== 9702_s25_qp_13 Q11 =====
+11 A nucleus collides with a stationary nucleus in a vacuum. The diagrams show the paths of the 
+nuclei before and after the collision. 
+ 
+No other particles are involved in the collision. 
+ 
+Which diagram is not possible? 
+ 
+A
+C
+B
+D
+
+===== 9702_s25_qp_13 Q12 =====
+12 A non-uniform bar PQ has length 50 cm and weight 200 N. 
+ 
+P
+Q
+50 cm
+360 N
+block
+non-uniform bar
+ 
+ 
+A block of weight 400 N is attached to the top of the bar at its centre. The bar rests on horizontal 
+ground. 
+ 
+A vertical force of 360 N is now exerted upwards on the bar at end Q and is just sufficient to lift 
+end Q from the ground. 
+ 
+What is the distance from the centre of gravity of the bar to end P? 
+A 
+0.050 m 
+B 
+0.10 m 
+C 
+0.25 m 
+D 
+0.40 m
+
+===== 9702_s25_qp_13 Q13 =====
+13 What is the definition of density? 
+A 
+mass of one cubic metre 
+B 
+mass of a unit volume 
+C 
+mass per cubic metre 
+D 
+mass per unit volume
+
+===== 9702_s25_qp_13 Q14 =====
+14 A block is in equilibrium on a slope. 
+ 
+block
+ 
+ 
+Which vector triangle represents the three forces acting on the block? 
+ 
+A
+B
+C
+D
+
+===== 9702_s25_qp_13 Q15 =====
+15 A measuring cylinder contains 80 cm3 of a liquid. 
+ 
+The pressure due to the liquid at the 60 cm3 mark is 1200 Pa. 
+ 
+What is the pressure due to the liquid at the base of the measuring cylinder? 
+A 
+1200 Pa 
+B 
+1600 Pa 
+C 
+3600 Pa 
+D 
+4800 Pa
+
+===== 9702_s25_qp_13 Q16 =====
+16 Four identical uniform blocks are spread on a table. Each block has mass m and thickness h. 
+ 
+h
+h
+ 
+ 
+The acceleration of free fall is g. 
+ 
+How much work is done on the blocks in stacking them on top of one another? 
+A 
+3mgh 
+B 
+6mgh 
+C 
+8mgh 
+D 
+10mgh
+
+===== 9702_s25_qp_13 Q17 =====
+17 An electric motor uses 1.7 kW of power when operating normally. 
+ 
+The efficiency of the motor is 53%. 
+ 
+What is the useful output power of the motor? 
+A 
+0.032 kW 
+B 
+0.90 kW 
+C 
+3.2 kW 
+D 
+90 kW
+
+===== 9702_s25_qp_13 Q18 =====
+18 A ball is released from rest and falls vertically to the ground. 
+ 
+The kinetic energy EK of the ball varies as the height h of the ball above the ground changes. 
+ 
+Air resistance is negligible. 
+ 
+Which graph shows the variation of EK with h? 
+ 
+0
+A
+0
+h
+EK
+0
+B
+0
+h
+EK
+0
+C
+0
+h
+EK
+0
+D
+0
+h
+EK
+
+===== 9702_s25_qp_13 Q19 =====
+19 An object travelling with a speed of 10 m s–1 has kinetic energy of 1500 J. 
+ 
+The speed of the object is increased to 40 m s–1. 
+ 
+What is the new kinetic energy of the object? 
+A 
+4500 J 
+B 
+6000 J 
+C 
+24 000 J 
+D 
+1 350 000 J
+
+===== 9702_s25_qp_13 Q20 =====
+20 What are the units of stress, strain and the Young modulus? 
+ 
+ 
+stress 
+strain 
+Young 
+modulus 
+A 
+newton 
+metre 
+pascal 
+B 
+newton 
+no unit 
+newton 
+C 
+pascal 
+metre 
+newton 
+D 
+pascal 
+no unit 
+pascal
+
+===== 9702_s25_qp_13 Q21 =====
+21 The force–extension graph for a metal wire is shown. 
+ 
+0
+0
+force
+extension
+ 
+ 
+Which quantity is represented by the area under the graph? 
+A 
+power transferred to the wire 
+B 
+temperature increase in the wire 
+C 
+time taken for the wire to extend 
+D 
+work done on the wire
+
+===== 9702_s25_qp_13 Q22 =====
+22 A wire of length L0 is attached at one end to a fixed point. A tensile force is applied to the other 
+end so that the wire extends and has a new length L1. 
+ 
+What is the strain of the wire? 
+A 
+
+
+
+
+0
+1
+L
+L
+ – 1 
+B 
+L1 – L0 
+C 
+
+
+
+
+0
+1
+L
+L
+ + 1 
+D 
+L1 + L0
+
+===== 9702_s25_qp_13 Q23 =====
+23 A wire of length L is stretched to determine its limit of proportionality. 
+ 
+The graph shows the variation of the extension x with the force F applied to the wire. 
+ 
+P
+0
+0
+F
+x
+ 
+ 
+The limit of proportionality is shown by point P on the graph. 
+ 
+The experiment is repeated with another wire of length 2L but of the same material and same 
+diameter as the first wire. 
+ 
+Which point on the graph shows the limit of proportionality for the new wire? 
+ 
+0
+0
+P
+F
+x
+C
+A
+B
+D
+
+===== 9702_s25_qp_13 Q24 =====
+24 The graph shows the variation with distance along the wave of the displacement of water 
+particles at a particular instant in time for a transverse water wave. 
+ 
+4
+2
+0
+–2
+–4
+0
+4
+8
+12
+16
+20
+24
+distance / m
+displacement / m
+P
+Q
+R
+ 
+ 
+P, Q and R show the positions of three water particles in the wave. 
+ 
+Which particle has the greatest speed at the instant shown? 
+A 
+all have the same speed 
+B 
+particle P 
+C 
+particle Q 
+D 
+particle R
+
+===== 9702_s25_qp_13 Q25 =====
+25 Which phenomenon is only associated with transverse waves? 
+A 
+diffraction 
+B 
+interference 
+C 
+polarisation 
+D 
+reflection
+
+===== 9702_s25_qp_13 Q26 =====
+26 A wave is displayed on an oscilloscope. 
+ 
+ 
+ 
+The oscilloscope settings are: 
+ 
+time–base: 300 s div–1 
+ 
+y-gain: 40 V div–1. 
+ 
+What is the frequency of the wave? 
+A 
+130 Hz 
+B 
+950 Hz 
+C 
+1100 Hz 
+D 
+7100 Hz
+
+===== 9702_s25_qp_13 Q27 =====
+27 An electromagnetic wave travelling in free space is not visible to the human eye. 
+ 
+What is a possible wavelength of the wave? 
+A 
+4.5  10–10
+ km 
+B 
+6.2  10–7
+ m 
+C 
+5.4  10–6
+ cm 
+D 
+4.2  10–4
+ mm
+
+===== 9702_s25_qp_13 Q28 =====
+28 Electromagnetic waves of equal wavelengths are emitted from two sources, X and Y. The waves 
+are emitted from X and Y with a phase difference of 180°. 
+ 
+A detector moves along a path that is parallel to the line XY and detects a pattern of intensity 
+maxima and minima. 
+ 
+The diagram shows the arrangement of the sources and the path of the detector. 
+ 
+Z
+X
+Y
+110 cm
+path of detector
+70 cm
+ 
+ 
+An intensity maximum is detected at point Z. Length XZ is 70 cm and length YZ is 110 cm. 
+ 
+What is a possible wavelength of the waves? 
+A 
+10 cm 
+B 
+16 cm 
+C 
+20 cm 
+D 
+40 cm
+
+===== 9702_s25_qp_13 Q29 =====
+29 Two waves of the same type overlap. 
+ 
+When does the principle of superposition apply? 
+A 
+always 
+B 
+only when the waves have the same amplitude 
+C 
+only when the waves travel in opposite directions 
+D 
+only when the waves have the same frequency
+
+===== 9702_s25_qp_13 Q30 =====
+30 A ripple tank contains water at a constant depth. 
+ 
+A water wave of constant frequency travels towards a gap in a barrier placed in the ripple tank. 
+ 
+ 
+ 
+The gap is made smaller. 
+ 
+Which diagram represents the wave before and after the barrier? 
+ 
+A
+B
+C
+D
+
+===== 9702_s25_qp_13 Q31 =====
+31 Light of a single frequency from two coherent sources interferes to produce a pattern of bright 
+and dark fringes on a screen. 
+ 
+Which change results in a larger fringe separation? 
+A 
+increasing the distance between the sources and the screen 
+B 
+increasing the distance between the two sources 
+C 
+increasing the frequency of the light 
+D 
+increasing the intensity of the light
+
+===== 9702_s25_qp_13 Q32 =====
+32 The current I in a metallic conductor of cross-sectional area A is given by 
+ 
+I = Anve 
+ 
+where e is the elementary charge and v is the mean drift velocity of the conduction electrons. 
+ 
+What is represented by the letter n in the equation? 
+A 
+density of conduction electrons 
+B 
+number of conduction electrons per unit time 
+C 
+number of conduction electrons per unit volume 
+D 
+volume of conduction electrons
+
+===== 9702_s25_qp_13 Q33 =====
+33 What cannot be the charge on a charge carrier? 
+A 
+– 4.8  10–19
+ C 
+B 
+–3.2  10–19
+ C 
+C 
+–2.4  10–19
+ C 
+D 
++3.2  10–19
+ C
+
+===== 9702_s25_qp_13 Q34 =====
+34 A steel wire with a length of 2.20 m is connected to a battery as shown. 
+ 
+A
+V
+steel wire
+ 
+ 
+The reading on the voltmeter is 1.50 V and the reading on the ammeter is 4.90 A. 
+ 
+The resistivity of steel is 6.90  10–7
+  m. 
+ 
+What is the diameter of the steel wire? 
+A 
+1.76  10–
+ 4
+ m 
+B 
+3.52  10–
+ 4
+ m 
+C 
+1.26  10–3
+ m 
+D 
+2.51  10–3
+ m
+
+===== 9702_s25_qp_13 Q35 =====
+35 Two resistors of resistance R and two resistors of resistance 3R are connected to a cell of e.m.f. 
+8.0 V as shown. 
+ 
+The cell has negligible internal resistance. 
+ 
+V
+8.0 V
+R
+3R
+3R
+R
+ 
+ 
+What is the reading on the voltmeter? 
+A 
+0.0 V 
+B 
+2.0 V 
+C 
+4.0 V 
+D 
+6.0 V
+
+===== 9702_s25_qp_13 Q36 =====
+36 A battery has an e.m.f. E and internal resistance r. The battery delivers a current I to a variable 
+resistor and the p.d. across its terminals is V. 
+ 
+r
+E
+I
+V
+ 
+ 
+The variable resistor is adjusted so that I increases. 
+ 
+Why does V decrease? 
+A 
+The e.m.f. E decreases. 
+B 
+The internal resistance r increases. 
+C 
+The p.d. across r increases. 
+D 
+The resistance of the variable resistor increases.
+
+===== 9702_s25_qp_13 Q37 =====
+37 An electrical device of fixed resistance 20  is connected in series with a variable resistor and a 
+battery of e.m.f. 16 V and negligible internal resistance. 
+ 
+20 
+device
+16 V
+ 
+ 
+The power dissipated in the electrical device is 4.0 W. 
+ 
+What is the resistance of the variable resistor? 
+A 
+16  
+B 
+36  
+C 
+44  
+D 
+64 
+
+===== 9702_s25_qp_13 Q38 =====
+38 A nucleus decays by emitting a + particle. 
+ 
+Which particle must also be emitted from the nucleus? 
+A 
+antineutrino 
+B 
+β– particle 
+C 
+-particle 
+D 
+neutrino
+
+===== 9702_s25_qp_13 Q39 =====
+39 What are the charges on an antidown quark and on an antistrange quark? 
+ 
+ 
+antidown quark 
+antistrange quark 
+A 
+e
+3
+1
++
+ 
+e
+3
+1
++
+ 
+B 
+e
+3
+1
++
+ 
+e
+3
+1
+–
+ 
+C 
+e
+3
+1
+–
+ 
+e
+3
+1
++
+ 
+D 
+e
+3
+1
+–
+ 
+e
+3
+1
+–
+
+===== 9702_s25_qp_13 Q40 =====
+40 The nucleus of a radioactive isotope of an element emits an -particle. The daughter nucleus 
+then emits a – particle and then the daughter nucleus of that reaction emits another – particle. 
+ 
+Which statement describes the final nuclide that is formed? 
+A 
+It is a different isotope of the original element. 
+B 
+It is a nuclide of a different element of higher proton number. 
+C 
+It is a nuclide of the same element but with different proton number. 
+D 
+It is identical to the original nuclide.

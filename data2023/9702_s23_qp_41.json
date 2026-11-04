@@ -1,0 +1,418 @@
+{
+  "paper": "9702/41/M/J/23",
+  "paper_full": "June 2023 · Paper 41",
+  "questions": [
+    {
+      "topic": "18",
+      "qnum": "Q1",
+      "title": "Gravitational &amp; electric fields — comparing g and E for a charged sphere",
+      "marks": 11,
+      "pages": [4, 5],
+      "pdf": "9702_s23_qp_41_Q1_Electric_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": ["13.1.1"],
+          "marks": 1,
+          "answer": "Gravitational field strength is the force per unit mass acting on a small test mass placed at the point."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": ["18.1.1"],
+          "marks": 1,
+          "answer": "Electric field strength is the force per unit positive charge acting on a small test charge placed at the point."
+        },
+        {
+          "label": "(a)(iii)",
+          "codes": ["13.4.1", "18.5.1"],
+          "marks": 2,
+          "answer": "Similarity (any one): inversely proportional to distance (from the point mass/charge); points of equal potential lie on concentric spheres; zero at infinite distance.<br>Difference (any one): gravitational potential is always negative, whereas electric potential can be positive or negative."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["13.3.2", "18.4.1"],
+          "marks": 3,
+          "answer": "g = GM/r² and E = Q/(4πε₀r²).<br>Dividing: E/g = Q/(4πε₀r²) × r²/GM = Q/(4πε₀GM).<br>Rearranging gives M/Q = (1/4πGε₀)(g/E), i.e. M/Q = α(g/E) where α = 1/(4πGε₀)."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["13.3.2", "18.4.1"],
+          "marks": 1,
+          "answer": "α = 1/(4πGε₀) = 1/(4π × 6.67 × 10⁻¹¹ × 8.85 × 10⁻¹²) = <b>1.35 × 10²⁰ kg² C⁻²</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["18.4.1"],
+          "marks": 2,
+          "answer": "From M/Q = α(g/E), E = αgQ/M = 1.35 × 10²⁰ × 9.81 × 4.80 × 10⁵ / (5.98 × 10²⁴) = <b>106 N C⁻¹</b> (or 106 V m⁻¹)"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["18.4.1"],
+          "marks": 1,
+          "answer": "Same direction — both act radially inwards (towards the centre of the Earth), since the surface charge on the Earth is negative."
+        }
+      ]
+    },
+    {
+      "topic": "12",
+      "qnum": "Q2",
+      "title": "Conical pendulum on a spring — tension, spring constant &amp; circular motion",
+      "marks": 12,
+      "pages": [6, 7],
+      "pdf": "9702_s23_qp_41_Q2_Motion_in_a_circle.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["12.2.1"],
+          "marks": 3,
+          "answer": "When the sphere moves in a circle, the spring must also provide a horizontal force to produce the centripetal acceleration. The vertical component of the tension now balances the weight (T cos 27° = mg), so the tension T is greater than mg (its value in Fig. 2.1). A greater tension stretches the spring further, so the spring is longer."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["12.2.2"],
+          "marks": 1,
+          "answer": "r = 10.8 × sin 27° = <b>4.9 cm</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["12.2.4"],
+          "marks": 2,
+          "answer": "T cos 27° = mg = 0.29 × 9.81, so T = 0.29 × 9.81 / cos 27° = <b>3.2 N</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": ["12.2.4"],
+          "marks": 2,
+          "answer": "Increase in tension ΔT = 3.2 − (0.29 × 9.81) = 0.355 N; extension Δx = 10.8 − 8.5 = 2.3 cm.<br>k = ΔT/Δx = 0.355/2.3 = <b>0.15 N cm⁻¹</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["12.2.4"],
+          "marks": 2,
+          "answer": "a = T sin 27° / m = 3.2 × sin 27° / 0.29 = <b>5.0 m s⁻²</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["12.1.3", "12.2.3"],
+          "marks": 2,
+          "answer": "a = rω² and ω = 2π/T, so T = 2π√(r/a) = 2π × √(0.049/5.0) = <b>0.62 s</b>"
+        }
+      ]
+    },
+    {
+      "topic": "14",
+      "qnum": "Q3",
+      "title": "Temperature measurement &amp; specific heat capacity — density thermometers and heating a liquid",
+      "marks": 11,
+      "pages": [8, 9],
+      "pdf": "9702_s23_qp_41_Q3_Temperature.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["14.1.2"],
+          "marks": 1,
+          "answer": "No net thermal energy is transferred between them (they are at the same temperature)."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["14.2.1"],
+          "marks": 1,
+          "answer": "The density of mercury varies linearly (uniformly) with temperature, so each temperature has a unique value of density."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["14.2.1"],
+          "marks": 2,
+          "answer": "The density of water does not vary linearly with temperature, and near 4 °C the density is (almost) constant, so different temperatures can correspond to the same density value."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["14.3.2"],
+          "marks": 1,
+          "answer": "Boiling temperature = <b>80 °C</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["14.3.1"],
+          "marks": 4,
+          "answer": "Thermal energy supplied to reach boiling: Q = Pt = 810 × 21 = 17 000 J.<br>Energy absorbed by the beaker = 42 × 0.84 × (80 − 25) = 1940 J.<br>Energy absorbed by the liquid = 17 000 − 1940 = 15 060 J.<br>c = Q/(mΔθ) = 15 060/(120 × 55) = <b>2.3 J g⁻¹ K⁻¹</b>"
+        },
+        {
+          "label": "(d)",
+          "codes": ["14.3.1"],
+          "marks": 2,
+          "answer": "Sketch a straight line from 25 °C rising with approximately half the gradient of the original line, reaching 100 °C, and then a horizontal line at 100 °C for the remaining time."
+        }
+      ]
+    },
+    {
+      "topic": "16",
+      "qnum": "Q4",
+      "title": "Ideal gas cycle — kinetic theory, pV = nRT &amp; the first law",
+      "marks": 12,
+      "pages": [10, 11],
+      "pdf": "9702_s23_qp_41_Q4_Thermodynamics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["15.3.1"],
+          "marks": 2,
+          "answer": "Any two: the particles are in continuous random motion; the particles have negligible volume compared with the volume of the gas; there are negligible forces between particles (except during collisions); all collisions are perfectly elastic; the time of a collision is negligible compared with the time between collisions."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["15.2.2"],
+          "marks": 2,
+          "answer": "pV = nRT for state X, where p is the pressure (2p), V is the volume and R is the molar gas constant.<br>T = <b>2pV/nR</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["15.2.2"],
+          "marks": 3,
+          "answer": "X is at (V, 2p). Draw a vertical line from (V, 2p) down to (V, p) (constant-volume cooling to Y), then a horizontal line from (V, p) to (2V, p) (constant-pressure expansion to Z), then a curved isothermal line from (2V, p) back to (V, 2p) with gradient increasing (pV = constant)."
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": ["16.2.1", "16.2.2"],
+          "marks": 5,
+          "answer": "Using ΔU = q + w (w is work done on the gas):<br>X → Y: ΔU = −U, thermal energy transferred q = −U, work done on gas w = 0 (constant volume).<br>Y → Z: ΔU = +U, w = −pV (gas expands by ΔV = V), so q = U + pV.<br>Z → X: ΔU = 0 (constant temperature), w = +W, so q = −W."
+        }
+      ]
+    },
+    {
+      "topic": "21",
+      "qnum": "Q5",
+      "title": "Half-wave rectification — diode, capacitor smoothing &amp; time constant",
+      "marks": 9,
+      "pages": [12, 13],
+      "pdf": "9702_s23_qp_41_Q5_Alternating_currents.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": ["21.2.2"],
+          "marks": 1,
+          "answer": "Add the circuit symbol for a diode, connected in series in the wire leading to the capacitor/resistor, oriented so that it conducts (conventional current from VIN to VOUT)."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": ["21.2.4"],
+          "marks": 1,
+          "answer": "The capacitor smooths VOUT — it reduces the ripple, so VOUT no longer falls to zero between half-cycles."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["21.1.1"],
+          "marks": 1,
+          "answer": "Period T = 0.04 s, so f = 1/T = 1/0.04 = <b>25 Hz</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["19.3.2", "19.3.3"],
+          "marks": 2,
+          "answer": "The capacitor discharges through the resistor during the half-cycle when the diode does not conduct. V = V₀e^(−t/τ) with τ = RC. From Fig. 5.3, V falls from 5.50 V to 3.25 V in t = 0.020 s:<br>3.25 = 5.50 e^(−0.020/τ), so −0.020/τ = ln(3.25/5.50), giving τ = <b>0.038 s</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": ["19.3.2"],
+          "marks": 2,
+          "answer": "τ = RC, so C = τ/R = 0.038/14 000 = <b>2.7 × 10⁻⁶ F</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": ["21.2.3"],
+          "marks": 2,
+          "answer": "With full-wave rectification, VIN has constant magnitude in both half-cycles, so the capacitor is recharged every half-cycle. VOUT is therefore (approximately) constant — a smooth d.c. output that does not vary with time."
+        }
+      ]
+    },
+    {
+      "topic": "20",
+      "qnum": "Q6",
+      "title": "Magnetic field of a current-carrying wire — field lines &amp; force between parallel wires",
+      "marks": 10,
+      "pages": [14, 15],
+      "pdf": "9702_s23_qp_41_Q6_Magnetic_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["20.1.1"],
+          "marks": 2,
+          "answer": "A magnetic field is a region of space in which a force acts on a moving charge (or on a current-carrying conductor, or on a magnetic material/magnetic pole)."
+        },
+        {
+          "label": "(b)",
+          "codes": ["20.4.1"],
+          "marks": 3,
+          "answer": "Draw four concentric circles centred on the wire, with the spacing between adjacent circles increasing with distance from the wire. The arrows on the circles point clockwise (current is into the page)."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["20.2.2"],
+          "marks": 2,
+          "answer": "F/L = BI = 2.6 × 10⁻³ × 5.0 = <b>0.013 N m⁻¹</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["20.4.3"],
+          "marks": 1,
+          "answer": "To the right (away from wire P) — the currents are in opposite directions, so the wires repel."
+        },
+        {
+          "label": "(c)(iii)",
+          "codes": ["20.4.3"],
+          "marks": 2,
+          "answer": "The force per unit length on wire P has the same magnitude as on wire Q (Newton's third law).<br>0.013 = 1.5 × 10⁻³ × I, so I = <b>8.7 A</b>"
+        }
+      ]
+    },
+    {
+      "topic": "22",
+      "qnum": "Q7",
+      "title": "Electron diffraction — de Broglie wavelength &amp; the wave nature of electrons",
+      "marks": 9,
+      "pages": [16, 17],
+      "pdf": "9702_s23_qp_41_Q7_Quantum_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["22.3.3"],
+          "marks": 1,
+          "answer": "The wavelength associated with a moving particle, given by λ = h/p, where p is the momentum of the particle."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["22.3.2"],
+          "marks": 1,
+          "answer": "Electron diffraction."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["22.3.2"],
+          "marks": 2,
+          "answer": "The beam spreads out and produces light and dark regions, which is a diffraction (interference) pattern. This shows that the electrons are behaving as waves."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["22.3.2"],
+          "marks": 2,
+          "answer": "Sketch a central bright spot with concentric rings around it, with the rings closer together than in Fig. 7.2."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["22.3.4", "22.3.2"],
+          "marks": 3,
+          "answer": "A greater p.d. gives the electrons greater momentum (kinetic energy), so their de Broglie wavelength λ = h/p is smaller. A smaller wavelength produces a smaller diffraction angle, so the rings (fringe spacing) are closer together."
+        }
+      ]
+    },
+    {
+      "topic": "24",
+      "qnum": "Q8",
+      "title": "Ultrasound — acoustic impedance &amp; intensity reflection coefficient",
+      "marks": 8,
+      "pages": [18, 19],
+      "pdf": "9702_s23_qp_41_Q8_Medical_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": ["24.1.4"],
+          "marks": 1,
+          "answer": "Z = ρc = 1200 × 1400 = <b>1.68 × 10⁶ kg m⁻² s⁻¹</b>"
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": ["24.1.4"],
+          "marks": 2,
+          "answer": "Air: density ρ = Z/c = 440/340 = <b>1.29 kg m⁻³</b>.<br>Tissue: speed of sound c = Z/ρ = 1.68 × 10⁶/1090 = <b>1540 m s⁻¹</b>"
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["24.1.5"],
+          "marks": 2,
+          "answer": "IR/I₀ = (Z₁ − Z₂)²/(Z₁ + Z₂)² = (1.68 × 10⁶ − 440)²/(1.68 × 10⁶ + 440)² = <b>0.999</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["24.1.5"],
+          "marks": 1,
+          "answer": "IR/I₀ = (1.68 × 10⁶ − 1.68 × 10⁶)²/(1.68 × 10⁶ + 1.68 × 10⁶)² = <b>0</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": ["24.1.5"],
+          "marks": 2,
+          "answer": "Without gel, the air–tissue boundary reflects almost all the ultrasound (reflection coefficient ≈ 0.999), so very little enters the body. With gel (which has an impedance almost equal to tissue), the reflection coefficient is ≈ 0, so almost all the ultrasound is transmitted into the body, allowing an image to be formed."
+        }
+      ]
+    },
+    {
+      "topic": "23",
+      "qnum": "Q9",
+      "title": "Carbon-11 β⁺ decay — half-life, activity &amp; measured count rate",
+      "marks": 9,
+      "pages": [20],
+      "pdf": "9702_s23_qp_41_Q9_Nuclear_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["23.2.4"],
+          "marks": 1,
+          "answer": "The time taken for the activity (of a radioactive sample) to halve — equivalently, the time for half the nuclei in the sample to decay."
+        },
+        {
+          "label": "(b)",
+          "codes": ["23.2.6"],
+          "marks": 3,
+          "answer": "Sketch a curve starting at (0, 0), rising with a gradient of steadily decreasing magnitude (exponential growth), passing through (20 min, 0.5N₀) and (40 min, 0.75N₀), and approaching N₀ as t increases."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["23.2.3"],
+          "marks": 2,
+          "answer": "Every undecayed nucleus has the same constant probability of decaying per unit time, but decay is random — any individual nucleus may decay at any time. As the number of undecayed carbon-11 nuclei decreases with time, fewer nuclei decay in each time interval, so the activity decreases."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["23.2.3"],
+          "marks": 3,
+          "answer": "The measured count rate is less than the activity, because the sample emits in all directions but the detector only captures emissions in one direction, and some emissions are absorbed (or scattered) before reaching the detector. (Also: several particles arriving simultaneously register as a single count, and some particles may not ionise in the detector.)"
+        }
+      ]
+    },
+    {
+      "topic": "25",
+      "qnum": "Q10",
+      "title": "Hubble's law — radiant flux intensity &amp; the Hubble constant from redshift",
+      "marks": 9,
+      "pages": [21],
+      "pdf": "9702_s23_qp_41_Q10_Astronomy_and_cosmology.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["25.3.4"],
+          "marks": 2,
+          "answer": "The speed of recession of a galaxy is directly proportional to its distance from the observer: v = H₀d, where v is the recessional speed, d is the distance of the galaxy from the observer and H₀ is the Hubble constant."
+        },
+        {
+          "label": "(b)",
+          "codes": ["25.1.2"],
+          "marks": 2,
+          "answer": "F = L/(4πd²) = 3.8 × 10³¹/(4π × (1.8 × 10²⁴)²) = <b>9.3 × 10⁻¹⁹ W m⁻²</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["25.3.1"],
+          "marks": 2,
+          "answer": "The galaxy is moving away from the Earth, so the Doppler effect (redshift) stretches the wavelength of the light, so the observed wavelength is longer than the wavelength emitted by the galaxy."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["25.3.2", "25.3.4"],
+          "marks": 3,
+          "answer": "Δλ/λ = v/c, so v = (492 − 486) × 3.00 × 10⁸/486 = 3.7 × 10⁶ m s⁻¹.<br>H₀ = v/d = 3.7 × 10⁶/(1.8 × 10²⁴) = <b>2.1 × 10⁻¹⁸ s⁻¹</b>"
+        }
+      ]
+    }
+  ]
+}

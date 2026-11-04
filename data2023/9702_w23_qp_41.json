@@ -1,0 +1,394 @@
+{
+  "paper": "9702/41/O/N/23",
+  "paper_full": "November 2023 · Paper 41",
+  "questions": [
+    {
+      "topic": "13",
+      "qnum": "Q1",
+      "title": "Gravitational field — field lines &amp; field strength of a uniform sphere",
+      "marks": 10,
+      "pages": [4, 5],
+      "pdf": "9702_w23_qp_41_Q1_Gravitational_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": ["13.1.1"],
+          "marks": 1,
+          "answer": "The direction of the force acting on a (test) mass placed at that point."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": ["13.3.3"],
+          "marks": 2,
+          "answer": "The change in height is negligible compared with the radius of the Earth, so the field lines are (effectively) parallel."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["13.3.2"],
+          "marks": 2,
+          "answer": "Y = GM/R², where G is the gravitational constant."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["13.1.1"],
+          "marks": 2,
+          "answer": "The gravitational force is always attractive (always acting towards the centre of the sphere), so the force is in the opposite direction to the displacement: at a point to the right of the centre the force acts to the left, and at a point to the left the force acts to the right."
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": ["13.2.1", "13.3.2"],
+          "marks": 3,
+          "answer": "Outside the sphere g = −GM/x². Sketch a smooth curve with decreasing magnitude starting at (R, −Y) and reaching 3R with g still negative, together with the corresponding curve from (−R, +Y) to −3R; the curve passes through (±2R, ±0.25Y) and (±3R, ±0.11Y)."
+        }
+      ]
+    },
+    {
+      "topic": "16",
+      "qnum": "Q2",
+      "title": "Ideal gas — work done, first law of thermodynamics &amp; specific heat capacity",
+      "marks": 12,
+      "pages": [6, 7],
+      "pdf": "9702_w23_qp_41_Q2_Thermodynamics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["14.3.1"],
+          "marks": 2,
+          "answer": "Specific heat capacity is the (thermal) energy per unit mass per unit change in temperature."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["16.2.1"],
+          "marks": 1,
+          "answer": "Work done = pΔV = (2.0 × 10⁵) × (0.063 − 0.038) = <b>5000 J</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["16.2.1"],
+          "marks": 2,
+          "answer": "The gas is expanding against the external pressure, so the gas does work (work is done <u>by</u> the gas). The work done <u>on</u> the gas is therefore negative."
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": ["16.2.2"],
+          "marks": 2,
+          "answer": "ΔU = q + W.<br>7600 = q + (−5000)<br>q = <b>12 600 J</b>"
+        },
+        {
+          "label": "(b)(iv)",
+          "codes": ["14.3.1"],
+          "marks": 2,
+          "answer": "c = q/(mΔT) = 12600/(0.35 × 56) = <b>640 J kg⁻¹ K⁻¹</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": ["16.2.2"],
+          "marks": 3,
+          "answer": "The same gain in internal energy gives the same temperature rise, but at constant volume no work is done, so less thermal energy is needed for the same temperature change. The specific heat capacity is therefore <b>less</b> than in (b)(iv)."
+        }
+      ]
+    },
+    {
+      "topic": "15",
+      "qnum": "Q3",
+      "title": "Kinetic theory of an ideal gas — molecular speed, temperature, luminosity &amp; stellar radius",
+      "marks": 13,
+      "pages": [8, 9],
+      "pdf": "9702_w23_qp_41_Q3_Ideal_gases.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": ["15.3.4"],
+          "marks": 3,
+          "answer": "N: number of molecules (of the gas).<br>m: mass of one molecule (of the gas).<br>⟨c²⟩: mean square speed (of the molecules)."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": ["15.3.4"],
+          "marks": 2,
+          "answer": "pV = NkT.<br>NkT = ⅓Nm⟨c²⟩ and E_K = ½m⟨c²⟩, giving E_K = (3/2)kT."
+        },
+        {
+          "label": "(b)",
+          "codes": ["15.3.4"],
+          "marks": 2,
+          "answer": "½m⟨c²⟩ = (3/2)kT.<br>½ × 3.34 × 10⁻²⁷ × 9300² = (3/2) × 1.38 × 10⁻²³ × T<br>T = <b>6980 K</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["25.1.2"],
+          "marks": 2,
+          "answer": "L = F × 4πd² = 2.52 × 10⁻⁸ × 4π × (4.16 × 10¹⁶)² = <b>5.48 × 10²⁶ W</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["25.2.2"],
+          "marks": 2,
+          "answer": "L = 4πσr²T⁴.<br>5.48 × 10²⁶ = 4π × 5.67 × 10⁻⁸ × r² × 6980⁴<br>r = <b>5.69 × 10⁸ m</b>"
+        },
+        {
+          "label": "(d)",
+          "codes": ["15.3.1"],
+          "marks": 2,
+          "answer": "The very high pressure means the molecules are very close together, so the forces between molecules are not negligible (and the volume of the molecules is not negligible compared with the gas volume)."
+        }
+      ]
+    },
+    {
+      "topic": "17",
+      "qnum": "Q4",
+      "title": "Oscillating sphere — simple harmonic motion, angular frequency &amp; critical damping",
+      "marks": 9,
+      "pages": [10, 11],
+      "pdf": "9702_w23_qp_41_Q4_Oscillations.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["17.1.1"],
+          "marks": 2,
+          "answer": "Simple harmonic motion is motion in which the acceleration is directly proportional to the displacement and always directed towards a fixed point (in the opposite direction to the displacement)."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["17.1.1"],
+          "marks": 2,
+          "answer": "ω = 2π/T = 2π/3.0 = <b>2.1 rad s⁻¹</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["17.2.2"],
+          "marks": 2,
+          "answer": "E = ½mω²x₀² = ½ × 0.81 × 2.1² × 0.036² = <b>2.3 × 10⁻³ J</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": ["17.3.2"],
+          "marks": 3,
+          "answer": "Line starting at (0, 0.036) and never reaching x = ±0.036 m at any other time. A smooth curve with no sudden changes in gradient, showing the magnitude of x decreasing continuously from its maximum at t = 0 to a final displacement of zero (with zero gradient) reached between t = 0.75 s and t = 3.0 s."
+        }
+      ]
+    },
+    {
+      "topic": "18",
+      "qnum": "Q5",
+      "title": "Electric potential — field between two charged spheres &amp; motion of a charged particle",
+      "marks": 8,
+      "pages": [12, 13],
+      "pdf": "9702_w23_qp_41_Q5_Electric_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["18.5.1"],
+          "marks": 2,
+          "answer": "Electric potential at a point is the work done per unit charge in moving a positive charge from infinity to the point."
+        },
+        {
+          "label": "(b)",
+          "codes": ["18.5.3", "18.3.1"],
+          "marks": 3,
+          "answer": "The radius of sphere X is 2.0 m and the radius of sphere Y is 4.0 m (Y's radius is double X's). The charge on X is negative and the charge on Y is positive (the spheres carry opposite charges). The magnitudes of the charges on the spheres are equal."
+        },
+        {
+          "label": "(c)",
+          "codes": ["18.2.2", "18.5.2"],
+          "marks": 3,
+          "answer": "The particle is attracted to X (repelled from Y), so the resultant force on it is towards X (to the left). The particle accelerates to the left, and the magnitude of its acceleration increases as it moves towards X."
+        }
+      ]
+    },
+    {
+      "topic": "20",
+      "qnum": "Q6",
+      "title": "Electrons in a magnetic field — force, circular motion &amp; positron deflection",
+      "marks": 12,
+      "pages": [14, 15],
+      "pdf": "9702_w23_qp_41_Q6_Magnetic_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["20.2.3"],
+          "marks": 2,
+          "answer": "Magnetic flux density is the force per unit current per unit length on a wire placed at right angles to the magnetic field."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["20.3.1"],
+          "marks": 1,
+          "answer": "Into the page."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["20.3.2"],
+          "marks": 2,
+          "answer": "F = Bqv = 4.8 × 10⁻³ × 1.6 × 10⁻¹⁹ × 1.7 × 10⁷ = <b>1.3 × 10⁻¹⁴ N</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": ["20.3.5"],
+          "marks": 1,
+          "answer": "Arrow at point X pointing down the page (towards the centre of the circular path)."
+        },
+        {
+          "label": "(b)(iv)",
+          "codes": ["20.3.5"],
+          "marks": 3,
+          "answer": "F = mv²/r.<br>1.3 × 10⁻¹⁴ = (9.11 × 10⁻³¹ × (1.7 × 10⁷)²)/r, so r = 0.020 m.<br>d = 2r = <b>0.040 m</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": ["20.3.5", "20.3.1"],
+          "marks": 3,
+          "answer": "The positron is deflected upwards (anticlockwise curvature within the field) and, since r = mv/Bq and its speed is double that of the electron, it follows a circular path of twice the radius. The line enters the field at X and leaves at a vertical distance 2d (= 0.080 m) from X."
+        }
+      ]
+    },
+    {
+      "topic": "21",
+      "qnum": "Q7",
+      "title": "Varying current in a resistor — power, mean power &amp; r.m.s. current",
+      "marks": 8,
+      "pages": [16, 17],
+      "pdf": "9702_w23_qp_41_Q7_Alternating_currents.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": ["21.1.3"],
+          "marks": 1,
+          "answer": "P = I²R = <b>I₀²R</b>"
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": ["21.1.3"],
+          "marks": 1,
+          "answer": "P = (2I₀)²R = <b>4I₀²R</b>"
+        },
+        {
+          "label": "(b)",
+          "codes": ["21.1.3"],
+          "marks": 3,
+          "answer": "Sketch a square wave of period T with P always non-zero: horizontal lines from 0 to 0.5T and from 1.0T to 1.5T all at a level I₀²R, and horizontal lines from 0.5T to 1.0T and from 1.5T to 2.0T at a level four times higher (4I₀²R)."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["21.1.3"],
+          "marks": 1,
+          "answer": "⟨P⟩ = ½(4I₀²R) + ½(I₀²R) = <b>(5/2)I₀²R</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["21.1.4"],
+          "marks": 2,
+          "answer": "⟨P⟩ = I_r.m.s.²R, so I_r.m.s.²R = (5/2)I₀²R.<br>I_r.m.s. = <b>√(5/2) I₀</b>"
+        }
+      ]
+    },
+    {
+      "topic": "22",
+      "qnum": "Q8",
+      "title": "Photon momentum &amp; radiation pressure on a mirror",
+      "marks": 10,
+      "pages": [18, 19],
+      "pdf": "9702_w23_qp_41_Q8_Quantum_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": ["22.1.5"],
+          "marks": 2,
+          "answer": "For a photon, p = E/c.<br>With E = hc/λ, p = (hc/λ)/c = h/λ."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": ["22.3.4"],
+          "marks": 1,
+          "answer": "λ = h/p = (6.63 × 10⁻³⁴)/(9.5 × 10⁻²⁸) = 700 × 10⁻⁹ m = 700 nm, which lies in the red region of the spectrum."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["22.1.5", "22.1.3"],
+          "marks": 2,
+          "answer": "Power = intensity × area = 160 × 2.5 × 10⁻⁶ = 4.0 × 10⁻⁴ W.<br>Energy per photon = pc = 9.5 × 10⁻²⁸ × 3.00 × 10⁸.<br>Number per unit time = power/(energy per photon) = (160 × 2.5 × 10⁻⁶)/(9.5 × 10⁻²⁸ × 3.00 × 10⁸) = <b>1.4 × 10¹⁵ s⁻¹</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["22.1.5"],
+          "marks": 3,
+          "answer": "Force = rate of change of momentum = 2 × 9.5 × 10⁻²⁸ × 1.4 × 10¹⁵.<br>Pressure = force/area = (2 × 9.5 × 10⁻²⁸ × 1.4 × 10¹⁵)/(2.5 × 10⁻⁶) = <b>1.1 × 10⁻⁶ Pa</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": ["22.1.5"],
+          "marks": 2,
+          "answer": "Blue-light photons have greater momentum (shorter wavelength), but fewer photons are incident per unit time (since the intensity is the same). The greater momentum is cancelled by the smaller number of photons, so the pressure is <b>the same</b>."
+        }
+      ]
+    },
+    {
+      "topic": "23",
+      "qnum": "Q9",
+      "title": "Nuclear fusion, binding energy per nucleon &amp; fission energy release",
+      "marks": 10,
+      "pages": [20, 21],
+      "pdf": "9702_w23_qp_41_Q9_Nuclear_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["23.1.5"],
+          "marks": 2,
+          "answer": "Nuclear fusion is the process in which two (small) nuclei join together to form one larger nucleus."
+        },
+        {
+          "label": "(b)",
+          "codes": ["23.1.4"],
+          "marks": 2,
+          "answer": "A line with a peak at A ≈ 56, a steep positive gradient on the left of the peak, a shallower negative gradient to the right of the peak, and which does not return to zero binding energy."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["23.1.4"],
+          "marks": 1,
+          "answer": "X labelled at a value of A to the right of the peak."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["23.1.4"],
+          "marks": 1,
+          "answer": "Y labelled at a value of A close to 1."
+        },
+        {
+          "label": "(d)",
+          "codes": ["23.1.6", "23.1.4"],
+          "marks": 4,
+          "answer": "Energy released per nucleus = (1.77 × 10¹³)/(6.02 × 10²³) = 2.94 × 10⁻¹¹ J.<br>Binding energy of Z = (1.25 + 1.81) × 10⁻¹⁰ − 2.94 × 10⁻¹¹ = 2.77 × 10⁻¹⁰ J.<br>Nucleon number of Z = 93 + 139 + 2 − 1 = 233.<br>Binding energy per nucleon = (2.77 × 10⁻¹⁰)/(233 × 1.60 × 10⁻¹³) = <b>7.43 MeV</b>"
+        }
+      ]
+    },
+    {
+      "topic": "24",
+      "qnum": "Q10",
+      "title": "Ultrasound &amp; X-rays — production, detection &amp; attenuation",
+      "marks": 8,
+      "pages": [23],
+      "pdf": "9702_w23_qp_41_Q10_Medical_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["24.1.2", "24.2.1"],
+          "marks": 4,
+          "answer": "Ultrasound: produced by a vibrating quartz (piezo-electric) crystal; the detected wave is the <u>reflected</u> wave.<br>X-rays: produced by electrons hitting a metal target; the detected wave is the <u>transmitted</u> wave."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["24.1.6"],
+          "marks": 2,
+          "answer": "I = I₀e^(−μx).<br>ln(0.72) = −6.2μ, so μ = <b>0.053 cm⁻¹</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["24.1.6"],
+          "marks": 2,
+          "answer": "I/I₀ = e^(−9.3 × 0.053) = 0.61.<br>Percentage attenuated = 100 × (1.00 − 0.61) = <b>39%</b>"
+        }
+      ]
+    }
+  ]
+}

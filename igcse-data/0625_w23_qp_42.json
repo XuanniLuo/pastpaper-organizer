@@ -1,0 +1,450 @@
+{
+  "paper": "0625/42/O/N/23",
+  "paper_full": "November 2023 · Paper 42",
+  "questions": [
+    {
+      "qnum": 1,
+      "topic": "1",
+      "title": "Car — acceleration, speed–time graph and work done",
+      "marks": 15,
+      "pdf": "igcse-slices/0625_w23_qp_42_Q01.pdf",
+      "parts": [
+        {
+          "label": "1(a)(i)",
+          "marks": 3,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "4.1 m / s2 (a =) (∆)v / (∆)t OR 13(.0) / 3.2"
+        },
+        {
+          "label": "1(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "(acceleration is) change / increase in velocity per unit time OR rate of change of velocity"
+        },
+        {
+          "label": "1(b)(i)",
+          "marks": 2,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "straight line joining (0,0) and (3.2,13.0) horizontal line from 3.2 s to 12.0 s"
+        },
+        {
+          "label": "1(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "21 m area under speed-time graph (between 0 s and 3.2 s) OR average velocity  time"
+        },
+        {
+          "label": "1(c)",
+          "marks": 4,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "(W =) F  d F = ma OR F(∆)t = m∆v F= (1350  13) ÷ 2 OR 8775 (N) OR (F=) 1350  6.5 W = 8775  13.0 (= 1.1  105 J) OR 114 075 (J)"
+        },
+        {
+          "label": "1(d)",
+          "marks": 2,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "any sensible suggestion that increases the stopping distance explanation (to match suggestion) 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2023 © UCLES 2023 Page 9 of 15"
+        }
+      ],
+      "code": "1.2"
+    },
+    {
+      "qnum": 2,
+      "topic": "2",
+      "title": "Tumble dryer — evaporation, forces and energy",
+      "marks": 6,
+      "pdf": "igcse-slices/0625_w23_qp_42_Q02.pdf",
+      "parts": [
+        {
+          "label": "2(a)(i)",
+          "marks": 1,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "evaporation"
+        },
+        {
+          "label": "2(a)(ii)",
+          "marks": 2,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "air is drier because water vapour has condensed / turned back to liquid in the condenser"
+        },
+        {
+          "label": "2(b)(i)",
+          "marks": 1,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "gravitational (force) OR weight"
+        },
+        {
+          "label": "2(b)(ii)",
+          "marks": 1,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "(force is) perpendicular to the motion (of the clothes)"
+        },
+        {
+          "label": "2(c)",
+          "marks": 1,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "uses (solar / wind) energy which is renewable OR energy (re)sources not used to generate electricity OR greenhouse gases not produced OR does not use (fossil) fuels 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2023 © UCLES 2023 Page 10 of 15"
+        }
+      ],
+      "code": "2.2"
+    },
+    {
+      "qnum": 3,
+      "topic": "1",
+      "title": "Balloon — impulse, momentum conservation and resultant force",
+      "marks": 14,
+      "pdf": "igcse-slices/0625_w23_qp_42_Q03.pdf",
+      "parts": [
+        {
+          "label": "3(a)(i)",
+          "marks": 1,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "force  time (for which force acts)"
+        },
+        {
+          "label": "3(a)(ii)",
+          "marks": 5,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "0.056 Ns v = s / t OR v = 0.67 / 0.18 (m / s) (impulse =) ∆{mv} OR (impulse =) 0.015  0.67 / 0.18 OR (impulse =) 15  0.67 / 0.18 OR (impulse =) 5.6  10N"
+        },
+        {
+          "label": "3(a)(iii)",
+          "marks": 2,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "(momentum is conserved as) air released from the balloon moves in the opposite direction to the balloon momentum of balloon (and straw) is equal in size to momentum of air"
+        },
+        {
+          "label": "3(b)",
+          "marks": 6,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "resultant force = 0.84 N resultant force = 0.84 N correct vector triangle or rectangle drawn use of Pythagoras’ theorem e.g. a2 + b2 = c2 OR (force =)  + 2 2 (0.40 0.74 ) direction 62° (below the horizontal) direction 62° (below the horizontal) correct resultant force vector with correct arrows on all vectors use of trigonometry to find angle e.g. tan  = 0.74 / 0.40 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2023 © UCLES 2023 Page 11 of 15"
+        }
+      ],
+      "code": "1.6"
+    },
+    {
+      "qnum": 4,
+      "topic": "2",
+      "title": "Bottle — gas pressure, specific heat and liquid pressure",
+      "marks": 11,
+      "pdf": "igcse-slices/0625_w23_qp_42_Q04.pdf",
+      "parts": [
+        {
+          "label": "4(a)(i)",
+          "marks": 3,
+          "codes": [
+            "2.1"
+          ],
+          "answer": "any three from: • increase in the (average) KE / speed of air particles • more frequent collisions of (air) particles (with bottle) • more forceful collisions of (air) particles (with bottle) • greater force per unit area gives greater pressure • volume unchanged and so pressure increases"
+        },
+        {
+          "label": "4(a)(ii)",
+          "marks": 2,
+          "codes": [
+            "2.1"
+          ],
+          "answer": "(pressure decreases as) air (particles) escape from the bottle / into the air until pressure (inside the bottle) is same as (air) pressure outside the bottle OR until pressure (inside the bottle) is same as atmospheric pressure"
+        },
+        {
+          "label": "4(b)",
+          "marks": 3,
+          "codes": [
+            "2.1"
+          ],
+          "answer": "1.5  104 J c = (∆)E / m∆𝜃 (∆E =) mc∆𝜃 OR (∆E =) 0.18  4200  20"
+        },
+        {
+          "label": "4(c)",
+          "marks": 3,
+          "codes": [
+            "2.1"
+          ],
+          "answer": "3900 Pa (∆p =) ρg(∆)h OR (∆p =) 1.0  103  9.8  0.4 OR (∆p =) 1.0  103  9.8  40 OR (∆p =) 3.9  10N 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2023 © UCLES 2023 Page 12 of 15"
+        }
+      ],
+      "code": "2.1"
+    },
+    {
+      "qnum": 5,
+      "topic": "3",
+      "title": "Road junction mirror and long-sightedness — converging lens",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_w23_qp_42_Q05.pdf",
+      "parts": [
+        {
+          "label": "5(a)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "indication of position of car along a straight line from X above and to left of road at junction."
+        },
+        {
+          "label": "5(b)",
+          "marks": 2,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "Incident ray from car to mirror AND reflected ray from mirror towards X angle of incidence equal to angle of reflection"
+        },
+        {
+          "label": "5(c)",
+          "marks": 4,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "converging lens (to left of eye) rays refracted by additional converging lens rays refracted by lens in eye to give converging rays focal point of rays / image on retina"
+        }
+      ],
+      "code": "3.2"
+    },
+    {
+      "qnum": 6,
+      "topic": "4",
+      "title": "Flashlight — LED circuit, p.d. and charge",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_w23_qp_42_Q06.pdf",
+      "parts": [
+        {
+          "label": "6(a)",
+          "marks": 3,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "(p.d. across LED = 4.5 – 1.2 =) 3.3 V (V =) IR"
+        },
+        {
+          "label": "6(b)",
+          "marks": 1,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "LED (is a diode, which) only allows current in one direction / has a very high resistance (when direction of current is reversed.) OR (it) is reverse-biased"
+        },
+        {
+          "label": "6(c)",
+          "marks": 2,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "E=IVt OR (t =) E / VI OR Q = E / V AND Q = I  t (t =) 1050  [0.02  4.5  3600] OR (t =) 3.2 h"
+        },
+        {
+          "label": "6(d)",
+          "marks": 3,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "(charge =) 72 C I =Q / t OR (Q =) It OR (Q =) 0.02(0)  3600 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2023 © UCLES 2023 Page 13 of 15"
+        }
+      ],
+      "code": "4.3"
+    },
+    {
+      "qnum": 7,
+      "topic": "3",
+      "title": "Electromagnetic spectrum — uses, speed and wavelength",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_w23_qp_42_Q07.pdf",
+      "parts": [
+        {
+          "label": "7(a)",
+          "marks": 2,
+          "codes": [
+            "3.3"
+          ],
+          "answer": "all correct 2 marks 1 or 2 correct 1 mark"
+        },
+        {
+          "label": "7(b)",
+          "marks": 1,
+          "codes": [
+            "3.3"
+          ],
+          "answer": "3.0  108 m / s"
+        },
+        {
+          "label": "7(c)(i)",
+          "marks": 5,
+          "codes": [
+            "3.3"
+          ],
+          "answer": "0.12 m (mid-point of frequency range identified as) 2.44 (GHz) v = f OR ( =) v / f OR ( =) 3.0  108 / 2.44  109 OR ( =) 1.2  10N"
+        },
+        {
+          "label": "7(c)(ii)",
+          "marks": 1,
+          "codes": [
+            "3.3"
+          ],
+          "answer": "(radio waves / signal) lose energy / get weaker / lose (signal) strength (passing through walls) owtte 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2023 © UCLES 2023 Page 14 of 15"
+        }
+      ],
+      "code": "3.3"
+    },
+    {
+      "qnum": 8,
+      "topic": "5",
+      "title": "Uranium-235 — isotopes, fission and nuclear power",
+      "marks": 10,
+      "pdf": "igcse-slices/0625_w23_qp_42_Q08.pdf",
+      "parts": [
+        {
+          "label": "8(a)",
+          "marks": 2,
+          "codes": [
+            "5.1"
+          ],
+          "answer": "(92 is) the proton number / number of protons (in the nucleus) / atomic number (235 is) the nucleon number / number of nucleons (in the nucleus) / mass number"
+        },
+        {
+          "label": "8(b)(i)",
+          "marks": 1,
+          "codes": [
+            "5.1"
+          ],
+          "answer": "(nuclear) fission"
+        },
+        {
+          "label": "8(b)(ii)",
+          "marks": 2,
+          "codes": [
+            "5.1"
+          ],
+          "answer": "nucleus converted to (more stable) nuclei with smaller total mass mass (difference) is released / converted as (kinetic) energy (of products) / thermal energy"
+        },
+        {
+          "label": "8(c)(i)",
+          "marks": 3,
+          "codes": [
+            "5.1"
+          ],
+          "answer": "any three from: • (thermal energy) used to heat / boil (cold) water OR make steam • steam is at high pressure • steam drives a turbine • turbine (connected to and) drives a generator • turbine moves a coil in a magnetic field"
+        },
+        {
+          "label": "8(c)(ii)",
+          "marks": 2,
+          "codes": [
+            "5.1"
+          ],
+          "answer": "advantage - any one from: • (much) small(er) amount of fuel needed (to produce same amount of energy) • no greenhouse gases produced OR low carbon dioxide emissions • no air pollution (when operating normally) disadvantage – any one from • danger if any leak of radiation • produces hazardous / dangerous / toxic waste OR difficulty of storage of used radioactive material OR nuclear waste must be stored for a long time • expensive to build or decommission nuclear power plant or store nuclear waste 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2023 © UCLES 2023 Page 15 of 15"
+        }
+      ],
+      "code": "5.1"
+    },
+    {
+      "qnum": 9,
+      "topic": "6",
+      "title": "Planets — mass, gravitational field and orbital speed",
+      "marks": 6,
+      "pdf": "igcse-slices/0625_w23_qp_42_Q09.pdf",
+      "parts": [
+        {
+          "label": "9(a)",
+          "marks": 1,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "Venus"
+        },
+        {
+          "label": "9(b)",
+          "marks": 1,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "The larger the mass (of the planet), the larger the gravitational field strength (at the surface)"
+        },
+        {
+          "label": "9(c)",
+          "marks": 1,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "orbit of planets is elliptical / is not circular owtte"
+        },
+        {
+          "label": "9(d)",
+          "marks": 3,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "correct conversion of T into seconds i.e. 365.2  (24  60  60) OR 3.2  107 (v =) {2r} / T 2  149.6  106 / 365.2  24  60  60"
+        }
+      ],
+      "code": "6.1"
+    },
+    {
+      "qnum": 10,
+      "topic": "6",
+      "title": "Star life cycle — protostars, stable stars and red giants",
+      "marks": 5,
+      "pdf": "igcse-slices/0625_w23_qp_42_Q10.pdf",
+      "parts": [
+        {
+          "label": "10(a)",
+          "marks": 1,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "(interstellar clouds of) gas and dust OR (stellar) nebula"
+        },
+        {
+          "label": "10(b)",
+          "marks": 2,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "(inward) force of gravitational attraction (is balanced by) (outward) force due to the high temperature (in the centre of the star)"
+        },
+        {
+          "label": "10(c)",
+          "marks": 1,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "hydrogen"
+        },
+        {
+          "label": "10(d)",
+          "marks": 1,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "planetary nebula"
+        }
+      ],
+      "code": "6.2"
+    }
+  ]
+}

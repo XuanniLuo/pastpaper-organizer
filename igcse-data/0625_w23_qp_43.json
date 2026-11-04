@@ -1,0 +1,426 @@
+{
+  "paper": "0625/43/O/N/23",
+  "paper_full": "November 2023 · Paper 43",
+  "questions": [
+    {
+      "qnum": 1,
+      "topic": "1",
+      "title": "Oil and water — density, volume and mass",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_w23_qp_43_Q01.pdf",
+      "parts": [
+        {
+          "label": "1(a)",
+          "marks": 2,
+          "codes": [
+            "1.4"
+          ],
+          "answer": "(oil) stays on surface / floats on the water (oil has) lower density than water OR liquids of lower density float on liquids of higher density"
+        },
+        {
+          "label": "1(b)(i)",
+          "marks": 2,
+          "codes": [
+            "1.4"
+          ],
+          "answer": "measure (initial) volume of liquid / water AND immerse object OR immerse object in a known / measured volume of liquid / water subtract initial / start volume from final / new volume OR calculate the difference in volume OR measure change in volume OR (alternative answer) fill displacement can / container with water AND immerse object measure volume of displaced water"
+        },
+        {
+          "label": "1(b)(ii)",
+          "marks": 5,
+          "codes": [
+            "1.4"
+          ],
+          "answer": "220 g ρ = m / V OR (m =) ρV OR 2.7  83 (m =) 2.7  83 OR 2.2  10n 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2023 © UCLES 2023 Page 9 of 16 Question Answer"
+        }
+      ],
+      "code": "1.4"
+    },
+    {
+      "qnum": 2,
+      "topic": "1",
+      "title": "Spring and car on a corner — Hooke's law and circular motion",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_w23_qp_43_Q02.pdf",
+      "parts": [
+        {
+          "label": "2(a)(i)",
+          "marks": 5,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "3.5 N / cm OR 350 N / m k = F / x OR (k =) F / x OR (k =) load / extension OR 14 / 4 (k =) 14 / 4 OR 14 / 0.04 OR 3.5  10n"
+        },
+        {
+          "label": "2(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "mark at end of straight-line portion"
+        },
+        {
+          "label": "2(b)(i)",
+          "marks": 2,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "arrow below the horizontal and to the left of vertically down from car arrow radial"
+        },
+        {
+          "label": "2(b)(ii)",
+          "marks": 1,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "(force) increases 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2023 © UCLES 2023 Page 10 of 16 Question Answer"
+        }
+      ],
+      "code": "1.5"
+    },
+    {
+      "qnum": 3,
+      "topic": "1",
+      "title": "Ball and object collision — momentum and kinetic energy",
+      "marks": 13,
+      "pdf": "igcse-slices/0625_w23_qp_43_Q03.pdf",
+      "parts": [
+        {
+          "label": "3(a)",
+          "marks": 3,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "1.3 kg m / s p = mv OR (p =) mv OR 0.19  6.9 OR 190  6.9 OR 1.3  10n"
+        },
+        {
+          "label": "3(b)",
+          "marks": 5,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "(speed of object =) 0.89 m / s OR 0.88 m / s momentum before (collision) = momentum after (collision) OR 1.3 (kg m / s) = –(0.19  1.5) (kg m / s) + 1.8 v (kg m / s) OR (momentum of object =) 1.3 (kg m / s) + (0.19  1.5) (kg m / s) OR (momentum of object =) 1.3 (kg m / s) + 0.29 (kg m / s) OR (momentum of object =) 1.6 (kg m / s) (speed of object =) {1.3 + (0.19  1.5)} / 1.8 (m / s) OR (speed of object =) 1.6 / 1.8"
+        },
+        {
+          "label": "3(c)",
+          "marks": 5,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "(loss of KE =) 3.8 J OR 3.6 J KE = ½ mv2 OR (KE =) ½ mv2 OR ½  1.8  0.892 ((final) KE of object) = 0.70 (J) OR 0.71 (J) OR (KE =) 4.5 – (0.2 + calculated KE of object) 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2023 © UCLES 2023 Page 11 of 16 Question Answer"
+        }
+      ],
+      "code": "1.6"
+    },
+    {
+      "qnum": 4,
+      "topic": "2",
+      "title": "Gas — absolute zero, pressure and Boyle's law",
+      "marks": 11,
+      "pdf": "igcse-slices/0625_w23_qp_43_Q04.pdf",
+      "parts": [
+        {
+          "label": "4(a)(i)",
+          "marks": 1,
+          "codes": [
+            "2.1"
+          ],
+          "answer": "absolute zero"
+        },
+        {
+          "label": "4(a)(ii)",
+          "marks": 3,
+          "codes": [
+            "2.1"
+          ],
+          "answer": "–196 (°C) (absolute zero / 0 K) = –273 (°C)"
+        },
+        {
+          "label": "4(b)",
+          "marks": 4,
+          "codes": [
+            "2.1"
+          ],
+          "answer": "increased (pressure) particles of gas move faster OR have more KE / momentum / velocity any two from from: • more frequent collisions of particles (with walls) • particles collide (with walls) with a larger force OR larger impulse • (greater change in momentum of particles) causes greater force (on walls) • pressure = force / area"
+        },
+        {
+          "label": "4(c)",
+          "marks": 3,
+          "codes": [
+            "2.1"
+          ],
+          "answer": "(pressure =) 60 kPa OR 6.0  104 Pa p1 V1 = p2 V2 OR (p2 =) p1 V1 / V2 OR pV = constant OR p  1 / V OR 1.2  105  0.5 OR 6.0  10n 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2023 © UCLES 2023 Page 12 of 16 Question Answer"
+        }
+      ],
+      "code": "2.1"
+    },
+    {
+      "qnum": 5,
+      "topic": "3",
+      "title": "Diffraction of light — wavefronts through a gap",
+      "marks": 6,
+      "pdf": "igcse-slices/0625_w23_qp_43_Q05.pdf",
+      "parts": [
+        {
+          "label": "5(a)",
+          "marks": 3,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "3 wavecrests same wavelength as original 3 arcs 3 semi-circular wavecrests centred on middle of gap"
+        },
+        {
+          "label": "5(b)",
+          "marks": 3,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "3 parallel wavecrests on left, reduced wavelength angular spread must be less / reduced divergence 3 wavecrests on right with reduced curvature compared with (a) no reverse curvature anywhere 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2023 © UCLES 2023 Page 13 of 16 Question Answer"
+        }
+      ],
+      "code": "3.1"
+    },
+    {
+      "qnum": 6,
+      "topic": "4",
+      "title": "Circuit — filament lamp, current and power",
+      "marks": 14,
+      "pdf": "igcse-slices/0625_w23_qp_43_Q06.pdf",
+      "parts": [
+        {
+          "label": "6(a)",
+          "marks": 3,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "sketch: one axis labelled V and the other labelled I, either way round AND gradual curve from origin curving such that V / I increases explanation: (as current / temperature increases so) resistance increases (so) more voltage required for same increase in current owtte OR if V on y-axis: gradient must increase OR if V on x-axis: gradient must decrease"
+        },
+        {
+          "label": "6(b)(i)",
+          "marks": 3,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "9.0 V 12.0 – 3.0"
+        },
+        {
+          "label": "6(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "2.1 A I = V / R OR (I =) V / R OR 9.0 / 4.2"
+        },
+        {
+          "label": "6(b)(iii)",
+          "marks": 1,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "0 (A)"
+        },
+        {
+          "label": "6(b)(iv)",
+          "marks": 1,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "(ammeter reading) 2.1 A"
+        },
+        {
+          "label": "6(b)(v)",
+          "marks": 3,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "19 W P = VI OR OR (P =) VI OR 9  2.1 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2023 © UCLES 2023 Page 14 of 16 Question Answer"
+        }
+      ],
+      "code": "4.3"
+    },
+    {
+      "qnum": 7,
+      "topic": "4",
+      "title": "Electric field and static electricity — conductors and insulators",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_w23_qp_43_Q07.pdf",
+      "parts": [
+        {
+          "label": "7(a)(i)",
+          "marks": 2,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "radial arrow inward radial arrow"
+        },
+        {
+          "label": "7(a)(ii)",
+          "marks": 3,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "positive point charge positive (charge)"
+        },
+        {
+          "label": "7(b)",
+          "marks": 2,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "electrons / negative charges (move) out of (plastic) OR removed from / lost from (plastic)"
+        },
+        {
+          "label": "7(c)",
+          "marks": 2,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "any mention of free / mobile / delocalised electrons conductors have free / mobile / delocalised electrons OR insulators do not have free / mobile / delocalised electrons Question Answer"
+        }
+      ],
+      "code": "4.2"
+    },
+    {
+      "qnum": 8,
+      "topic": "4",
+      "title": "d.c. motor and a.c. generator — turning effect and output",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_w23_qp_43_Q08.pdf",
+      "parts": [
+        {
+          "label": "8(a)(i)",
+          "marks": 2,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "clockwise force on left of coil up OR force on right of coil down"
+        },
+        {
+          "label": "8(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "(turning effect is) greater"
+        },
+        {
+          "label": "8(a)(iii)",
+          "marks": 1,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "(turning effect is) less"
+        },
+        {
+          "label": "8(b)(i)",
+          "marks": 1,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "horizontal line, labelled B on the left and A on the right"
+        },
+        {
+          "label": "8(b)(ii)",
+          "marks": 1,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "vertical line, labelled A at top and B at bottom"
+        },
+        {
+          "label": "8(b)(iii)",
+          "marks": 1,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "horizontal line, A on the left and B on the right 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2023 © UCLES 2023 Page 15 of 16 Question Answer"
+        }
+      ],
+      "code": "4.5"
+    },
+    {
+      "qnum": 9,
+      "topic": "5",
+      "title": "Radioactive isotopes — applications and background radiation",
+      "marks": 10,
+      "pdf": "igcse-slices/0625_w23_qp_43_Q09.pdf",
+      "parts": [
+        {
+          "label": "9(a)(i)",
+          "marks": 3,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "alpha highly ionising OR not (very) penetrating any value between 10–500 years"
+        },
+        {
+          "label": "9(a)(ii)",
+          "marks": 3,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "beta absorption depends on thickness (of aluminium) any number of years"
+        },
+        {
+          "label": "9(b)",
+          "marks": 2,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "too many neutrons decay reduces number of neutrons"
+        },
+        {
+          "label": "9(c)",
+          "marks": 2,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "any two from: • radon gas (in the air) • rocks OR buildings • food OR drink • cosmic rays 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2023 © UCLES 2023 Page 16 of 16 Question Answer"
+        }
+      ],
+      "code": "5.2"
+    },
+    {
+      "qnum": 10,
+      "topic": "6",
+      "title": "Hubble constant and cosmic microwave background radiation",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_w23_qp_43_Q10.pdf",
+      "parts": [
+        {
+          "label": "10(a)(i)",
+          "marks": 2,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "1 Hubble constant 2 H0 = v / d"
+        },
+        {
+          "label": "10(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "per second OR s–1 OR 1 / s"
+        },
+        {
+          "label": "10(a)(iii)",
+          "marks": 3,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "4.5  1017 (s) d / v = 1 / H0 OR (age of Universe =) 1 / H0 OR (age of Universe =) d / v OR (age of Universe =) 1 / 2.2  10-–18"
+        },
+        {
+          "label": "10(b)",
+          "marks": 2,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "shortly after the Universe was formed OR shortly after the Big Bang all points in space"
+        }
+      ],
+      "code": "6.2"
+    }
+  ]
+}

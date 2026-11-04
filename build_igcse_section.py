@@ -389,7 +389,7 @@ if (igcseGrid) {
 # ---------------------------------------------------------------------------
 def html_section(mcq_years, theory_years):
     years = sorted(set(list(mcq_years) + list(theory_years)), reverse=True)
-    all_years = ["2026", "2025", "2024"]
+    all_years = ["2026", "2025", "2024", "2023"]
 
     head = (
         '<div class="igcse-divider">'

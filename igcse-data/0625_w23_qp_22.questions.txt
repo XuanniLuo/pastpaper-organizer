@@ -1,0 +1,865 @@
+===== Q1 (page 1) =====
+1 
+Which quantity is a scalar quantity? 
+A 
+acceleration 
+B 
+force 
+C 
+time 
+D 
+velocity
+
+===== Q2 (page 1) =====
+2 
+A student measures the average speed of a cyclist in a race. 
+ 
+Which quantities must she measure? 
+A 
+the total time taken to complete the race and the time taken for the cyclist to reach her 
+highest speed 
+B 
+the total time taken to complete the race and the total distance travelled by the cyclist at her 
+highest speed 
+C 
+the total time taken to complete the race and the total distance travelled by the cyclist 
+D 
+the time taken to reach her highest speed and the total distance travelled by the cyclist
+
+===== Q3 (page 1) =====
+3 
+The diagram shows a series of images of a moving object taken at regular intervals. 
+ 
+The object is moving from left to right. 
+ 
+ 
+ 
+Which statement describes the motion of the object? 
+A 
+The object accelerates continuously. 
+B 
+The object decelerates continuously. 
+C 
+The object travels at constant speed and then accelerates. 
+D 
+The object travels at constant speed and then decelerates.
+
+===== Q4 (page 1) =====
+4 
+A plastic ball has a mass of 4.0 g and a volume of 20 cm3. 
+ 
+There is a crack in the ball’s surface. 
+ 
+The ball is placed in a bath of water. Water leaks into the ball without changing the volume of the 
+ball and eventually the ball sinks. 
+ 
+The density of water = 1.0 g / cm3. 
+ 
+Which mass of water has entered the ball when the top of the ball is first level with the water 
+surface? 
+A 
+5.0 g 
+B 
+16 g 
+C 
+20 g 
+D 
+24 g
+
+===== Q5 (page 2) =====
+5 
+A satellite orbits the Earth at constant speed in a circular orbit. 
+ 
+Which statement is correct? 
+A 
+The resultant force on the satellite is zero. 
+B 
+The resultant force on the satellite is towards the Earth. 
+C 
+The resultant force on the satellite is away from the Earth. 
+D 
+The resultant force on the satellite is in the direction of its motion.
+
+===== Q6 (page 2) =====
+6 
+The diagrams show four identical objects. Each object is acted on by only the forces shown. 
+ 
+Which diagram shows an object in equilibrium? 
+ 
+A
+10 N 10 N
+20 N
+B
+10 N 10 N
+10 N
+C
+10 N
+10 N
+10 N
+D
+10 N 10 N
+20 N
+
+===== Q7 (page 2) =====
+7 
+A resultant force F accelerates a car of mass m along a straight horizontal road from rest to a 
+speed v in time t, giving it momentum p. 
+ 
+Which pair of relationships for this situation is correct? 
+A 
+pt = mv  and  F = pt 
+B 
+p = mv  and  F = pt 
+C 
+p = mv  and  Ft = p 
+D 
+p = mvt  and  Ft = v
+
+===== Q8 (page 3) =====
+8 
+The diagram shows part of a rollercoaster ride with the car at different positions. 
+ 
+The car runs freely down from position X to position Y and up the hill on the other side. 
+ 
+X
+Y
+car
+ 
+ 
+What happens to the energy in the kinetic store and the gravitational potential store of the car as 
+it moves from position X to position Y? 
+ 
+ 
+energy in 
+kinetic store 
+energy in 
+gravitational 
+potential store 
+A 
+decreases 
+decreases 
+B 
+decreases 
+increases 
+C 
+increases 
+decreases 
+D 
+increases 
+increases
+
+===== Q9 (page 3) =====
+9 
+A box is initially at rest at the top of a rough slope. 
+ 
+The box slides down the slope. 
+ 
+The weight of the box is 20 N. 
+ 
+The slope is 4.0 m long and 2.0 m high. 
+ 
+4.0 m
+2.0 m
+ 
+ 
+The box does 10 J of work against friction as it slides down the slope. 
+ 
+What is the speed of the box as it reaches the bottom of the slope? 
+A 
+5.4 m / s 
+B 
+6.3 m / s 
+C 
+7.1 m / s 
+D 
+9.5 m / s
+
+===== Q10 (page 4) =====
+10 An electric car is charged overnight. In 8.0 hours, 180 MJ of energy is transferred. 
+ 
+What is the power of the charger? 
+A 
+6.3 kW 
+B 
+380 kW 
+C 
+23 MW 
+D 
+1400 MW
+
+===== Q11 (page 4) =====
+11 An object is a depth h below the surface of a liquid. The pressure due to the liquid at this depth is 
+p. The gravitational field strength is g. 
+ 
+What is the density  of the liquid? 
+A 
+ = pgh 
+B 
+ = h
+pg 
+C 
+ = g
+ph 
+D 
+ = hg
+p
+
+===== Q12 (page 4) =====
+12 Brownian motion is the random motion of particles. 
+ 
+In which states of matter is Brownian motion observed? 
+A 
+gases, liquids and solids 
+B 
+gases and liquids only 
+C 
+gases and solids only 
+D 
+liquids and solids only
+
+===== Q13 (page 4) =====
+13 The volume of a fixed mass of gas is varied. The temperature remains constant. 
+ 
+Which graph shows how the pressure p of the gas varies with volume V ? 
+ 
+A
+p
+V
+0
+0
+B
+p
+V
+0
+0
+C
+p
+0
+0
+D
+p
+0
+0
+1
+V
+1
+V
+
+===== Q14 (page 5) =====
+14 Liquid evaporates from a beaker. 
+ 
+What happens to the temperature of the remaining liquid and how does this temperature change 
+affect the rate of evaporation? 
+ 
+ 
+temperature 
+rate of 
+evaporation 
+A 
+decreases 
+decreases 
+B 
+decreases 
+increases 
+C 
+increases 
+decreases 
+D 
+increases 
+increases
+
+===== Q15 (page 5) =====
+15 Thermal energy E is supplied to an object of mass m which does not change its state during the 
+heating process. The temperature of the object rises by T. 
+ 
+What is the specific heat capacity of the object? 
+A 
+T
+m
+E
+
+
+ 
+B 
+E
+T
+m
+
+
+ 
+C 
+m
+T
+E
+
+ 
+D 
+T
+m
+E
+
+
+
+===== Q16 (page 5) =====
+16 A room is heated by a radiator. The diagrams X and Y show two possible circulations of hot air, 
+which heat the room. 
+ 
+diagram X
+radiator
+diagram Y
+radiator
+ceiling
+floor
+ceiling
+floor
+ 
+ 
+Which diagram and reason explain the heating of the room by convection? 
+ 
+ 
+diagram 
+reason 
+A 
+X 
+air density decreases when air is heated 
+B 
+X 
+air density increases when air is heated 
+C 
+Y 
+air density decreases when air is heated 
+D 
+Y 
+air density increases when air is heated
+
+===== Q17 (page 6) =====
+17 A student writes down some facts about two transverse waves. 
+ 
+Wave 1 has a frequency f and a velocity v. 
+ 
+Wave 2 has four times the frequency of wave 1 and is travelling at a velocity of 2v. 
+ 
+What is the wavelength of wave 2 in terms of f and v? 
+A 
+v
+f
+2 
+B 
+8fv 
+C 
+f
+v
+2
+ 
+D 
+f
+v
+2
+
+===== Q18 (page 6) =====
+18 Straight wavefronts on the surface of a ripple tank approach a gap in a barrier. The diagram 
+shows how the wavefronts change shape as they pass through the gap. 
+ 
+straight wavefronts
+barrier
+ 
+ 
+What is the name of this effect? 
+A 
+diffraction 
+B 
+propagation 
+C 
+reflection 
+D 
+refraction
+
+===== Q19 (page 6) =====
+19 Light travels from air into glass. 
+ 
+What is the relationship between the refractive index n of the glass, the angle of incidence i and 
+the angle of refraction r ? 
+A 
+n = r
+i 
+B 
+n = i
+r 
+C 
+n = 
+r
+i
+sin
+sin 
+D 
+n = 
+i
+r
+sin
+sin
+
+===== Q20 (page 7) =====
+20 Which diagram shows the image correctly formed by reflection? 
+ 
+A
+object
+image
+B
+object
+image
+C
+object
+image
+D
+object
+image
+mirror
+mirror
+mirror
+mirror
+
+===== Q21 (page 7) =====
+21 A student passes parallel rays of light through four different converging lenses. He measures the 
+distance x and the distance y for each experiment. 
+ 
+x
+y
+ 
+ 
+Which lens has the longest focal length? 
+ 
+ 
+x / cm 
+y / cm 
+A 
+4.6 
+2.0 
+B 
+5.1 
+3.1 
+C 
+5.9 
+2.3 
+D 
+6.1 
+2.4
+
+===== Q22 (page 7) =====
+22 The frequency of the microwaves used in a microwave oven is 2400 MHz. 
+ 
+What is the wavelength of these microwaves? 
+A 
+0.125 m 
+B 
+8.00 m 
+C 
+125 m 
+D 
+7200 m
+
+===== Q23 (page 8) =====
+23 Which row gives typical values for the speed of sound in a solid and in a gas? 
+ 
+ 
+speed of sound in a solid 
+m / s 
+speed of sound in a gas 
+m / s 
+A 
+3 
+30 
+B 
+30 
+3 
+C 
+300 
+3000 
+D 
+3000 
+300
+
+===== Q24 (page 8) =====
+24 A hard magnetic material can be used to make a permanent magnet. 
+ 
+A soft magnetic material can be used to make a temporary magnet. 
+ 
+Which row shows whether iron and steel are hard or soft magnetic materials? 
+ 
+ 
+iron 
+steel 
+A 
+hard 
+hard 
+B 
+hard 
+soft 
+C 
+soft 
+hard 
+D 
+soft 
+soft
+
+===== Q25 (page 8) =====
+25 A power source is connected to a resistor XY. 
+ 
+X
+Y
++
+–
+ 
+ 
+In which directions are the conventional current and the flow of free electrons through the 
+resistor? 
+ 
+ 
+conventional 
+current 
+free electron 
+flow 
+A 
+X to Y 
+X to Y 
+B 
+X to Y 
+Y to X 
+C 
+Y to X 
+X to Y 
+D 
+Y to X 
+Y to X
+
+===== Q26 (page 9) =====
+26 Which unit is used to measure electromotive force (e.m.f.)? 
+A 
+ampere 
+B 
+joule 
+C 
+volt 
+D 
+watt
+
+===== Q27 (page 9) =====
+27 The graph shows the current–voltage characteristic for a filament lamp. 
+ 
+0
+0
+voltage
+current
+ 
+ 
+Which statement describes how the resistance of the lamp changes as the voltage increases? 
+A 
+The resistance decreases to zero. 
+B 
+The resistance decreases, but not to zero. 
+C 
+The resistance increases. 
+D 
+The resistance remains constant.
+
+===== Q28 (page 9) =====
+28 In the diagram, rod R is suspended from an insulating thread. 
+ 
++ + + + +
+Q
+R
+moves away
+from rod Q
+insulating
+thread
+ 
+ 
+When the positively charged rod Q is brought close to rod R, rod R moves away from rod Q. 
+ 
+Which conclusion can be made from this observation? 
+A 
+Rod R is charged, but it is not possible to identify the sign of the charge. 
+B 
+Rod R must be positively charged. 
+C 
+Rod R must be negatively charged. 
+D 
+Rod R is uncharged.
+
+===== Q29 (page 10) =====
+29 The circuit diagram shows a circuit used to run a d.c. motor from an a.c. supply. 
+ 
+M
+ 
+ 
+Which graph shows the current in the motor? 
+ 
+current
+A
+time
+0
+0
+current
+B
+time
+0
+0
+current
+C
+time
+0
+0
+current
+D
+time
+0
+0
+
+===== Q30 (page 11) =====
+30 The circuit shown can be completed by inserting components at X and at Y. The completed 
+circuit is a potential divider in which the potential difference across component Y increases when 
+the temperature increases. 
+ 
+V
+X
+Y
+ 
+ 
+Which row shows the components X and Y? 
+ 
+ 
+X 
+Y 
+A 
+light-dependent resistor 
+resistor 
+B 
+resistor 
+light-dependent resistor 
+C 
+resistor 
+thermistor 
+D 
+thermistor 
+resistor
+
+===== Q31 (page 11) =====
+31 A piece of soft iron XY has a coil of wire wound round it. 
+ 
+X
+Y
+S
+N
+soft iron
+magnet
+ 
+ 
+The N pole of a bar magnet is pulled away from end X which causes an induced current in the 
+coil. 
+ 
+The magnet is now turned round so that the N pole is on the left. It is taken to the other end of the 
+soft iron and the N pole is pushed towards end Y. A new current is induced in the coil. 
+ 
+Which statement is correct? 
+A 
+The new induced current is in the opposite direction and causes the soft iron to attract the 
+N pole. 
+B 
+The new induced current is in the opposite direction and causes the soft iron to repel the 
+N pole. 
+C 
+The new induced current is in the same direction and causes the soft iron to attract the 
+N pole. 
+D 
+The new induced current is in the same direction and causes the soft iron to repel the N pole.
+
+===== Q32 (page 12) =====
+32 The diagram shows a wire in the magnetic field between two poles of a magnet. 
+ 
+N
+S
+magnet
+wire
+ 
+ 
+The current in the wire repeatedly changes between a constant value in one direction and a 
+constant value in the opposite direction, as shown in the graph. 
+ 
+current
+time
+0
+0
+ 
+ 
+What is the effect on the wire? 
+A 
+The force on the wire alternates between one direction and the opposite direction. 
+B 
+The force on the wire is constant in size and direction. 
+C 
+There is no force acting on the wire at any time. 
+D 
+There is only a force on the wire when the current reverses.
+
+===== Q33 (page 12) =====
+33 A transformer has Np turns on its primary coil and Ns turns on its secondary coil. The voltage 
+across the primary coil is Vp and the voltage across the secondary coil is Vs. 
+ 
+What is the relationship between these four quantities? 
+A 
+Vp  Vs = Np  Ns 
+B 
+s
+p
+V
+V
+ = 
+s
+p
+N
+N 
+C 
+s
+p
+V
+V
+ = 
+p
+s
+N
+N 
+D 
+s
+p
+V
+V
+ = Np  Ns
+
+===== Q34 (page 13) =====
+34 A magnesium ion has a double positive charge and a chloride ion has a single negative charge. 
+ 
+Which statement is correct? 
+A 
+A chlorine atom gains an electron to form the chloride ion. 
+B 
+A chlorine atom loses a proton to form the chloride ion. 
+C 
+A magnesium atom loses an electron to form the magnesium ion. 
+D 
+A magnesium atom gains two electrons to form the magnesium ion.
+
+===== Q35 (page 13) =====
+35 Which row correctly describes an example of radioactive decay? 
+ 
+ 
+original 
+nucleus 
+emission 
+change or 
+no change of element 
+A 
+stable 
+ 
+change of element 
+B 
+unstable 
+ 
+change of element 
+C 
+unstable 
+ 
+no change of element 
+D 
+unstable 
+ 
+no change of element
+
+===== Q36 (page 13) =====
+36 A radioactive isotope of sodium has a half-life of 15 h. 
+ 
+The table gives data from an experiment to show how the rate of decay of the isotope varies with 
+time. 
+ 
+The background count rate has not been subtracted from these data. 
+ 
+time / h 
+0 
+10 
+20 
+30 
+s
+/
+counts
+rate
+ 
+count
+ 
+ 
+ 
+400 
+260 
+170 
+115 
+ 
+What is the background radiation count rate? 
+A 
+12 counts / s 
+B 
+15 counts / s 
+C 
+20 counts / s 
+D 
+30 counts / s
+
+===== Q37 (page 13) =====
+37 What happens in the process of nuclear fission? 
+A 
+Electrons are added to a nucleus. 
+B 
+Electrons are removed from a nucleus. 
+C 
+The nucleus of an atom splits. 
+D 
+Two atomic nuclei join together.
+
+===== Q38 (page 14) =====
+38 The time taken for the Earth to orbit the Sun is approximately 365 days. 
+ 
+The average radius of the Earth’s orbit around the Sun is 1.5  108
+ km. 
+ 
+What is the average orbital speed of the Earth? 
+A 
+30 m / s 
+B 
+4.8  103
+ m / s 
+C 
+3.0  104
+ m / s 
+D 
+4.1  1010
+ m / s
+
+===== Q39 (page 14) =====
+39 The Sun transfers energy to the Earth through electromagnetic radiation. 
+ 
+What are two of the parts of the electromagnetic spectrum to which most of the energy belongs? 
+A 
+gamma rays and X-rays 
+B 
+infrared radiation and visible light 
+C 
+microwaves and visible light 
+D 
+radio waves and microwaves
+
+===== Q40 (page 14) =====
+40 How does the Sun produce its energy? 
+A 
+by the fission of helium 
+B 
+by the fission of hydrogen 
+C 
+by the fusion of helium 
+D 
+by the fusion of hydrogen

@@ -1,0 +1,836 @@
+===== Q1 =====
+2
+0625/43/M/J/26
+© Cambridge University Press & Assessment 2026
+1 
+(a) Figure 1.1 shows a speed–time graph for a toy aircraft.
+0
+0
+10
+20
+30
+40
+50
+60
+70
+80
+time / s
+speed
+m / s
+90
+100
+110
+120
+130
+140
+150
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+Figure 1.1
+ 
+ 
+(i) Describe the motion between times:
+18 s and 110 s  ....................................................................................................................
+110 s and 136 s.  .................................................................................................................
+ 
+[2]
+ 
+ 
+(ii) Calculate the distance travelled between time = 0 and time = 110 s.
+ 
+distance =  ..................................................... m [3]
+* 0000800000002 *
+,	,
+ĬÕĊ®Ġ´íÈõÏĪÅĊÞû¸þ×
+ĬĝññÓĪĄîÕāĄüÕ¼õĒāĂ
+ĥåõĕõµĥõÕąÅÅąµĥµåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+0625/43 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+0625/43 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-534D9F2381
+
+3
+0625/43/M/J/26
+© Cambridge University Press & Assessment 2026
+[Turn over
+ 
+ 
+(iii) Calculate the acceleration between time = 0 and time = 18 s.
+ 
+acceleration =  ................................................ m / s2 [2]
+ 
+(b) A small aircraft travels at a constant speed of 60 m / s. The mass of the small aircraft 
+is 820 kg.
+ 
+ 
+Calculate the energy Ek in the kinetic store of the aircraft.
+ 
+Ek =  ...................................................... J [2]
+[Total: 9]
+* 0000800000003 *
+,	,
+Ĭ×Ċ®Ġ´íÈõÏĪÅĊÞù¸þ×
+ĬĝòòÛĠĀþä÷í­āÄáĒñĂ
+ĥåąÕµÕąĕÅõĕÅąÕąõµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+0625/43 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+0625/43 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-534D9F2381
+
+
+===== Q2 =====
+4
+0625/43/M/J/26
+© Cambridge University Press & Assessment 2026
+2 
+Figure 2.1 shows a diagram of a car brake pedal. The driver applies a force of 14 N to the end of 
+the brake pedal. The piston applies a force of 72 N to the brake pedal.
+19.6 cm
+14 N
+72 N
+d
+brake fluid
+piston
+pivot
+brake pedal
+ 
+Figure 2.1
+ 
+(a) Show that the moment of the 14 N force about the pivot is approximately 270 N cm.
+ 
+[1]
+ 
+(b) The brake pedal is stationary. The piston exerts a force of 72 N on the brake pedal.
+ 
+ 
+Calculate the distance d.
+ 
+d =  ................................................... cm [2]
+ 
+(c) The pressure exerted by the brake fluid on the piston is 8.4 × 104 Pa.
+ 
+ 
+Calculate the cross-sectional area of the piston.
+ 
+cross-sectional area =  .................................................... m2 [2]
+[Total: 5]
+* 0000800000004 *
+,	,
+ĬÕĊ®Ġ´íÈõÏĪÅĊàû¸Ā×
+ĬĝòóÛĦîċ×ùö¶ãĠăĂĉĂ
+ĥĕÕÕõÕąµåÕĥÅÅÕåõåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+0625/43 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+0625/43 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-534D9F2381
+
+
+===== Q3 =====
+5
+0625/43/M/J/26
+© Cambridge University Press & Assessment 2026
+[Turn over
+3 
+A balloon contains helium gas.
+ 
+(a) Explain how the particles of helium gas in the balloon exert a pressure on the inside of 
+the balloon.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+ 
+(b) The balloon contains a volume of 12 m3 of helium gas at a pressure of 110 kPa.
+ 
+ 
+The balloon is released and rises to a height h where the pressure of the gas is 52 kPa.
+ 
+ 
+The temperature and the mass of helium gas remain constant.
+ 
+ 
+(i) Calculate the volume of the helium gas at height h.
+ 
+volume =  .................................................... m3 [2]
+ 
+ 
+(ii) At height h, the balloon has gained 120 kJ of energy in the gravitational potential store. 
+ 
+ 
+ The mass of the balloon is 2.5 kg.
+ 
+ 
+ Calculate the height h.
+ 
+h =  ..................................................... m [3]
+[Total: 8]
+* 0000800000005 *
+,	,
+Ĭ×Ċ®Ġ´íÈõÏĪÅĊàù¸Ā×
+ĬĝñôÓĤòûâÿċó÷Ę×ĂùĂ
+ĥĕåĕµµĥÕµåµÅÅµÅµµÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+0625/43 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+0625/43 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-534D9F2381
+
+
+===== Q4 =====
+6
+0625/43/M/J/26
+© Cambridge University Press & Assessment 2026
+4 
+(a) Figure 4.1 shows a pan of water on a hotplate.
+hotplate
+water
+pan
+ 
+Figure 4.1
+ 
+ 
+The mass of water in the pan is 200 g.
+ 
+ 
+The specific heat capacity of water is 4.2 J / (g °C).
+ 
+ 
+(i) The temperature of the water increases from 22 °C to 80 °C.
+ 
+ 
+ Show that the energy transferred to the water is approximately 49 kJ.
+ 
+[2]
+ 
+ 
+(ii) The time taken for the temperature of the water to increase from 22 °C to 80 °C is 41 s.
+ 
+ 
+ Calculate the minimum power of the hotplate.
+ 
+power =  ..................................................... W [2]
+ 
+ 
+(iii) State one reason why the power of the hotplate must be greater than the value 
+calculated in 4(a)(ii).
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+* 0000800000006 *
+,	,
+ĬÙĊ®Ġ´íÈõÏĪÅĊÝùµþ×
+ĬĝòôÐĪĚñêČúĊėĠ¶êĉĂ
+ĥÅąĕµĕĥõõÅĕÅąµĥõĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+0625/43 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+0625/43 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-534D9F2381
+
+7
+0625/43/M/J/26
+© Cambridge University Press & Assessment 2026
+[Turn over
+ 
+(b) Describe, in terms of particles and their motion, two ways in which a gas differs from 
+a liquid.
+1  ................................................................................................................................................
+ ...................................................................................................................................................
+2  ................................................................................................................................................
+ ...................................................................................................................................................
+ 
+[2]
+[Total: 7]
+* 0000800000007 *
+,	,
+ĬÛĊ®Ġ´íÈõÏĪÅĊÝûµþ×
+ĬĝñóØĠĖāÏîć¿ÃĘĢêùĂ
+ĥÅõÕõõąĕĥµÅÅąÕąµõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+0625/43 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+0625/43 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-534D9F2381
+
+
+===== Q5 =====
+8
+0625/43/M/J/26
+© Cambridge University Press & Assessment 2026
+5 
+Waves can be transverse or longitudinal.
+ 
+(a) (i) Complete the sentence to describe a longitudinal wave.
+ 
+ 
+ In a longitudinal wave, the direction of vibration is ......................................................... 
+to the direction of propagation. 
+[1]
+ 
+ 
+(ii) Give one example of a longitudinal wave.
+ ..................................................................................................................................... [1]
+ 
+(b) A vibrating rod produces a water wave in a ripple tank.
+ 
+ 
+(i) The wavelength of the wave is 0.016 m.
+ 
+ 
+ The wave is travelling at a speed of 0.12 m / s.
+ 
+ 
+ Calculate the frequency of the wave. Give the unit.
+ 
+frequency =  .................................. unit ............... [2]
+ 
+ 
+(ii) The water wave travels from shallow water to deep water.
+ 
+ 
+ Complete Table 5.1 to show what happens to the properties of the water wave.
+ 
+ 
+ Indicate your answers by placing ticks (3) in the appropriate boxes. One has been done 
+for you.
+ 
+Table 5.1
+from shallow water to deep water
+wave property
+decreases
+stays the same
+increases
+wavelength
+3
+frequency
+speed
+ 
+[2]
+* 0000800000008 *
+,		,
+ĬÙĊ®Ġ´íÈõÏĪÅĊßùµĀ×
+ĬĝñòØĦĨĈìôĀÈġ¼ÄºāĂ
+ĥõåÕµõąµąĕµÅÅÕåµĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+0625/43 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+0625/43 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-534D9F2381
+
+9
+0625/43/M/J/26
+© Cambridge University Press & Assessment 2026
+[Turn over
+ 
+(c) Figure 5.1 shows a ripple tank demonstrating a wave effect.
+ 
+ 
+The wave passes through a small gap in a barrier.
+vibrating
+rod
+barrier
+gap
+direction of propagation
+ 
+Figure 5.1
+ 
+ 
+(i) State the name of the wave effect shown in Figure 5.1.
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) State two changes that each increase the curvature of the wavefronts as the wave 
+passes through the gap.
+1  ........................................................................................................................................
+2  ........................................................................................................................................
+ 
+[2]
+[Total: 9]
+* 0000800000009 *
+,	
+,
+ĬÛĊ®Ġ´íÈõÏĪÅĊßûµĀ×
+ĬĝòñÐĤĬøÍĆñāµÄĘºñĂ
+ĥõÕĕõĕĥÕĕĥĥÅÅµÅõõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+0625/43 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+0625/43 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-534D9F2381
+
+
+===== Q6 =====
+10
+0625/43/M/J/26
+© Cambridge University Press & Assessment 2026
+6 
+(a) An image of object O is formed by a plane mirror.
+ 
+ 
+A person views the image. Figure 6.1 shows a scale diagram of the arrangement.
+240 cm
+80 cm
+object O
+eye
+plane mirror
+Figure 6.1
+ 
+ 
+(i) Mark the position of the image. Label it I. 
+[1]
+ 
+ 
+(ii) Draw on Figure 6.1 to show the path of the light from object O to the person’s eye. 
+[2]
+ 
+(b) Figure 6.2 shows three rays of light travelling from a light source S. The rays travel in glass 
+towards a glass–water boundary.
+water
+NOT TO SCALE
+glass
+ray X
+28°
+25°
+S
+Figure 6.2
+ 
+ 
+(i) Calculate the refractive index for the glass–water boundary. Use information 
+from Figure 6.2.
+ 
+refractive index =  ......................................................... [2]
+ 
+ 
+(ii) On Figure 6.2, label the critical angle c. 
+[1]
+ 
+ 
+(iii) On Figure 6.2, continue the path of ray X after it reaches the glass–water boundary. [1]
+[Total: 7]
+* 0000800000010 *
+,	,
+ĬÙĊ®Ġ´íÈõÏĪÅĊÞù·þ×
+ĬĝôòÍĨĠĒæûćĞýºèĂùĂ
+ĥåÅĕµõåµååµąÅõåµÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+0625/43 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+0625/43 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-534D9F2381
+
+
+===== Q7 =====
+11
+0625/43/M/J/26
+© Cambridge University Press & Assessment 2026
+[Turn over
+7 
+A student connects the circuit shown in Figure 7.1.
+V
+X
+12 V
+240 Ω
+ 
+Figure 7.1
+ 
+(a) The connecting wires in the circuit are made of metal.
+ 
+ 
+State the name of the particles that flow in the metal wires.
+ ............................................................................................................................................. [1]
+ 
+(b) A bright light shines on component X.
+ 
+ 
+(i) State the name of component X.
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) The resistance of component X is 400 Ω when the light shines on it.
+ 
+ 
+ Calculate the reading on the voltmeter.
+ 
+reading on the voltmeter =  ...................................................... V [3]
+ 
+(c) The brightness of the light shining on component X is reduced. The resistance of 
+component X increases.
+ 
+ 
+State the effect of this change on:
+the current in the fixed resistor  .................................................................................................
+the reading on the voltmeter.  ....................................................................................................
+ 
+[2]
+[Total: 7]
+* 0000800000011 *
+,	,
+ĬÛĊ®Ġ´íÈõÏĪÅĊÞû·þ×
+ĬĝóñÕĢĤĢÓýúëÙÂôĂĉĂ
+ĥåµÕõĕÅÕµÕĥąÅĕÅõÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+0625/43 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+0625/43 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-534D9F2381
+
+
+===== Q8 =====
+12
+0625/43/M/J/26
+© Cambridge University Press & Assessment 2026
+8 
+(a) A teacher uses the arrangement shown in Figure 8.1 to demonstrate how an intruder 
+alarm works.
+S
+soft-iron
+bar
+soft-iron arm
+battery
+clamp
+and
+stand
+coil of
+wire
+contacts
+pivot
+bell
+circuit
+insulator
+Figure 8.1
+ 
+ 
+Switch S is connected to a door. When the door is open, switch S is open. When the door is 
+closed, switch S is closed.
+ 
+ 
+Complete the sentences to explain how the arrangement can be used as an intruder alarm.
+ 
+ 
+The teacher closes the door and the battery produces a .........................................................  
+ 
+in the coil of wire.
+ 
+ 
+The soft-iron bar is ......................................................... and attracts the soft-iron arm.
+ 
+ 
+When the door is opened, the contacts touch and this .........................................................  
+ 
+the bell circuit, causing the bell to ring.
+ 
+[3]
+* 0000800000012 *
+,	,
+ĬÙĊ®Ġ´íÈõÏĪÅĊàù·Ā×
+ĬĝóôÕĬĒħèăñäûĞÒĒñĂ
+ĥĕĥÕµĕÅõÕõĕąąĕĥõÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+0625/43 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+0625/43 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-534D9F2381
+
+13
+0625/43/M/J/26
+© Cambridge University Press & Assessment 2026
+[Turn over
+ 
+(b) Figure 8.2 shows a transformer that is 100% efficient.
+core
+secondary coil
+40 turns
+primary coil
+360 turns
+240 V a.c.
+ 
+Figure 8.2
+ 
+ 
+(i) Calculate the voltage Vs across the secondary coil.
+ 
+Vs =  ...................................................... V [2]
+ 
+ 
+(ii) A student connects the primary coil of the transformer to a d.c. supply.
+ 
+ 
+ Explain why there is no voltage across the secondary coil.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+[Total: 7]
+* 0000800000013 *
+,	,
+ĬÛĊ®Ġ´íÈõÏĪÅĊàû·Ā×
+ĬĝôóÍĞĎėÑõĀĥßĖĆĒāĂ
+ĥĕĕĕõõåĕÅąÅąąõąµÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+0625/43 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+0625/43 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-534D9F2381
+
+
+===== Q9 =====
+14
+0625/43/M/J/26
+© Cambridge University Press & Assessment 2026
+9 
+(a) Figure 9.1 shows a copper cylinder placed on two metal rods in the magnetic field between 
+the poles of a magnet.
+horizontal metal rods
+pole X
+pole Y
+magnet
+copper cylinder
+Figure 9.1
+ 
+ 
+The switch is closed.
+ 
+ 
+(i) On Figure 9.1, mark with an arrow the direction of the current in the copper cylinder. [1]
+ 
+ 
+(ii) The copper cylinder moves to the left along the horizontal metal rods.
+ 
+ 
+ Complete the sentences about pole X and pole Y.
+Pole X is a ......................................................... pole.
+Pole Y is a ......................................................... pole.
+ 
+[1]
+ 
+ 
+(iii) Suggest two changes that each increase the force on the copper cylinder.
+1  ........................................................................................................................................
+2  ........................................................................................................................................
+ 
+[2]
+* 0000800000014 *
+,	,
+ĬÕĊ®Ġ´íÈõÏĪÅĊßü¶Ă×
+ĬĝóñÐĤġğãóċÊă¿ĂâĉĂ
+ĥµĕÕµĕĥµåĕÅÅÅµåõĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+0625/43 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+0625/43 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-534D9F2381
+
+15
+0625/43/M/J/26
+© Cambridge University Press & Assessment 2026
+[Turn over
+ 
+(b) Figure 9.2 shows a d.c. motor.
++
+–
+brush
+brush
+coil
+axis
+N
+S
+split-ring
+commutator
+ 
+Figure 9.2
+ 
+ 
+(i) Explain how the split-ring commutator allows the coil to rotate continuously.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+ 
+(ii) Explain the purpose of the brushes.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+[Total: 7]
+* 0000800000015 *
+,	,
+Ĭ×Ċ®Ġ´íÈõÏĪÅĊßú¶Ă×
+ĬĝôòØĦĝďÖąöÿ×·ÖâùĂ
+ĥµĥĕõõąÕµĥĕÅÅÕÅµąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+0625/43 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+0625/43 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-534D9F2381
+
+
+===== Q10 =====
+16
+0625/43/M/J/26
+© Cambridge University Press & Assessment 2026
+10 Carbon-14 and carbon-11 are different isotopes of carbon used in medicine.
+ 
+(a) State the similarity and the difference between the composition of the nuclei of carbon-14 
+and carbon-11.
+similarity  ....................................................................................................................................
+difference  ..................................................................................................................................
+ 
+[2]
+ 
+(b) A carbon-14 nucleus decays into a nitrogen (N) nucleus by the emission of a 
+beta particle (β-particle).
+ 
+ 
+(i) Complete the nuclear equation for the decay.
+14
+6C     
++
+ 
+[2]
+ 
+ 
+(ii) State the change that occurs in the carbon-14 nucleus during the decay.
+ ..................................................................................................................................... [1]
+ 
+(c) Scientists discover an ancient wooden object.
+ 
+ 
+The object contains 1.0 × 10–10 g of carbon-14.
+ 
+ 
+The object contained 8.0 × 10–10 g of carbon-14 when it was made.
+ 
+ 
+Carbon-14 has a half-life of 5700 years.
+ 
+ 
+Estimate the age of the ancient wooden object.
+ 
+age =  ............................................... years [2]
+[Total: 7]
+* 0000800000016 *
+,	,
+ĬÕĊ®Ġ´íÈõÏĪÅĊÝü¶Ą×
+ĬĝôóØĠďĚáċíĈõěø²āĂ
+ĥąµĕµõąõÕÅĥÅąÕĥµĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+0625/43 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+0625/43 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-534D9F2381
+
+
+===== Q11 =====
+17
+0625/43/M/J/26
+© Cambridge University Press & Assessment 2026
+11 (a) The Sun is an example of a stable star.
+ 
+ 
+Describe the process that releases energy in the Sun.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+ 
+(b) Complete the sentence about energy transferred from the Sun.
+ 
+ 
+The Sun radiates most of its energy in the infrared, visible and ..............................................  
+ 
+regions of the .............................................. spectrum.
+ 
+[2]
+ 
+(c) The Sun produces solar winds. Solar winds are streams of charged particles travelling 
+through space.
+ 
+ 
+A charge of 240 C passes through a region of space in 180 s.
+ 
+ 
+Calculate the current in this region of space.
+ 
+current =  ...................................................... A [2]
+[Total: 7]
+* 0000800000017 *
+,	,
+Ĭ×Ċ®Ġ´íÈõÏĪÅĊÝú¶Ą×
+ĬĝóôÐĪēĪØíĄÁáģä²ñĂ
+ĥąÅÕõĕĥĕÅµµÅąµąõąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+PapaCambridge ·  papacambridge.com
+0625/43 Question Paper June 2026
+Downloaded from PapaCambridge - https://papacambridge.com/
+0625/43 Question Paper June 2026 | Source: papacambridge.com
+Licensed for hosting on papacambridge.com only.
+Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable.
+Trace ID: PC-534D9F2381
+

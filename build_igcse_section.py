@@ -394,7 +394,7 @@ def html_section(mcq_years, theory_years):
     head = (
         '<div class="igcse-divider">'
         '<h2>IGCSE Physics 0625 — Question Organizer</h2>'
-        '<p>Paper 2 (multiple choice) and Paper 4 (theory), 2024–2025</p>'
+        '<p>Paper 2 (multiple choice) and Paper 4 (theory), 2024–2026</p>'
         '</div>'
     )
 
@@ -407,11 +407,15 @@ def html_section(mcq_years, theory_years):
     for y in all_years:
         grid_rows.append('<div class="gp-year">%s</div>' % y)
         for paper in ["2", "4"]:
-            label = "MCQ" if paper == "2" else "Theory"
             if y in (mcq_years if paper == "2" else theory_years):
+                if paper == "2":
+                    count = sum(len(v) for v in mcq_years[y].values())
+                else:
+                    count = len(theory_years[y])
                 grid_rows.append(
                     '<div class="gp-cell available" data-year="%s" data-paper="%s">'
-                    '<button type="button" class="gp-open-btn">Open</button></div>' % (y, paper))
+                    '<button type="button" class="gp-open-btn">Open<span class="gp-count">%d questions</span></button></div>'
+                    % (y, paper, count))
             else:
                 grid_rows.append(
                     '<button type="button" class="gp-cell soon" data-year="%s" data-paper="%s">Soon</button>' % (y, paper))

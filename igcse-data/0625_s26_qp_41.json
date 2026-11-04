@@ -1,0 +1,96 @@
+{
+  "paper": "0625/41/M/J/26",
+  "paper_full": "June 2026 · Paper 41",
+  "questions": [
+    {
+      "qnum": 1,
+      "topic": "1",
+      "title": "Falling rubber ball — mass, weight and energy transfers",
+      "marks": 10,
+      "pdf": "igcse-slices/0625_s26_qp_41_Q01.pdf",
+      "parts": [],
+      "code": "1.7"
+    },
+    {
+      "qnum": 2,
+      "topic": "1",
+      "title": "Metal sphere — density and measuring volume",
+      "marks": 6,
+      "pdf": "igcse-slices/0625_s26_qp_41_Q02.pdf",
+      "parts": [],
+      "code": "1.4"
+    },
+    {
+      "qnum": 3,
+      "topic": "3",
+      "title": "Transverse waves and laser light — wavelength and frequency",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_s26_qp_41_Q03.pdf",
+      "parts": [],
+      "code": "3.3"
+    },
+    {
+      "qnum": 4,
+      "topic": "4",
+      "title": "Bar magnet — plotting compasses and electromagnetic induction",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_s26_qp_41_Q04.pdf",
+      "parts": [],
+      "code": "4.1"
+    },
+    {
+      "qnum": 5,
+      "topic": "2",
+      "title": "Dust particles in air — random motion, gas pressure and temperature",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_s26_qp_41_Q05.pdf",
+      "parts": [],
+      "code": "2.1"
+    },
+    {
+      "qnum": 6,
+      "topic": "4",
+      "title": "Charged metal sphere — electric field and charging by contact",
+      "marks": 6,
+      "pdf": "igcse-slices/0625_s26_qp_41_Q06.pdf",
+      "parts": [],
+      "code": "4.2"
+    },
+    {
+      "qnum": 7,
+      "topic": "4",
+      "title": "Motor circuit — e.m.f., work done, current and p.d.",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_s26_qp_41_Q07.pdf",
+      "parts": [],
+      "code": "4.3"
+    },
+    {
+      "qnum": 8,
+      "topic": "4",
+      "title": "Lawnmower — mains current, trip switch and energy cost",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_s26_qp_41_Q08.pdf",
+      "parts": [],
+      "code": "4.4"
+    },
+    {
+      "qnum": 9,
+      "topic": "3",
+      "title": "Dispersion of light, the electromagnetic spectrum and redshift",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_s26_qp_41_Q09.pdf",
+      "parts": [],
+      "code": "3.2"
+    },
+    {
+      "qnum": 10,
+      "topic": "5",
+      "title": "Nuclear power station — nuclide notation, fission and power transmission",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_s26_qp_41_Q10.pdf",
+      "parts": [],
+      "code": "5.1"
+    }
+  ]
+}

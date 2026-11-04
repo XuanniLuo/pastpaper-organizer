@@ -2,9 +2,11 @@
 """
 Slice an IGCSE 0625 Paper 4 (Theory) question paper into one PDF per question.
 
-Each question starts at the top of a fresh page (question number at the left
-margin, y~61) and spans full pages until the next question begins. Blank pages
-are skipped. Also extracts each question's text (for categorization / titles).
+Each question number sits at the left margin (x~50). Questions normally start at
+the top of a fresh page, but occasionally one starts mid-page (right after the
+previous question's total). This script therefore detects every left-margin
+question number and clips pages at mid-page boundaries so each slice contains
+exactly one question. Blank pages are skipped.
 
 Usage:
     python igcse_theory_slice.py igcse-2024/0625_m24_qp_42.pdf
@@ -23,7 +25,7 @@ import pymupdf
 
 from igcse_mcq_slice import parse_paper_code
 
-TOP_Y = 100.0          # question numbers sit at y~61; cover blank-page list is lower
+TOP_Y = 100.0          # question numbers at page tops sit at y~61
 LEFT_MARGIN = 62.0
 
 
@@ -31,7 +33,6 @@ def is_blank_page(page):
     text = page.get_text().strip()
     if "BLANK PAGE" in text.upper():
         return True
-    # a page with no meaningful content beyond the header/footer
     compact = re.sub(r"\s+", " ", text)
     compact = compact.replace("© UCLES", "").replace("0625/", "").replace("[Turn over", "")
     compact = re.sub(r"\d+", "", compact).strip()
@@ -39,34 +40,41 @@ def is_blank_page(page):
 
 
 def find_question_starts(doc):
-    """Return {qnum: page_index} for each question number 1-12 found at page tops."""
+    """Return {qnum: (page_index, y0)} for each question number 1-12.
+
+    y0 is the top edge of the question-number word, used to clip mid-page
+    question starts. Page numbers and figure/data values sit further right
+    (x >= LEFT_MARGIN), so matching the left margin is unambiguous.
+    """
     starts = {}
     for pi in range(1, len(doc)):   # skip cover (page 0)
-        page = doc[pi]
-        for w in page.get_text("words"):
+        for w in doc[pi].get_text("words"):
             x0, y0, word = w[0], w[1], w[4]
             t = word.strip()
-            if t.isdigit() and 1 <= int(t) <= 12 and x0 < LEFT_MARGIN and y0 < TOP_Y:
+            if t.isdigit() and 1 <= int(t) <= 12 and x0 < LEFT_MARGIN:
                 n = int(t)
                 if n not in starts:
-                    starts[n] = pi
+                    starts[n] = (pi, y0)
     return starts
 
 
-def question_text(doc, pages):
-    return "\n".join(doc[pi].get_text().strip() for pi in pages)
-
-
-def slice_pages(src_doc, page_indices, out_path):
-    """Combine a list of source pages into a single clipped PDF (full pages)."""
+def slice_pieces(src_doc, pieces, out_path):
+    """Combine (page_index, clip_rect_or_None) pieces into one PDF."""
     new_doc = pymupdf.open()
-    for pi in page_indices:
+    for pi, clip in pieces:
         src_page = src_doc[pi]
         rect = src_page.rect
         new_page = new_doc.new_page(width=rect.width, height=rect.height)
-        new_page.show_pdf_page(new_page.rect, src_doc, pi)
+        new_page.show_pdf_page(new_page.rect, src_doc, pi, clip=clip)
     new_doc.save(out_path)
     new_doc.close()
+
+
+def piece_text(src_doc, pieces):
+    return "\n".join(
+        src_doc[pi].get_text(clip=clip) if clip else src_doc[pi].get_text()
+        for pi, clip in pieces
+    )
 
 
 def main(qp_path):
@@ -75,21 +83,57 @@ def main(qp_path):
 
     src = pymupdf.open(qp_path)
     starts = find_question_starts(src)
+    ordered = sorted(starts.items())      # [(qnum, (pi, y0)), ...]
 
-    # content pages for each question: from start page up to (next start - 1),
-    # excluding blank pages; last question runs to the last non-blank page
-    ordered = sorted(starts.items())
+    last_pi = len(src) - 1
+    while last_pi > 0 and is_blank_page(src[last_pi]):
+        last_pi -= 1
+
     questions = []
     txt_lines = []
-    for i, (n, start_pi) in enumerate(ordered):
-        end_pi = ordered[i + 1][1] - 1 if i + 1 < len(ordered) else len(src) - 1
-        pages = [pi for pi in range(start_pi, end_pi + 1) if not is_blank_page(src[pi])]
-        if not pages:
+    for i, (n, (start_pi, start_y)) in enumerate(ordered):
+        w = src[start_pi].rect.width
+        h = src[start_pi].rect.height
+
+        if i + 1 < len(ordered):
+            _, (next_pi, next_y) = ordered[i + 1]
+            if next_y >= TOP_Y:
+                # next question starts mid-page -> this question's last page is clipped
+                end_pi = next_pi
+                end_clip = pymupdf.Rect(0, 0, w, next_y)
+            else:
+                end_pi = next_pi - 1
+                end_clip = None
+        else:
+            end_pi = last_pi
+            end_clip = None
+
+        # build the (page, clip) pieces for this question
+        pieces = []
+        if start_y >= TOP_Y:
+            pieces.append((start_pi, pymupdf.Rect(0, start_y, w, h)))
+        else:
+            pieces.append((start_pi, None))
+
+        if end_pi > start_pi:
+            for pi in range(start_pi + 1, end_pi):
+                pieces.append((pi, None))
+            pieces.append((end_pi, end_clip))
+        elif end_pi == start_pi and start_y >= TOP_Y and end_clip is not None:
+            # question fully contained on one page, between two mid-page numbers
+            pieces = [(start_pi, pymupdf.Rect(0, start_y, w, next_y))]
+        elif end_pi == start_pi and end_clip is not None:
+            pieces = [(start_pi, end_clip)]
+
+        pieces = [(pi, c) for pi, c in pieces if not is_blank_page(src[pi])]
+        if not pieces:
             continue
+
         pdf_name = f"{qp_stem}_Q{n:02d}.pdf"
         out_path = os.path.join("igcse-slices", pdf_name)
-        slice_pages(src, pages, out_path)
-        qtxt = question_text(src, pages)
+        slice_pieces(src, pieces, out_path)
+
+        qtxt = piece_text(src, pieces)
         questions.append({
             "qnum": n,
             "topic": "",

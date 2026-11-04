@@ -1,0 +1,105 @@
+{
+  "paper": "0625/42/M/J/26",
+  "paper_full": "June 2026 · Paper 42",
+  "questions": [
+    {
+      "qnum": 1,
+      "topic": "1",
+      "title": "Speed–time graph and vector quantities",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_s26_qp_42_Q01.pdf",
+      "parts": [],
+      "code": "1.2"
+    },
+    {
+      "qnum": 2,
+      "topic": "1",
+      "title": "Satellite and rocket — force, acceleration and gas pressure",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_s26_qp_42_Q02.pdf",
+      "parts": [],
+      "code": "1.5"
+    },
+    {
+      "qnum": 3,
+      "topic": "2",
+      "title": "Electric shower — specific heat capacity and power",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_s26_qp_42_Q03.pdf",
+      "parts": [],
+      "code": "2.2"
+    },
+    {
+      "qnum": 4,
+      "topic": "1",
+      "title": "Student landing — impulse, force and pressure",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_s26_qp_42_Q04.pdf",
+      "parts": [],
+      "code": "1.6"
+    },
+    {
+      "qnum": 5,
+      "topic": "2",
+      "title": "Evaporation — cooling effect and rate of evaporation",
+      "marks": 5,
+      "pdf": "igcse-slices/0625_s26_qp_42_Q05.pdf",
+      "parts": [],
+      "code": "2.2"
+    },
+    {
+      "qnum": 6,
+      "topic": "3",
+      "title": "Converging lens — principal focus, image and electromagnetic spectrum",
+      "marks": 6,
+      "pdf": "igcse-slices/0625_s26_qp_42_Q06.pdf",
+      "parts": [],
+      "code": "3.2"
+    },
+    {
+      "qnum": 7,
+      "topic": "3",
+      "title": "Loudspeaker — sound production, wavelength and ultrasound",
+      "marks": 6,
+      "pdf": "igcse-slices/0625_s26_qp_42_Q07.pdf",
+      "parts": [],
+      "code": "3.4"
+    },
+    {
+      "qnum": 8,
+      "topic": "4",
+      "title": "Electric field and a thermistor relay circuit",
+      "marks": 10,
+      "pdf": "igcse-slices/0625_s26_qp_42_Q08.pdf",
+      "parts": [],
+      "code": "4.2"
+    },
+    {
+      "qnum": 9,
+      "topic": "5",
+      "title": "Carbon-14 — isotopes, half-life and background radiation",
+      "marks": 6,
+      "pdf": "igcse-slices/0625_s26_qp_42_Q09.pdf",
+      "parts": [],
+      "code": "5.2"
+    },
+    {
+      "qnum": 10,
+      "topic": "5",
+      "title": "Nuclear fission — power station and energy resources",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_s26_qp_42_Q10.pdf",
+      "parts": [],
+      "code": "5.1"
+    },
+    {
+      "qnum": 11,
+      "topic": "6",
+      "title": "Earth and Jupiter orbits — light-year and Hubble's law",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_s26_qp_42_Q11.pdf",
+      "parts": [],
+      "code": "6.1"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "paper": "0625/43/M/J/26",
+  "paper_full": "June 2026 · Paper 43",
+  "questions": [
+    {
+      "qnum": 1,
+      "topic": "1",
+      "title": "Speed–time graph — motion, distance, acceleration and kinetic energy",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_s26_qp_43_Q01.pdf",
+      "parts": [],
+      "code": "1.2"
+    },
+    {
+      "qnum": 2,
+      "topic": "1",
+      "title": "Brake pedal — moments and pressure",
+      "marks": 5,
+      "pdf": "igcse-slices/0625_s26_qp_43_Q02.pdf",
+      "parts": [],
+      "code": "1.5"
+    },
+    {
+      "qnum": 3,
+      "topic": "2",
+      "title": "Helium balloon — gas pressure, Boyle's law and gravitational potential energy",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_s26_qp_43_Q03.pdf",
+      "parts": [],
+      "code": "2.1"
+    },
+    {
+      "qnum": 4,
+      "topic": "2",
+      "title": "Heating water — specific heat capacity, power and gas vs liquid",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_s26_qp_43_Q04.pdf",
+      "parts": [],
+      "code": "2.2"
+    },
+    {
+      "qnum": 5,
+      "topic": "3",
+      "title": "Water waves — longitudinal waves, frequency and diffraction",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_s26_qp_43_Q05.pdf",
+      "parts": [],
+      "code": "3.1"
+    },
+    {
+      "qnum": 6,
+      "topic": "3",
+      "title": "Plane mirror and refraction — refractive index and critical angle",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_s26_qp_43_Q06.pdf",
+      "parts": [],
+      "code": "3.2"
+    },
+    {
+      "qnum": 7,
+      "topic": "4",
+      "title": "LDR circuit — resistance and voltmeter reading",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_s26_qp_43_Q07.pdf",
+      "parts": [],
+      "code": "4.3"
+    },
+    {
+      "qnum": 8,
+      "topic": "4",
+      "title": "Intruder alarm and transformer — electromagnet and voltage",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_s26_qp_43_Q08.pdf",
+      "parts": [],
+      "code": "4.5"
+    },
+    {
+      "qnum": 9,
+      "topic": "4",
+      "title": "Motor effect — force on a conductor and d.c. motor",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_s26_qp_43_Q09.pdf",
+      "parts": [],
+      "code": "4.5"
+    },
+    {
+      "qnum": 10,
+      "topic": "5",
+      "title": "Carbon-14 dating — isotopes, beta decay and half-life",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_s26_qp_43_Q10.pdf",
+      "parts": [],
+      "code": "5.2"
+    },
+    {
+      "qnum": 11,
+      "topic": "6",
+      "title": "The Sun — energy release, electromagnetic radiation and solar wind",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_s26_qp_43_Q11.pdf",
+      "parts": [],
+      "code": "6.2"
+    }
+  ]
+}

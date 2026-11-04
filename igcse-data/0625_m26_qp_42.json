@@ -1,0 +1,468 @@
+{
+  "paper": "0625/42/F/M/26",
+  "paper_full": "March 2026 · Paper 42",
+  "questions": [
+    {
+      "qnum": 1,
+      "topic": "1",
+      "title": "Cycling to school — distance–time graph and speed",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_m26_qp_42_Q01.pdf",
+      "parts": [
+        {
+          "label": "1(a)",
+          "marks": 1,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "1.7 (km)"
+        },
+        {
+          "label": "1(b)",
+          "marks": 2,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "B C OR D"
+        },
+        {
+          "label": "1(c)",
+          "marks": 5,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "20 (km / h) OR maximum speed, correctly calculated from the gradient of BC using values other than point B and point C. (speed =) gradient (of distance-time graph) OR triangle method for gradient shown on graph OR (Speed =) {1.25 – 0.4 ÷ {7.5 – 5.0}} OR (Speed =) 0.85 / 2.5 OR 0.34 conversion from km / min to km / h OR conversion from min to h"
+        }
+      ],
+      "code": "1.2"
+    },
+    {
+      "qnum": 2,
+      "topic": "1",
+      "title": "Steel ship — density, floating and force",
+      "marks": 10,
+      "pdf": "igcse-slices/0625_m26_qp_42_Q02.pdf",
+      "parts": [
+        {
+          "label": "2(a)(i)",
+          "marks": 1,
+          "codes": [
+            "1.4"
+          ],
+          "answer": " = m / V OR density equals mass divided by volume"
+        },
+        {
+          "label": "2(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "1.4"
+          ],
+          "answer": "0.014 (m3)"
+        },
+        {
+          "label": "2(a)(iii)",
+          "marks": 1,
+          "codes": [
+            "1.4"
+          ],
+          "answer": "Any one from: • steel is denser (than sea water) • density (sea) water < density of steel • 1030 (kg / m3) < 7900 (kg / m3) • it has higher density (than sea water) PapaCambridge · papacambridge.com 0625/42 Mark Scheme March 2026 Downloaded from PapaCambridge - https://papacambridge.com/ 0625/42 Mark Scheme March 2026 | Source: papacambridge.com Licensed for hosting on papacambridge.com only. Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable. Trace ID: PC-1DA6AF882B 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2026 © Cambridge University Press & Assessment 2026 Page 12 of 17"
+        },
+        {
+          "label": "2(a)(iv)",
+          "marks": 2,
+          "codes": [
+            "1.4"
+          ],
+          "answer": "Any one from: • ship is not solid (steel) • the volume of the ship includes air • air is (a lot) less dense than (sea) water • air reduces density of the ship Any one from: • density of the ship < density of (sea) water • it is less dense than (sea) water • average density (of steel + air) < density of (sea) water"
+        },
+        {
+          "label": "2(b)(i)",
+          "marks": 3,
+          "codes": [
+            "1.4"
+          ],
+          "answer": "2.6  107 (N) (F=) ma OR (F=) 3.5  107  0.75"
+        },
+        {
+          "label": "2(b)(ii)",
+          "marks": 2,
+          "codes": [
+            "1.4"
+          ],
+          "answer": "Any two from: • (there is a) resistive force OR named resistive force • (resistive) force acts on the ship OR force opposes (the engine) • force in (b)(i) is the resultant force OR resultant force is less (than the force from the engine)"
+        }
+      ],
+      "code": "1.4"
+    },
+    {
+      "qnum": 3,
+      "topic": "1",
+      "title": "Polar bear on ice — weight, pressure and liquid pressure",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_m26_qp_42_Q03.pdf",
+      "parts": [
+        {
+          "label": "3(a)(i)",
+          "marks": 1,
+          "codes": [
+            "1.8"
+          ],
+          "answer": "5800 (N)"
+        },
+        {
+          "label": "3(a)(ii)",
+          "marks": 3,
+          "codes": [
+            "1.8"
+          ],
+          "answer": "5200 (Pa) (P=) F / A OR 5800 ÷ 1.12"
+        },
+        {
+          "label": "3(a)(iii)",
+          "marks": 1,
+          "codes": [
+            "1.8"
+          ],
+          "answer": "7(.0) AND 56"
+        },
+        {
+          "label": "3(b)",
+          "marks": 3,
+          "codes": [
+            "1.8"
+          ],
+          "answer": "25 000 (Pa) OR 2.5  104 (Pa) (∆) =)  g(∆)h OR (∆p =) 1030  9.8  2.50"
+        }
+      ],
+      "code": "1.8"
+    },
+    {
+      "qnum": 4,
+      "topic": "2",
+      "title": "Outdoor heater — thermal radiation, energy stores and electrical energy",
+      "marks": 6,
+      "pdf": "igcse-slices/0625_m26_qp_42_Q04.pdf",
+      "parts": [
+        {
+          "label": "4(a)",
+          "marks": 1,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "radiation"
+        },
+        {
+          "label": "4(b)(i)",
+          "marks": 2,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "thermal OR internal (a word meaning) absorbed OR gained OR taken in (a word meaning) emitted OR lost OR released"
+        },
+        {
+          "label": "4(b)(ii)",
+          "marks": 2,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "(thermal) energy absorbed (by the table) decreases OR (rate of) emission from table is greater than (rate of) absorption (by table) (because) white is a good reflector of radiation OR (because) white is a poor absorber of radiation"
+        },
+        {
+          "label": "4(c)",
+          "marks": 1,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "7.5 (kWh) A 2 (E =) Pt OR (E =) 2.5  3"
+        }
+      ],
+      "code": "2.3"
+    },
+    {
+      "qnum": 5,
+      "topic": "2",
+      "title": "Air in a tyre — gas pressure and particle structure",
+      "marks": 11,
+      "pdf": "igcse-slices/0625_m26_qp_42_Q05.pdf",
+      "parts": [
+        {
+          "label": "5(a)",
+          "marks": 5,
+          "codes": [
+            "2.1"
+          ],
+          "answer": "0.39 (m3) PV= constant (V =) {1.02  1(.0) 105} ÷ 2.6  105 OR (V =) 3.9  10N PapaCambridge · papacambridge.com 0625/42 Mark Scheme March 2026 Downloaded from PapaCambridge - https://papacambridge.com/ 0625/42 Mark Scheme March 2026 | Source: papacambridge.com Licensed for hosting on papacambridge.com only. Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable. Trace ID: PC-1DA6AF882B 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2026 © Cambridge University Press & Assessment 2026 Page 14 of 17"
+        },
+        {
+          "label": "5(b)(i)",
+          "marks": 3,
+          "codes": [
+            "2.1"
+          ],
+          "answer": "(separation) large OR (particles) far apart (arrangement) irregular OR random (motion) rapid OR random (directions)"
+        },
+        {
+          "label": "5(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "2.1"
+          ],
+          "answer": "average kinetic energy (KE) of particles decreases kinetic energy (KE) of particles decreases"
+        }
+      ],
+      "code": "2.1"
+    },
+    {
+      "qnum": 6,
+      "topic": "3",
+      "title": "Converging lens — focal length, image and magnifying glass",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_m26_qp_42_Q06.pdf",
+      "parts": [
+        {
+          "label": "6(a)(i)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "principal axis"
+        },
+        {
+          "label": "6(a)(ii)",
+          "marks": 2,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "ray parallel to principal axis between tip of O or I and lens AND ray from intersection of this ray with centre of lens to the tip of I or O 1.8 (cm)"
+        },
+        {
+          "label": "6(a)(iii)",
+          "marks": 2,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "real same size"
+        },
+        {
+          "label": "6(b)(i)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "X between F and the lens."
+        },
+        {
+          "label": "6(b)(ii)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "on the opposite side of the lens to the object on the same side of the lens as the object ✓ the same distance from the lens as the object closer to the lens than the object further away from the lens than the object ✓ PapaCambridge · papacambridge.com 0625/42 Mark Scheme March 2026 Downloaded from PapaCambridge - https://papacambridge.com/ 0625/42 Mark Scheme March 2026 | Source: papacambridge.com Licensed for hosting on papacambridge.com only. Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable. Trace ID: PC-1DA6AF882B 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2026 © Cambridge University Press & Assessment 2026 Page 15 of 17"
+        }
+      ],
+      "code": "3.2"
+    },
+    {
+      "qnum": 7,
+      "topic": "4",
+      "title": "Thermistor circuit — e.m.f., current and resistance",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_m26_qp_42_Q07.pdf",
+      "parts": [
+        {
+          "label": "7(a)",
+          "marks": 2,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "4.5 V"
+        },
+        {
+          "label": "7(b)",
+          "marks": 1,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "charge AND time"
+        },
+        {
+          "label": "7(c)",
+          "marks": 5,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "1500 () (R =) V ÷ I OR (R =) 9(.0) ÷ 4.6  10–3 OR (VR =) 4.6  10–3  480 (resistance of thermistor =) total resistance – 480 OR (share of e.m.f. for thermistor =) 9(.0) − 2.2 OR (R =) {9 – {4.6  10–3  480}} ÷ 4.6  10–3"
+        },
+        {
+          "label": "7(d)",
+          "marks": 1,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "(voltmeter) unchanged AND (ammeter) decreases"
+        }
+      ],
+      "code": "4.3"
+    },
+    {
+      "qnum": 8,
+      "topic": "4",
+      "title": "Transformer — voltage, current and power transmission",
+      "marks": 12,
+      "pdf": "igcse-slices/0625_m26_qp_42_Q08.pdf",
+      "parts": [
+        {
+          "label": "8(.0)",
+          "marks": 1,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "PapaCambridge · papacambridge.com 0625/42 Mark Scheme March 2026 Downloaded from PapaCambridge - https://papacambridge.com/ 0625/42 Mark Scheme March 2026 | Source: papacambridge.com Licensed for hosting on papacambridge.com only. Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable. Trace ID: PC-1DA6AF882B 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2026 © Cambridge University Press & Assessment 2026 Page 13 of 17"
+        },
+        {
+          "label": "8(a)(i)",
+          "marks": 3,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "33 000 (V) OR 3.3  104 (V) (Vp =) NpVs/ ÷ Ns OR (Vp=) {6200  230} ÷ 43"
+        },
+        {
+          "label": "8(a)(ii)",
+          "marks": 5,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "0.067 (A) OR 0.066 (A) (Ip =) IsVs ÷ Vp OR (Ip =) 2200 ÷ 33 000 (conversion 2.2 kW to) 2200 (W) OR (Ip =) 6.6  10N OR (Ip =) 6.7  10N"
+        },
+        {
+          "label": "8(b)(i)",
+          "marks": 1,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "P = I2R PapaCambridge · papacambridge.com 0625/42 Mark Scheme March 2026 Downloaded from PapaCambridge - https://papacambridge.com/ 0625/42 Mark Scheme March 2026 | Source: papacambridge.com Licensed for hosting on papacambridge.com only. Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable. Trace ID: PC-1DA6AF882B 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2026 © Cambridge University Press & Assessment 2026 Page 16 of 17"
+        },
+        {
+          "label": "8(b)(ii)",
+          "marks": 2,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "high voltage reduces current (for same power) OR high voltage means low current (for same power) (electrical) power (output) is the same (with lower current) OR (low current gives) less heating effect ORA"
+        }
+      ],
+      "code": "4.5"
+    },
+    {
+      "qnum": 9,
+      "topic": "5",
+      "title": "Radiation in an electric field — α, β and γ deflection",
+      "marks": 10,
+      "pdf": "igcse-slices/0625_m26_qp_42_Q09.pdf",
+      "parts": [
+        {
+          "label": "9(a)",
+          "marks": 5,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "path labelled ɣ undeviated through the electric field path labelled  is a curve towards negative plate AND deflects when it enters the space between the plates path labelled  is a straight line towards negative plate AND deflects when it enters the space between the plates path labelled  continues horizontal between the plates and then curves towards negative plate"
+        },
+        {
+          "label": "9(b)",
+          "marks": 2,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "(α-particles’ path is) stopped (by paper) OR -particles don’t pass through (electric field) (ɣ-radiation path) is unchanged"
+        },
+        {
+          "label": "9(c)",
+          "marks": 3,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "(statement) -particles deflected (towards positive plate) OR (path) curves (upwards) (explanation: -particles) are (negatively) charged charged particles in an electric field experience a force owtte"
+        }
+      ],
+      "code": "5.2"
+    },
+    {
+      "qnum": 10,
+      "topic": "6",
+      "title": "Planetary nebula — star life cycle and light frequency",
+      "marks": 6,
+      "pdf": "igcse-slices/0625_m26_qp_42_Q10.pdf",
+      "parts": [
+        {
+          "label": "10(a)(i)",
+          "marks": 1,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "red giant"
+        },
+        {
+          "label": "10(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "white dwarf (star) PapaCambridge · papacambridge.com 0625/42 Mark Scheme March 2026 Downloaded from PapaCambridge - https://papacambridge.com/ 0625/42 Mark Scheme March 2026 | Source: papacambridge.com Licensed for hosting on papacambridge.com only. Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable. Trace ID: PC-1DA6AF882B 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2026 © Cambridge University Press & Assessment 2026 Page 17 of 17"
+        },
+        {
+          "label": "10(b)(i)",
+          "marks": 1,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "blue light has a shorter wavelength (than red light) OR it has a shorter wavelength ORA"
+        },
+        {
+          "label": "10(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "6.2"
+          ],
+          "answer": "6.0  1014 (Hz) (f =) c /  OR (f =) 3.0  108 ÷ 5.0  10–7"
+        }
+      ],
+      "code": "6.2"
+    },
+    {
+      "qnum": 11,
+      "topic": "6",
+      "title": "Saturn's orbit — average orbital speed and orbital period",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_m26_qp_42_Q11.pdf",
+      "parts": [
+        {
+          "label": "11(a)",
+          "marks": 2,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "(r is) radius of orbit (of the object) (T is) orbital period OR time taken to (complete one) orbit (around the Sun)"
+        },
+        {
+          "label": "11(b)(i)",
+          "marks": 2,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "Any two from: • orbit is not (exactly) circular OR orbit is (only) approximately circular • r is an average value • r varies OR distance from the Sun varies • A Sun’s gravitational pull varies"
+        },
+        {
+          "label": "11(b)(ii)",
+          "marks": 5,
+          "codes": [
+            "6.1"
+          ],
+          "answer": "(TSaturn =) 9.16  108 (s) OR (TSaturn =) (2 x 1.4 x 1012) / (9600) (T =)2 r / v (TEarth =) 3.15  107 (s) OR (Tearth =) 365  24  60  60 (s) ((Tsaturn =) 29 (Earth) years PapaCambridge · papacambridge.com 0625/42 Mark Scheme March 2026 Downloaded from PapaCambridge - https://papacambridge.com/ 0625/42 Mark Scheme March 2026 | Source: papacambridge.com Licensed for hosting on papacambridge.com only. Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable. Trace ID: PC-1DA6AF882B"
+        }
+      ],
+      "code": "6.1"
+    }
+  ]
+}

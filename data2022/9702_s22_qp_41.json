@@ -1,0 +1,400 @@
+{
+  "paper": "9702/41/M/J/22",
+  "paper_full": "June 2022 · Paper 41",
+  "questions": [
+    {
+      "topic": "13",
+      "qnum": "Q1",
+      "title": "Gravitational fields — Newton's law, surface g &amp; neutral point between Earth and Moon",
+      "marks": 10,
+      "pages": [4, 5],
+      "pdf": "9702_s22_qp_41_Q1_Gravitational_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": ["13.2.2"],
+          "marks": 2,
+          "answer": "(Gravitational) force between two point masses is (directly) proportional to the product of their masses and inversely proportional to the square of their separation."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": ["13.3.1"],
+          "marks": 2,
+          "answer": "F = GMm/r² and g = F/m, so g = (GMm/r²)/m = <b>GM/r²</b>"
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["13.3.2"],
+          "marks": 1,
+          "answer": "g = GM/r² = 6.67 × 10⁻¹¹ × 7.35 × 10²² / (1.74 × 10⁶)² = <b>1.62 N kg⁻¹</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["13.2.1"],
+          "marks": 2,
+          "answer": "Between the two bodies the Earth's field acts towards the Earth and the Moon's field acts towards the Moon, i.e. in <u>opposite directions</u>. Each field weakens with distance, so there is one point where their magnitudes are equal and the resultant field strength is zero."
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": ["13.2.2"],
+          "marks": 3,
+          "answer": "G × 7.35 × 10²² / x² = G × 5.98 × 10²⁴ / (3.84 × 10⁸ − x)²<br>7.35 × 10²² / x² = 5.98 × 10²⁴ / (3.84 × 10⁸ − x)²<br>x = <b>3.8 × 10⁷ m</b>"
+        }
+      ]
+    },
+    {
+      "topic": "20",
+      "qnum": "Q2",
+      "title": "Charged sphere in electric &amp; magnetic fields — circular motion, E and B",
+      "marks": 8,
+      "pages": [6, 7],
+      "pdf": "9702_s22_qp_41_Q2_Magnetic_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": ["20.3.1"],
+          "marks": 1,
+          "answer": "The uniform magnetic field is directed <b>vertically downwards</b>."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": ["20.3.5"],
+          "marks": 2,
+          "answer": "The magnetic force on the sphere is <u>perpendicular to its velocity</u>, so it acts as the centripetal force (gives centripetal acceleration) without changing the speed. The sphere therefore moves in a circular path."
+        },
+        {
+          "label": "(b)",
+          "codes": ["18.1.2"],
+          "marks": 2,
+          "answer": "mg = Eq, so E = mg/q = 1.6 × 10⁻¹⁰ × 9.81 / (0.27 × 10⁻⁹) = <b>5.8 N C⁻¹</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": ["20.3.2"],
+          "marks": 3,
+          "answer": "Magnetic force = centripetal force: Bqv = mv²/r<br>B = mv/qr = 1.6 × 10⁻¹⁰ × 0.78 / (0.27 × 10⁻⁹ × 3.4) = <b>0.14 T</b>"
+        }
+      ]
+    },
+    {
+      "topic": "16",
+      "qnum": "Q3",
+      "title": "Ideal gas — pV = nRT, work done &amp; the first law of thermodynamics",
+      "marks": 11,
+      "pages": [8, 9],
+      "pdf": "9702_s22_qp_41_Q3_Thermodynamics.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": ["15.2.1"],
+          "marks": 2,
+          "answer": "An ideal gas is a gas that obeys pV ∝ T, where p = pressure, V = volume and T = thermodynamic (absolute) temperature."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": ["15.2.2"],
+          "marks": 2,
+          "answer": "n = pV/RT = 1.2 × 10⁵ × 0.24 / [8.31 × (273 + 17)] = <b>12 mol</b>"
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["16.2.1"],
+          "marks": 2,
+          "answer": "W = pΔV = 1.2 × 10⁵ × (0.24 − 0.08) = 19 200 J = <b>19.2 kJ</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["16.2.2"],
+          "marks": 5,
+          "answer": "Using ΔU = q + W, and ΔU = 0 around the complete cycle:<br>AB: work done on gas +19.2 kJ, thermal energy −48.0 kJ, ΔU = 19.2 − 48.0 = −28.8 kJ.<br>BC: work done 0, thermal energy +28.8 kJ, ΔU = +28.8 kJ.<br>CA: work done −31.6 kJ, thermal energy +31.6 kJ, ΔU = 0."
+        }
+      ]
+    },
+    {
+      "topic": "17",
+      "qnum": "Q4",
+      "title": "Pendulum — simple harmonic motion, angular frequency &amp; amplitude",
+      "marks": 8,
+      "pages": [10, 11],
+      "pdf": "9702_s22_qp_41_Q4_Oscillations.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["17.1.3"],
+          "marks": 2,
+          "answer": "The graph is a straight line through the origin, so a ∝ x, and it has a <u>negative gradient</u>, so a is in the opposite direction to x (a = −ω²x)."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["17.1.3"],
+          "marks": 2,
+          "answer": "ω² = −gradient = 0.40/0.050 = 8.0<br>ω = √8.0 = <b>2.8 rad s⁻¹</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["17.1.3"],
+          "marks": 2,
+          "answer": "k = ω²L = 2.8² × 1.24 = <b>9.7 m s⁻²</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": ["17.2.2"],
+          "marks": 2,
+          "answer": "Increasing L decreases ω (since ω² = k/L). The total energy E = ½mω²x₀² is constant, so with smaller ω the amplitude x₀ <b>increases</b>."
+        }
+      ]
+    },
+    {
+      "topic": "21",
+      "qnum": "Q5",
+      "title": "Full-wave rectification &amp; smoothing — output scales and capacitance",
+      "marks": 12,
+      "pages": [12, 13],
+      "pdf": "9702_s22_qp_41_Q5_Alternating_currents.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": ["21.2.1"],
+          "marks": 1,
+          "answer": "Rectification is the conversion of an alternating current (a.c.) into a direct current (d.c.)."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": ["21.2.3"],
+          "marks": 1,
+          "answer": "Full-wave rectification."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["21.2.3"],
+          "marks": 1,
+          "answer": "P is the negative (−) output terminal and Q is the positive (+) output terminal."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["21.1.1", "21.1.2"],
+          "marks": 3,
+          "answer": "VOUT scale: 4 V and 8 V marked on the 2 cm tick marks (peak value 6 V).<br>T = 2π/ω = 2π/25π = 0.08 s, so the t-axis scale is 0.02, 0.04, 0.06, 0.08, 0.10, 0.12 s on the 2 cm tick marks."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["21.2.4"],
+          "marks": 1,
+          "answer": "Capacitor symbol drawn with the capacitor connected in <u>parallel</u> with the 1.2 kΩ load resistor."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["21.2.4"],
+          "marks": 2,
+          "answer": "Lines or curves with decreasing negative gradient drawn between adjacent peaks, from the top of each peak to meet the rising edge of the next peak; each fall is 1½ small squares (10% of the peak voltage)."
+        },
+        {
+          "label": "(c)(iii)",
+          "codes": ["21.2.4"],
+          "marks": 3,
+          "answer": "V = 0.90 × 6.0 = 5.4 V (discharge time ≈ 0.034 s per cycle).<br>V = V₀ exp(−t/RC): 5.4 = 6.0 exp[−0.034/(1.2 × 10³ × C)]<br>C = <b>2.7 × 10⁻⁴ F</b>"
+        }
+      ]
+    },
+    {
+      "topic": "20",
+      "qnum": "Q6",
+      "title": "Magnetic flux &amp; induction — flux linkage and induced e.m.f.",
+      "marks": 11,
+      "pages": [14, 15],
+      "pdf": "9702_s22_qp_41_Q6_Magnetic_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["20.5.1"],
+          "marks": 2,
+          "answer": "Magnetic flux is the product of magnetic flux density and area, where the area is taken <u>perpendicular</u> to the magnetic field."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["20.5.3"],
+          "marks": 3,
+          "answer": "NΦ = BAN = 400 × 10⁻³ × 0.12² × 8 = <b>0.046 Wb</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["20.5.5"],
+          "marks": 1,
+          "answer": "The line is straight, so the flux linkage changes at a <u>constant rate</u>, giving a constant induced e.m.f."
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": ["20.5.5"],
+          "marks": 2,
+          "answer": "E = rate of change of flux linkage = NΦ/t = 0.046/0.60 = <b>0.077 V</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": ["20.5.4"],
+          "marks": 3,
+          "answer": "The induced e.m.f. causes a current to flow in the coil. The current in the magnetic field produces forces on the coil (opposite sides are forced inwards), or the current dissipates energy in the resistance of the coil so its temperature rises."
+        }
+      ]
+    },
+    {
+      "topic": "22",
+      "qnum": "Q7",
+      "title": "Photoelectric effect — photon, threshold frequency &amp; maximum kinetic energy",
+      "marks": 10,
+      "pages": [16, 17],
+      "pdf": "9702_s22_qp_41_Q7_Quantum_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["22.1.2"],
+          "marks": 2,
+          "answer": "A photon is a <u>quantum of energy</u> of electromagnetic radiation."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["22.2.1"],
+          "marks": 1,
+          "answer": "Photoelectric effect."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["22.2.3", "22.2.5"],
+          "marks": 3,
+          "answer": "Any three:<br>• There is a threshold frequency below which no electrons are emitted (f₀ = 5.4 × 10¹⁴ Hz).<br>• The work function of the metal is 3.6 × 10⁻¹⁹ J (2.2 eV).<br>• E_MAX increases linearly with increasing frequency.<br>• The gradient of the line is the Planck constant (6.7 × 10⁻³⁴ J s)."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["22.2.4"],
+          "marks": 2,
+          "answer": "A different metal has a different threshold frequency, so the line has the same gradient but a different (frequency) intercept."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["22.2.5"],
+          "marks": 2,
+          "answer": "The photons have the same energy (the frequency is unchanged), so E_MAX is unchanged and the line is unchanged."
+        }
+      ]
+    },
+    {
+      "topic": "23",
+      "qnum": "Q8",
+      "title": "Binding energy &amp; nuclear fusion — binding energy curve and energy released",
+      "marks": 12,
+      "pages": [18, 19],
+      "pdf": "9702_s22_qp_41_Q8_Nuclear_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": ["23.1.1"],
+          "marks": 2,
+          "answer": "Nuclear binding energy is the energy required to <u>separate the nucleons</u> of a nucleus to infinity."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": ["23.1.1"],
+          "marks": 2,
+          "answer": "Sketch a curve starting close to the origin and rising steeply to a single peak to the left of centre (near A ≈ 56), then falling shallowly towards large A."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["23.1.2"],
+          "marks": 1,
+          "answer": "Fusion."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["23.1.1"],
+          "marks": 2,
+          "answer": "Both particles have low nucleon numbers (they lie at the left-hand end of the graph), and He-3 has a higher binding energy per nucleon than H-2, so energy is released."
+        },
+        {
+          "label": "(c)",
+          "codes": ["23.1.1"],
+          "marks": 5,
+          "answer": "Δm = [2 × 2.014 102 − (3.016 029 + 1.008 665)] u = 0.003 51 u<br>E = Δmc² = 0.003 51 × 1.66 × 10⁻²⁷ × (3.00 × 10⁸)² = 5.24 × 10⁻¹³ J per reaction.<br>1.00 mol of deuterium forms 0.500 mol of He-3, so total energy = 0.500 × 6.02 × 10²³ × 5.24 × 10⁻¹³ = <b>1.58 × 10¹¹ J</b>"
+        }
+      ]
+    },
+    {
+      "topic": "24",
+      "qnum": "Q9",
+      "title": "X-rays — production, CT scanning &amp; attenuation contrast",
+      "marks": 9,
+      "pages": [20, 21],
+      "pdf": "9702_s22_qp_41_Q9_Medical_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": ["24.2.1"],
+          "marks": 3,
+          "answer": "Electrons are accelerated by an applied p.d. and hit a metal target. The electrons decelerate (rapidly), producing X-rays."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": ["24.2.4"],
+          "marks": 1,
+          "answer": "The images of the multiple sections are combined to create a <u>3-D image</u>."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["24.2.3"],
+          "marks": 2,
+          "answer": "I = I₀ exp(−μx) = I₀ exp(−0.89 × 5.6) = <b>0.0068 I₀</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["24.2.3"],
+          "marks": 2,
+          "answer": "I = I₀ exp(−3.4 × 2.4) × exp(−0.89 × 3.2) = <b>1.7 × 10⁻⁵ I₀</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": ["24.2.2"],
+          "marks": 1,
+          "answer": "The detected intensities at P (0.0068 I₀) and Q (1.7 × 10⁻⁵ I₀) are very different, so the image has good contrast between bone and soft tissue."
+        }
+      ]
+    },
+    {
+      "topic": "25",
+      "qnum": "Q10",
+      "title": "Wien's law &amp; redshift — star temperature and redshift determination",
+      "marks": 9,
+      "pages": [22, 23],
+      "pdf": "9702_s22_qp_41_Q10_Astronomy_and_cosmology.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["25.2.1"],
+          "marks": 1,
+          "answer": "Wien's displacement law: the wavelength of maximum intensity emission is <u>inversely proportional</u> to the (thermodynamic) temperature."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["25.2.1"],
+          "marks": 2,
+          "answer": "λ_MAX = 0.50 μm for A and 0.65 μm for B.<br>T_B = 5800 × (0.50/0.65) = <b>4500 K</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["25.2.1"],
+          "marks": 2,
+          "answer": "Star B has a greater peak/average wavelength, so star B appears <b>redder</b> (cooler) than star A."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["25.3.1"],
+          "marks": 2,
+          "answer": "Redshift is the apparent increase in wavelength of spectral lines (relative to their known values), due to the source <u>moving away</u> from the observer."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["25.3.1"],
+          "marks": 2,
+          "answer": "Cosmologists examine the spectrum of light from the star and compare its (absorption/emission) lines with the known wavelengths; the lines are shifted to longer wavelengths."
+        }
+      ]
+    }
+  ]
+}

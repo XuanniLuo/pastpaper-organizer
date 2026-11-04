@@ -1,0 +1,418 @@
+{
+  "paper": "9702/41/O/N/22",
+  "paper_full": "November 2022 · Paper 41",
+  "questions": [
+    {
+      "topic": "13",
+      "qnum": "Q1",
+      "title": "Gravitational force &amp; satellite orbits — Newton's law, T² = kR³ &amp; geostationary conditions",
+      "marks": 9,
+      "pages": [4, 5],
+      "pdf": "9702_w22_qp_41_Q1_Gravitational_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["13.2.2"],
+          "marks": 2,
+          "answer": "F = Gm₁m₂/r², where G is the gravitational constant, m₁ and m₂ are the two point masses and r is their separation."
+        },
+        {
+          "label": "(b)",
+          "codes": ["13.2.3"],
+          "marks": 3,
+          "answer": "The gravitational force provides the centripetal force: mRω² = GMm/R² with ω = 2π/T (or mv²/R = GMm/R² with v = 2πR/T).<br>Substituting gives 4π²mR/T² = GMm/R², hence T² = (4π²/GM)R³ = kR³ with k = 4π²/GM."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["13.2.3"],
+          "marks": 2,
+          "answer": "T = 24 × 3600 = 86400 s. From T² = 4π²R³/GM: R³ = 6.67 × 10⁻¹¹ × 6.0 × 10²⁴ × 86400²/4π².<br>R = <b>4.2 × 10⁷ m</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["13.2.4"],
+          "marks": 2,
+          "answer": "The orbit must be directly <u>above the Equator</u>, and the satellite must orbit from <u>west to east</u> (in the same direction as the Earth's rotation)."
+        }
+      ]
+    },
+    {
+      "topic": "14",
+      "qnum": "Q2",
+      "title": "Thermometer &amp; thermodynamic temperature — specific heat, thermometer design &amp; ideal gas",
+      "marks": 10,
+      "pages": [6, 7],
+      "pdf": "9702_w22_qp_41_Q2_Temperature.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["14.2.1"],
+          "marks": 2,
+          "answer": "Any two: resistance of a metal; volume of a gas at constant pressure; e.m.f. of a thermocouple."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["14.3.1"],
+          "marks": 4,
+          "answer": "Energy lost by water = energy gained by mercury, using Q = mcΔT:<br>18.7 × 4.18 × (37.4 − T) = 6.94 × 0.140 × (T − 23.0)<br>T = <b>37.2 °C</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["14.3.1"],
+          "marks": 1,
+          "answer": "Use a liquid with a lower specific heat capacity than mercury (or use a smaller mass of mercury)."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["14.2.2"],
+          "marks": 2,
+          "answer": "The reading depends on the properties of a real substance (mercury), and 0 °C is not absolute zero."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["15.2.1"],
+          "marks": 1,
+          "answer": "<u>Ideal gas</u>"
+        }
+      ]
+    },
+    {
+      "topic": "17",
+      "qnum": "Q3",
+      "title": "Simple harmonic motion — defining equation, energy &amp; damping",
+      "marks": 11,
+      "pages": [8, 9, 10],
+      "pdf": "9702_w22_qp_41_Q3_Oscillations.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["17.1.3"],
+          "marks": 2,
+          "answer": "a = −ω²x, where a is the acceleration, x is the displacement from the equilibrium position and ω is the angular frequency."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["17.1.5"],
+          "marks": 1,
+          "answer": "x₀ = <b>0.12 m</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["17.1.4"],
+          "marks": 2,
+          "answer": "Using v = ω√(x₀² − x²): reading (x = 0, v = 0.20 m s⁻¹) gives 0.20 = ω√(0.12² − 0), so ω = 0.20/0.12 = <b>1.7 rad s⁻¹</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": ["17.2.2"],
+          "marks": 2,
+          "answer": "E = ½Mω²x₀². From Fig. 3.3 the total energy E = 0.050 J.<br>0.050 = ½ × M × 1.67² × 0.12², so M = <b>2.5 kg</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["17.3.1"],
+          "marks": 2,
+          "answer": "Damping is the loss of total energy of the oscillating system, due to resistive forces."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["17.1.5"],
+          "marks": 2,
+          "answer": "A closed loop around the origin with maximum displacement at ±0.060 m passing through v = 0, and maximum velocity ±0.10 m s⁻¹ at x = 0 (since v_max = ωx₀ = 1.67 × 0.060 = 0.10 m s⁻¹)."
+        }
+      ]
+    },
+    {
+      "topic": "18",
+      "qnum": "Q4",
+      "title": "Electric fields — field lines, uniform field strength &amp; deflection of charged particles",
+      "marks": 12,
+      "pages": [12, 13],
+      "pdf": "9702_w22_qp_41_Q4_Electric_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["18.1.1"],
+          "marks": 2,
+          "answer": "The direction of an electric field line indicates the direction of the force on a positive charge placed at that point."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["18.1.3"],
+          "marks": 3,
+          "answer": "Five straight lines perpendicular to the plates, uniformly spaced, running from the +2400 V plate to the 0 V plate, with downward arrows."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["18.2.1"],
+          "marks": 2,
+          "answer": "E = V/d = 2400/0.046 = <b>5.2 × 10⁴ N C⁻¹</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["18.2.2"],
+          "marks": 2,
+          "answer": "A smooth downward-curving (parabolic) path in the field region, then a straight line (tangent to the curve) once outside the field."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["18.2.2"],
+          "marks": 3,
+          "answer": "The helium nucleus has double the charge but four times the mass of the proton.<br>Its velocity parallel to the plates is the same, but its perpendicular acceleration (a = qE/m) is smaller.<br>Hence the final speed of the helium nucleus is <b>lower</b> than that of the proton."
+        }
+      ]
+    },
+    {
+      "topic": "19",
+      "qnum": "Q5",
+      "title": "Capacitor discharge — Q₀, I₀, time constant &amp; induced e.m.f.",
+      "marks": 11,
+      "pages": [14, 15],
+      "pdf": "9702_w22_qp_41_Q5_Capacitance.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": ["19.1.2"],
+          "marks": 2,
+          "answer": "Q₀ = CV = 470 × 10⁻⁶ × 24 = <b>0.011 C</b>"
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": ["19.3.1"],
+          "marks": 1,
+          "answer": "I₀ = V/R = 24/5600 = <b>4.3 × 10⁻³ A</b>"
+        },
+        {
+          "label": "(a)(iii)",
+          "codes": ["19.3.2"],
+          "marks": 2,
+          "answer": "τ = RC = 5600 × 470 × 10⁻⁶ = <b>2.6 s</b>"
+        },
+        {
+          "label": "(a)(iv)",
+          "codes": ["19.3.1"],
+          "marks": 2,
+          "answer": "An exponential decay curve starting at (0, I₀), with negative gradient throughout and asymptotic to the t-axis."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["20.5.4", "20.5.5"],
+          "marks": 3,
+          "answer": "The current in wire P produces a magnetic field. As this current changes during discharge, wire Q cuts the (changing) magnetic flux from wire P, and this cutting of flux induces an e.m.f. across wire Q."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["20.5.4"],
+          "marks": 1,
+          "answer": "A line with a negative gradient throughout (mirroring the decay of the current), starting at the maximum e.m.f. and falling towards zero."
+        }
+      ]
+    },
+    {
+      "topic": "20",
+      "qnum": "Q6",
+      "title": "Hall probe — Hall voltage, symbol meanings &amp; thin slice",
+      "marks": 9,
+      "pages": [16, 17],
+      "pdf": "9702_w22_qp_41_Q6_Magnetic_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": ["20.3.3"],
+          "marks": 1,
+          "answer": "Faces PQRS and WXYZ"
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": ["20.3.3"],
+          "marks": 3,
+          "answer": "The force on the charge carriers is perpendicular to both the magnetic field and the current, deflecting them to one side. This sets up an electric field across the slice, and a steady Hall voltage is reached when the electric and magnetic forces on the charge carriers are equal and opposite."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["20.3.3"],
+          "marks": 3,
+          "answer": "n: number density of charge carriers; t: distance PW (the thickness of the slice); q: charge on each charge carrier."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["20.3.3"],
+          "marks": 2,
+          "answer": "V_H is inversely proportional to t, so a thin slice (small t) gives a Hall voltage large enough to be measured."
+        }
+      ]
+    },
+    {
+      "topic": "21",
+      "qnum": "Q7",
+      "title": "Alternating current &amp; ultrasound — power dissipation &amp; piezoelectric crystal",
+      "marks": 10,
+      "pages": [18, 19],
+      "pdf": "9702_w22_qp_41_Q7_Alternating_currents.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": ["21.1.4"],
+          "marks": 2,
+          "answer": "Peak voltage V₀ = √2 × V_r.m.s. = √2 × 4.2 = 5.9 V.<br>Maximum power = V₀²/R = 5.9²/760 = 0.046 W = <b>46 mW</b>"
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": ["21.1.2", "21.1.3"],
+          "marks": 3,
+          "answer": "A sinusoidal power curve sitting on the t-axis (all values ≥ 0), peaking at 46 mW, with four complete cycles between t = 0 and 40 μs (P = 0 at 0, 10, 20, 30 and 40 μs)."
+        },
+        {
+          "label": "(a)(iii)",
+          "codes": ["21.1.3"],
+          "marks": 1,
+          "answer": "The line is symmetrical about 23 mW, so the mean power is half the maximum power = <b>23 mW</b>."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["24.1.1", "24.1.2"],
+          "marks": 3,
+          "answer": "The alternating p.d. makes the crystal vibrate. These vibrations cause the surrounding air to vibrate, producing a sound wave whose frequency (50 kHz) is in the ultrasound range."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["24.1.2"],
+          "marks": 1,
+          "answer": "The vibrating air makes the second crystal vibrate, which generates an e.m.f. across it (so it acts as an ultrasound detector)."
+        }
+      ]
+    },
+    {
+      "topic": "22",
+      "qnum": "Q8",
+      "title": "Photoelectric effect — work function, photon rate &amp; effect of frequency",
+      "marks": 10,
+      "pages": [20],
+      "pdf": "9702_w22_qp_41_Q8_Quantum_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["22.2.3"],
+          "marks": 2,
+          "answer": "The work function energy is the minimum energy required to remove an electron from the surface of a metal."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["22.1.3"],
+          "marks": 2,
+          "answer": "Photon energy = hf = 6.63 × 10⁻³⁴ × 1.36 × 10¹⁵ = 9.02 × 10⁻¹⁹ J.<br>Number per unit time = power/photon energy = 8.36 × 10⁻³/9.02 × 10⁻¹⁹ = <b>9.27 × 10¹⁵ s⁻¹</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["22.2.4"],
+          "marks": 2,
+          "answer": "hf = Φ + E_max, so Φ = hf − E_max = 6.63 × 10⁻³⁴ × 1.36 × 10¹⁵ − 3.09 × 10⁻¹⁹ = <b>5.93 × 10⁻¹⁹ J</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["22.2.5"],
+          "marks": 2,
+          "answer": "Each photon now has greater energy (the work function is unchanged), so the maximum kinetic energy of the photoelectrons is increased."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["22.2.5"],
+          "marks": 2,
+          "answer": "With the same power but greater photon energy, fewer photons arrive per unit time. Since each electron absorbs one photon, the rate of emission of photoelectrons decreases."
+        }
+      ]
+    },
+    {
+      "topic": "25",
+      "qnum": "Q9",
+      "title": "Star luminosity — radiant flux intensity, radius &amp; surface temperature",
+      "marks": 8,
+      "pages": [21],
+      "pdf": "9702_w22_qp_41_Q9_Astronomy_and_cosmology.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["25.1.1"],
+          "marks": 1,
+          "answer": "Luminosity is the total power of radiation emitted by the star."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["25.1.2"],
+          "marks": 2,
+          "answer": "F = L/(4πd²) = 9.86 × 10²⁷/(4π × (8.14 × 10¹⁶)²) = <b>1.18 × 10⁻⁷ W m⁻²</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["25.2.2"],
+          "marks": 2,
+          "answer": "L = 4πσr²T⁴, so r² = L/(4πσT⁴) = 9.86 × 10²⁷/(4π × 5.67 × 10⁻⁸ × 9830⁴).<br>r = <b>1.22 × 10⁹ m</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": ["25.2.1"],
+          "marks": 3,
+          "answer": "The wavelength of peak intensity is determined from the star's spectrum. Wien's displacement law is then used: the wavelength of peak intensity is inversely proportional to the temperature, so the surface temperature can be found."
+        }
+      ]
+    },
+    {
+      "topic": "23",
+      "qnum": "Q10",
+      "title": "Carbon-15 beta decay — random &amp; spontaneous decay, decay constant &amp; mass–energy",
+      "marks": 10,
+      "pages": [22, 23],
+      "pdf": "9702_w22_qp_41_Q10_Nuclear_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": ["23.2.1"],
+          "marks": 1,
+          "answer": "Random: it cannot be predicted when a particular nucleus will decay (or which nucleus will decay next)."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": ["23.2.1"],
+          "marks": 1,
+          "answer": "Spontaneous: it is not affected by external/environmental factors."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["23.2.1"],
+          "marks": 1,
+          "answer": "The plotted points fluctuate about the straight-line trend, showing that individual decays occur at random."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["23.2.6"],
+          "marks": 1,
+          "answer": "A straight line of best fit drawn through the plotted points on Fig. 10.1."
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": ["23.2.6"],
+          "marks": 1,
+          "answer": "M = M₀e^(−λt), so ln M = ln M₀ − λt. Hence the gradient of the ln M – t graph is −λ, and the magnitude of the gradient equals λ."
+        },
+        {
+          "label": "(b)(iv)",
+          "codes": ["23.2.6", "23.2.3"],
+          "marks": 2,
+          "answer": "Gradient = (8.0 − 4.8)/(11.6 − 0) = 0.28 (magnitude).<br>λ = <b>0.28 s⁻¹</b>"
+        },
+        {
+          "label": "(b)(v)",
+          "codes": ["23.2.5"],
+          "marks": 1,
+          "answer": "Half-life = ln 2/λ = 0.693/0.28 = <b>2.5 s</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": ["23.1.1"],
+          "marks": 2,
+          "answer": "Energy is released in the decay, and from E = mc² this energy comes from a decrease in mass. The total mass of the products is therefore <u>less</u> than the mass of the carbon-15 nucleus."
+        }
+      ]
+    }
+  ]
+}

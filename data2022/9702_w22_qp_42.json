@@ -1,0 +1,364 @@
+{
+  "paper": "9702/42/O/N/22",
+  "paper_full": "November 2022 · Paper 42",
+  "questions": [
+    {
+      "topic": "13",
+      "qnum": "Q1",
+      "title": "Gravitational field of a planet — satellite orbit &amp; centripetal acceleration at the Equator",
+      "marks": 10,
+      "pages": [4, 5],
+      "pdf": "9702_w22_qp_42_Q1_Gravitational_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["13.1.1"],
+          "marks": 1,
+          "answer": "Gravitational field is the force per unit mass acting on a small test mass placed at the point."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["13.1.2"],
+          "marks": 2,
+          "answer": "Field lines drawn radial, from the surface of the planet, with arrows pointing towards the planet (inwards)."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["13.2.3"],
+          "marks": 2,
+          "answer": "The field lines show the gravitational force on the satellite is directed towards the centre of the planet. This force is perpendicular to the satellite's velocity, so it provides the centripetal acceleration, keeping the satellite in a circular path."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["12.1.3", "12.2.3"],
+          "marks": 3,
+          "answer": "The Earth rotates once in T = 24 h = 24 × 60 × 60 = 86 400 s.<br>a = ω²r with ω = 2π/T, so a = 4π²r/T² = 4π² × 6.4 × 10⁶ / (24 × 60 × 60)² = <b>0.034 m s⁻²</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["12.2.1"],
+          "marks": 2,
+          "answer": "The two forces are the gravitational force (weight) towards the centre of the Earth and the normal contact force away from the centre. They act in opposite directions, and their resultant is the centripetal force, directed towards the centre, causing the centripetal acceleration."
+        }
+      ]
+    },
+    {
+      "topic": "16",
+      "qnum": "Q2",
+      "title": "Specific heat capacity &amp; the first law of thermodynamics — heating water",
+      "marks": 7,
+      "pages": [7],
+      "pdf": "9702_w22_qp_42_Q2_Thermodynamics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["14.3.1"],
+          "marks": 2,
+          "answer": "Specific heat capacity is the (thermal) energy per unit mass required to produce a unit (1 K or 1 °C) change in temperature."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["16.2.2"],
+          "marks": 2,
+          "answer": "No net change in volume, so work done on water = <b>0</b>; thermal energy supplied = <b>+E</b>; increase in internal energy = <b>+E</b> (from ΔU = q + W, with W = 0)."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["16.2.2"],
+          "marks": 2,
+          "answer": "The volume increases, so the water does work W and the work done <u>on</u> the water = <b>−W</b>. The increase in internal energy is the same as in (b)(i), <b>+E</b>. From ΔU = q + W, the thermal energy supplied = <b>E + W</b> (so that q + (−W) = E)."
+        },
+        {
+          "label": "(c)",
+          "codes": ["14.3.1"],
+          "marks": 1,
+          "answer": "Between 8 °C and 16 °C more thermal energy is needed for the same temperature rise (part of it does work against expansion), so the average specific heat capacity is <u>greater</u> than between 0 °C and 8 °C."
+        }
+      ]
+    },
+    {
+      "topic": "15",
+      "qnum": "Q3",
+      "title": "Ideal gas — pV = NkT, molecular kinetic energy &amp; r.m.s. speed",
+      "marks": 10,
+      "pages": [8, 9],
+      "pdf": "9702_w22_qp_42_Q3_Ideal_gases.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["15.2.2"],
+          "marks": 3,
+          "answer": "p = pressure (of the gas); V = volume (of the gas); N = number of molecules; k = Boltzmann constant; T = thermodynamic (absolute) temperature."
+        },
+        {
+          "label": "(b)",
+          "codes": ["15.3.4"],
+          "marks": 2,
+          "answer": "pV = NkT and pV = ⅓Nm⟨c²⟩, so NkT = ⅓Nm⟨c²⟩. Rearranging gives ½m⟨c²⟩ = (3/2)kT, and since the average translational kinetic energy Eₖ = ½m⟨c²⟩, we obtain <b>Eₖ = (3/2)kT</b>."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["15.3.4"],
+          "marks": 3,
+          "answer": "T = 23 + 273 = 296 K.<br>½m⟨c²⟩ = (3/2)kT, so ½ × 5.31 × 10⁻²⁶ × u² = (3/2) × 1.38 × 10⁻²³ × 296.<br>u = <b>480 m s⁻¹</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["15.3.4"],
+          "marks": 2,
+          "answer": "A horizontal straight line through the point (P, u): the r.m.s. speed is constant as pressure increases. The compression is isothermal (the gas stays in thermal equilibrium with the surroundings), so T, and hence u, does not change."
+        }
+      ]
+    },
+    {
+      "topic": "17",
+      "qnum": "Q4",
+      "title": "Oscillating object — amplitude, angular frequency, total energy &amp; KE graph",
+      "marks": 10,
+      "pages": [10, 11],
+      "pdf": "9702_w22_qp_42_Q4_Oscillations.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": ["17.1.1"],
+          "marks": 1,
+          "answer": "x₀ = <b>8.0 cm</b> (half the peak-to-peak change in height, 16 cm)."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": ["17.1.1"],
+          "marks": 2,
+          "answer": "From Fig. 4.1 the period T = 4.0 s.<br>ω = 2π/T = 2π/4.0 = <b>1.6 rad s⁻¹</b>"
+        },
+        {
+          "label": "(a)(iii)",
+          "codes": ["17.2.2"],
+          "marks": 3,
+          "answer": "E = ½mω²x₀² = ½ × 36 × 1.6² × 0.080² = <b>0.29 J</b>"
+        },
+        {
+          "label": "(b)",
+          "codes": ["17.2.1", "17.1.5"],
+          "marks": 4,
+          "answer": "Dome-shaped curve starting and ending at Eₖ = 0, with maximum Eₖ = 0.29 J at the equilibrium position h = 10.0 cm, and intercepting the h-axis at h = 2.0 cm and h = 18.0 cm."
+        }
+      ]
+    },
+    {
+      "topic": "18",
+      "qnum": "Q5",
+      "title": "Charged sphere — electric potential, charge, potential energy &amp; motion of two spheres",
+      "marks": 10,
+      "pages": [12, 13],
+      "pdf": "9702_w22_qp_42_Q5_Electric_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["18.5.1"],
+          "marks": 2,
+          "answer": "Electric potential at a point is the work done per unit positive charge in moving a positive test charge from infinity to that point."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["18.3.1", "18.5.3"],
+          "marks": 1,
+          "answer": "radius = <b>0.060 m</b> (the potential is constant inside the sphere up to its surface, then falls as 1/x)."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["18.5.3"],
+          "marks": 2,
+          "answer": "V = Q/(4πε₀x), so Q = 4πε₀xV = 4π × 8.85 × 10⁻¹² × 0.060 × (−850) = <b>−5.7 × 10⁻⁹ C</b>"
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["18.5.4"],
+          "marks": 2,
+          "answer": "E_P = Q²/(4πε₀x) = (5.67 × 10⁻⁹)² / (4π × 8.85 × 10⁻¹² × 0.46) = <b>6.3 × 10⁻⁷ J</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["18.3.2", "18.5.4"],
+          "marks": 3,
+          "answer": "The force is repulsive, so the spheres move apart, accelerating as potential energy is converted to kinetic energy (speed increases). As they separate, the force — and hence the acceleration — decreases. Momentum is conserved (and the masses are equal), so the spheres always have equal and opposite velocities."
+        }
+      ]
+    },
+    {
+      "topic": "19",
+      "qnum": "Q6",
+      "title": "Capacitor discharge — V–t graph, time constant, capacitance &amp; resistance",
+      "marks": 10,
+      "pages": [14, 15],
+      "pdf": "9702_w22_qp_42_Q6_Capacitance.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["19.3.1"],
+          "marks": 3,
+          "answer": "The p.d. across the resistor equals the p.d. across the capacitor, and the current in the resistor is proportional to this p.d. The current discharges the capacitor, so the charge, and hence the p.d., decreases. As the p.d. falls, the current falls, so the rate of decrease of p.d. also decreases — the curve becomes less steep with time."
+        },
+        {
+          "label": "(b)",
+          "codes": ["19.3.2", "19.3.3"],
+          "marks": 3,
+          "answer": "Q₀ = 0.90 mC. At t = τ, Q = Q₀e⁻¹ = 0.90 × 0.368 = 0.33 mC.<br>From Fig. 6.2, Q = 0.33 mC at t = <b>5.5 s</b>, so the time constant is 5.5 s."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["19.1.2"],
+          "marks": 2,
+          "answer": "C = Q₀/V = (0.90 × 10⁻³)/7.5 = 1.2 × 10⁻⁴ F = <b>120 μF</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["19.3.2"],
+          "marks": 2,
+          "answer": "R = τ/C = 5.5/(1.2 × 10⁻⁴) = <b>46 kΩ</b>"
+        }
+      ]
+    },
+    {
+      "topic": "20",
+      "qnum": "Q7",
+      "title": "Magnetic flux density — force on a coil in a magnetic field",
+      "marks": 10,
+      "pages": [16, 17],
+      "pdf": "9702_w22_qp_42_Q7_Magnetic_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["20.2.3"],
+          "marks": 3,
+          "answer": "Magnetic flux density is the force per unit current per unit length on a straight conductor placed <u>perpendicular</u> to the magnetic field lines."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["20.2.1", "20.2.2"],
+          "marks": 2,
+          "answer": "The current in the lower edge of the coil is perpendicular to the magnetic field, so a force acts on it. By Fleming's left-hand rule the force is perpendicular to both the current and the field, so — with both current and field horizontal — it is vertical."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["20.2.2"],
+          "marks": 3,
+          "answer": "The downward force on the coil is transferred (via Newton's third law) as an extra downward force on the magnet, so NBIL = mg.<br>B = mg/(NIL) = (2.16 × 10⁻³ × 9.81)/(40 × 3.94 × 0.0300) = <b>4.48 × 10⁻³ T</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": ["20.2.2"],
+          "marks": 2,
+          "answer": "The magnetic forces on the balance and the newton meter are equal and opposite, so the newton meter reading falls by the same amount.<br>Reading = 0.563 − (2.16 × 10⁻³ × 9.81) = <b>0.542 N</b>"
+        }
+      ]
+    },
+    {
+      "topic": "20",
+      "qnum": "Q8",
+      "title": "Lenz's law — induced e.m.f. in a coil on an iron bar",
+      "marks": 11,
+      "pages": [18, 19],
+      "pdf": "9702_w22_qp_42_Q8_Magnetic_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["20.5.5"],
+          "marks": 2,
+          "answer": "Lenz's law: the direction of the induced e.m.f. (and current) is such as to <u>oppose</u> the change of (magnetic) flux that produced it."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["21.1.1", "21.1.2"],
+          "marks": 3,
+          "answer": "X = amplitude = <b>0.85 A</b>.<br>Y = angular frequency = 2π/T = 2π/0.040 = <b>160 rad s⁻¹</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["20.5.4", "21.1.4"],
+          "marks": 3,
+          "answer": "Two cycles of a sinusoidal curve of period 0.040 s, oscillating between ±6.5 V, with maxima/minima at t = 0, 0.02, 0.04, 0.06, 0.08 s and zeros at t = 0.01, 0.03, 0.05, 0.07 s (V₂ = √2 × 4.6 = 6.5 V peak)."
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": ["20.5.4", "20.5.5"],
+          "marks": 3,
+          "answer": "The induced e.m.f. V₂ is proportional to the rate of change of magnetic flux, i.e. to the gradient of the I₁–t curve. V₂ is greatest when the I₁–t curve is steepest, zero when it is horizontal (at the maxima and minima), and changes sign when the sign of the gradient changes."
+        }
+      ]
+    },
+    {
+      "topic": "25",
+      "qnum": "Q9",
+      "title": "Hydrogen emission spectrum — energy levels, redshift &amp; Hubble's law",
+      "marks": 13,
+      "pages": [20, 21],
+      "pdf": "9702_w22_qp_42_Q9_Astronomy_and_cosmology.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": ["22.4.2"],
+          "marks": 3,
+          "answer": "A photon is emitted when an electron moves between two energy levels, and the photon energy (hence frequency/wavelength) equals the difference in energy between the levels. Since only certain discrete wavelengths are observed, the energy changes — and so the energy levels — must be discrete."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": ["22.4.3"],
+          "marks": 3,
+          "answer": "The 658 nm line is the transition to the −3.400 eV level from level X.<br>E₁ − E₂ = hc/λ, so E₁ − (−3.400) = (6.63 × 10⁻³⁴ × 3.00 × 10⁸)/(658 × 10⁻⁹ × 1.60 × 10⁻¹⁹) = 1.89 eV.<br>E₁ = 1.89 − 3.400 = <b>−1.51 eV</b>"
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["25.3.1"],
+          "marks": 1,
+          "answer": "Redshift."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["25.3.3"],
+          "marks": 1,
+          "answer": "The galaxy is moving <u>away</u> from the observer (receding)."
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": ["25.3.2"],
+          "marks": 3,
+          "answer": "Using the 658 nm line: Δλ = 686 − 658 = 28 nm.<br>Δλ/λ = v/c, so v = cΔλ/λ = 3.00 × 10⁸ × 28/658 = <b>1.3 × 10⁷ m s⁻¹</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": ["25.3.4"],
+          "marks": 2,
+          "answer": "v = H₀d, so H₀ = v/d = 1.3 × 10⁷ / (5.7 × 10²⁴) = <b>2.3 × 10⁻¹⁸ s⁻¹</b>"
+        }
+      ]
+    },
+    {
+      "topic": "24",
+      "qnum": "Q10",
+      "title": "PET scanning — positrons, annihilation &amp; gamma-ray wavelength",
+      "marks": 9,
+      "pages": [23],
+      "pdf": "9702_w22_qp_42_Q10_Medical_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": ["24.3.1", "24.3.2"],
+          "marks": 2,
+          "answer": "A tracer containing a β⁺ emitter is introduced into the body. The nuclei decay by β⁺ emission, producing positrons."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": ["24.3.3", "24.3.4"],
+          "marks": 3,
+          "answer": "A positron interacts with an electron in the tissue and the pair annihilates. The (rest) mass of the particles is converted into energy, emitted as two gamma-ray photons travelling in opposite directions."
+        },
+        {
+          "label": "(b)",
+          "codes": ["24.3.5", "23.1.1", "22.1.3"],
+          "marks": 4,
+          "answer": "Annihilation of an electron and positron produces two photons; each photon carries the rest-mass energy of one particle, E = mc² = 9.11 × 10⁻³¹ × (3.00 × 10⁸)².<br>E = hf = hc/λ, so λ = hc/mc² = (6.63 × 10⁻³⁴ × 3.00 × 10⁸)/(9.11 × 10⁻³¹ × (3.00 × 10⁸)²) = <b>2.4 × 10⁻¹² m (2.4 pm)</b>"
+        }
+      ]
+    }
+  ]
+}

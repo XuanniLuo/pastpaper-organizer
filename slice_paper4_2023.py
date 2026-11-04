@@ -46,7 +46,10 @@ def slice_one(json_path):
 
 
 def main():
-    jsons = sorted(glob.glob(os.path.join(HERE, 'data2023', '9702_*_qp_4*.json')))
+    jsons = sorted(
+        glob.glob(os.path.join(HERE, 'data2022', '9702_*_qp_4*.json'))
+        + glob.glob(os.path.join(HERE, 'data2023', '9702_*_qp_4*.json'))
+    )
     total = 0
     for j in jsons:
         base = os.path.basename(j)

@@ -1,0 +1,468 @@
+{
+  "paper": "9702/42/F/M/22",
+  "paper_full": "March 2022 · Paper 42",
+  "questions": [
+    {
+      "topic": "13",
+      "qnum": "Q1",
+      "title": "Gravitational field lines &amp; circular orbits — planet mass from r³–1/ω² graph and moon speed",
+      "marks": 10,
+      "pages": [5, 6, 7],
+      "pdf": "9702_m22_qp_42_Q1_Gravitational_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["13.1.2"],
+          "marks": 2,
+          "answer": "Draw at least four straight radial field lines meeting at P, with every arrow pointing along a line towards P."
+        },
+        {
+          "label": "(b)",
+          "codes": ["13.2.3"],
+          "marks": 2,
+          "answer": "The gravitational force provides the centripetal force. It has constant magnitude and is always perpendicular to the velocity (direction of motion) of the moon, so the moon follows a circular path."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["13.2.3"],
+          "marks": 2,
+          "answer": "GMm/r² = mrω², so GM = r³ω², i.e. r³ = GM × (1/ω²). The gradient of the r³ – 1/ω² graph is therefore GM, giving M = gradient/G."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["13.2.3"],
+          "marks": 1,
+          "answer": "gradient = 4.1 × 10²³/(6.0 × 10⁷) = 6.83 × 10¹⁵ m³ s⁻².<br>M = gradient/G = 6.83 × 10¹⁵/(6.67 × 10⁻¹¹) = <b>1.0 × 10²⁶ kg</b>"
+        },
+        {
+          "label": "(c)(iii)",
+          "codes": ["13.2.3"],
+          "marks": 3,
+          "answer": "GMm/r² = mv²/r, so v² = GM/r = 6.67 × 10⁻¹¹ × 1.0 × 10²⁶/(1.2 × 10⁸) = 5.6 × 10⁷ m² s⁻².<br>v = <b>7500 m s⁻¹</b>"
+        }
+      ]
+    },
+    {
+      "topic": "16",
+      "qnum": "Q2",
+      "title": "Ideal gas cycle — internal energy, pV = nRT &amp; first law of thermodynamics",
+      "marks": 10,
+      "pages": [8, 9],
+      "pdf": "9702_m22_qp_42_Q2_Thermodynamics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["16.1.1"],
+          "marks": 1,
+          "answer": "ΔU = <b>0</b> — after one complete cycle the gas returns to its initial state, and internal energy is determined by state."
+        },
+        {
+          "label": "(b)",
+          "codes": ["15.2.2"],
+          "marks": 2,
+          "answer": "pV = nRT, so n = pV/RT = 1.5 × 10⁵ × 4.2 × 10⁻³/(8.31 × 540) = <b>0.14 mol</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": ["15.2.2"],
+          "marks": 2,
+          "answer": "Using pV/T = constant:<br>Y: p = 1.5 × 10⁵ Pa and V = 1.8 × 10⁻³ m³.<br>Z: V = 1.8 × 10⁻³ m³."
+        },
+        {
+          "label": "(d)(i)",
+          "codes": ["16.2.2"],
+          "marks": 3,
+          "answer": "ΔU: the increase in internal energy of the system.<br>q: the thermal energy supplied to the system (by heating).<br>W: the work done on the system."
+        },
+        {
+          "label": "(d)(ii)",
+          "codes": ["16.2.1", "16.2.2"],
+          "marks": 2,
+          "answer": "In the change Z → X the volume increases, so work is done <u>by</u> the gas (W is negative). The temperature decreases, so the internal energy decreases (ΔU is negative)."
+        }
+      ]
+    },
+    {
+      "topic": "17",
+      "qnum": "Q3",
+      "title": "Oscillating floating block — SHM, angular frequency &amp; damped energy loss",
+      "marks": 10,
+      "pages": [10, 11, 12],
+      "pdf": "9702_m22_qp_42_Q3_Oscillations.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["17.1.1"],
+          "marks": 1,
+          "answer": "Upthrust and weight."
+        },
+        {
+          "label": "(b)",
+          "codes": ["17.1.1"],
+          "marks": 1,
+          "answer": "The upthrust is now greater than the weight, so the resultant force acts upwards (towards the equilibrium position)."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["17.1.3"],
+          "marks": 2,
+          "answer": "A, g and ρ are all constant, so the resultant force F ∝ x. The minus sign shows that F and the displacement x are in opposite directions, which is the condition for simple harmonic motion."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["17.1.3"],
+          "marks": 2,
+          "answer": "F = ma = −Agρx, so a = −(Agρ/m)x. Comparing with a = −ω²x gives ω² = Agρ/m, hence ω = √(Agρ/m)."
+        },
+        {
+          "label": "(d)(i)",
+          "codes": ["17.3.1"],
+          "marks": 1,
+          "answer": "The oscillations are damped by viscous (drag) forces in the liquid, so the amplitude decreases and the maximum negative displacement is smaller than the maximum positive displacement."
+        },
+        {
+          "label": "(d)(ii)",
+          "codes": ["17.1.3", "17.2.2"],
+          "marks": 3,
+          "answer": "From Fig. 3.3, a = −ω²x, so ω² = −gradient = 2.3/0.020 = 115 s⁻².<br>ΔE = ½mω²(x₁² − x₂²) = ½ × 0.57 × 115 × (0.020² − 0.016²) = <b>4.7 × 10⁻³ J</b>"
+        }
+      ]
+    },
+    {
+      "topic": "18",
+      "qnum": "Q4",
+      "title": "Electric field of two point charges — zero potential point &amp; force on an electron",
+      "marks": 6,
+      "pages": [13, 14],
+      "pdf": "9702_m22_qp_42_Q4_Electric_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["18.1.3"],
+          "marks": 2,
+          "answer": "An electric field line shows the direction of the force on a (small) positive charge placed in the field, i.e. the direction of the electric field."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["18.5.3"],
+          "marks": 2,
+          "answer": "At distance x from P: (4.0 × 10⁻⁹)/(4πε₀x) = (7.2 × 10⁻⁹)/(4πε₀(0.120 − x)), so 4.0(0.120 − x) = 7.2x.<br>x = <b>0.043 m</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["18.4.1"],
+          "marks": 1,
+          "answer": "No. At this point the electric fields due to P and Q act in the same direction, so they add and do not cancel."
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": ["18.1.2"],
+          "marks": 1,
+          "answer": "Draw an arrow from X pointing leftwards, in a direction between the horizontal (left) and the extended line from Q through X."
+        }
+      ]
+    },
+    {
+      "topic": "19",
+      "qnum": "Q5",
+      "title": "Capacitor charge &amp; discharge — stored energy, time constant &amp; energy decay",
+      "marks": 10,
+      "pages": [15, 16, 17],
+      "pdf": "9702_m22_qp_42_Q5_Capacitance.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["19.2.1", "19.2.2"],
+          "marks": 2,
+          "answer": "E = ½QV = ½ × 8.0 × 1.2 × 10⁻⁴ = <b>4.8 × 10⁻⁴ J</b>"
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["19.3.2", "19.1.2"],
+          "marks": 2,
+          "answer": "C = Q/V = 1.2 × 10⁻⁴/8.0 = 1.5 × 10⁻⁵ F.<br>τ = RC = 220 × 10³ × 1.5 × 10⁻⁵ = <b>3.3 s</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["19.2.2", "19.3.3"],
+          "marks": 4,
+          "answer": "E ∝ V², so when E falls to E/9, V falls to V₀/3.<br>V = V₀e^(−t/RC): V₀/3 = V₀e^(−t/3.3), so 1/3 = e^(−t/3.3).<br>t = 3.3 × ln 3 = <b>3.6 s</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": ["19.1.4", "19.3.2"],
+          "marks": 2,
+          "answer": "The second capacitor in parallel doubles the total capacitance, so the time constant τ = RC also doubles."
+        }
+      ]
+    },
+    {
+      "topic": "20",
+      "qnum": "Q6",
+      "title": "Magnetic flux &amp; flux linkage in solenoids — Lenz's law &amp; induced force",
+      "marks": 7,
+      "pages": [18, 19],
+      "pdf": "9702_m22_qp_42_Q6_Magnetic_fields.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["20.5.1", "20.5.2"],
+          "marks": 1,
+          "answer": "The magnetic flux is less in the smaller solenoid: the flux density B is the same in both, but the smaller solenoid has a smaller area, so Φ = BA is smaller."
+        },
+        {
+          "label": "(b)",
+          "codes": ["20.5.3"],
+          "marks": 1,
+          "answer": "The magnetic flux linkage is greater in the smaller solenoid: flux linkage = NΦ = NBA, so smaller = 3000 × 1.6 × 10⁻³ B = 4.8B, larger = 600 × 6.4 × 10⁻³ B = 3.84B."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["20.5.5"],
+          "marks": 2,
+          "answer": "Lenz's law: the direction of the induced e.m.f. is such that it opposes the change (in magnetic flux linkage) that produces it."
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["20.5.4"],
+          "marks": 3,
+          "answer": "Removing the smaller solenoid changes the magnetic flux linkage, which induces an e.m.f. in it. Since its terminals are joined, a current flows, producing a magnetic field around the smaller solenoid. The two magnetic fields interact to produce an attractive force, so a force is needed to pull the solenoid out."
+        }
+      ]
+    },
+    {
+      "topic": "21",
+      "qnum": "Q7",
+      "title": "Full-wave rectification &amp; sinusoidal a.c. — output equation and mean power",
+      "marks": 6,
+      "pages": [20, 21],
+      "pdf": "9702_m22_qp_42_Q7_Alternating_currents.pdf",
+      "parts": [
+        {
+          "label": "(a)(i)",
+          "codes": ["21.2.3"],
+          "marks": 1,
+          "answer": "Add the two missing diodes, both pointing inwards (towards the positive output), to complete the bridge rectifier."
+        },
+        {
+          "label": "(a)(ii)",
+          "codes": ["21.2.3"],
+          "marks": 1,
+          "answer": "Mark + on the upper output wire (the positive output terminal)."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["21.1.1", "21.1.2"],
+          "marks": 2,
+          "answer": "V₀ = 3.5 V and T = 2.5 s, so ω = 2π/T = 2π/2.5 = 0.80π rad s⁻¹.<br>V = <b>3.5 sin(0.80πt)</b> V (t in seconds)."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["21.1.3"],
+          "marks": 2,
+          "answer": "P = V₀²/2R = 3.5²/(2 × 12) = <b>0.51 W</b>"
+        }
+      ]
+    },
+    {
+      "topic": "22",
+      "qnum": "Q8",
+      "title": "Electron diffraction — de Broglie wavelength &amp; wave nature of electrons",
+      "marks": 7,
+      "pages": [22, 23],
+      "pdf": "9702_m22_qp_42_Q8_Quantum_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["22.3.3", "22.3.4"],
+          "marks": 2,
+          "answer": "λ = h/p (or h/mv), where h is the Planck constant and p (= mv) is the momentum of the particle; m is its mass and v its velocity."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["22.3.2"],
+          "marks": 1,
+          "answer": "Diffraction."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["22.3.2"],
+          "marks": 1,
+          "answer": "Moving electrons behave like waves (they exhibit wave properties)."
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": ["22.3.2"],
+          "marks": 1,
+          "answer": "The spacing between the atoms in the crystal is approximately equal to the wavelength of the electrons, so the electrons are diffracted."
+        },
+        {
+          "label": "(b)(iv)",
+          "codes": ["22.3.4", "22.3.2"],
+          "marks": 2,
+          "answer": "The diffraction rings are closer together, so the electron wavelength has decreased (the electrons have greater momentum). A shorter wavelength requires faster electrons, so the accelerating potential difference was increased."
+        }
+      ]
+    },
+    {
+      "topic": "23",
+      "qnum": "Q9",
+      "title": "Polonium-211 alpha decay — decay constant, activity &amp; decay energy",
+      "marks": 11,
+      "pages": [24, 25],
+      "pdf": "9702_m22_qp_42_Q9_Nuclear_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["23.1.2"],
+          "marks": 2,
+          "answer": "²¹¹₈₄Po → ²⁰⁷₈₂Pb + ⁴₂α"
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["23.2.5", "23.2.6"],
+          "marks": 2,
+          "answer": "From Fig. 9.1 the half-life t½ ≈ 0.52 s.<br>λ = 0.693/t½ = 0.693/0.52 = <b>1.3 s⁻¹</b>"
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["23.2.3"],
+          "marks": 1,
+          "answer": "A = λN₀ = 1.3 × 24 × 10¹² = <b>3.1 × 10¹³ Bq</b>"
+        },
+        {
+          "label": "(b)(iii)",
+          "codes": ["23.2.6"],
+          "marks": 2,
+          "answer": "Sketch an upward curve of decreasing gradient from (0, 0), passing through (0.52 s, 12 × 10¹²) and (1.2 s, 18.8 × 10¹²), tending towards 24 × 10¹²."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["23.2.6"],
+          "marks": 3,
+          "answer": "N(0.30 s) = 16 × 10¹² and N(0.90 s) = 7.2 × 10¹², so (16 − 7.2) × 10¹² = 8.8 × 10¹² nuclei decay.<br>Energy per alpha particle = 6900 × 10³ × 1.6 × 10⁻¹⁹ = 1.10 × 10⁻¹² J.<br>Total energy = 8.8 × 10¹² × 1.10 × 10⁻¹² = <b>9.7 J</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["23.1.1"],
+          "marks": 1,
+          "answer": "The lead nuclei recoil with kinetic energy, and gamma photons may also be emitted, so the total energy released is greater than the energy carried by the alpha particles alone."
+        }
+      ]
+    },
+    {
+      "topic": "24",
+      "qnum": "Q10",
+      "title": "X-rays — target heating, attenuation &amp; image contrast",
+      "marks": 7,
+      "pages": [26, 27],
+      "pdf": "9702_m22_qp_42_Q10_Medical_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["24.2.1", "14.3.1"],
+          "marks": 3,
+          "answer": "Thermal energy = ItV × 0.95 = 0.40 × 0.020 × 75 000 × 0.95 = 570 J.<br>ΔT = Q/mc = 570/(0.015 × 130) = <b>290 K</b>"
+        },
+        {
+          "label": "(b)",
+          "codes": ["24.2.3"],
+          "marks": 2,
+          "answer": "I = I₀e^(−μt). For 80% absorption, I/I₀ = 0.20, so 0.20 = e^(−0.22t).<br>t = ln 0.20/(−0.22) = <b>7.3 cm</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": ["24.2.2"],
+          "marks": 2,
+          "answer": "Bone (μ = 3.0 cm⁻¹) and muscle (μ = 0.22 cm⁻¹) have very different attenuation coefficients, so very different fractions of the X-rays are absorbed (transmitted), giving good contrast. Blood (μ = 0.23 cm⁻¹) and muscle have very similar μ, so similar fractions are absorbed, giving poor contrast."
+        }
+      ]
+    },
+    {
+      "topic": "24",
+      "qnum": "Q11",
+      "title": "PET scanning — tracer, annihilation, gamma photon energy &amp; imaging",
+      "marks": 9,
+      "pages": [28, 29],
+      "pdf": "9702_m22_qp_42_Q11_Medical_physics.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["24.3.1"],
+          "marks": 1,
+          "answer": "A tracer is a substance containing radioactive nuclei that is introduced into the body and absorbed by the tissue being studied."
+        },
+        {
+          "label": "(b)(i)",
+          "codes": ["24.3.3"],
+          "marks": 1,
+          "answer": "Annihilation is the process in which a particle interacts with its antiparticle so that their mass is converted into energy."
+        },
+        {
+          "label": "(b)(ii)",
+          "codes": ["24.3.3"],
+          "marks": 1,
+          "answer": "An electron and a positron."
+        },
+        {
+          "label": "(c)(i)",
+          "codes": ["24.3.5"],
+          "marks": 1,
+          "answer": "E = 2mc² = 2 × 9.11 × 10⁻³¹ × (3.00 × 10⁸)² = <b>1.64 × 10⁻¹³ J</b>"
+        },
+        {
+          "label": "(c)(ii)",
+          "codes": ["24.3.5"],
+          "marks": 2,
+          "answer": "Each photon carries half the energy, so 2hc/λ = E.<br>λ = 2hc/E = 2 × 6.63 × 10⁻³⁴ × 3.00 × 10⁸/(1.64 × 10⁻¹³) = <b>2.43 × 10⁻¹² m</b>"
+        },
+        {
+          "label": "(d)",
+          "codes": ["24.3.6"],
+          "marks": 3,
+          "answer": "The two gamma photons travel in opposite directions and are detected by detectors arranged around the body. The different arrival times of the photons at the detectors are used to locate the point of annihilation. Processing the signals produces an image showing the concentration of the tracer in the tissue."
+        }
+      ]
+    },
+    {
+      "topic": "25",
+      "qnum": "Q12",
+      "title": "The Sun — luminosity, radiant flux intensity, mass–energy &amp; Wien's law",
+      "marks": 7,
+      "pages": [30, 31],
+      "pdf": "9702_m22_qp_42_Q12_Astronomy_and_cosmology.pdf",
+      "parts": [
+        {
+          "label": "(a)",
+          "codes": ["25.1.1"],
+          "marks": 1,
+          "answer": "Luminosity is the total power of radiation emitted by a star."
+        },
+        {
+          "label": "(b)",
+          "codes": ["25.1.2"],
+          "marks": 2,
+          "answer": "F = L/(4πd²) = 3.83 × 10²⁶/(4π × (1.51 × 10¹¹)²) = <b>1340 W m⁻²</b>"
+        },
+        {
+          "label": "(c)",
+          "codes": ["23.1.1"],
+          "marks": 1,
+          "answer": "E = mc², so m = E/c² = 3.83 × 10²⁶/(3.00 × 10⁸)² = <b>4.26 × 10⁹ kg</b>"
+        },
+        {
+          "label": "(d)",
+          "codes": ["25.2.2"],
+          "marks": 1,
+          "answer": "L = 4πσr²T⁴, so T⁴ = L/(4πσr²) = 3.83 × 10²⁶/(4π × 5.67 × 10⁻⁸ × (6.96 × 10⁸)²) = 1.11 × 10¹⁵ K⁴, giving T = <b>5770 K</b>"
+        },
+        {
+          "label": "(e)",
+          "codes": ["25.2.1"],
+          "marks": 2,
+          "answer": "λmax ∝ 1/T, so λ(Sirius) = λ(Sun) × T(Sun)/T(Sirius) = 5.00 × 10⁻⁷ × 5770/9940 = <b>2.90 × 10⁻⁷ m</b>"
+        }
+      ]
+    }
+  ]
+}

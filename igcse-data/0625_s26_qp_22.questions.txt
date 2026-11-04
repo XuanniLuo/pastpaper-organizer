@@ -1,0 +1,796 @@
+===== Q1 (page 1) =====
+1 
+A piece of modelling clay is rolled into the shape of a cylinder. 
+ 
+The dimensions shown are approximate. 
+ 
+diameter
+length
+ 
+ 
+Which apparatus is used to determine the volume of the cylinder? 
+A 
+a protractor 
+B 
+a ruler 
+C 
+a syringe 
+D 
+a stopwatch
+
+===== Q2 (page 1) =====
+2 
+The diagram shows a speed–time graph for an object. 
+ 
+speed
+time
+0
+0
+P
+Q
+R
+S
+T
+ 
+ 
+Which sections of the graph show the object moving with constant, non-zero acceleration? 
+A 
+PQ, QR and RS 
+B 
+PQ and RS only 
+C 
+QR only 
+D 
+ST only
+
+===== Q3 (page 1) =====
+3 
+Which unit is a unit of weight? 
+A 
+kilogram 
+B 
+kilojoule 
+C 
+kilometre 
+D 
+kilonewton
+
+===== Q4 (page 2) =====
+4 
+Which statement gives a complete description of any object that is in equilibrium? 
+A 
+There are no forces acting. 
+B 
+There is no resultant force. 
+C 
+There is no resultant force and no resultant turning effect. 
+D 
+There is no resultant turning effect.
+
+===== Q5 (page 2) =====
+5 
+A student is designing a toy. She attaches a model plane to one end of a uniform metal rod.  
+The weight of the metal rod is 0.50 N. The weight of the model plane is 3.5 N. 
+ 
+She uses a counterbalance to keep the system in equilibrium. 
+ 
+15 cm
+15 cm
+5.0 cm
+0.50 N
+3.5 N
+metal rod
+counterbalance
+ 
+ 
+What is the weight of the counterbalance? 
+A 
+2.5 N 
+B 
+2.8 N 
+C 
+3.5 N 
+D 
+4.7 N
+
+===== Q6 (page 2) =====
+6 
+A model car has a mass of 0.50 kg. 
+ 
+It is accelerated from rest by a constant resultant force of 2.0 N for a time of 3.0 s. 
+ 
+What is the maximum speed of the model car? 
+A 
+3.0 m / s 
+B 
+4.0 m / s 
+C 
+6.0 m / s 
+D 
+12 m / s
+
+===== Q7 (page 2) =====
+7 
+The total mass of a cyclist and his bicycle is 80 kg. 
+ 
+The cyclist starts from rest and rides down a hill without pedalling. 
+ 
+The vertical height of the hill is 50 m. 
+ 
+At the bottom of the hill, the speed of the cyclist is 20 m / s. 
+ 
+How much energy is wasted as the cyclist rides from the top of the hill to the bottom of the hill? 
+A 
+less than 10 kJ 
+B 
+between 10 kJ and 20 kJ 
+C 
+between 20 kJ and 30 kJ 
+D 
+over 30 kJ
+
+===== Q8 (page 3) =====
+8 
+Which energy resource does not depend upon the Sun as its source of energy? 
+A 
+coal 
+B 
+geothermal 
+C 
+hydroelectric 
+D 
+wind
+
+===== Q9 (page 3) =====
+9 
+A whale dives to a depth of 3000 m in sea water. 
+ 
+In addition to the gravitational field strength, which variables determine the pressure on the whale 
+due to the water at a depth of 3000 m? 
+A 
+depth, water density and mass of the whale only 
+B 
+depth and water density only 
+C 
+depth, surface area of the whale and mass of the whale only 
+D 
+depth and surface area of the whale only
+
+===== Q10 (page 3) =====
+10 A liquid is at a temperature below its boiling point. 
+ 
+The liquid is then heated to a temperature above its boiling point and becomes a gas. 
+ 
+Which row correctly compares the liquid with the gas? 
+ 
+ 
+average distance 
+between the particles 
+average speed 
+of the particles 
+A 
+greater in the liquid 
+greater in the liquid 
+B 
+greater in the liquid 
+smaller in the liquid 
+C 
+smaller in the liquid 
+greater in the liquid 
+D 
+smaller in the liquid 
+smaller in the liquid
+
+===== Q11 (page 4) =====
+11 The diagram shows a sealed syringe containing a gas at a constant temperature. 
+ 
+sealed end
+gas
+plunger
+ 
+ 
+What happens to the gas particles and the pressure of the gas as the plunger is pushed  
+further in? 
+ 
+ 
+gas particles 
+pressure of the gas 
+A 
+hit the walls of the syringe less frequently 
+decreases 
+B 
+hit the walls of the syringe less frequently 
+increases 
+C 
+hit the walls of the syringe more frequently 
+decreases 
+D 
+hit the walls of the syringe more frequently 
+increases
+
+===== Q12 (page 4) =====
+12 A gas at constant temperature has pressure p and volume V. 
+ 
+Which graph shows how p varies with V ? 
+ 
+0
+0
+p
+V
+A
+0
+0
+p
+V
+B
+0
+0
+p
+V
+C
+0
+0
+p
+V
+D
+
+===== Q13 (page 4) =====
+13 900 kJ of energy is transferred to a mass of water. The temperature of the water increases from 
+20 °C to 45 °C. 
+ 
+The specific heat capacity of water is 4200 J / (kg °C). 
+ 
+Which mass of water is heated? 
+A 
+0.0086 kg 
+B 
+5.4 kg 
+C 
+8.6 kg 
+D 
+11 kg
+
+===== Q14 (page 5) =====
+14 A beaker of liquid is heated slowly so that the liquid evaporates. 
+ 
+During evaporation, from where do the more-energetic molecules leave the liquid? 
+ 
+A
+B
+D
+C
+heat
+liquid
+
+===== Q15 (page 6) =====
+15 A student uses a tall container and a shallow dish for two experiments heating water. 
+ 
+The same mass of water at room temperature is used in each experiment. 
+ 
+The tall container is heated until the water boils and the shallow dish is kept warm at a constant 
+temperature with a fan blowing across it. 
+ 
+tall container
+water
+heat
+shallow dish
+water
+warm, constant
+temperature bath
+fan
+ 
+ 
+Which row shows the correct graph for the mass of water remaining in each experiment? 
+ 
+tall container
+shallow dish
+A
+mass
+time
+0
+0
+B
+mass
+time
+0
+0
+C
+mass
+time
+0
+0
+D
+mass
+time
+0
+0
+mass
+time
+0
+0
+mass
+time
+0
+0
+mass
+time
+0
+0
+mass
+time
+0
+0
+
+===== Q16 (page 7) =====
+16 A warm black surface emits radiation. It is decided to increase the amount of radiation emitted. 
+ 
+Which changes increase the amount of radiation emitted? 
+ 
+1 
+making the surface hotter 
+2 
+changing the colour of the surface to white 
+3 
+decreasing the area of the surface 
+ 
+A 
+1, 2 and 3 
+B 
+1 and 2 only 
+C 
+1 and 3 only 
+D 
+1 only
+
+===== Q17 (page 7) =====
+17 The diagram shows the displacement–time graph for a transverse wave moving at a speed  
+of 2.0 m / s. 
+ 
+4.0
+0
+8.0
+12
+16
+1.2
+0
+–1.2
+displacement / m
+time / s
+ 
+ 
+What is the wavelength of the transverse wave? 
+A 
+1.2 m 
+B 
+4.0 m 
+C 
+8.0 m 
+D 
+16 m
+
+===== Q18 (page 7) =====
+18 When red light travels from air into glass, the speed of the light decreases from 3.0  108
+ m / s  
+to 2.1  108
+ m / s. 
+ 
+The wavelength of the light in air is 620 nm. 
+ 
+What is the wavelength of the light in the glass? 
+A 
+430 nm 
+B 
+560 nm 
+C 
+620 nm 
+D 
+890 nm
+
+===== Q19 (page 7) =====
+19 Which description of the image of an object in a plane mirror is correct? 
+A 
+upright and real 
+B 
+upright and virtual 
+C 
+upside down and real 
+D 
+upside down and virtual
+
+===== Q20 (page 8) =====
+20 A light ray strikes a plane mirror and is reflected. 
+ 
+Which angle is always equal in size to the angle of reflection? 
+A 
+the angle between the incident ray and the mirror 
+B 
+the angle between the incident ray and the normal to the mirror 
+C 
+the angle between the reflected ray and the mirror 
+D 
+the angle between the reflected ray and the incident ray
+
+===== Q21 (page 8) =====
+21 A student is short-sighted. 
+ 
+The student is standing in a park looking at a tree in the distance. 
+ 
+Where, in relation to the retina, does the eye form an image of the tree, and which type of lens is 
+used to correct the image? 
+ 
+ 
+location of image 
+type of lens 
+A 
+behind retina 
+converging 
+B 
+behind retina 
+diverging 
+C 
+in front of retina 
+converging 
+D 
+in front of retina 
+diverging
+
+===== Q22 (page 8) =====
+22 Students are asked to distinguish between analogue and digital signals. 
+ 
+Which statement is correct? 
+A 
+Digital signals cannot transmit data at a higher rate than analogue signals. 
+B 
+Digital signals travel slower than analogue signals. 
+C 
+Digital signals cannot transmit sound data. 
+D 
+Digital signals have values of 1 or 0.
+
+===== Q23 (page 8) =====
+23 A quiet sound is produced by a loudspeaker. The pitch of the sound remains constant, but the 
+loudness of the sound is increased. 
+ 
+Which property of the sound wave is increased? 
+A 
+amplitude 
+B 
+frequency 
+C 
+speed 
+D 
+wavelength
+
+===== Q24 (page 9) =====
+24 In still air, the air pressure is p and the average distance between the air particles is d. 
+ 
+A sound wave produces rarefactions as it travels through the air. 
+ 
+In a rarefaction, the air pressure is P and the average distance between the air particles is D. 
+ 
+Which statement is correct? 
+A 
+P > p and D > d 
+B 
+P > p and D < d 
+C 
+P < p and D > d 
+D 
+P < p and D < d
+
+===== Q25 (page 9) =====
+25 Which diagram shows the magnetic field around a bar magnet? 
+ 
+A
+S
+N
+S
+N
+D
+C
+S
+N
+B
+S
+N
+
+===== Q26 (page 9) =====
+26 A crane uses an electromagnet to move heavy vehicles around in a scrap metal yard. 
+ 
+Why does the crane use an electromagnet? 
+A 
+Electromagnets are always stronger than all other magnets. 
+B 
+Electromagnets attract all metals. 
+C 
+Electromagnets attract all non-metals. 
+D 
+Electromagnets can be switched on and off.
+
+===== Q27 (page 10) =====
+27 What is the current–voltage (I–V ) graph of a filament lamp? 
+ 
+A
+I
+V
+0
+0
+0
+0
+0
+0
+0
+0
+B
+I
+V
+C
+I
+V
+D
+I
+V
+
+===== Q28 (page 10) =====
+28 There is an electric current I in a resistor for a time t. 
+ 
+The potential difference (p.d.) across the resistor is V. 
+ 
+Which equation can be used to calculate the energy E transferred in the resistor? 
+A 
+E = I  V  t 
+B 
+E = 
+t
+V
+ 
+ 
+I
+ 
+C 
+E = 
+t
+V 
+ 
+I
+ 
+D 
+E = 
+t
+V
+ 
+ 
+I
+
+===== Q29 (page 10) =====
+29 Two resistors, X and Y, are connected in parallel. 
+ 
+The two resistors have a combined resistance of 24 . 
+ 
+Resistor X has a resistance of 40 . 
+ 
+What is the resistance of resistor Y? 
+A 
+16  
+B 
+32  
+C 
+60  
+D 
+64 
+
+===== Q30 (page 11) =====
+30 Electrical appliances are connected to a mains circuit by an extension lead with multiple sockets. 
+ 
+Which situation may cause the cable of the extension lead to overheat? 
+A 
+Appliances are connected using plugs containing fuses with low ratings. 
+B 
+Appliance cables are surrounded by damp conditions. 
+C 
+The earth wire touches the metal casing of one of the appliances. 
+D 
+Multiple appliances are connected to one socket.
+
+===== Q31 (page 11) =====
+31 The diagrams show a straight wire carrying a current directed into the page. 
+ 
+Which diagram shows the pattern and the direction of the magnetic field due to the current in the 
+straight wire? 
+ 
+A
+B
+C
+D
+
+===== Q32 (page 11) =====
+32 A beam of electrons in a vacuum is directed into a region of uniform magnetic field. 
+ 
+The initial direction of the beam is perpendicular to the field lines as shown. 
+ 
+The beam is deflected by the magnetic field. 
+ 
+N pole
+S pole
+initial path of
+electron beam
+ 
+ 
+In which direction is the beam deflected? 
+A 
+upwards 
+B 
+downwards 
+C 
+out of the page 
+D 
+into the page
+
+===== Q33 (page 12) =====
+33 A 100% efficient transformer has 4500 turns on its primary coil and 900 turns on its  
+secondary coil. 
+ 
+The primary coil is supplied with a current of 1.5 A at a voltage of 240 V. 
+ 
+What is the current in the secondary coil? 
+A 
+0.30 A 
+B 
+7.5 A 
+C 
+160 A 
+D 
+360 A
+
+===== Q34 (page 12) =====
+34 The diagrams represent the protons, neutrons and electrons in different atoms and ions. 
+ 
+Which diagram shows a negatively charged ion? 
+ 
+A
+B
+C
+D
+key
+proton
+neutron
+electron
+
+===== Q35 (page 13) =====
+35 The diagram shows a beam of -particles, -particles and -rays moving in a vacuum towards the 
+space between a pair of charged plates. 
+ 
+plate X
+–5000 V
+plate Y
++5000 V
+beam of -particles,
+-particles and -rays
+ 
+ 
+Which row shows the deflections of the different particles? 
+ 
+ 
+deflection of 
+-particles 
+deflection of 
+-particles 
+deflection of 
+-rays 
+A 
+towards X 
+towards Y 
+undeflected 
+B 
+towards Y 
+towards X 
+undeflected 
+C 
+undeflected 
+undeflected 
+towards X 
+D 
+undeflected 
+towards X 
+towards Y
+
+===== Q36 (page 13) =====
+36 A nucleus of radon, Rn, emits an -particle and changes into a nucleus of polonium, Po. The 
+equation shows the change. 
+ 
+Rn
+86
+a
+    
+Po
+214
+b
+  +  
+4
+2
+ 
+ 
+What are the values of a and b? 
+ 
+ 
+a 
+b 
+A 
+210 
+84 
+B 
+210 
+88 
+C 
+218 
+84 
+D 
+218 
+88
+
+===== Q37 (page 13) =====
+37 A radioactive isotope has a half-life of 8.0 days. 
+ 
+A detector close to a sample of this isotope gives a count rate of 200 counts per minute. 
+ 
+Without the source, the background count is 20 counts per minute. 
+ 
+What is the count rate due to the source after 8.0 days? 
+A 
+80 counts per minute 
+B 
+90 counts per minute 
+C 
+100 counts per minute 
+D 
+110 counts per minute
+
+===== Q38 (page 14) =====
+38 A radiographer works in an area where there is a radioactive source. 
+ 
+The radiographer wears a lead apron. 
+ 
+How does the apron act as a safety precaution? 
+A 
+It increases the distance between the radiographer and the source. 
+B 
+It reduces the time that the radiographer is exposed to radiation. 
+C 
+It shields the radiographer by absorbing some of the radiation. 
+D 
+It stops radiation reaching the radiographer by reflecting the radiation.
+
+===== Q39 (page 14) =====
+39 Which expression is correct for the orbital period of the Moon around the Earth? 
+A 
+2r v 
+B 
+v
+r
+
+2
+ 
+C 
+2r 2v 
+D 
+v
+r 2
+2
+
+===== Q40 (page 14) =====
+40 Proxima Centauri is one of the closest stars to the Earth and is located approximately  
+4.3 light-years away. 
+ 
+What is this distance in kilometres? 
+A 
+1.3  109
+ km 
+B 
+4.1  1013
+ km 
+C 
+2.2  1015
+ km 
+D 
+4.1  1016
+ km

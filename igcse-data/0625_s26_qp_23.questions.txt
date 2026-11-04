@@ -1,0 +1,861 @@
+===== Q1 (page 1) =====
+1 
+Which piece of apparatus is used to measure the length of a copper rod of length  
+approximately 2 cm? 
+A 
+digital timer 
+B 
+measuring cylinder 
+C 
+ruler 
+D 
+balance
+
+===== Q2 (page 1) =====
+2 
+Which statement is correct? 
+A 
+The acceleration of an object is calculated using the area under a distance–time graph. 
+B 
+The acceleration of an object is calculated using the gradient of a speed–time graph. 
+C 
+The speed of an object is calculated using the area under a distance–time graph. 
+D 
+The speed of an object is calculated using the gradient of a speed–time graph.
+
+===== Q3 (page 1) =====
+3 
+An object always has mass, but does not always have weight. 
+ 
+What must be present and acting on the mass for it to have weight? 
+A 
+a gravitational field 
+B 
+a top-pan balance 
+C 
+displaced water 
+D 
+friction due to air resistance
+
+===== Q4 (page 1) =====
+4 
+An 800 g mass is suspended from a light spring with a spring constant of 20 N / m. The mass is 
+pulled down a further 10.0 cm from the equilibrium position without the spring going past the limit 
+of proportionality. The mass is then released. 
+ 
+Which row about the resultant force on the mass and its acceleration immediately after its release 
+is correct? 
+ 
+ 
+resultant force 
+on the mass 
+acceleration 
+A 
+2.0 N upwards 
+2.5 m / s2 upwards 
+B 
+7.8 N upwards 
+9.8 m / s2 upwards 
+C 
+9.8 N downwards 
+9.8 m / s2 downwards 
+D 
+200 N upwards 
+0.25 m / s2 upwards
+
+===== Q5 (page 2) =====
+5 
+Four forces, P, Q, R and S, act on a wooden ruler as shown. 
+ 
+pivot
+Q
+R
+P
+S
+a
+a
+a
+ 
+ 
+The ruler is pivoted so that it is in equilibrium. Ignore the weight of the ruler. 
+ 
+Which row is correct? 
+ 
+ 
+forces 
+turning effects 
+A 
+P = Q + R + S 
+(Q  a) = (R  a) + (S  a) 
+B 
+P = Q + R + S 
+(Q  a) = (R  a) + (S  2a) 
+C 
+Q = R + S 
+(Q  a) = (R  a) + (S  a) 
+D 
+Q = R + S 
+(Q  a) = (R  a) + (S  2a)
+
+===== Q6 (page 2) =====
+6 
+A car has a mass of 500 kg and is moving at a speed of 10 m / s. 
+ 
+The driver applies the brakes and brings the car to rest in 5.0 s. 
+ 
+What is the average braking force? 
+A 
+250 N 
+B 
+1000 N 
+C 
+7500 N 
+D 
+25 000 N
+
+===== Q7 (page 2) =====
+7 
+An object of mass m moving with velocity v has kinetic energy E. 
+ 
+What is the kinetic energy of an object of mass 2m moving with velocity 0.50v ? 
+A 
+0.50E 
+B 
+E 
+C 
+2.0E 
+D 
+4.0E
+
+===== Q8 (page 3) =====
+8 
+A man pulls a truck a distance of 20 m, as shown in the three diagrams. 
+ 
+10 m
+1
+2
+10 m
+10 m
+10 m
+10 m
+10 m
+3
+ 
+ 
+Which statement about the work done against gravity is correct? 
+A 
+The most work is done in diagram 1. 
+B 
+No work is done in diagram 3. 
+C 
+The work done in diagram 3 is greater than in diagram 2. 
+D 
+The work done in diagrams 1 and 2 is equal.
+
+===== Q9 (page 3) =====
+9 
+A beaker contains a liquid. 
+ 
+The liquid exerts a pressure on the bottom of the beaker. 
+ 
+On which properties of the liquid does the pressure depend? 
+A 
+surface area and volume only 
+B 
+density and depth only 
+C 
+mass and depth only 
+D 
+mass and volume only
+
+===== Q10 (page 4) =====
+10 A gas is trapped inside a cylinder which is sealed by a freely moving piston. 
+ 
+The piston is slowly pushed in so that the volume of the gas is reduced, but the temperature does 
+not change. 
+ 
+What happens to the kinetic energy of the gas particles and the rate at which they collide with  
+the piston? 
+ 
+ 
+kinetic energy 
+of particles 
+rate at which they 
+collide with the piston 
+A 
+no change 
+no change 
+B 
+no change 
+increases 
+C 
+increases 
+no change 
+D 
+increases 
+increases
+
+===== Q11 (page 4) =====
+11 When a particle rebounds from a wall, a force is exerted on the wall. 
+ 
+What causes this force? 
+A 
+the kinetic energy gained by the particle 
+B 
+the kinetic energy lost by the particle 
+C 
+the change of momentum of the particle 
+D 
+the change of speed of the particle
+
+===== Q12 (page 4) =====
+12 The gas in a sealed container is compressed at constant temperature. 
+ 
+Which graph shows how the pressure of the gas changes with its volume? 
+ 
+0
+0
+pressure
+volume
+A
+0
+0
+pressure
+volume
+B
+0
+0
+pressure
+volume
+C
+0
+0
+pressure
+volume
+D
+
+===== Q13 (page 5) =====
+13 What happens when the temperature of a liquid increases? 
+A 
+The mass of the liquid increases, making the liquid less dense. 
+B 
+The mass of the liquid increases, making the liquid more dense. 
+C 
+The volume of the liquid increases, making the liquid less dense. 
+D 
+The volume of the liquid increases, making the liquid more dense.
+
+===== Q14 (page 5) =====
+14 Which statement describes convection in a liquid? 
+A 
+The particles expand and become less dense. 
+B 
+The hot liquid becomes less dense and rises. 
+C 
+The hot liquid becomes more dense and rises. 
+D 
+The particles get further apart and fall.
+
+===== Q15 (page 5) =====
+15 A student suggests three processes by which thermal energy is transferred through space from 
+the Sun to the Earth. 
+ 
+1 
+conduction 
+2 
+convection 
+3 
+radiation 
+ 
+Which processes are correct? 
+A 
+1, 2 and 3 
+B 
+1 and 3 only 
+C 
+1 only 
+D 
+3 only
+
+===== Q16 (page 6) =====
+16 A student uses two identical beakers and covers the outside surface of one with dull black paper 
+and the outside surface of the other with shiny foil. 
+ 
+The student puts the same volume of water at 80 °C into both beakers and measures their 
+temperatures for several minutes. 
+ 
+The cooling curve graphs for each experiment are shown. 
+ 
+80
+70
+60
+50
+40
+30
+20
+10
+0
+0
+2
+4
+6
+8
+time / minutes
+temperature / °C
+graph X
+graph Y
+ 
+ 
+Which graph is for the beaker covered in shiny foil and what is the reason for the different rates  
+of cooling? 
+ 
+ 
+graph for beaker 
+with shiny foil 
+reason 
+A 
+ 
+X 
+ 
+shiny surfaces are better 
+absorbers of infrared radiation 
+B 
+ 
+X 
+ 
+shiny surfaces are poorer 
+emitters of infrared radiation 
+C 
+ 
+Y 
+ 
+shiny surfaces are better 
+absorbers of infrared radiation 
+D 
+ 
+Y 
+ 
+shiny surfaces are poorer 
+emitters of infrared radiation
+
+===== Q17 (page 7) =====
+17 The diagram represents a wave on a rope. 
+ 
+Y
+X
+rope
+ 
+ 
+Which type of wave is shown and which labelled arrow shows the wavelength of the wave? 
+ 
+ 
+type of wave 
+wavelength 
+A 
+longitudinal 
+X 
+B 
+longitudinal 
+Y 
+C 
+transverse 
+X 
+D 
+transverse 
+Y
+
+===== Q18 (page 7) =====
+18 Which statements about ultrasound are correct? 
+ 
+1 
+They diffract less than audible sound waves. 
+2 
+They are used in the medical scanning of soft tissues. 
+3 
+They travel at a smaller speed in air than audible sound waves. 
+ 
+A 
+1 and 2 
+B 
+1 only 
+C 
+2 and 3 
+D 
+2 only
+
+===== Q19 (page 7) =====
+19 The diagram shows a ray of light entering a glass block. 
+ 
+44°
+26°
+air
+glass
+ 
+ 
+What is the refractive index of the glass? 
+A 
+1.25 
+B 
+1.29 
+C 
+1.58 
+D 
+1.64
+
+===== Q20 (page 8) =====
+20 An object O is near a converging lens. The diagram shows two rays of light from the object which 
+pass through the lens. The lens forms an image of the object. 
+ 
+O
+P
+Q
+ 
+ 
+Which row is correct? 
+ 
+ 
+the type of 
+image formed is 
+the principal focus 
+of the lens lies 
+A 
+real 
+at P 
+B 
+real 
+at Q 
+C 
+virtual 
+at P 
+D 
+virtual 
+at Q
+
+===== Q21 (page 8) =====
+21 The diagrams show rays of light passing through triangular glass prisms. 
+ 
+In which diagram is the incident ray monochromatic? 
+ 
+A
+red
+violet
+B
+red
+violet
+C
+violet
+blue
+D
+red
+
+===== Q22 (page 9) =====
+22 Some of the Sun’s radiation passes through a prism. 
+ 
+The diagram shows the spectrum of the radiation. 
+ 
+Which point on the screen does the infrared radiation reach? 
+ 
+radiation
+from the
+Sun
+prism
+screen
+A
+B
+C
+D
+visible
+not visible
+not visible
+red
+violet
+
+===== Q23 (page 9) =====
+23 Which region of the electromagnetic spectrum is used for direct broadcast satellite television? 
+A 
+gamma rays 
+B 
+infrared 
+C 
+microwaves 
+D 
+ultraviolet
+
+===== Q24 (page 10) =====
+24 The diagram shows compressions and rarefactions in air as a sound wave moves from left  
+to right. 
+ 
+rarefaction
+compression
+ 
+ 
+A quieter sound of the same frequency is made. 
+ 
+What happens to the number of particles in a region of rarefaction and in a region  
+of compression? 
+ 
+ 
+number of particles in 
+region of rarefaction 
+number of particles in 
+region of compression 
+A 
+decreases 
+decreases 
+B 
+decreases 
+increases 
+C 
+increases 
+decreases 
+D 
+increases 
+increases
+
+===== Q25 (page 10) =====
+25 Which diagram shows the pattern and direction of the magnetic field lines around a bar magnet? 
+ 
+N
+S
+A
+N
+S
+B
+N
+S
+C
+N
+S
+D
+
+===== Q26 (page 11) =====
+26 A balloon is charged by rubbing it with a cloth. 
+ 
+When a negatively charged plastic rod is held close to the charged balloon, the rod and  
+balloon attract. 
+ 
+Which statement is correct? 
+A 
+The balloon lost electrons to the cloth. 
+B 
+The balloon gained electrons from the cloth. 
+C 
+The balloon lost protons to the cloth. 
+D 
+The balloon gained protons from the cloth.
+
+===== Q27 (page 11) =====
+27 Which quantity is measured in kilowatt-hours? 
+A 
+energy transferred 
+B 
+energy transferred in one hour 
+C 
+power transferred 
+D 
+power transferred in one hour
+
+===== Q28 (page 11) =====
+28 A teacher makes four circuits with two identical lamps, J and K. 
+ 
+In which circuit will only lamp J light? 
+ 
+K
+J
+A
+K
+J
+B
+J
+C
+J
+D
+K
+K
+
+===== Q29 (page 11) =====
+29 Which combination has a resistance of 8.0 ? 
+ 
+6.0 
+2.0 
+A
+12 
+12 
+B
+24 
+12 
+C
+48 
+24 
+D
+
+===== Q30 (page 12) =====
+30 Multiple sockets can be connected to the mains electricity supply so that a lot of appliances can 
+use the same socket. 
+ 
+ 
+ 
+Why can this be a problem? 
+A 
+The current in each appliance may not be enough for it to work correctly. 
+B 
+The potential difference (p.d.) across each appliance may not be enough for it to  
+work correctly. 
+C 
+The total current may be large and cause overheating or a fire. 
+D 
+The total potential difference (p.d.) may be large and cause overheating or a fire.
+
+===== Q31 (page 12) =====
+31 A relay consists of a coil and it is a type of switch. It is turned on and off using an electromagnet. 
+ 
+Four statements explaining how the relay works are listed. 
+ 
+1 
+An electromagnetic field forms around the coil. 
+2 
+Contacts are pushed together, completing the circuit. 
+3 
+There is a current in the coil. 
+4 
+This attracts a soft-iron armature. 
+ 
+What is the correct order for the statements that explains how the relay works? 
+A 
+1  2  3  4 
+B 
+1  4  3  2 
+C 
+3  1  2  4 
+D 
+3  1  4  2
+
+===== Q32 (page 13) =====
+32 A beam of electrons passes between the poles of a magnet into the plane of the paper. 
+ 
+In which direction does the force on the electrons act? 
+ 
+N
+S
+beam of electrons
+into the paper
+A
+B
+C
+D
+
+===== Q33 (page 13) =====
+33 A 12 V, 36 W lamp shines at normal brightness when connected to a mains transformer. 
+ 
+Assume the transformer is 100% efficient. 
+ 
+ 
+ 
+240 V
+a.c. mains
+12 V
+36 W
+1200 turns
+iron core
+secondary coil 
+ 
+Which row shows the number of turns in the secondary coil and the current in the mains wires? 
+ 
+ 
+number of turns 
+in secondary coil 
+current in the 
+mains wire / A 
+A 
+60 
+0.15 
+B 
+60 
+3.0 
+C 
+180 
+0.15 
+D 
+180 
+3.0
+
+===== Q34 (page 14) =====
+34 In a nuclear fusion reaction, a hydrogen-2 nucleus joins with a hydrogen-3 nucleus to produce 
+nucleus X and particle Y. 
+ 
+H
+2
+1
+  +  H
+3
+1
+    X  +  Y 
+ 
+Which row identifies nucleus X and particle Y? 
+ 
+ 
+nucleus X 
+particle Y 
+A 
+He
+5
+1
+ 
+
+0
+1
+–
+ 
+B 
+He
+5
+2
+ 
+
+0
+1
+–
+ 
+C 
+He
+4
+2
+ 
+n
+1
+0 
+D 
+He
+5
+1
+ 
+n
+1
+0
+
+===== Q35 (page 14) =====
+35 The equipment used to measure ionising nuclear radiation includes a detector. 
+ 
+What is the detector connected to? 
+A 
+an ammeter 
+B 
+a counter 
+C 
+a force meter 
+D 
+a timer
+
+===== Q36 (page 14) =====
+36 -particles, -particles and -radiation are emitted from radioactive substances. 
+ 
+Which emissions are deflected in both magnetic and electric fields? 
+A 
+-particles, -particles and -radiation 
+B 
+-particles and -particles only 
+C 
+-particles and -radiation only 
+D 
+-particles and -radiation only
+
+===== Q37 (page 15) =====
+37 Oxygen-15 is used in hospitals. 
+ 
+The count rate from a detector placed close to a sample of oxygen-15 was recorded over a 
+period of 15 min. The background count rate is 20 counts / min. The graph shows the total count 
+rate from the detector. 
+ 
+200
+180
+160
+140
+120
+100
+80
+60
+40
+20
+0
+count rate
+counts / min
+time / min
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+ 
+ 
+What is the half-life of this sample of oxygen-15? 
+A 
+2.0 min 
+B 
+2.4 min 
+C 
+2.8 min 
+D 
+7.5 min
+
+===== Q38 (page 15) =====
+38 Safety precautions are needed when a person is using a radioactive source. 
+ 
+What is not a precaution for a person using a radioactive source? 
+A 
+Keep as far from the source as possible while using it. 
+B 
+Keep a transparent shield between the person and the source. 
+C 
+Keep the time for which the source is being used as short as possible. 
+D 
+Keep the source switched off when the radiation is not needed.
+
+===== Q39 (page 15) =====
+39 A satellite in a geostationary orbit has an average orbital speed of 3.1 km / s. 
+ 
+The radius of the Earth is 6.4  103
+ km. 
+ 
+What is the average height of the satellite above the Earth’s surface? 
+A 
+36 000 km 
+B 
+43 000 km 
+C 
+49 000 km 
+D 
+72 000 km
+
+===== Q40 (page 16) =====
+40 A stable star, such as the Sun, is powered by nuclear reactions. 
+ 
+Which type of nuclear reaction takes place and which element undergoes this reaction in  
+the Sun? 
+ 
+ 
+type of nuclear 
+reaction 
+element 
+A 
+fission 
+hydrogen 
+B 
+fission 
+uranium 
+C 
+fusion 
+hydrogen 
+D 
+fusion 
+uranium

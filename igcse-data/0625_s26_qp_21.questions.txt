@@ -1,0 +1,809 @@
+===== Q1 (page 1) =====
+1 
+A ball rolls down a slope. 
+ 
+Which equipment is used to measure the time this takes? 
+A 
+a thermometer 
+B 
+a diverging lens 
+C 
+a protractor 
+D 
+a stopwatch
+
+===== Q2 (page 1) =====
+2 
+An object moves in a straight line. 
+ 
+The energy in the kinetic store of the moving object is 90 J. 
+ 
+The momentum of the object is 60 kg m / s. 
+ 
+Which quantities are vector quantities and what is the mass of the object? 
+ 
+ 
+vector quantities 
+mass / kg 
+A 
+energy and mass 
+20 
+B 
+energy and mass 
+30 
+C 
+momentum 
+20 
+D 
+momentum 
+30
+
+===== Q3 (page 1) =====
+3 
+A car is travelling at a velocity of 2.0 m / s. 
+ 
+The car accelerates at a constant 0.20 m / s2 for a time of 2.5 minutes. 
+ 
+What is the final velocity of the car? 
+A 
+2.5 m / s 
+B 
+5.2 m / s 
+C 
+30 m / s 
+D 
+32 m / s
+
+===== Q4 (page 1) =====
+4 
+The gravitational field strength at the surface of the Earth varies slightly from place to place. 
+ 
+At the South Pole it is 9.86 N / kg and in London it is 9.81 N / kg. 
+ 
+An explorer collects a rock at the South Pole and moves it to London. 
+ 
+How does moving the rock from the South Pole to London affect the mass and the weight of  
+the rock? 
+ 
+ 
+effect on mass 
+effect on weight 
+A 
+none 
+decreases 
+B 
+none 
+none 
+C 
+decreases 
+decreases 
+D 
+decreases 
+none
+
+===== Q5 (page 2) =====
+5 
+The diagram shows a bird in flight. The bird is flying in a horizontal direction to the right. 
+ 
+In which direction does air resistance act on the bird? 
+ 
+A
+D
+C
+B
+
+===== Q6 (page 2) =====
+6 
+The diagram shows a uniform metre ruler of weight Q. 
+ 
+Two additional weights, P and R, act on the metre ruler. The ruler is balanced horizontally. 
+ 
+P
+Q
+R
+x
+y
+z
+pivot
+ 
+ 
+Which equation is correct? 
+A 
+Px = Qy + R(z + y) 
+B 
+Px = Qy + Rz 
+C 
+Px + Qy + Rz = 0 
+D 
+P = Q + R
+
+===== Q7 (page 2) =====
+7 
+A mass of 4.0 kg is travelling at a velocity of 6.0 m / s. 
+ 
+A force acts on the mass and its velocity increases to 20 m / s. 
+ 
+Which impulse produces this change? 
+A 
+3.5 N s 
+B 
+6.5 N s 
+C 
+56 N s 
+D 
+80 N s
+
+===== Q8 (page 3) =====
+8 
+Which pair of energy resources is derived from the process of nuclear fusion in the Sun? 
+A 
+fossil fuels and tidal 
+B 
+geothermal and nuclear fuel 
+C 
+nuclear fuel and tidal 
+D 
+fossil fuels and waves
+
+===== Q9 (page 3) =====
+9 
+An object is beneath the surface of a liquid. One factor that affects the pressure exerted on the 
+object is the gravitational field strength. 
+ 
+Which other factors affect the pressure due to the liquid? 
+A 
+the depth of the liquid and the density of the liquid only 
+B 
+the mass of the object and the density of the liquid only 
+C 
+the mass of the object and the depth of the liquid only 
+D 
+the mass of the object, the depth of the liquid and the density of the liquid
+
+===== Q10 (page 3) =====
+10 Which row describes the arrangement and the average separation of gas particles? 
+ 
+ 
+arrangement 
+of gas particles 
+average separation 
+of gas particles 
+A 
+in fixed positions 
+less than in solids 
+B 
+in fixed positions 
+greater than in solids 
+C 
+in variable positions 
+less than in solids 
+D 
+in variable positions 
+greater than in solids
+
+===== Q11 (page 4) =====
+11 The same mass of a gas is trapped in four identical cylinders by a piston that can move. 
+ 
+The diagrams show the samples of gas in different conditions of volume and temperature. 
+ 
+piston
+1
+20 °C
+2
+40 °C
+3
+40 °C
+4
+50 °C
+ 
+ 
+Which list gives the pressure of the gas in order from lowest to highest? 
+A 
+1  2  3  4 
+B 
+1  3  2  4 
+C 
+4  2  3  1 
+D 
+4  3  2  1
+
+===== Q12 (page 4) =====
+12 A fixed mass of gas has a volume V1 at pressure p1. 
+ 
+Which expression gives the final pressure p2 of the gas when it is compressed to a new volume 
+V2 at a constant temperature? 
+A 
+1
+2
+1
+V
+V
+p
+ 
+B 
+2
+1
+1
+V
+V
+p
+ 
+C 
+1
+2
+1
+p
+V
+V
+ 
+D 
+2
+1
+1
+V
+V
+p
+
+===== Q13 (page 4) =====
+13 The temperature of a copper block increases. 
+ 
+Which energy store in the block must increase? 
+A 
+internal 
+B 
+elastic 
+C 
+gravitational potential 
+D 
+chemical
+
+===== Q14 (page 5) =====
+14 On a cold day, a shiny metal rod feels colder to the touch than a black plastic rod. 
+ 
+Which statement explains this observation? 
+A 
+The metal rod is a better absorber of infrared radiation than the plastic rod. 
+B 
+The metal rod is a better thermal conductor than the plastic rod. 
+C 
+The metal rod is a worse absorber of infrared radiation than the plastic rod. 
+D 
+The metal rod is a worse thermal conductor than the plastic rod.
+
+===== Q15 (page 5) =====
+15 The diagram shows a coal fire heating a room. 
+ 
+The arrows X, Y and Z represent three methods of thermal energy transfer. 
+ 
+chimney
+window
+solid floor
+X
+Y
+Z
+ 
+ 
+Which row matches a description of a method of thermal energy transfer to the arrow in the 
+diagram representing this transfer? 
+ 
+ 
+results from 
+changes in density 
+relies upon molecular 
+lattice vibrations 
+A 
+X 
+Z 
+B 
+X 
+Y 
+C 
+Y 
+X 
+D 
+Z 
+X
+
+===== Q16 (page 5) =====
+16 Which thermal process can transfer energy through a vacuum? 
+A 
+conduction 
+B 
+convection 
+C 
+evaporation 
+D 
+radiation
+
+===== Q17 (page 6) =====
+17 Two students stand facing each other at position P and at position Q. The students hold the ends 
+of a piece of rope. 
+ 
+P
+Q
+ 
+ 
+The student at P moves one end of the rope up and down to send a wave along the rope towards 
+the student at Q. 
+ 
+Which row shows what is transferred from P to Q by the wave and what is not transferred from  
+P to Q by the wave? 
+ 
+ 
+what is transferred 
+from P to Q 
+what is not transferred 
+from P to Q 
+A 
+ 
+energy and particles 
+in the rope 
+wave peaks and troughs 
+ 
+B 
+energy 
+particles in the rope 
+C 
+ 
+particles in the rope 
+ 
+energy and wave 
+peaks and troughs 
+D 
+ 
+particles in the rope and 
+wave peaks and troughs 
+energy
+
+===== Q18 (page 6) =====
+18 When a person speaks, sound waves leave through the person’s mouth and spread out in  
+many directions. 
+ 
+Which row states the physical process that causes the sound waves to spread out and the 
+reason why this happens as the sound waves leave an open mouth? 
+ 
+ 
+process 
+reason 
+A 
+ 
+diffraction 
+ 
+sound wavelengths are small 
+compared to the size of the mouth 
+B 
+ 
+diffraction 
+ 
+sound wavelengths are large 
+compared to the size of the mouth 
+C 
+ 
+refraction 
+ 
+sound wavelengths are small 
+compared to the size of the mouth 
+D 
+ 
+refraction 
+ 
+sound wavelengths are large 
+compared to the size of the mouth
+
+===== Q19 (page 7) =====
+19 A ray of light travels in air. 
+ 
+The ray strikes a glass block. The angle between the ray and the block is 60°. 
+ 
+The speed of light in air is 3.0  108
+ m / s. 
+ 
+The speed of light in glass is 2.0  108
+ m / s. 
+ 
+What is the angle of refraction in the glass block? 
+A 
+19° 
+B 
+35° 
+C 
+40° 
+D 
+75°
+
+===== Q20 (page 7) =====
+20 The diagram shows two rays of light from the same point on an object passing through a thin 
+converging lens. 
+ 
+ 
+ 
+Which statement describes the image of the object? 
+A 
+It is real and inverted on the left side of the lens. 
+B 
+It is real and upright on the right side of the lens. 
+C 
+It is virtual and inverted on the right side of the lens. 
+D 
+It is virtual and upright on the left side of the lens.
+
+===== Q21 (page 7) =====
+21 Three statements about red light are listed. 
+ 
+1 
+Red light is one of the traditional seven colours that make up the visible spectrum. 
+2 
+Red light has the highest frequency in the visible spectrum. 
+3 
+Red light has the longest wavelength in the visible spectrum. 
+ 
+Which statements are correct? 
+A 
+1, 2 and 3 
+B 
+1 and 2 only 
+C 
+1 and 3 only 
+D 
+2 and 3 only
+
+===== Q22 (page 8) =====
+22 Two rays of light are different colours. 
+ 
+Which row is correct? 
+ 
+ 
+speeds of the two 
+colours in a vacuum 
+wavelengths of the two 
+colours in a vacuum 
+A 
+different 
+different 
+B 
+different 
+the same 
+C 
+the same 
+different 
+D 
+the same 
+the same
+
+===== Q23 (page 8) =====
+23 A person is speaking. The sound the person makes can be transmitted as a signal rather than as 
+a longitudinal wave. 
+ 
+Which statement about the transmission of the sound as a signal is correct? 
+A 
+The sound is originally analogue but can be transmitted as a digital signal. 
+B 
+The sound is originally digital but can be transmitted as an analogue signal. 
+C 
+The sound is originally analogue and can only be transmitted as an analogue signal. 
+D 
+The sound is originally digital and can only be transmitted as a digital signal.
+
+===== Q24 (page 8) =====
+24 Which value is closest to the speed of sound in air? 
+A 
+30 m / s 
+B 
+300 m / s 
+C 
+300 000 m / s 
+D 
+300 000 000 m / s
+
+===== Q25 (page 8) =====
+25 What is meant by induced magnetism? 
+A 
+the force of attraction between the N pole of one magnet and the S pole of a different magnet 
+B 
+the force of repulsion between the N poles of two magnets 
+C 
+when a material placed in a magnetic field becomes a permanent magnet 
+D 
+when a material placed in a magnetic field becomes a temporary magnet
+
+===== Q26 (page 9) =====
+26 A magnetic field does not exert a force on a stationary electric charge. 
+ 
+A magnetic field exerts a force on a moving electric charge. 
+ 
+Which statement explains this? 
+A 
+A moving charge has an electric field. 
+B 
+A moving charge has a gravitational field. 
+C 
+A moving charge has a magnetic field. 
+D 
+A moving charge has kinetic energy.
+
+===== Q27 (page 9) =====
+27 A smoke detector is connected to a 9.0 V cell. The cell transfers energy at a rate of 1.0  10–
+ 4
+ W. 
+ 
+How much charge passes through the smoke detector in one day? 
+A 
+0.040 C 
+B 
+0.96 C 
+C 
+78 C 
+D 
+7.8  109
+ C
+
+===== Q28 (page 9) =====
+28 A student connects a resistor of resistance R in parallel with a cell of electromotive force  
+(e.m.f.) V. 
+ 
+Which calculation gives the current I in the resistor? 
+A 
+V
+R 
+B 
+R  V 
+C 
+R
+V 
+D 
+V + R
+
+===== Q29 (page 9) =====
+29 A light-emitting diode (LED) is connected to a battery and glows. 
+ 
+The LED is then connected to the battery the other way round. 
+ 
+Which statement is correct? 
+A 
+The LED will not glow. 
+B 
+The LED will still glow but less brightly. 
+C 
+The LED will glow more brightly. 
+D 
+The current in the LED will be too large.
+
+===== Q30 (page 10) =====
+30 The diagram shows a battery connected to four resistors. 
+ 
+The resistances of the resistors are as labelled. 
+ 
+At which point in the circuit is the current the lowest? 
+ 
+3 
+6 
+8 
+12 
+A
+B
+C
+D
+
+===== Q31 (page 10) =====
+31 The circuit shown can be completed by inserting components at X and at Y. 
+ 
+The completed circuit is a potential divider in which the potential difference (p.d.) across 
+component Y increases when the temperature increases. 
+ 
+V
+X
+Y
+ 
+ 
+Which row shows the components X and Y? 
+ 
+ 
+X 
+Y 
+A 
+light-dependent resistor 
+resistor 
+B 
+resistor 
+light-dependent resistor 
+C 
+resistor 
+thermistor 
+D 
+thermistor 
+resistor
+
+===== Q32 (page 11) =====
+32 A student investigates the magnetic field caused by a current of 2 A in a straight wire. 
+ 
+The student measures the magnetic field strength at different distances from the straight wire. 
+ 
+The student then repeats the experiment using a current of 4 A in the same wire. 
+ 
+Which graph represents the pattern in the student’s data? 
+ 
+0
+A
+0
+magnetic
+field strength
+distance
+from wire
+0
+B
+0
+magnetic
+field strength
+distance
+from wire
+0
+C
+0
+magnetic
+field strength
+distance
+from wire
+0
+D
+0
+magnetic
+field strength
+distance
+from wire
+key
+I = 2 A
+I = 4 A
+
+===== Q33 (page 11) =====
+33 Which feature is not part of a d.c. motor? 
+A 
+a coil of wire 
+B 
+a pair of slip rings 
+C 
+a magnetic field 
+D 
+a split-ring commutator
+
+===== Q34 (page 12) =====
+34 When a beam of positively charged alpha particles is directed towards a thin sheet of gold in a 
+vacuum, the following observations are made. 
+ 
+1 
+Most of the alpha particles pass straight through the sheet of gold. 
+2 
+A small number of alpha particles are deflected through angles greater than 4°. 
+ 
+Which row links each observation to its appropriate conclusion? 
+ 
+ 
+observation 1 
+observation 2 
+A 
+ 
+The atom consists mainly 
+of empty space. 
+The negative charge is concentrated 
+at the centre of the atom. 
+B 
+ 
+The atom consists mainly 
+of empty space. 
+The positive charge is concentrated 
+at the centre of the atom. 
+C 
+ 
+The negative charge is concentrated 
+at the centre of the atom. 
+The atom consists mainly 
+of empty space. 
+D 
+ 
+The positive charge is concentrated 
+at the centre of the atom. 
+The atom consists mainly 
+of empty space.
+
+===== Q35 (page 12) =====
+35 In which process does a large nucleus split into two smaller nuclei, each about half the size of the 
+original nucleus? 
+A 
+alpha-particle scattering 
+B 
+nuclear fission 
+C 
+nuclear fusion 
+D 
+radioactive decay
+
+===== Q36 (page 12) =====
+36 The diagram shows a beam of beta particles entering a magnetic field. The direction of the 
+magnetic field is into the page. 
+ 
+beta particles
+magnetic field
+into the page
+ 
+ 
+In which direction is the beam of beta particles deflected? 
+A 
+downwards towards the bottom of the page 
+B 
+into the page 
+C 
+out of the page 
+D 
+upwards towards the top of the page
+
+===== Q37 (page 13) =====
+37 The equation shows the decay of radon to form polonium. 
+ 
+Rn
+222
+86
+    
+Po
+218
+84
+  +  X 
+ 
+What is X? 
+A 
+an -particle 
+B 
+a -particle 
+C 
+a neutron 
+D 
+a proton
+
+===== Q38 (page 13) =====
+38 A student is doing an experiment with radioactive materials. 
+ 
+Which piece of advice is not useful? 
+A 
+Do not spend too long doing the experiment. 
+B 
+Keep any material not being used at a distance. 
+C 
+Take frequent sips of water. 
+D 
+Wear gloves.
+
+===== Q39 (page 13) =====
+39 The planet Mercury orbits the Sun at an average distance of 5.8  1010
+ m from the Sun. Mercury 
+takes 88 days to orbit the Sun. 
+ 
+What is Mercury’s average orbital speed? 
+A 
+2.1  10–5
+ m / s 
+B 
+7600 m / s 
+C 
+48 000 m / s 
+D 
+2.8  1018
+ m / s
+
+===== Q40 (page 13) =====
+40 In approximately five billion years, our Sun will run out of hydrogen fuel in its core. 
+ 
+Which row shows two later stages in its life cycle? 
+ 
+ 
+next stage 
+final stage 
+A 
+supernova 
+white dwarf 
+B 
+supernova 
+neutron star 
+C 
+red giant 
+white dwarf 
+D 
+red giant 
+neutron star

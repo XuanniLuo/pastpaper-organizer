@@ -1,0 +1,589 @@
+===== Q1 =====
+2
+0625/41/O/N/22
+© UCLES 2022
+1 
+Two blocks, A and B, are joined by a thin thread that passes over a frictionless pulley. Block A is at 
+rest on a rough horizontal surface and block B is held at rest, just below the pulley. 
+ 
+Fig. 1.1 shows the thread hanging loose.
+block A
+rough horizontal surface
+pulley
+thread
+block B
+Fig. 1.1 (not to scale)
+ 
+Block B is released and it falls vertically. The thread remains loose until block B has fallen a 
+distance of 0.45 m.
+ 
+The mass of block B is 0.50 kg. 
+ 
+(a) Calculate the change in the gravitational potential energy (g.p.e.) of block B as it falls through 
+0.45 m. 
+ 
+change in g.p.e.  ......................................................... [2] 
+ 
+(b) The mass of block A is 2.0 kg. 
+ 
+ 
+When the thread tightens, it pulls on block A which moves to the right at a speed of 0.60 m / s. 
+ 
+ 
+(i) Calculate the impulse exerted on block A as it accelerates from rest to 0.60 m / s.
+ 
+impulse =  ......................................................... [3]
+
+3
+0625/41/O/N/22
+© UCLES 2022
+[Turn over
+ 
+ 
+(ii) Both of the blocks now move at a constant speed of 0.60 m / s until block B hits the 
+ground and the thread becomes loose. 
+ 
+ 
+ Explain the energy change that takes place in block A after block B stops moving.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [3] 
+ 
+[Total: 8] 
+
+
+===== Q2 =====
+4
+0625/41/O/N/22
+© UCLES 2022
+2 
+A force is a vector quantity. 
+ 
+(a) (i) State two features of a vector quantity. 
+1.  ....................................................................................................................................... 
+2.  ....................................................................................................................................... 
+ 
+[2] 
+ 
+ 
+(ii) State the names of two other quantities that are vectors. 
+1.  ....................................................................................................................................... 
+2.  ....................................................................................................................................... 
+ 
+[2] 
+ 
+(b) A student suspends a spring from a clamp stand and measures the length l0 of the spring. 
+ 
+ 
+Fig. 2.1 shows the apparatus.
+l0
+Fig. 2.1 (not to scale)
+ 
+ 
+The student then suspends loads of different weights from the spring and measures the 
+length of the spring for each load. He then plots a graph of the length of the spring against 
+weight.
+ 
+ 
+Fig. 2.2 is the graph that the student plots. 
+
+5
+0625/41/O/N/22
+© UCLES 2022
+[Turn over
+0.80
+0.60
+0.40
+0.20
+0
+0
+2.0
+4.0
+6.0
+8.0
+10.0
+12.0
+length / m
+weight / N
+Fig. 2.2
+ 
+ 
+(i) Using Fig. 2.2, determine the initial length l0 of the spring. 
+ 
+l0 =  ......................................................... [1]
+ 
+ 
+(ii) State what is meant by the limit of proportionality and, using Fig. 2.2, determine the 
+weight of the load that causes this spring just to reach the limit of proportionality.
+limit of proportionality  ........................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+weight =  .............................................................................................................................
+ 
+[2] 
+ 
+ 
+(iii) Using Fig. 2.2, determine the spring constant of this spring. 
+ 
+spring constant =  ......................................................... [3]
+ 
+[Total: 10]
+
+
+===== Q3 =====
+6
+0625/41/O/N/22
+© UCLES 2022
+3 
+A rock climber, of total mass 62 kg, holds herself in horizontal equilibrium against a vertical cliff. 
+She pulls on a rope that is fixed at the top of the cliff and presses her feet against the cliff. 
+ 
+Fig. 3.1 shows her position.
+0.90 m
+1.2 m
+60°
+centre of mass
+rope
+cliff
+rock climber
+Fig. 3.1 (not to scale)
+ 
+(a) Calculate the total weight of the climber. 
+ 
+weight =  ......................................................... [1]
+ 
+(b) State the two conditions needed for equilibrium. 
+1.  ............................................................................................................................................... 
+2.  ............................................................................................................................................... 
+ 
+[2]
+ 
+(c) The climber’s centre of mass is 0.90 m from the cliff. 
+ 
+ 
+(i) Calculate the moment about her feet due to her weight. 
+ 
+moment =  ......................................................... [2]
+
+7
+0625/41/O/N/22
+© UCLES 2022
+[Turn over
+ 
+ 
+(ii) The line of the rope meets the horizontal line through her centre of mass at a distance of 
+1.2 m from the cliff, as shown in Fig. 3.1. The rope is at an angle of 60° to the horizontal. 
+ 
+ 
+ Determine the tension in the rope.
+ 
+tension =  ......................................................... [3]
+ 
+[Total: 8]
+
+
+===== Q4 =====
+8
+0625/41/O/N/22
+© UCLES 2022
+4 
+A quantity of gas is trapped by a piston in a cylinder with thin metal walls. The piston is free to 
+move without friction within the cylinder.
+ 
+Fig. 4.1 shows the cylinder and piston.
+piston
+gas
+cylinder
+Fig. 4.1
+ 
+The cylinder is placed inside a freezer. 
+ 
+(a) The air in the freezer is at atmospheric pressure, which is 1.0 × 105 Pa. The area of the piston 
+in contact with the air in the freezer is 2.4 × 10–3 m2.
+ 
+ 
+(i) Calculate the force exerted on the piston by the air in the freezer. 
+ 
+force =  ......................................................... [2]
+ 
+ 
+(ii) When the cylinder is first placed into the freezer, the temperature of the gas in the 
+cylinder decreases and the air pushes the piston into the cylinder.
+ 
+ 
+ Calculate the work done on the piston by the air in the freezer as the air pushes the 
+piston a distance of 0.021 m into the cylinder.
+ 
+work done =  ......................................................... [2] 
+ 
+(b) The initial temperature of the cylinder and the gas is 21 °C and, in the freezer, the temperature 
+of the cylinder decreases to –18 °C. 
+ 
+ 
+The thermal capacity of the cylinder is 89 J / °C.
+ 
+ 
+Calculate the change in the internal energy of the cylinder.
+ 
+change in internal energy =  ......................................................... [2] 
+
+9
+0625/41/O/N/22
+© UCLES 2022
+[Turn over
+ 
+(c) When the temperature reaches –18 °C, the pressure of the gas in the cylinder is still equal to 
+that of the atmosphere. 
+ 
+ 
+Explain, in terms of the particles of the gas, how the pressure remains equal to its original 
+value.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3] 
+ 
+(d) As the temperature of the metal cylinder decreases, the volume of the metal decreases. The 
+decrease in the volume of the metal is much less than the decrease in the volume of the gas. 
+ 
+ 
+Explain, in terms of the particles of the metal, why the decrease in the volume of the metal is 
+less than that of the gas.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2] 
+ 
+[Total: 11] 
+
+
+===== Q5 =====
+10
+0625/41/O/N/22
+© UCLES 2022
+5 
+Fig. 5.1 shows a heater in a bathroom. 
+heater
+Fig. 5.1
+ 
+The heater is at a very high temperature and it glows red. The manufacturer states: 
+“The heater emits light and radiation and it transfers thermal energy by radiation.”
+ 
+(a) State the part of the electromagnetic spectrum that transfers thermal energy. 
+ ............................................................................................................................................. [1] 
+ 
+(b) State: 
+ 
+ 
+(i) one way in which visible light and the radiation identified in (a) are similar 
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1] 
+ 
+ 
+(ii) one way in which visible light differs from the radiation identified in (a). 
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1] 
+
+11
+0625/41/O/N/22
+© UCLES 2022
+[Turn over
+ 
+(c) Some surfaces are better at emitting radiation than others. 
+ 
+ 
+(i) Describe an experiment to show whether a black surface or a white surface is the better 
+emitter of radiation. You may draw a diagram.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [3] 
+ 
+ 
+(ii) To ensure that the conclusion reached in the experiment in (c)(i) is correct, several 
+details of the experiment must be identical when testing the two different surfaces. 
+ 
+ 
+ State two quantities in the experiment that you described that must be identical during 
+the test.
+1.  .......................................................................................................................................
+ ...........................................................................................................................................
+2.  .......................................................................................................................................
+ 
+ ...........................................................................................................................................
+ 
+[2]
+ 
+[Total: 8] 
+
+
+===== Q6 =====
+12
+0625/41/O/N/22
+© UCLES 2022
+6 
+The red light produced by a laser is monochromatic. 
+ 
+(a) State what is meant by monochromatic. 
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+(b) The red light from the laser hits the curved surface of a semicircular transparent plastic block 
+at point P and passes into the plastic. 
+ 
+ 
+The red light travels through the plastic and hits the straight edge of the block at its midpoint M. 
+Fig. 6.1 shows that some of the light is reflected and that some light travels in the air along 
+the straight edge of the plastic block. 
+red light
+reflected light
+M
+P
+laser
+37°
+plastic block
+Fig. 6.1
+ 
+ 
+The speed of light in air is 3.0 × 108 m / s.
+ 
+ 
+(i) Explain why the red light does not change direction as it enters the plastic block. 
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+ 
+(ii) At M, the angle between the red light in the plastic and the normal is 37°.
+ 
+ 
+ Calculate the speed of the red light in the plastic.
+ 
+speed =  ......................................................... [4]
+
+13
+0625/41/O/N/22
+© UCLES 2022
+[Turn over
+ 
+ 
+(iii) In the plastic, blue light travels slightly slower than red light and so the critical angle for 
+blue light is smaller than the critical angle for red light. 
+ 
+ 
+ The laser that emits red light is replaced by one that emits blue light. Now blue light 
+enters the block at P and hits the straight edge at M. 
+ 
+ 
+ Explain what happens to the blue light after it hits the straight edge at M.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [3] 
+ 
+[Total: 10]
+
+
+===== Q7 =====
+14
+0625/41/O/N/22
+© UCLES 2022
+7 
+The electric starter motor in a car is switched on and off using a relay. 
+ 
+The relay consists of a plastic case and two flexible springy strips, X and Y, which are made of 
+soft iron. These iron strips act as the switch when a circuit is connected between the terminals W 
+and Z. 
+ 
+Fig. 7.1 shows X, Y and the plastic case. 
+plastic case
+X
+W
+springy iron
+strips
+magnetising coil
+12 V car
+battery
+W
+Z
+Z
+S
+X
+Y
+Y
+ 
+Fig. 7.1 
+Fig. 7.2
+ 
+Fig. 7.2 shows the equipment from Fig. 7.1 inside a magnetising coil. The magnetising coil is in 
+series with the 12 V car battery and switch S, which is open. 
+ 
+(a) Switch S is now closed. 
+ 
+ 
+Explain what happens to the springy iron strips X and Y.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3] 
+ 
+(b) The power of the starter motor is 1.8 kW and it is also operated by the car battery. 
+ 
+ 
+(i) Calculate the current in the starter motor when it is used. 
+ 
+current =  ......................................................... [2]
+
+15
+0625/41/O/N/22
+© UCLES 2022
+[Turn over
+ 
+ 
+(ii) The starter motor circuit is connected between terminals W and Z.
+ 
+ 
+ Explain why copper wires with a large cross-sectional area are used for this circuit.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+(c) Fig. 7.3 shows the relay and the symbols for the car battery and the starter motor.
+12 V car
+battery
+W
+Z
+S
+X
+Y
+M
+starter motor
+Fig. 7.3
+ 
+ 
+The springy iron strips X and Y act as the switch for the starter motor circuit. 
+ 
+ 
+Complete the circuit diagram for the motor circuit. 
+[2] 
+ 
+[Total: 9]
+
+
+===== Q8 =====
+17
+0625/41/O/N/22
+© UCLES 2022
+[Turn over
+8 
+The unit of the two electrical quantities electromotive force (e.m.f.) and potential difference (p.d.) 
+is the volt (V). 
+ 
+(a) State one other similarity between e.m.f. and p.d. 
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1] 
+ 
+(b) State one difference between e.m.f. and p.d. 
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1] 
+ 
+(c) A battery consists of four cells, each of e.m.f. 1.2 V, in series. 
+ 
+ 
+(i) Calculate the e.m.f. of the battery. 
+ 
+e.m.f. =  ......................................................... [1]
+ 
+ 
+(ii) The battery is connected in a circuit with four 12 Ω resistors. Fig. 8.1 is the circuit diagram. 
+V
+Fig. 8.1
+ 
+ 
+ Calculate the total resistance of this arrangement of resistors. 
+ 
+resistance =  ......................................................... [3] 
+ 
+ 
+(iii) Calculate the reading on the voltmeter in Fig. 8.1. 
+ 
+reading =  ......................................................... [2] 
+ 
+[Total: 8]
+
+
+===== Q9 =====
+18
+0625/41/O/N/22
+© UCLES 2022
+9 
+Only one isotope of gold occurs naturally on Earth. 
+ 
+(a) State what this indicates about the nuclear structure of all the naturally occurring atoms of 
+gold on Earth. 
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1] 
+ 
+(b) There are several artificially produced isotopes of gold. 
+ 
+ 
+Gold-198 (198
+79 Au) is an artificial isotope which is used in medicine and in scientific research. 
+ 
+ 
+Gold-198 decays by β (beta)-emission to a stable isotope of mercury. 
+ 
+ 
+(i) Determine the number of protons and the number of neutrons in a nucleus of this isotope 
+of mercury. 
+ 
+number of protons =  ...............................................................
+ 
+number of neutrons =  ...............................................................
+ 
+[2] 
+
+19
+0625/41/O/N/22
+© UCLES 2022
+ 
+ 
+(ii) A sample of gold-198 is placed near to a radiation detector in a research laboratory. The 
+count rate is recorded at the same time every day for 32 days. 
+ 
+ 
+ The results are used to plot the graph shown in Fig. 9.1.
+0
+0
+4
+8
+12
+16
+20
+24
+28
+32
+100
+200
+300
+400
+count rate
+counts / min
+time / days
+Fig. 9.1
+ 
+ 
+ Using Fig. 9.1, determine the background count rate in the research laboratory. 
+ 
+count rate =  ......................................................... [1]
+ 
+ 
+(iii) Using Fig. 9.1, determine the half-life of gold-198.
+ 
+half-life =  ......................................................... [4] 
+ 
+[Total: 8]
+

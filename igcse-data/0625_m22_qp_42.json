@@ -1,0 +1,434 @@
+{
+  "paper": "0625/42/F/M/22",
+  "paper_full": "March 2022 · Paper 42",
+  "questions": [
+    {
+      "qnum": 1,
+      "topic": "1",
+      "title": "Motion — speed–time graph, acceleration and resultant force",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_m22_qp_42_Q01.pdf",
+      "parts": [
+        {
+          "label": "1(a)",
+          "marks": 1,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "2.2 s"
+        },
+        {
+          "label": "1(b)",
+          "marks": 2,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "Any two from: • Line on graph is horizontal / gradient is zero • (therefore) no acceleration / speed is constant • (resultant) force causes / is proportional to acceleration"
+        },
+        {
+          "label": "1(c)",
+          "marks": 3,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "8.5 ms-2 (a =) Δv / t in any form OR gradient of graph OR 12.8 / 1.5 OR other suitable values from graph (1.5, 12.8) both seen OR alternative suitable points on the line identified"
+        },
+        {
+          "label": "1(d)",
+          "marks": 2,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "0.5 × 12.8 × 1.5 (= 9.56 / 9.6 m) OR 6.4 × 1.5 (= 9.6) (length of ramp) = area under graph (between 0–1.5 s) OR average velocity × time"
+        }
+      ],
+      "code": "1.2"
+    },
+    {
+      "qnum": 2,
+      "topic": "1",
+      "title": "Spring — Hooke's law, limit of proportionality and gravitational potential energy",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_m22_qp_42_Q02.pdf",
+      "parts": [
+        {
+          "label": "2(a)(i)",
+          "marks": 1,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "extension (of the spring) is (directly) proportional to the force / load (applied to the spring, up to the limit of proportionality)"
+        },
+        {
+          "label": "2(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "W=mg in any form OR force is (directly) proportional to mass"
+        },
+        {
+          "label": "2(a)(iii)",
+          "marks": 1,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "80 N"
+        },
+        {
+          "label": "2(b)",
+          "marks": 2,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "straight line through / from origin with positive gradient up to 175 N smooth curve after 175 N with increasing positive gradient"
+        },
+        {
+          "label": "2(c)",
+          "marks": 2,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "(80 N × 3.5 m =) 280 J ΔE = Fxd in any form OR GPE= mgh in any form 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2022 © UCLES 2022 Page 11 of 17"
+        }
+      ],
+      "code": "1.5"
+    },
+    {
+      "qnum": 3,
+      "topic": "2",
+      "title": "Evaporation — cooling by sweating and rate of evaporation",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_m22_qp_42_Q03.pdf",
+      "parts": [
+        {
+          "label": "3(a)",
+          "marks": 2,
+          "codes": [
+            "2.1"
+          ],
+          "answer": "Any two from: • (Amount of water in the pool decreases) as water evaporates / becomes water vapour / gas • The (more) energetic molecules escape OR fast(er) molecules escape OR molecules with more (kinetic) energy escape • From the surface of the water"
+        },
+        {
+          "label": "3(b)",
+          "marks": 2,
+          "codes": [
+            "2.1"
+          ],
+          "answer": "lower temperatures / cold(er) day OR less windy weather produces smaller pool more slowly because rate of evaporation decreases with decreasing temperature OR produces smaller pool more slowly as a draught over surface removes water vapour enabling faster rate of evaporation"
+        },
+        {
+          "label": "3(c)",
+          "marks": 3,
+          "codes": [
+            "2.1"
+          ],
+          "answer": "Any three from: • (thermal) energy in the skin / body transferred to (molecules of) sweat • These molecules (have enough KE to) escape from the skin / become water vapour • Leaving behind molecules with lower energy • Which leaves the skin / body at a lower temperature"
+        }
+      ],
+      "code": "2.1"
+    },
+    {
+      "qnum": 4,
+      "topic": "2",
+      "title": "Thermal capacity — density, specific heat capacity and heating time",
+      "marks": 11,
+      "pdf": "igcse-slices/0625_m22_qp_42_Q04.pdf",
+      "parts": [
+        {
+          "label": "4(a)(i)",
+          "marks": 2,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "(mass = 1900 × 0.05) = 95 kg (m =) ρV in any form OR 1900 × 0.05"
+        },
+        {
+          "label": "4(a)(ii)",
+          "marks": 2,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "(= 95 × 1500) = 140 000 J / °C / 1.4 × 105 J / °C (C =) m × c 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2022 © UCLES 2022 Page 12 of 17"
+        },
+        {
+          "label": "4(a)(iii)",
+          "marks": 3,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "34 000 s / 560 min / 9 h 20 min Temperature rise = 12(°C) / 19–7 OR E = C × Δ θ in any form (t =) E / P in any form OR (thermal capacity × 12) / 50"
+        },
+        {
+          "label": "4(b)(i)",
+          "marks": 2,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "sand molecules gain KE OR vibrate more OR hit (other) molecules (when heated) OR (thermal energy is transferred by) conduction Energy is transferred to molecules of plastic pot in contact with sand (through collisions) OR Energy OR (lattice) vibrations transferred to neighbouring molecules"
+        },
+        {
+          "label": "4(b)(ii)",
+          "marks": 2,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "(sand is warmer than surroundings and so thermal) energy (constantly) is lost from the sand (at a constant temperature) rate of (thermal) energy supplied to the sand is equal to rate of (thermal) energy lost from sand"
+        }
+      ],
+      "code": "2.2"
+    },
+    {
+      "qnum": 5,
+      "topic": "3",
+      "title": "Plane mirror — reflection, image and monochromatic light",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_m22_qp_42_Q05.pdf",
+      "parts": [
+        {
+          "label": "5(a)(i)",
+          "marks": 2,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "straight line from clock to mirror AND from mirror to eye with correct arrows Angle of incidence = angle of reflection"
+        },
+        {
+          "label": "5(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "Correct position of image"
+        },
+        {
+          "label": "5(a)(iii)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "Virtual (no mark) And Cannot be projected on a screen / light doesn’t pass through image / AW 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2022 © UCLES 2022 Page 13 of 17"
+        },
+        {
+          "label": "5(a)(iv)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": ""
+        },
+        {
+          "label": "5(b)(i)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "(monochromatic light) is light of a single frequency"
+        },
+        {
+          "label": "5(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "5.4 × 1014 Hz (speed of light =) 3 × 108 (m / s) (f = ) v / λ in any form OR 3.0 × 108 / 5.6 × 10–7"
+        }
+      ],
+      "code": "3.2"
+    },
+    {
+      "qnum": 6,
+      "topic": "4",
+      "title": "Generator — magnetic field and alternating current",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_m22_qp_42_Q06.pdf",
+      "parts": [
+        {
+          "label": "6(a)",
+          "marks": 2,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "Minimum of one arrow on a field line pointing N → S and not contradicted central line perpendicular to poles of magnets AND at least two other correct field lines"
+        },
+        {
+          "label": "6(b)(i)",
+          "marks": 1,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "(A are) slip rings 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2022 © UCLES 2022 Page 14 of 17"
+        },
+        {
+          "label": "6(b)(ii)",
+          "marks": 2,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "Minimum of one arrow, pointing clockwise, on the wire, not contradicted Field direction, motion of wire and induced current are mutually perpendicular OWTTE"
+        },
+        {
+          "label": "6(b)(iii)",
+          "marks": 4,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "(as coil rotates) it cuts (magnetic) field between the magnets This induces an e.m.f. / voltage / p.d. (in the coil) This produces a current in the (coil transferred to the) galvanometer (via the slip rings and carbon brushes) Direction of current flow changes with each 180 degree rotation of coil"
+        }
+      ],
+      "code": "4.5"
+    },
+    {
+      "qnum": 7,
+      "topic": "4",
+      "title": "Circuit — resistance, potential difference and power",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_m22_qp_42_Q07.pdf",
+      "parts": [
+        {
+          "label": "7(a)",
+          "marks": 1,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "8 (cells)"
+        },
+        {
+          "label": "7(b)(i)",
+          "marks": 2,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "(12 / 2.4 =) 5.0 Ω R = V / I in any form"
+        },
+        {
+          "label": "7(b)(ii)",
+          "marks": 2,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "(Resistance of Q = 5–1.5) = 3.5 Ω 1 / R = 1 / R1 + 1 / R2 OR R= R1R2 / (R1+R2) 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2022 © UCLES 2022 Page 15 of 17"
+        },
+        {
+          "label": "7(c)(i)",
+          "marks": 1,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "correct voltmeter symbol connected correctly across both lamps"
+        },
+        {
+          "label": "7(c)(ii)",
+          "marks": 3,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "4.3 W (P = ) IV in any form OR 1.2 × 3.6 3.6 V OR 1.2 A"
+        }
+      ],
+      "code": "4.3"
+    },
+    {
+      "qnum": 8,
+      "topic": "4",
+      "title": "Transformer — step-down transformer and turns ratio",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_m22_qp_42_Q08.pdf",
+      "parts": [
+        {
+          "label": "8(a)",
+          "marks": 3,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "Labelled diagram showing • labelled Iron (core) • two coils, labelled primary and secondary, (around core and connected to separate circuits) • Fewer turns on labelled secondary coil"
+        },
+        {
+          "label": "8(b)",
+          "marks": 3,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "(Primary voltage causes) an alternating current in primary coil produces a changing magnetic field (changing) field induces pd / e.m.f. (in secondary coil)"
+        },
+        {
+          "label": "8(c)",
+          "marks": 2,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "0.026 (Ns / Np =) Vs / Vp in any form 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2022 © UCLES 2022 Page 16 of 17"
+        }
+      ],
+      "code": "4.5"
+    },
+    {
+      "qnum": 9,
+      "topic": "4",
+      "title": "Logic gates — truth table and digital circuit",
+      "marks": 4,
+      "pdf": "igcse-slices/0625_m22_qp_42_Q09.pdf",
+      "parts": [
+        {
+          "label": "9(a)(i)",
+          "marks": 1,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "(A signal that has one of) two possible states"
+        },
+        {
+          "label": "9(a)(ii)",
+          "marks": 2,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "A B C D 0 0 0 1 0 1 0 1 1 0 0 1 1 1 1 0 C all correct ; D all correct"
+        },
+        {
+          "label": "9(b)",
+          "marks": 1,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "NAND"
+        }
+      ],
+      "code": "4.3"
+    },
+    {
+      "qnum": 10,
+      "topic": "5",
+      "title": "Radioactivity — alpha decay and smoke detector",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_m22_qp_42_Q10.pdf",
+      "parts": [
+        {
+          "label": "10(a)",
+          "marks": 3,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "241 95Am → 237 93Np + 4 2∝ 237Np nucleon number correct for Np 93Np proton number correct for Np + 4 2∝ alpha notation correct"
+        },
+        {
+          "label": "10(b)(i)",
+          "marks": 3,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "alpha (particles emitted from americium) move close to / hit molecules in the air (between the metal plates) removing electrons (out of the molecules) 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2022 © UCLES 2022 Page 17 of 17"
+        },
+        {
+          "label": "10(b)(ii)",
+          "marks": 2,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "Any two from: • alpha not penetrating / short range AND alpha (particles) stopped by smoke particles • alpha (particles) more highly ionising (than gamma) AND ionise air more easily • range of alpha particles is short / alpha is not penetrating AND alpha less harmful (to humans)"
+        }
+      ],
+      "code": "5.2"
+    }
+  ]
+}

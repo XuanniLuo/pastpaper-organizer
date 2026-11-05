@@ -1,0 +1,420 @@
+{
+  "paper": "0625/43/O/N/22",
+  "paper_full": "November 2022 · Paper 43",
+  "questions": [
+    {
+      "qnum": 1,
+      "topic": "1",
+      "title": "Aeroplane — acceleration and resultant force",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_w22_qp_43_Q01.pdf",
+      "parts": [
+        {
+          "label": "1(a)",
+          "marks": 1,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "change of velocity per unit time or v u t −"
+        },
+        {
+          "label": "1(b)(i)",
+          "marks": 1,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "(72 / 35 =) 2.1 m / s2"
+        },
+        {
+          "label": "1(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "230 000 N OR 230 kN F = ma OR (F =) ma OR 110 000  2.1"
+        },
+        {
+          "label": "1(b)(iii)",
+          "marks": 1,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "any one from: • (increase / change in) air resistance • (increase / change in) wind"
+        },
+        {
+          "label": "1(b)(iv)",
+          "marks": 3,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "any three from: • initial acceleration highest value AND horizontal line • curved or straight line downwards • curved or straight line downwards AND line not reaching zero by 35 s • horizontal line before and up to 35 s. 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2022 © UCLES 2022 Page 7 of 16"
+        }
+      ],
+      "code": "1.2"
+    },
+    {
+      "qnum": 2,
+      "topic": "1",
+      "title": "Tennis ball — momentum change and impulse",
+      "marks": 14,
+      "pdf": "igcse-slices/0625_w22_qp_43_Q02.pdf",
+      "parts": [
+        {
+          "label": "2(a)(i)",
+          "marks": 5,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "4.5 kg m / s p = mv OR (change in momentum =) mv – mu (change in momentum =) ( ) ( ) 0.058 52 0.058 26  −−  OR ( ) ( ) 0.058 52 0.058 26  +  OR ( ) ( ) 0.058 26 0.058 52 − − "
+        },
+        {
+          "label": "2(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "(impulse =) force  time OR (impulse =) Ft"
+        },
+        {
+          "label": "2(a)(iii)",
+          "marks": 3,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "0.013 s (t =) change in momentum / F OR (t =) m(v–u) / F OR (t =) p / F OR 4.5 / 350"
+        },
+        {
+          "label": "2(b)",
+          "marks": 5,
+          "codes": [
+            "1.6"
+          ],
+          "answer": "59 J KE = ½mv2 OR (KE =) ½mv2 (change in KE) = ½ 0.058  522 – ½ 0.058  262 OR ½ 0.058  262 – ½ 0.058  522 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2022 © UCLES 2022 Page 8 of 16"
+        }
+      ],
+      "code": "1.6"
+    },
+    {
+      "qnum": 3,
+      "topic": "1",
+      "title": "Tidal power — energy transfers and energy resources",
+      "marks": 6,
+      "pdf": "igcse-slices/0625_w22_qp_43_Q03.pdf",
+      "parts": [
+        {
+          "label": "3(a)",
+          "marks": 3,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "5 correct: 3 marks, 3 or 4 correct: 2 marks, 2 correct: 1 mark gravitational potential water (tidal) bay kinetic turbines"
+        },
+        {
+          "label": "3(b)",
+          "marks": 2,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "any one advantage from: • renewable • reliable or predictable • running cost low • does not produce (harmful) pollution. any one disadvantage from: • (high) cost of construction • possible effects on (marine) life • not available all day • power produced doesn’t always match with peak demand • limited number of sites • maintenance difficult / increased corrosion (because underwater)."
+        },
+        {
+          "label": "3(c)",
+          "marks": 1,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "Moon 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2022 © UCLES 2022 Page 9 of 16"
+        }
+      ],
+      "code": "1.7"
+    },
+    {
+      "qnum": 4,
+      "topic": "2",
+      "title": "Thermometer — sensitivity, range and thermal properties",
+      "marks": 6,
+      "pdf": "igcse-slices/0625_w22_qp_43_Q04.pdf",
+      "parts": [
+        {
+          "label": "4(a)(i)",
+          "marks": 1,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "any one from: • volume (of liquid) • length (of thread / liquid in tube)."
+        },
+        {
+          "label": "4(a)(ii)",
+          "marks": 2,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "more OR greater (sensitivity) volume of liquid / length of thread increases more per °C / unit temperature (because greater volume of liquid present) OR (more liquid to expand so) gives a larger change in the level of the liquid per °C / unit temperature"
+        },
+        {
+          "label": "4(a)(iii)",
+          "marks": 2,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "longer (capillary) tube liquid can expand further so to a higher temperature OR smaller (volume) bulb less liquid so liquid expands less / lower rise per °C OR larger diameter / wider capillary tube lower increase in level for each °C OR replace liquid with a liquid with lower expansivity liquid expands less for each °C"
+        },
+        {
+          "label": "4(b)",
+          "marks": 1,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "e.m.f. 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2022 © UCLES 2022 Page 10 of 16"
+        }
+      ],
+      "code": "2.2"
+    },
+    {
+      "qnum": 5,
+      "topic": "2",
+      "title": "Evaporation and heating — latent heat and thermal properties",
+      "marks": 10,
+      "pdf": "igcse-slices/0625_w22_qp_43_Q05.pdf",
+      "parts": [
+        {
+          "label": "5(a)",
+          "marks": 4,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "energy from the Sun transfers to / is absorbed by (water) molecules, (so KE of (water) molecules increases) molecules with high(er) energy / KE / fast(er) moving molecules escape (from the surface) wind removes molecules when they have left the surface (so they do not re-enter the liquid) any one from: • wind increases the rate of evaporation • (absorption of) energy from the Sun increases the rate of evaporation • least / less water evaporates / lower rate of evaporation from dish C • most / more water evaporates / higher rate of evaporation from dish B"
+        },
+        {
+          "label": "5(b)",
+          "marks": 3,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "energy to change 1 kg / unit mass from liquid to gas / gas to liquid (without changing its temperature) energy to change from liquid to gas / gas to liquid OR energy to change state of 1 kg"
+        },
+        {
+          "label": "5(c)",
+          "marks": 3,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "A: temperature (of solid / ice) increases AND C: temperature (of liquid / water) increases B: solid / ice changes to liquid / water OR solid / ice melts (at constant temperature) D: liquid / water changes to gas / steam OR liquid / water boils (at constant temperature) 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2022 © UCLES 2022 Page 11 of 16"
+        }
+      ],
+      "code": "2.2"
+    },
+    {
+      "qnum": 6,
+      "topic": "3",
+      "title": "Water waves — reflection, diffraction and wave speed",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_w22_qp_43_Q06.pdf",
+      "parts": [
+        {
+          "label": "6(a)(i)",
+          "marks": 1,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "correct direction, with angle made with surface correct"
+        },
+        {
+          "label": "6(a)(ii)",
+          "marks": 2,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "three wavefronts perpendicular to their answer to (a)(i) wavelength 1.6 cm / same as incident wave"
+        },
+        {
+          "label": "6(b)",
+          "marks": 3,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "at least two correct arcs (after the gap in the barrier) three circular arcs (after the gap on the barrier) centred on gap wavelength same as wavelength of incident wavefronts"
+        },
+        {
+          "label": "6(c)",
+          "marks": 3,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "6.4 cm / s OR 0.064 m / s v = f OR (v =) f OR 4.0  1.6 OR 4.0  0.016 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2022 © UCLES 2022 Page 12 of 16"
+        }
+      ],
+      "code": "3.1"
+    },
+    {
+      "qnum": 7,
+      "topic": "3",
+      "title": "Light — total internal reflection and refractive index",
+      "marks": 10,
+      "pdf": "igcse-slices/0625_w22_qp_43_Q07.pdf",
+      "parts": [
+        {
+          "label": "7(a)",
+          "marks": 2,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "any two from: • all light is reflected • no light is refracted • (occurs) when light travels in a more dense medium towards a (boundary with a) less dense medium"
+        },
+        {
+          "label": "7(b)(i)",
+          "marks": 5,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "(x =) 48° n = 1 / sin c OR c = sin–1 (1 / n) OR sin c = 1 / 1.5 OR c = sin–1 (1 / 1.5) c = 42(°)"
+        },
+        {
+          "label": "7(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "(speed =) 2.0  108 m / s n = speed of light in vacuum speed of light in liquid OR n = (approx.) speed of light in air speed of light in liquid OR n = c / v OR (v =) c / n OR 8 3 10 1.5 speed of light in liquid  = 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2022 © UCLES 2022 Page 13 of 16"
+        }
+      ],
+      "code": "3.2"
+    },
+    {
+      "qnum": 8,
+      "topic": "4",
+      "title": "Charging by induction — electrostatic charge and electron flow",
+      "marks": 5,
+      "pdf": "igcse-slices/0625_w22_qp_43_Q08.pdf",
+      "parts": [
+        {
+          "label": "8(a)",
+          "marks": 4,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "positively charged / plastic rod is brought close to metal plate negative charges / electrons (from metal plate) move to top of metal plate / close(r) to rod earth lead connected to (metal) plate AND negative charges / electrons move on to plate (at the end of the process) earth lead removed (before charged rod removed) OR (at the end of the process) metal plate has (net) negative charge"
+        },
+        {
+          "label": "8(b)",
+          "marks": 1,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "correct direction – pointing away from negative terminal / clockwise arrow AND current flow in opposite direction to flow of electrons 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2022 © UCLES 2022 Page 14 of 16"
+        }
+      ],
+      "code": "4.2"
+    },
+    {
+      "qnum": 9,
+      "topic": "4",
+      "title": "Diode circuit — alternating current and potential difference",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_w22_qp_43_Q09.pdf",
+      "parts": [
+        {
+          "label": "9(a)",
+          "marks": 3,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "0.02 s t =1 / f OR (t = )1 / f OR 1 / 50"
+        },
+        {
+          "label": "9(b)(i)",
+          "marks": 3,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "correct shape shown with rectification for two cycles sine shape shown (without rectification for two cycles)"
+        },
+        {
+          "label": "9(b)(ii)",
+          "marks": 1,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "340 marked"
+        },
+        {
+          "label": "9(b)(iii)",
+          "marks": 2,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "one correct time value marked on time axis a second correct time value marked on time axis 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2022 © UCLES 2022 Page 15 of 16"
+        }
+      ],
+      "code": "4.3"
+    },
+    {
+      "qnum": 10,
+      "topic": "5",
+      "title": "Radioactivity — alpha and beta tracks, decay and half-life",
+      "marks": 10,
+      "pdf": "igcse-slices/0625_w22_qp_43_Q10.pdf",
+      "parts": [
+        {
+          "label": "10(a)",
+          "marks": 3,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "-particles are short and thick / -particles are long and thin any two from: • -particles are more ionising / -particles are less ionising • -particles are less penetrating or have shorter range / -particles are more penetrating or have longer range • -particles have more energy / -particles have less energy"
+        },
+        {
+          "label": "10(b)(i)",
+          "marks": 2,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "(element with) same number of protons (element with) different number of neutrons"
+        },
+        {
+          "label": "10(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "24 11 Na → 24 12 Mg + 0 1 − Na on left with correct proton and nucleon number  on right with correct proton and nucleon number Mg on right with correct proton and nucleon number"
+        },
+        {
+          "label": "10(b)(iii)",
+          "marks": 2,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "half life (of Na 24) long enough (to allow detection of leaks) negligible amount (of Na 24) remains in liquid after a few days (so) less hazardous (to human health) OR decays to something stable/magnesium (is stable) AND (so) less hazardous (to human health) 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2022 © UCLES 2022 Page 16 of 16"
+        }
+      ],
+      "code": "5.2"
+    },
+    {
+      "qnum": 11,
+      "topic": "4",
+      "title": "Solenoid and transformer — magnetic field and turns ratio",
+      "marks": 6,
+      "pdf": "igcse-slices/0625_w22_qp_43_Q11.pdf",
+      "parts": [
+        {
+          "label": "11(a)",
+          "marks": 3,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "at least one line on the left and one line on the right, outside coil AND curved back over the top and under the base of the coil, towards the central core of the coil at least two (straight vertical) lines inside coil direction of arrow correct on at least one line and none wrong"
+        },
+        {
+          "label": "11(b)",
+          "marks": 3,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "910 NP / NS = VP / VS OR (NS =) (VS / VP)  NP OR (NS =) 11000 33 000 400 000  OR (NS =) 11000 33 400 "
+        }
+      ],
+      "code": "4.5"
+    }
+  ]
+}

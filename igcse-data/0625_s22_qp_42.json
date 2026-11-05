@@ -1,0 +1,412 @@
+{
+  "paper": "0625/42/M/J/22",
+  "paper_full": "June 2022 · Paper 42",
+  "questions": [
+    {
+      "qnum": 1,
+      "topic": "1",
+      "title": "Battery — energy storage, power and time",
+      "marks": 11,
+      "pdf": "igcse-slices/0625_s22_qp_42_Q01.pdf",
+      "parts": [
+        {
+          "label": "1(a)(i)",
+          "marks": 5,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "(E =) 2 200 000 (J) OR 2.2  106 (J) (E =) Pt in any form (E =) 600  3600"
+        },
+        {
+          "label": "1(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "chemical"
+        },
+        {
+          "label": "1(b)",
+          "marks": 3,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "(t =) 8600 s OR 140 min OR 2.4 h OR 2 h 24 min OR (t =) 8800 s OR 147 min OR 2 h 27 min (t =) 2.2  106 / 250 OR (600  60) / 250 OR 1  600 / 250"
+        },
+        {
+          "label": "1(c)",
+          "marks": 2,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "any two from:  less noise OR no noise  less OR no air / gaseous pollution (from the bicycle) OR does not produce acid rain  (the bicycle) uses no / less fossil fuel  does not contribute to greenhouse effect OR does not release CO2"
+        }
+      ],
+      "code": "1.7"
+    },
+    {
+      "qnum": 2,
+      "topic": "1",
+      "title": "Pulley system — resultant force, acceleration and speed",
+      "marks": 14,
+      "pdf": "igcse-slices/0625_s22_qp_42_Q02.pdf",
+      "parts": [
+        {
+          "label": "2(a)",
+          "marks": 3,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "(F = 2.0  4.0 =) 8.0 N (F =) ma in any form 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 7 of 12"
+        },
+        {
+          "label": "2(b)",
+          "marks": 5,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "(F = 30 – 12 =) 18 N resultant force on 3 kg mass (3  4 =) 12 (N) (weight of 3 kg mass = 3  10) = 30 (N)"
+        },
+        {
+          "label": "2(c)(i)",
+          "marks": 3,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "(v =) 4.0  0.80 (= 3.2 m / s) ()v = at in any form"
+        },
+        {
+          "label": "2(c)(ii)",
+          "marks": 3,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "(t = 0.020 / 3.2 =) 0.0063 s OR 6.3  10–3 s (t =) d / v in any form"
+        }
+      ],
+      "code": "1.5"
+    },
+    {
+      "qnum": 3,
+      "topic": "1",
+      "title": "Canoe — resultant velocity and kinetic energy",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_s22_qp_42_Q03.pdf",
+      "parts": [
+        {
+          "label": "3(a)",
+          "marks": 4,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "scale at least 2 cm : 1 m / s stated 2.5 m / s AND 4.0 m / s vectors correctly drawn by eye AND correct resultant magnitude of resultant velocity = 2.3 – 2.8 m / s inclusive direction 35° – 40° inclusive (downstream)"
+        },
+        {
+          "label": "3(b)",
+          "marks": 3,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "(E = ½  65  2.52 =) 200 J (E =) ½ mv2 in any form 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 8 of 12"
+        }
+      ],
+      "code": "1.2"
+    },
+    {
+      "qnum": 4,
+      "topic": "2",
+      "title": "Thermometer — linearity and thermocouple heat capacity",
+      "marks": 11,
+      "pdf": "igcse-slices/0625_s22_qp_42_Q04.pdf",
+      "parts": [
+        {
+          "label": "4(a)",
+          "marks": 4,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "statement: bore of constant (cross sectional) area explanation: idea of same movement / change in length of liquid / thread AND for same increase in volume / expansion (of liquid) statement: (liquid has) constant thermal expansion explanation: liquid moves same distance for each °C temperature rise"
+        },
+        {
+          "label": "4(b)",
+          "marks": 2,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "heat capacity / it is small only uses / needs a small amount of (thermal) energy (to raise its temperature)"
+        },
+        {
+          "label": "4(c)",
+          "marks": 5,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "36 J (E =) CT in any form (E =) 0.11  (345 – 20) OR (T =) 325 (°C)"
+        }
+      ],
+      "code": "2.2"
+    },
+    {
+      "qnum": 5,
+      "topic": "3",
+      "title": "Ultrasound and X-rays — wavelength and medical uses",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_s22_qp_42_Q05.pdf",
+      "parts": [
+        {
+          "label": "5(a)(i)",
+          "marks": 2,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "ultrasound OR sound (frequency) above audible range frequency > 20 kHz OR 20 000 Hz"
+        },
+        {
+          "label": "5(a)(ii)",
+          "marks": 5,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "8.7  10–4 m ( =) v / f OR v = f in any form ( =) 1.3  103 / 1.5  106 OR 8.7  10n"
+        },
+        {
+          "label": "5(b)",
+          "marks": 2,
+          "codes": [
+            "3.4"
+          ],
+          "answer": "basic description of use e.g. X-rays for detecting broken bones additional detail e.g. X-rays pass through soft tissue AND not through bone 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 9 of 12"
+        }
+      ],
+      "code": "3.4"
+    },
+    {
+      "qnum": 6,
+      "topic": "3",
+      "title": "Lens — focal length and image nature",
+      "marks": 5,
+      "pdf": "igcse-slices/0625_s22_qp_42_Q06.pdf",
+      "parts": [
+        {
+          "label": "6(a)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "1.9–2.1 cm"
+        },
+        {
+          "label": "6(b)",
+          "marks": 3,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "(circle round) enlarged (circle round) inverted (circle round) real"
+        },
+        {
+          "label": "6(c)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "not an intersection of rays OR cannot be formed on a screen OR cannot be projected on a screen OR light rays do not pass through image OR light rays do not meet OR light rays do not converge"
+        }
+      ],
+      "code": "3.2"
+    },
+    {
+      "qnum": 7,
+      "topic": "4",
+      "title": "Magnetic field — force on wire and beta-particle",
+      "marks": 5,
+      "pdf": "igcse-slices/0625_s22_qp_42_Q07.pdf",
+      "parts": [
+        {
+          "label": "7(a)",
+          "marks": 1,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "(pole A:) N AND (pole B:) S"
+        },
+        {
+          "label": "7(b)",
+          "marks": 2,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "vertical up"
+        },
+        {
+          "label": "7(c)",
+          "marks": 2,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "vertical down"
+        }
+      ],
+      "code": "4.5"
+    },
+    {
+      "qnum": 8,
+      "topic": "4",
+      "title": "A.C. supply — time period, current and power",
+      "marks": 12,
+      "pdf": "igcse-slices/0625_s22_qp_42_Q08.pdf",
+      "parts": [
+        {
+          "label": "8(a)",
+          "marks": 1,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "(t = 1/60 =) 0.017 s OR 1.7  10–2 s"
+        },
+        {
+          "label": "8(b)(i)",
+          "marks": 1,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "diode"
+        },
+        {
+          "label": "8(b)(ii)",
+          "marks": 5,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "(I =) 1.4 A (I =) Q / t in any form (I =) 1.5  1017  1.6  10–19 / 0.017 OR 0.024 / 0.017 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 10 of 12"
+        },
+        {
+          "label": "8(c)",
+          "marks": 2,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "one arrow clockwise AND one arrow anticlockwise arrow anticlockwise (around circuit) labelled I"
+        },
+        {
+          "label": "8(d)",
+          "marks": 3,
+          "codes": [
+            "4.2"
+          ],
+          "answer": "(P = 0.35  12 =) 4.2 W (P =) IV in any form"
+        }
+      ],
+      "code": "4.2"
+    },
+    {
+      "qnum": 9,
+      "topic": "4",
+      "title": "Circuit — current in motor and parallel resistance",
+      "marks": 12,
+      "pdf": "igcse-slices/0625_s22_qp_42_Q09.pdf",
+      "parts": [
+        {
+          "label": "9(a)(i)",
+          "marks": 1,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "0 (A)"
+        },
+        {
+          "label": "9(a)(ii)",
+          "marks": 3,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "(I = 12 / 2 =) 6.0 A (I =) V / R in any form"
+        },
+        {
+          "label": "9(a)(iii)",
+          "marks": 3,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "(I = 12 / 5 =) 2.4 A (Rs = R1 + R2 = 2 + 3 =) 5 ()"
+        },
+        {
+          "label": "9(b)",
+          "marks": 5,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "(Rp = 6 / 5 =) 1.2  1 / Rp = 1 / R1 + 1 / R2 OR (Rp =) R1 R2 / (R1 + R2) 1 / Rp = 1 / 2 + 1 / 3 OR (Rp =) 2  3 / (2 + 3) 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 11 of 12"
+        }
+      ],
+      "code": "4.3"
+    },
+    {
+      "qnum": 10,
+      "topic": "4",
+      "title": "Logic gates — truth table and relay",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_s22_qp_42_Q10.pdf",
+      "parts": [
+        {
+          "label": "10(a)",
+          "marks": 3,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "output of X output of Y 1 0 1 0 0 1 0 0 all column X correct 1, 1, 0, 0 first 2 rows of column Y correct 0, 0 last 2 rows of column Y correct 1, 0"
+        },
+        {
+          "label": "10(b)",
+          "marks": 1,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "high humidity AND dark(ness)"
+        },
+        {
+          "label": "10(c)",
+          "marks": 3,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "relay low voltage output (of NOR gate/gate Y) OR small current (in relay coil) large(r) current provided (by relay) OR large(r) voltage provided (by relay)"
+        }
+      ],
+      "code": "4.3"
+    },
+    {
+      "qnum": 11,
+      "topic": "5",
+      "title": "Gold foil — alpha scattering and nuclide notation",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_s22_qp_42_Q11.pdf",
+      "parts": [
+        {
+          "label": "11(a)(i)",
+          "marks": 3,
+          "codes": [
+            "5.1"
+          ],
+          "answer": "top: travels to left middle: deflected down AND still travels to right bottom: straight on 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 12 of 12"
+        },
+        {
+          "label": "11(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "5.1"
+          ],
+          "answer": "plus OR positive OR +"
+        },
+        {
+          "label": "11(b)",
+          "marks": 3,
+          "codes": [
+            "5.1"
+          ],
+          "answer": "79 (electrons) 119 (neutrons) 79 (protons)"
+        }
+      ],
+      "code": "5.1"
+    }
+  ]
+}

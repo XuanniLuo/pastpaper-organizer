@@ -1,0 +1,410 @@
+{
+  "paper": "0625/41/M/J/22",
+  "paper_full": "June 2022 · Paper 41",
+  "questions": [
+    {
+      "qnum": 1,
+      "topic": "1",
+      "title": "Car braking — deceleration and distance–time graph",
+      "marks": 11,
+      "pdf": "igcse-slices/0625_s22_qp_41_Q01.pdf",
+      "parts": [
+        {
+          "label": "1(a)",
+          "marks": 2,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "negative acceleration or decrease in velocity change in velocity per unit time or rate of change of velocity"
+        },
+        {
+          "label": "1(b)",
+          "marks": 1,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "delay in applying brakes or (human) reaction time or foot not removed from accelerator"
+        },
+        {
+          "label": "1(c)(i)",
+          "marks": 1,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "gradient or slope"
+        },
+        {
+          "label": "1(c)(ii)",
+          "marks": 3,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "20.5 m / s ⩽ answer ⩽ 23.5 m / s the coordinates at one point on curve (e.g. (0.50, 11)) and (upper) time coordinate ⩽ 1.0 s"
+        },
+        {
+          "label": "1(d)(i)",
+          "marks": 1,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "air resistance / air friction acts on the car"
+        },
+        {
+          "label": "1(d)(ii)",
+          "marks": 3,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "air resistance / resultant / resistive force decreases and as speed decreases / car decelerates air resistance / resultant / resistive force decreases / changes"
+        }
+      ],
+      "code": "1.2"
+    },
+    {
+      "qnum": 2,
+      "topic": "1",
+      "title": "Hydroelectric dam — pressure at depth and force on turbine",
+      "marks": 11,
+      "pdf": "igcse-slices/0625_s22_qp_41_Q02.pdf",
+      "parts": [
+        {
+          "label": "2(a)",
+          "marks": 1,
+          "codes": [
+            "1.8"
+          ],
+          "answer": "gravitational potential energy"
+        },
+        {
+          "label": "2(b)(i)",
+          "marks": 5,
+          "codes": [
+            "1.8"
+          ],
+          "answer": "1.6  106 Pa (p =) h g (in any form) or 150  1000  10 or 1.5  106 1.5  106 or 1.0  105 + {150  1000  10} or 1.0  105 + 1.5  106 or 1.6  10N"
+        },
+        {
+          "label": "2(b)(ii)",
+          "marks": 3,
+          "codes": [
+            "1.8"
+          ],
+          "answer": "5.6  106 N (F =) pA (in any form) or 1.6  106  3.5 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 7 of 12"
+        },
+        {
+          "label": "2(c)",
+          "marks": 2,
+          "codes": [
+            "1.8"
+          ],
+          "answer": "speed (of water) remains constant otherwise density would decrease or gaps would appear in the water or volume / density does not change or liquids incompressible or water enters / leaves at constant rate or quantity of water remains constant"
+        }
+      ],
+      "code": "1.8"
+    },
+    {
+      "qnum": 3,
+      "topic": "2",
+      "title": "Evaporation cooling — molecular model and conduction",
+      "marks": 6,
+      "pdf": "igcse-slices/0625_s22_qp_41_Q03.pdf",
+      "parts": [
+        {
+          "label": "3(a)",
+          "marks": 3,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "fast(er) / high(er) speed / (more) energetic molecules escape (into air) average speed / average kinetic energy of molecules decreases temperature related to speed / energy of molecules or slow(er) / low(er) speed / less energetic molecules remain (in water)"
+        },
+        {
+          "label": "3(b)",
+          "marks": 3,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "any three from: atoms / ions vibrate (vibrating) atoms / ions hit electrons electrons propelled / travelling through metal / moving through metal electrons hit (distant) atoms free electrons / delocalised electrons mentioned"
+        }
+      ],
+      "code": "2.3"
+    },
+    {
+      "qnum": 4,
+      "topic": "2",
+      "title": "Thermocouple — temperature measurement",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_s22_qp_41_Q04.pdf",
+      "parts": [
+        {
+          "label": "4(a)(i)",
+          "marks": 4,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "two / three wires of at least two different metals one junction in sulfur the other junction in ice-water mixture / at room temperature and one of the wires must be from the first junction labelled voltmeter / voltmeter symbol correctly connected 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 8 of 12"
+        },
+        {
+          "label": "4(a)(ii)",
+          "marks": 2,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "measure e.m.f. how to find temperature from e.m.f. (e.g. use calibration graph or calculation or table)"
+        },
+        {
+          "label": "4(b)",
+          "marks": 1,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "measures high temperatures / wires do not melt / rapid response / robust / small heat capacity / electrical output / (can be) remote from observer / direct input to computer"
+        }
+      ],
+      "code": "2.2"
+    },
+    {
+      "qnum": 5,
+      "topic": "2",
+      "title": "Boiling water tap — specific heat capacity and electrical safety",
+      "marks": 15,
+      "pdf": "igcse-slices/0625_s22_qp_41_Q05.pdf",
+      "parts": [
+        {
+          "label": "5(a)",
+          "marks": 2,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "temperature at which liquid becomes a gas or liquid and gas exist together"
+        },
+        {
+          "label": "5(b)(i)",
+          "marks": 3,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "1.8  105 J (E =) VIt (in any form) or 230  13  60 or 230  13 or 3000"
+        },
+        {
+          "label": "5(b)(ii)",
+          "marks": 7,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "9.1  10–3 kg / s 9.1  10–3 kg / s (T =) 100 – 22 or 78 or (T =) 100 – 22 or 78 m = E / cT (in any form) or 1.8  105 / (4200  78) or (rate =) P / cT (in any form) or m = E / cT and E = Pt 1.8  105 / (4200  78  60) or 5.5  10N or 9.1/9.2  10N or 3000 / (4200  78) or 230  13 / (4200  78) or 9.1 / 9.2  10N"
+        },
+        {
+          "label": "5(c)",
+          "marks": 3,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "1 if the tap becomes live or if the (live) cable touches the (metal) tap there is a current to earth / in the earth wire (which blows the fuse) 2 the current (in earth wire) is large and fuse melts / blows / stops current / breaks circuit 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 9 of 12"
+        }
+      ],
+      "code": "2.2"
+    },
+    {
+      "qnum": 6,
+      "topic": "2",
+      "title": "Sea breeze — radiation and convection",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_s22_qp_41_Q06.pdf",
+      "parts": [
+        {
+          "label": "6(a)",
+          "marks": 3,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "any three from: radiation light / infrared / electromagnetic (radiation) travel through space / vacuum absorbed by road"
+        },
+        {
+          "label": "6(b)",
+          "marks": 1,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "road / black surfaces are good absorbers (of radiation) or sea is a poor absorber (of radiation)"
+        },
+        {
+          "label": "6(c)(i)",
+          "marks": 2,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "they / molecules speed up or gain kinetic energy they / molecules move further apart"
+        },
+        {
+          "label": "6(c)(ii)",
+          "marks": 3,
+          "codes": [
+            "2.3"
+          ],
+          "answer": "density (of air above road) decreases or density (of hot air) decreases air (above land / road) rises or air (that is hot) rises air (above road) replaced by cool air / air from above sea"
+        }
+      ],
+      "code": "2.3"
+    },
+    {
+      "qnum": 7,
+      "topic": "3",
+      "title": "Converging lens — principal focuses and image formation",
+      "marks": 10,
+      "pdf": "igcse-slices/0625_s22_qp_41_Q07.pdf",
+      "parts": [
+        {
+          "label": "7(a)",
+          "marks": 4,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "(all the light) meets (at a point) or is focused or intersects (all the light) travels towards a point it then diverges or spreads out (from that point) or point of convergence is on XY / at F / the focal point / principal focus / 3.0 cm from lens"
+        },
+        {
+          "label": "7(b)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "two marked points on XY 3.0 cm from centre of lens and one on left and one on right and each labelled F 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 10 of 12"
+        },
+        {
+          "label": "7(c)(i)",
+          "marks": 3,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "two of these rays from tip of N drawn: ray (that seems to come) from left-hand principal focus and emerges from lens paraxially paraxial ray to lens and then towards right-hand principal focus ray towards / through centre of lens two rays traced back to intersection and line from intersection to axis and line labelled I"
+        },
+        {
+          "label": "7(c)(ii)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "virtual and light / rays do not pass through I or virtual and light / rays only seem to come from I or virtual and produced by diverging rays virtual and (real) rays do not meet"
+        },
+        {
+          "label": "7(c)(iii)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "magnifying glass"
+        }
+      ],
+      "code": "3.2"
+    },
+    {
+      "qnum": 8,
+      "topic": "4",
+      "title": "Falling magnet — electromagnetic induction and eddy currents",
+      "marks": 11,
+      "pdf": "igcse-slices/0625_s22_qp_41_Q08.pdf",
+      "parts": [
+        {
+          "label": "8(a)",
+          "marks": 7,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "0.27 J (v =) at (in any form) or 10  0.67 or 6.7 (m / s) 6.7 (m / s) (KE =) ½mv 2 (in any form) or ½  0.012  (10  0.67)2 or ½  0.012  6.72"
+        },
+        {
+          "label": "8(b)(i)",
+          "marks": 2,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "magnetic field / magnetic field lines cut the copper / tube / it (or vv.) electromagnetic induction occurs or e.m.f. induced 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 11 of 12"
+        },
+        {
+          "label": "8(b)(ii)",
+          "marks": 2,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "(upwards / opposing) force on magnet force / magnetic field / e.m.f. / current opposes the change (producing it) / opposes motion or force on magnet due to magnetic field caused by current in tube"
+        }
+      ],
+      "code": "4.5"
+    },
+    {
+      "qnum": 9,
+      "topic": "4",
+      "title": "Logic gates — digital signals and gate combinations",
+      "marks": 6,
+      "pdf": "igcse-slices/0625_s22_qp_41_Q09.pdf",
+      "parts": [
+        {
+          "label": "9(a)",
+          "marks": 2,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "digital (signal) consists of 1(s) and 0(s) / high value and low analogue (signal) is (continuously) variable (in magnitude)"
+        },
+        {
+          "label": "9(b)",
+          "marks": 1,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "NOR (gate) and"
+        },
+        {
+          "label": "9(c)",
+          "marks": 3,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "(i.e. NOR gate symbol with two inputs joined seen)"
+        }
+      ],
+      "code": "4.3"
+    },
+    {
+      "qnum": 10,
+      "topic": "5",
+      "title": "Hydrogen isotopes — nuclei composition and nuclear fusion",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_s22_qp_41_Q10.pdf",
+      "parts": [
+        {
+          "label": "10(a)(i)",
+          "marks": 1,
+          "codes": [
+            "5.1"
+          ],
+          "answer": "same number of protons / both have one proton"
+        },
+        {
+          "label": "10(a)(ii)",
+          "marks": 3,
+          "codes": [
+            "5.1"
+          ],
+          "answer": "it / hydrogen-3 / 3 (1)H has one more neutron different number of neutrons / nucleons A B Q 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 12 of 12"
+        },
+        {
+          "label": "10(b)(i)",
+          "marks": 3,
+          "codes": [
+            "5.1"
+          ],
+          "answer": "(high temperature produces) high (kinetic) energy / momentum / speed / ability to do large quantity of work they repel each other are positively charged / have like charges or need to come close together"
+        },
+        {
+          "label": "10(b)(ii)",
+          "marks": 2,
+          "codes": [
+            "5.1"
+          ],
+          "answer": "4 2 X or 4 2He or  2 4 1 0n and no other particle"
+        }
+      ],
+      "code": "5.1"
+    }
+  ]
+}

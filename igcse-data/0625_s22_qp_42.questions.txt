@@ -1,0 +1,495 @@
+===== Q1 =====
+2
+0625/42/M/J/22
+© UCLES 2022
+1 
+Fig. 1.1 shows an electrically powered bicycle.
+battery
+electric motor
+Fig. 1.1
+ 
+When fully charged, the battery can deliver a power of 600 W for 60 min.
+ 
+(a) (i) Calculate the energy, in joules, stored in the battery when fully charged.
+ 
+energy =  ...................................................... J [3]
+ 
+ 
+(ii) State the form of energy stored by the battery.
+ 
+ 
+ 
+......................................................... 
+ [1]
+ 
+(b) The bicycle has a motor with an electrical input power of 250 W.
+ 
+ 
+Calculate the time for which the battery can power the bicycle.
+ 
+time =  ......................................................... [2]
+ 
+(c) Consider this bicycle compared to a small motorcycle.
+ 
+ 
+State two environmental benefits of the electrically powered bicycle.
+1.  ...............................................................................................................................................
+2.  ...............................................................................................................................................
+ 
+[2]
+ 
+[Total: 8]
+
+
+===== Q2 =====
+3
+0625/42/M/J/22
+© UCLES 2022
+[Turn over
+2 
+Fig. 2.1 shows an object of mass 2.0 kg on a bench. This object is connected by a cord, passing 
+over a pulley, to an object of mass 3.0 kg.
+3.0 kg object
+2.0 kg object
+2.0 cm
+card
+cord
+pulley
+F
+bench
+Fig. 2.1
+ 
+The 2.0 kg object is released from rest and accelerates at 4.0 m / s2.
+ 
+(a) Calculate the resultant force acting on the 2.0 kg object.
+ 
+force =  ......................................................... [2]
+ 
+(b) Calculate the upward force F exerted by the cord on the 3.0 kg object.
+ 
+force F =  ......................................................... [3]
+ 
+(c) The objects have a constant acceleration.
+ 
+ 
+(i) Show that the speed of the objects 0.80 s after release is 3.2 m / s.
+ 
+[2]
+ 
+ 
+(ii) A card, of width 2.0 cm, is fixed to the 2.0 kg object. As the 2.0 kg object moves to the left, 
+the card passes through a beam of light that is perpendicular to the card.
+ 
+ 
+ Using the speed given in (c)(i), calculate the time taken for the card to pass through the 
+beam of light.
+ 
+time =  ......................................................... [2]
+ 
+[Total: 9]
+
+
+===== Q3 =====
+4
+0625/42/M/J/22
+© UCLES 2022
+3 
+(a) Fig. 3.1 shows water in a river moving parallel to the river bank at 4.0 m / s and a canoe 
+travelling in the river.
+38°
+river bank
+river bank
+canoe travels at 2.5 m / s
+relative to the water
+water moving at 4.0 m / s
+Fig. 3.1
+ 
+ 
+The canoe travels at 2.5 m / s relative to the water and heads at an angle of 38° to the river 
+bank.
+ 
+ 
+Draw a scale diagram to determine the canoe’s resultant velocity and state the scale you 
+used.
+ 
+scale  ...............................................................
+ 
+magnitude of resultant velocity  ...............................................................
+ 
+direction of resultant velocity (angle from the river bank)  ...............................................................
+ [4]
+
+5
+0625/42/M/J/22
+© UCLES 2022
+[Turn over
+ 
+(b) The mass of the canoeist is 65 kg.
+ 
+ 
+Calculate her kinetic energy when travelling on still water at 2.5 m / s.
+ 
+energy =  ......................................................... [2]
+ 
+[Total: 6]
+
+
+===== Q4 =====
+6
+0625/42/M/J/22
+© UCLES 2022
+4 
+(a) State and explain the two features of a liquid-in-glass thermometer that are necessary for 
+linearity.
+statement 1  ...............................................................................................................................
+explanation  ...............................................................................................................................
+statement 2  ...............................................................................................................................
+explanation  ...............................................................................................................................
+ 
+[4]
+ 
+(b) The value of the heat capacity of the hot junction of a thermocouple thermometer is important 
+in ensuring that it can measure temperature changes very rapidly.
+ 
+ 
+Explain why.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+(c) The hot junction of a thermocouple thermometer has a heat capacity of 0.11 J / °C.
+ 
+ 
+Calculate the thermal energy required to increase the temperature of the hot junction from 
+20 °C to 345 °C.
+ 
+energy =  ......................................................... [3]
+ 
+[Total: 9]
+
+
+===== Q5 =====
+7
+0625/42/M/J/22
+© UCLES 2022
+[Turn over
+5 
+Sound waves are longitudinal and electromagnetic waves are transverse.
+ 
+(a) A sound wave used for a medical examination has a frequency of 1.5 MHz.
+ 
+ 
+(i) State and explain what type of sound wave this is.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+ 
+(ii) The wave travels through soft human tissue at a speed of 1.3 km / s.
+ 
+ 
+ Calculate the wavelength of the wave in soft human tissue.
+ 
+wavelength =  ......................................................... [3]
+ 
+(b) Describe one use of X-rays in medicine.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+[Total: 7]
+
+
+===== Q6 =====
+8
+0625/42/M/J/22
+© UCLES 2022
+6 
+Fig. 6.1 is a full-size ray diagram showing the formation of an image by a thin glass lens.
+Fig. 6.1 (full size)
+ 
+(a) Determine the focal length of the lens.
+ 
+focal length =  ......................................................... [1]
+ 
+(b) Circle three items in the list which describe the nature of the image formed.
+enlarged    same size    diminished    inverted
+upright     real       virtual 
+[3]
+ 
+(c) State one feature of a virtual image.
+ ............................................................................................................................................. [1]
+ 
+[Total: 5]
+
+
+===== Q7 =====
+10
+0625/42/M/J/22
+© UCLES 2022
+7 
+Fig. 7.1 shows a small plotting compass which is aligned with the magnetic field between magnetic 
+poles A and B of a U-shaped magnet.
+S
+A
+B
+N
+Fig. 7.1
+ 
+(a) State the polarity of the poles.
+pole A  ........................................................................................................................................
+pole B  .......................................................................................................................................
+ 
+[1]
+ 
+(b) Fig. 7.2 shows a wire, placed between two poles, carrying a current in the direction of the 
+arrow.
+S
+N
+Fig. 7.2
+ 
+ 
+On Fig. 7.2, draw an arrow to show the direction of the force on the wire due to the magnetic 
+field. 
+[2]
+
+11
+0625/42/M/J/22
+© UCLES 2022
+[Turn over
+ 
+(c) Fig. 7.3 shows a β-particle moving in the direction of the arrow between the same two poles.
+S
+β
+N
+-particle
+direction of travel of β-particle
+when in the position shown
+Fig. 7.3
+ 
+ 
+On Fig. 7.3, draw an arrow to show the direction of the force on the β-particle due to the 
+magnetic field. 
+[2]
+ 
+[Total: 5]
+
+
+===== Q8 =====
+12
+0625/42/M/J/22
+© UCLES 2022
+8 
+Fig. 8.1 shows how the electromotive force (e.m.f.) of a 60 Hz alternating current (a.c.) power 
+supply varies with time.
+time period
+e.m.f.
+time
+0
+0
+Fig. 8.1
+ 
+(a) Calculate the time period of the a.c.
+ 
+time period =  ......................................................... [1]
+ 
+(b) Fig. 8.2 shows this power supply connected in a circuit.
+A
+B
+C
+Fig. 8.2
+ 
+ 
+(i) State the name of component A.
+ 
+ .......................................................... [1]
+ 
+ 
+(ii) In each time period of the a.c., 1.5 × 1017 electrons pass through component A. The 
+charge on an electron is 1.6 × 10–19 C.
+ 
+ 
+ Calculate the average current in the circuit during one time period.
+ 
+current =  ......................................................... [3]
+
+13
+0625/42/M/J/22
+© UCLES 2022
+[Turn over
+ 
+(c) On Fig. 8.3:
+ 
+ 
+1. mark, with an arrow labelled E, the direction of the electron flow through component B
+ 
+ 
+2. mark, with an arrow labelled I, the direction of the conventional current in component C.
+A
+B
+C
+Fig. 8.3
+ 
+[2]
+ 
+(d) Fig. 8.4 shows a circuit with components B and C connected to a direct current (d.c.) power 
+supply of e.m.f. 12 V.
+B
+C
+Fig. 8.4
+ 
+ 
+The current in the circuit is 0.35 A.
+ 
+ 
+Calculate the power delivered by the power supply to the circuit.
+ 
+power =  ......................................................... [2]
+ 
+[Total: 9]
+
+
+===== Q9 =====
+14
+0625/42/M/J/22
+© UCLES 2022
+9 
+Fig. 9.1 shows a circuit with a 3-position switch.
+A
+C
+12 V
+B
+Y
+X
+M
+Fig. 9.1
+ 
+The moving part of the switch is always connected to point Y around which it pivots. The other end 
+of the moving part, labelled X, can be connected to one of the points A, B or C.
+ 
+(a) The resistance of the motor is 2.0 Ω and the resistance of the resistor is 3.0 Ω.
+ 
+ 
+Determine the current in the motor when the switch is connected to:
+ 
+ 
+(i) point A
+ 
+current =  ......................................................... [1]
+ 
+ 
+(ii) point B
+ 
+current =  ......................................................... [2]
+ 
+ 
+(iii) point C.
+ 
+current =  ......................................................... [2]
+ 
+(b) Two resistors of resistance 2.0 Ω and 3.0 Ω are connected in parallel.
+ 
+ 
+Calculate the combined resistance of the resistors in this arrangement.
+ 
+resistance =  ......................................................... [3]
+ 
+[Total: 8]
+
+
+===== Q10 =====
+15
+0625/42/M/J/22
+© UCLES 2022
+[Turn over
+10 Fig. 10.1 is a simplified diagram of a digital circuit. The output of logic gate Y controls a buzzer.
+input
+A
+input
+B
+logic gate X
+logic gate Y
+Fig. 10.1
+ 
+(a) Complete Table 10.1, the truth table for the circuit.
+Table 10.1
+input A
+input B
+output of X
+output of Y
+0
+0
+0
+1
+1
+0
+1
+1
+ 
+[3]
+ 
+(b) Input A is the output of a humidity sensor which gives logic 1 when the humidity is high and 
+logic 0 when the humidity is low.
+ 
+ 
+Input B is the output of a light sensor which gives logic 1 in bright light and logic 0 in darkness. 
+The buzzer sounds when the output of Y is logic 1.
+State the conditions of humidity and light when the buzzer is on.
+ ............................................................................................................................................. [1]
+ 
+(c) The output of the digital circuit alone is not able to operate the buzzer.
+ 
+ 
+Ring the component from the list that must be connected between the output of the digital 
+circuit and the buzzer.
+fuse   heater   relay   resistor   thermistor
+ 
+ 
+Explain your answer.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+[3]
+ 
+[Total: 7]
+
+
+===== Q11 =====
+16
+0625/42/M/J/22
+© UCLES 2022
+11 (a) Fig. 11.1 shows the paths of three α-particles moving towards a thin gold foil. Four gold nuclei 
+are shown.
+paths of
+α-particles
+gold nuclei
+Fig. 11.1 (not to scale)
+ 
+ 
+(i) On Fig. 11.1, complete the paths of the three α-particles. 
+[3]
+ 
+ 
+(ii) State the sign of the charge on the α-particles.
+ 
+ .......................................................... [1]
+ 
+(b) The nuclide notation for a nucleus of gold-198 is 198
+79Au.
+ 
+ 
+State the numbers of electrons, neutrons and protons in a neutral atom of gold-198.
+number of electrons =  .............................
+number of neutrons =  .............................
+number of protons =  ...............................
+ 
+[3]
+ 
+[Total: 7]
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every 
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the 
+publisher will be pleased to make amends at the earliest possible opportunity.
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+Cambridge Assessment International Education is part of Cambridge Assessment. Cambridge Assessment is the brand name of the University of Cambridge 
+Local Examinations Syndicate (UCLES), which is a department of the University of Cambridge.
+

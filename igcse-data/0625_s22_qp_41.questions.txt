@@ -1,0 +1,509 @@
+===== Q1 =====
+2
+0625/41/M/J/22
+© UCLES 2022
+1 
+A car of mass m is travelling along a straight, horizontal road at a constant speed v.
+ 
+At time t = 0, the driver of the car sees an obstruction in the road ahead of the car and applies the 
+brakes.
+ 
+The car does not begin to decelerate at t = 0.
+ 
+(a) Explain what is meant by deceleration.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+(b) Suggest one reason why the car does not begin to decelerate at t = 0.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+(c) Fig. 1.1 is the distance–time graph for the car from t = 0.
+0
+0
+20
+40
+60
+1
+2
+3
+4
+time / s
+distance / m
+5
+Fig. 1.1
+ 
+ 
+(i) State the property of a distance–time graph that corresponds to speed.
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Using Fig. 1.1, determine the initial speed v of the car. 
+ 
+v =  ......................................................... [2]
+
+3
+0625/41/M/J/22
+© UCLES 2022
+[Turn over
+ 
+(d) When the car is decelerating, there is a constant resistive force F on the car due to the 
+brakes.
+ 
+ 
+The deceleration of the car is greater than F
+m and is not constant.
+ 
+ 
+Explain why:
+ 
+ 
+(i) the deceleration of the car is greater than F
+m
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) the deceleration is not constant.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+[Total: 9]
+
+
+===== Q2 =====
+4
+0625/41/M/J/22
+© UCLES 2022
+2 
+Fig. 2.1 shows water stored in a reservoir behind a hydroelectric dam.
+generator
+turbine
+reservoir
+150 m
+Fig. 2.1 (not to scale)
+ 
+(a) State the form of the energy stored in the water in the reservoir that is used to generate 
+electricity.
+ ............................................................................................................................................. [1]
+ 
+(b) The turbine is 150 m below the level of the water in the reservoir. 
+ 
+ 
+Atmospheric pressure is 1.0 × 105 Pa. The density of water is 1000 kg / m3.
+ 
+ 
+(i) Calculate the total pressure in the water at the turbine.
+ 
+pressure =  ......................................................... [3]
+
+5
+0625/41/M/J/22
+© UCLES 2022
+[Turn over
+ 
+ 
+(ii) The turbine has a cross-sectional area of 3.5 m2.
+ 
+ 
+ Calculate the force exerted on the turbine by the water.
+ 
+force =  .......................................................... [2]
+ 
+(c) The water flows to the turbine through a pipe of constant cross-sectional area.
+ 
+ 
+Explain why the kinetic energy of the water in the pipe remains constant as it flows through 
+the pipe.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+[Total: 8]
+
+
+===== Q3 =====
+6
+0625/41/M/J/22
+© UCLES 2022
+3 
+During a picnic on a warm, dry day, a metal can of lemonade is wrapped in a damp cloth.
+ 
+Evaporation cools the water in the cloth.
+ 
+(a) Explain, in terms of molecules, how evaporation cools the water in the cloth.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+ 
+(b) As the water in the cloth cools, so does the lemonade.
+ 
+ 
+Explain how electrons transfer thermal energy through the metal of the can.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+ 
+[Total: 6]
+
+
+===== Q4 =====
+7
+0625/41/M/J/22
+© UCLES 2022
+[Turn over
+4 
+A thermocouple is a device that is used as a thermometer.
+ 
+(a) Fig. 4.1 shows a beaker that contains molten sulfur at an initial temperature greater than 
+400 °C.
+ 
+ 
+(i) On Fig. 4.1, sketch and label a diagram of a thermocouple that is used to determine the 
+temperature of the sulfur as it cools to room temperature.
+ 
+sulfur
+Fig. 4.1
+ 
+[4]
+ 
+ 
+(ii) Describe briefly how the temperature of the sulfur in the beaker is deduced.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+(b) State one advantage of using a thermocouple to measure temperature rather than using a 
+liquid-in-glass thermometer. 
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+[Total: 7]
+
+
+===== Q5 =====
+8
+0625/41/ M / J /22 
+© UCLES 2022
+5 
+Fig. 5.1 shows a kitchen tap that supplies instant boiling water.
+Fig. 5.1
+ 
+Cold water passes over an electric immersion heater inside the tap.
+ 
+The boiling point of water is 100 °C.
+ 
+(a) State what is meant by boiling point.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+(b) The immersion heater is powered by the mains at a voltage of 230 V. When the tap is opened, 
+the heater switches on and the current in the heater is 13 A.
+ 
+ 
+(i) Calculate the thermal energy produced by the heater in 60 s.
+ 
+thermal energy =  ......................................................... [2]
+ 
+ 
+(ii) The specific heat capacity of water is 4200 J / (kg °C). The cold water that enters the tap 
+is at 22 °C. 
+ 
+ 
+ Calculate the rate at which water at its boiling point emerges from the tap.
+ 
+rate =  ......................................................... [4]
+
+9
+0625/41/M/J/22
+© UCLES 2022
+[Turn over
+ 
+(c) The metal tap is earthed and there is a fuse in the cable that connects the heater to the 
+mains.
+ 
+ 
+1. 
+Explain how the earth wire protects the user. 
+ ................................................................................................................................................... 
+ ...................................................................................................................................................
+ 
+ 
+2. 
+Explain how the fuse protects the circuit.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ 
+[3]
+ 
+[Total: 11]
+
+
+===== Q6 =====
+10
+0625/41/M/J/22
+© UCLES 2022
+6 
+Fig. 6.1 shows a road next to the sea.
+Fig. 6.1
+ 
+(a) On a sunny day, the Sun warms the road.
+ 
+ 
+Describe how energy from the Sun reaches the Earth and warms the road.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+ 
+(b) The temperature of the road is greater than the temperature of the sea.
+ 
+ 
+The surface of the road is black.
+ 
+ 
+Suggest one reason why the temperature of the road is greater than that of the sea.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+(c) The air above the road is heated by the warm road.
+ 
+ 
+(i) Describe how this affects the molecules of the air. 
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+
+11
+0625/41/M/J/22
+© UCLES 2022
+[Turn over
+ 
+ 
+(ii) A cyclist travelling along the road notices that a cool breeze is blowing from the sea to 
+the land.
+ 
+ 
+ Explain how convection produces this breeze. You may include a diagram if it helps your 
+answer.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [3]
+ 
+[Total: 9]
+
+
+===== Q7 =====
+12
+0625/41/M/J/22
+© UCLES 2022
+7 
+Fig. 7.1 is a full-scale diagram of a small nail N in front of a thin converging lens. The line L 
+represents the lens.
+Y
+X
+L
+N
+1.0 cm
+1.0 cm
+Fig. 7.1 (full scale)
+ 
+The focal length of the lens is 3.0 cm.
+ 
+(a) Rays of light, parallel to XY, are travelling towards the lens.
+ 
+ 
+Describe what happens to the light after it passes through the lens.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+ 
+(b) On Fig. 7.1, mark and label with an F each of the two principal focuses of the lens. 
+[1]
+ 
+(c) The small nail N, of height 1.2 cm, is positioned 2.0 cm to the left of the lens.
+ 
+ 
+(i) By drawing on Fig. 7.1, find the position of the image I of N and add image I to the 
+diagram. 
+[3]
+ 
+ 
+(ii) State and explain whether I is a real or a virtual image.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(iii) State the name given to a lens when it is used in this way.
+ ..................................................................................................................................... [1]
+ 
+[Total: 9]
+
+
+===== Q8 =====
+13
+0625/41/M/J/22
+© UCLES 2022
+[Turn over
+8 
+Fig. 8.1 shows two vertical, cylindrical tubes and a cylindrical magnet all held in a vacuum. 
+copper tube
+cylindrical
+magnet
+plastic tube
+Fig. 8.1 (not to scale)
+ 
+One tube is made of plastic and the other tube is made of copper. The two cylindrical tubes have 
+identical dimensions.
+ 
+The magnetic field of the small, cylindrical magnet is extremely strong.
+ 
+Initially, the magnet is at rest at the top of the plastic tube.
+ 
+The magnet is released and it falls through the plastic tube without experiencing a resistive force. 
+The magnet takes 0.67 s to fall to the lower end of the plastic tube.
+ 
+(a) The mass of the magnet is 0.012 kg.
+ 
+ 
+Calculate the kinetic energy of the magnet when it reaches the lower end of the plastic tube.
+ 
+ 
+kinetic energy =  ......................................................... [4]
+ 
+(b) The magnet is then held at the top of the copper tube and released. As it falls through the 
+copper tube, an electric current is generated in the copper.
+ 
+ 
+(i) Explain why there is a current in the copper.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+
+14
+0625/41/M/J/22
+© UCLES 2022
+ 
+ 
+(ii) The current in the copper produces a magnetic field of its own in the tube. 
+ 
+ 
+ The magnet falls much more slowly in the copper tube than in the plastic tube.
+ 
+ 
+ Explain why the magnet falls more slowly in the copper tube. 
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+[Total: 8]
+
+
+===== Q9 =====
+15
+0625/41/M/J/22
+© UCLES 2022
+[Turn over
+9 
+Combinations of logic gates are used when digital signals are processed.
+ 
+(a) Describe the difference between a digital signal and an analogue signal. You may include a 
+diagram if it helps your answer.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+(b) Fig. 9.1 is the truth table for a logic gate X.
+input A
+input B
+output
+0
+0
+1
+0
+1
+0
+1
+0
+0
+1
+1
+0
+Fig. 9.1
+ 
+ 
+State the name of logic gate X and draw the symbol that represents it.
+name  .........................................................................................................................................
+ 
+ 
+symbol
+ 
+[1]
+ 
+(c) Logic gate Y is identical to logic gate X.
+ 
+ 
+Draw a combination of logic gates X and Y that behaves like an OR gate. Label the inputs A 
+and B and label the output Q.
+ 
+[2]
+ 
+[Total: 5]
+
+
+===== Q10 =====
+16
+0625/41/M/J/22
+© UCLES 2022
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every 
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the 
+publisher will be pleased to make amends at the earliest possible opportunity.
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+Cambridge Assessment International Education is part of Cambridge Assessment. Cambridge Assessment is the brand name of the University of Cambridge 
+Local Examinations Syndicate (UCLES), which is a department of the University of Cambridge.
+10 Two of the isotopes of hydrogen are hydrogen-2 ( 2
+1H ) and hydrogen-3 ( 3
+1H ).
+ 
+(a) (i) State one similarity in the composition of their nuclei.
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Describe how a nucleus of hydrogen-3 differs from a nucleus of hydrogen-2.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+(b) In a nuclear fusion reactor, a nucleus of hydrogen-2 fuses with a nucleus of hydrogen-3 at 
+an extremely high temperature. This fusion reaction produces an isotope of element X and 
+releases a neutron.
+ 
+ 
+(i) Explain why an extremely high temperature is needed when forcing these two nuclei 
+together.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [3]
+ 
+ 
+(ii) Using nuclide notation, complete the equation for this reaction.
+ 
+ 
+ 
+ 
+2
+1H   +   3
+1H 
+ 
+[2]
+ 
+[Total: 8]
+

@@ -1,0 +1,426 @@
+{
+  "paper": "0625/43/M/J/22",
+  "paper_full": "June 2022 · Paper 43",
+  "questions": [
+    {
+      "qnum": 1,
+      "topic": "1",
+      "title": "Electric car — acceleration, force and kinetic energy",
+      "marks": 15,
+      "pdf": "igcse-slices/0625_s22_qp_43_Q01.pdf",
+      "parts": [
+        {
+          "label": "1(a)(i)",
+          "marks": 3,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "9.7 s (a =) v t   in any form OR 28 (–0)/2.9"
+        },
+        {
+          "label": "1(a)(ii)",
+          "marks": 3,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "4600 N (F =) ma in any form OR 1600  2.9"
+        },
+        {
+          "label": "1(a)(iii)",
+          "marks": 3,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "630 000 J / 6.3  105 J (KE =) ½ mv 2 in any form OR 2 1600 28 2 "
+        },
+        {
+          "label": "1(b)",
+          "marks": 5,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "960 000 C / 9.6  105 C (Q =) It in any form OR 32  8.3  60  60 (t s =) 8.3  60  60"
+        },
+        {
+          "label": "1(c)",
+          "marks": 1,
+          "codes": [
+            "1.2"
+          ],
+          "answer": "any one explicit example of a variation from ideal conditions such as: (repeated) acceleration / deceleration / use of brakes / varying speed motion uphill / uneven road surface cold weather / headwind"
+        }
+      ],
+      "code": "1.2"
+    },
+    {
+      "qnum": 2,
+      "topic": "1",
+      "title": "Hydroelectric power — gravitational potential energy, power and efficiency",
+      "marks": 13,
+      "pdf": "igcse-slices/0625_s22_qp_43_Q02.pdf",
+      "parts": [
+        {
+          "label": "2(a)",
+          "marks": 1,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "gravitational potential (energy)"
+        },
+        {
+          "label": "2(b)(i)",
+          "marks": 5,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "2.0  106 J / s (P =) E/t in any form OR (480  10  410)/1 (∆GPE =) mgh in any form OR 480  10  410 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 7 of 11"
+        },
+        {
+          "label": "2(b)(ii)",
+          "marks": 5,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "81 (%) OR 82 (%) P = V I in any form OR 6000  270 OR 1 620 000 (efficiency =) (useful) power out / (total) power in ( 100%) in any form"
+        },
+        {
+          "label": "2(c)(i)",
+          "marks": 1,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "damage to habitats (for fish) / construction is expensive / droughts / flood risk if dam bursts"
+        },
+        {
+          "label": "2(c)(ii)",
+          "marks": 1,
+          "codes": [
+            "1.7"
+          ],
+          "answer": "biofuel / wind / geothermal / tidal / solar / wave"
+        }
+      ],
+      "code": "1.7"
+    },
+    {
+      "qnum": 3,
+      "topic": "1",
+      "title": "Suspended boat — resultant force, tension and mass",
+      "marks": 7,
+      "pdf": "igcse-slices/0625_s22_qp_43_Q03.pdf",
+      "parts": [
+        {
+          "label": "3(a)(i)",
+          "marks": 4,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "suitable scale recorded (e.g. 2 cm : 25 N) two vectors correctly drawn by eye AND correct resultant 130 N (vertically) upwards"
+        },
+        {
+          "label": "3(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "13 kg"
+        },
+        {
+          "label": "3(b)",
+          "marks": 2,
+          "codes": [
+            "1.5"
+          ],
+          "answer": "acceleration momentum"
+        }
+      ],
+      "code": "1.5"
+    },
+    {
+      "qnum": 4,
+      "topic": "2",
+      "title": "Smoke particles — Brownian motion, internal energy and pressure",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_s22_qp_43_Q04.pdf",
+      "parts": [
+        {
+          "label": "4(a)(i)",
+          "marks": 2,
+          "codes": [
+            "2.1"
+          ],
+          "answer": "zig zag motion / random changes of direction random length of path in each direction 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 8 of 11"
+        },
+        {
+          "label": "4(a)(ii)",
+          "marks": 4,
+          "codes": [
+            "2.1"
+          ],
+          "answer": "any four from:  air molecules bombard smoke particles  air molecules are small (compared to smoke particles) / have small(er) mass  air molecules are very fast moving  air molecules move in random directions  (collisions exert unbalanced) forces on smoke particles"
+        },
+        {
+          "label": "4(b)(i)",
+          "marks": 1,
+          "codes": [
+            "2.1"
+          ],
+          "answer": "kinetic energy (and potential energy) of molecules increase (hence internal energy increases)"
+        },
+        {
+          "label": "4(b)(ii)",
+          "marks": 2,
+          "codes": [
+            "2.1"
+          ],
+          "answer": "bigger change in momentum of molecules OR molecules hit (the walls) harder (molecules hit) more often / more frequently"
+        }
+      ],
+      "code": "2.1"
+    },
+    {
+      "qnum": 5,
+      "topic": "2",
+      "title": "Water to ice — specific heat capacity and latent heat",
+      "marks": 15,
+      "pdf": "igcse-slices/0625_s22_qp_43_Q05.pdf",
+      "parts": [
+        {
+          "label": "5(a)",
+          "marks": 3,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "energy required to raise the temperature of 1 kg / 1 g / unit mass of a substance by 1 °C / unit temperature energy required to raise the temperature of a substance by 1 °C"
+        },
+        {
+          "label": "5(b)(i)",
+          "marks": 3,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "0.50 kg  = m/V in any form"
+        },
+        {
+          "label": "5(b)(ii)",
+          "marks": 9,
+          "codes": [
+            "2.2"
+          ],
+          "answer": "190 000J / 1.9  105 J / 190 kJ (E=) mc∆T in any form (E=) mL in any form Use of c = 4200 (J / kg °C) AND ∆T = 5 Use of c = 2100 AND ∆T = 18 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 9 of 11"
+        }
+      ],
+      "code": "2.2"
+    },
+    {
+      "qnum": 6,
+      "topic": "3",
+      "title": "Water waves — diffraction, refraction and wave types",
+      "marks": 9,
+      "pdf": "igcse-slices/0625_s22_qp_43_Q06.pdf",
+      "parts": [
+        {
+          "label": "6(a)(i)",
+          "marks": 2,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "wavefronts semicircles or part semicircles centred on gap wavelength of waves to right of barrier same as wavelength of incident wave"
+        },
+        {
+          "label": "6(a)(ii)",
+          "marks": 3,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "1 wavelength shorter correct refraction 2 direction of travel perpendicular to wavefronts"
+        },
+        {
+          "label": "6(b)",
+          "marks": 2,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "any two from:  particles (in transverse waves) vibrate perpendicular to the direction of travel (of the wave) OR particles in longitudinal waves vibrate parallel to the direction of travel of the wave  longitudinal waves have compressions and rarefactions  transverse waves have troughs and crests"
+        },
+        {
+          "label": "6(c)(i)",
+          "marks": 1,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "1000 m / s ⩽ value ⩽ 2000 m / s"
+        },
+        {
+          "label": "6(c)(ii)",
+          "marks": 1,
+          "codes": [
+            "3.1"
+          ],
+          "answer": "molecules closer together / water has greater density"
+        }
+      ],
+      "code": "3.1"
+    },
+    {
+      "qnum": 7,
+      "topic": "3",
+      "title": "Plane mirror — image formation and reflection",
+      "marks": 6,
+      "pdf": "igcse-slices/0625_s22_qp_43_Q07.pdf",
+      "parts": [
+        {
+          "label": "7(a)",
+          "marks": 2,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "ray from left hand corner of the mirror to the eye angle of incidence = angle of reflection"
+        },
+        {
+          "label": "7(b)",
+          "marks": 2,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "any two from: virtual upright same size as object laterally inverted"
+        },
+        {
+          "label": "7(c)(i)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "ultraviolet / X-rays / gamma rays"
+        },
+        {
+          "label": "7(c)(ii)",
+          "marks": 1,
+          "codes": [
+            "3.2"
+          ],
+          "answer": "infrared / microwaves / radio (waves) 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 10 of 11"
+        }
+      ],
+      "code": "3.2"
+    },
+    {
+      "qnum": 8,
+      "topic": "4",
+      "title": "Circuit with LDR — current, potential difference and resistance",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_s22_qp_43_Q08.pdf",
+      "parts": [
+        {
+          "label": "8(a)(i)",
+          "marks": 1,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "light-dependent resistor / LDR"
+        },
+        {
+          "label": "8(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "voltmeter connected in parallel with component Y"
+        },
+        {
+          "label": "8(a)(iii)",
+          "marks": 4,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "1 0.016 A (I =) V/R in any form or 12/400 or 12/350 or 12/750 OR (Rtotal = R1 + R2 =) 750 () 2 6.4 V"
+        },
+        {
+          "label": "8(a)(iv)",
+          "marks": 1,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "(in a dark room the p.d. across component Y) decreases"
+        },
+        {
+          "label": "8(b)",
+          "marks": 1,
+          "codes": [
+            "4.3"
+          ],
+          "answer": "one named practical application of LDR e.g. switch on street lights (at night) / turn on security light (at night)"
+        }
+      ],
+      "code": "4.3"
+    },
+    {
+      "qnum": 9,
+      "topic": "4",
+      "title": "Moving magnet in coil — electromagnetic induction and transformer",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_s22_qp_43_Q09.pdf",
+      "parts": [
+        {
+          "label": "9(a)(i)",
+          "marks": 4,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "any four from:  needle oscillates (as magnet moves up and down)  coil cuts magnetic field / magnetic field changes (as magnet moves)  changing (magnetic) field induces voltage/current  induced voltage/current opposes the motion/change causing it  force, magnetic field and induced current are mutually perpendicular"
+        },
+        {
+          "label": "9(a)(ii)",
+          "marks": 1,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "larger (maximum) deflection"
+        },
+        {
+          "label": "9(b)",
+          "marks": 3,
+          "codes": [
+            "4.5"
+          ],
+          "answer": "2300 (NP =) VP NS / VS in any form OR (NP =) 25000 36000 400000  0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 11 of 11"
+        }
+      ],
+      "code": "4.5"
+    },
+    {
+      "qnum": 10,
+      "topic": "5",
+      "title": "Protactinium-234 — half-life and beta decay",
+      "marks": 8,
+      "pdf": "igcse-slices/0625_s22_qp_43_Q10.pdf",
+      "parts": [
+        {
+          "label": "10(a)",
+          "marks": 2,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "background radiation (present in values in Table 10.1) (background radiation) is removed (before plotting) OR (background radiation) not present in the graph values"
+        },
+        {
+          "label": "10(b)",
+          "marks": 3,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "70 ⩽ half-life ⩽ 76 (s) evidence of at least one pair of values for count rate halving taken from graph"
+        },
+        {
+          "label": "10(c)",
+          "marks": 3,
+          "codes": [
+            "5.2"
+          ],
+          "answer": "234 91 Pa → 234 92 U + 0 1  92U on RHS 234U + 0 1  on RHS"
+        }
+      ],
+      "code": "5.2"
+    }
+  ]
+}

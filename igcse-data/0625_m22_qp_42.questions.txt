@@ -1,0 +1,483 @@
+===== Q1 =====
+2
+0625/42/F/M/22
+© UCLES 2022
+1 
+A ball rolls down a ramp and onto a horizontal surface. The first section of the horizontal surface is 
+smooth. The second section of the horizontal surface is rough. Fig. 1.1 shows a speed–time graph 
+for the ball.
+0
+2.0
+4.0
+0
+1.0
+2.0
+time / s
+speed
+m / s
+3.0
+6.0
+8.0
+10.0
+12.0
+14.0
+Fig. 1.1
+ 
+(a) State the time when the ball reaches the start of the rough section of the horizontal surface.
+ 
+time = ..................................................... [1]
+ 
+(b) Explain how Fig. 1.1 shows that there is no resultant force on the ball when it rolls along the 
+smooth section of the horizontal surface.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+
+3
+0625/42/F/M/22
+© UCLES 2022
+[Turn over
+ 
+(c) Using Fig. 1.1, determine the acceleration of the ball as it rolls down the ramp.
+ 
+acceleration = ..................................................... [3]
+ 
+(d) The ball starts from rest at the top of the ramp.
+ 
+ 
+Show that the length of the ramp is 9.6 m.
+[2]
+[Total: 8]
+
+
+===== Q2 =====
+4
+0625/42/F/M/22
+© UCLES 2022
+2 
+Fig. 2.1 shows a spring balance used to measure the weight of a baby. The spring inside the 
+balance extends when a mass is suspended from it. The dial shows the extension of spring as a 
+value of mass in kg.
+cradle with
+negligible mass
+dial
+Fig. 2.1
+ 
+The spring obeys Hooke’s law up to a weight of 175 N.
+ 
+(a) (i) State Hooke’s law.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) State the relationship between the mass of the baby and the force exerted on the spring 
+due to the baby.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(iii) The reading on the spring balance is 8.0 kg.
+ 
+ 
+ Determine the force exerted on the spring due to the baby.
+ 
+force = ..................................................... [1]
+
+5
+0625/42/F/M/22
+© UCLES 2022
+[Turn over
+ 
+(b) The limit of proportionality for the spring is at a force of 175 N.
+ 
+ 
+Sketch the extension–load graph for the spring. The sketch must continue beyond a force of 
+175 N.
+extension
+load / N
+0
+175
+0
+[2]
+ 
+(c) The baby is carried from the ground floor to the bedroom. The vertical height of the bedroom 
+above the ground floor is 3.5 m.
+ 
+ 
+ Calculate the change in gravitational potential energy of the baby when it is carried from the 
+ground floor to the bedroom.
+ 
+change in gravitational potential energy = ..................................................... [2]
+[Total: 7]
+
+
+===== Q3 =====
+6
+0625/42/F/M/22
+© UCLES 2022
+3 
+Fig. 3.1 and Fig. 3.2 show how a puddle of water changes on a warm windy day.
+puddle of
+water
+puddle of water
+three hours later
+solid road
+surface
+ 
+Fig. 3.1 
+Fig. 3.2
+ 
+(a) Describe the process by which the volume of water in the puddle decreases.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+(b) State and explain one change in the weather that would cause the volume of water in the 
+puddle to decrease more slowly.
+statement  ..................................................................................................................................
+explanation  ...............................................................................................................................
+ ...................................................................................................................................................
+[2]
+ 
+(c) Explain, in terms of molecules, how sweating helps to cool your body on a hot day.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+[Total: 7]
+
+
+===== Q4 =====
+7
+0625/42/F/M/22
+© UCLES 2022
+[Turn over
+4 
+(a) A sample of sand has a volume of 0.050 m3. The density of the sand is 1900 kg / m3. The 
+specific heat capacity of the sand is 1500 J / (kg °C).
+ 
+ 
+(i) Calculate the mass of the sample of sand.
+ 
+mass = ..................................................... [2]
+ 
+ 
+(ii) Calculate the thermal capacity of the sample of sand.
+ 
+thermal capacity = ..................................................... [2]
+ 
+ 
+(iii) The initial temperature of the sample of sand is 7.0 °C. The sample of sand is heated 
+using an electrical heater. The power of the heating element is 50 W.
+ 
+ 
+ Calculate the time taken to increase the temperature of the sand to 19.0 °C.
+ 
+time = ..................................................... [3]
+ 
+(b) In some countries, the soil is too cold for plants to grow well. In these countries, plants are 
+grown in plastic pots and kept inside. The pots, containing soil, are placed on sand. The sand 
+is heated using an electrical heater, as shown in Fig. 4.1.
+plastic
+plant pot
+plant
+sand
+soil
+heating element in sand
+Fig. 4.1
+ 
+ 
+(i) Describe, in terms of molecules, how thermal energy is transferred from the heated sand 
+through the base of the plastic pot.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+
+8
+0625/42/F/M/22
+© UCLES 2022
+ 
+ 
+(ii) The heating element in Fig. 4.1 remains switched on. The temperature of the sand 
+remains constant at a value above room temperature.
+ 
+ 
+ Explain why the temperature of the sand remains constant.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+[Total: 11]
+
+
+===== Q5 =====
+9
+0625/42/F/M/22
+© UCLES 2022
+[Turn over
+5 
+A boy looks at the image of a clock in a plane mirror. Fig. 5.1 shows the mirror, the clock and the 
+position of one of the boy’s eyes.
+mirror
+boy’s eye
+clock
+Fig. 5.1
+ 
+(a) (i) On Fig. 5.1, draw a ray of light from the clock, reflected to the boy’s eye. 
+[2]
+ 
+ 
+(ii) On Fig. 5.1, mark with an X the position of the image of the clock. 
+[1]
+ 
+ 
+(iii) State whether the image formed by the mirror is virtual or real.
+ 
+ 
+ Explain your answer.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(iv) Fig. 5.2 shows the image of the clock seen by the boy.
+Fig. 5.2
+ 
+ 
+ The boy now looks directly at the clock.
+ 
+ 
+ On Fig. 5.3, draw what the boy sees.
+Fig. 5.3
+[1]
+
+10
+0625/42/F/M/22
+© UCLES 2022
+ 
+(b) (i) The clock is illuminated by a source of monochromatic green light.
+ 
+ 
+ State the meaning of monochromatic.
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) The green light has a wavelength of 5.6 × 10–7 m.
+ 
+ 
+ Calculate the frequency of this green light.
+ 
+frequency = ..................................................... [3]
+[Total: 9]
+
+
+===== Q6 =====
+11
+0625/42/F/M/22
+© UCLES 2022
+[Turn over
+6 
+Fig. 6.1 shows two bar magnets.
+N
+S
+Fig. 6.1
+ 
+(a) On Fig. 6.1, sketch the pattern and the direction of the magnetic field lines between the bar 
+magnets. 
+[2]
+ 
+(b) Fig. 6.2 shows the same bar magnets with a coil of wire between them.
+A
+S
+N
+handle
+direction of
+rotation
+galvanometer
+Fig. 6.2
+ 
+ 
+(i) Name the parts labelled A in Fig. 6.2.
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) The coil of wire is rotated in the direction shown in Fig. 6.2.
+ 
+ 
+ On Fig. 6.2, draw an arrow to show the direction of the current in the coil. Explain your 
+answer.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+ 
+(iii) Explain how rotating the coil in Fig. 6.2 continuously causes the galvanometer needle to 
+show an alternating current.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [4]
+[Total: 9]
+
+
+===== Q7 =====
+12
+0625/42/F/M/22
+© UCLES 2022
+7 
+Fig. 7.1 shows a circuit including a 12 V battery and two identical lamps.
+A
+Q
+Fig. 7.1
+ 
+(a) The 12 V battery consists of cells connected in series. Each cell in the battery has an 
+electromotive force (e.m.f.) of 1.5 V.
+ 
+ 
+Determine how many cells are in the battery.
+ 
+number of cells = ..................................................... [1]
+ 
+(b) (i) When the switch is closed, the ammeter reading is 2.4 A.
+ 
+ 
+ Calculate the total resistance of the circuit.
+ 
+resistance = ..................................................... [2]
+ 
+ 
+(ii) Each lamp has a resistance of 3.0 Ω.
+ 
+ 
+ Calculate the resistance of Q.
+ 
+resistance of Q = ..................................................... [2]
+ 
+(c) (i) On Fig. 7.1, draw the symbol for a voltmeter that measures the potential difference (p.d.) 
+across the two lamps. 
+[1]
+ 
+ 
+(ii) Calculate the power supplied to one lamp.
+ 
+power = ..................................................... [3]
+[Total: 9]
+
+
+===== Q8 =====
+13
+0625/42/F/M/22
+© UCLES 2022
+[Turn over
+8 
+A radio is connected to the mains supply using a step-down transformer.
+ 
+(a) Draw a labelled diagram of the structure of a basic step-down transformer.
+[3]
+ 
+(b) Explain the operation of a basic transformer.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+ 
+(c) The voltage of the mains supply is 230 V. The output voltage of the transformer is 6.0 V.
+ 
+ 
+Calculate the value of the turns ratio (
+Ns
+Np
+). Give your answer to two significant figures.
+ 
+value of turns ratio = ..................................................... [2]
+[Total: 8]
+
+
+===== Q9 =====
+14
+0625/42/F/M/22
+© UCLES 2022
+9 
+Fig. 9.1 shows a digital circuit.
+A
+C
+D
+B
+Fig. 9.1
+ 
+(a) (i) Explain what is meant by digital.
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Table 9.1 is a truth table for the digital circuit shown in Fig. 9.1.
+ 
+ 
+ Complete the columns C and D in Table 9.1.
+Table 9.1
+A
+B
+C
+D
+0
+0
+0
+1
+1
+0
+1
+1
+[2]
+ 
+(b) State the single logic gate that would produce the same output D from inputs A and B.
+ ............................................................................................................................................. [1]
+[Total: 4]
+
+
+===== Q10 =====
+15
+0625/42/F/M/22
+© UCLES 2022
+10 The isotope americium-241 is represented by
+241
+95Am.
+ 
+This isotope decays by an α-emission to an isotope of neptunium (Np).
+ 
+(a) Complete the nuclide equation for this decay.
+241
+95Am
+Np +
+α
+........
+........
+........
+........
+[3]
+ 
+(b) Fig. 10.1 shows a simple diagram of a smoke detector. The smoke detector contains a 
+small sample of americium-241. This isotope ionises the air between the metal plates in the 
+detector.
+metal plates
+air flow
+detector circuit
+radioactive
+source
+Fig. 10.1
+ 
+ 
+(i) Describe how the americium-241 ionises air.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [3]
+ 
+ 
+(ii) Suggest and explain two reasons why smoke detectors use an isotope that emits 
+α-particles rather than an isotope that emits γ-radiation.
+1.  .......................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+2.  .......................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+[2]
+[Total: 8]
+

@@ -1,0 +1,837 @@
+===== Q1 (page 1) =====
+1 
+A wire is approximately 48 cm long and has an approximate diameter of 0.3 mm. 
+ 
+Which measuring instruments can be used to obtain more precise values of the dimensions of the 
+wire? 
+ 
+ 
+length of the wire 
+diameter of the wire 
+A 
+30 cm ruler 
+micrometer 
+B 
+half-metre rule 
+30 cm rule 
+C 
+half-metre rule 
+micrometer 
+D 
+micrometer 
+half-metre rule
+
+===== Q2 (page 1) =====
+2 
+The velocity–time graph for a car is shown. 
+ 
+25
+20
+15
+10
+5
+0
+velocity
+m / s
+0
+5
+10
+15
+20
+25
+time / s
+30
+35
+ 
+ 
+What is the distance travelled by the car in 35 s? 
+A 
+250 m 
+B 
+350 m 
+C 
+450 m 
+D 
+700 m
+
+===== Q3 (page 1) =====
+3 
+Which property of a body results from the effect of a gravitational field on its mass? 
+A 
+the ability of the body to resist a change in motion 
+B 
+the density of the body 
+C 
+the volume of the body 
+D 
+the weight of the body
+
+===== Q4 (page 2) =====
+4 
+The diagram shows four pieces of laboratory apparatus. 
+ 
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+measuring
+cylinder
+balance
+ruler
+stop-watch
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+0.0g
+ 
+ 
+Which pieces of apparatus are used to find the density of a liquid? 
+A 
+balance and stop-watch  
+B 
+balance and measuring cylinder 
+C 
+measuring cylinder and ruler 
+D 
+stop-watch and ruler
+
+===== Q5 (page 2) =====
+5 
+A metal rod of length 80 cm is pivoted at point O. Its centre of mass is at its mid-point. Four pulley 
+wheels are indicated by the letter P. 
+ 
+20 cm
+0.10 kg
+0.10 kg
+P
+P
+P
+P
+metal rod
+cords
+O
+20 cm
+ 
+ 
+The rod is in equilibrium, as shown. 
+ 
+What is the weight of the rod? 
+A 
+0.20 N 
+B 
+1.0 N 
+C 
+2.0 N 
+D 
+4.0 N
+
+===== Q6 (page 3) =====
+6 
+The diagram shows an object moving at a constant speed in a circular path in the direction 
+shown. 
+ 
+A force acts on the object to keep it in the circular path. 
+ 
+In which labelled direction does this force act, when the object is in the position shown? 
+ 
+A
+C
+B
+D
+object
+path of
+object
+
+===== Q7 (page 3) =====
+7 
+A force F acts on a body of mass m for a time t. During this time, the velocity of the body 
+increases from u to v. 
+ 
+Which equation relates F, m, t, u and v ? 
+A 
+Fm = t(v – u) 
+B 
+Fm = t(v + u) 
+C 
+Ft = m(v – u) 
+D 
+Ft = m(v + u)
+
+===== Q8 (page 3) =====
+8 
+An object falls towards the Earth’s surface. 
+ 
+What happens to the gravitational potential energy and to the kinetic energy of the object? 
+ 
+ 
+gravitational potential 
+energy 
+kinetic energy 
+A 
+decreases 
+decreases 
+B 
+decreases 
+increases 
+C 
+increases 
+decreases 
+D 
+increases 
+increases
+
+===== Q9 (page 4) =====
+9 
+A skier is pulled up a short straight slope at constant speed by a rope. 
+ 
+rope
+ 
+ 
+The tension in the rope is 100 N and there is a combined frictional and air resistance force of 20 N 
+acting on the skier. 
+ 
+The slope is 10 m long and the skier rises 1.5 m vertically. 
+ 
+How much work is done by the rope pulling the skier up the slope? 
+A 
+120 J 
+B 
+150 J 
+C 
+1000 J 
+D 
+1200 J
+
+===== Q10 (page 4) =====
+10 In some situations, a force does work. 
+ 
+Which set of conditions increases the quantity of work done by the force? 
+ 
+ 
+magnitude 
+of force 
+distance moved 
+by the force 
+A 
+decreases 
+decreases 
+B 
+decreases 
+stays the same 
+C 
+increases 
+increases 
+D 
+stays the same 
+decreases
+
+===== Q11 (page 4) =====
+11 A measuring cylinder of cross-sectional area 4.0 cm2 contains 224 cm3 of liquid. 
+ 
+The pressure of the liquid at the base of the measuring cylinder due to the liquid is 8800 Pa. 
+ 
+What is the density of the liquid? 
+A 
+224 kg / m3 
+B 
+385 kg / m3 
+C 
+1600 kg / m3 
+D 
+2200 kg / m3
+
+===== Q12 (page 5) =====
+12 The pressure of a fixed mass of gas in a cylinder is measured. The volume of the gas in the 
+cylinder is slowly decreased. The temperature of the gas does not change. 
+ 
+Which graph shows how the pressure of the gas changes during this process? 
+ 
+pressure
+time
+A
+0
+0
+pressure
+time
+B
+pressure
+time
+C
+pressure
+time
+D
+0
+0
+0
+0
+0
+0
+
+===== Q13 (page 5) =====
+13 Which statement about evaporation is correct? 
+A 
+A body in contact with an evaporating liquid loses thermal energy. 
+B 
+A decrease in the surface area of an evaporating liquid increases the rate of evaporation. 
+C 
+A wind over a liquid decreases the rate of evaporation. 
+D 
+It is necessary to provide an external source of thermal energy to a liquid for it to evaporate.
+
+===== Q14 (page 5) =====
+14 Which change in the design of a liquid-in-glass thermometer makes it more sensitive? 
+A 
+a larger liquid reservoir 
+B 
+a longer tube 
+C 
+a smaller liquid reservoir 
+D 
+a wider tube
+
+===== Q15 (page 6) =====
+15 An ice cube of mass 12 g at 0 C absorbs thermal energy from the surroundings at a rate of 3 J / s. 
+The specific latent heat of fusion of ice is 330 J / g. 
+ 
+How long will it take for the ice cube to melt? 
+A 
+82.5 s 
+B 
+1320 s 
+C 
+3960 s 
+D 
+11 880 s
+
+===== Q16 (page 6) =====
+16 Which piece of equipment is designed to produce a type of electromagnetic wave? 
+A 
+electric fire 
+B 
+electric generator 
+C 
+electric motor 
+D 
+electromagnet
+
+===== Q17 (page 6) =====
+17 A passing boat causes a floating object on a lake to bob up and down 18 times in 12 s. The 
+wavelength of the wave created by the boat is 48 cm. 
+ 
+What is the velocity of these water waves? 
+A 
+32 cm / s 
+B 
+72 cm / s 
+C 
+576 cm / s 
+D 
+864 cm / s
+
+===== Q18 (page 6) =====
+18 Wavefronts are incident on a boundary. 
+ 
+What is needed for the wave to refract at the boundary? 
+A 
+a shiny surface at the boundary 
+B 
+a small gap in the boundary 
+C 
+different mediums either side of the boundary in which the frequency of the wave is different 
+D 
+different mediums either side of the boundary in which the speed of the wave is different
+
+===== Q19 (page 7) =====
+19 A person uses a magnifying glass to look at a stamp. 
+ 
+Which ray diagram shows a thin converging lens being used to do this? 
+ 
+lens
+A
+lens
+B
+lens
+C
+lens
+stamp
+stamp
+stamp
+stamp
+D
+
+===== Q20 (page 7) =====
+20 The diagram shows an object in front of a plane mirror. 
+ 
+At which labelled position is the image of the object formed? 
+ 
+object
+eye
+A
+D
+B
+C
+plane
+mirror
+
+===== Q21 (page 8) =====
+21 The diagram shows the action of a thin converging lens on two rays of light. The rays are from 
+the top of an object O. An inverted image I is formed. 
+ 
+O
+I
+R
+S
+lens
+ 
+ 
+Which name is given to the distance RS? 
+A 
+principal axis 
+B 
+principal focus 
+C 
+focal length 
+D 
+real length
+
+===== Q22 (page 8) =====
+22 The diagram shows the air molecules in part of a sound wave at a particular moment in time. 
+ 
+X
+ 
+ 
+Which statement is not correct? 
+A 
+Earlier, there was compression at X. 
+B 
+Later, there will be a rarefaction at X. 
+C 
+This part of the wave is travelling horizontally across the page. 
+D 
+This part of the wave is travelling towards the top of the page.
+
+===== Q23 (page 8) =====
+23 The speed of light in a vacuum is 3.0  108
+ m / s. 
+ 
+Which value is closest to the speed of light in air? 
+A 
+3.0  102
+ m / s 
+B 
+3.0  104
+ m / s 
+C 
+3.0  106
+ m / s 
+D 
+3.0  108
+ m / s
+
+===== Q24 (page 9) =====
+24 A 100 m race is started by firing a gun. The gun makes a bang and a puff of smoke at the same 
+time. 
+ 
+starter
+finishing
+judge
+100 m
+ 
+ 
+When does the finishing judge see the smoke and when does he hear the bang? 
+ 
+ 
+sees the smoke 
+hears the bang 
+A 
+almost immediately 
+almost immediately 
+B 
+almost immediately 
+after about 0.3 s 
+C 
+after about 0.3 s 
+almost immediately 
+D 
+after about 0.3 s 
+after about 0.3 s
+
+===== Q25 (page 9) =====
+25 A student is to demagnetise a bar magnet. She tries four different ways. 
+ 
+1 
+hammering the magnet 
+2 
+heating the magnet 
+3 
+passing direct current through the magnet 
+4 
+placing the magnet in water 
+ 
+Which methods will demagnetise the magnet? 
+A 
+1, 2 and 3 
+B 
+1 and 2 only 
+C 
+1 and 4 
+D 
+2 and 3 only
+
+===== Q26 (page 10) =====
+26 A student is investigating a resistance wire. 
+ 
+She measures the current in a 50 cm length of resistance wire. 
+ 
+A
+resistance wire 
+ 
+The student repeats the experiment using a 100 cm length of the same resistance wire. 
+ 
+What is the effect of this change on the current in the circuit and on the resistance of the wire? 
+ 
+ 
+effect on 
+current 
+effect on 
+resistance 
+A 
+decreases 
+decreases 
+B 
+decreases 
+increases 
+C 
+increases 
+decreases 
+D 
+increases 
+increases
+
+===== Q27 (page 10) =====
+27 A resistor is connected to a cell so that there is a current from the positive terminal of the cell to 
+the negative terminal. 
+ 
+What causes the current in the resistor? 
+A 
+electrons moving from the negative terminal of the cell to the positive terminal 
+B 
+electrons moving from the positive terminal of the cell to the negative terminal 
+C 
+protons moving from the negative terminal of the cell to the positive terminal 
+D 
+protons moving from the positive terminal of the cell to the negative terminal
+
+===== Q28 (page 10) =====
+28 A plastic rod is rubbed with a dry woollen cloth. The rod becomes positively charged. 
+ 
+Which statement is correct? 
+A 
+Electrons move from the cloth to the rod. 
+B 
+Electrons move from the rod to the cloth. 
+C 
+Protons move from the cloth to the rod. 
+D 
+Protons move from the rod to the cloth.
+
+===== Q29 (page 11) =====
+29 Which combination of the current in a resistor and the time for which it is present results in a 
+charge of 240 C passing through the resistor? 
+A 
+a current of 2.0 A for 120 s 
+B 
+a current of 4.0 A for 960 s 
+C 
+a current of 6.0 A for 40 minutes 
+D 
+a current of 8.0 A for 30 minutes
+
+===== Q30 (page 11) =====
+30 Each potential divider is placed in a circuit with a power supply. 
+ 
+Which potential divider makes the potential difference (p.d.) across component Y increase when 
+the light intensity increases? 
+ 
+X
+A
+Y
+X
+B
+Y
+X
+C
+Y
+X
+D
+Y
+
+===== Q31 (page 12) =====
+31 Two resistors, R1 and R2, are connected in series in a circuit, as shown. 
+ 
+I0
+R1
+R2
+ 
+ 
+The current in the resistors is I0. 
+ 
+Another resistor, R3, is then connected in parallel with R2, as shown. 
+ 
+I1
+I2
+R1
+R2
+R3
+ 
+ 
+How do the currents I1 and I2 in the resistors R1 and R2 compare to current I0? 
+ 
+ 
+current in R1 
+current in R2 
+A 
+I1 = I0 
+I2 < I0 
+B 
+I1 = I0 
+I2 = I0 
+C 
+I1 > I0 
+I2 = I0 
+D 
+I1 > I0 
+I2 < I0
+
+===== Q32 (page 13) =====
+32 The diagram shows a circuit containing a cell, a lamp and two ammeters. 
+ 
+A
+A
+ammeter 1
+ammeter 2
+ 
+ 
+The current reading on ammeter 2 is 0.20 A. 
+ 
+What is the name for this type of circuit and what is the reading on ammeter 1? 
+ 
+ 
+type of circuit 
+reading on ammeter 1 
+A 
+series 
+0.20 A 
+B 
+series 
+greater than 0.20 A 
+C 
+parallel 
+0.20 A 
+D 
+parallel 
+greater than 0.20 A
+
+===== Q33 (page 14) =====
+33 The diagram shows how logic gates can be used to monitor the temperature in a refrigerator. 
+ 
+AND
+NOT
+NOT
+OR
+magnetic
+switch
+on door
+closed = 1
+open = 0
+temperature
+sensor
+cold = 1
+hot = 0
+main
+system
+switch
+on = 1
+off = 0
+warning
+light
+R
+S
+T
+W
+X
+Y
+Z
+ 
+ 
+The warning light will come on if the output at Z is 1. 
+ 
+The door R is open, the temperature sensor S is cold and the main system switch T is on. 
+ 
+What is the logic state at Y and what is the state of the warning light? 
+ 
+ 
+logic state at Y 
+warning light 
+A 
+0 
+off 
+B 
+0 
+on 
+C 
+1 
+off 
+D 
+1 
+on
+
+===== Q34 (page 15) =====
+34 Four small compasses are placed around a solenoid. 
+ 
+solenoid
+ 
+ 
+A current is now switched on in the solenoid. 
+ 
+Which diagram shows possible new directions of the compass needles? 
+ 
+A
+B
+C
+D
+
+===== Q35 (page 15) =====
+35 Which metal is used for the core of a transformer? 
+A 
+aluminium 
+B 
+copper 
+C 
+soft iron 
+D 
+steel
+
+===== Q36 (page 16) =====
+36 The diagram shows a conducting metal rod PQ in the magnetic field between the N pole and the 
+S pole. The rod is connected to a resistor in a circuit. 
+ 
+In which direction should rod PQ be moved to induce the current I in the direction of the arrow in 
+the circuit? 
+ 
+I
+N
+S
+A
+C
+B
+D
+P
+Q
+
+===== Q37 (page 16) =====
+37 A thin metal foil is placed in a vacuum. -particles are fired at the foil and most go straight 
+through. A very small proportion of the -particles are deflected through large angles. 
+ 
+What does this provide evidence for? 
+A 
+-particles are very small. 
+B 
+There are negative electrons in each atom. 
+C 
+There is a tiny nucleus in each atom. 
+D 
+There are neutrons in each atom.
+
+===== Q38 (page 16) =====
+38 The table compares -radiation, -radiation and -radiation. 
+ 
+Which row is correct? 
+ 
+ 
+-radiation 
+-radiation 
+-radiation 
+A 
+more ionising than  or  
+a proton 
+electromagnetic radiation 
+B 
+less ionising than  or  
+an electron 
+two protons and two neutrons 
+C 
+more ionising than  or  
+an electron 
+electromagnetic radiation 
+D 
+less ionising than  or  
+electromagnetic radiation 
+a proton
+
+===== Q39 (page 17) =====
+39 A high-voltage power supply is connected to a metal grid and a wire, as shown. 
+ 
+wire
+high
+voltage
+sparks
+observed
+metal grid
+radioactive source
+emitting -particles
+ 
+ 
+When the radioactive source is placed close to the grid, sparks are observed in the position 
+indicated. 
+ 
+Which statement explains why the sparks are formed? 
+A 
+-particles have a long range. 
+B 
+-particles have no charge. 
+C 
+-particles have no mass. 
+D 
+-particles are strongly ionising.
+
+===== Q40 (page 17) =====
+40 A student investigates four different radioactive isotopes. The student places a detector near 
+each radioactive material. 
+ 
+The background count rate is 36 counts per minute throughout the investigation. 
+ 
+The table shows the detector readings at the start and after 8 hours. 
+ 
+Which isotope has a half-life of 4 hours? 
+ 
+ 
+count rate at the start 
+counts per minute 
+count rate after 8 hours 
+counts per minute 
+A 
+150 
+36 
+B 
+212 
+53 
+C 
+260 
+92 
+D 
+356 
+80

@@ -1,0 +1,562 @@
+===== Q1 =====
+2
+0625/43/O/N/22
+© UCLES 2022
+1  
+An aeroplane accelerates along a horizontal runway before take-off. 
+ 
+The aeroplane accelerates for 35 s. The speed of the aeroplane when it takes off is 72 m / s.
+ 
+Fig. 1.1 shows how the speed of the aeroplane varies between time t = 0 and t = 35 s.
+0
+35
+t / s
+speed
+m / s
+0
+72
+Fig. 1.1
+ 
+(a) Define acceleration.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ 
+(b) (i)  Calculate the average acceleration of the aeroplane between t = 0 and t = 35 s.
+ 
+acceleration =  ......................................................... [1]
+ 
+ 
+(ii)  The combined mass of the aeroplane, its passengers and its fuel on take-off 
+is 1.1 × 105 kg.
+ 
+ 
+ Calculate the average resultant force on the aeroplane between t = 0 and t = 35 s.
+ 
+force =  ......................................................... [2]
+
+3
+0625/43/O/N/22
+© UCLES 2022
+[Turn over
+ 
+ 
+(iii)  The force provided by the engines of the aeroplane is constant.
+ 
+ 
+ Give one possible explanation for the change in acceleration of the aeroplane between 
+t = 0 and t = 35 s.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ 
+ 
+(iv) On Fig. 1.2, sketch a graph to show how the acceleration of the aircraft varies between 
+t = 0 and t = 35 s.
+  
+0
+35
+t / s
+0
+acceleration
+Fig. 1.2
+ 
+[3]
+ 
+[Total: 8]
+
+
+===== Q2 =====
+4
+0625/43/O/N/22
+© UCLES 2022
+2 
+Fig. 2.1 shows a tennis ball approaching a tennis racket. 
+Fig. 2.1
+ 
+The tennis ball hits the racket at a speed of 52 m / s. The average force on the ball during the 
+time that it is in contact with the racket is 350 N. The speed of the ball after it leaves the racket is 
+26 m / s in the opposite direction to the initial speed of the ball. The mass of the ball is 58 g.
+ 
+(a) (i) Calculate the change in momentum of the ball while it is in contact with the racket.
+ 
+change in momentum =  ......................................................... [3]
+ 
+ 
+(ii) State an equation which defines impulse in terms of force and time.
+ ..................................................................................................................................... [1]
+ 
+ 
+(iii) Calculate the time that the racket is in contact with the ball.
+ 
+time =  ......................................................... [2]
+ 
+(b) Calculate the difference between the values of the kinetic energy of the ball before and after 
+the impact with the racket.
+ 
+difference in kinetic energy =  ......................................................... [3]
+ 
+[Total: 9]
+
+
+===== Q3 =====
+5
+0625/43/O/N/22
+© UCLES 2022
+[Turn over
+3 
+Fig. 3.1 shows the cross-section of a barrage built across a tidal bay. The barrage is part of a tidal 
+power station. 
+gates
+turbine connected to
+generator
+tidal
+bay
+high water
+level
+barrage
+low water level
+open sea
+Fig. 3.1
+ 
+The gates are raised to be open when the tide comes in. The gates are lowered to close when it is 
+high tide. Fig. 3.1 shows the water levels in the open sea and the tidal bay when it is low tide. The 
+gates are raised and water flows through the turbine.
+ 
+(a) Complete the sentences to describe the energy transfers which take place when the gates 
+are opened.
+ 
+ 
+Use words from the list. 
+ 
+ 
+tidal bay      kinetic      gates      gravitational potential
+ 
+ 
+open sea       turbines      water
+ 
+ 
+................................................... energy of the ................................................... in the
+ 
+ 
+.................................................. is transferred to ................................................. energy in the
+ 
+ 
+rotating .............................................. . This energy is used in the generator to produce
+ 
+ 
+electrical power. 
+[3]
+ 
+(b) State one advantage and one disadvantage of tidal power as an energy resource.
+advantage  .................................................................................................................................
+disadvantage  ............................................................................................................................
+ 
+[2]
+ 
+(c) State the main source of energy for tidal energy.
+ ............................................................................................................................................. [1]
+ 
+[Total: 6]
+
+
+===== Q4 =====
+6
+0625/43/O/N/22
+© UCLES 2022
+4 
+(a) Fig. 4.1 shows a liquid-in-glass thermometer labelled thermometer X.
+–10
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110 °C
+thermometer X
+bulb
+Fig. 4.1
+ 
+ 
+(i) State the physical property which varies with temperature in a liquid-in-glass thermometer.
+ ..................................................................................................................................... [1]
+ 
+ 
+(ii) Thermometer Y has a bulb that contains twice the volume of liquid compared to 
+thermometer X.
+ 
+ 
+ State and explain how the sensitivity of thermometer Y compares with the sensitivity of 
+thermometer X.
+statement  ..........................................................................................................................
+explanation  ........................................................................................................................
+ ...........................................................................................................................................
+ 
+[2]
+ 
+ 
+(iii) State and explain one change that can be made to the design of thermometer X to 
+increase its range.
+statement  ..........................................................................................................................
+explanation  ........................................................................................................................
+ 
+[2]
+ 
+(b) A liquid-in-glass thermometer cannot measure a temperature of 1300 °C.
+ 
+ 
+State a physical property which varies with temperature in a thermometer which can measure 
+a temperature of 1300 °C.
+ ............................................................................................................................................. [1]
+ 
+[Total: 6]
+
+
+===== Q5 =====
+7
+0625/43/O/N/22
+© UCLES 2022
+[Turn over
+5 
+(a) Three identical dishes, A, B and C, contain an equal volume of water.
+ 
+ 
+Dish A is outside in sunlight and experiences no wind during the day. Dish B is outside in 
+sunlight and experiences a strong wind during the day. Dish C is in a dark room.
+ 
+ 
+Water evaporates from each dish. After 12 hours, a student measures the volume of water 
+in each dish. Dish C contains the largest volume of water and dish B contains the smallest 
+volume of water.
+ 
+ 
+Explain, in terms of particles, why the three dishes have different volumes of water.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [4]
+ 
+(b) Define specific latent heat of vaporisation.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+
+8
+0625/43/O/N/22
+© UCLES 2022
+ 
+(c) Fig. 5.1 shows an insulating beaker, crushed ice, an immersion heater and a thermometer.  
+immersion heater
+to the
+power supply
+insulating
+beaker
+crushed ice
+thermometer
+Fig. 5.1
+ 
+ 
+The initial temperature of the ice is –60 °C.
+ 
+ 
+The immersion heater is switched on and the temperature is recorded at equal intervals of 
+time. 
+ 
+ 
+Fig. 5.2 shows the temperature–time graph.
+A
+temperature
+time
+C
+B
+D
+Fig. 5.2
+ 
+ 
+Describe what occurs in each of the sections A, B, C and D.
+A  ...............................................................................................................................................
+B  ...............................................................................................................................................
+C  ...............................................................................................................................................
+D  ...............................................................................................................................................
+ 
+[3]
+ 
+[Total: 9]
+
+
+===== Q6 =====
+9
+0625/43/O/N/22
+© UCLES 2022
+[Turn over
+6 
+Fig. 6.1 shows wave crests and the direction of travel for a water wave approaching a barrier in a 
+large ripple tank.
+wave
+crests
+large
+ripple tank
+direction of
+travel
+barrier
+Fig. 6.1
+ 
+The wavelength of the wave is 1.6 cm. 
+ 
+(a) On Fig. 6.1, draw:
+ 
+ 
+(i) the direction of travel of the reflected wave 
+[1]
+ 
+ 
+(ii) three successive reflected wave crests. 
+[2]
+
+10
+0625/43/O/N/22
+© UCLES 2022
+ 
+(b) Fig. 6.2 shows an identical wave approaching a barrier with a gap of 1.3 cm.
+large
+ripple tank
+wave
+crests
+barrier
+with gap
+Fig. 6.2
+ 
+ 
+On Fig. 6.2, draw three successive wave crests after they pass through the gap in the barrier. 
+ 
+[3]
+ 
+(c) The frequency of the wave is 4.0 Hz.
+ 
+ 
+Calculate the speed of the wave.
+ 
+speed =  ......................................................... [2]
+ 
+[Total: 8]
+
+
+===== Q7 =====
+11
+0625/43/O/N/22
+© UCLES 2022
+[Turn over
+7 
+(a) State what is meant by total internal reflection.
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ 
+(b) Fig. 7.1 shows a ray of light from a light source in a tank containing a liquid.
+x
+ray of light
+light source
+tank
+liquid
+Fig. 7.1
+ 
+ 
+The ray of light strikes the surface of the liquid at an angle x.
+ 
+ 
+(i) The refractive index of the liquid is 1.5. 
+ 
+ 
+ Calculate the largest value of x for which total internal reflection can occur. 
+ 
+x =  ......................................................... [3]
+ 
+ 
+(ii) The speed of light in air is 3.0 × 108 m / s.
+ 
+ 
+ Calculate the speed of light in the liquid.
+ 
+speed =  ......................................................... [2]
+ 
+[Total: 7]
+
+
+===== Q8 =====
+12
+0625/43/O/N/22
+© UCLES 2022
+8 
+Fig. 8.1 shows apparatus used to charge a metal plate by induction.
+lead connected
+to earth
+positively charged
+plastic rod
+metal plate
+insulator
+Fig. 8.1
+ 
+(a) Describe and explain how the apparatus shown in Fig. 8.1 can be used to charge the metal 
+plate.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [4]
+ 
+(b) Fig. 8.2 shows an electric circuit.
+Fig. 8.2
+ 
+ 
+On Fig. 8.2, draw an arrow to show the direction of flow of electrons and explain how you 
+determined the direction.
+explanation  ......................................................................................................................... [1]
+ 
+[Total: 5]
+
+
+===== Q9 =====
+13
+0625/43/O/N/22
+© UCLES 2022
+[Turn over
+9 
+Fig. 9.1 shows a circuit with an alternating current (a.c.) supply, a resistor and a diode.
+Fig. 9.1
+ 
+The frequency of the power supply is 50 Hz.
+ 
+(a) Calculate the time period (time for one complete cycle) of the a.c. supply.
+ 
+time =  ......................................................... [2]
+ 
+(b) The peak potential difference (p.d.) across the resistor is 340 V.
+0
+0
+time / s
+p.d. / V
+Fig. 9.2
+ 
+ 
+On Fig. 9.2:
+ 
+ 
+(i) sketch a graph to show how the p.d. across the resistor varies with time for two cycles
+ 
+[2]
+ 
+ 
+(ii) label the p.d. axis with the value of p.d. at the peak 
+[1]
+ 
+ 
+(iii) label the time axis with two values of time. 
+[2]
+ 
+[Total: 7]
+
+
+===== Q10 =====
+14
+0625/43/O/N/22
+© UCLES 2022
+10 (a) A cloud chamber can be used to detect α (alpha)-particles and β (beta)-particles. Alcohol in 
+the cloud chamber exists as a vapour and condenses on ions produced in the air. This forms 
+visible tracks.
+ 
+ 
+Fig. 10.1 shows the tracks when a source of α-particles and β-particles is present in the cloud 
+chamber.
+cloud chamber
+alcohol vapour
+in air
+source of
+α-particles
+and β-particles
+Fig. 10.1
+ 
+ 
+Some of the tracks are short and thick. Other tracks are longer and thinner.
+ 
+ 
+State and explain which tracks are produced by α-particles and which tracks are produced by 
+β-particles.
+α-particles  .................................................................................................................................
+ ...................................................................................................................................................
+β-particles  .................................................................................................................................
+ ............................................................................................................................................. [3]
+ 
+(b) A radioactive isotope of sodium (Na) is used to detect leaks from water pipes. A nucleus of 
+this isotope of sodium contains 11 protons and 13 neutrons. This nucleus decays by emitting 
+a β-particle to form a nucleus of magnesium (Mg).
+ 
+ 
+(i) Describe what is meant by an isotope.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+
+15
+0625/43/O/N/22
+© UCLES 2022
+[Turn over
+ 
+ 
+(ii) Write down the nuclide equation for the decay of this isotope of sodium to magnesium.
+ 
+[3]
+ 
+ 
+(iii) This isotope of sodium has a half-life of 15 hours. The isotope of magnesium is stable 
+and does not undergo radioactive decay.
+ 
+ 
+ Suggest why these properties of the isotope of sodium and the isotope of magnesium 
+make this isotope of sodium suitable to detect leaks from water pipes.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ 
+[Total: 10]
+
+
+===== Q11 =====
+16
+0625/43/O/N/22
+© UCLES 2022
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every 
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the 
+publisher will be pleased to make amends at the earliest possible opportunity.
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+Cambridge Assessment International Education is part of Cambridge Assessment. Cambridge Assessment is the brand name of the University of Cambridge 
+Local Examinations Syndicate (UCLES), which is a department of the University of Cambridge.
+11 (a) Fig. 11.1 shows a solenoid connected to a battery.
+battery
+solenoid
+Fig. 11.1
+ 
+ 
+On Fig. 11.1, draw the pattern of the magnetic field inside and around the solenoid. Indicate 
+the direction of the magnetic field with an arrow. 
+[3]
+ 
+(b) Electrical power is transmitted at a voltage of 400 kV. A transformer reduces the voltage to 
+33 kV for use by heavy industry in large factories. The number of turns on the primary coil of 
+the transformer is 11 000.
+ 
+ 
+Calculate the number of turns on the secondary coil of the transformer.
+ 
+number of turns =  ......................................................... [2]
+ 
+[Total: 5]
+

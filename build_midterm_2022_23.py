@@ -110,6 +110,13 @@ def _font(size, bold=False):
     return ImageFont.truetype(p, size) if p else ImageFont.load_default()
 
 
+CN_FONT = '/System/Library/Fonts/STHeiti Light.ttc'
+
+
+def _cn(size):
+    return ImageFont.truetype(CN_FONT, size)
+
+
 def raster_page(pdf, pno):
     doc = pymupdf.open(pdf)
     pix = doc[pno].get_pixmap(dpi=DPI)
@@ -208,6 +215,7 @@ def build_cover():
 
     d.text((ML, _pt(82)), 'Mid-term Examination', font=_font(_pt(24), bold=True), fill=NAVY)
     d.text((ML, _pt(110)), 'PHYSICS · Paper 4 (A2)', font=_font(_pt(13)), fill=GREY)
+    d.text((_pt(340), _pt(78)), 'A卷', font=_cn(_pt(30)), fill=NAVY)
     d.line([(ML, _pt(128)), (_pt(300), _pt(128))], fill=GOLD, width=3)
 
     # candidate info (two columns)
@@ -219,7 +227,7 @@ def build_cover():
     d.text((_pt(330), y), 'Candidate name: _________________', font=_font(_pt(12), bold=True), fill=DARK)
 
     y += _pt(34)
-    d.text((ML, y), 'Exam Duration: 90 mins', font=_font(_pt(12), bold=True), fill=DARK)
+    d.text((ML, y), 'Exam Duration: 60 mins', font=_font(_pt(12), bold=True), fill=DARK)
     y += _pt(24)
     d.text((ML, y), 'Additional Materials: Answer Booklet/Paper', font=_font(_pt(12), bold=True), fill=DARK)
     y += _pt(20)
@@ -273,6 +281,7 @@ def build_markscheme_cover():
            font=_font(int(26 * DPI / 72), bold=True), fill=NAVY)
     d.text((int(55 * DPI / 72), int(112 * DPI / 72)), 'PHYSICS · Paper 4 (A2)',
            font=_font(int(15 * DPI / 72)), fill=GREY)
+    d.text((int(340 * DPI / 72), int(84 * DPI / 72)), 'A卷', font=_cn(int(30 * DPI / 72)), fill=NAVY)
     d.line([(int(55 * DPI / 72), int(128 * DPI / 72)),
             (int(300 * DPI / 72), int(128 * DPI / 72))], fill=GOLD, width=3)
     d.text((int(55 * DPI / 72), int(150 * DPI / 72)),
@@ -290,18 +299,18 @@ def main():
         for i in range(n):
             paper_pages.append(compose_question_page(edited, i, q, first=(i == 0)))
 
-    paper_pages[0].save(os.path.join(HERE, 'A2-Midterm_Physics_9702_Paper4_2022-23.pdf'),
+    paper_pages[0].save(os.path.join(HERE, 'A2-Midterm-A.pdf'),
                         save_all=True, append_images=paper_pages[1:], resolution=DPI)
 
     ms_pages = [build_markscheme_cover()]
     for q in QUESTIONS:
         for p in q['ms_pages']:
             ms_pages.append(compose_ms_page(os.path.join(HERE, q['ms']), p - 1, q))
-    ms_pages[0].save(os.path.join(HERE, 'A2-Midterm_Physics_9702_Paper4_2022-23_MarkScheme.pdf'),
+    ms_pages[0].save(os.path.join(HERE, 'A2-Midterm-A_MarkScheme.pdf'),
                      save_all=True, append_images=ms_pages[1:], resolution=DPI)
 
-    print('paper: A2-Midterm_Physics_9702_Paper4_2022-23.pdf  (%d pages, 100 marks)' % len(paper_pages))
-    print('mark scheme: A2-Midterm_Physics_9702_Paper4_2022-23_MarkScheme.pdf  (%d pages)' % len(ms_pages))
+    print('paper: A2-Midterm-A.pdf  (%d pages, 100 marks)' % len(paper_pages))
+    print('mark scheme: A2-Midterm-A_MarkScheme.pdf  (%d pages)' % len(ms_pages))
 
 
 if __name__ == '__main__':

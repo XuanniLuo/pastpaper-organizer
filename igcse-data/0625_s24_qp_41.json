@@ -89,7 +89,7 @@
           "label": "3(a)",
           "marks": 1,
           "codes": [
-            "2.3"
+            "2.3.2"
           ],
           "answer": "(they / particles in ice) vibrate (about a fixed position) OR particles in water move throughout the liquid"
         },
@@ -97,7 +97,7 @@
           "label": "3(b)(i)",
           "marks": 1,
           "codes": [
-            "2.3"
+            "2.3.2"
           ],
           "answer": "conduction"
         },
@@ -105,7 +105,7 @@
           "label": "3(b)(ii)",
           "marks": 3,
           "codes": [
-            "2.3"
+            "2.3.2"
           ],
           "answer": "2.6  104 J c = (E / m OR (E =) mcOR 0.34  4200  18 OR 2.6  10N (J)"
         },
@@ -113,7 +113,7 @@
           "label": "3(b)(iii)",
           "marks": 3,
           "codes": [
-            "2.3"
+            "2.3.2"
           ],
           "answer": "density (of water next to the ice) increases cold(er) water sinks warm(er) water replaces cold water OR warm(er) water rises OR making a convection current 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2024 © Cambridge University Press & Assessment 2024 Page 8 of 12"
         },
@@ -121,12 +121,12 @@
           "label": "3(b)(iv)",
           "marks": 3,
           "codes": [
-            "2.3"
+            "2.3.2"
           ],
           "answer": "internal energy decreases AND (average) kinetic energy (of particles) decreases kinetic energy decreases"
         }
       ],
-      "code": "2.3"
+      "code": "2.3.2"
     },
     {
       "qnum": 4,
@@ -139,7 +139,7 @@
           "label": "4(a)(i)",
           "marks": 2,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "(point on principal axis) where rays of light parallel (to the principal axis, incident on converging lens) (rays) meet / converge after passing through lens / refraction"
         },
@@ -147,7 +147,7 @@
           "label": "4(a)(ii)",
           "marks": 1,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "X marked between one of the focal points and the lens AND E marked on other side of lens"
         },
@@ -155,7 +155,7 @@
           "label": "4(a)(iii)",
           "marks": 1,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "virtual AND upright"
         },
@@ -163,7 +163,7 @@
           "label": "4(b)(i)",
           "marks": 3,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "2.0  108 m / s n = c / vg OR (vg =) c / n OR (vg =) 3(.0)  108 / 1.5"
         },
@@ -171,7 +171,7 @@
           "label": "4(b)(ii)",
           "marks": 1,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "(wavelength) decreases"
         },
@@ -179,12 +179,12 @@
           "label": "4(c)",
           "marks": 3,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "long-sightedness it moves the image towards the lens / back of the eye / retina OR reduces / shortens focal length of (combined lens) (converging lens) focuses image on back of eye / retina 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2024 © Cambridge University Press & Assessment 2024 Page 9 of 12"
         }
       ],
-      "code": "3.2"
+      "code": "3.2.3"
     },
     {
       "qnum": 5,
@@ -239,7 +239,7 @@
           "label": "6(a)(i)",
           "marks": 1,
           "codes": [
-            "4.2"
+            "4.2.1"
           ],
           "answer": "(region) where (an electric) charge experiences a force OR (region) where a force acts on a (an electric) charge"
         },
@@ -247,7 +247,7 @@
           "label": "6(a)(ii)",
           "marks": 3,
           "codes": [
-            "4.2"
+            "4.2.1"
           ],
           "answer": "at least four straight radial lines AND evenly spaced (by eye) surrounding sphere four lines touching sphere AND no lines inside sphere at least one arrowhead towards sphere AND no incorrect arrowheads 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2024 © Cambridge University Press & Assessment 2024 Page 10 of 12"
         },
@@ -255,7 +255,7 @@
           "label": "6(b)(i)",
           "marks": 3,
           "codes": [
-            "4.2"
+            "4.2.1"
           ],
           "answer": "electrons move (through the wire) from the sphere OR electrons move (through the wire) to(wards) the Earth electrons move (in the wire)"
         },
@@ -263,12 +263,12 @@
           "label": "6(b)(ii)",
           "marks": 5,
           "codes": [
-            "4.2"
+            "4.2.1"
           ],
           "answer": "2.5 A I = Q / t OR (I =) Q / t OR 3.5  10–10 / 1.4  10–10 2.5  10N"
         }
       ],
-      "code": "4.2"
+      "code": "4.2.1"
     },
     {
       "qnum": 7,
@@ -281,7 +281,7 @@
           "label": "7(a)",
           "marks": 3,
           "codes": [
-            "4.2"
+            "4.2.3"
           ],
           "answer": "(electrical) work done moving a unit charge around a (complete) circuit work done AND moving a charge (in a circuit)"
         },
@@ -289,7 +289,7 @@
           "label": "7(b)(i)",
           "marks": 3,
           "codes": [
-            "4.2"
+            "4.2.3"
           ],
           "answer": "correct symbols for five cells in series correct symbols for variable resistor AND fixed resistor cells, variable resistor and fixed resistor connected in series"
         },
@@ -297,12 +297,12 @@
           "label": "7(b)(ii)",
           "marks": 6,
           "codes": [
-            "4.2"
+            "4.2.3"
           ],
           "answer": "curve with negative gradient of decreasing magnitude from 0  to 150 AND does not reach the x-axis curve / line with negative gradient from 0  to 150  y-axis labelled 0.25 where candidate’s line meets the y-axis OR the mark on the y-axis labelled 0.25 R = V / I OR (Imax =) V / R OR 7.5 / 30 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2024 © Cambridge University Press & Assessment 2024 Page 11 of 12"
         }
       ],
-      "code": "4.2"
+      "code": "4.2.3"
     },
     {
       "qnum": 8,
@@ -315,7 +315,7 @@
           "label": "8(a)(i)",
           "marks": 3,
           "codes": [
-            "5.2"
+            "5.2.3"
           ],
           "answer": " –1 0 Pb ….. 208 Pb 82 ….."
         },
@@ -323,7 +323,7 @@
           "label": "8(a)(ii)",
           "marks": 1,
           "codes": [
-            "5.2"
+            "5.2.3"
           ],
           "answer": "-emission / it consists of waves / rays OR -emission has no mass / charge"
         },
@@ -331,7 +331,7 @@
           "label": "8(a)(iii)",
           "marks": 1,
           "codes": [
-            "5.2"
+            "5.2.3"
           ],
           "answer": "(it contains) too many / excess of neutrons OR (nucleus is) too heavy"
         },
@@ -339,12 +339,12 @@
           "label": "8(b)",
           "marks": 3,
           "codes": [
-            "5.2"
+            "5.2.3"
           ],
           "answer": "smooth curve (through magnetic field) AND labelled  path towards bottom of page AND no upward component AND labelled  (continuation of beam along) horizontal line through magnetic field AND labelled "
         }
       ],
-      "code": "5.2"
+      "code": "5.2.3"
     },
     {
       "qnum": 9,
@@ -357,7 +357,7 @@
           "label": "9(a)",
           "marks": 3,
           "codes": [
-            "6.2"
+            "6.2.1"
           ],
           "answer": "ultraviolet AND visible light AND infrared only any two from: ultraviolet; visible light; infrared and no more than one incorrect addition"
         },
@@ -365,7 +365,7 @@
           "label": "9(b)",
           "marks": 3,
           "codes": [
-            "6.2"
+            "6.2.1"
           ],
           "answer": "1.5  1011 m v = s / t OR (s =) vt OR 3.0  108  500 OR 1.5  10N"
         },
@@ -373,7 +373,7 @@
           "label": "9(c)(i)",
           "marks": 2,
           "codes": [
-            "6.2"
+            "6.2.1"
           ],
           "answer": "any two from:  cloud / nebula / it collapses  due to (internal) gravitational attraction  (internal) temperature increases 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2024 © Cambridge University Press & Assessment 2024 Page 12 of 12"
         },
@@ -381,12 +381,12 @@
           "label": "9(c)(ii)",
           "marks": 3,
           "codes": [
-            "6.2"
+            "6.2.1"
           ],
           "answer": "any three from:  (nuclear) fusion / nuclear reactions (in the star)  forces are balanced  gravitational force is inwards  outwards force is due to high temperature"
         }
       ],
-      "code": "6.2"
+      "code": "6.2.1"
     }
   ]
 }

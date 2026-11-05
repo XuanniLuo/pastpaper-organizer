@@ -97,7 +97,7 @@
           "label": "3(a)(i)",
           "marks": 2,
           "codes": [
-            "1.7"
+            "1.7.3"
           ],
           "answer": "(wasted power =) 2200 + 40 + 25 OR 2265 OR (useful power output =) power input – wasted power 1140 (MW) (⩾ 3 sf)"
         },
@@ -105,7 +105,7 @@
           "label": "3(a)(ii)",
           "marks": 3,
           "codes": [
-            "1.7"
+            "1.7.3"
           ],
           "answer": "0.32 OR 32% (efficiency =) {useful power output / total power input} ( 100%) OR 1100 / 3400"
         },
@@ -113,12 +113,12 @@
           "label": "3(b)",
           "marks": 2,
           "codes": [
-            "1.7"
+            "1.7.3"
           ],
           "answer": "water is pumped into the ground and heated by hot rocks OR heat from hot rocks underground is used to turn water into steam steam used to heat buildings OR steam used to turn generator / turbine / produce electricity 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2025 © Cambridge University Press & Assessment 2025 Page 13 of 20"
         }
       ],
-      "code": "1.7"
+      "code": "1.7.3"
     },
     {
       "qnum": 4,
@@ -231,7 +231,7 @@
           "label": "6(a)(i)",
           "marks": 5,
           "codes": [
-            "4.3"
+            "4.3.3"
           ],
           "answer": "0.008(0) A OR 8(.0) mA OR 8(.0)  10–3 A (p.d. across 400  resistor =) 5 – 1.8 OR 3.2 (V) (I =) V / R OR 3.2 / 400"
         },
@@ -239,7 +239,7 @@
           "label": "6(a)(ii)",
           "marks": 3,
           "codes": [
-            "4.3"
+            "4.3.3"
           ],
           "answer": "increases resistance of LDR increases ratio of potential differences (across each component) equals ratio of the two resistances OR R1 / R2 = V1 / V2 OR LDR has greater share of the total / supply voltage OR potential difference of the source is divided between the resistor (R) and LDR"
         },
@@ -247,7 +247,7 @@
           "label": "6(b)(i)",
           "marks": 3,
           "codes": [
-            "4.3"
+            "4.3.3"
           ],
           "answer": "56 mA OR 5.6  10–2 A 44 (mA) OR 12 (mA)"
         },
@@ -255,12 +255,12 @@
           "label": "6(b)(ii)",
           "marks": 1,
           "codes": [
-            "4.3"
+            "4.3.3"
           ],
           "answer": "0 (A) 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2025 © Cambridge University Press & Assessment 2025 Page 16 of 20"
         }
       ],
-      "code": "4.3"
+      "code": "4.3.3"
     },
     {
       "qnum": 7,
@@ -273,7 +273,7 @@
           "label": "7(a)(i)",
           "marks": 1,
           "codes": [
-            "4.5"
+            "4.5.2"
           ],
           "answer": "provide a continuous connection (between the coil and the lamp) OR prevent the contacts reversing every half turn / 180° OR prevent the wires (to the lamp) twisting / tangling"
         },
@@ -281,7 +281,7 @@
           "label": "7(a)(ii)",
           "marks": 3,
           "codes": [
-            "4.5"
+            "4.5.2"
           ],
           "answer": "any three from: • coil is rotated / moved in magnetic field • coil cuts (magnetic) field OR changing (magnetic) field through coil • e.m.f. / voltage induced • coil forms part of a complete circuit (through the lamp) so there is a current • as one side of the coil starts to move in the opposite direction, current is induced in the opposite direction OR direction of current in coil is reversed every half turn / 180°"
         },
@@ -289,7 +289,7 @@
           "label": "7(a)(iii)",
           "marks": 2,
           "codes": [
-            "4.5"
+            "4.5.2"
           ],
           "answer": "any two from: • increase strength of magnetic field • increase speed of rotation (of the coil) • increase number of turns (of coil)"
         },
@@ -297,7 +297,7 @@
           "label": "7(b)(i)",
           "marks": 1,
           "codes": [
-            "4.5"
+            "4.5.2"
           ],
           "answer": "2.5 (revolutions) 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2025 © Cambridge University Press & Assessment 2025 Page 17 of 20"
         },
@@ -305,12 +305,12 @@
           "label": "7(b)(ii)",
           "marks": 3,
           "codes": [
-            "4.5"
+            "4.5.2"
           ],
           "answer": "any 1 correct = 1 mark any 2 or 3 correct = 2 marks all 4 correct = 3 marks Time Label from graph coil position A B C D N S N S N S N S 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2025 © Cambridge University Press & Assessment 2025 Page 18 of 20"
         }
       ],
-      "code": "4.5"
+      "code": "4.5.2"
     },
     {
       "qnum": 8,
@@ -323,7 +323,7 @@
           "label": "8(a)(i)",
           "marks": 1,
           "codes": [
-            "5.2"
+            "5.2.2"
           ],
           "answer": "most of the atom is empty space OR nucleus is (very) much smaller than the atom"
         },
@@ -331,7 +331,7 @@
           "label": "8(a)(ii)",
           "marks": 1,
           "codes": [
-            "5.2"
+            "5.2.2"
           ],
           "answer": "nucleus must have a positive charge OR (the positive) charge is concentrated at the centre of the atom OR most of the mass (of the atom) is concentrated in the nucleus"
         },
@@ -339,7 +339,7 @@
           "label": "8(b)(i)",
           "marks": 2,
           "codes": [
-            "5.2"
+            "5.2.2"
           ],
           "answer": "P alpha particles have greater mass so are deflected less (than the beta particles)"
         },
@@ -347,7 +347,7 @@
           "label": "8(b)(ii)",
           "marks": 1,
           "codes": [
-            "5.2"
+            "5.2.2"
           ],
           "answer": "upwards AND alpha particles are positively charged so attracted towards negatively charged plate OR direction of field is direction of force on positive charge"
         },
@@ -355,12 +355,12 @@
           "label": "8(c)",
           "marks": 3,
           "codes": [
-            "5.2"
+            "5.2.2"
           ],
           "answer": "1.9  10–2 g OR 1.9  10–5 kg 3 half-lives OR 2.4  10–3  23 OR 1 / 8 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2025 © Cambridge University Press & Assessment 2025 Page 19 of 20"
         }
       ],
-      "code": "5.2"
+      "code": "5.2.2"
     },
     {
       "qnum": 9,
@@ -373,7 +373,7 @@
           "label": "9(a)(i)",
           "marks": 1,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "(shortly after) Big Bang OR when Universe was formed"
         },
@@ -381,7 +381,7 @@
           "label": "9(a)(ii)",
           "marks": 2,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "Increased Universe has expanded OR Universe accelerated outwards"
         },
@@ -389,7 +389,7 @@
           "label": "9(b)(i)",
           "marks": 5,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "120 000 (km / h) OR 1.2  105 (km / h) (v =) 2r / T OR {2    108 ( 106 ) } / {0.62  365  24} (T =) 0.62  365  24 OR (T =) 5431 OR (T =) 226.3  24 OR 1.2  10n"
         },
@@ -397,12 +397,12 @@
           "label": "9(b)(ii)",
           "marks": 1,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "decreases 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2025 © Cambridge University Press & Assessment 2025 Page 20 of 20"
         }
       ],
-      "code": "6.1"
+      "code": "6.1.2"
     },
     {
       "qnum": 10,
@@ -415,7 +415,7 @@
           "label": "10(a)",
           "marks": 2,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "elliptical shape drawn S at a focus of the ellipse by eye"
         },
@@ -423,7 +423,7 @@
           "label": "10(b)",
           "marks": 1,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "L furthest away from their S / Sun"
         },
@@ -431,12 +431,12 @@
           "label": "10(c)",
           "marks": 3,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "total energy = gravitational (potential) energy + kinetic energy (energy stored as) GPE decreases and (energy stored as) KE increases closer to the Sun when the comet has more kinetic energy it has a greater speed S OR S S L"
         }
       ],
-      "code": "6.1"
+      "code": "6.1.2"
     }
   ]
 }

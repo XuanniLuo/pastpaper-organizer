@@ -13,7 +13,7 @@
           "label": "1(a)",
           "marks": 3,
           "codes": [
-            "1.5"
+            "1.5.1"
           ],
           "answer": "50 000 N / m OR 5.0  104 N / m (k =) F  x OR k is (determined from) the gradient (of the line in Fig. 1.1)"
         },
@@ -21,7 +21,7 @@
           "label": "1(b)",
           "marks": 1,
           "codes": [
-            "1.5"
+            "1.5.1"
           ],
           "answer": "Any one from: • The graph is a straight line (through the origin) • The slope / gradient is constant • The graph / line does not curve"
         },
@@ -29,7 +29,7 @@
           "label": "1(c)",
           "marks": 2,
           "codes": [
-            "1.5"
+            "1.5.1"
           ],
           "answer": "1300 N any negative number OR indication that force is in opposite direction"
         },
@@ -37,12 +37,12 @@
           "label": "1(d)",
           "marks": 1,
           "codes": [
-            "1.5"
+            "1.5.1"
           ],
           "answer": "(Force is a) vector quantity. Forces have (both magnitude / size and) direction"
         }
       ],
-      "code": "1.5"
+      "code": "1.5.1"
     },
     {
       "qnum": 2,
@@ -105,7 +105,7 @@
           "label": "3(a)",
           "marks": 1,
           "codes": [
-            "4.2"
+            "4.2.5"
           ],
           "answer": "infrared"
         },
@@ -113,7 +113,7 @@
           "label": "3(b)",
           "marks": 3,
           "codes": [
-            "4.2"
+            "4.2.5"
           ],
           "answer": "shiny surface / it is a good reflector of radiation Any one from: • it is a good reflector • it reflects radiation"
         },
@@ -121,7 +121,7 @@
           "label": "3(c)",
           "marks": 1,
           "codes": [
-            "4.2"
+            "4.2.5"
           ],
           "answer": "Any one from: • prevents (electric) shock (if live wire touches the metal casing) owtte • if live wire touches the metal casing the current goes to earth"
         },
@@ -129,7 +129,7 @@
           "label": "3(d)(i)",
           "marks": 3,
           "codes": [
-            "4.2"
+            "4.2.5"
           ],
           "answer": "2.6 A R = V / I OR (I=) V/R OR (I=) 230 / 89"
         },
@@ -137,7 +137,7 @@
           "label": "3(d)(ii)",
           "marks": 2,
           "codes": [
-            "4.2"
+            "4.2.5"
           ],
           "answer": "P = IV (I =) 5.2 (A) OR (P =) 2  power of one element OR"
         },
@@ -145,12 +145,12 @@
           "label": "3(d)(iii)",
           "marks": 5,
           "codes": [
-            "4.2"
+            "4.2.5"
           ],
           "answer": "68 000 J OR 68 kJ E = Pt OR (E =) Pt OR (E =) 1200  60 efficiency = useful energy out / total energy (in) OR 95 100 E   (power output of heater =) 95%  1200 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2025 © Cambridge University Press & Assessment 2025 Page 8 of 14"
         }
       ],
-      "code": "4.2"
+      "code": "4.2.5"
     },
     {
       "qnum": 4,
@@ -213,7 +213,7 @@
           "label": "5(a)",
           "marks": 2,
           "codes": [
-            "4.3"
+            "4.3.3"
           ],
           "answer": "y-axis labelled resistance AND x-axis labelled light intensity Straight line / smooth curve with negative gradient"
         },
@@ -221,7 +221,7 @@
           "label": "5(b)(i)",
           "marks": 1,
           "codes": [
-            "4.3"
+            "4.3.3"
           ],
           "answer": "Correct symbol drawn to complete circuit. 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2025 © Cambridge University Press & Assessment 2025 Page 9 of 14"
         },
@@ -229,12 +229,12 @@
           "label": "5(b)(ii)",
           "marks": 4,
           "codes": [
-            "4.3"
+            "4.3.3"
           ],
           "answer": "in the dark, VLDR is a bigger proportion of e.m.f OR when RLDR is high VLDR is a bigger proportion of e.m.f. OR when VLDR is high VLDR is a bigger proportion of e.m.f. In the dark, VLDR is high OR when RLDR high, VLDR is high Any one from: • emf shared (between fixed resistor and LDR) OR emf is constant • VLDR = VLAMP OR p.d. is the same across components in parallel"
         }
       ],
-      "code": "4.3"
+      "code": "4.3.3"
     },
     {
       "qnum": 6,
@@ -247,7 +247,7 @@
           "label": "6(a)(i)",
           "marks": 1,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "Horizontal axis labelled P"
         },
@@ -255,7 +255,7 @@
           "label": "6(a)(ii)",
           "marks": 1,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "X on horizontal axis 3.0 cm to the left of centre of L OR X on horizontal axis 3.0 cm to the right of centre of L"
         },
@@ -263,7 +263,7 @@
           "label": "6(a)(iii)",
           "marks": 2,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "Any two from: • Straight line from a point on O, passing through centre of L (and beyond) • Horizontal line from same point on O to L, refracted through F (on RH side of L) • Straight line from same point on O through F (on LH side of L) to L, refracted parallel to principal axis both rays extended until they intersect 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2025 © Cambridge University Press & Assessment 2025 Page 10 of 14"
         },
@@ -271,7 +271,7 @@
           "label": "6(a)(iv)",
           "marks": 3,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "diminished enlarged inverted real same size upright virtual"
         },
@@ -279,12 +279,12 @@
           "label": "6(b)",
           "marks": 2,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "(image is now) virtual (image is now) upright"
         }
       ],
-      "code": "3.2"
+      "code": "3.2.3"
     },
     {
       "qnum": 7,
@@ -347,7 +347,7 @@
           "label": "8(a)",
           "marks": 3,
           "codes": [
-            "4.5"
+            "4.5.4"
           ],
           "answer": "(direction of force) down(wards) magnetic field direction, current direction and force are mutually perpendicular magnetic field is from N to S / left to right AND current flows from positive to negative / anticlockwise / into paper"
         },
@@ -355,7 +355,7 @@
           "label": "8(b)",
           "marks": 1,
           "codes": [
-            "4.5"
+            "4.5.4"
           ],
           "answer": "(direction of force) reverses / changes by 180° 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2025 © Cambridge University Press & Assessment 2025 Page 12 of 14"
         },
@@ -363,12 +363,12 @@
           "label": "8(c)",
           "marks": 4,
           "codes": [
-            "4.5"
+            "4.5.4"
           ],
           "answer": "(J carbon brushes) Any one from: • connect cell / circuit to coil / wire / split ring(s) / commutator • maintains (continuous) connection • prevent wires from tangling (as motor rotates) (K coil) Any one from: • rotates / turns • conducts / has a current in it (L axle) Any one from: • allows the coil to rotate / turn • allows motor to turn / spin (M split ring commutator) Any one from: • keeps motor turning in the same direction owtte • reverses the connections to the coil (every half-turn) owtte • prevents wires from tangling (as the motor rotates)"
         }
       ],
-      "code": "4.5"
+      "code": "4.5.4"
     },
     {
       "qnum": 9,
@@ -381,7 +381,7 @@
           "label": "9(a)(i)",
           "marks": 1,
           "codes": [
-            "5.2"
+            "5.2.3"
           ],
           "answer": "(isotopes are) forms of an element with the same number of protons but a different number of neutrons (in the nucleus) OR (isotopes are) the same element with a different number of neutrons 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2025 © Cambridge University Press & Assessment 2025 Page 13 of 14"
         },
@@ -389,7 +389,7 @@
           "label": "9(a)(ii)",
           "marks": 2,
           "codes": [
-            "5.2"
+            "5.2.3"
           ],
           "answer": "particle number in each atom of strontium location electron 38 outside nucleus neutron proton 38 Inside nucleus particle number in each atom of strontium location 38 outside nucleus neutron 52 Inside nucleus 38 Inside nucleus"
         },
@@ -397,7 +397,7 @@
           "label": "9(b)(i)",
           "marks": 3,
           "codes": [
-            "5.2"
+            "5.2.3"
           ],
           "answer": "(there is a) different count rate with different thicknesses of metal OR number of -particles detected varies with thickness (beta () particles) can penetrate thin / 0.75mm metal OR (beta () particles) are stopped by thick metal"
         },
@@ -405,12 +405,12 @@
           "label": "9(b)(ii)",
           "marks": 2,
           "codes": [
-            "5.2"
+            "5.2.3"
           ],
           "answer": "(approximate) percentage of source remaining (after 15 years) stated AND in range 63–70% (approximate) percentage of sample lost (after 15 years) stated AND in range 30–37% Any one from: • count rate / activity (too) low (to detect differences in thickness) owtte • detector needs high activity (to detect differences in thickness) owtte • count rate / activity too close to background owtte • less difference in activity for different thicknesses owtte 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2025 © Cambridge University Press & Assessment 2025 Page 14 of 14"
         }
       ],
-      "code": "5.2"
+      "code": "5.2.3"
     },
     {
       "qnum": 10,
@@ -423,7 +423,7 @@
           "label": "10(a)",
           "marks": 2,
           "codes": [
-            "6.1"
+            "6.1.1"
           ],
           "answer": "(number of days =) 91 (statement F to G) is ¼ of (a complete) orbit OR a whole year is 365 days"
         },
@@ -431,7 +431,7 @@
           "label": "10(b)(i)",
           "marks": 1,
           "codes": [
-            "6.1"
+            "6.1.1"
           ],
           "answer": "F"
         },
@@ -439,7 +439,7 @@
           "label": "10(b)(ii)",
           "marks": 1,
           "codes": [
-            "6.1"
+            "6.1.1"
           ],
           "answer": "H"
         },
@@ -447,7 +447,7 @@
           "label": "10(c)",
           "marks": 5,
           "codes": [
-            "6.1"
+            "6.1.1"
           ],
           "answer": "1.5  1011 m v = 2r/T OR (r =) vT/(2) OR ( ) 4 3.0 1 0 365 24 60 60 / 2 r  =      (T =) 365  24  60  60 OR (T =) 31 536 000 OR (r =) 3.0  104  T / (2) OR correct rearrangement of and substitution into formula using candidate’s value of T"
         },
@@ -455,12 +455,12 @@
           "label": "10(d)",
           "marks": 1,
           "codes": [
-            "6.1"
+            "6.1.1"
           ],
           "answer": "Any one from: • minor planets • asteroids OR meteoroids • moons (that orbit planets) • comets • natural satellites"
         }
       ],
-      "code": "6.1"
+      "code": "6.1.1"
     }
   ]
 }

@@ -47,7 +47,7 @@
           "label": "2(a)(i)",
           "marks": 5,
           "codes": [
-            "1.5"
+            "1.5.1"
           ],
           "answer": "3.5 N / cm OR 350 N / m k = F / x OR (k =) F / x OR (k =) load / extension OR 14 / 4 (k =) 14 / 4 OR 14 / 0.04 OR 3.5  10n"
         },
@@ -55,7 +55,7 @@
           "label": "2(a)(ii)",
           "marks": 1,
           "codes": [
-            "1.5"
+            "1.5.1"
           ],
           "answer": "mark at end of straight-line portion"
         },
@@ -63,7 +63,7 @@
           "label": "2(b)(i)",
           "marks": 2,
           "codes": [
-            "1.5"
+            "1.5.1"
           ],
           "answer": "arrow below the horizontal and to the left of vertically down from car arrow radial"
         },
@@ -71,12 +71,12 @@
           "label": "2(b)(ii)",
           "marks": 1,
           "codes": [
-            "1.5"
+            "1.5.1"
           ],
           "answer": "(force) increases 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2023 © UCLES 2023 Page 10 of 16 Question Answer"
         }
       ],
-      "code": "1.5"
+      "code": "1.5.1"
     },
     {
       "qnum": 3,
@@ -123,7 +123,7 @@
           "label": "4(a)(i)",
           "marks": 1,
           "codes": [
-            "2.1"
+            "2.1.3"
           ],
           "answer": "absolute zero"
         },
@@ -131,7 +131,7 @@
           "label": "4(a)(ii)",
           "marks": 3,
           "codes": [
-            "2.1"
+            "2.1.3"
           ],
           "answer": "–196 (°C) (absolute zero / 0 K) = –273 (°C)"
         },
@@ -139,7 +139,7 @@
           "label": "4(b)",
           "marks": 4,
           "codes": [
-            "2.1"
+            "2.1.3"
           ],
           "answer": "increased (pressure) particles of gas move faster OR have more KE / momentum / velocity any two from from: • more frequent collisions of particles (with walls) • particles collide (with walls) with a larger force OR larger impulse • (greater change in momentum of particles) causes greater force (on walls) • pressure = force / area"
         },
@@ -147,12 +147,12 @@
           "label": "4(c)",
           "marks": 3,
           "codes": [
-            "2.1"
+            "2.1.3"
           ],
           "answer": "(pressure =) 60 kPa OR 6.0  104 Pa p1 V1 = p2 V2 OR (p2 =) p1 V1 / V2 OR pV = constant OR p  1 / V OR 1.2  105  0.5 OR 6.0  10n 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2023 © UCLES 2023 Page 12 of 16 Question Answer"
         }
       ],
-      "code": "2.1"
+      "code": "2.1.3"
     },
     {
       "qnum": 5,
@@ -191,7 +191,7 @@
           "label": "6(a)",
           "marks": 3,
           "codes": [
-            "4.3"
+            "4.3.3"
           ],
           "answer": "sketch: one axis labelled V and the other labelled I, either way round AND gradual curve from origin curving such that V / I increases explanation: (as current / temperature increases so) resistance increases (so) more voltage required for same increase in current owtte OR if V on y-axis: gradient must increase OR if V on x-axis: gradient must decrease"
         },
@@ -199,7 +199,7 @@
           "label": "6(b)(i)",
           "marks": 3,
           "codes": [
-            "4.3"
+            "4.3.3"
           ],
           "answer": "9.0 V 12.0 – 3.0"
         },
@@ -207,7 +207,7 @@
           "label": "6(b)(ii)",
           "marks": 3,
           "codes": [
-            "4.3"
+            "4.3.3"
           ],
           "answer": "2.1 A I = V / R OR (I =) V / R OR 9.0 / 4.2"
         },
@@ -215,7 +215,7 @@
           "label": "6(b)(iii)",
           "marks": 1,
           "codes": [
-            "4.3"
+            "4.3.3"
           ],
           "answer": "0 (A)"
         },
@@ -223,7 +223,7 @@
           "label": "6(b)(iv)",
           "marks": 1,
           "codes": [
-            "4.3"
+            "4.3.3"
           ],
           "answer": "(ammeter reading) 2.1 A"
         },
@@ -231,12 +231,12 @@
           "label": "6(b)(v)",
           "marks": 3,
           "codes": [
-            "4.3"
+            "4.3.3"
           ],
           "answer": "19 W P = VI OR OR (P =) VI OR 9  2.1 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2023 © UCLES 2023 Page 14 of 16 Question Answer"
         }
       ],
-      "code": "4.3"
+      "code": "4.3.3"
     },
     {
       "qnum": 7,
@@ -249,7 +249,7 @@
           "label": "7(a)(i)",
           "marks": 2,
           "codes": [
-            "4.2"
+            "4.2.1"
           ],
           "answer": "radial arrow inward radial arrow"
         },
@@ -257,7 +257,7 @@
           "label": "7(a)(ii)",
           "marks": 3,
           "codes": [
-            "4.2"
+            "4.2.1"
           ],
           "answer": "positive point charge positive (charge)"
         },
@@ -265,7 +265,7 @@
           "label": "7(b)",
           "marks": 2,
           "codes": [
-            "4.2"
+            "4.2.1"
           ],
           "answer": "electrons / negative charges (move) out of (plastic) OR removed from / lost from (plastic)"
         },
@@ -273,12 +273,12 @@
           "label": "7(c)",
           "marks": 2,
           "codes": [
-            "4.2"
+            "4.2.1"
           ],
           "answer": "any mention of free / mobile / delocalised electrons conductors have free / mobile / delocalised electrons OR insulators do not have free / mobile / delocalised electrons Question Answer"
         }
       ],
-      "code": "4.2"
+      "code": "4.2.1"
     },
     {
       "qnum": 8,
@@ -291,7 +291,7 @@
           "label": "8(a)(i)",
           "marks": 2,
           "codes": [
-            "4.5"
+            "4.5.5"
           ],
           "answer": "clockwise force on left of coil up OR force on right of coil down"
         },
@@ -299,7 +299,7 @@
           "label": "8(a)(ii)",
           "marks": 1,
           "codes": [
-            "4.5"
+            "4.5.5"
           ],
           "answer": "(turning effect is) greater"
         },
@@ -307,7 +307,7 @@
           "label": "8(a)(iii)",
           "marks": 1,
           "codes": [
-            "4.5"
+            "4.5.5"
           ],
           "answer": "(turning effect is) less"
         },
@@ -315,7 +315,7 @@
           "label": "8(b)(i)",
           "marks": 1,
           "codes": [
-            "4.5"
+            "4.5.5"
           ],
           "answer": "horizontal line, labelled B on the left and A on the right"
         },
@@ -323,7 +323,7 @@
           "label": "8(b)(ii)",
           "marks": 1,
           "codes": [
-            "4.5"
+            "4.5.5"
           ],
           "answer": "vertical line, labelled A at top and B at bottom"
         },
@@ -331,12 +331,12 @@
           "label": "8(b)(iii)",
           "marks": 1,
           "codes": [
-            "4.5"
+            "4.5.5"
           ],
           "answer": "horizontal line, A on the left and B on the right 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2023 © UCLES 2023 Page 15 of 16 Question Answer"
         }
       ],
-      "code": "4.5"
+      "code": "4.5.5"
     },
     {
       "qnum": 9,
@@ -349,7 +349,7 @@
           "label": "9(a)(i)",
           "marks": 3,
           "codes": [
-            "5.2"
+            "5.2.2"
           ],
           "answer": "alpha highly ionising OR not (very) penetrating any value between 10–500 years"
         },
@@ -357,7 +357,7 @@
           "label": "9(a)(ii)",
           "marks": 3,
           "codes": [
-            "5.2"
+            "5.2.2"
           ],
           "answer": "beta absorption depends on thickness (of aluminium) any number of years"
         },
@@ -365,7 +365,7 @@
           "label": "9(b)",
           "marks": 2,
           "codes": [
-            "5.2"
+            "5.2.2"
           ],
           "answer": "too many neutrons decay reduces number of neutrons"
         },
@@ -373,12 +373,12 @@
           "label": "9(c)",
           "marks": 2,
           "codes": [
-            "5.2"
+            "5.2.2"
           ],
           "answer": "any two from: • radon gas (in the air) • rocks OR buildings • food OR drink • cosmic rays 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2023 © UCLES 2023 Page 16 of 16 Question Answer"
         }
       ],
-      "code": "5.2"
+      "code": "5.2.2"
     },
     {
       "qnum": 10,
@@ -391,7 +391,7 @@
           "label": "10(a)(i)",
           "marks": 2,
           "codes": [
-            "6.2"
+            "6.2.3"
           ],
           "answer": "1 Hubble constant 2 H0 = v / d"
         },
@@ -399,7 +399,7 @@
           "label": "10(a)(ii)",
           "marks": 1,
           "codes": [
-            "6.2"
+            "6.2.3"
           ],
           "answer": "per second OR s–1 OR 1 / s"
         },
@@ -407,7 +407,7 @@
           "label": "10(a)(iii)",
           "marks": 3,
           "codes": [
-            "6.2"
+            "6.2.3"
           ],
           "answer": "4.5  1017 (s) d / v = 1 / H0 OR (age of Universe =) 1 / H0 OR (age of Universe =) d / v OR (age of Universe =) 1 / 2.2  10-–18"
         },
@@ -415,12 +415,12 @@
           "label": "10(b)",
           "marks": 2,
           "codes": [
-            "6.2"
+            "6.2.3"
           ],
           "answer": "shortly after the Universe was formed OR shortly after the Big Bang all points in space"
         }
       ],
-      "code": "6.2"
+      "code": "6.2.3"
     }
   ]
 }

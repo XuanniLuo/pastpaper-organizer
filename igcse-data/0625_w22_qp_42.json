@@ -73,7 +73,7 @@
           "label": "3(a)(i)",
           "marks": 1,
           "codes": [
-            "1.7"
+            "1.7.3"
           ],
           "answer": "any one from: • fossil fuel / named fossil fuel • biofuel / wood / crops • hydro • wave • wind • solar cell / panel."
         },
@@ -81,7 +81,7 @@
           "label": "3(a)(ii)",
           "marks": 1,
           "codes": [
-            "1.7"
+            "1.7.3"
           ],
           "answer": "geothermal OR nuclear"
         },
@@ -89,7 +89,7 @@
           "label": "3(b)(i)",
           "marks": 2,
           "codes": [
-            "1.7"
+            "1.7.3"
           ],
           "answer": "yes OR it is renewable tides are continuous / regular / happen every day / always there / owtte OR Moon / Sun always there OR nothing is consumed / used up OR tides are an unlimited resource"
         },
@@ -97,12 +97,12 @@
           "label": "3(b)(ii)",
           "marks": 7,
           "codes": [
-            "1.7"
+            "1.7.3"
           ],
           "answer": "(power =) 4800 W KE = ½mv2 (P =) E / t OR (P =) KE / s OR (KE / s =) ½  6(.0)103  2(.0)2 electrical (output) power = 40% of KE / s OR 0.4  12 000 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2022 © UCLES 2022 Page 9 of 15"
         }
       ],
-      "code": "1.7"
+      "code": "1.7.3"
     },
     {
       "qnum": 4,
@@ -115,7 +115,7 @@
           "label": "4(a)",
           "marks": 3,
           "codes": [
-            "2.1"
+            "2.1.2"
           ],
           "answer": "any three from: • moving particles have momentum OR particles hit walls • momentum changes when particles hit walls • force exerted (by particles) due to (rate of) change of momentum • pressure is (total) force (of particles) per unit area (of wall)."
         },
@@ -123,7 +123,7 @@
           "label": "4(b)",
           "marks": 2,
           "codes": [
-            "2.1"
+            "2.1.2"
           ],
           "answer": "pressure increases (there is a) greater change of momentum OR (particles exert) greater force (on same area) OR particles move faster OR particles have more KE"
         },
@@ -131,12 +131,12 @@
           "label": "4(c)",
           "marks": 5,
           "codes": [
-            "2.1"
+            "2.1.2"
           ],
           "answer": "(pressure =) 1.5  105 Pa p1 V1 = p2 V2 OR (p2 =) p1 V1 /V2 OR pV = constant (for fixed m, fixed T) (p2 =) 9(.0)  104  170 / 100 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2022 © UCLES 2022 Page 10 of 15"
         }
       ],
-      "code": "2.1"
+      "code": "2.1.2"
     },
     {
       "qnum": 5,
@@ -149,7 +149,7 @@
           "label": "5(a)",
           "marks": 5,
           "codes": [
-            "2.3"
+            "2.3.1"
           ],
           "answer": "(E =) 410 000 000 J OR 410 MJ OR 4.1  108 J E = mcT OR (E =) mcT OR 1200  960  360 (T =) 360 (°C)"
         },
@@ -157,7 +157,7 @@
           "label": "5(b)",
           "marks": 3,
           "codes": [
-            "2.3"
+            "2.3.1"
           ],
           "answer": "(thermal) radiation electromagnetic / e-m / infrared / IR (radiation emitted from block) travels to worker OR is absorbed by worker OR travels without needing a medium"
         },
@@ -165,12 +165,12 @@
           "label": "5(c)",
           "marks": 3,
           "codes": [
-            "2.3"
+            "2.3.1"
           ],
           "answer": "conduction delocalised / free / moving electrons any one from: • (electrons) move (from outer surface) to interior (of rollers) • (electrons) travel through(out) the solid / large distances • (electrons) collide with distant particles • lattice vibrations transfer thermal energy to neighbouring particles OR particles vibrate and cause nearby / adjacent particles to vibrate OR vibrating particles collide with particles transferring energy. 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2022 © UCLES 2022 Page 11 of 15"
         }
       ],
-      "code": "2.3"
+      "code": "2.3.1"
     },
     {
       "qnum": 6,
@@ -183,7 +183,7 @@
           "label": "6(a)(i)",
           "marks": 4,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "two correct rays from: • ray from X through centre of lens • ray from X to lens, parallel to principal axis, refracted through RH focus F • ray from X (that would pass through LH focus) refracted parallel to principal axis. two rays correctly extended back, intersecting to left of object and image labelled IY drawn AND 36 mm ≤ distance ≤ 44 mm"
         },
@@ -191,7 +191,7 @@
           "label": "6(a)(ii)",
           "marks": 2,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "any two from: • object closer to lens than (one) focal length • (actual) rays do not meet (at image) • image cannot be formed on a screen OR image only visible through lens • object and image on same side (of lens) OR image on LHS of lens/object."
         },
@@ -199,12 +199,12 @@
           "label": "6(b)",
           "marks": 5,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "blue ray refracted closer to the normal than the green ray as it enters the prism blue ray refracted away from the normal as it leaves the prism 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2022 © UCLES 2022 Page 12 of 15"
         }
       ],
-      "code": "3.2"
+      "code": "3.2.3"
     },
     {
       "qnum": 7,
@@ -259,7 +259,7 @@
           "label": "8(a)",
           "marks": 3,
           "codes": [
-            "4.2"
+            "4.2.5"
           ],
           "answer": "(RY) decreases change in V consistent with stated effect on RY change in RY / Rtotal consistent with their stated effect on RY OR change in proportion of the total p.d. across Y (or proportion of total p.d. across fixed resistor) consistent with their stated effect on RY"
         },
@@ -267,7 +267,7 @@
           "label": "8(b)(i)",
           "marks": 5,
           "codes": [
-            "4.2"
+            "4.2.5"
           ],
           "answer": "(n =) 1.9  1019 I = Q / t (n =) 3(.0) / 1.6  10–19 OR (n =) Q / 1.6  10–19"
         },
@@ -275,12 +275,12 @@
           "label": "8(b)(ii)",
           "marks": 3,
           "codes": [
-            "4.2"
+            "4.2.5"
           ],
           "answer": "(P =) 36 W P = IV OR (P =) IV OR 3(.0)  12 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2022 © UCLES 2022 Page 14 of 15"
         }
       ],
-      "code": "4.2"
+      "code": "4.2.5"
     },
     {
       "qnum": 9,
@@ -293,7 +293,7 @@
           "label": "9(a)(i)",
           "marks": 1,
           "codes": [
-            "4.3"
+            "4.3.1"
           ],
           "answer": ""
         },
@@ -301,7 +301,7 @@
           "label": "9(a)(ii)",
           "marks": 1,
           "codes": [
-            "4.3"
+            "4.3.1"
           ],
           "answer": ""
         },
@@ -309,7 +309,7 @@
           "label": "9(b)(i)",
           "marks": 2,
           "codes": [
-            "4.3"
+            "4.3.1"
           ],
           "answer": "I1 I2 Z O 0 0 1 0 0 1 1 0 1 0 0 1 1 1 0 0 all Z correct all O correct"
         },
@@ -317,7 +317,7 @@
           "label": "9(b)(ii)",
           "marks": 0,
           "codes": [
-            "4.3"
+            "4.3.1"
           ],
           "answer": "NOT"
         },
@@ -325,12 +325,12 @@
           "label": "9(c)",
           "marks": 7,
           "codes": [
-            "4.3"
+            "4.3.1"
           ],
           "answer": "OR gate / box labelled OR NAND gate / box labelled NAND OR gate with inputs I1 and I2 labelled AND NAND gate with inputs I1 and I2 labelled 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2022 © UCLES 2022 Page 15 of 15"
         }
       ],
-      "code": "4.3"
+      "code": "4.3.1"
     },
     {
       "qnum": 10,
@@ -343,7 +343,7 @@
           "label": "10(a)(i)",
           "marks": 2,
           "codes": [
-            "5.2"
+            "5.2.3"
           ],
           "answer": "(proton number) 2 (nucleon number) 4"
         },
@@ -351,7 +351,7 @@
           "label": "10(a)(ii)",
           "marks": 1,
           "codes": [
-            "5.2"
+            "5.2.3"
           ],
           "answer": "3.2  10–19 (C)"
         },
@@ -359,7 +359,7 @@
           "label": "10(b)",
           "marks": 5,
           "codes": [
-            "5.2"
+            "5.2.3"
           ],
           "answer": "R 88 230 a → A 89 230 c +  –1 0 any two from: • nucleon numbers 230 on left AND 230 on right • Ra and proton number 88 on left AND Ac and proton number 89 on right •  –1 0 ."
         },
@@ -367,12 +367,12 @@
           "label": "10(c)",
           "marks": 3,
           "codes": [
-            "5.2"
+            "5.2.3"
           ],
           "answer": "(mass =) 1.2  10–12 g 3 half-lives OR 9.6  10–12 / 8 OR 9.6  10–12 / 23"
         }
       ],
-      "code": "5.2"
+      "code": "5.2.3"
     }
   ]
 }

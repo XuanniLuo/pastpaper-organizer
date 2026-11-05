@@ -63,7 +63,7 @@
           "label": "2(a)",
           "marks": 1,
           "codes": [
-            "1.7"
+            "1.7.3"
           ],
           "answer": "gravitational potential (energy)"
         },
@@ -71,7 +71,7 @@
           "label": "2(b)(i)",
           "marks": 5,
           "codes": [
-            "1.7"
+            "1.7.3"
           ],
           "answer": "2.0  106 J / s (P =) E/t in any form OR (480  10  410)/1 (∆GPE =) mgh in any form OR 480  10  410 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 7 of 11"
         },
@@ -79,7 +79,7 @@
           "label": "2(b)(ii)",
           "marks": 5,
           "codes": [
-            "1.7"
+            "1.7.3"
           ],
           "answer": "81 (%) OR 82 (%) P = V I in any form OR 6000  270 OR 1 620 000 (efficiency =) (useful) power out / (total) power in ( 100%) in any form"
         },
@@ -87,7 +87,7 @@
           "label": "2(c)(i)",
           "marks": 1,
           "codes": [
-            "1.7"
+            "1.7.3"
           ],
           "answer": "damage to habitats (for fish) / construction is expensive / droughts / flood risk if dam bursts"
         },
@@ -95,12 +95,12 @@
           "label": "2(c)(ii)",
           "marks": 1,
           "codes": [
-            "1.7"
+            "1.7.3"
           ],
           "answer": "biofuel / wind / geothermal / tidal / solar / wave"
         }
       ],
-      "code": "1.7"
+      "code": "1.7.3"
     },
     {
       "qnum": 3,
@@ -113,7 +113,7 @@
           "label": "3(a)(i)",
           "marks": 4,
           "codes": [
-            "1.5"
+            "1.5.1"
           ],
           "answer": "suitable scale recorded (e.g. 2 cm : 25 N) two vectors correctly drawn by eye AND correct resultant 130 N (vertically) upwards"
         },
@@ -121,7 +121,7 @@
           "label": "3(a)(ii)",
           "marks": 1,
           "codes": [
-            "1.5"
+            "1.5.1"
           ],
           "answer": "13 kg"
         },
@@ -129,12 +129,12 @@
           "label": "3(b)",
           "marks": 2,
           "codes": [
-            "1.5"
+            "1.5.1"
           ],
           "answer": "acceleration momentum"
         }
       ],
-      "code": "1.5"
+      "code": "1.5.1"
     },
     {
       "qnum": 4,
@@ -147,7 +147,7 @@
           "label": "4(a)(i)",
           "marks": 2,
           "codes": [
-            "2.1"
+            "2.1.2"
           ],
           "answer": "zig zag motion / random changes of direction random length of path in each direction 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 8 of 11"
         },
@@ -155,7 +155,7 @@
           "label": "4(a)(ii)",
           "marks": 4,
           "codes": [
-            "2.1"
+            "2.1.2"
           ],
           "answer": "any four from:  air molecules bombard smoke particles  air molecules are small (compared to smoke particles) / have small(er) mass  air molecules are very fast moving  air molecules move in random directions  (collisions exert unbalanced) forces on smoke particles"
         },
@@ -163,7 +163,7 @@
           "label": "4(b)(i)",
           "marks": 1,
           "codes": [
-            "2.1"
+            "2.1.2"
           ],
           "answer": "kinetic energy (and potential energy) of molecules increase (hence internal energy increases)"
         },
@@ -171,12 +171,12 @@
           "label": "4(b)(ii)",
           "marks": 2,
           "codes": [
-            "2.1"
+            "2.1.2"
           ],
           "answer": "bigger change in momentum of molecules OR molecules hit (the walls) harder (molecules hit) more often / more frequently"
         }
       ],
-      "code": "2.1"
+      "code": "2.1.2"
     },
     {
       "qnum": 5,
@@ -189,7 +189,7 @@
           "label": "5(a)",
           "marks": 3,
           "codes": [
-            "2.2"
+            "2.2.3"
           ],
           "answer": "energy required to raise the temperature of 1 kg / 1 g / unit mass of a substance by 1 °C / unit temperature energy required to raise the temperature of a substance by 1 °C"
         },
@@ -197,7 +197,7 @@
           "label": "5(b)(i)",
           "marks": 3,
           "codes": [
-            "2.2"
+            "2.2.3"
           ],
           "answer": "0.50 kg  = m/V in any form"
         },
@@ -205,12 +205,12 @@
           "label": "5(b)(ii)",
           "marks": 9,
           "codes": [
-            "2.2"
+            "2.2.3"
           ],
           "answer": "190 000J / 1.9  105 J / 190 kJ (E=) mc∆T in any form (E=) mL in any form Use of c = 4200 (J / kg °C) AND ∆T = 5 Use of c = 2100 AND ∆T = 18 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 9 of 11"
         }
       ],
-      "code": "2.2"
+      "code": "2.2.3"
     },
     {
       "qnum": 6,
@@ -273,7 +273,7 @@
           "label": "7(a)",
           "marks": 2,
           "codes": [
-            "3.2"
+            "3.2.1"
           ],
           "answer": "ray from left hand corner of the mirror to the eye angle of incidence = angle of reflection"
         },
@@ -281,7 +281,7 @@
           "label": "7(b)",
           "marks": 2,
           "codes": [
-            "3.2"
+            "3.2.1"
           ],
           "answer": "any two from: virtual upright same size as object laterally inverted"
         },
@@ -289,7 +289,7 @@
           "label": "7(c)(i)",
           "marks": 1,
           "codes": [
-            "3.2"
+            "3.2.1"
           ],
           "answer": "ultraviolet / X-rays / gamma rays"
         },
@@ -297,12 +297,12 @@
           "label": "7(c)(ii)",
           "marks": 1,
           "codes": [
-            "3.2"
+            "3.2.1"
           ],
           "answer": "infrared / microwaves / radio (waves) 0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 10 of 11"
         }
       ],
-      "code": "3.2"
+      "code": "3.2.1"
     },
     {
       "qnum": 8,
@@ -315,7 +315,7 @@
           "label": "8(a)(i)",
           "marks": 1,
           "codes": [
-            "4.3"
+            "4.3.3"
           ],
           "answer": "light-dependent resistor / LDR"
         },
@@ -323,7 +323,7 @@
           "label": "8(a)(ii)",
           "marks": 1,
           "codes": [
-            "4.3"
+            "4.3.3"
           ],
           "answer": "voltmeter connected in parallel with component Y"
         },
@@ -331,7 +331,7 @@
           "label": "8(a)(iii)",
           "marks": 4,
           "codes": [
-            "4.3"
+            "4.3.3"
           ],
           "answer": "1 0.016 A (I =) V/R in any form or 12/400 or 12/350 or 12/750 OR (Rtotal = R1 + R2 =) 750 () 2 6.4 V"
         },
@@ -339,7 +339,7 @@
           "label": "8(a)(iv)",
           "marks": 1,
           "codes": [
-            "4.3"
+            "4.3.3"
           ],
           "answer": "(in a dark room the p.d. across component Y) decreases"
         },
@@ -347,12 +347,12 @@
           "label": "8(b)",
           "marks": 1,
           "codes": [
-            "4.3"
+            "4.3.3"
           ],
           "answer": "one named practical application of LDR e.g. switch on street lights (at night) / turn on security light (at night)"
         }
       ],
-      "code": "4.3"
+      "code": "4.3.3"
     },
     {
       "qnum": 9,
@@ -365,7 +365,7 @@
           "label": "9(a)(i)",
           "marks": 4,
           "codes": [
-            "4.5"
+            "4.5.1"
           ],
           "answer": "any four from:  needle oscillates (as magnet moves up and down)  coil cuts magnetic field / magnetic field changes (as magnet moves)  changing (magnetic) field induces voltage/current  induced voltage/current opposes the motion/change causing it  force, magnetic field and induced current are mutually perpendicular"
         },
@@ -373,7 +373,7 @@
           "label": "9(a)(ii)",
           "marks": 1,
           "codes": [
-            "4.5"
+            "4.5.1"
           ],
           "answer": "larger (maximum) deflection"
         },
@@ -381,12 +381,12 @@
           "label": "9(b)",
           "marks": 3,
           "codes": [
-            "4.5"
+            "4.5.1"
           ],
           "answer": "2300 (NP =) VP NS / VS in any form OR (NP =) 25000 36000 400000  0625/43 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 11 of 11"
         }
       ],
-      "code": "4.5"
+      "code": "4.5.1"
     },
     {
       "qnum": 10,
@@ -399,7 +399,7 @@
           "label": "10(a)",
           "marks": 2,
           "codes": [
-            "5.2"
+            "5.2.4"
           ],
           "answer": "background radiation (present in values in Table 10.1) (background radiation) is removed (before plotting) OR (background radiation) not present in the graph values"
         },
@@ -407,7 +407,7 @@
           "label": "10(b)",
           "marks": 3,
           "codes": [
-            "5.2"
+            "5.2.4"
           ],
           "answer": "70 ⩽ half-life ⩽ 76 (s) evidence of at least one pair of values for count rate halving taken from graph"
         },
@@ -415,12 +415,12 @@
           "label": "10(c)",
           "marks": 3,
           "codes": [
-            "5.2"
+            "5.2.4"
           ],
           "answer": "234 91 Pa → 234 92 U + 0 1  92U on RHS 234U + 0 1  on RHS"
         }
       ],
-      "code": "5.2"
+      "code": "5.2.4"
     }
   ]
 }

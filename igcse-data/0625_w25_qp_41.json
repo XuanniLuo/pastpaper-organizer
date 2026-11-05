@@ -121,7 +121,7 @@
           "label": "3(a)",
           "marks": 2,
           "codes": [
-            "1.7"
+            "1.7.3"
           ],
           "answer": "(electromagnetic) radiation / light (from the Sun) (produces) electrical (work done)"
         },
@@ -129,7 +129,7 @@
           "label": "3(b)",
           "marks": 1,
           "codes": [
-            "1.7"
+            "1.7.3"
           ],
           "answer": "(black) is a good absorber / poor reflector (of radiation) owtte"
         },
@@ -137,7 +137,7 @@
           "label": "3(c)(i)",
           "marks": 3,
           "codes": [
-            "1.7"
+            "1.7.3"
           ],
           "answer": "0.54 kW OR 540 W (output power =) total power input  efficiency (÷100) OR (output power =) 0.72  75 ÷ 100 OR 5.4  10N"
         },
@@ -145,7 +145,7 @@
           "label": "3(c)(ii)",
           "marks": 1,
           "codes": [
-            "1.7"
+            "1.7.3"
           ],
           "answer": "the amount of (electrical) energy transferred by a 1 kW appliance in 1 hour owtte OR energy transferred in one hour at a rate of transfer of 1 kW"
         },
@@ -153,7 +153,7 @@
           "label": "3(c)(iii)",
           "marks": 4,
           "codes": [
-            "1.7"
+            "1.7.3"
           ],
           "answer": "7 Any one from: • E = Pt • energy produced by one cell per year OR 3(c)(i)  6  365 • total power output required OR 7400 ÷ {365  6} • household energy used per day OR 7400 ÷ 365 • energy produced by one cell per day OR 3(c)(i)  6 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2025 © Cambridge University Press & Assessment 2025 Page 13 of 18"
         },
@@ -161,12 +161,12 @@
           "label": "3(c)(iii)",
           "marks": 1,
           "codes": [
-            "1.7"
+            "1.7.3"
           ],
           "answer": "Any one from: • household energy used per year ÷ energy produced by one cell per year • total power output required ÷ power output of one cell • household energy used per day ÷ energy produced by one cell per day"
         }
       ],
-      "code": "1.7"
+      "code": "1.7.3"
     },
     {
       "qnum": 4,
@@ -179,7 +179,7 @@
           "label": "4(a)",
           "marks": 5,
           "codes": [
-            "2.2"
+            "2.2.2"
           ],
           "answer": "24 000 J OR 2.4  104 J (∆E =) mc∆𝜃 OR (∆E =) 0.15  4200  {58 – 20} (∆𝜃 =) 58 – 20 OR 38 (°C) seen"
         },
@@ -187,12 +187,12 @@
           "label": "4(b)",
           "marks": 5,
           "codes": [
-            "2.2"
+            "2.2.2"
           ],
           "answer": "(temperature of point X) on metal rod increases faster ORA (temperature of point X) increases (with time) thermal energy is transferred) by conduction metal rod (transfers thermal energy through movement of) delocalised / free electrons. ORA"
         }
       ],
-      "code": "2.2"
+      "code": "2.2.2"
     },
     {
       "qnum": 5,
@@ -255,7 +255,7 @@
           "label": "6(a)",
           "marks": 2,
           "codes": [
-            "3.2"
+            "3.2.2"
           ],
           "answer": "Any two from: • high rates (of data transmission) / faster (data transmission) • carry large amounts (of data / information) • secure • Little data / signal loss • glass is transparent to (some) infrared"
         },
@@ -263,7 +263,7 @@
           "label": "6(b)(i)",
           "marks": 5,
           "codes": [
-            "3.2"
+            "3.2.2"
           ],
           "answer": "(c =) 46° N = 1 / sin c, 1.4 = 1 / sin c OR (c =) sin–1 (1 / 1.4) Equation in this form only (c =) sin–1 (1 / n) OR (c =) sin–1 (1 / 1.4) OR (c =) 46"
         },
@@ -271,7 +271,7 @@
           "label": "6(b)(ii)",
           "marks": 1,
           "codes": [
-            "3.2"
+            "3.2.2"
           ],
           "answer": "angle of incidence (of light) at which the angle of refraction is (exactly) 90° 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2025 © Cambridge University Press & Assessment 2025 Page 15 of 18"
         },
@@ -279,12 +279,12 @@
           "label": "6(b)(iii)",
           "marks": 3,
           "codes": [
-            "3.2"
+            "3.2.2"
           ],
           "answer": "angle of incidence marked AND TIR of ray inside glass AND light ray leaves end of fibre after two or three reflections angle of incidence marked OR TIR drawn until ray leaves end of fibre"
         }
       ],
-      "code": "3.2"
+      "code": "3.2.2"
     },
     {
       "qnum": 7,
@@ -297,7 +297,7 @@
           "label": "7(a)",
           "marks": 3,
           "codes": [
-            "4.3"
+            "4.3.2"
           ],
           "answer": "38  (R =) V ÷ I OR (R =) 3 ÷ 0.08(0)"
         },
@@ -305,7 +305,7 @@
           "label": "7(b)(i)",
           "marks": 6,
           "codes": [
-            "4.3"
+            "4.3.2"
           ],
           "answer": "Current in lower branch is 0.16(0) A ammeter reading is sum of currents in each branch (ammeter reading =) 0.24 A OR resistance in top branch = twice value in 7(a) formula for combined resistance of resistors in parallel Correct current calculated from candidate’s R1 in 7(a)"
         },
@@ -313,12 +313,12 @@
           "label": "7(b)(ii)",
           "marks": 2,
           "codes": [
-            "4.3"
+            "4.3.2"
           ],
           "answer": "potential difference (p.d.)(across R3) is larger (than p.d. across R1) more work done (passing charge through R3) 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2025 © Cambridge University Press & Assessment 2025 Page 16 of 18"
         }
       ],
-      "code": "4.3"
+      "code": "4.3.2"
     },
     {
       "qnum": 8,
@@ -331,7 +331,7 @@
           "label": "8(a)(i)",
           "marks": 4,
           "codes": [
-            "4.5"
+            "4.5.3"
           ],
           "answer": "field lines parallel inside solenoid Minimum of 2 magnetic field lines, curved towards end of solenoid, around outside of solenoid Correct symmetrical pattern above and below solenoid AND no field lines crossing AND At least 2 complete lines At least one arrow on a field line outside the solenoid which is away from left end or towards right end of solenoid"
         },
@@ -339,7 +339,7 @@
           "label": "8(a)(ii)",
           "marks": 1,
           "codes": [
-            "4.5"
+            "4.5.3"
           ],
           "answer": "B marked at a place where field lines are close together in Fig. 8.1 AND (magnetic) field lines are close(r) together"
         },
@@ -347,7 +347,7 @@
           "label": "8(b)(i)",
           "marks": 1,
           "codes": [
-            "4.5"
+            "4.5.3"
           ],
           "answer": ""
         },
@@ -355,7 +355,7 @@
           "label": "8(b)(ii)",
           "marks": 2,
           "codes": [
-            "4.5"
+            "4.5.3"
           ],
           "answer": "Any one from: • solenoid becomes an (electro)magnet • there is a magnetic field (around solenoid) Any one from: • attraction between solenoid and the (soft) iron (arm) • (soft) iron becomes an (induced) magnet"
         },
@@ -363,12 +363,12 @@
           "label": "8(b)(iii)",
           "marks": 2,
           "codes": [
-            "4.5"
+            "4.5.3"
           ],
           "answer": "Any one from: • contacts are broken • circuit is broken (when striker hits bell) • there is no current (in the solenoid) Any one from: • solenoid stops being a magnet • soft iron loses magnetism • soft iron stops being attracted to solenoid • Springy metal moves the soft iron back owtte 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2025 © Cambridge University Press & Assessment 2025 Page 17 of 18"
         }
       ],
-      "code": "4.5"
+      "code": "4.5.3"
     },
     {
       "qnum": 9,
@@ -381,7 +381,7 @@
           "label": "9(a)",
           "marks": 3,
           "codes": [
-            "5.1"
+            "5.1.2"
           ],
           "answer": "Any three from: • nucleus containing protons and neutrons • protons (in nucleus) • 2 neutrons (in nucleus) • 2 electrons outside the nucleus • Protons are positive (charges) OR electrons are negative (charges)"
         },
@@ -389,7 +389,7 @@
           "label": "9(b)(i)",
           "marks": 2,
           "codes": [
-            "5.1"
+            "5.1.2"
           ],
           "answer": "hydrogen (hydrogen) nuclei join (together)"
         },
@@ -397,7 +397,7 @@
           "label": "9(b)(ii)",
           "marks": 2,
           "codes": [
-            "5.1"
+            "5.1.2"
           ],
           "answer": "Any two from: • infrared • visible • ultraviolet"
         },
@@ -405,12 +405,12 @@
           "label": "9(c)",
           "marks": 2,
           "codes": [
-            "5.1"
+            "5.1.2"
           ],
           "answer": "• (the star) expands Any one from: • (smaller star) forms a red giant • (more massive star) forms a red supergiant 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2025 © Cambridge University Press & Assessment 2025 Page 18 of 18"
         }
       ],
-      "code": "5.1"
+      "code": "5.1.2"
     },
     {
       "qnum": 10,
@@ -423,7 +423,7 @@
           "label": "10(a)",
           "marks": 1,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "B AND Sun is not at the centre of the orbit OR comets have an elliptical orbit"
         },
@@ -431,7 +431,7 @@
           "label": "10(b)",
           "marks": 2,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "Comet travels faster when it is closer to the Sun ORA GPE decreases AND KE increases as comet gets closer to the Sun ORA"
         },
@@ -439,7 +439,7 @@
           "label": "10(c)(i)",
           "marks": 1,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "distance travelled (in the vacuum of space) by light in one year."
         },
@@ -447,12 +447,12 @@
           "label": "10(c)(ii)",
           "marks": 3,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "6.3  1010 (m) OR 63 000 000 000 (m) (1 light-year =) 9.5  1015 (m) OR (1 light-year =) 9.5  1012 (km) OR SEEN (distance =) 6.6  10–6  9.5  10N"
         }
       ],
-      "code": "6.1"
+      "code": "6.1.2"
     }
   ]
 }

@@ -69,6 +69,7 @@ def load_theory():
                                   "answer": p["answer"]})
             bucket.append({
                 "topic": q["topic"],
+                "code": q.get("code", ""),
                 "paper": d["paper"],
                 "paper_full": d.get("paper_full", ""),
                 "qnum": "Q%d" % q["qnum"],
@@ -83,10 +84,31 @@ def load_theory():
 # ---------------------------------------------------------------------------
 # 2. Syllabus JS
 # ---------------------------------------------------------------------------
+def subsub_title_map():
+    m = {}
+    for topic, title, subs in SYLLABUS:
+        for code, sub_title in subs:
+            entry = SUBSUBS.get(code, {})
+            if entry.get('subsubs'):
+                for ss in entry['subsubs']:
+                    m[ss['code']] = ss.get('title', ss['code'])
+            else:
+                m[code] = sub_title
+    return m
+
+
 def syllabus_js():
     out = []
     for topic, title, subs in SYLLABUS:
-        subs_js = [{"code": c, "title": t} for c, t in subs]
+        subs_js = []
+        for code, sub_title in subs:
+            entry = SUBSUBS.get(code, {})
+            if entry.get('subsubs'):
+                subsubs = [{"code": s['code'], "title": s.get('title', s['code'])}
+                           for s in entry['subsubs']]
+            else:
+                subsubs = [{"code": code, "title": sub_title}]
+            subs_js.append({"code": code, "title": sub_title, "subsubs": subsubs})
         out.append({"topic": topic, "title": title, "subs": subs_js})
     return json.dumps(out, ensure_ascii=False)
 
@@ -112,11 +134,10 @@ function renderIgcseMcqPanel(containerId, data) {
   container.innerHTML = '';
   igcseSyllabus.forEach(function(t) {
     var qCount = 0;
-    t.subs.forEach(function(s) { qCount += (data[s.code] || []).length; });
+    t.subs.forEach(function(s) { s.subsubs.forEach(function(ss) { qCount += (data[ss.code] || []).length; }); });
 
     var card = document.createElement('div');
     card.className = 'topic-card t' + t.topic;
-
     var header = document.createElement('div');
     header.className = 'topic-header';
     header.onclick = function() {
@@ -124,142 +145,83 @@ function renderIgcseMcqPanel(containerId, data) {
       card.classList.toggle('expanded');
       if (closing) stopTimer();
     };
-    var num = document.createElement('div');
-    num.className = 'topic-num';
-    num.textContent = t.topic;
-    var info = document.createElement('div');
-    info.className = 'topic-info';
+    var num = document.createElement('div'); num.className = 'topic-num'; num.textContent = t.topic;
+    var info = document.createElement('div'); info.className = 'topic-info';
     info.innerHTML = '<div class="topic-name">' + t.topic + '. ' + igcseEscape(t.title) + '</div>' +
-      '<div class="topic-count">' + t.subs.length + ' sub-topics &middot; <span class="q-count">' + qCount + ' questions</span></div>';
-    var chev = document.createElement('div');
-    chev.className = 'chevron';
-    chev.innerHTML = '&#9660;';
+      '<div class="topic-count"><span class="q-count">' + qCount + ' questions</span></div>';
+    var chev = document.createElement('div'); chev.className = 'chevron'; chev.innerHTML = '&#9660;';
     header.appendChild(num); header.appendChild(info); header.appendChild(chev);
     card.appendChild(header);
 
-    var subList = document.createElement('div');
-    subList.className = 'sub-list';
+    var subList = document.createElement('div'); subList.className = 'sub-list';
     t.subs.forEach(function(s) {
-      var qs = data[s.code] || [];
-      var subCard = document.createElement('div');
-      subCard.className = 'sub-card';
-      var subHeader = document.createElement('div');
-      subHeader.className = 'sub-header';
-      subHeader.innerHTML = '<span class="sub-code">' + s.code + '</span><span class="sub-name">' + igcseEscape(s.title) + '</span>' +
-        (qs.length > 0 ? '<span class="subsub-badge active">' + qs.length + '</span><span class="chevron">&#9660;</span>' : '');
+      var subCard = document.createElement('div'); subCard.className = 'sub-card';
+      var subHeader = document.createElement('div'); subHeader.className = 'sub-header';
+      subHeader.innerHTML = '<span class="sub-code">' + s.code + '</span><span class="sub-name">' + igcseEscape(s.title) + '</span>';
       subCard.appendChild(subHeader);
-
-      var subBody = document.createElement('div');
-      subBody.className = 'sub-body';
-
-      var syl = igcseSubsubs[s.code];
-      if (syl) {
-        var sylWrap = document.createElement('div');
-        sylWrap.className = 'syl-wrap';
-        var sylHtml = '';
-        if (syl.subsubs) {
-          syl.subsubs.forEach(function(ss) {
-            sylHtml += '<div class="syl-sub"><span class="syl-sub-code">' + ss.code + '</span><span class="syl-sub-title">' + igcseEscape(ss.title) + '</span></div>';
-            sylHtml += '<ul class="syl-points">' + ss.points.map(function(p) { return '<li>' + igcseEscape(p) + '</li>'; }).join('') + '</ul>';
-          });
-        } else {
-          sylHtml += '<ul class="syl-points">' + syl.points.map(function(p) { return '<li>' + igcseEscape(p) + '</li>'; }).join('') + '</ul>';
-        }
-        sylWrap.innerHTML = sylHtml;
-        subBody.appendChild(sylWrap);
-      }
-
-      if (qs.length > 0) {
-        var sorted = qs.slice().sort(function(a, b) { return paperSortKey(a.paper) - paperSortKey(b.paper); });
-        var panel = document.createElement('div');
-        panel.className = 'question-panel open';
-        var qCards = sorted.map(function(q) {
-          var qCard = document.createElement('div');
-          qCard.className = 'q-card';
-          var ans = igcseAnswer(q.paper, q.qnum);
-          var ansHtml = ans
-            ? '<span class="answer-letter">' + ans + '</span><span>Correct answer</span>'
-            : '<span class="answer-na">No answer data</span>';
-          qCard.innerHTML =
-            '<div class="q-meta"><span class="q-tag paper">' + igcseEscape(q.paper) + '</span><span class="q-tag qnum">' + q.qnum + '</span></div>' +
-            '<div class="q-paper-full">' + igcseEscape(q.paper_full) + '</div>' +
-            '<div class="answer-row"><button type="button" class="answer-btn">&#128065; View Answer</button>' +
-            '<div class="answer-reveal">' + ansHtml + '</div></div>' +
-            '<div class="pdf-container"><embed src="' + q.pdf + '" type="application/pdf">' +
-            '<div class="pdf-fallback" style="display:none">&#128196; Preview unavailable. <a href="' + q.pdf + '" target="_blank">Download PDF</a></div></div>';
-          var btn = qCard.querySelector('.answer-btn');
-          var reveal = qCard.querySelector('.answer-reveal');
-          btn.addEventListener('click', function(e) {
-            e.stopPropagation();
-            var shown = reveal.classList.toggle('shown');
-            btn.innerHTML = shown ? '&#128065; Hide Answer' : '&#128065; View Answer';
-          });
-          var timerBadge = createTimerBadge(q.pdf);
-          qCard.querySelector('.q-meta').appendChild(timerBadge);
-          var markToolbar = createMarkToolbar(q.pdf, qCard);
-          qCard.querySelector('.q-meta').appendChild(markToolbar);
-          registerMarkable(q.pdf, qCard, markToolbar);
-          return qCard;
-        });
-        qCards.forEach(function(c) { panel.appendChild(c); });
-        var pageIdx = 0;
-        if (qCards.length > 1) {
-          var pager = document.createElement('div');
-          pager.className = 'q-pager';
-          var prevBtn = document.createElement('button');
-          prevBtn.className = 'q-pager-btn';
-          prevBtn.type = 'button';
-          prevBtn.innerHTML = '&#8249;';
-          var tabsWrap = document.createElement('div');
-          tabsWrap.className = 'q-pager-tabs';
-          var tabs = sorted.map(function(q, idx) {
-            var tab = document.createElement('button');
-            tab.className = 'q-pager-tab';
-            tab.type = 'button';
-            tab.innerHTML = '<span class="q-pager-tab-q">' + q.qnum + '</span><span class="q-pager-tab-season">' + seasonLabel(q.paper) + '</span>';
-            tab.addEventListener('click', function(e) {
+      var subsubList = document.createElement('div'); subsubList.className = 'subsub-list';
+      s.subsubs.forEach(function(ss) {
+        var qList = data[ss.code] || [];
+        var item = document.createElement('div');
+        item.className = 'subsub-item' + (qList.length > 0 ? ' clickable' : '');
+        var row = document.createElement('div'); row.className = 'subsub-row';
+        row.innerHTML = '<span class="subsub-code">' + ss.code + '</span><span class="subsub-desc">' + igcseEscape(ss.title) + '</span>' +
+          '<span class="subsub-badge' + (qList.length > 0 ? ' active' : '') + '">' + qList.length + '</span>';
+        item.appendChild(row);
+        if (qList.length > 0) {
+          var sorted = qList.slice().sort(function(a, b) { return paperSortKey(a.paper) - paperSortKey(b.paper); });
+          var panel = document.createElement('div'); panel.className = 'question-panel open';
+          var qCards = sorted.map(function(q) {
+            var qCard = document.createElement('div'); qCard.className = 'q-card';
+            var ans = igcseAnswer(q.paper, q.qnum);
+            var ansHtml = ans ? '<span class="answer-letter">' + ans + '</span><span>Correct answer</span>' : '<span class="answer-na">No answer data</span>';
+            qCard.innerHTML = '<div class="q-meta"><span class="q-tag paper">' + igcseEscape(q.paper) + '</span><span class="q-tag qnum">' + q.qnum + '</span></div>' +
+              '<div class="q-paper-full">' + igcseEscape(q.paper_full) + '</div>' +
+              '<div class="answer-row"><button type="button" class="answer-btn">&#128065; View Answer</button>' +
+              '<div class="answer-reveal">' + ansHtml + '</div></div>' +
+              '<div class="pdf-container"><embed src="' + q.pdf + '" type="application/pdf">' +
+              '<div class="pdf-fallback" style="display:none">&#128196; Preview unavailable. <a href="' + q.pdf + '" target="_blank">Download PDF</a></div></div>';
+            var btn = qCard.querySelector('.answer-btn'); var reveal = qCard.querySelector('.answer-reveal');
+            btn.addEventListener('click', function(e) {
               e.stopPropagation();
-              pageIdx = idx;
-              renderPage();
+              var shown = reveal.classList.toggle('shown');
+              btn.innerHTML = shown ? '&#128065; Hide Answer' : '&#128065; View Answer';
             });
-            tabsWrap.appendChild(tab);
-            return tab;
+            var timerBadge = createTimerBadge(q.pdf);
+            qCard.querySelector('.q-meta').appendChild(timerBadge);
+            var markToolbar = createMarkToolbar(q.pdf, qCard);
+            qCard.querySelector('.q-meta').appendChild(markToolbar);
+            registerMarkable(q.pdf, qCard, markToolbar);
+            return qCard;
           });
-          var nextBtn = document.createElement('button');
-          nextBtn.className = 'q-pager-btn';
-          nextBtn.type = 'button';
-          nextBtn.innerHTML = '&#8250;';
-          var renderPage = function() {
-            qCards.forEach(function(c, idx) { c.style.display = idx === pageIdx ? 'block' : 'none'; });
-            tabs.forEach(function(tab, idx) { tab.classList.toggle('active', idx === pageIdx); });
-            prevBtn.disabled = pageIdx === 0;
-            nextBtn.disabled = pageIdx === qCards.length - 1;
-          };
-          prevBtn.addEventListener('click', function(e) {
-            e.stopPropagation();
-            if (pageIdx > 0) { pageIdx--; renderPage(); }
-          });
-          nextBtn.addEventListener('click', function(e) {
-            e.stopPropagation();
-            if (pageIdx < qCards.length - 1) { pageIdx++; renderPage(); }
-          });
-          pager.appendChild(prevBtn);
-          pager.appendChild(tabsWrap);
-          pager.appendChild(nextBtn);
-          panel.insertBefore(pager, panel.firstChild);
-          renderPage();
+          qCards.forEach(function(c) { panel.appendChild(c); });
+          var pageIdx = 0;
+          if (qCards.length > 1) {
+            var pager = document.createElement('div'); pager.className = 'q-pager';
+            var prevBtn = document.createElement('button'); prevBtn.className = 'q-pager-btn'; prevBtn.type = 'button'; prevBtn.innerHTML = '&#8249;';
+            var tabsWrap = document.createElement('div'); tabsWrap.className = 'q-pager-tabs';
+            var tabs = sorted.map(function(q, idx) {
+              var tab = document.createElement('button'); tab.className = 'q-pager-tab'; tab.type = 'button';
+              tab.innerHTML = '<span class="q-pager-tab-q">' + q.qnum + '</span><span class="q-pager-tab-season">' + seasonLabel(q.paper) + '</span>';
+              tab.addEventListener('click', function(e) { e.stopPropagation(); pageIdx = idx; renderPage(); });
+              tabsWrap.appendChild(tab); return tab;
+            });
+            var nextBtn = document.createElement('button'); nextBtn.className = 'q-pager-btn'; nextBtn.type = 'button'; nextBtn.innerHTML = '&#8250;';
+            var renderPage = function() {
+              qCards.forEach(function(c, idx) { c.style.display = idx === pageIdx ? 'block' : 'none'; });
+              tabs.forEach(function(tab, idx) { tab.classList.toggle('active', idx === pageIdx); });
+              prevBtn.disabled = pageIdx === 0; nextBtn.disabled = pageIdx === qCards.length - 1;
+            };
+            prevBtn.addEventListener('click', function(e) { e.stopPropagation(); if (pageIdx > 0) { pageIdx--; renderPage(); } });
+            nextBtn.addEventListener('click', function(e) { e.stopPropagation(); if (pageIdx < qCards.length - 1) { pageIdx++; renderPage(); } });
+            pager.appendChild(prevBtn); pager.appendChild(tabsWrap); pager.appendChild(nextBtn);
+            panel.insertBefore(pager, panel.firstChild); renderPage();
+          }
+          item.appendChild(panel);
         }
-        subBody.appendChild(panel);
-      }
-      subCard.appendChild(subBody);
-      if (qs.length > 0 || syl) {
-        subHeader.style.cursor = 'pointer';
-        subHeader.addEventListener('click', function(e) {
-          e.stopPropagation();
-          subCard.classList.toggle('sub-open');
-          if (!subCard.classList.contains('sub-open')) stopTimer();
-        });
-      }
+        subsubList.appendChild(item);
+      });
+      subCard.appendChild(subsubList);
       subList.appendChild(subCard);
     });
     card.appendChild(subList);
@@ -272,93 +234,101 @@ function renderIgcseTheoryPanel(containerId, data) {
   var container = document.getElementById(containerId);
   if (!container) return;
   container.innerHTML = '';
-  var topicOrder = [];
-  var byTopic = {};
+  var order = [], byCode = {};
   data.forEach(function(q) {
-    if (!byTopic[q.topic]) { byTopic[q.topic] = []; topicOrder.push(q.topic); }
-    byTopic[q.topic].push(q);
+    var c = q.code || q.topic;
+    if (!byCode[c]) { byCode[c] = []; order.push(c); }
+    byCode[c].push(q);
+  });
+  order.sort(function(a, b) {
+    var ka = a.split('.').map(Number), kb = b.split('.').map(Number);
+    for (var i = 0; i < Math.max(ka.length, kb.length); i++) {
+      if ((ka[i] || 0) !== (kb[i] || 0)) return (ka[i] || 0) - (kb[i] || 0);
+    }
+    return 0;
+  });
+  var topicOrder = [], byTopic = {};
+  order.forEach(function(c) {
+    var tn = c.split('.')[0];
+    if (!byTopic[tn]) { byTopic[tn] = []; topicOrder.push(tn); }
+    byTopic[tn].push(c);
   });
   topicOrder.sort(function(a, b) { return parseInt(a) - parseInt(b); });
 
   topicOrder.forEach(function(tn) {
-    var qs = byTopic[tn];
-    var card = document.createElement('div');
-    card.className = 'topic-card t' + tn;
-
-    var header = document.createElement('div');
-    header.className = 'topic-header';
+    var card = document.createElement('div'); card.className = 'topic-card t' + tn;
+    var header = document.createElement('div'); header.className = 'topic-header';
     header.onclick = function() {
       var closing = card.classList.contains('expanded');
       card.classList.toggle('expanded');
       if (closing) stopTimer();
     };
-    var num = document.createElement('div');
-    num.className = 'topic-num';
-    num.textContent = tn;
-    var info = document.createElement('div');
-    info.className = 'topic-info';
-    var totalMarks = qs.reduce(function(s, q) { return s + q.marks; }, 0);
+    var num = document.createElement('div'); num.className = 'topic-num'; num.textContent = tn;
+    var info = document.createElement('div'); info.className = 'topic-info';
+    var totalQ = 0, totalMarks = 0;
+    byTopic[tn].forEach(function(c) { byCode[c].forEach(function(q) { totalQ++; totalMarks += q.marks; }); });
     info.innerHTML = '<div class="topic-name">' + tn + '. ' + igcseEscape(igcseTopicMeta[tn] || '') + '</div>' +
-      '<div class="topic-count">' + qs.length + ' question' + (qs.length > 1 ? 's' : '') +
-      ' &middot; <span class="q-count">' + totalMarks + ' marks</span></div>';
-    var chev = document.createElement('div');
-    chev.className = 'chevron';
-    chev.innerHTML = '&#9660;';
+      '<div class="topic-count">' + totalQ + ' question' + (totalQ > 1 ? 's' : '') + ' &middot; <span class="q-count">' + totalMarks + ' marks</span></div>';
+    var chev = document.createElement('div'); chev.className = 'chevron'; chev.innerHTML = '&#9660;';
     header.appendChild(num); header.appendChild(info); header.appendChild(chev);
     card.appendChild(header);
 
-    var subList = document.createElement('div');
-    subList.className = 'sub-list';
-    qs.forEach(function(q) {
-      var qCard = document.createElement('div');
-      qCard.className = 'p2-q-card';
-      var qHeader = document.createElement('div');
-      qHeader.className = 'p2-q-header';
-      qHeader.innerHTML = '<span class="p2-q-num sub-code">' + q.qnum + '</span>' +
-        '<span class="p2-q-title">' + igcseEscape(q.title) + '</span>' +
-        '<span class="p2-q-marks">' + q.marks + ' marks</span>' +
-        '<span class="p2-chevron">&#9660;</span>';
-      qHeader.addEventListener('click', function() {
-        var opening = !qCard.classList.contains('expanded');
-        qCard.classList.toggle('expanded');
-        if (opening) { startTimer(q.pdf); } else { stopTimer(); }
-      });
-      var timerBadge = createTimerBadge(q.pdf);
-      qHeader.insertBefore(timerBadge, qHeader.querySelector('.p2-chevron'));
-      var markToolbar = createMarkToolbar(q.pdf, qCard);
-      qHeader.insertBefore(markToolbar, qHeader.querySelector('.p2-chevron'));
-      registerMarkable(q.pdf, qCard, markToolbar);
-
-      var qMeta = document.createElement('div');
-      qMeta.className = 'p2-q-meta';
-      qMeta.textContent = q.paper + ' — ' + q.paper_full;
-      qCard.appendChild(qHeader);
-      qCard.appendChild(qMeta);
-
-      var qBody = document.createElement('div');
-      qBody.className = 'p2-q-body';
-      var pdfWrap = document.createElement('div');
-      pdfWrap.className = 'p2-pdf-wrap pdf-container';
-      pdfWrap.innerHTML = '<embed src="' + q.pdf + '" type="application/pdf">' +
-        '<div class="pdf-fallback" style="display:none">&#128196; Preview unavailable. <a href="' + q.pdf + '" target="_blank">Download PDF</a></div>';
-      qBody.appendChild(pdfWrap);
-
-      if (q.parts && q.parts.length) {
-        var partsWrap = document.createElement('div');
-        partsWrap.className = 'p2-parts';
-        q.parts.forEach(function(p) {
-          var part = document.createElement('div');
-          part.className = 'p2-part';
-          part.innerHTML =
-            '<div class="p2-part-head"><span class="p2-part-label">' + igcseEscape(p.label) + '</span>' +
-            '<span class="p2-part-marks">' + p.marks + ' mark' + (p.marks === 1 ? '' : 's') + '</span></div>' +
-            '<div class="p2-part-answer">' + p.answer + '</div>';
-          partsWrap.appendChild(part);
+    var subList = document.createElement('div'); subList.className = 'sub-list';
+    byTopic[tn].forEach(function(c) {
+      var qs = byCode[c];
+      var subCard = document.createElement('div'); subCard.className = 'sub-card';
+      var subHeader = document.createElement('div'); subHeader.className = 'sub-header';
+      subHeader.innerHTML = '<span class="sub-code">' + c + '</span><span class="sub-name">' + igcseEscape(igcseSubsubTitle[c] || c) + '</span>' +
+        '<span class="subsub-badge active">' + qs.length + '</span><span class="chevron">&#9660;</span>';
+      subCard.appendChild(subHeader);
+      var subBody = document.createElement('div'); subBody.className = 'sub-body';
+      qs.forEach(function(q) {
+        var qCard = document.createElement('div'); qCard.className = 'p2-q-card';
+        var qHeader = document.createElement('div'); qHeader.className = 'p2-q-header';
+        qHeader.innerHTML = '<span class="p2-q-num sub-code">' + q.qnum + '</span>' +
+          '<span class="p2-q-title">' + igcseEscape(q.title) + '</span>' +
+          '<span class="p2-q-marks">' + q.marks + ' marks</span>' +
+          '<span class="p2-chevron">&#9660;</span>';
+        qHeader.addEventListener('click', function() {
+          var opening = !qCard.classList.contains('expanded');
+          qCard.classList.toggle('expanded');
+          if (opening) { startTimer(q.pdf); } else { stopTimer(); }
         });
-        qBody.appendChild(partsWrap);
-      }
-      qCard.appendChild(qBody);
-      subList.appendChild(qCard);
+        var timerBadge = createTimerBadge(q.pdf);
+        qHeader.insertBefore(timerBadge, qHeader.querySelector('.p2-chevron'));
+        var markToolbar = createMarkToolbar(q.pdf, qCard);
+        qHeader.insertBefore(markToolbar, qHeader.querySelector('.p2-chevron'));
+        registerMarkable(q.pdf, qCard, markToolbar);
+        var qMeta = document.createElement('div'); qMeta.className = 'p2-q-meta';
+        qMeta.textContent = q.paper + ' — ' + q.paper_full;
+        qCard.appendChild(qHeader); qCard.appendChild(qMeta);
+        var qBody = document.createElement('div'); qBody.className = 'p2-q-body';
+        var pdfWrap = document.createElement('div'); pdfWrap.className = 'p2-pdf-wrap pdf-container';
+        pdfWrap.innerHTML = '<embed src="' + q.pdf + '" type="application/pdf">' +
+          '<div class="pdf-fallback" style="display:none">&#128196; Preview unavailable. <a href="' + q.pdf + '" target="_blank">Download PDF</a></div>';
+        qBody.appendChild(pdfWrap);
+        if (q.parts && q.parts.length) {
+          var partsWrap = document.createElement('div'); partsWrap.className = 'p2-parts';
+          q.parts.forEach(function(p) {
+            var part = document.createElement('div'); part.className = 'p2-part';
+            part.innerHTML = '<div class="p2-part-head"><span class="p2-part-label">' + igcseEscape(p.label) + '</span>' +
+              '<span class="p2-part-marks">' + p.marks + ' mark' + (p.marks === 1 ? '' : 's') + '</span></div>' +
+              '<div class="p2-part-answer">' + p.answer + '</div>';
+            partsWrap.appendChild(part);
+          });
+          qBody.appendChild(partsWrap);
+        }
+        qCard.appendChild(qBody);
+        subBody.appendChild(qCard);
+      });
+      subCard.appendChild(subBody);
+      subHeader.style.cursor = 'pointer';
+      subHeader.addEventListener('click', function(e) {
+        e.stopPropagation();
+        subCard.classList.toggle('sub-open');
+        if (!subCard.classList.contains('sub-open')) stopTimer();
+      });
+      subList.appendChild(subCard);
     });
     card.appendChild(subList);
     container.appendChild(card);
@@ -440,14 +410,16 @@ def data_js(mcq_by_year, answer_key, theory_by_year):
     th = json.dumps(theory_by_year, ensure_ascii=False)
     topic_meta = json.dumps(TOPIC_TITLES, ensure_ascii=False)
     subsubs = json.dumps(SUBSUBS, ensure_ascii=False)
+    subsub_title = json.dumps(subsub_title_map(), ensure_ascii=False)
     return (
         "const igcseSyllabus = %s;\n"
         "const igcseTopicMeta = %s;\n"
         "const igcseSubsubs = %s;\n"
+        "const igcseSubsubTitle = %s;\n"
         "const igcseMcqData = %s;\n"
         "const igcseAnswerKey = %s;\n"
         "const igcseTheoryData = %s;\n"
-        % (syllabus_js(), topic_meta, subsubs, mcq, ak, th)
+        % (syllabus_js(), topic_meta, subsubs, subsub_title, mcq, ak, th)
     )
 
 

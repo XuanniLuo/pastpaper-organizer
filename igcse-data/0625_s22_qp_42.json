@@ -13,7 +13,7 @@
           "label": "1(a)(i)",
           "marks": 5,
           "codes": [
-            "1.7"
+            "1.7.4"
           ],
           "answer": "(E =) 2 200 000 (J) OR 2.2  106 (J) (E =) Pt in any form (E =) 600  3600"
         },
@@ -21,7 +21,7 @@
           "label": "1(a)(ii)",
           "marks": 1,
           "codes": [
-            "1.7"
+            "1.7.4"
           ],
           "answer": "chemical"
         },
@@ -29,7 +29,7 @@
           "label": "1(b)",
           "marks": 3,
           "codes": [
-            "1.7"
+            "1.7.4"
           ],
           "answer": "(t =) 8600 s OR 140 min OR 2.4 h OR 2 h 24 min OR (t =) 8800 s OR 147 min OR 2 h 27 min (t =) 2.2  106 / 250 OR (600  60) / 250 OR 1  600 / 250"
         },
@@ -37,12 +37,12 @@
           "label": "1(c)",
           "marks": 2,
           "codes": [
-            "1.7"
+            "1.7.4"
           ],
           "answer": "any two from:  less noise OR no noise  less OR no air / gaseous pollution (from the bicycle) OR does not produce acid rain  (the bicycle) uses no / less fossil fuel  does not contribute to greenhouse effect OR does not release CO2"
         }
       ],
-      "code": "1.7"
+      "code": "1.7.4"
     },
     {
       "qnum": 2,
@@ -55,7 +55,7 @@
           "label": "2(a)",
           "marks": 3,
           "codes": [
-            "1.5"
+            "1.5.1"
           ],
           "answer": "(F = 2.0  4.0 =) 8.0 N (F =) ma in any form 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 7 of 12"
         },
@@ -63,7 +63,7 @@
           "label": "2(b)",
           "marks": 5,
           "codes": [
-            "1.5"
+            "1.5.1"
           ],
           "answer": "(F = 30 – 12 =) 18 N resultant force on 3 kg mass (3  4 =) 12 (N) (weight of 3 kg mass = 3  10) = 30 (N)"
         },
@@ -71,7 +71,7 @@
           "label": "2(c)(i)",
           "marks": 3,
           "codes": [
-            "1.5"
+            "1.5.1"
           ],
           "answer": "(v =) 4.0  0.80 (= 3.2 m / s) ()v = at in any form"
         },
@@ -79,12 +79,12 @@
           "label": "2(c)(ii)",
           "marks": 3,
           "codes": [
-            "1.5"
+            "1.5.1"
           ],
           "answer": "(t = 0.020 / 3.2 =) 0.0063 s OR 6.3  10–3 s (t =) d / v in any form"
         }
       ],
-      "code": "1.5"
+      "code": "1.5.1"
     },
     {
       "qnum": 3,
@@ -123,7 +123,7 @@
           "label": "4(a)",
           "marks": 4,
           "codes": [
-            "2.2"
+            "2.2.1"
           ],
           "answer": "statement: bore of constant (cross sectional) area explanation: idea of same movement / change in length of liquid / thread AND for same increase in volume / expansion (of liquid) statement: (liquid has) constant thermal expansion explanation: liquid moves same distance for each °C temperature rise"
         },
@@ -131,7 +131,7 @@
           "label": "4(b)",
           "marks": 2,
           "codes": [
-            "2.2"
+            "2.2.1"
           ],
           "answer": "heat capacity / it is small only uses / needs a small amount of (thermal) energy (to raise its temperature)"
         },
@@ -139,12 +139,12 @@
           "label": "4(c)",
           "marks": 5,
           "codes": [
-            "2.2"
+            "2.2.1"
           ],
           "answer": "36 J (E =) CT in any form (E =) 0.11  (345 – 20) OR (T =) 325 (°C)"
         }
       ],
-      "code": "2.2"
+      "code": "2.2.1"
     },
     {
       "qnum": 5,
@@ -191,7 +191,7 @@
           "label": "6(a)",
           "marks": 1,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "1.9–2.1 cm"
         },
@@ -199,7 +199,7 @@
           "label": "6(b)",
           "marks": 3,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "(circle round) enlarged (circle round) inverted (circle round) real"
         },
@@ -207,12 +207,12 @@
           "label": "6(c)",
           "marks": 1,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "not an intersection of rays OR cannot be formed on a screen OR cannot be projected on a screen OR light rays do not pass through image OR light rays do not meet OR light rays do not converge"
         }
       ],
-      "code": "3.2"
+      "code": "3.2.3"
     },
     {
       "qnum": 7,
@@ -225,7 +225,7 @@
           "label": "7(a)",
           "marks": 1,
           "codes": [
-            "4.5"
+            "4.5.4"
           ],
           "answer": "(pole A:) N AND (pole B:) S"
         },
@@ -233,7 +233,7 @@
           "label": "7(b)",
           "marks": 2,
           "codes": [
-            "4.5"
+            "4.5.4"
           ],
           "answer": "vertical up"
         },
@@ -241,12 +241,12 @@
           "label": "7(c)",
           "marks": 2,
           "codes": [
-            "4.5"
+            "4.5.4"
           ],
           "answer": "vertical down"
         }
       ],
-      "code": "4.5"
+      "code": "4.5.4"
     },
     {
       "qnum": 8,
@@ -259,7 +259,7 @@
           "label": "8(a)",
           "marks": 1,
           "codes": [
-            "4.2"
+            "4.2.2"
           ],
           "answer": "(t = 1/60 =) 0.017 s OR 1.7  10–2 s"
         },
@@ -267,7 +267,7 @@
           "label": "8(b)(i)",
           "marks": 1,
           "codes": [
-            "4.2"
+            "4.2.2"
           ],
           "answer": "diode"
         },
@@ -275,7 +275,7 @@
           "label": "8(b)(ii)",
           "marks": 5,
           "codes": [
-            "4.2"
+            "4.2.2"
           ],
           "answer": "(I =) 1.4 A (I =) Q / t in any form (I =) 1.5  1017  1.6  10–19 / 0.017 OR 0.024 / 0.017 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 10 of 12"
         },
@@ -283,7 +283,7 @@
           "label": "8(c)",
           "marks": 2,
           "codes": [
-            "4.2"
+            "4.2.2"
           ],
           "answer": "one arrow clockwise AND one arrow anticlockwise arrow anticlockwise (around circuit) labelled I"
         },
@@ -291,12 +291,12 @@
           "label": "8(d)",
           "marks": 3,
           "codes": [
-            "4.2"
+            "4.2.2"
           ],
           "answer": "(P = 0.35  12 =) 4.2 W (P =) IV in any form"
         }
       ],
-      "code": "4.2"
+      "code": "4.2.2"
     },
     {
       "qnum": 9,
@@ -309,7 +309,7 @@
           "label": "9(a)(i)",
           "marks": 1,
           "codes": [
-            "4.3"
+            "4.3.2"
           ],
           "answer": "0 (A)"
         },
@@ -317,7 +317,7 @@
           "label": "9(a)(ii)",
           "marks": 3,
           "codes": [
-            "4.3"
+            "4.3.2"
           ],
           "answer": "(I = 12 / 2 =) 6.0 A (I =) V / R in any form"
         },
@@ -325,7 +325,7 @@
           "label": "9(a)(iii)",
           "marks": 3,
           "codes": [
-            "4.3"
+            "4.3.2"
           ],
           "answer": "(I = 12 / 5 =) 2.4 A (Rs = R1 + R2 = 2 + 3 =) 5 ()"
         },
@@ -333,12 +333,12 @@
           "label": "9(b)",
           "marks": 5,
           "codes": [
-            "4.3"
+            "4.3.2"
           ],
           "answer": "(Rp = 6 / 5 =) 1.2  1 / Rp = 1 / R1 + 1 / R2 OR (Rp =) R1 R2 / (R1 + R2) 1 / Rp = 1 / 2 + 1 / 3 OR (Rp =) 2  3 / (2 + 3) 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 11 of 12"
         }
       ],
-      "code": "4.3"
+      "code": "4.3.2"
     },
     {
       "qnum": 10,
@@ -351,7 +351,7 @@
           "label": "10(a)",
           "marks": 3,
           "codes": [
-            "4.3"
+            "4.3.1"
           ],
           "answer": "output of X output of Y 1 0 1 0 0 1 0 0 all column X correct 1, 1, 0, 0 first 2 rows of column Y correct 0, 0 last 2 rows of column Y correct 1, 0"
         },
@@ -359,7 +359,7 @@
           "label": "10(b)",
           "marks": 1,
           "codes": [
-            "4.3"
+            "4.3.1"
           ],
           "answer": "high humidity AND dark(ness)"
         },
@@ -367,12 +367,12 @@
           "label": "10(c)",
           "marks": 3,
           "codes": [
-            "4.3"
+            "4.3.1"
           ],
           "answer": "relay low voltage output (of NOR gate/gate Y) OR small current (in relay coil) large(r) current provided (by relay) OR large(r) voltage provided (by relay)"
         }
       ],
-      "code": "4.3"
+      "code": "4.3.1"
     },
     {
       "qnum": 11,
@@ -385,7 +385,7 @@
           "label": "11(a)(i)",
           "marks": 3,
           "codes": [
-            "5.1"
+            "5.1.1"
           ],
           "answer": "top: travels to left middle: deflected down AND still travels to right bottom: straight on 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 12 of 12"
         },
@@ -393,7 +393,7 @@
           "label": "11(a)(ii)",
           "marks": 1,
           "codes": [
-            "5.1"
+            "5.1.1"
           ],
           "answer": "plus OR positive OR +"
         },
@@ -401,12 +401,12 @@
           "label": "11(b)",
           "marks": 3,
           "codes": [
-            "5.1"
+            "5.1.1"
           ],
           "answer": "79 (electrons) 119 (neutrons) 79 (protons)"
         }
       ],
-      "code": "5.1"
+      "code": "5.1.1"
     }
   ]
 }

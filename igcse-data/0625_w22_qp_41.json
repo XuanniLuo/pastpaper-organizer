@@ -13,7 +13,7 @@
           "label": "1(a)",
           "marks": 3,
           "codes": [
-            "1.7"
+            "1.7.1"
           ],
           "answer": "2.3 J g.p.e. = mgh in any form or 0.50  10  0.45"
         },
@@ -21,7 +21,7 @@
           "label": "1(b)(i)",
           "marks": 5,
           "codes": [
-            "1.7"
+            "1.7.1"
           ],
           "answer": "1.2 N s impulse = change in momentum or 2.0  0.60 I = mv in any form or 2.0  0.60"
         },
@@ -29,12 +29,12 @@
           "label": "1(b)(ii)",
           "marks": 6,
           "codes": [
-            "1.7"
+            "1.7.1"
           ],
           "answer": "kinetic energy (of block A) decreases thermal / internal energy produced / increases (due to friction) friction mentioned or block slows down / decelerates 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2022 © UCLES 2022 Page 7 of 16"
         }
       ],
-      "code": "1.7"
+      "code": "1.7.1"
     },
     {
       "qnum": 2,
@@ -47,7 +47,7 @@
           "label": "2(a)(i)",
           "marks": 4,
           "codes": [
-            "1.5"
+            "1.5.1"
           ],
           "answer": "magnitude or size direction"
         },
@@ -55,7 +55,7 @@
           "label": "2(a)(ii)",
           "marks": 4,
           "codes": [
-            "1.5"
+            "1.5.1"
           ],
           "answer": "any two from: acceleration / deceleration, gravitational field strength, impulse, momentum, velocity, weight"
         },
@@ -63,7 +63,7 @@
           "label": "2(b)(i)",
           "marks": 1,
           "codes": [
-            "1.5"
+            "1.5.1"
           ],
           "answer": "0.12 m"
         },
@@ -71,7 +71,7 @@
           "label": "2(b)(ii)",
           "marks": 4,
           "codes": [
-            "1.5"
+            "1.5.1"
           ],
           "answer": "beyond where the extension is not directly proportional to the load or (point) where extension stops being directly proportional to the load or point up to which extension is directly proportional to the load 10.4 N ⩽ weight ⩽ 10.9 N"
         },
@@ -79,12 +79,12 @@
           "label": "2(b)(iii)",
           "marks": 5,
           "codes": [
-            "1.5"
+            "1.5.1"
           ],
           "answer": "22 N / m ⩽ k ⩽ 25 N / m clear subtraction of 0.12 from a length that is in Hooke’s law region e.g. 0.54 – 0.12 k = F / x in any form or k = W / x in any form or k = 1 / gradient 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2022 © UCLES 2022 Page 8 of 16"
         }
       ],
-      "code": "1.5"
+      "code": "1.5.1"
     },
     {
       "qnum": 3,
@@ -97,7 +97,7 @@
           "label": "3(a)",
           "marks": 1,
           "codes": [
-            "1.5"
+            "1.5.2"
           ],
           "answer": "620 N"
         },
@@ -105,7 +105,7 @@
           "label": "3(b)",
           "marks": 4,
           "codes": [
-            "1.5"
+            "1.5.2"
           ],
           "answer": "no resultant force (on object in equilibrium) no resultant moment (on object in equilibrium)"
         },
@@ -113,7 +113,7 @@
           "label": "3(c)(i)",
           "marks": 3,
           "codes": [
-            "1.5"
+            "1.5.2"
           ],
           "answer": "560 N m ( =) Fx┴r or 620  0.90"
         },
@@ -121,12 +121,12 @@
           "label": "3(c)(ii)",
           "marks": 5,
           "codes": [
-            "1.5"
+            "1.5.2"
           ],
           "answer": "540 N use of any moment T  1.2 sin 60° (= 560) or (T =) 560 / (1.2  sin 60°) 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2022 © UCLES 2022 Page 9 of 16"
         }
       ],
-      "code": "1.5"
+      "code": "1.5.2"
     },
     {
       "qnum": 4,
@@ -139,7 +139,7 @@
           "label": "4(a)(i)",
           "marks": 3,
           "codes": [
-            "2.1"
+            "2.1.2"
           ],
           "answer": "240 N F = pA in any form or 1.0  105  2.4  10–3"
         },
@@ -147,7 +147,7 @@
           "label": "4(a)(ii)",
           "marks": 3,
           "codes": [
-            "2.1"
+            "2.1.2"
           ],
           "answer": "5.0 J WD = Fx‖ or 240  0.021"
         },
@@ -155,7 +155,7 @@
           "label": "4(b)",
           "marks": 3,
           "codes": [
-            "2.1"
+            "2.1.2"
           ],
           "answer": "(–)3.5  103 J E = CDT in any form or 89  (21 – (–18) or 89  (3) or 89  39"
         },
@@ -163,7 +163,7 @@
           "label": "4(c)",
           "marks": 6,
           "codes": [
-            "2.1"
+            "2.1.2"
           ],
           "answer": "(as the volume decreases) the particles collide more often (as the temperature decreases) the particles collide less violently two effects cancel (to leave the pressure unchanged) or particles collide with walls / piston / cylinder"
         },
@@ -171,12 +171,12 @@
           "label": "4(d)",
           "marks": 4,
           "codes": [
-            "2.1"
+            "2.1.2"
           ],
           "answer": "(attractive) forces between (any two) particles large(r than in gases) particles close(r) together (than gas particles) or particles already touching 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2022 © UCLES 2022 Page 10 of 16"
         }
       ],
-      "code": "2.1"
+      "code": "2.1.2"
     },
     {
       "qnum": 5,
@@ -189,7 +189,7 @@
           "label": "5(a)",
           "marks": 1,
           "codes": [
-            "2.3"
+            "2.3.3"
           ],
           "answer": "infrared"
         },
@@ -197,7 +197,7 @@
           "label": "5(b)(i)",
           "marks": 1,
           "codes": [
-            "2.3"
+            "2.3.3"
           ],
           "answer": "(both) transverse / electromagnetic / travel in a vacuum / have the same (high) speed (in a vacuum)"
         },
@@ -205,7 +205,7 @@
           "label": "5(b)(ii)",
           "marks": 1,
           "codes": [
-            "2.3"
+            "2.3.3"
           ],
           "answer": "(it / visible light) compared with an e.m. radiation stated by candidate in 5(a) in terms of frequency / wavelength"
         },
@@ -213,7 +213,7 @@
           "label": "5(c)(i)",
           "marks": 6,
           "codes": [
-            "2.3"
+            "2.3.3"
           ],
           "answer": "equipment e.g. black container, white container, thermometers or Leslie’s cube and detector measurements made warm / hot water in container and temperature decreases recorded or time to reach a given temperature / to cool or warm / hot water in cube and meter readings recorded how a conclusion is reached better emitter surface cools quicker or greater reading from better emitter surface 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2022 © UCLES 2022 Page 11 of 16"
         },
@@ -221,12 +221,12 @@
           "label": "5(c)(ii)",
           "marks": 2,
           "codes": [
-            "2.3"
+            "2.3.3"
           ],
           "answer": "any two appropriate quantities e.g. initial temperature of water mass / volume of water dimensions / surface area of container time of cooling mass of container shape of container smoothness of surface or surface area of face (of cube) distance of detector temperature of water at time of measurement smoothness of surface 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2022 © UCLES 2022 Page 12 of 16"
         }
       ],
-      "code": "2.3"
+      "code": "2.3.3"
     },
     {
       "qnum": 6,
@@ -239,7 +239,7 @@
           "label": "6(a)",
           "marks": 1,
           "codes": [
-            "3.2"
+            "3.2.2"
           ],
           "answer": "(light of a) single frequency"
         },
@@ -247,7 +247,7 @@
           "label": "6(b)(i)",
           "marks": 4,
           "codes": [
-            "3.2"
+            "3.2.2"
           ],
           "answer": "angle of incidence is 0° (hence) angle of refraction is 0° or all the wavefront hits the plastic at the same time all slows down at the same time"
         },
@@ -255,7 +255,7 @@
           "label": "6(b)(ii)",
           "marks": 7,
           "codes": [
-            "3.2"
+            "3.2.2"
           ],
           "answer": "1.8  108 m / s n = 1 / sin c in any form or n = 1 / sin 37° (n =) 1.7 vpl = v0 / n in any form or 3.0  108 / 1.7 or 3.0  108  sin 37°"
         },
@@ -263,12 +263,12 @@
           "label": "6(b)(iii)",
           "marks": 6,
           "codes": [
-            "3.2"
+            "3.2.2"
           ],
           "answer": "critical angle (for blue light) < 37° or critical angle for red (light) is 37° angle of incidence (of blue light) greater than its critical angle (in plastic) total internal reflection or all the (blue) light reflects or no (blue) light leaves the glass / refracts / travels in air along the straight edge 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2022 © UCLES 2022 Page 13 of 16"
         }
       ],
-      "code": "3.2"
+      "code": "3.2.2"
     },
     {
       "qnum": 7,
@@ -281,7 +281,7 @@
           "label": "7(a)",
           "marks": 6,
           "codes": [
-            "4.5"
+            "4.5.3"
           ],
           "answer": "X and Y / they become magnetised or they / strips have poles strips in the centre have opposite (magnetic) poles or X and Y attract X and Y touch / close switch / activate relay / complete circuit"
         },
@@ -289,7 +289,7 @@
           "label": "7(b)(i)",
           "marks": 3,
           "codes": [
-            "4.5"
+            "4.5.3"
           ],
           "answer": "150 A I = P / V in any form or 1.8 / 12 or 1800 / 12 or 1800 / 12 or 0.15"
         },
@@ -297,7 +297,7 @@
           "label": "7(b)(ii)",
           "marks": 4,
           "codes": [
-            "4.5"
+            "4.5.3"
           ],
           "answer": "small(er) resistance mentioned less thermal energy produced or wires do not melt or large current mentioned 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2022 © UCLES 2022 Page 14 of 16"
         },
@@ -305,12 +305,12 @@
           "label": "7(c)",
           "marks": 4,
           "codes": [
-            "4.5"
+            "4.5.3"
           ],
           "answer": "flexible strips in series with motor power supply in series with motor expected answer: W X Y Z plastic case flexible iron strips 12 V car battery S magnetising coil M starter motor 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2022 © UCLES 2022 Page 15 of 16"
         }
       ],
-      "code": "4.5"
+      "code": "4.5.3"
     },
     {
       "qnum": 8,
@@ -323,7 +323,7 @@
           "label": "8(a)",
           "marks": 1,
           "codes": [
-            "4.3"
+            "4.3.2"
           ],
           "answer": "both relate to energy per unit charge"
         },
@@ -331,7 +331,7 @@
           "label": "8(b)",
           "marks": 1,
           "codes": [
-            "4.3"
+            "4.3.2"
           ],
           "answer": "e.m.f. applies to the whole circuit / source or p.d. to one (or more) component or energy conversion to electrical for e.m.f. or from electrical for p.d."
         },
@@ -339,7 +339,7 @@
           "label": "8(c)(i)",
           "marks": 1,
           "codes": [
-            "4.3"
+            "4.3.2"
           ],
           "answer": "4.8 V"
         },
@@ -347,7 +347,7 @@
           "label": "8(c)(ii)",
           "marks": 5,
           "codes": [
-            "4.3"
+            "4.3.2"
           ],
           "answer": "20  1 / RT = 1 / R1 + 1 / R2 or (RT =) R1 R2 / (R1 + R2) or 1 / RT = 1 / 24 + 1 / 12 or 1 / RT = 3 / 24 or (RT =) 24 × 12 / (24 + 12) 8.0 ()"
         },
@@ -355,12 +355,12 @@
           "label": "8(c)(iii)",
           "marks": 3,
           "codes": [
-            "4.3"
+            "4.3.2"
           ],
           "answer": "2.9 V V = ER / RT in any form or 4.8  12 / 20 or I = E / R in any form or 0.24 seen 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2022 © UCLES 2022 Page 16 of 16"
         }
       ],
-      "code": "4.3"
+      "code": "4.3.2"
     },
     {
       "qnum": 9,
@@ -373,7 +373,7 @@
           "label": "9(a)",
           "marks": 1,
           "codes": [
-            "5.2"
+            "5.2.3"
           ],
           "answer": "they all have the same number of neutrons / nucleons or they are all identical"
         },
@@ -381,7 +381,7 @@
           "label": "9(b)(i)",
           "marks": 4,
           "codes": [
-            "5.2"
+            "5.2.3"
           ],
           "answer": "(number of protons =) 80 (number of neutrons =) 118"
         },
@@ -389,7 +389,7 @@
           "label": "9(b)(ii)",
           "marks": 1,
           "codes": [
-            "5.2"
+            "5.2.3"
           ],
           "answer": "19 counts / minute ⩽ count rate ⩽ 21counts / minute"
         },
@@ -397,12 +397,12 @@
           "label": "9(b)(iii)",
           "marks": 7,
           "codes": [
-            "5.2"
+            "5.2.3"
           ],
           "answer": "2.4 days ⩽  ⩽ 2.9 days count rate from line – background count e.g. 390 – 20 answer from first mark divided by 2 e.g. 370 / 2 or 185 background count + answer from second mark e.g. 20 + 370 / 2 or 20 + 185 or 205"
         }
       ],
-      "code": "5.2"
+      "code": "5.2.3"
     }
   ]
 }

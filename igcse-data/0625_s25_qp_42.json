@@ -55,7 +55,7 @@
           "label": "2(a)",
           "marks": 1,
           "codes": [
-            "1.5"
+            "1.5.2"
           ],
           "answer": "(moment =) force  perpendicular distance (from the pivot)"
         },
@@ -63,7 +63,7 @@
           "label": "2(b)",
           "marks": 1,
           "codes": [
-            "1.5"
+            "1.5.2"
           ],
           "answer": "X AND 50 cm labelled to the right of the pivot AND left of 80 cm"
         },
@@ -71,7 +71,7 @@
           "label": "2(c)(i)",
           "marks": 3,
           "codes": [
-            "1.5"
+            "1.5.2"
           ],
           "answer": "sum of clockwise moments = sum of anticlockwise moments {mg  8} + {0.12  38} = {0.34  32} any one from: • mg = [{0.34  32} – {0.12  38}] ÷ 8 • mg = {10.88 – 4.56} ÷ 8 • mg = 6.32 ÷ 8 • mg = 0.79 • (mass =) 0.79 ÷ 9.8"
         },
@@ -79,12 +79,12 @@
           "label": "2(c)(ii)",
           "marks": 3,
           "codes": [
-            "1.5"
+            "1.5.2"
           ],
           "answer": "520 kg / m3 (density =) mass ÷ volume OR 0.081 ÷ {1(.0)  2.6  10–2  6(.0)  10–3} 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2025 © Cambridge University Press & Assessment 2025 Page 11 of 19"
         }
       ],
-      "code": "1.5"
+      "code": "1.5.2"
     },
     {
       "qnum": 3,
@@ -131,7 +131,7 @@
           "label": "4(a)(i)",
           "marks": 3,
           "codes": [
-            "2.3"
+            "2.3.3"
           ],
           "answer": "container A or container with (dull) black (surface) AND (dull) black (surfaces) are better emitters of infrared / radiation (than shiny white surfaces) container A or container with (dull) black (surface) AND (dull) black (surfaces) are better emitters (than shiny white surfaces)"
         },
@@ -139,7 +139,7 @@
           "label": "4(a)(ii)",
           "marks": 1,
           "codes": [
-            "2.3"
+            "2.3.3"
           ],
           "answer": "rate of transfer of energy from the container is equal to rate of transfer of energy to the container"
         },
@@ -147,7 +147,7 @@
           "label": "4(a)(iii)",
           "marks": 1,
           "codes": [
-            "2.3"
+            "2.3.3"
           ],
           "answer": "convection"
         },
@@ -155,12 +155,12 @@
           "label": "4(b)",
           "marks": 3,
           "codes": [
-            "2.3"
+            "2.3.3"
           ],
           "answer": "any three from: • metal is a good / better (thermal) conductor OR wood is a poor conductor OR wood is a (thermal) insulator • metal contains free / delocalised electrons OR wood does not contain free / delocalised electrons • electrons carry (thermal) energy through metal OR electrons collide with (distant) ions • wood only transfers (thermal) energy by lattice vibrations 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2025 © Cambridge University Press & Assessment 2025 Page 13 of 19"
         }
       ],
-      "code": "2.3"
+      "code": "2.3.3"
     },
     {
       "qnum": 5,
@@ -215,7 +215,7 @@
           "label": "6(a)(i)",
           "marks": 1,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "two points labelled F on principal axis, both 3.0 cm from the centre of the lens"
         },
@@ -223,7 +223,7 @@
           "label": "6(a)(ii)",
           "marks": 5,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "method 1 two correct rays from: • ray from top of I through the centre of the lens • ray from top of I parallel to principal axis to the left of the lens, to centre of lens and then through RH focus • ray from top of I through LH focus to lens, to centre of lens and then parallel to principal axis on the right of the lens OR method 2 two correct rays from: • ray from top of I through the centre of the lens • ray from top of I through RH focus of lens and extended back, from centre of lens, parallel to principal axis on the left of the lens • ray from top of I parallel to principal axis to the left of the lens, and extended back, from the centre of the lens, through the LH focus object, labelled O, at the intersection of rays to the RH of the lens for method 1 object, labelled O, at the intersection of rays to the LH of the lens for method 2"
         },
@@ -231,7 +231,7 @@
           "label": "6(a)(iii)",
           "marks": 1,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "real OR inverted"
         },
@@ -239,7 +239,7 @@
           "label": "6(b)(i)",
           "marks": 1,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "rays meeting behind the retina OR would meet behind retina if extended"
         },
@@ -247,12 +247,12 @@
           "label": "6(b)(ii)",
           "marks": 1,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "any converging lens 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2025 © Cambridge University Press & Assessment 2025 Page 16 of 19"
         }
       ],
-      "code": "3.2"
+      "code": "3.2.3"
     },
     {
       "qnum": 7,
@@ -265,7 +265,7 @@
           "label": "7(a)",
           "marks": 1,
           "codes": [
-            "4.2"
+            "4.2.1"
           ],
           "answer": "(region) where a(n electric) charge experiences a force OR (region) where a force acts on a(n electric) charge"
         },
@@ -273,7 +273,7 @@
           "label": "7(b)(i)",
           "marks": 2,
           "codes": [
-            "4.2"
+            "4.2.1"
           ],
           "answer": "any two from: • friction (between cloth and rod causes electrons to gain energy) • electrons move • (electrons move) from cloth / to plastic (making plastic negative and cloth positive)"
         },
@@ -281,7 +281,7 @@
           "label": "7(b)(ii)",
           "marks": 3,
           "codes": [
-            "4.2"
+            "4.2.1"
           ],
           "answer": "moves away (from the charged plastic rod) moves / experiences a force / repels"
         },
@@ -289,7 +289,7 @@
           "label": "7(c)(i)",
           "marks": 1,
           "codes": [
-            "4.2"
+            "4.2.1"
           ],
           "answer": "energy transferred in one hour at a rate of transfer of 1 kW"
         },
@@ -297,12 +297,12 @@
           "label": "7(c)(ii)",
           "marks": 6,
           "codes": [
-            "4.2"
+            "4.2.1"
           ],
           "answer": "1 5.5 (kW h) P = (∆)E ÷ t OR (∆E =) Pt OR (∆E =) 0.025  220 OR 25  220 2 0.11  A P = V I OR (I =) P ÷ V OR (I =) 25 ÷ 230 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2025 © Cambridge University Press & Assessment 2025 Page 17 of 19"
         }
       ],
-      "code": "4.2"
+      "code": "4.2.1"
     },
     {
       "qnum": 8,
@@ -315,7 +315,7 @@
           "label": "8(a)(i)",
           "marks": 2,
           "codes": [
-            "4.5"
+            "4.5.2"
           ],
           "answer": "P and Q: slip rings X and Y: brushes"
         },
@@ -323,7 +323,7 @@
           "label": "8(a)(ii)",
           "marks": 1,
           "codes": [
-            "4.5"
+            "4.5.2"
           ],
           "answer": "coil cuts magnetic field"
         },
@@ -331,7 +331,7 @@
           "label": "8(a)(iii)",
           "marks": 1,
           "codes": [
-            "4.5"
+            "4.5.2"
           ],
           "answer": "any one from: • increase strength of magnetic field • increase speed of rotation of coil • increase number of turns (of coil)"
         },
@@ -339,7 +339,7 @@
           "label": "8(b)(i)",
           "marks": 2,
           "codes": [
-            "4.5"
+            "4.5.2"
           ],
           "answer": "1.2 A (total) resistance of two (identical) resistors in series is added / doubled"
         },
@@ -347,7 +347,7 @@
           "label": "8(b)(ii)",
           "marks": 1,
           "codes": [
-            "4.5"
+            "4.5.2"
           ],
           "answer": "6(.0) A"
         },
@@ -355,12 +355,12 @@
           "label": "8(b)(iii)",
           "marks": 3,
           "codes": [
-            "4.5"
+            "4.5.2"
           ],
           "answer": "2.1  V = I R OR (R =) V ÷ I OR (R =) 5(.0) ÷ 2.4 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2025 © Cambridge University Press & Assessment 2025 Page 18 of 19"
         }
       ],
-      "code": "4.5"
+      "code": "4.5.2"
     },
     {
       "qnum": 9,
@@ -373,7 +373,7 @@
           "label": "9(a)(i)",
           "marks": 1,
           "codes": [
-            "5.2"
+            "5.2.2"
           ],
           "answer": "radiation (always) present in the environment OR radiation from natural sources"
         },
@@ -381,7 +381,7 @@
           "label": "9(a)(ii)",
           "marks": 1,
           "codes": [
-            "5.2"
+            "5.2.2"
           ],
           "answer": "any one from: • radon gas • rocks OR buildings • food OR drink • cosmic rays"
         },
@@ -389,7 +389,7 @@
           "label": "9(b)(i)",
           "marks": 2,
           "codes": [
-            "5.2"
+            "5.2.2"
           ],
           "answer": "Rn 86 219  2 4"
         },
@@ -397,7 +397,7 @@
           "label": "9(b)(ii)",
           "marks": 1,
           "codes": [
-            "5.2"
+            "5.2.2"
           ],
           "answer": "alpha (particles) would be absorbed / stopped by the skin owtte"
         },
@@ -405,7 +405,7 @@
           "label": "9(c)(i)",
           "marks": 1,
           "codes": [
-            "5.2"
+            "5.2.2"
           ],
           "answer": "gamma / radiation needs to pass out of the body (to detector)"
         },
@@ -413,12 +413,12 @@
           "label": "9(c)(ii)",
           "marks": 1,
           "codes": [
-            "5.2"
+            "5.2.2"
           ],
           "answer": "after a few days / some time, little radiation is emitted owtte 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2025 © Cambridge University Press & Assessment 2025 Page 19 of 19"
         }
       ],
-      "code": "5.2"
+      "code": "5.2.2"
     },
     {
       "qnum": 10,
@@ -431,7 +431,7 @@
           "label": "10(a)(i)",
           "marks": 2,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "planet B high(est) (surface) temperature"
         },
@@ -439,7 +439,7 @@
           "label": "10(a)(ii)",
           "marks": 1,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "–180 (°C)"
         },
@@ -447,7 +447,7 @@
           "label": "10(a)(iii)",
           "marks": 2,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "planet A gravitational field strength is highest so acceleration (due to gravity) is greater OR gravitational field strength is highest so greater (downward) force on the object"
         },
@@ -455,7 +455,7 @@
           "label": "10(b)(i)",
           "marks": 4,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "red supergiant (new) heavier elements OR hydrogen any two from: • neutron star • black hole • new stars (with orbiting planets)"
         },
@@ -463,12 +463,12 @@
           "label": "10(b)(ii)",
           "marks": 1,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "distance (from Earth) to galaxy"
         }
       ],
-      "code": "6.1"
+      "code": "6.1.2"
     }
   ]
 }

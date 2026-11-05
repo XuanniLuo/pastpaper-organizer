@@ -18,7 +18,7 @@
       "marks": 5,
       "pdf": "igcse-slices/0625_s26_qp_43_Q02.pdf",
       "parts": [],
-      "code": "1.5"
+      "code": "1.5.2"
     },
     {
       "qnum": 3,
@@ -27,7 +27,7 @@
       "marks": 8,
       "pdf": "igcse-slices/0625_s26_qp_43_Q03.pdf",
       "parts": [],
-      "code": "2.1"
+      "code": "2.1.3"
     },
     {
       "qnum": 4,
@@ -36,7 +36,7 @@
       "marks": 7,
       "pdf": "igcse-slices/0625_s26_qp_43_Q04.pdf",
       "parts": [],
-      "code": "2.2"
+      "code": "2.2.2"
     },
     {
       "qnum": 5,
@@ -54,7 +54,7 @@
       "marks": 7,
       "pdf": "igcse-slices/0625_s26_qp_43_Q06.pdf",
       "parts": [],
-      "code": "3.2"
+      "code": "3.2.2"
     },
     {
       "qnum": 7,
@@ -63,7 +63,7 @@
       "marks": 7,
       "pdf": "igcse-slices/0625_s26_qp_43_Q07.pdf",
       "parts": [],
-      "code": "4.3"
+      "code": "4.3.3"
     },
     {
       "qnum": 8,
@@ -72,7 +72,7 @@
       "marks": 7,
       "pdf": "igcse-slices/0625_s26_qp_43_Q08.pdf",
       "parts": [],
-      "code": "4.5"
+      "code": "4.5.3"
     },
     {
       "qnum": 9,
@@ -81,7 +81,7 @@
       "marks": 7,
       "pdf": "igcse-slices/0625_s26_qp_43_Q09.pdf",
       "parts": [],
-      "code": "4.5"
+      "code": "4.5.4"
     },
     {
       "qnum": 10,
@@ -90,7 +90,7 @@
       "marks": 7,
       "pdf": "igcse-slices/0625_s26_qp_43_Q10.pdf",
       "parts": [],
-      "code": "5.2"
+      "code": "5.2.4"
     },
     {
       "qnum": 11,
@@ -99,7 +99,7 @@
       "marks": 7,
       "pdf": "igcse-slices/0625_s26_qp_43_Q11.pdf",
       "parts": [],
-      "code": "6.2"
+      "code": "6.2.1"
     }
   ]
 }

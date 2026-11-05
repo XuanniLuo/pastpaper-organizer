@@ -97,7 +97,7 @@
           "label": "3(a)",
           "marks": 2,
           "codes": [
-            "1.7"
+            "1.7.3"
           ],
           "answer": "any two from: • • • • • • fossil fuels biofuels / biomass wave(s) wind (turbines) Hydroelectric solar panels / solar cells"
         },
@@ -105,7 +105,7 @@
           "label": "3(b)(i)",
           "marks": 2,
           "codes": [
-            "1.7"
+            "1.7.3"
           ],
           "answer": "Ek = ½ mv2 (m =)   11 000 2 6.3 2  OR (m =)   11 000 2 39.69  OR 554 (kg) SEEN"
         },
@@ -113,7 +113,7 @@
           "label": "3(b)(ii)",
           "marks": 3,
           "codes": [
-            "1.7"
+            "1.7.3"
           ],
           "answer": "55 (%) efficiency = useful energy out(put) / (total) energy in(put)  100 % OR   6000 11 000 100 ) ("
         },
@@ -121,12 +121,12 @@
           "label": "3(c)",
           "marks": 1,
           "codes": [
-            "1.7"
+            "1.7.3"
           ],
           "answer": "(tides) are reliable 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2024 © Cambridge University Press & Assessment 2024 Page 11 of 16"
         }
       ],
-      "code": "1.7"
+      "code": "1.7.3"
     },
     {
       "qnum": 4,
@@ -139,7 +139,7 @@
           "label": "4(a)",
           "marks": 2,
           "codes": [
-            "2.2"
+            "2.2.3"
           ],
           "answer": "boiling happens at a specific temperature OR evaporation happens at a range of temperatures OR evaporation happens at any temperature (below the boiling point) evaporation happens at the surface of the water OR boiling happens throughout the water"
         },
@@ -147,12 +147,12 @@
           "label": "4(b)",
           "marks": 4,
           "codes": [
-            "2.2"
+            "2.2.3"
           ],
           "answer": "any four from: 1 (as the water is heated) the number of gas particles increases 2 (particles) gain internal / kinetic energy 3 (there are) more frequent collisions between particles and surface / wall / lid of the cooker 4 (each) collision (of particles) is harder / exerts more force (on cooker surface) OR greater change of momentum when particles collide (on cooker surface) 5 pressure  (total) force (of collisions) OR pressure = force / area 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2024 © Cambridge University Press & Assessment 2024 Page 12 of 16"
         }
       ],
-      "code": "2.2"
+      "code": "2.2.3"
     },
     {
       "qnum": 5,
@@ -165,7 +165,7 @@
           "label": "5(a)",
           "marks": 3,
           "codes": [
-            "2.3"
+            "2.3.3"
           ],
           "answer": "(tarmac / it) absorbs infrared radiation (emitted from the Sun) (tarmac / it) absorbs radiation / infrared (emitted from the Sun)"
         },
@@ -173,7 +173,7 @@
           "label": "5(b)",
           "marks": 1,
           "codes": [
-            "2.3"
+            "2.3.3"
           ],
           "answer": "conduction"
         },
@@ -181,7 +181,7 @@
           "label": "5(c)",
           "marks": 1,
           "codes": [
-            "2.3"
+            "2.3.3"
           ],
           "answer": "convection"
         },
@@ -189,12 +189,12 @@
           "label": "5(d)",
           "marks": 2,
           "codes": [
-            "2.3"
+            "2.3.3"
           ],
           "answer": "any two from: 1 black / tarmac is a better absorber (of radiation) than air 2 tarmac is a poor emitter (at low / this temperature) 3 thin layer of tarmac / very large volume / column of air above road"
         }
       ],
-      "code": "2.3"
+      "code": "2.3.3"
     },
     {
       "qnum": 6,
@@ -249,7 +249,7 @@
           "label": "7(a)",
           "marks": 3,
           "codes": [
-            "4.2"
+            "4.2.3"
           ],
           "answer": "work done/electrical Energy transfer by a source per unit charge moving around a (complete) circuit (electrical) work done moving a charge"
         },
@@ -257,7 +257,7 @@
           "label": "7(b)",
           "marks": 1,
           "codes": [
-            "4.2"
+            "4.2.3"
           ],
           "answer": "230 V"
         },
@@ -265,7 +265,7 @@
           "label": "7(c)",
           "marks": 3,
           "codes": [
-            "4.2"
+            "4.2.3"
           ],
           "answer": "9.2 A R = V / I OR ( I =) V / R OR 230 / 25"
         },
@@ -273,12 +273,12 @@
           "label": "7(d)",
           "marks": 2,
           "codes": [
-            "4.2"
+            "4.2.3"
           ],
           "answer": "(ammeter reading =) {1.6 + candidate’s answer to 7(c)} A Sum of currents into a junction = sum of currents out of junction OR total current is sum of the current in the branches owtte"
         }
       ],
-      "code": "4.2"
+      "code": "4.2.3"
     },
     {
       "qnum": 8,
@@ -325,7 +325,7 @@
           "label": "9(a)",
           "marks": 2,
           "codes": [
-            "4.5"
+            "4.5.1"
           ],
           "answer": "any two from: 1 (magnitude is) constantly changing owtte 2 (magnetic field is) stronger closer to the coil of wire ORA 3 (the magnetic field is) perpendicular to the a.c. current (producing it) 4 (the magnetic field) changes direction owtte"
         },
@@ -333,7 +333,7 @@
           "label": "9(b)(i)",
           "marks": 2,
           "codes": [
-            "4.5"
+            "4.5.1"
           ],
           "answer": "any one from: • secondary coil is in changing / varying magnetic field • secondary coil is in the magnetic field of primary coil voltage is induced (in the secondary coil)"
         },
@@ -341,7 +341,7 @@
           "label": "9(b)(ii)",
           "marks": 1,
           "codes": [
-            "4.5"
+            "4.5.1"
           ],
           "answer": "any one from: • There is no iron core (to strengthen field) • transformer usually has an iron core to connect the two coils • some energy transferred to thermal energy (in phone / surroundings)"
         },
@@ -349,7 +349,7 @@
           "label": "9(c)(i)",
           "marks": 3,
           "codes": [
-            "4.5"
+            "4.5.1"
           ],
           "answer": "6000 s E = VIt OR (t =) E / IV OR 4.5  104 / [12  0.63]"
         },
@@ -357,12 +357,12 @@
           "label": "9(c)(ii)",
           "marks": 3,
           "codes": [
-            "4.5"
+            "4.5.1"
           ],
           "answer": "(Q =) 38 C I = Q / t OR (Q=) It OR 0.63  60 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2024 © Cambridge University Press & Assessment 2024 Page 15 of 16"
         }
       ],
-      "code": "4.5"
+      "code": "4.5.1"
     },
     {
       "qnum": 10,
@@ -375,7 +375,7 @@
           "label": "10(a)",
           "marks": 2,
           "codes": [
-            "5.2"
+            "5.2.4"
           ],
           "answer": "(nucleus of carbon-14 contains) more neutrons OR (nucleus of) carbon-12 has fewer neutrons any one from: • (atom / nucleus of carbon-14) is heavier • (atom / nucleus of carbon-14 is) not stable • (nucleus of carbon-14 contains) two more neutrons"
         },
@@ -383,7 +383,7 @@
           "label": "10(b)(i)",
           "marks": 3,
           "codes": [
-            "5.2"
+            "5.2.4"
           ],
           "answer": "Every 5700 years the (remaining) carbon-14 decreases by half OR amount of C-14 halved every half life amount of carbon-14 halves in 5700 years OR amount of carbon-14 decreases at a decreasing rate (with time)"
         },
@@ -391,7 +391,7 @@
           "label": "10(b)(ii)",
           "marks": 5,
           "codes": [
-            "5.2"
+            "5.2.4"
           ],
           "answer": "11 000 (years ago) 2  half-life have elapsed 25% of C-14 at time of death is still present in tree OR 75% of C-14 has decayed."
         },
@@ -399,12 +399,12 @@
           "label": "10(c)",
           "marks": 2,
           "codes": [
-            "5.2"
+            "5.2.4"
           ],
           "answer": "medical tracers OR medical imaging OR medical diagnosis any one from: • keep dose low • doesn’t stay in body too long • less damage (to body) OR less harmful (to humans) 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED October/November 2024 © Cambridge University Press & Assessment 2024 Page 16 of 16"
         }
       ],
-      "code": "5.2"
+      "code": "5.2.4"
     },
     {
       "qnum": 11,
@@ -417,7 +417,7 @@
           "label": "11(a)(i)",
           "marks": 1,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "Earth / Mars / Jupiter / Saturn / Uranus / Neptune"
         },
@@ -425,7 +425,7 @@
           "label": "11(a)(ii)",
           "marks": 1,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "Mercury"
         },
@@ -433,7 +433,7 @@
           "label": "11(b)",
           "marks": 5,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "3.6  104 (m / s) (T =) 220  24  60  60 OR (T =) 1.9  107 (s) (v =) 2 r T  OR (v =) 11 2 1.1 10 220 24 60 60     "
         },
@@ -441,7 +441,7 @@
           "label": "11(c)",
           "marks": 1,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "The further away from the Sun the slower the orbital speed / ORA"
         },
@@ -449,12 +449,12 @@
           "label": "11(d)",
           "marks": 3,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "1 any one from: • comet has an elliptical orbit • speed of comet is faster when it closer to the Sun • speed of comet is slower when it is further away from the Sun 2 any one from: • (conservation of energy requires that) transfers between kinetic and gravitational stores (as comet changes speed) • total energy remains constant • energy cannot be created or destroyed 3 as radius of orbit decreases, gravitational energy decreases and kinetic energy increases ORA"
         }
       ],
-      "code": "6.1"
+      "code": "6.1.2"
     }
   ]
 }

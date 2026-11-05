@@ -115,7 +115,7 @@
           "label": "4(a)",
           "marks": 2,
           "codes": [
-            "2.2"
+            "2.2.2"
           ],
           "answer": "energy transferred per unit mass per unit temperature change (thermal) energy (transferred) per unit temperature change"
         },
@@ -123,7 +123,7 @@
           "label": "4(b)(i)",
           "marks": 2,
           "codes": [
-            "2.2"
+            "2.2.2"
           ],
           "answer": "(m =) 2.2 kg m = V in any form OR 910  0.0024"
         },
@@ -131,7 +131,7 @@
           "label": "4(b)(ii)",
           "marks": 2,
           "codes": [
-            "2.2"
+            "2.2.2"
           ],
           "answer": "7.0  105 J OR 700 000 J c = ∆E / { m∆ } OR (∆E =) mc∆ OR 2.2  2000  160 OR 2.184  2000  160 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2024 © Cambridge University Press & Assessment 2024 Page 8 of 12"
         },
@@ -139,12 +139,12 @@
           "label": "4(b)(iii)",
           "marks": 2,
           "codes": [
-            "2.2"
+            "2.2.2"
           ],
           "answer": "1700 W (P =) E / t OR 700 000 / 7  60 OR 704 000 / 7  60 OR 698 880 / 7  60"
         }
       ],
-      "code": "2.2"
+      "code": "2.2.2"
     },
     {
       "qnum": 5,
@@ -199,7 +199,7 @@
           "label": "6(a)",
           "marks": 2,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "ray from top of object to tip of image line labelled L drawn perpendicular to principal axis at its intersection with previous ray"
         },
@@ -207,7 +207,7 @@
           "label": "6(b)",
           "marks": 2,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "ray from top of O parallel to principal axis to lens AND ray from lens to tip of I OR ray from tip of I parallel to principal axis to lens AND ray from lens to top of O 2.1 cm"
         },
@@ -215,12 +215,12 @@
           "label": "6(c)",
           "marks": 2,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "virtual upright"
         }
       ],
-      "code": "3.2"
+      "code": "3.2.3"
     },
     {
       "qnum": 7,
@@ -233,7 +233,7 @@
           "label": "7(a)",
           "marks": 1,
           "codes": [
-            "4.3"
+            "4.3.3"
           ],
           "answer": ""
         },
@@ -241,7 +241,7 @@
           "label": "7(b)(i)",
           "marks": 2,
           "codes": [
-            "4.3"
+            "4.3.3"
           ],
           "answer": "1.5 V Vout / VR = Rout / R OR VR = 3 Vout"
         },
@@ -249,12 +249,12 @@
           "label": "7(b)(ii)",
           "marks": 2,
           "codes": [
-            "4.3"
+            "4.3.3"
           ],
           "answer": "0.51 C I = Q / t OR (Q =) It OR 1.7  10–3  300 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2024 © Cambridge University Press & Assessment 2024 Page 10 of 12"
         }
       ],
-      "code": "4.3"
+      "code": "4.3.3"
     },
     {
       "qnum": 8,
@@ -267,7 +267,7 @@
           "label": "8(a)(i)",
           "marks": 3,
           "codes": [
-            "4.5"
+            "4.5.3"
           ],
           "answer": "three concentric circles centred on X second and third circles further apart than first and second circles direction of arrows clockwise"
         },
@@ -275,7 +275,7 @@
           "label": "8(a)(ii)",
           "marks": 2,
           "codes": [
-            "4.5"
+            "4.5.3"
           ],
           "answer": "strength of magnetic field increases its direction reverses"
         },
@@ -283,12 +283,12 @@
           "label": "8(b)",
           "marks": 3,
           "codes": [
-            "4.5"
+            "4.5.3"
           ],
           "answer": "any three from: • P = I 2R OR power (loss) = I 2R • (high voltage allows) low current (so at same power output, less power / energy lost) • thin wires have high resistance (so more power / energy lost) • (low) current has a greater effect (on efficiency) than (high) resistance (of the thin wires)"
         }
       ],
-      "code": "4.5"
+      "code": "4.5.3"
     },
     {
       "qnum": 9,
@@ -301,7 +301,7 @@
           "label": "9(a)(i)",
           "marks": 1,
           "codes": [
-            "5.1"
+            "5.1.1"
           ],
           "answer": "most of the atom is empty space"
         },
@@ -309,7 +309,7 @@
           "label": "9(a)(ii)",
           "marks": 4,
           "codes": [
-            "5.1"
+            "5.1.1"
           ],
           "answer": "any two from: 1 the nucleus is very small 2 mass of gold nucleus is much greater than mass of alpha particle 3 the nucleus is positively charged corresponding explanation to conclusion: 1 not many alpha particles pass close to the nucleus / owtte 2 large force between alpha and nucleus (has bigger effect on small mass of alpha) 3 alpha particles are positively charged, AND force is repulsive"
         },
@@ -317,7 +317,7 @@
           "label": "9(b)(i)",
           "marks": 1,
           "codes": [
-            "5.1"
+            "5.1.1"
           ],
           "answer": "(in the nucleus a) neutron is changed into a proton (and an electron which is the emitted -particle) 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2024 © Cambridge University Press & Assessment 2024 Page 11 of 12"
         },
@@ -325,12 +325,12 @@
           "label": "9(b)(ii)",
           "marks": 3,
           "codes": [
-            "5.1"
+            "5.1.1"
           ],
           "answer": "22 g (87 years is) three half-lives OR 25 / 8 OR 87 / 29 = 3 (half lives) 1 / 8th (of the strontium remains) OR 25 / 8 (decays) OR 3.125 seen"
         }
       ],
-      "code": "5.1"
+      "code": "5.1.1"
     },
     {
       "qnum": 10,
@@ -343,7 +343,7 @@
           "label": "10(a)(i)",
           "marks": 2,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "position A and / or E position G"
         },
@@ -351,7 +351,7 @@
           "label": "10(a)(ii)",
           "marks": 1,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "1 month"
         },
@@ -359,7 +359,7 @@
           "label": "10(b)(i)",
           "marks": 3,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "110 000 (km / h) (v = )2r / T T = 365  24h OR 2  1.5  108 / 365  24"
         },
@@ -367,12 +367,12 @@
           "label": "10(b)(ii)",
           "marks": 2,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "500 s v = s / t OR (t =) s / v OR 1.5  1011 / 3.0  108"
         }
       ],
-      "code": "6.1"
+      "code": "6.1.2"
     },
     {
       "qnum": 11,
@@ -385,7 +385,7 @@
           "label": "11(a)",
           "marks": 1,
           "codes": [
-            "6.2"
+            "6.2.3"
           ],
           "answer": "inward force / force of gravitational attraction, is balanced by an outward force / force due to fusion reactions"
         },
@@ -393,7 +393,7 @@
           "label": "11(b)(i)",
           "marks": 2,
           "codes": [
-            "6.2"
+            "6.2.3"
           ],
           "answer": "ratio of the speed at which the galaxy is moving away from the Earth/observer to its distance (from the Earth/observer) ratio of speed (of a galaxy) to distance (away from observer) 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2024 © Cambridge University Press & Assessment 2024 Page 12 of 12"
         },
@@ -401,7 +401,7 @@
           "label": "11(b)(ii)",
           "marks": 1,
           "codes": [
-            "6.2"
+            "6.2.3"
           ],
           "answer": "(age of universe =) d / v = 1 / H0 OR age (of universe) = 1 / H0"
         },
@@ -409,12 +409,12 @@
           "label": "11(b)(iii)",
           "marks": 1,
           "codes": [
-            "6.2"
+            "6.2.3"
           ],
           "answer": "4.5  1017 (s)"
         }
       ],
-      "code": "6.2"
+      "code": "6.2.3"
     }
   ]
 }

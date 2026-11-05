@@ -113,7 +113,7 @@
           "label": "3(a)",
           "marks": 3,
           "codes": [
-            "2.3"
+            "2.3.1"
           ],
           "answer": "fast(er) / high(er) speed / (more) energetic molecules escape (into air) average speed / average kinetic energy of molecules decreases temperature related to speed / energy of molecules or slow(er) / low(er) speed / less energetic molecules remain (in water)"
         },
@@ -121,12 +121,12 @@
           "label": "3(b)",
           "marks": 3,
           "codes": [
-            "2.3"
+            "2.3.1"
           ],
           "answer": "any three from: atoms / ions vibrate (vibrating) atoms / ions hit electrons electrons propelled / travelling through metal / moving through metal electrons hit (distant) atoms free electrons / delocalised electrons mentioned"
         }
       ],
-      "code": "2.3"
+      "code": "2.3.1"
     },
     {
       "qnum": 4,
@@ -139,7 +139,7 @@
           "label": "4(a)(i)",
           "marks": 4,
           "codes": [
-            "2.2"
+            "2.2.1"
           ],
           "answer": "two / three wires of at least two different metals one junction in sulfur the other junction in ice-water mixture / at room temperature and one of the wires must be from the first junction labelled voltmeter / voltmeter symbol correctly connected 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 8 of 12"
         },
@@ -147,7 +147,7 @@
           "label": "4(a)(ii)",
           "marks": 2,
           "codes": [
-            "2.2"
+            "2.2.1"
           ],
           "answer": "measure e.m.f. how to find temperature from e.m.f. (e.g. use calibration graph or calculation or table)"
         },
@@ -155,12 +155,12 @@
           "label": "4(b)",
           "marks": 1,
           "codes": [
-            "2.2"
+            "2.2.1"
           ],
           "answer": "measures high temperatures / wires do not melt / rapid response / robust / small heat capacity / electrical output / (can be) remote from observer / direct input to computer"
         }
       ],
-      "code": "2.2"
+      "code": "2.2.1"
     },
     {
       "qnum": 5,
@@ -173,7 +173,7 @@
           "label": "5(a)",
           "marks": 2,
           "codes": [
-            "2.2"
+            "2.2.2"
           ],
           "answer": "temperature at which liquid becomes a gas or liquid and gas exist together"
         },
@@ -181,7 +181,7 @@
           "label": "5(b)(i)",
           "marks": 3,
           "codes": [
-            "2.2"
+            "2.2.2"
           ],
           "answer": "1.8  105 J (E =) VIt (in any form) or 230  13  60 or 230  13 or 3000"
         },
@@ -189,7 +189,7 @@
           "label": "5(b)(ii)",
           "marks": 7,
           "codes": [
-            "2.2"
+            "2.2.2"
           ],
           "answer": "9.1  10–3 kg / s 9.1  10–3 kg / s (T =) 100 – 22 or 78 or (T =) 100 – 22 or 78 m = E / cT (in any form) or 1.8  105 / (4200  78) or (rate =) P / cT (in any form) or m = E / cT and E = Pt 1.8  105 / (4200  78  60) or 5.5  10N or 9.1/9.2  10N or 3000 / (4200  78) or 230  13 / (4200  78) or 9.1 / 9.2  10N"
         },
@@ -197,12 +197,12 @@
           "label": "5(c)",
           "marks": 3,
           "codes": [
-            "2.2"
+            "2.2.2"
           ],
           "answer": "1 if the tap becomes live or if the (live) cable touches the (metal) tap there is a current to earth / in the earth wire (which blows the fuse) 2 the current (in earth wire) is large and fuse melts / blows / stops current / breaks circuit 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 9 of 12"
         }
       ],
-      "code": "2.2"
+      "code": "2.2.2"
     },
     {
       "qnum": 6,
@@ -215,7 +215,7 @@
           "label": "6(a)",
           "marks": 3,
           "codes": [
-            "2.3"
+            "2.3.2"
           ],
           "answer": "any three from: radiation light / infrared / electromagnetic (radiation) travel through space / vacuum absorbed by road"
         },
@@ -223,7 +223,7 @@
           "label": "6(b)",
           "marks": 1,
           "codes": [
-            "2.3"
+            "2.3.2"
           ],
           "answer": "road / black surfaces are good absorbers (of radiation) or sea is a poor absorber (of radiation)"
         },
@@ -231,7 +231,7 @@
           "label": "6(c)(i)",
           "marks": 2,
           "codes": [
-            "2.3"
+            "2.3.2"
           ],
           "answer": "they / molecules speed up or gain kinetic energy they / molecules move further apart"
         },
@@ -239,12 +239,12 @@
           "label": "6(c)(ii)",
           "marks": 3,
           "codes": [
-            "2.3"
+            "2.3.2"
           ],
           "answer": "density (of air above road) decreases or density (of hot air) decreases air (above land / road) rises or air (that is hot) rises air (above road) replaced by cool air / air from above sea"
         }
       ],
-      "code": "2.3"
+      "code": "2.3.2"
     },
     {
       "qnum": 7,
@@ -257,7 +257,7 @@
           "label": "7(a)",
           "marks": 4,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "(all the light) meets (at a point) or is focused or intersects (all the light) travels towards a point it then diverges or spreads out (from that point) or point of convergence is on XY / at F / the focal point / principal focus / 3.0 cm from lens"
         },
@@ -265,7 +265,7 @@
           "label": "7(b)",
           "marks": 1,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "two marked points on XY 3.0 cm from centre of lens and one on left and one on right and each labelled F 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 10 of 12"
         },
@@ -273,7 +273,7 @@
           "label": "7(c)(i)",
           "marks": 3,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "two of these rays from tip of N drawn: ray (that seems to come) from left-hand principal focus and emerges from lens paraxially paraxial ray to lens and then towards right-hand principal focus ray towards / through centre of lens two rays traced back to intersection and line from intersection to axis and line labelled I"
         },
@@ -281,7 +281,7 @@
           "label": "7(c)(ii)",
           "marks": 1,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "virtual and light / rays do not pass through I or virtual and light / rays only seem to come from I or virtual and produced by diverging rays virtual and (real) rays do not meet"
         },
@@ -289,12 +289,12 @@
           "label": "7(c)(iii)",
           "marks": 1,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "magnifying glass"
         }
       ],
-      "code": "3.2"
+      "code": "3.2.3"
     },
     {
       "qnum": 8,
@@ -307,7 +307,7 @@
           "label": "8(a)",
           "marks": 7,
           "codes": [
-            "4.5"
+            "4.5.1"
           ],
           "answer": "0.27 J (v =) at (in any form) or 10  0.67 or 6.7 (m / s) 6.7 (m / s) (KE =) ½mv 2 (in any form) or ½  0.012  (10  0.67)2 or ½  0.012  6.72"
         },
@@ -315,7 +315,7 @@
           "label": "8(b)(i)",
           "marks": 2,
           "codes": [
-            "4.5"
+            "4.5.1"
           ],
           "answer": "magnetic field / magnetic field lines cut the copper / tube / it (or vv.) electromagnetic induction occurs or e.m.f. induced 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 11 of 12"
         },
@@ -323,12 +323,12 @@
           "label": "8(b)(ii)",
           "marks": 2,
           "codes": [
-            "4.5"
+            "4.5.1"
           ],
           "answer": "(upwards / opposing) force on magnet force / magnetic field / e.m.f. / current opposes the change (producing it) / opposes motion or force on magnet due to magnetic field caused by current in tube"
         }
       ],
-      "code": "4.5"
+      "code": "4.5.1"
     },
     {
       "qnum": 9,
@@ -341,7 +341,7 @@
           "label": "9(a)",
           "marks": 2,
           "codes": [
-            "4.3"
+            "4.3.1"
           ],
           "answer": "digital (signal) consists of 1(s) and 0(s) / high value and low analogue (signal) is (continuously) variable (in magnitude)"
         },
@@ -349,7 +349,7 @@
           "label": "9(b)",
           "marks": 1,
           "codes": [
-            "4.3"
+            "4.3.1"
           ],
           "answer": "NOR (gate) and"
         },
@@ -357,12 +357,12 @@
           "label": "9(c)",
           "marks": 3,
           "codes": [
-            "4.3"
+            "4.3.1"
           ],
           "answer": "(i.e. NOR gate symbol with two inputs joined seen)"
         }
       ],
-      "code": "4.3"
+      "code": "4.3.1"
     },
     {
       "qnum": 10,
@@ -375,7 +375,7 @@
           "label": "10(a)(i)",
           "marks": 1,
           "codes": [
-            "5.1"
+            "5.1.2"
           ],
           "answer": "same number of protons / both have one proton"
         },
@@ -383,7 +383,7 @@
           "label": "10(a)(ii)",
           "marks": 3,
           "codes": [
-            "5.1"
+            "5.1.2"
           ],
           "answer": "it / hydrogen-3 / 3 (1)H has one more neutron different number of neutrons / nucleons A B Q 0625/41 Cambridge IGCSE – Mark Scheme PUBLISHED May/June 2022 © UCLES 2022 Page 12 of 12"
         },
@@ -391,7 +391,7 @@
           "label": "10(b)(i)",
           "marks": 3,
           "codes": [
-            "5.1"
+            "5.1.2"
           ],
           "answer": "(high temperature produces) high (kinetic) energy / momentum / speed / ability to do large quantity of work they repel each other are positively charged / have like charges or need to come close together"
         },
@@ -399,12 +399,12 @@
           "label": "10(b)(ii)",
           "marks": 2,
           "codes": [
-            "5.1"
+            "5.1.2"
           ],
           "answer": "4 2 X or 4 2He or  2 4 1 0n and no other particle"
         }
       ],
-      "code": "5.1"
+      "code": "5.1.2"
     }
   ]
 }

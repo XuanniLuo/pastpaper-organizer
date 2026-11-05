@@ -147,7 +147,7 @@
           "label": "4(a)",
           "marks": 1,
           "codes": [
-            "2.3"
+            "2.3.3"
           ],
           "answer": "radiation"
         },
@@ -155,7 +155,7 @@
           "label": "4(b)(i)",
           "marks": 2,
           "codes": [
-            "2.3"
+            "2.3.3"
           ],
           "answer": "thermal OR internal (a word meaning) absorbed OR gained OR taken in (a word meaning) emitted OR lost OR released"
         },
@@ -163,7 +163,7 @@
           "label": "4(b)(ii)",
           "marks": 2,
           "codes": [
-            "2.3"
+            "2.3.3"
           ],
           "answer": "(thermal) energy absorbed (by the table) decreases OR (rate of) emission from table is greater than (rate of) absorption (by table) (because) white is a good reflector of radiation OR (because) white is a poor absorber of radiation"
         },
@@ -171,12 +171,12 @@
           "label": "4(c)",
           "marks": 1,
           "codes": [
-            "2.3"
+            "2.3.3"
           ],
           "answer": "7.5 (kWh) A 2 (E =) Pt OR (E =) 2.5  3"
         }
       ],
-      "code": "2.3"
+      "code": "2.3.3"
     },
     {
       "qnum": 5,
@@ -189,7 +189,7 @@
           "label": "5(a)",
           "marks": 5,
           "codes": [
-            "2.1"
+            "2.1.2"
           ],
           "answer": "0.39 (m3) PV= constant (V =) {1.02  1(.0) 105} ÷ 2.6  105 OR (V =) 3.9  10N PapaCambridge · papacambridge.com 0625/42 Mark Scheme March 2026 Downloaded from PapaCambridge - https://papacambridge.com/ 0625/42 Mark Scheme March 2026 | Source: papacambridge.com Licensed for hosting on papacambridge.com only. Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable. Trace ID: PC-1DA6AF882B 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2026 © Cambridge University Press & Assessment 2026 Page 14 of 17"
         },
@@ -197,7 +197,7 @@
           "label": "5(b)(i)",
           "marks": 3,
           "codes": [
-            "2.1"
+            "2.1.2"
           ],
           "answer": "(separation) large OR (particles) far apart (arrangement) irregular OR random (motion) rapid OR random (directions)"
         },
@@ -205,12 +205,12 @@
           "label": "5(b)(ii)",
           "marks": 3,
           "codes": [
-            "2.1"
+            "2.1.2"
           ],
           "answer": "average kinetic energy (KE) of particles decreases kinetic energy (KE) of particles decreases"
         }
       ],
-      "code": "2.1"
+      "code": "2.1.2"
     },
     {
       "qnum": 6,
@@ -223,7 +223,7 @@
           "label": "6(a)(i)",
           "marks": 1,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "principal axis"
         },
@@ -231,7 +231,7 @@
           "label": "6(a)(ii)",
           "marks": 2,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "ray parallel to principal axis between tip of O or I and lens AND ray from intersection of this ray with centre of lens to the tip of I or O 1.8 (cm)"
         },
@@ -239,7 +239,7 @@
           "label": "6(a)(iii)",
           "marks": 2,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "real same size"
         },
@@ -247,7 +247,7 @@
           "label": "6(b)(i)",
           "marks": 1,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "X between F and the lens."
         },
@@ -255,12 +255,12 @@
           "label": "6(b)(ii)",
           "marks": 1,
           "codes": [
-            "3.2"
+            "3.2.3"
           ],
           "answer": "on the opposite side of the lens to the object on the same side of the lens as the object ✓ the same distance from the lens as the object closer to the lens than the object further away from the lens than the object ✓ PapaCambridge · papacambridge.com 0625/42 Mark Scheme March 2026 Downloaded from PapaCambridge - https://papacambridge.com/ 0625/42 Mark Scheme March 2026 | Source: papacambridge.com Licensed for hosting on papacambridge.com only. Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable. Trace ID: PC-1DA6AF882B 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2026 © Cambridge University Press & Assessment 2026 Page 15 of 17"
         }
       ],
-      "code": "3.2"
+      "code": "3.2.3"
     },
     {
       "qnum": 7,
@@ -273,7 +273,7 @@
           "label": "7(a)",
           "marks": 2,
           "codes": [
-            "4.3"
+            "4.3.3"
           ],
           "answer": "4.5 V"
         },
@@ -281,7 +281,7 @@
           "label": "7(b)",
           "marks": 1,
           "codes": [
-            "4.3"
+            "4.3.3"
           ],
           "answer": "charge AND time"
         },
@@ -289,7 +289,7 @@
           "label": "7(c)",
           "marks": 5,
           "codes": [
-            "4.3"
+            "4.3.3"
           ],
           "answer": "1500 () (R =) V ÷ I OR (R =) 9(.0) ÷ 4.6  10–3 OR (VR =) 4.6  10–3  480 (resistance of thermistor =) total resistance – 480 OR (share of e.m.f. for thermistor =) 9(.0) − 2.2 OR (R =) {9 – {4.6  10–3  480}} ÷ 4.6  10–3"
         },
@@ -297,12 +297,12 @@
           "label": "7(d)",
           "marks": 1,
           "codes": [
-            "4.3"
+            "4.3.3"
           ],
           "answer": "(voltmeter) unchanged AND (ammeter) decreases"
         }
       ],
-      "code": "4.3"
+      "code": "4.3.3"
     },
     {
       "qnum": 8,
@@ -315,7 +315,7 @@
           "label": "8(.0)",
           "marks": 1,
           "codes": [
-            "4.5"
+            "4.5.6"
           ],
           "answer": "PapaCambridge · papacambridge.com 0625/42 Mark Scheme March 2026 Downloaded from PapaCambridge - https://papacambridge.com/ 0625/42 Mark Scheme March 2026 | Source: papacambridge.com Licensed for hosting on papacambridge.com only. Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable. Trace ID: PC-1DA6AF882B 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2026 © Cambridge University Press & Assessment 2026 Page 13 of 17"
         },
@@ -323,7 +323,7 @@
           "label": "8(a)(i)",
           "marks": 3,
           "codes": [
-            "4.5"
+            "4.5.6"
           ],
           "answer": "33 000 (V) OR 3.3  104 (V) (Vp =) NpVs/ ÷ Ns OR (Vp=) {6200  230} ÷ 43"
         },
@@ -331,7 +331,7 @@
           "label": "8(a)(ii)",
           "marks": 5,
           "codes": [
-            "4.5"
+            "4.5.6"
           ],
           "answer": "0.067 (A) OR 0.066 (A) (Ip =) IsVs ÷ Vp OR (Ip =) 2200 ÷ 33 000 (conversion 2.2 kW to) 2200 (W) OR (Ip =) 6.6  10N OR (Ip =) 6.7  10N"
         },
@@ -339,7 +339,7 @@
           "label": "8(b)(i)",
           "marks": 1,
           "codes": [
-            "4.5"
+            "4.5.6"
           ],
           "answer": "P = I2R PapaCambridge · papacambridge.com 0625/42 Mark Scheme March 2026 Downloaded from PapaCambridge - https://papacambridge.com/ 0625/42 Mark Scheme March 2026 | Source: papacambridge.com Licensed for hosting on papacambridge.com only. Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable. Trace ID: PC-1DA6AF882B 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2026 © Cambridge University Press & Assessment 2026 Page 16 of 17"
         },
@@ -347,12 +347,12 @@
           "label": "8(b)(ii)",
           "marks": 2,
           "codes": [
-            "4.5"
+            "4.5.6"
           ],
           "answer": "high voltage reduces current (for same power) OR high voltage means low current (for same power) (electrical) power (output) is the same (with lower current) OR (low current gives) less heating effect ORA"
         }
       ],
-      "code": "4.5"
+      "code": "4.5.6"
     },
     {
       "qnum": 9,
@@ -365,7 +365,7 @@
           "label": "9(a)",
           "marks": 5,
           "codes": [
-            "5.2"
+            "5.2.2"
           ],
           "answer": "path labelled ɣ undeviated through the electric field path labelled  is a curve towards negative plate AND deflects when it enters the space between the plates path labelled  is a straight line towards negative plate AND deflects when it enters the space between the plates path labelled  continues horizontal between the plates and then curves towards negative plate"
         },
@@ -373,7 +373,7 @@
           "label": "9(b)",
           "marks": 2,
           "codes": [
-            "5.2"
+            "5.2.2"
           ],
           "answer": "(α-particles’ path is) stopped (by paper) OR -particles don’t pass through (electric field) (ɣ-radiation path) is unchanged"
         },
@@ -381,12 +381,12 @@
           "label": "9(c)",
           "marks": 3,
           "codes": [
-            "5.2"
+            "5.2.2"
           ],
           "answer": "(statement) -particles deflected (towards positive plate) OR (path) curves (upwards) (explanation: -particles) are (negatively) charged charged particles in an electric field experience a force owtte"
         }
       ],
-      "code": "5.2"
+      "code": "5.2.2"
     },
     {
       "qnum": 10,
@@ -399,7 +399,7 @@
           "label": "10(a)(i)",
           "marks": 1,
           "codes": [
-            "6.2"
+            "6.2.2"
           ],
           "answer": "red giant"
         },
@@ -407,7 +407,7 @@
           "label": "10(a)(ii)",
           "marks": 1,
           "codes": [
-            "6.2"
+            "6.2.2"
           ],
           "answer": "white dwarf (star) PapaCambridge · papacambridge.com 0625/42 Mark Scheme March 2026 Downloaded from PapaCambridge - https://papacambridge.com/ 0625/42 Mark Scheme March 2026 | Source: papacambridge.com Licensed for hosting on papacambridge.com only. Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable. Trace ID: PC-1DA6AF882B 0625/42 Cambridge IGCSE – Mark Scheme PUBLISHED February/March 2026 © Cambridge University Press & Assessment 2026 Page 17 of 17"
         },
@@ -415,7 +415,7 @@
           "label": "10(b)(i)",
           "marks": 1,
           "codes": [
-            "6.2"
+            "6.2.2"
           ],
           "answer": "blue light has a shorter wavelength (than red light) OR it has a shorter wavelength ORA"
         },
@@ -423,12 +423,12 @@
           "label": "10(b)(ii)",
           "marks": 3,
           "codes": [
-            "6.2"
+            "6.2.2"
           ],
           "answer": "6.0  1014 (Hz) (f =) c /  OR (f =) 3.0  108 ÷ 5.0  10–7"
         }
       ],
-      "code": "6.2"
+      "code": "6.2.2"
     },
     {
       "qnum": 11,
@@ -441,7 +441,7 @@
           "label": "11(a)",
           "marks": 2,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "(r is) radius of orbit (of the object) (T is) orbital period OR time taken to (complete one) orbit (around the Sun)"
         },
@@ -449,7 +449,7 @@
           "label": "11(b)(i)",
           "marks": 2,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "Any two from: • orbit is not (exactly) circular OR orbit is (only) approximately circular • r is an average value • r varies OR distance from the Sun varies • A Sun’s gravitational pull varies"
         },
@@ -457,12 +457,12 @@
           "label": "11(b)(ii)",
           "marks": 5,
           "codes": [
-            "6.1"
+            "6.1.2"
           ],
           "answer": "(TSaturn =) 9.16  108 (s) OR (TSaturn =) (2 x 1.4 x 1012) / (9600) (T =)2 r / v (TEarth =) 3.15  107 (s) OR (Tearth =) 365  24  60  60 (s) ((Tsaturn =) 29 (Earth) years PapaCambridge · papacambridge.com 0625/42 Mark Scheme March 2026 Downloaded from PapaCambridge - https://papacambridge.com/ 0625/42 Mark Scheme March 2026 | Source: papacambridge.com Licensed for hosting on papacambridge.com only. Re-uploading, mirroring or re-hosting this file on any other website or domain is unauthorised and traceable. Trace ID: PC-1DA6AF882B"
         }
       ],
-      "code": "6.1"
+      "code": "6.1.2"
     }
   ]
 }

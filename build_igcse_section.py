@@ -163,14 +163,18 @@ function renderIgcseMcqPanel(containerId, data) {
       s.subsubs.forEach(function(ss) {
         var qList = data[ss.code] || [];
         var item = document.createElement('div');
-        item.className = 'subsub-item' + (qList.length > 0 ? ' clickable' : '');
+        var isHot = qList.length >= 5, isSuperHot = qList.length > 10;
+        item.className = 'subsub-item' + (isSuperHot ? ' subsub-item-superhot' : (isHot ? ' subsub-item-hot' : '')) + (qList.length > 0 ? ' clickable' : '');
         var row = document.createElement('div'); row.className = 'subsub-row';
+        var hotIcon = isSuperHot ? '&#128293;&#128293; ' : (isHot ? '&#128293; ' : '');
+        var badgeClass = qList.length > 0 ? 'subsub-badge active' : 'subsub-badge';
+        if (isSuperHot) badgeClass += ' subsub-badge-superhot'; else if (isHot) badgeClass += ' subsub-badge-hot';
         row.innerHTML = '<span class="subsub-code">' + ss.code + '</span><span class="subsub-desc">' + igcseEscape(ss.title) + '</span>' +
-          '<span class="subsub-badge' + (qList.length > 0 ? ' active' : '') + '">' + qList.length + '</span>';
+          '<span class="' + badgeClass + '">' + hotIcon + qList.length + '</span>';
         item.appendChild(row);
         if (qList.length > 0) {
           var sorted = qList.slice().sort(function(a, b) { return paperSortKey(a.paper) - paperSortKey(b.paper); });
-          var panel = document.createElement('div'); panel.className = 'question-panel open';
+          var panel = document.createElement('div'); panel.className = 'question-panel';
           var qCards = sorted.map(function(q) {
             var qCard = document.createElement('div'); qCard.className = 'q-card';
             var ans = igcseAnswer(q.paper, q.qnum);
@@ -218,6 +222,12 @@ function renderIgcseMcqPanel(containerId, data) {
             panel.insertBefore(pager, panel.firstChild); renderPage();
           }
           item.appendChild(panel);
+          item.addEventListener('click', function(e) {
+            e.stopPropagation();
+            var opening = !panel.classList.contains('open');
+            panel.classList.toggle('open');
+            if (opening) { startTimer(sorted[pageIdx].pdf); } else { stopTimer(); }
+          });
         }
         subsubList.appendChild(item);
       });

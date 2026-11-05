@@ -1519,6 +1519,7 @@ body.dark .pdf-fallback { color: #8d877b; }
 
 
 
+
 <!-- IGCSE SECTION START -->
 <div class="igcse-divider"><h2>IGCSE Physics 0625 — Question Organizer</h2><p>Paper 2 (multiple choice) and Paper 4 (theory), 2024–2026</p></div>
 <div class="year-paper-grid" id="igcse-grid">
@@ -23441,6 +23442,8 @@ async function generatePaper(typeKey) {
 
 
 
+
+
 <!-- IGCSE SCRIPT START -->
 <script>
 const igcseSyllabus = [{"topic": "1", "title": "MOTION, FORCES AND ENERGY", "subs": [{"code": "1.1", "title": "Physical quantities and measurement techniques", "subsubs": [{"code": "1.1", "title": "Physical quantities and measurement techniques"}]}, {"code": "1.2", "title": "Motion", "subsubs": [{"code": "1.2", "title": "Motion"}]}, {"code": "1.3", "title": "Mass and weight", "subsubs": [{"code": "1.3", "title": "Mass and weight"}]}, {"code": "1.4", "title": "Density", "subsubs": [{"code": "1.4", "title": "Density"}]}, {"code": "1.5", "title": "Forces", "subsubs": [{"code": "1.5.1", "title": "Effects of forces"}, {"code": "1.5.2", "title": "Turning effect of forces"}, {"code": "1.5.3", "title": "Centre of gravity"}]}, {"code": "1.6", "title": "Momentum", "subsubs": [{"code": "1.6", "title": "Momentum"}]}, {"code": "1.7", "title": "Energy, work and power", "subsubs": [{"code": "1.7.1", "title": "Energy"}, {"code": "1.7.2", "title": "Work"}, {"code": "1.7.3", "title": "Energy resources"}, {"code": "1.7.4", "title": "Power"}]}, {"code": "1.8", "title": "Pressure", "subsubs": [{"code": "1.8", "title": "Pressure"}]}]}, {"topic": "2", "title": "THERMAL PHYSICS", "subs": [{"code": "2.1", "title": "Kinetic particle model of matter", "subsubs": [{"code": "2.1.1", "title": "States of matter"}, {"code": "2.1.2", "title": "Particle model"}, {"code": "2.1.3", "title": "Gases and the absolute scale of temperature"}]}, {"code": "2.2", "title": "Thermal properties and temperature", "subsubs": [{"code": "2.2.1", "title": "Thermal expansion of solids, liquids and gases"}, {"code": "2.2.2", "title": "Specific heat capacity"}, {"code": "2.2.3", "title": "Melting, boiling and evaporation"}]}, {"code": "2.3", "title": "Transfer of thermal energy", "subsubs": [{"code": "2.3.1", "title": "Conduction"}, {"code": "2.3.2", "title": "Convection"}, {"code": "2.3.3", "title": "Radiation"}, {"code": "2.3.4", "title": "Consequences of thermal energy transfer"}]}]}, {"topic": "3", "title": "WAVES", "subs": [{"code": "3.1", "title": "General properties of waves", "subsubs": [{"code": "3.1", "title": "General properties of waves"}]}, {"code": "3.2", "title": "Light", "subsubs": [{"code": "3.2.1", "title": "Reflection of light"}, {"code": "3.2.2", "title": "Refraction of light"}, {"code": "3.2.3", "title": "Thin lenses"}, {"code": "3.2.4", "title": "Dispersion of light"}]}, {"code": "3.3", "title": "Electromagnetic spectrum", "subsubs": [{"code": "3.3", "title": "Electromagnetic spectrum"}]}, {"code": "3.4", "title": "Sound", "subsubs": [{"code": "3.4", "title": "Sound"}]}]}, {"topic": "4", "title": "ELECTRICITY AND MAGNETISM", "subs": [{"code": "4.1", "title": "Simple phenomena of magnetism", "subsubs": [{"code": "4.1", "title": "Simple phenomena of magnetism"}]}, {"code": "4.2", "title": "Electrical quantities", "subsubs": [{"code": "4.2.1", "title": "Electric charge"}, {"code": "4.2.2", "title": "Electric current"}, {"code": "4.2.3", "title": "Electromotive force and potential difference"}, {"code": "4.2.4", "title": "Resistance"}, {"code": "4.2.5", "title": "Electrical energy and electrical power"}]}, {"code": "4.3", "title": "Electric circuits", "subsubs": [{"code": "4.3.1", "title": "Circuit diagrams and circuit components"}, {"code": "4.3.2", "title": "Series and parallel circuits"}, {"code": "4.3.3", "title": "Action and use of circuit components"}]}, {"code": "4.4", "title": "Electrical safety", "subsubs": [{"code": "4.4", "title": "Electrical safety"}]}, {"code": "4.5", "title": "Electromagnetic effects", "subsubs": [{"code": "4.5.1", "title": "Electromagnetic induction"}, {"code": "4.5.2", "title": "The a.c. generator"}, {"code": "4.5.3", "title": "Magnetic effect of a current"}, {"code": "4.5.4", "title": "Force on a current-carrying conductor"}, {"code": "4.5.5", "title": "The d.c. motor"}, {"code": "4.5.6", "title": "The transformer"}]}]}, {"topic": "5", "title": "NUCLEAR PHYSICS", "subs": [{"code": "5.1", "title": "The nuclear model of the atom", "subsubs": [{"code": "5.1.1", "title": "The atom"}, {"code": "5.1.2", "title": "The nucleus"}]}, {"code": "5.2", "title": "Radioactivity", "subsubs": [{"code": "5.2.1", "title": "Detection of radioactivity"}, {"code": "5.2.2", "title": "The three types of nuclear emission"}, {"code": "5.2.3", "title": "Radioactive decay"}, {"code": "5.2.4", "title": "Half-life"}, {"code": "5.2.5", "title": "Safety precautions"}]}]}, {"topic": "6", "title": "SPACE PHYSICS", "subs": [{"code": "6.1", "title": "The Earth and the Solar System", "subsubs": [{"code": "6.1.1", "title": "The Earth"}, {"code": "6.1.2", "title": "The Solar System"}]}, {"code": "6.2", "title": "Stars and the Universe", "subsubs": [{"code": "6.2.1", "title": "The Sun as a star"}, {"code": "6.2.2", "title": "Stars"}, {"code": "6.2.3", "title": "The Universe"}]}]}];
@@ -23498,14 +23501,18 @@ function renderIgcseMcqPanel(containerId, data) {
       s.subsubs.forEach(function(ss) {
         var qList = data[ss.code] || [];
         var item = document.createElement('div');
-        item.className = 'subsub-item' + (qList.length > 0 ? ' clickable' : '');
+        var isHot = qList.length >= 5, isSuperHot = qList.length > 10;
+        item.className = 'subsub-item' + (isSuperHot ? ' subsub-item-superhot' : (isHot ? ' subsub-item-hot' : '')) + (qList.length > 0 ? ' clickable' : '');
         var row = document.createElement('div'); row.className = 'subsub-row';
+        var hotIcon = isSuperHot ? '&#128293;&#128293; ' : (isHot ? '&#128293; ' : '');
+        var badgeClass = qList.length > 0 ? 'subsub-badge active' : 'subsub-badge';
+        if (isSuperHot) badgeClass += ' subsub-badge-superhot'; else if (isHot) badgeClass += ' subsub-badge-hot';
         row.innerHTML = '<span class="subsub-code">' + ss.code + '</span><span class="subsub-desc">' + igcseEscape(ss.title) + '</span>' +
-          '<span class="subsub-badge' + (qList.length > 0 ? ' active' : '') + '">' + qList.length + '</span>';
+          '<span class="' + badgeClass + '">' + hotIcon + qList.length + '</span>';
         item.appendChild(row);
         if (qList.length > 0) {
           var sorted = qList.slice().sort(function(a, b) { return paperSortKey(a.paper) - paperSortKey(b.paper); });
-          var panel = document.createElement('div'); panel.className = 'question-panel open';
+          var panel = document.createElement('div'); panel.className = 'question-panel';
           var qCards = sorted.map(function(q) {
             var qCard = document.createElement('div'); qCard.className = 'q-card';
             var ans = igcseAnswer(q.paper, q.qnum);
@@ -23553,6 +23560,12 @@ function renderIgcseMcqPanel(containerId, data) {
             panel.insertBefore(pager, panel.firstChild); renderPage();
           }
           item.appendChild(panel);
+          item.addEventListener('click', function(e) {
+            e.stopPropagation();
+            var opening = !panel.classList.contains('open');
+            panel.classList.toggle('open');
+            if (opening) { startTimer(sorted[pageIdx].pdf); } else { stopTimer(); }
+          });
         }
         subsubList.appendChild(item);
       });

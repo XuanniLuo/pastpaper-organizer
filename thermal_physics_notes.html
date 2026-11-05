@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thermal Physics</title>
+<style>
+:root {
+  --ground: #fbf8f3;
+  --surface: #ffffff;
+  --surface-2: #f4efe7;
+  --ink: #27221b;
+  --muted: #6d665c;
+  --rule: #e6ded0;
+  --heat: #bd3d0a;
+  --heat-soft: #f7e0d4;
+  --cold: #245b8c;
+  --cold-soft: #dbe7f1;
+  --gold: #a8782b;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+:root[data-theme="dark"] {
+  --ground: #1a1714;
+  --surface: #23201b;
+  --surface-2: #2b2721;
+  --ink: #ede7dd;
+  --muted: #a89f94;
+  --rule: #3a342c;
+  --heat: #e2723e;
+  --heat-soft: #3a2417;
+  --cold: #6da0cc;
+  --cold-soft: #1c2c3a;
+  --gold: #c79a55;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground: #1a1714;
+    --surface: #23201b;
+    --surface-2: #2b2721;
+    --ink: #ede7dd;
+    --muted: #a89f94;
+    --rule: #3a342c;
+    --heat: #e2723e;
+    --heat-soft: #3a2417;
+    --cold: #6da0cc;
+    --cold-soft: #1c2c3a;
+    --gold: #c79a55;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+}
+.wrap { max-width: 820px; margin: 0 auto; padding: 48px 24px 72px; }
+header.masthead { border-bottom: 2px solid var(--rule); padding-bottom: 24px; margin-bottom: 8px; }
+.eyebrow {
+  font-family: var(--mono); font-size: 12px; letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--gold); margin: 0 0 12px;
+}
+h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400; font-size: 44px; line-height: 1.05; margin: 0 0 10px;
+  letter-spacing: -0.01em; text-wrap: balance;
+}
+.lede { color: var(--muted); font-size: 16px; margin: 0; max-width: 56ch; }
+.scale {
+  display: flex; align-items: flex-end; gap: 2px; margin-top: 20px; height: 40px;
+}
+.scale span {
+  flex: 1; height: 6px; border-radius: 2px;
+  background: linear-gradient(90deg, var(--cold), var(--heat));
+}
+.scale .lab { font-family: var(--mono); font-size: 11px; color: var(--muted); }
+section.topic { margin-top: 44px; }
+h2 {
+  font-family: Georgia, "Times New Roman", serif; font-weight: 400;
+  font-size: 27px; margin: 0 0 4px; letter-spacing: -0.01em;
+}
+.topic-code { font-family: var(--mono); font-size: 12px; color: var(--muted); letter-spacing: 0.06em; }
+h3 {
+  font-size: 13px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--muted);
+  margin: 28px 0 12px; font-weight: 700;
+}
+h3::after { content: ""; display: block; width: 42px; height: 3px; background: var(--heat); margin-top: 6px; border-radius: 2px; }
+h3.cold::after { background: var(--cold); }
+.def {
+  border-left: 3px solid var(--heat); background: var(--surface);
+  padding: 12px 16px; margin: 10px 0; border-radius: 0 6px 6px 0;
+}
+.def.cold { border-left-color: var(--cold); }
+.def .term { font-weight: 700; }
+.def .body { margin: 2px 0 0; color: var(--ink); }
+.def .body .dim { color: var(--muted); }
+.formula {
+  font-family: var(--mono); font-size: 18px; background: var(--heat-soft);
+  color: var(--heat); padding: 12px 16px; border-radius: 8px; margin: 10px 0;
+  letter-spacing: 0.01em; font-variant-numeric: tabular-nums;
+}
+.formula.cold { background: var(--cold-soft); color: var(--cold); }
+.formula .note { display: block; font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; color: var(--muted); margin-top: 4px; letter-spacing: 0; }
+.grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 16px 0;
+}
+.figure {
+  background: var(--surface); border: 1px solid var(--rule); border-radius: 10px;
+  padding: 14px; text-align: center;
+}
+.figure .cap { font-size: 13px; color: var(--muted); margin-top: 8px; text-align: left; }
+.figure .cap b { color: var(--ink); }
+svg text { font-family: var(--mono); font-size: 10px; fill: var(--muted); }
+svg .axis { stroke: var(--muted); stroke-width: 1; }
+svg .curve { stroke: var(--heat); stroke-width: 2; fill: none; }
+svg .curve.cold { stroke: var(--cold); }
+svg .gridline { stroke: var(--rule); stroke-width: 0.75; stroke-dasharray: 3 3; }
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 16px 0; }
+@media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 14px; }
+th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font-family: Georgia, serif; font-weight: 400; color: var(--gold); font-size: 14px; }
+td .f { font-family: var(--mono); color: var(--heat); font-variant-numeric: tabular-nums; }
+.summary { background: var(--surface-2); border-radius: 10px; padding: 18px 20px; margin-top: 40px; }
+.summary h2 { font-size: 22px; }
+ul.tight { margin: 8px 0; padding-left: 20px; }
+ul.tight li { margin-bottom: 5px; }
+.pill { display: inline-block; font-family: var(--mono); font-size: 12px; padding: 2px 8px; border-radius: 999px; background: var(--heat-soft); color: var(--heat); }
+.pill.cold { background: var(--cold-soft); color: var(--cold); }
+footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 13px; }
+.exam { display: block; margin-top: 7px; font-size: 12px; line-height: 1.5; color: var(--muted); }
+.exam .pin { color: var(--gold); font-family: var(--mono); font-size: 11.5px; }
+.exam .how { color: var(--muted); }
+.exam .pin::before { content: "\25AA"; margin-right: 4px; color: var(--heat); }
+
+@media print {
+  :root, :root[data-theme="dark"], :root[data-theme="light"] {
+    --ground: #fbf8f3; --surface: #ffffff; --surface-2: #f4efe7;
+    --ink: #27221b; --muted: #6d665c; --rule: #e6ded0;
+    --heat: #bd3d0a; --heat-soft: #f7e0d4; --cold: #245b8c; --cold-soft: #dbe7f1; --gold: #a8782b;
+  }
+  body { background: #fff; }
+  .wrap { max-width: 100%; padding: 12px 0; }
+  section.topic, .figure, .summary, .def, .formula { page-break-inside: avoid; }
+  h3 { page-break-after: avoid; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="masthead">
+  <p class="eyebrow">IGCSE Physics 0625 · Topic 2</p>
+  <h1>Thermal Physics</h1>
+  <p class="lede">The kinetic particle model, thermal properties, and how heat moves. Key definitions, formulas and graphs — distilled from the syllabus and past papers.</p>
+  <div class="scale" aria-hidden="true">
+    <span style="flex:1;background:var(--cold)"></span>
+    <span style="flex:2;background:linear-gradient(90deg,var(--cold),var(--heat))"></span>
+    <span style="flex:1;background:var(--heat)"></span>
+  </div>
+</header>
+
+<!-- ============================ 2.1 ============================ -->
+<section class="topic">
+  <h2>Kinetic Particle Model of Matter</h2>
+  <div class="topic-code">2.1</div>
+
+  <h3>States of matter</h3>
+  <div class="grid">
+    <div class="figure">
+      <svg width="200" height="90" viewBox="0 0 200 90">
+        <rect x="4" y="4" width="192" height="82" fill="none" stroke="var(--rule)" rx="6"/>
+        <g fill="var(--heat)"><circle cx="50" cy="30" r="9"/><circle cx="88" cy="30" r="9"/><circle cx="126" cy="30" r="9"/><circle cx="164" cy="30" r="9"/><circle cx="50" cy="62" r="9"/><circle cx="88" cy="62" r="9"/><circle cx="126" cy="62" r="9"/><circle cx="164" cy="62" r="9"/></g>
+      </svg>
+      <div class="cap"><b>Solid</b> — particles tightly packed in a regular lattice, vibrate about fixed positions.</div>
+    </div>
+    <div class="figure">
+      <svg width="200" height="90" viewBox="0 0 200 90">
+        <rect x="4" y="4" width="192" height="82" fill="none" stroke="var(--rule)" rx="6"/>
+        <g fill="var(--gold)"><circle cx="46" cy="34" r="9"/><circle cx="84" cy="26" r="9"/><circle cx="122" cy="38" r="9"/><circle cx="160" cy="28" r="9"/><circle cx="62" cy="58" r="9"/><circle cx="104" cy="62" r="9"/><circle cx="142" cy="54" r="9"/><circle cx="180" cy="60" r="9"/></g>
+      </svg>
+      <div class="cap"><b>Liquid</b> — particles close but disordered, slide past one another.</div>
+    </div>
+    <div class="figure">
+      <svg width="200" height="90" viewBox="0 0 200 90">
+        <rect x="4" y="4" width="192" height="82" fill="none" stroke="var(--rule)" rx="6"/>
+        <g fill="var(--cold)"><circle cx="44" cy="30" r="7"/><circle cx="100" cy="70" r="7"/><circle cx="160" cy="26" r="7"/><circle cx="128" cy="44" r="7"/><circle cx="72" cy="58" r="7"/><circle cx="184" cy="62" r="7"/></g>
+      </svg>
+      <div class="cap"><b>Gas</b> — particles far apart, moving fast and randomly.</div>
+    </div>
+  </div>
+
+  <h3>Definitions</h3>
+  <div class="def"><span class="term">Internal energy</span> <span class="body">the kinetic energy and potential energy of the molecules (particles) of the object<span class="exam">📌 考过 · <span class="pin">42/F/M/26 Q5</span> <span class="how">温度降低时内能如何变化</span> · <span class="pin">43/M/J/22 Q4</span> <span class="how">烟粒——内能与压强</span></span>. <span class="dim">A rise in temperature increases the average kinetic energy of the particles, so internal energy rises.</span></span></div>
+  <div class="def"><span class="term">Temperature</span> <span class="body">a measure of the average kinetic energy of the particles in a substance<span class="exam">📌 考过 · <span class="pin">42/F/M/26 Q5</span> <span class="how">粒子平均动能与温度的关系</span></span>.</span></div>
+  <div class="def cold"><span class="term">Absolute zero</span> <span class="body">the lowest possible temperature (−273 °C = 0 K), at which the particles have the least kinetic energy<span class="exam">📌 考过 · <span class="pin">43/O/N/23 Q4</span> <span class="how">定义绝对零度 + 开尔文↔摄氏度换算</span></span>.</span></div>
+  <div class="def"><span class="term">Gas pressure</span> <span class="body">caused by particles colliding with the walls of the container, exerting a force per unit area. <span class="dim">Faster particles (higher temperature) or a smaller volume → more frequent, harder collisions → higher pressure.<span class="exam">📌 考过 · <span class="pin">42/F/M/26 Q5</span> <span class="how">用粒子解释升温时气压变化</span> · <span class="pin">41/O/N/22 Q4</span> <span class="how">被困气体——压强与功</span> · <span class="pin">42/M/J/24 Q4</span> <span class="how">气压与温度</span></span></span></span></div>
+  <div class="def"><span class="term">Brownian motion</span> <span class="body">the random motion of (smoke) particles caused by collisions with the (much smaller, fast-moving) molecules of the air or liquid — evidence for the kinetic particle model<span class="exam">📌 考过 · <span class="pin">43/M/J/22 Q4</span> <span class="how">烟粒随机运动</span> · <span class="pin">41/M/J/26 Q5</span> <span class="how">灰尘粒子随机运动</span></span>.</span></div>
+
+  <h3>Formulas</h3>
+  <div class="formula">T (K) = θ (°C) + 273 <span class="note">Convert between kelvin and degrees Celsius.</span></div>
+  <div class="formula">pV = constant <span class="note">Boyle's law — fixed mass of gas at constant temperature.</span><span class="exam">📌 考过 · <span class="pin">43/O/N/23 Q4</span> <span class="how">体积翻倍求新压强</span> · <span class="pin">42/O/N/25 Q4</span> <span class="how">气缸内气体 pV 关系</span> · <span class="pin">42/O/N/22 Q4</span> <span class="how">粒子动量与压强变化</span></span></div>
+
+  <h3>Graphs</h3>
+  <div class="grid">
+    <div class="figure">
+      <svg width="220" height="150" viewBox="0 0 220 150">
+        <line class="axis" x1="40" y1="120" x2="200" y2="120"/>
+        <line class="axis" x1="40" y1="120" x2="40" y2="16"/>
+        <path class="curve" d="M 55 32 C 90 48, 120 72, 175 112"/>
+        <text x="180" y="112" dx="4">V</text>
+        <text x="30" y="22">p</text>
+        <text x="118" y="140">pressure–volume (inverse)</text>
+      </svg>
+      <div class="cap"><b>p–V graph</b> — a curve falling to the right: pressure is inversely proportional to volume.</div>
+    </div>
+    <div class="figure">
+      <svg width="220" height="150" viewBox="0 0 220 150">
+        <line class="axis" x1="40" y1="120" x2="200" y2="120"/>
+        <line class="axis" x1="40" y1="120" x2="40" y2="16"/>
+        <line class="curve cold" x1="40" y1="120" x2="190" y2="24"/>
+        <text x="44" y="134">0</text>
+        <text x="40" y="136">−273 °C</text>
+        <text x="30" y="22">p</text>
+        <text x="188" y="108" dx="4">T</text>
+        <text x="118" y="140">pressure–temperature (straight)</text>
+      </svg>
+      <div class="cap"><b>p–T graph</b> — a straight line through absolute zero: pressure ∝ temperature (fixed volume).</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ 2.2 ============================ -->
+<section class="topic">
+  <h2>Thermal Properties &amp; Temperature</h2>
+  <div class="topic-code">2.2</div>
+
+  <h3>Definitions</h3>
+  <div class="def"><span class="term">Specific heat capacity (c)</span> <span class="body">the energy required to raise the temperature of unit mass (1 kg) of a substance by 1 °C<span class="exam">📌 考过 · <span class="pin">42/F/M/24 Q4</span> <span class="how">测油的比热容</span> · <span class="pin">43/M/J/24 Q4</span> <span class="how">算加热水所需能量</span> · <span class="pin">42/O/N/23 Q4</span> <span class="how">算水升温 20°C 所需能量</span></span>.</span></div>
+  <div class="def"><span class="term">Melting</span> <span class="body">solid → liquid at a fixed temperature (0 °C for water); temperature remains constant while energy is absorbed.<span class="exam">📌 考过 · <span class="pin">42/M/J/24 Q4</span> <span class="how">熔化时温度不变</span> · <span class="pin">42/O/N/24 Q4</span> <span class="how">高压锅——沸点与气压</span></span></span></div>
+  <div class="def"><span class="term">Boiling</span> <span class="body">liquid → gas throughout the whole liquid at a fixed temperature (100 °C for water at standard pressure); temperature remains constant while energy is absorbed.<span class="exam">📌 考过 · <span class="pin">42/M/J/24 Q4</span> <span class="how">沸腾时温度不变</span> · <span class="pin">42/O/N/24 Q4</span> <span class="how">高压锅——沸点与气压</span></span></span></div>
+  <div class="def"><span class="term">Evaporation</span> <span class="body">the escape of the more energetic molecules from the surface of a liquid, at any temperature<span class="exam">📌 考过 · <span class="pin">42/F/M/22 Q3</span> <span class="how">出汗降温</span> · <span class="pin">41/M/J/22 Q3</span> <span class="how">分子模型解释蒸发降温</span> · <span class="pin">42/M/J/26 Q5</span> <span class="how">蒸发降温与速率</span></span>. It <span class="dim">cools</span> the remaining liquid (the faster particles leave, so the average kinetic energy falls).</span></div>
+  <div class="def"><span class="term">Condensation / freezing</span> <span class="body">gas → liquid / liquid → solid; energy is released.</span></div>
+  <div class="def"><span class="term">Thermal expansion</span> <span class="body">solids, liquids and gases expand when heated — gases expand most, solids least. <span class="dim">Used in thermometers and bimetallic strips; expansion gaps are left in bridges and rails.<span class="exam">📌 考过 · <span class="pin">43/O/N/22 Q4</span> <span class="how">温度计灵敏度与量程</span> · <span class="pin">41/O/N/24 Q4</span> <span class="how">热膨胀</span></span></span></span></div>
+
+  <h3>Formulas</h3>
+  <div class="formula">ΔE = mcΔθ <span class="note">energy transferred = mass × specific heat capacity × temperature change.<span class="exam">📌 考过 · <span class="pin">42/F/M/24 Q4</span> <span class="how">E = mcΔθ 计算</span> · <span class="pin">43/M/J/24 Q4</span> <span class="how">E = mcΔθ 计算</span></span> Rearranged: c = ΔE ⁄ (m Δθ).</span></div>
+
+  <h3>Graph</h3>
+  <div class="grid">
+    <div class="figure">
+      <svg width="300" height="170" viewBox="0 0 300 170">
+        <line class="axis" x1="40" y1="140" x2="280" y2="140"/>
+        <line class="axis" x1="40" y1="140" x2="40" y2="16"/>
+        <line class="curve" x1="40" y1="128" x2="95" y2="108"/>
+        <line class="curve" x1="95" y1="108" x2="150" y2="108"/>
+        <line class="curve" x1="150" y1="108" x2="210" y2="58"/>
+        <line class="curve" x1="210" y1="58" x2="250" y2="58"/>
+        <line class="curve" x1="250" y1="58" x2="280" y2="30"/>
+        <line class="gridline" x1="40" y1="108" x2="280" y2="108"/>
+        <line class="gridline" x1="40" y1="58" x2="280" y2="58"/>
+        <text x="20" y="112">0 °C</text>
+        <text x="12" y="62">100 °C</text>
+        <text x="96" y="126">melts</text>
+        <text x="211" y="76">boils</text>
+        <text x="120" y="156">temperature–time (heating water)</text>
+      </svg>
+      <div class="cap"><b>Heating curve</b> — flat regions where melting and boiling occur: energy is absorbed without a temperature rise.</div>
+    </div>
+  </div>
+
+  <div class="two-col">
+    <div class="figure">
+      <svg width="200" height="90" viewBox="0 0 200 90">
+        <rect x="4" y="4" width="192" height="82" fill="none" stroke="var(--rule)" rx="6"/>
+        <g fill="var(--heat)"><circle cx="60" cy="70" r="8"/><circle cx="96" cy="46" r="8"/><circle cx="134" cy="24" r="8"/><circle cx="168" cy="40" r="8"/></g>
+        <path d="M 56 62 L 60 52 M 92 40 L 96 32 M 130 20 L 134 12 M 164 34 L 168 26" stroke="var(--muted)" stroke-width="1" marker-end="none"/>
+      </svg>
+      <div class="cap"><b>Evaporation</b> — faster particles escape the surface; slower ones remain.</div>
+    </div>
+    <div class="figure">
+      <svg width="200" height="90" viewBox="0 0 200 90">
+        <rect x="4" y="4" width="192" height="82" fill="none" stroke="var(--rule)" rx="6"/>
+        <g fill="var(--cold)"><circle cx="50" cy="60" r="8"/><circle cx="80" cy="60" r="8"/><circle cx="110" cy="60" r="8"/><circle cx="140" cy="60" r="8"/></g>
+        <path d="M 60 54 Q 70 44 82 46 M 100 52 Q 112 42 124 44" stroke="var(--muted)" stroke-width="1" fill="none"/>
+      </svg>
+      <div class="cap"><b>Boiling</b> — bubbles form throughout the liquid; particles escape everywhere.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ 2.3 ============================ -->
+<section class="topic">
+  <h2>Transfer of Thermal Energy</h2>
+  <div class="topic-code">2.3</div>
+
+  <h3 class="cold">Definitions</h3>
+  <div class="def cold"><span class="term">Conduction</span> <span class="body">energy transferred through a solid by lattice vibrations (atoms/ions vibrate) and, in metals, by free (delocalised) electrons<span class="exam">📌 考过 · <span class="pin">43/M/J/24 Q5</span> <span class="how">金属/非金属/气体的传导</span> · <span class="pin">41/O/N/23 Q2</span> <span class="how">铜锅——传导</span> · <span class="pin">43/M/J/25 Q4</span> <span class="how">铜锅——传导与比热容</span></span>. <span class="dim">Poor in gases — particles are far apart.</span></span></div>
+  <div class="def cold"><span class="term">Convection</span> <span class="body">energy transferred in a liquid or gas by density changes — hotter (less dense) fluid rises, colder (denser) fluid sinks<span class="exam">📌 考过 · <span class="pin">41/M/J/24 Q3</span> <span class="how">冰在温水中——对流</span> · <span class="pin">41/M/J/25 Q4</span> <span class="how">暖气——对流</span> · <span class="pin">41/M/J/22 Q6</span> <span class="how">海陆风——辐射与对流</span></span>.</span></div>
+  <div class="def cold"><span class="term">Radiation</span> <span class="body">infrared (electromagnetic) radiation emitted by all objects; travels through a vacuum — no medium is required<span class="exam">📌 考过 · <span class="pin">42/F/M/26 Q4</span> <span class="how">户外取暖器——热辐射</span> · <span class="pin">42/F/M/25 Q3</span> <span class="how">电暖器——辐射</span> · <span class="pin">42/M/J/25 Q4</span> <span class="how">冷却容器——辐射</span></span>.</span></div>
+  <div class="def cold"><span class="term">Emitters &amp; absorbers</span> <span class="body">dull black surfaces are good emitters and absorbers of infrared; shiny white/silver surfaces are poor emitters and absorbers but good reflectors.</span></div>
+
+  <h3>How heat moves</h3>
+  <table>
+    <tr><th>Mechanism</th><th>Medium</th><th>How it works</th></tr>
+    <tr><td>Conduction</td><td>solids</td><td>lattice vibrations + free electrons</td></tr>
+    <tr><td>Convection</td><td>liquids, gases</td><td>density changes (hot rises, cold sinks)</td></tr>
+    <tr><td>Radiation</td><td>vacuum / any</td><td>infrared waves; no medium needed</td></tr>
+  </table>
+
+  <div class="two-col">
+    <div class="figure">
+      <svg width="200" height="90" viewBox="0 0 200 90">
+        <rect x="4" y="4" width="192" height="82" fill="none" stroke="var(--rule)" rx="6"/>
+        <g fill="var(--cold)"><circle cx="52" cy="30" r="7"/><circle cx="90" cy="30" r="7"/><circle cx="128" cy="30" r="7"/><circle cx="166" cy="30" r="7"/></g>
+        <path d="M 40 20 Q 70 12 100 20 M 100 20 Q 130 12 160 20" stroke="var(--heat)" stroke-width="2" fill="none" marker-end="none"/>
+      </svg>
+      <div class="cap"><b>Conduction</b> — energy passes along by particle vibration.</div>
+    </div>
+    <div class="figure">
+      <svg width="200" height="90" viewBox="0 0 200 90">
+        <rect x="4" y="4" width="192" height="82" fill="none" stroke="var(--rule)" rx="6"/>
+        <path d="M 30 72 Q 60 40 100 30 Q 140 22 170 30" stroke="var(--heat)" stroke-width="2" fill="none"/>
+        <path d="M 170 30 Q 140 52 100 58 Q 60 62 30 72" stroke="var(--cold)" stroke-width="2" fill="none"/>
+        <circle cx="100" cy="72" r="6" fill="var(--gold)"/>
+      </svg>
+      <div class="cap"><b>Convection</b> — a convection current: hot fluid rises, cool fluid sinks.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ summary ============================ -->
+<section class="summary">
+  <h2>Formula summary</h2>
+  <table>
+    <tr><th>Quantity</th><th>Formula</th><th>Notes</th></tr>
+    <tr><td>Kelvin ↔ Celsius</td><td class="f">T = θ + 273</td><td>absolute zero = 0 K = −273 °C</td></tr>
+    <tr><td>Gas pressure (Boyle's law)</td><td class="f">pV = constant</td><td>fixed mass, constant temperature</td></tr>
+    <tr><td>Specific heat capacity</td><td class="f">ΔE = mcΔθ</td><td>energy to heat mass m by Δθ</td></tr>
+  </table>
+  <p style="margin:12px 0 0;font-size:13px;color:var(--muted)">Water: melting point 0 °C, boiling point 100 °C (standard pressure) · specific heat capacity 4200 J/(kg °C).</p>
+</section>
+
+<footer>IGCSE Physics 0625 · Thermal Physics (Topic 2) · definitions, formulas and graphs</footer>
+
+</div>
+</body>
+</html>
